@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "name": "MaxLango",
+  "packs": [
+    {
+      "id": "fr-core-v1",
+      "language": "fr",
+      "name": "French Core",
+      "version": 7,
+      "url": "packs/fr/fr-core-v1.json",
+      "sha256": "48511ea5e34a95f2c0403d1ad9d11f7609f27b918076fc181480894b9ded237e",
+      "size": 27586,
+      "items": 36,
+      "requires": 1,
+      "author": "Max Boksem",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "id": "fr-foundations-v1",
+      "language": "fr",
+      "name": "Français · Fondations (A1)",
+      "version": 4,
+      "url": "packs/fr/fr-foundations-v1.json",
+      "sha256": "b867a0bee0dfb1f203dba48de0dea4ac6d4306e15f6926a5c61aac7b74161b21",
+      "size": 131042,
+      "items": 212,
+      "requires": 1,
+      "author": "Max Boksem",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "id": "fr-everyday-v1",
+      "language": "fr",
+      "name": "Français · Au quotidien (A2)",
+      "version": 4,
+      "url": "packs/fr/fr-everyday-v1.json",
+      "sha256": "d966d6f82538479c5b47e489fd588a20bd90bd2778a8c08721b818f98f6d4d4b",
+      "size": 139015,
+      "items": 205,
+      "requires": 1,
+      "author": "Max Boksem",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "id": "fr-fluency-v1",
+      "language": "fr",
+      "name": "Français · Aisance (B1)",
+      "version": 4,
+      "url": "packs/fr/fr-fluency-v1.json",
+      "sha256": "0740dc971a4024bb9bbd4a9fab0b56b6b2528ab090c1d6e63cd23c04a77219f0",
+      "size": 104674,
+      "items": 170,
+      "requires": 1,
+      "author": "Max Boksem",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "id": "nl-core-v1",
+      "language": "nl",
+      "name": "Nederlands Kern",
+      "version": 7,
+      "url": "packs/nl/nl-core-v1.json",
+      "sha256": "1a5442b5b3d489e65ff12e80cec4ecea8ad5ecd1e92f1eb7cbb08fe8f905b7a0",
+      "size": 26055,
+      "items": 36,
+      "requires": 1,
+      "author": "Max Boksem",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "id": "nl-foundations-v1",
+      "language": "nl",
+      "name": "Nederlands · Basis (A1)",
+      "version": 3,
+      "url": "packs/nl/nl-foundations-v1.json",
+      "sha256": "de5947c4e9a618741ddc16e771d3ee6b690ac7f024f731d00dfa9e728f1391b5",
+      "size": 123588,
+      "items": 231,
+      "requires": 1,
+      "author": "Max Boksem",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "id": "nl-everyday-v1",
+      "language": "nl",
+      "name": "Nederlands · Dagelijks (A2)",
+      "version": 7,
+      "url": "packs/nl/nl-everyday-v1.json",
+      "sha256": "5798e0ae6806c8c3079e06c0f250d8efd16a4bb485107bc98258d36b4a2f6db2",
+      "size": 125534,
+      "items": 208,
+      "requires": 1,
+      "author": "Max Boksem",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "id": "nl-fluency-v1",
+      "language": "nl",
+      "name": "Nederlands · Vloeiend (B1)",
+      "version": 3,
+      "url": "packs/nl/nl-fluency-v1.json",
+      "sha256": "92b9abe7413af4cf8f1864427f4ddd3a8f63b88ea4343316972e87f97ff2413e",
+      "size": 88935,
+      "items": 166,
+      "requires": 1,
+      "author": "Max Boksem",
+      "license": "CC-BY-SA-4.0"
+    }
+  ]
+}

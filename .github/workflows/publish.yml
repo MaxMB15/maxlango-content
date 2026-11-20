@@ -1,0 +1,58 @@
+name: publish
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install jsonschema
+      - name: Unit tests
+        run: python -m unittest discover -s scripts -p 'test_*.py'
+      - name: Packs and catalog are what the generators write
+        run: |
+          python scripts/build.py
+          git diff --exit-code -- packs catalog.json
+      - name: Packs match the schema
+        run: python scripts/validate_schema.py
+      - name: Every changed pack got a higher version
+        run: python scripts/check_versions.py --base "$BASE"
+        env:
+          BASE: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before || 'HEAD~1' }}
+
+  # Pages serves only what passed validation: a pack an app downloads has
+  # already been checked against the schema and the version rule.
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Stage the published files
+        run: |
+          mkdir _site
+          cp -r catalog.json packs languages schema _site/
+          touch _site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: _site }
+      - id: deployment
+        uses: actions/deploy-pages@v4

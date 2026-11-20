@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
+  "title": "MaxLango content pack",
+  "description": "One pack of words and pages for one language. The app re-validates every pack it imports and rejects the whole pack on any error.",
+  "type": "object",
+  "required": ["id", "version", "language", "name", "items"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[^:]+$",
+      "description": "Unique across every pack a learner can install. Keep it stable forever: updates are matched by id. Prefix it with the language code, e.g. nl-cooking-v1."
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Raise it whenever the pack changes. An app updates an installed pack only when this number is higher than the one it has."
+    },
+    "language": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}$",
+      "description": "ISO 639 code of the language taught, e.g. nl or fr."
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "author": { "type": "string" },
+    "license": { "type": "string", "description": "An SPDX identifier, e.g. CC-BY-SA-4.0." },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/item" }
+    },
+    "units": {
+      "type": "array",
+      "description": "The course path: each unit teaches 6-10 of this pack's words and may open with one of its pages.",
+      "items": { "$ref": "#/$defs/unit" }
+    },
+    "profile_delta": {
+      "type": "array",
+      "description": "Grammar concepts this pack adds to the language profile (see languages/<lang>/profile.json).",
+      "items": { "$ref": "#/$defs/concept" }
+    },
+    "skill_tree": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["tag"],
+        "properties": {
+          "tag": { "type": "string" },
+          "depends_on": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "itemId": { "type": "string", "minLength": 1, "pattern": "^[^:]+$" },
+    "word": {
+      "required": ["primary_form", "gloss"],
+      "properties": {
+        "primary_form": { "type": "string", "minLength": 1 },
+        "gloss": { "type": "string", "minLength": 1 }
+      }
+    },
+    "item": {
+      "type": "object",
+      "required": ["kind", "id"],
+      "properties": {
+        "kind": {
+          "enum": ["noun", "verb", "adjective", "phrase", "connective", "conjunction", "other", "page", "misc"],
+          "description": "misc is the old name for page and still accepted."
+        },
+        "id": { "$ref": "#/$defs/itemId" },
+        "primary_form": { "type": "string" },
+        "gloss": { "type": "string" },
+        "extras": {
+          "type": "object",
+          "description": "Per-kind detail: a noun's gender, article and plural; an adjective's forms; a connective's role and example sentence."
+        },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "conjugations": {
+          "type": "object",
+          "description": "Tense id (from the profile) to person (1s, 2s, 3s, 1p, 2p, 3p) to form.",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          }
+        },
+        "title": { "type": "string" },
+        "body_md": { "type": "string", "description": "The page in Markdown, with the app's ::: blocks for examples and games." }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "kind": { "enum": ["page", "misc"] } } },
+          "then": {
+            "required": ["title", "body_md"],
+            "properties": { "title": { "minLength": 1 }, "body_md": { "minLength": 1 } }
+          },
+          "else": { "$ref": "#/$defs/word" }
+        },
+        {
+          "if": { "properties": { "kind": { "const": "verb" } } },
+          "then": { "required": ["conjugations"], "properties": { "conjugations": { "minProperties": 1 } } }
+        }
+      ]
+    },
+    "unit": {
+      "type": "object",
+      "required": ["title", "word_ids"],
+      "properties": {
+        "title": { "type": "string" },
+        "page_id": { "$ref": "#/$defs/itemId" },
+        "word_ids": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 10,
+          "items": { "$ref": "#/$defs/itemId" }
+        }
+      }
+    },
+    "concept": {
+      "type": "object",
+      "required": ["id", "kind", "label"],
+      "properties": {
+        "id": { "type": "string" },
+        "kind": { "type": "string" },
+        "label": { "type": "string" },
+        "labelGloss": { "type": "string" },
+        "order": { "type": "integer" },
+        "dependsOn": { "type": "array", "items": { "type": "string" } },
+        "explainer": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,5112 @@
+{
+  "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
+  "id": "nl-foundations-v1",
+  "version": 3,
+  "language": "nl",
+  "name": "Nederlands · Basis (A1)",
+  "author": "Max Boksem",
+  "license": "CC-BY-SA-4.0",
+  "profile_delta": [
+    {
+      "id": "uitspraak",
+      "kind": "topic",
+      "label": "Uitspraak",
+      "labelGloss": "pronunciation",
+      "dependsOn": []
+    },
+    {
+      "id": "voornaamwoorden",
+      "kind": "topic",
+      "label": "Voornaamwoorden",
+      "labelGloss": "pronouns",
+      "dependsOn": [
+        "tegenwoordige-tijd"
+      ]
+    },
+    {
+      "id": "woordvolgorde",
+      "kind": "topic",
+      "label": "Woordvolgorde",
+      "labelGloss": "word order",
+      "dependsOn": [
+        "tegenwoordige-tijd"
+      ]
+    },
+    {
+      "id": "vraagzinnen",
+      "kind": "topic",
+      "label": "Vraagzinnen",
+      "labelGloss": "asking questions",
+      "dependsOn": [
+        "woordvolgorde"
+      ]
+    },
+    {
+      "id": "verkleinwoorden",
+      "kind": "topic",
+      "label": "Verkleinwoorden",
+      "labelGloss": "diminutives",
+      "dependsOn": [
+        "het"
+      ]
+    },
+    {
+      "id": "getallen",
+      "kind": "topic",
+      "label": "Getallen",
+      "labelGloss": "numbers and time",
+      "dependsOn": []
+    },
+    {
+      "id": "family",
+      "kind": "topic",
+      "label": "Familie",
+      "labelGloss": "family",
+      "dependsOn": [
+        "lidwoorden"
+      ]
+    },
+    {
+      "id": "body",
+      "kind": "topic",
+      "label": "Lichaam",
+      "labelGloss": "body",
+      "dependsOn": [
+        "lidwoorden"
+      ]
+    },
+    {
+      "id": "city",
+      "kind": "topic",
+      "label": "Stad",
+      "labelGloss": "city and places",
+      "dependsOn": [
+        "lidwoorden"
+      ]
+    },
+    {
+      "id": "greetings",
+      "kind": "topic",
+      "label": "Begroetingen",
+      "labelGloss": "greetings and politeness",
+      "dependsOn": []
+    },
+    {
+      "id": "colors",
+      "kind": "topic",
+      "label": "Kleuren",
+      "labelGloss": "colours",
+      "dependsOn": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "misc",
+      "id": "nl-pronunciation",
+      "title": "Reading Dutch aloud",
+      "body_md": "Dutch spelling is close to phonetic: once you know the sound of each letter group, you can read almost any word. A few sounds have no English equivalent.\n\n## The sounds English doesn't have\n\n| Spelling | Sound | Example |\n| --- | --- | --- |\n| g, ch | a rasp at the back of the throat, like Scottish *loch* | *goed*, *acht* |\n| ui | between \"ow\" and \"oy\", lips rounded | *huis*, *uit* |\n| eu | like French *peu*, \"e\" with rounded lips | *leuk*, *neus* |\n| ij, ei | \"ay\" as in *day*, a bit wider | *ijs*, *klein* |\n| u | like French *tu*: \"ee\" with rounded lips | *u*, *nu* |\n| oe | \"oo\" as in *food* | *boek*, *goed* |\n| ou, au | \"ow\" as in *how* | *oud*, *blauw* |\n| sch | s + the g sound | *school* (\"s-gohl\", never \"skool\") |\n\nIn the south of the Netherlands and in Flanders, the **g** is soft. In the north it's harsh. Both are correct.\n\n## Long and short vowels\n\nA double vowel is long: *maan* (moon), *boom* (tree). A single vowel is long when it ends a syllable (*ma-ken*) and short when a consonant closes it (*man*, *bed*). This one rule explains most Dutch spelling. The next pages use it.\n\n## Endings\n\n- **-en** at the end of a word is usually said as a short \"uh\": *maken* sounds like \"maakuh\".\n- **-d** at the end of a word is said as **t**: *hond* sounds like \"hont\".\n- **v** and **z** soften towards f and s at the start of a word in many accents.\n\n## W\n\nThe Dutch **w** is softer than English w, somewhere between v and w, made with the lower lip against the top teeth.",
+      "extras": {
+        "unlocks": [
+          "concept:nl-pronunciation"
+        ],
+        "explains": [
+          "uitspraak"
+        ]
+      },
+      "tags": [
+        "uitspraak"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-pronouns",
+      "title": "Ik, jij, u and the short forms",
+      "body_md": "Most Dutch pronouns have a **stressed** and an **unstressed** form. In writing and speech the unstressed one is normal; the stressed one adds emphasis or contrast.\n\n| Person | Stressed | Unstressed | English |\n| --- | --- | --- | --- |\n| 1st singular | ik | ('k) | I |\n| 2nd singular | jij | je | you (familiar) |\n| 2nd polite | u | u | you (polite, one or more) |\n| 3rd singular | hij / zij / het | (ie) / ze / 't | he / she / it |\n| 1st plural | wij | we | we |\n| 2nd plural | jullie | (je) | you (plural, familiar) |\n| 3rd plural | zij | ze | they |\n\n*Heb je tijd?* is the everyday way to ask. *Heb **jij** tijd?* means \"do **you** have time?\", as opposed to someone else.\n\n## Jij or u?\n\nThe Netherlands is informal. **Jij** is normal with almost everyone your own age or younger, and in many workplaces. Use **u** with older people you don't know, officials, and customers in formal settings. Flanders uses **u** more, and often *gij* in speech.\n\n*U* takes the jij form of the verb: *u bent*, *u hebt* (or *u heeft*).\n\n## Men\n\n*Men* is the formal \"one\": *Men zegt dat...* (People say that...). In speech, Dutch says *je* or *ze*: *Je weet nooit* (You never know), *Ze zeggen dat...* (They say that...).",
+      "extras": {
+        "unlocks": [
+          "concept:nl-pronouns"
+        ],
+        "explains": [
+          "voornaamwoorden"
+        ]
+      },
+      "tags": [
+        "voornaamwoorden"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-zijn-hebben",
+      "title": "Zijn and hebben",
+      "body_md": "**Zijn** (to be) and **hebben** (to have) are irregular, very common, and the helper verbs of the perfect tense.\n\n| | zijn | hebben |\n| --- | --- | --- |\n| ik | ben | heb |\n| jij / je | bent | hebt |\n| u | bent | hebt / heeft |\n| hij / zij / het | is | heeft |\n| wij / we | zijn | hebben |\n| jullie | zijn | hebben |\n| zij / ze | zijn | hebben |\n\n## Where Dutch differs from English\n\n| Dutch | Literally | English |\n| --- | --- | --- |\n| ik heb honger | I have hunger | I'm hungry |\n| ik heb dorst | I have thirst | I'm thirsty |\n| ik heb het koud / warm | I have it cold / warm | I'm cold / hot |\n| ik heb gelijk | I have right | I'm right |\n| ik heb zin in... | I have mind in | I feel like... |\n| ik heb haast | I have haste | I'm in a hurry |\n| ik ben twintig (jaar) | I am twenty (years) | I'm twenty |\n\nLike English, and unlike French, Dutch uses *zijn* for age.\n\n*Ik ben koud* means your body is cold to the touch, like a corpse. You want *ik heb het koud*.\n\n:::cloze{sentence=\"Ik ___ het koud, doe het raam dicht.\" blank=\"heb\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:nl-zijn-hebben"
+        ]
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-present-spelling",
+      "title": "The present tense and its spelling",
+      "body_md": "The Dutch present tense has only three forms. The hard part is spelling the stem.\n\n## The rule\n\n1. Find the **stem**: the infinitive minus **-en**, spelled as it sounds.\n2. **ik** gets the stem. **jij, u, hij, zij, het** get stem + **t**. All plurals get the infinitive.\n\n| | werken | maken | zitten |\n| --- | --- | --- | --- |\n| ik | werk | maak | zit |\n| jij | werkt | maakt | zit |\n| hij | werkt | maakt | zit |\n| wij, jullie, zij | werken | maken | zitten |\n\n## Spelling the stem\n\nThe long-and-short vowel rule from the pronunciation page does all the work:\n\n- *ma-ken* has a long **a** at the end of a syllable. Once *-en* is gone, the a is in a closed syllable and needs doubling to stay long: **maak**.\n- *zit-ten* has a double consonant only to keep the i short. In *zit* the syllable is already closed: drop one t.\n- A stem never ends in **v** or **z**: *leven → leef*, *reizen → reis*.\n- If the stem already ends in **t**, don't add another: *zitten → hij zit*, *weten → hij weet*.\n\n## Inversion drops the t\n\nWhen *jij* or *je* comes **after** the verb, the -t disappears: *Jij werkt* but *Werk jij?*, *Wanneer kom je?* This only happens with jij/je, never with hij or u.\n\n:::examples\n- Ik werk elke dag. — I work every day.\n- Hij maakt het ontbijt. — He's making breakfast.\n- Werk je morgen? — Are you working tomorrow?\n- We wonen in Utrecht. — We live in Utrecht.\n:::\n\n## One tense, three English ones\n\n*Ik werk* is \"I work\", \"I am working\" and \"I do work\". To stress that something is happening right now, say *ik ben aan het werken*.\n\n:::predict{prompt=\"jij (lopen)\" answer=\"loopt\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:nl-present-spelling"
+        ],
+        "explains": [
+          "tegenwoordige-tijd"
+        ]
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-word-order",
+      "title": "Verb second",
+      "body_md": "The single most important rule of Dutch word order: in a main clause, **the finite verb is the second element**. Not the second word, the second *element*. Whatever comes first, the verb follows it.\n\n| First | Verb | Rest |\n| --- | --- | --- |\n| Ik | ga | morgen naar Utrecht. |\n| Morgen | ga | ik naar Utrecht. |\n| Naar Utrecht | ga | ik morgen. |\n\nIf anything other than the subject starts the sentence, the subject moves after the verb. English speakers write *Morgen ik ga*, and it's wrong every time.\n\n## The rest of the verb goes to the end\n\nWhen there's a second verb (an infinitive, a participle, a separable prefix), it goes to the **end** of the clause:\n\n:::examples\n- Ik wil morgen naar Utrecht gaan. — I want to go to Utrecht tomorrow.\n- Ik heb gisteren een boek gelezen. — I read a book yesterday.\n- Ik bel je morgen op. — I'll call you tomorrow.\n:::\n\nThe finite verb and the rest form a bracket around everything else. Dutch grammar calls it the *tangconstructie*, the pincer.\n\n## Time, manner, place\n\nIn the middle, the usual order is **time, manner, place**: *Ik ga **morgen** **met de trein** **naar Utrecht***. English tends to put place first.\n\n## Questions\n\nYes/no questions start with the verb: *Ga je morgen naar Utrecht?* Question words take the first slot: *Wanneer ga je naar Utrecht?*",
+      "extras": {
+        "unlocks": [
+          "concept:nl-word-order"
+        ],
+        "explains": [
+          "woordvolgorde"
+        ]
+      },
+      "tags": [
+        "woordvolgorde"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-negation",
+      "title": "Geen or niet?",
+      "body_md": "Dutch has two words for \"not\", and choosing between them follows a clear rule.\n\n## Geen\n\nUse **geen** to negate a noun that would otherwise have **een** or no article. It means \"no\", \"not a\" or \"not any\".\n\n:::examples\n- Ik heb een auto. → Ik heb geen auto. — I don't have a car.\n- Ik drink koffie. → Ik drink geen koffie. — I don't drink coffee.\n- Hij heeft kinderen. → Hij heeft geen kinderen. — He doesn't have any children.\n:::\n\n## Niet\n\nUse **niet** for everything else: verbs, adjectives, adverbs, and nouns with *de*, *het* or a possessive.\n\n:::examples\n- Ik werk niet. — I don't work.\n- Het huis is niet groot. — The house isn't big.\n- Ik zie de hond niet. — I don't see the dog.\n:::\n\n## Where niet goes\n\n*Niet* goes **after** the object and time words, but **before** adjectives, prepositions and the verb parts at the end:\n\n- *Ik zie hem vandaag **niet**.*\n- *Het is **niet** mooi.*\n- *Ik ga **niet** naar school.*\n- *Ik heb het **niet** gedaan.*\n\n## Other negatives\n\n*nooit* (never), *niets* / *niks* (nothing), *niemand* (nobody), *nergens* (nowhere), *niet meer* (no longer), *nog niet* (not yet).",
+      "extras": {
+        "unlocks": [
+          "concept:nl-negation"
+        ],
+        "explains": [
+          "ontkenning"
+        ]
+      },
+      "tags": [
+        "ontkenning"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-questions",
+      "title": "Asking questions",
+      "body_md": "A yes/no question puts the verb first. A question word takes the first slot, and the verb stays second.\n\n:::examples\n- Spreek je Engels? — Do you speak English?\n- Waar woon je? — Where do you live?\n- Hoe heet je? — What's your name?\n:::\n\nRemember that *jij* and *je* drop the verb's -t when they come after it: *Woon je hier?*, never *Woont je hier?*\n\n## Question words\n\n| Word | Meaning |\n| --- | --- |\n| wie | who |\n| wat | what |\n| waar | where |\n| waarheen, waar ... naartoe | where to |\n| wanneer | when |\n| hoe | how |\n| hoe laat | what time |\n| waarom | why |\n| hoeveel | how much, how many |\n| welk / welke | which (welk for het-words, welke otherwise) |\n\n## Tag questions\n\nDutch adds **hè** or **toch** at the end where English says \"isn't it?\" or \"right?\": *Mooi weer, hè?* *Je komt toch?*",
+      "extras": {
+        "unlocks": [
+          "concept:nl-questions"
+        ],
+        "explains": [
+          "vraagzinnen"
+        ]
+      },
+      "tags": [
+        "vraagzinnen"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-plurals",
+      "title": "Plurals: -en or -s",
+      "body_md": "Every plural noun takes **de**, whatever its singular article. *Het huis*, *de huizen*.\n\n## Which ending?\n\n- Most nouns take **-en**: *boek → boeken*, *stoel → stoelen*.\n- Nouns ending in unstressed **-el, -em, -en, -er, -je** take **-s**: *tafel → tafels*, *vader → vaders*, *meisje → meisjes*.\n- Nouns ending in a vowel usually take **'s** or **s**: *auto → auto's*, *foto → foto's*, *zee → zeeën*.\n\nThis is a strong tendency, not a law. Learn the plural with the word; every noun in these packs carries it.\n\n## Spelling changes\n\nThe long-and-short vowel rule applies again:\n\n- A long vowel spelled double in a closed syllable becomes single when the syllable opens: *boom → bomen*, *maan → manen*.\n- A short vowel needs its consonant doubled: *bed → bedden*, *kat → katten*.\n- **f** and **s** often become **v** and **z**: *brief → brieven*, *huis → huizen*.\n\n## Irregular plurals\n\n| Singular | Plural |\n| --- | --- |\n| kind | kinderen |\n| ei | eieren |\n| stad | steden |\n| schip | schepen |\n| dag | dagen (short a becomes long) |\n\n:::examples\n- Ik heb twee katten en drie honden. — I have two cats and three dogs.\n- De kinderen spelen buiten. — The children are playing outside.\n- Waar zijn mijn foto's? — Where are my photos?\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:nl-plurals"
+        ],
+        "explains": [
+          "meervoud"
+        ]
+      },
+      "tags": [
+        "meervoud"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-diminutives",
+      "title": "Verkleinwoorden: -je, -tje, -pje",
+      "body_md": "Dutch uses diminutives constantly, and not only for small things. A *biertje* is just a beer, and ordering one sounds friendlier than ordering *een bier*. Diminutives mark affection, informality, or that something is small.\n\n**Every diminutive is a het-word**, whatever the original article: *de tafel → het tafeltje*. This is one of the few reliable de/het rules.\n\n## Which ending?\n\n| Ending | When | Example |\n| --- | --- | --- |\n| -je | most words | huis → huisje, boek → boekje |\n| -tje | after a vowel, or -l, -n, -r, -w after a long vowel | stoel → stoeltje, auto → autootje |\n| -pje | after -m after a long vowel | boom → boompje |\n| -etje | after -l, -m, -n, -ng, -r after a short vowel | bal → balletje, ring → ringetje |\n| -kje | after unstressed -ing | koning → koninkje |\n\nSome words exist mostly as diminutives: *meisje* (girl), *koekje* (biscuit), *broodje* (bread roll), *kopje* (cup), *ijsje* (ice cream). The plural takes **-s**: *meisjes*, *broodjes*.\n\n:::examples\n- Zullen we een biertje drinken? — Shall we have a beer?\n- Wil je een kopje koffie? — Would you like a cup of coffee?\n- Ik neem een broodje kaas. — I'll have a cheese roll.\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:nl-diminutives"
+        ],
+        "explains": [
+          "verkleinwoorden"
+        ]
+      },
+      "tags": [
+        "verkleinwoorden",
+        "het"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-numbers-time",
+      "title": "Numbers and telling the time",
+      "body_md": "## Numbers read backwards\n\nFrom 21, Dutch says the units first, like the English nursery rhyme *four-and-twenty blackbirds*.\n\n| | |\n| --- | --- |\n| 1 een | 11 elf |\n| 2 twee | 12 twaalf |\n| 3 drie | 13 dertien |\n| 4 vier | 14 veertien |\n| 5 vijf | 15 vijftien |\n| 6 zes | 16 zestien |\n| 7 zeven | 17 zeventien |\n| 8 acht | 18 achttien |\n| 9 negen | 19 negentien |\n| 10 tien | 20 twintig |\n\nTens: 30 dertig, 40 veertig, 50 vijftig, 60 zestig, 70 zeventig, 80 tachtig, 90 negentig, 100 honderd, 1000 duizend.\n\n*21 eenentwintig* (one-and-twenty), *37 zevenendertig*, *99 negenennegentig*. When the unit ends in e, the *en* takes a trema: *tweeëntwintig*, *drieëntwintig*.\n\nNumbers are written as one word up to a thousand: *zevenhonderdvijfenveertig*.\n\n## Telling the time\n\nThe trap is **half**. *Half drie* is **half past two**: half *towards* three, not half past it.\n\n| Time | Dutch | Literally |\n| --- | --- | --- |\n| 2:00 | twee uur | two hour |\n| 2:15 | kwart over twee | quarter over two |\n| 2:25 | vijf voor half drie | five before half three |\n| 2:30 | half drie | half three |\n| 2:35 | vijf over half drie | five past half three |\n| 2:45 | kwart voor drie | quarter to three |\n\nFrom 20 past to 20 to the hour, Dutch counts from the half hour. It takes practice, and every English speaker has turned up an hour late at least once.\n\n*Hoe laat is het?* What time is it?",
+      "extras": {
+        "unlocks": [
+          "concept:nl-numbers-time"
+        ],
+        "explains": [
+          "getallen"
+        ]
+      },
+      "tags": [
+        "getallen"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-possessives",
+      "title": "Mijn, jouw, ons and onze",
+      "body_md": "| Owner | Stressed | Unstressed | English |\n| --- | --- | --- | --- |\n| ik | mijn | (m'n) | my |\n| jij | jouw | je | your |\n| u | uw | uw | your (polite) |\n| hij | zijn | (z'n) | his |\n| zij | haar | (d'r) | her |\n| wij | ons / onze | | our |\n| jullie | jullie | je | your (plural) |\n| zij | hun | | their |\n\nOnly **ons / onze** changes with the noun: **ons** before a singular het-word, **onze** everywhere else.\n\n:::examples\n- ons huis — our house (het huis)\n- onze auto — our car (de auto)\n- onze huizen — our houses (plural)\n:::\n\n## Hun or hen?\n\n*Hun* is \"their\" before a noun: *hun kinderen*. As an object pronoun, grammar books separate *hun* (to them) and *hen* (them), but many native speakers mix them up. Using *ze* avoids the question entirely.\n\n## Van\n\nYou can also show possession with **van**, like English *of*: *de auto van mijn vader* (my father's car). Dutch has an *'s* too, but mostly with names: *Annes fiets*, *Pieters huis*.",
+      "extras": {
+        "unlocks": [
+          "concept:nl-possessives"
+        ]
+      },
+      "tags": [
+        "voornaamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vader",
+      "primary_form": "vader",
+      "gloss": "father",
+      "extras": {
+        "article": "de",
+        "plural": "vaders"
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "zijn",
+      "primary_form": "zijn",
+      "gloss": "to be",
+      "extras": {
+        "auxiliary": "zijn",
+        "participle": "geweest",
+        "past": "was / waren",
+        "example": "Ik ben moe vandaag.",
+        "example_en": "I'm tired today."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "ben",
+          "2s": "bent",
+          "3s": "is",
+          "1p": "zijn",
+          "2p": "zijn",
+          "3p": "zijn"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "ben geweest",
+          "2s": "bent geweest",
+          "3s": "is geweest",
+          "1p": "zijn geweest",
+          "2p": "zijn geweest",
+          "3p": "zijn geweest"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "was",
+          "2s": "was",
+          "3s": "was",
+          "1p": "waren",
+          "2p": "waren",
+          "3p": "waren"
+        },
+        "toekomende-tijd": {
+          "1s": "zal zijn",
+          "2s": "zult zijn",
+          "3s": "zal zijn",
+          "1p": "zullen zijn",
+          "2p": "zullen zijn",
+          "3p": "zullen zijn"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "hallo",
+      "primary_form": "hallo",
+      "gloss": "hello",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "moeder",
+      "primary_form": "moeder",
+      "gloss": "mother",
+      "extras": {
+        "article": "de",
+        "plural": "moeders"
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "groot",
+      "primary_form": "groot",
+      "gloss": "big, tall",
+      "extras": {
+        "forms": {
+          "base": "groot",
+          "inflected": "grote"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "broer",
+      "primary_form": "broer",
+      "gloss": "brother",
+      "extras": {
+        "article": "de",
+        "plural": "broers"
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "zus",
+      "primary_form": "zus",
+      "gloss": "sister",
+      "extras": {
+        "article": "de",
+        "plural": "zussen"
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "hebben",
+      "primary_form": "hebben",
+      "gloss": "to have",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gehad",
+        "past": "had / hadden",
+        "example": "Heb je tijd?",
+        "example_en": "Do you have time?"
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "heb",
+          "2s": "hebt",
+          "3s": "heeft",
+          "1p": "hebben",
+          "2p": "hebben",
+          "3p": "hebben"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gehad",
+          "2s": "hebt gehad",
+          "3s": "heeft gehad",
+          "1p": "hebben gehad",
+          "2p": "hebben gehad",
+          "3p": "hebben gehad"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "had",
+          "2s": "had",
+          "3s": "had",
+          "1p": "hadden",
+          "2p": "hadden",
+          "3p": "hadden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal hebben",
+          "2s": "zult hebben",
+          "3s": "zal hebben",
+          "1p": "zullen hebben",
+          "2p": "zullen hebben",
+          "3p": "zullen hebben"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "hoi",
+      "primary_form": "hoi",
+      "gloss": "hi (informal)",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "zoon",
+      "primary_form": "zoon",
+      "gloss": "son",
+      "extras": {
+        "article": "de",
+        "plural": "zonen"
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "dochter",
+      "primary_form": "dochter",
+      "gloss": "daughter",
+      "extras": {
+        "article": "de",
+        "plural": "dochters"
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "klein",
+      "primary_form": "klein",
+      "gloss": "small, little",
+      "extras": {
+        "forms": {
+          "base": "klein",
+          "inflected": "kleine"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "doen",
+      "primary_form": "doen",
+      "gloss": "to do",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gedaan",
+        "past": "deed / deden",
+        "example": "Wat doe je?",
+        "example_en": "What are you doing?"
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "doe",
+          "2s": "doet",
+          "3s": "doet",
+          "1p": "doen",
+          "2p": "doen",
+          "3p": "doen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gedaan",
+          "2s": "hebt gedaan",
+          "3s": "heeft gedaan",
+          "1p": "hebben gedaan",
+          "2p": "hebben gedaan",
+          "3p": "hebben gedaan"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "deed",
+          "2s": "deed",
+          "3s": "deed",
+          "1p": "deden",
+          "2p": "deden",
+          "3p": "deden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal doen",
+          "2s": "zult doen",
+          "3s": "zal doen",
+          "1p": "zullen doen",
+          "2p": "zullen doen",
+          "3p": "zullen doen"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "goedemorgen",
+      "primary_form": "goedemorgen",
+      "gloss": "good morning",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "man",
+      "primary_form": "man",
+      "gloss": "man; husband",
+      "extras": {
+        "article": "de",
+        "plural": "mannen"
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "eerst",
+      "primary_form": "eerst",
+      "gloss": "first",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "Eerst eten we, dan gaan we weg.",
+        "example_en": "First we eat, then we leave."
+      },
+      "tags": [
+        "verbindingswoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vrouw",
+      "primary_form": "vrouw",
+      "gloss": "woman; wife",
+      "extras": {
+        "article": "de",
+        "plural": "vrouwen"
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ouder",
+      "primary_form": "ouder",
+      "gloss": "parent",
+      "extras": {
+        "article": "de",
+        "plural": "ouders"
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "komen",
+      "primary_form": "komen",
+      "gloss": "to come",
+      "extras": {
+        "auxiliary": "zijn",
+        "participle": "gekomen",
+        "past": "kwam / kwamen",
+        "example": "Kom je ook?",
+        "example_en": "Are you coming too?"
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "kom",
+          "2s": "komt",
+          "3s": "komt",
+          "1p": "komen",
+          "2p": "komen",
+          "3p": "komen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "ben gekomen",
+          "2s": "bent gekomen",
+          "3s": "is gekomen",
+          "1p": "zijn gekomen",
+          "2p": "zijn gekomen",
+          "3p": "zijn gekomen"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "kwam",
+          "2s": "kwam",
+          "3s": "kwam",
+          "1p": "kwamen",
+          "2p": "kwamen",
+          "3p": "kwamen"
+        },
+        "toekomende-tijd": {
+          "1s": "zal komen",
+          "2s": "zult komen",
+          "3s": "zal komen",
+          "1p": "zullen komen",
+          "2p": "zullen komen",
+          "3p": "zullen komen"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "goedemiddag",
+      "primary_form": "goedemiddag",
+      "gloss": "good afternoon",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "opa",
+      "primary_form": "opa",
+      "gloss": "grandpa",
+      "extras": {
+        "article": "de",
+        "plural": "opa's"
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "goed",
+      "primary_form": "goed",
+      "gloss": "good",
+      "extras": {
+        "forms": {
+          "base": "goed",
+          "inflected": "goede"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "oma",
+      "primary_form": "oma",
+      "gloss": "grandma",
+      "extras": {
+        "article": "de",
+        "plural": "oma's"
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "willen",
+      "primary_form": "willen",
+      "gloss": "to want",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gewild",
+        "past": "wilde / wilden",
+        "example": "Ik wil naar huis.",
+        "example_en": "I want to go home."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "wil",
+          "2s": "wilt",
+          "3s": "wil",
+          "1p": "willen",
+          "2p": "willen",
+          "3p": "willen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gewild",
+          "2s": "hebt gewild",
+          "3s": "heeft gewild",
+          "1p": "hebben gewild",
+          "2p": "hebben gewild",
+          "3p": "hebben gewild"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "wilde",
+          "2s": "wilde",
+          "3s": "wilde",
+          "1p": "wilden",
+          "2p": "wilden",
+          "3p": "wilden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal willen",
+          "2s": "zult willen",
+          "3s": "zal willen",
+          "1p": "zullen willen",
+          "2p": "zullen willen",
+          "3p": "zullen willen"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "goedenavond",
+      "primary_form": "goedenavond",
+      "gloss": "good evening",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "oom",
+      "primary_form": "oom",
+      "gloss": "uncle",
+      "extras": {
+        "article": "de",
+        "plural": "ooms"
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "tante",
+      "primary_form": "tante",
+      "gloss": "aunt",
+      "extras": {
+        "article": "de",
+        "plural": "tantes"
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "neef",
+      "primary_form": "neef",
+      "gloss": "nephew; male cousin",
+      "extras": {
+        "article": "de",
+        "plural": "neven"
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "kunnen",
+      "primary_form": "kunnen",
+      "gloss": "to be able to, can",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gekund",
+        "past": "kon / konden",
+        "example": "Kun je me helpen?",
+        "example_en": "Can you help me?"
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "kan",
+          "2s": "kunt",
+          "3s": "kan",
+          "1p": "kunnen",
+          "2p": "kunnen",
+          "3p": "kunnen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gekund",
+          "2s": "hebt gekund",
+          "3s": "heeft gekund",
+          "1p": "hebben gekund",
+          "2p": "hebben gekund",
+          "3p": "hebben gekund"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "kon",
+          "2s": "kon",
+          "3s": "kon",
+          "1p": "konden",
+          "2p": "konden",
+          "3p": "konden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal kunnen",
+          "2s": "zult kunnen",
+          "3s": "zal kunnen",
+          "1p": "zullen kunnen",
+          "2p": "zullen kunnen",
+          "3p": "zullen kunnen"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "welterusten",
+      "primary_form": "welterusten",
+      "gloss": "good night (going to sleep)",
+      "extras": {
+        "literal": "rest well"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "slecht",
+      "primary_form": "slecht",
+      "gloss": "bad",
+      "extras": {
+        "forms": {
+          "base": "slecht",
+          "inflected": "slechte"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "nicht",
+      "primary_form": "nicht",
+      "gloss": "niece; female cousin",
+      "extras": {
+        "article": "de",
+        "plural": "nichten"
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "jongen",
+      "primary_form": "jongen",
+      "gloss": "boy",
+      "extras": {
+        "article": "de",
+        "plural": "jongens"
+      },
+      "tags": [
+        "people",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "moeten",
+      "primary_form": "moeten",
+      "gloss": "to have to, must",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gemoeten",
+        "past": "moest / moesten",
+        "example": "Ik moet werken.",
+        "example_en": "I have to work."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "moet",
+          "2s": "moet",
+          "3s": "moet",
+          "1p": "moeten",
+          "2p": "moeten",
+          "3p": "moeten"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gemoeten",
+          "2s": "hebt gemoeten",
+          "3s": "heeft gemoeten",
+          "1p": "hebben gemoeten",
+          "2p": "hebben gemoeten",
+          "3p": "hebben gemoeten"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "moest",
+          "2s": "moest",
+          "3s": "moest",
+          "1p": "moesten",
+          "2p": "moesten",
+          "3p": "moesten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal moeten",
+          "2s": "zult moeten",
+          "3s": "zal moeten",
+          "1p": "zullen moeten",
+          "2p": "zullen moeten",
+          "3p": "zullen moeten"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "dag",
+      "primary_form": "dag",
+      "gloss": "hello; goodbye",
+      "extras": {
+        "literal": "day"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "meisje",
+      "primary_form": "meisje",
+      "gloss": "girl",
+      "extras": {
+        "article": "het",
+        "plural": "meisjes"
+      },
+      "tags": [
+        "people",
+        "het"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "baby",
+      "primary_form": "baby",
+      "gloss": "baby",
+      "extras": {
+        "article": "de",
+        "plural": "baby's"
+      },
+      "tags": [
+        "people",
+        "de"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "mooi",
+      "primary_form": "mooi",
+      "gloss": "beautiful, nice",
+      "extras": {
+        "forms": {
+          "base": "mooi",
+          "inflected": "mooie"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "buurman",
+      "primary_form": "buurman",
+      "gloss": "neighbour",
+      "extras": {
+        "article": "de",
+        "plural": "buren"
+      },
+      "tags": [
+        "people",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "mogen",
+      "primary_form": "mogen",
+      "gloss": "to be allowed to, may",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gemogen",
+        "past": "mocht / mochten",
+        "example": "Mag ik binnenkomen?",
+        "example_en": "May I come in?"
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "mag",
+          "2s": "mag",
+          "3s": "mag",
+          "1p": "mogen",
+          "2p": "mogen",
+          "3p": "mogen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gemogen",
+          "2s": "hebt gemogen",
+          "3s": "heeft gemogen",
+          "1p": "hebben gemogen",
+          "2p": "hebben gemogen",
+          "3p": "hebben gemogen"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "mocht",
+          "2s": "mocht",
+          "3s": "mocht",
+          "1p": "mochten",
+          "2p": "mochten",
+          "3p": "mochten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal mogen",
+          "2s": "zult mogen",
+          "3s": "zal mogen",
+          "1p": "zullen mogen",
+          "2p": "zullen mogen",
+          "3p": "zullen mogen"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "doei",
+      "primary_form": "doei",
+      "gloss": "bye (informal)",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "naam",
+      "primary_form": "naam",
+      "gloss": "name",
+      "extras": {
+        "article": "de",
+        "plural": "namen"
+      },
+      "tags": [
+        "people",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mens",
+      "primary_form": "mens",
+      "gloss": "person, human being",
+      "extras": {
+        "article": "de",
+        "plural": "mensen"
+      },
+      "tags": [
+        "people",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "weten",
+      "primary_form": "weten",
+      "gloss": "to know (a fact)",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "geweten",
+        "past": "wist / wisten",
+        "example": "Ik weet het niet.",
+        "example_en": "I don't know."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "weet",
+          "2s": "weet",
+          "3s": "weet",
+          "1p": "weten",
+          "2p": "weten",
+          "3p": "weten"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb geweten",
+          "2s": "hebt geweten",
+          "3s": "heeft geweten",
+          "1p": "hebben geweten",
+          "2p": "hebben geweten",
+          "3p": "hebben geweten"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "wist",
+          "2s": "wist",
+          "3s": "wist",
+          "1p": "wisten",
+          "2p": "wisten",
+          "3p": "wisten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal weten",
+          "2s": "zult weten",
+          "3s": "zal weten",
+          "1p": "zullen weten",
+          "2p": "zullen weten",
+          "3p": "zullen weten"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "hoofd",
+      "primary_form": "hoofd",
+      "gloss": "head",
+      "extras": {
+        "article": "het",
+        "plural": "hoofden"
+      },
+      "tags": [
+        "body",
+        "het"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tot-ziens",
+      "primary_form": "tot ziens",
+      "gloss": "goodbye",
+      "extras": {
+        "literal": "until seeing"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "lelijk",
+      "primary_form": "lelijk",
+      "gloss": "ugly",
+      "extras": {
+        "forms": {
+          "base": "lelijk",
+          "inflected": "lelijke"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "dan",
+      "primary_form": "dan",
+      "gloss": "then",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "Eerst eten we, dan gaan we weg.",
+        "example_en": "First we eat, then we leave."
+      },
+      "tags": [
+        "verbindingswoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "oog",
+      "primary_form": "oog",
+      "gloss": "eye",
+      "extras": {
+        "article": "het",
+        "plural": "ogen"
+      },
+      "tags": [
+        "body",
+        "het"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mond",
+      "primary_form": "mond",
+      "gloss": "mouth",
+      "extras": {
+        "article": "de",
+        "plural": "monden"
+      },
+      "tags": [
+        "body",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "kennen",
+      "primary_form": "kennen",
+      "gloss": "to know (a person, a place)",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gekend",
+        "past": "kende / kenden",
+        "example": "Ken je mijn zus?",
+        "example_en": "Do you know my sister?"
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "ken",
+          "2s": "kent",
+          "3s": "kent",
+          "1p": "kennen",
+          "2p": "kennen",
+          "3p": "kennen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gekend",
+          "2s": "hebt gekend",
+          "3s": "heeft gekend",
+          "1p": "hebben gekend",
+          "2p": "hebben gekend",
+          "3p": "hebben gekend"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "kende",
+          "2s": "kende",
+          "3s": "kende",
+          "1p": "kenden",
+          "2p": "kenden",
+          "3p": "kenden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal kennen",
+          "2s": "zult kennen",
+          "3s": "zal kennen",
+          "1p": "zullen kennen",
+          "2p": "zullen kennen",
+          "3p": "zullen kennen"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "tot-straks",
+      "primary_form": "tot straks",
+      "gloss": "see you later (today)",
+      "extras": {
+        "literal": "until soon"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "neus",
+      "primary_form": "neus",
+      "gloss": "nose",
+      "extras": {
+        "article": "de",
+        "plural": "neuzen"
+      },
+      "tags": [
+        "body",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "oor",
+      "primary_form": "oor",
+      "gloss": "ear",
+      "extras": {
+        "article": "het",
+        "plural": "oren"
+      },
+      "tags": [
+        "body",
+        "het"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "zien",
+      "primary_form": "zien",
+      "gloss": "to see",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gezien",
+        "past": "zag / zagen",
+        "example": "Zie je dat?",
+        "example_en": "Do you see that?"
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "zie",
+          "2s": "ziet",
+          "3s": "ziet",
+          "1p": "zien",
+          "2p": "zien",
+          "3p": "zien"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gezien",
+          "2s": "hebt gezien",
+          "3s": "heeft gezien",
+          "1p": "hebben gezien",
+          "2p": "hebben gezien",
+          "3p": "hebben gezien"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "zag",
+          "2s": "zag",
+          "3s": "zag",
+          "1p": "zagen",
+          "2p": "zagen",
+          "3p": "zagen"
+        },
+        "toekomende-tijd": {
+          "1s": "zal zien",
+          "2s": "zult zien",
+          "3s": "zal zien",
+          "1p": "zullen zien",
+          "2p": "zullen zien",
+          "3p": "zullen zien"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "jong",
+      "primary_form": "jong",
+      "gloss": "young",
+      "extras": {
+        "forms": {
+          "base": "jong",
+          "inflected": "jonge"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "hand",
+      "primary_form": "hand",
+      "gloss": "hand",
+      "extras": {
+        "article": "de",
+        "plural": "handen"
+      },
+      "tags": [
+        "body",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tot-morgen",
+      "primary_form": "tot morgen",
+      "gloss": "see you tomorrow",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "arm",
+      "primary_form": "arm",
+      "gloss": "arm",
+      "extras": {
+        "article": "de",
+        "plural": "armen"
+      },
+      "tags": [
+        "body",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "zeggen",
+      "primary_form": "zeggen",
+      "gloss": "to say",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gezegd",
+        "past": "zei / zeiden",
+        "example": "Wat zeg je?",
+        "example_en": "What are you saying?"
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "zeg",
+          "2s": "zegt",
+          "3s": "zegt",
+          "1p": "zeggen",
+          "2p": "zeggen",
+          "3p": "zeggen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gezegd",
+          "2s": "hebt gezegd",
+          "3s": "heeft gezegd",
+          "1p": "hebben gezegd",
+          "2p": "hebben gezegd",
+          "3p": "hebben gezegd"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "zei",
+          "2s": "zei",
+          "3s": "zei",
+          "1p": "zeiden",
+          "2p": "zeiden",
+          "3p": "zeiden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal zeggen",
+          "2s": "zult zeggen",
+          "3s": "zal zeggen",
+          "1p": "zullen zeggen",
+          "2p": "zullen zeggen",
+          "3p": "zullen zeggen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "been",
+      "primary_form": "been",
+      "gloss": "leg",
+      "extras": {
+        "article": "het",
+        "plural": "benen"
+      },
+      "tags": [
+        "body",
+        "het"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "dank-je-wel",
+      "primary_form": "dank je wel",
+      "gloss": "thank you (informal)",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "voet",
+      "primary_form": "voet",
+      "gloss": "foot",
+      "extras": {
+        "article": "de",
+        "plural": "voeten"
+      },
+      "tags": [
+        "body",
+        "de"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "oud",
+      "primary_form": "oud",
+      "gloss": "old",
+      "extras": {
+        "forms": {
+          "base": "oud",
+          "inflected": "oude"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "rug",
+      "primary_form": "rug",
+      "gloss": "back",
+      "extras": {
+        "article": "de",
+        "plural": "ruggen"
+      },
+      "tags": [
+        "body",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "maken",
+      "primary_form": "maken",
+      "gloss": "to make",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gemaakt",
+        "past": "maakte / maakten",
+        "example": "Ik maak een taart.",
+        "example_en": "I'm making a cake."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "maak",
+          "2s": "maakt",
+          "3s": "maakt",
+          "1p": "maken",
+          "2p": "maken",
+          "3p": "maken"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gemaakt",
+          "2s": "hebt gemaakt",
+          "3s": "heeft gemaakt",
+          "1p": "hebben gemaakt",
+          "2p": "hebben gemaakt",
+          "3p": "hebben gemaakt"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "maakte",
+          "2s": "maakte",
+          "3s": "maakte",
+          "1p": "maakten",
+          "2p": "maakten",
+          "3p": "maakten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal maken",
+          "2s": "zult maken",
+          "3s": "zal maken",
+          "1p": "zullen maken",
+          "2p": "zullen maken",
+          "3p": "zullen maken"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "hart",
+      "primary_form": "hart",
+      "gloss": "heart",
+      "extras": {
+        "article": "het",
+        "plural": "harten"
+      },
+      "tags": [
+        "body",
+        "het"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "dank-u-wel",
+      "primary_form": "dank u wel",
+      "gloss": "thank you (polite)",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "buik",
+      "primary_form": "buik",
+      "gloss": "belly, stomach",
+      "extras": {
+        "article": "de",
+        "plural": "buiken"
+      },
+      "tags": [
+        "body",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "wonen",
+      "primary_form": "wonen",
+      "gloss": "to live (somewhere)",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gewoond",
+        "past": "woonde / woonden",
+        "example": "Ik woon in Amsterdam.",
+        "example_en": "I live in Amsterdam."
+      },
+      "tags": [
+        "tegenwoordige-tijd",
+        "home"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "woon",
+          "2s": "woont",
+          "3s": "woont",
+          "1p": "wonen",
+          "2p": "wonen",
+          "3p": "wonen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gewoond",
+          "2s": "hebt gewoond",
+          "3s": "heeft gewoond",
+          "1p": "hebben gewoond",
+          "2p": "hebben gewoond",
+          "3p": "hebben gewoond"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "woonde",
+          "2s": "woonde",
+          "3s": "woonde",
+          "1p": "woonden",
+          "2p": "woonden",
+          "3p": "woonden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal wonen",
+          "2s": "zult wonen",
+          "3s": "zal wonen",
+          "1p": "zullen wonen",
+          "2p": "zullen wonen",
+          "3p": "zullen wonen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "haar",
+      "primary_form": "haar",
+      "gloss": "hair",
+      "extras": {
+        "article": "het",
+        "plural": "haren"
+      },
+      "tags": [
+        "body",
+        "het"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "nieuw",
+      "primary_form": "nieuw",
+      "gloss": "new",
+      "extras": {
+        "forms": {
+          "base": "nieuw",
+          "inflected": "nieuwe"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "bedankt",
+      "primary_form": "bedankt",
+      "gloss": "thanks",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "tand",
+      "primary_form": "tand",
+      "gloss": "tooth",
+      "extras": {
+        "article": "de",
+        "plural": "tanden"
+      },
+      "tags": [
+        "body",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ontbijt",
+      "primary_form": "ontbijt",
+      "gloss": "breakfast",
+      "extras": {
+        "article": "het",
+        "plural": "ontbijten"
+      },
+      "tags": [
+        "food",
+        "het"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "werken",
+      "primary_form": "werken",
+      "gloss": "to work",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gewerkt",
+        "past": "werkte / werkten",
+        "example": "Ze werkt bij een bank.",
+        "example_en": "She works at a bank."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "werk",
+          "2s": "werkt",
+          "3s": "werkt",
+          "1p": "werken",
+          "2p": "werken",
+          "3p": "werken"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gewerkt",
+          "2s": "hebt gewerkt",
+          "3s": "heeft gewerkt",
+          "1p": "hebben gewerkt",
+          "2p": "hebben gewerkt",
+          "3p": "hebben gewerkt"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "werkte",
+          "2s": "werkte",
+          "3s": "werkte",
+          "1p": "werkten",
+          "2p": "werkten",
+          "3p": "werkten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal werken",
+          "2s": "zult werken",
+          "3s": "zal werken",
+          "1p": "zullen werken",
+          "2p": "zullen werken",
+          "3p": "zullen werken"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "lunch",
+      "primary_form": "lunch",
+      "gloss": "lunch",
+      "extras": {
+        "article": "de",
+        "plural": "lunches"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "alsjeblieft",
+      "primary_form": "alsjeblieft",
+      "gloss": "please; here you are (informal)",
+      "extras": {
+        "literal": "if it pleases you"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "ook",
+      "primary_form": "ook",
+      "gloss": "also, too",
+      "extras": {
+        "role": "conn-addition",
+        "example": "Ik spreek Engels, en ik spreek ook Frans.",
+        "example_en": "I speak English, and I also speak French."
+      },
+      "tags": [
+        "verbindingswoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "avondeten",
+      "primary_form": "avondeten",
+      "gloss": "dinner",
+      "extras": {
+        "article": "het"
+      },
+      "tags": [
+        "food",
+        "het"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "aardig",
+      "primary_form": "aardig",
+      "gloss": "kind, nice",
+      "extras": {
+        "forms": {
+          "base": "aardig",
+          "inflected": "aardige"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "leren",
+      "primary_form": "leren",
+      "gloss": "to learn; to teach",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "geleerd",
+        "past": "leerde / leerden",
+        "example": "Ik leer Nederlands.",
+        "example_en": "I'm learning Dutch."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "leer",
+          "2s": "leert",
+          "3s": "leert",
+          "1p": "leren",
+          "2p": "leren",
+          "3p": "leren"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb geleerd",
+          "2s": "hebt geleerd",
+          "3s": "heeft geleerd",
+          "1p": "hebben geleerd",
+          "2p": "hebben geleerd",
+          "3p": "hebben geleerd"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "leerde",
+          "2s": "leerde",
+          "3s": "leerde",
+          "1p": "leerden",
+          "2p": "leerden",
+          "3p": "leerden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal leren",
+          "2s": "zult leren",
+          "3s": "zal leren",
+          "1p": "zullen leren",
+          "2p": "zullen leren",
+          "3p": "zullen leren"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "kaas",
+      "primary_form": "kaas",
+      "gloss": "cheese",
+      "extras": {
+        "article": "de",
+        "plural": "kazen"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "alstublieft",
+      "primary_form": "alstublieft",
+      "gloss": "please; here you are (polite)",
+      "extras": {
+        "literal": "if it pleases you"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vlees",
+      "primary_form": "vlees",
+      "gloss": "meat",
+      "extras": {
+        "article": "het"
+      },
+      "tags": [
+        "food",
+        "het"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vis",
+      "primary_form": "vis",
+      "gloss": "fish",
+      "extras": {
+        "article": "de",
+        "plural": "vissen"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "spelen",
+      "primary_form": "spelen",
+      "gloss": "to play",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gespeeld",
+        "past": "speelde / speelden",
+        "example": "De kinderen spelen buiten.",
+        "example_en": "The children are playing outside."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "speel",
+          "2s": "speelt",
+          "3s": "speelt",
+          "1p": "spelen",
+          "2p": "spelen",
+          "3p": "spelen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gespeeld",
+          "2s": "hebt gespeeld",
+          "3s": "heeft gespeeld",
+          "1p": "hebben gespeeld",
+          "2p": "hebben gespeeld",
+          "3p": "hebben gespeeld"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "speelde",
+          "2s": "speelde",
+          "3s": "speelde",
+          "1p": "speelden",
+          "2p": "speelden",
+          "3p": "speelden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal spelen",
+          "2s": "zult spelen",
+          "3s": "zal spelen",
+          "1p": "zullen spelen",
+          "2p": "zullen spelen",
+          "3p": "zullen spelen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "kip",
+      "primary_form": "kip",
+      "gloss": "chicken",
+      "extras": {
+        "article": "de",
+        "plural": "kippen"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "graag-gedaan",
+      "primary_form": "graag gedaan",
+      "gloss": "you're welcome",
+      "extras": {
+        "literal": "gladly done"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "blij",
+      "primary_form": "blij",
+      "gloss": "happy, glad",
+      "extras": {
+        "forms": {
+          "base": "blij",
+          "inflected": "blije"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ei",
+      "primary_form": "ei",
+      "gloss": "egg",
+      "extras": {
+        "article": "het",
+        "plural": "eieren"
+      },
+      "tags": [
+        "food",
+        "het"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "kijken",
+      "primary_form": "kijken",
+      "gloss": "to look, to watch",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gekeken",
+        "past": "keek / keken",
+        "example": "We kijken een film.",
+        "example_en": "We're watching a film."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "kijk",
+          "2s": "kijkt",
+          "3s": "kijkt",
+          "1p": "kijken",
+          "2p": "kijken",
+          "3p": "kijken"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gekeken",
+          "2s": "hebt gekeken",
+          "3s": "heeft gekeken",
+          "1p": "hebben gekeken",
+          "2p": "hebben gekeken",
+          "3p": "hebben gekeken"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "keek",
+          "2s": "keek",
+          "3s": "keek",
+          "1p": "keken",
+          "2p": "keken",
+          "3p": "keken"
+        },
+        "toekomende-tijd": {
+          "1s": "zal kijken",
+          "2s": "zult kijken",
+          "3s": "zal kijken",
+          "1p": "zullen kijken",
+          "2p": "zullen kijken",
+          "3p": "zullen kijken"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "melk",
+      "primary_form": "melk",
+      "gloss": "milk",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "sorry",
+      "primary_form": "sorry",
+      "gloss": "sorry",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "koffie",
+      "primary_form": "koffie",
+      "gloss": "coffee",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "thee",
+      "primary_form": "thee",
+      "gloss": "tea",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "luisteren",
+      "primary_form": "luisteren",
+      "gloss": "to listen",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "geluisterd",
+        "past": "luisterde / luisterden",
+        "example": "Ik luister naar muziek.",
+        "example_en": "I'm listening to music."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "luister",
+          "2s": "luistert",
+          "3s": "luistert",
+          "1p": "luisteren",
+          "2p": "luisteren",
+          "3p": "luisteren"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb geluisterd",
+          "2s": "hebt geluisterd",
+          "3s": "heeft geluisterd",
+          "1p": "hebben geluisterd",
+          "2p": "hebben geluisterd",
+          "3p": "hebben geluisterd"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "luisterde",
+          "2s": "luisterde",
+          "3s": "luisterde",
+          "1p": "luisterden",
+          "2p": "luisterden",
+          "3p": "luisterden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal luisteren",
+          "2s": "zult luisteren",
+          "3s": "zal luisteren",
+          "1p": "zullen luisteren",
+          "2p": "zullen luisteren",
+          "3p": "zullen luisteren"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "lekker",
+      "primary_form": "lekker",
+      "gloss": "tasty; nice, pleasant",
+      "extras": {
+        "forms": {
+          "base": "lekker",
+          "inflected": "lekkere"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "wijn",
+      "primary_form": "wijn",
+      "gloss": "wine",
+      "extras": {
+        "article": "de",
+        "plural": "wijnen"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "pardon",
+      "primary_form": "pardon",
+      "gloss": "excuse me; pardon?",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "bier",
+      "primary_form": "bier",
+      "gloss": "beer",
+      "extras": {
+        "article": "het",
+        "plural": "bieren"
+      },
+      "tags": [
+        "food",
+        "het"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "lezen",
+      "primary_form": "lezen",
+      "gloss": "to read",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gelezen",
+        "past": "las / lazen",
+        "example": "Hij leest de krant.",
+        "example_en": "He's reading the newspaper."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "lees",
+          "2s": "leest",
+          "3s": "leest",
+          "1p": "lezen",
+          "2p": "lezen",
+          "3p": "lezen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gelezen",
+          "2s": "hebt gelezen",
+          "3s": "heeft gelezen",
+          "1p": "hebben gelezen",
+          "2p": "hebben gelezen",
+          "3p": "hebben gelezen"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "las",
+          "2s": "las",
+          "3s": "las",
+          "1p": "lazen",
+          "2p": "lazen",
+          "3p": "lazen"
+        },
+        "toekomende-tijd": {
+          "1s": "zal lezen",
+          "2s": "zult lezen",
+          "3s": "zal lezen",
+          "1p": "zullen lezen",
+          "2p": "zullen lezen",
+          "3p": "zullen lezen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "appel",
+      "primary_form": "appel",
+      "gloss": "apple",
+      "extras": {
+        "article": "de",
+        "plural": "appels"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ja",
+      "primary_form": "ja",
+      "gloss": "yes",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "aardappel",
+      "primary_form": "aardappel",
+      "gloss": "potato",
+      "extras": {
+        "article": "de",
+        "plural": "aardappelen"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "warm",
+      "primary_form": "warm",
+      "gloss": "warm, hot",
+      "extras": {
+        "forms": {
+          "base": "warm",
+          "inflected": "warme"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "groente",
+      "primary_form": "groente",
+      "gloss": "vegetable",
+      "extras": {
+        "article": "de",
+        "plural": "groenten"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "schrijven",
+      "primary_form": "schrijven",
+      "gloss": "to write",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "geschreven",
+        "past": "schreef / schreven",
+        "example": "Ik schrijf een brief.",
+        "example_en": "I'm writing a letter."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "schrijf",
+          "2s": "schrijft",
+          "3s": "schrijft",
+          "1p": "schrijven",
+          "2p": "schrijven",
+          "3p": "schrijven"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb geschreven",
+          "2s": "hebt geschreven",
+          "3s": "heeft geschreven",
+          "1p": "hebben geschreven",
+          "2p": "hebben geschreven",
+          "3p": "hebben geschreven"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "schreef",
+          "2s": "schreef",
+          "3s": "schreef",
+          "1p": "schreven",
+          "2p": "schreven",
+          "3p": "schreven"
+        },
+        "toekomende-tijd": {
+          "1s": "zal schrijven",
+          "2s": "zult schrijven",
+          "3s": "zal schrijven",
+          "1p": "zullen schrijven",
+          "2p": "zullen schrijven",
+          "3p": "zullen schrijven"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "fruit",
+      "primary_form": "fruit",
+      "gloss": "fruit",
+      "extras": {
+        "article": "het"
+      },
+      "tags": [
+        "food",
+        "het"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "nee",
+      "primary_form": "nee",
+      "gloss": "no",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "en",
+      "primary_form": "en",
+      "gloss": "and",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Ik heb een broer en twee zussen.",
+        "example_en": "I have a brother and two sisters."
+      },
+      "tags": [
+        "voegwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "suiker",
+      "primary_form": "suiker",
+      "gloss": "sugar",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "slapen",
+      "primary_form": "slapen",
+      "gloss": "to sleep",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "geslapen",
+        "past": "sliep / sliepen",
+        "example": "De baby slaapt.",
+        "example_en": "The baby is sleeping."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "slaap",
+          "2s": "slaapt",
+          "3s": "slaapt",
+          "1p": "slapen",
+          "2p": "slapen",
+          "3p": "slapen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb geslapen",
+          "2s": "hebt geslapen",
+          "3s": "heeft geslapen",
+          "1p": "hebben geslapen",
+          "2p": "hebben geslapen",
+          "3p": "hebben geslapen"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "sliep",
+          "2s": "sliep",
+          "3s": "sliep",
+          "1p": "sliepen",
+          "2p": "sliepen",
+          "3p": "sliepen"
+        },
+        "toekomende-tijd": {
+          "1s": "zal slapen",
+          "2s": "zult slapen",
+          "3s": "zal slapen",
+          "1p": "zullen slapen",
+          "2p": "zullen slapen",
+          "3p": "zullen slapen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "zout",
+      "primary_form": "zout",
+      "gloss": "salt",
+      "extras": {
+        "article": "het"
+      },
+      "tags": [
+        "food",
+        "het"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "koud",
+      "primary_form": "koud",
+      "gloss": "cold",
+      "extras": {
+        "forms": {
+          "base": "koud",
+          "inflected": "koude"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "rijst",
+      "primary_form": "rijst",
+      "gloss": "rice",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "oke",
+      "primary_form": "oké",
+      "gloss": "OK",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "boter",
+      "primary_form": "boter",
+      "gloss": "butter",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "lopen",
+      "primary_form": "lopen",
+      "gloss": "to walk",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gelopen",
+        "past": "liep / liepen",
+        "example": "Ik loop naar huis.",
+        "example_en": "I'm walking home."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "loop",
+          "2s": "loopt",
+          "3s": "loopt",
+          "1p": "lopen",
+          "2p": "lopen",
+          "3p": "lopen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gelopen",
+          "2s": "hebt gelopen",
+          "3s": "heeft gelopen",
+          "1p": "hebben gelopen",
+          "2p": "hebben gelopen",
+          "3p": "hebben gelopen"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "liep",
+          "2s": "liep",
+          "3s": "liep",
+          "1p": "liepen",
+          "2p": "liepen",
+          "3p": "liepen"
+        },
+        "toekomende-tijd": {
+          "1s": "zal lopen",
+          "2s": "zult lopen",
+          "3s": "zal lopen",
+          "1p": "zullen lopen",
+          "2p": "zullen lopen",
+          "3p": "zullen lopen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "taart",
+      "primary_form": "taart",
+      "gloss": "cake, tart",
+      "extras": {
+        "article": "de",
+        "plural": "taarten"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "hoe-gaat-het",
+      "primary_form": "hoe gaat het?",
+      "gloss": "how are you?",
+      "extras": {
+        "literal": "how goes it?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "koekje",
+      "primary_form": "koekje",
+      "gloss": "biscuit, cookie",
+      "extras": {
+        "article": "het",
+        "plural": "koekjes"
+      },
+      "tags": [
+        "food",
+        "het"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "makkelijk",
+      "primary_form": "makkelijk",
+      "gloss": "easy",
+      "extras": {
+        "forms": {
+          "base": "makkelijk",
+          "inflected": "makkelijke"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "fietsen",
+      "primary_form": "fietsen",
+      "gloss": "to cycle",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gefietst",
+        "past": "fietste / fietsten",
+        "example": "Ik fiets elke dag naar mijn werk.",
+        "example_en": "I cycle to work every day."
+      },
+      "tags": [
+        "tegenwoordige-tijd",
+        "transport"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "fiets",
+          "2s": "fietst",
+          "3s": "fietst",
+          "1p": "fietsen",
+          "2p": "fietsen",
+          "3p": "fietsen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gefietst",
+          "2s": "hebt gefietst",
+          "3s": "heeft gefietst",
+          "1p": "hebben gefietst",
+          "2p": "hebben gefietst",
+          "3p": "hebben gefietst"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "fietste",
+          "2s": "fietste",
+          "3s": "fietste",
+          "1p": "fietsten",
+          "2p": "fietsten",
+          "3p": "fietsten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal fietsen",
+          "2s": "zult fietsen",
+          "3s": "zal fietsen",
+          "1p": "zullen fietsen",
+          "2p": "zullen fietsen",
+          "3p": "zullen fietsen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "broodje",
+      "primary_form": "broodje",
+      "gloss": "bread roll, sandwich",
+      "extras": {
+        "article": "het",
+        "plural": "broodjes"
+      },
+      "tags": [
+        "food",
+        "het"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "hagelslag",
+      "primary_form": "hagelslag",
+      "gloss": "chocolate sprinkles (on bread)",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "goed-dank-je",
+      "primary_form": "goed, dank je",
+      "gloss": "fine, thanks",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "stroopwafel",
+      "primary_form": "stroopwafel",
+      "gloss": "syrup waffle",
+      "extras": {
+        "article": "de",
+        "plural": "stroopwafels"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "kopen",
+      "primary_form": "kopen",
+      "gloss": "to buy",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gekocht",
+        "past": "kocht / kochten",
+        "example": "Ik koop brood bij de bakker.",
+        "example_en": "I buy bread at the baker's."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "koop",
+          "2s": "koopt",
+          "3s": "koopt",
+          "1p": "kopen",
+          "2p": "kopen",
+          "3p": "kopen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gekocht",
+          "2s": "hebt gekocht",
+          "3s": "heeft gekocht",
+          "1p": "hebben gekocht",
+          "2p": "hebben gekocht",
+          "3p": "hebben gekocht"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "kocht",
+          "2s": "kocht",
+          "3s": "kocht",
+          "1p": "kochten",
+          "2p": "kochten",
+          "3p": "kochten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal kopen",
+          "2s": "zult kopen",
+          "3s": "zal kopen",
+          "1p": "zullen kopen",
+          "2p": "zullen kopen",
+          "3p": "zullen kopen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "drop",
+      "primary_form": "drop",
+      "gloss": "liquorice",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "moeilijk",
+      "primary_form": "moeilijk",
+      "gloss": "difficult",
+      "extras": {
+        "forms": {
+          "base": "moeilijk",
+          "inflected": "moeilijke"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "prettig-kennis-te-maken",
+      "primary_form": "prettig kennis te maken",
+      "gloss": "nice to meet you",
+      "extras": {
+        "literal": "pleasant to make acquaintance"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "slaapkamer",
+      "primary_form": "slaapkamer",
+      "gloss": "bedroom",
+      "extras": {
+        "article": "de",
+        "plural": "slaapkamers"
+      },
+      "tags": [
+        "home",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "betalen",
+      "primary_form": "betalen",
+      "gloss": "to pay",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "betaald",
+        "past": "betaalde / betaalden",
+        "example": "Kan ik met pin betalen?",
+        "example_en": "Can I pay by card?"
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "betaal",
+          "2s": "betaalt",
+          "3s": "betaalt",
+          "1p": "betalen",
+          "2p": "betalen",
+          "3p": "betalen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb betaald",
+          "2s": "hebt betaald",
+          "3s": "heeft betaald",
+          "1p": "hebben betaald",
+          "2p": "hebben betaald",
+          "3p": "hebben betaald"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "betaalde",
+          "2s": "betaalde",
+          "3s": "betaalde",
+          "1p": "betaalden",
+          "2p": "betaalden",
+          "3p": "betaalden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal betalen",
+          "2s": "zult betalen",
+          "3s": "zal betalen",
+          "1p": "zullen betalen",
+          "2p": "zullen betalen",
+          "3p": "zullen betalen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "keuken",
+      "primary_form": "keuken",
+      "gloss": "kitchen",
+      "extras": {
+        "article": "de",
+        "plural": "keukens"
+      },
+      "tags": [
+        "home",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "badkamer",
+      "primary_form": "badkamer",
+      "gloss": "bathroom",
+      "extras": {
+        "article": "de",
+        "plural": "badkamers"
+      },
+      "tags": [
+        "home",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ik-begrijp-het-niet",
+      "primary_form": "ik begrijp het niet",
+      "gloss": "I don't understand",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "woonkamer",
+      "primary_form": "woonkamer",
+      "gloss": "living room",
+      "extras": {
+        "article": "de",
+        "plural": "woonkamers"
+      },
+      "tags": [
+        "home",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "zoeken",
+      "primary_form": "zoeken",
+      "gloss": "to look for",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gezocht",
+        "past": "zocht / zochten",
+        "example": "Ik zoek het station.",
+        "example_en": "I'm looking for the station."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "zoek",
+          "2s": "zoekt",
+          "3s": "zoekt",
+          "1p": "zoeken",
+          "2p": "zoeken",
+          "3p": "zoeken"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gezocht",
+          "2s": "hebt gezocht",
+          "3s": "heeft gezocht",
+          "1p": "hebben gezocht",
+          "2p": "hebben gezocht",
+          "3p": "hebben gezocht"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "zocht",
+          "2s": "zocht",
+          "3s": "zocht",
+          "1p": "zochten",
+          "2p": "zochten",
+          "3p": "zochten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal zoeken",
+          "2s": "zult zoeken",
+          "3s": "zal zoeken",
+          "1p": "zullen zoeken",
+          "2p": "zullen zoeken",
+          "3p": "zullen zoeken"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "duur",
+      "primary_form": "duur",
+      "gloss": "expensive",
+      "extras": {
+        "forms": {
+          "base": "duur",
+          "inflected": "dure"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "bed",
+      "primary_form": "bed",
+      "gloss": "bed",
+      "extras": {
+        "article": "het",
+        "plural": "bedden"
+      },
+      "tags": [
+        "home",
+        "het"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "of",
+      "primary_form": "of",
+      "gloss": "or; whether",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Wil je thee of koffie?",
+        "example_en": "Do you want tea or coffee?"
+      },
+      "tags": [
+        "voegwoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "kunt-u-dat-herhalen",
+      "primary_form": "kunt u dat herhalen?",
+      "gloss": "could you repeat that?",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "sleutel",
+      "primary_form": "sleutel",
+      "gloss": "key",
+      "extras": {
+        "article": "de",
+        "plural": "sleutels"
+      },
+      "tags": [
+        "home",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "vinden",
+      "primary_form": "vinden",
+      "gloss": "to find; to think (an opinion)",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gevonden",
+        "past": "vond / vonden",
+        "example": "Ik vind het mooi.",
+        "example_en": "I think it's nice."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "vind",
+          "2s": "vindt",
+          "3s": "vindt",
+          "1p": "vinden",
+          "2p": "vinden",
+          "3p": "vinden"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gevonden",
+          "2s": "hebt gevonden",
+          "3s": "heeft gevonden",
+          "1p": "hebben gevonden",
+          "2p": "hebben gevonden",
+          "3p": "hebben gevonden"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "vond",
+          "2s": "vond",
+          "3s": "vond",
+          "1p": "vonden",
+          "2p": "vonden",
+          "3p": "vonden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal vinden",
+          "2s": "zult vinden",
+          "3s": "zal vinden",
+          "1p": "zullen vinden",
+          "2p": "zullen vinden",
+          "3p": "zullen vinden"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "appartement",
+      "primary_form": "appartement",
+      "gloss": "flat, apartment",
+      "extras": {
+        "article": "het",
+        "plural": "appartementen"
+      },
+      "tags": [
+        "home",
+        "het"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "tuin",
+      "primary_form": "tuin",
+      "gloss": "garden",
+      "extras": {
+        "article": "de",
+        "plural": "tuinen"
+      },
+      "tags": [
+        "home",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "spreekt-u-engels",
+      "primary_form": "spreekt u Engels?",
+      "gloss": "do you speak English?",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "goedkoop",
+      "primary_form": "goedkoop",
+      "gloss": "cheap",
+      "extras": {
+        "forms": {
+          "base": "goedkoop",
+          "inflected": "goedkope"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "bank",
+      "primary_form": "bank",
+      "gloss": "sofa; bank",
+      "extras": {
+        "article": "de",
+        "plural": "banken"
+      },
+      "tags": [
+        "home",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "denken",
+      "primary_form": "denken",
+      "gloss": "to think",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gedacht",
+        "past": "dacht / dachten",
+        "example": "Ik denk van wel.",
+        "example_en": "I think so."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "denk",
+          "2s": "denkt",
+          "3s": "denkt",
+          "1p": "denken",
+          "2p": "denken",
+          "3p": "denken"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gedacht",
+          "2s": "hebt gedacht",
+          "3s": "heeft gedacht",
+          "1p": "hebben gedacht",
+          "2p": "hebben gedacht",
+          "3p": "hebben gedacht"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "dacht",
+          "2s": "dacht",
+          "3s": "dacht",
+          "1p": "dachten",
+          "2p": "dachten",
+          "3p": "dachten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal denken",
+          "2s": "zult denken",
+          "3s": "zal denken",
+          "1p": "zullen denken",
+          "2p": "zullen denken",
+          "3p": "zullen denken"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "dag",
+      "primary_form": "dag",
+      "gloss": "day",
+      "extras": {
+        "article": "de",
+        "plural": "dagen"
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ik-weet-het-niet",
+      "primary_form": "ik weet het niet",
+      "gloss": "I don't know",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "week",
+      "primary_form": "week",
+      "gloss": "week",
+      "extras": {
+        "article": "de",
+        "plural": "weken"
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "geven",
+      "primary_form": "geven",
+      "gloss": "to give",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gegeven",
+        "past": "gaf / gaven",
+        "example": "Geef me de sleutel.",
+        "example_en": "Give me the key."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "geef",
+          "2s": "geeft",
+          "3s": "geeft",
+          "1p": "geven",
+          "2p": "geven",
+          "3p": "geven"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gegeven",
+          "2s": "hebt gegeven",
+          "3s": "heeft gegeven",
+          "1p": "hebben gegeven",
+          "2p": "hebben gegeven",
+          "3p": "hebben gegeven"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "gaf",
+          "2s": "gaf",
+          "3s": "gaf",
+          "1p": "gaven",
+          "2p": "gaven",
+          "3p": "gaven"
+        },
+        "toekomende-tijd": {
+          "1s": "zal geven",
+          "2s": "zult geven",
+          "3s": "zal geven",
+          "1p": "zullen geven",
+          "2p": "zullen geven",
+          "3p": "zullen geven"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "maand",
+      "primary_form": "maand",
+      "gloss": "month",
+      "extras": {
+        "article": "de",
+        "plural": "maanden"
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "rood",
+      "primary_form": "rood",
+      "gloss": "red",
+      "extras": {
+        "forms": {
+          "base": "rood",
+          "inflected": "rode"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "jaar",
+      "primary_form": "jaar",
+      "gloss": "year",
+      "extras": {
+        "article": "het",
+        "plural": "jaren"
+      },
+      "tags": [
+        "time",
+        "het"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "hoeveel-kost-het",
+      "primary_form": "hoeveel kost het?",
+      "gloss": "how much does it cost?",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "uur",
+      "primary_form": "uur",
+      "gloss": "hour; o'clock",
+      "extras": {
+        "article": "het",
+        "plural": "uren"
+      },
+      "tags": [
+        "time",
+        "het"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "nemen",
+      "primary_form": "nemen",
+      "gloss": "to take",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "genomen",
+        "past": "nam / namen",
+        "example": "Ik neem de trein.",
+        "example_en": "I take the train."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "neem",
+          "2s": "neemt",
+          "3s": "neemt",
+          "1p": "nemen",
+          "2p": "nemen",
+          "3p": "nemen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb genomen",
+          "2s": "hebt genomen",
+          "3s": "heeft genomen",
+          "1p": "hebben genomen",
+          "2p": "hebben genomen",
+          "3p": "hebben genomen"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "nam",
+          "2s": "nam",
+          "3s": "nam",
+          "1p": "namen",
+          "2p": "namen",
+          "3p": "namen"
+        },
+        "toekomende-tijd": {
+          "1s": "zal nemen",
+          "2s": "zult nemen",
+          "3s": "zal nemen",
+          "1p": "zullen nemen",
+          "2p": "zullen nemen",
+          "3p": "zullen nemen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "minuut",
+      "primary_form": "minuut",
+      "gloss": "minute",
+      "extras": {
+        "article": "de",
+        "plural": "minuten"
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "mag-ik-de-rekening",
+      "primary_form": "mag ik de rekening?",
+      "gloss": "may I have the bill?",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ochtend",
+      "primary_form": "ochtend",
+      "gloss": "morning",
+      "extras": {
+        "article": "de",
+        "plural": "ochtenden"
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "beginnen",
+      "primary_form": "beginnen",
+      "gloss": "to begin",
+      "extras": {
+        "auxiliary": "zijn",
+        "participle": "begonnen",
+        "past": "begon / begonnen",
+        "example": "De film begint om acht uur.",
+        "example_en": "The film starts at eight."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "begin",
+          "2s": "begint",
+          "3s": "begint",
+          "1p": "beginnen",
+          "2p": "beginnen",
+          "3p": "beginnen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "ben begonnen",
+          "2s": "bent begonnen",
+          "3s": "is begonnen",
+          "1p": "zijn begonnen",
+          "2p": "zijn begonnen",
+          "3p": "zijn begonnen"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "begon",
+          "2s": "begon",
+          "3s": "begon",
+          "1p": "begonnen",
+          "2p": "begonnen",
+          "3p": "begonnen"
+        },
+        "toekomende-tijd": {
+          "1s": "zal beginnen",
+          "2s": "zult beginnen",
+          "3s": "zal beginnen",
+          "1p": "zullen beginnen",
+          "2p": "zullen beginnen",
+          "3p": "zullen beginnen"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "blauw",
+      "primary_form": "blauw",
+      "gloss": "blue",
+      "extras": {
+        "forms": {
+          "base": "blauw",
+          "inflected": "blauwe"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "middag",
+      "primary_form": "middag",
+      "gloss": "afternoon",
+      "extras": {
+        "article": "de",
+        "plural": "middagen"
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "avond",
+      "primary_form": "avond",
+      "gloss": "evening",
+      "extras": {
+        "article": "de",
+        "plural": "avonden"
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "waar-is-de-wc",
+      "primary_form": "waar is de wc?",
+      "gloss": "where is the toilet?",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "blijven",
+      "primary_form": "blijven",
+      "gloss": "to stay",
+      "extras": {
+        "auxiliary": "zijn",
+        "participle": "gebleven",
+        "past": "bleef / bleven",
+        "example": "Ik blijf thuis.",
+        "example_en": "I'm staying home."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "blijf",
+          "2s": "blijft",
+          "3s": "blijft",
+          "1p": "blijven",
+          "2p": "blijven",
+          "3p": "blijven"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "ben gebleven",
+          "2s": "bent gebleven",
+          "3s": "is gebleven",
+          "1p": "zijn gebleven",
+          "2p": "zijn gebleven",
+          "3p": "zijn gebleven"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "bleef",
+          "2s": "bleef",
+          "3s": "bleef",
+          "1p": "bleven",
+          "2p": "bleven",
+          "3p": "bleven"
+        },
+        "toekomende-tijd": {
+          "1s": "zal blijven",
+          "2s": "zult blijven",
+          "3s": "zal blijven",
+          "1p": "zullen blijven",
+          "2p": "zullen blijven",
+          "3p": "zullen blijven"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "maandag",
+      "primary_form": "maandag",
+      "gloss": "Monday",
+      "extras": {
+        "article": "de",
+        "plural": "maandagen"
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "dinsdag",
+      "primary_form": "dinsdag",
+      "gloss": "Tuesday",
+      "extras": {
+        "article": "de",
+        "plural": "dinsdagen"
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "als",
+      "primary_form": "als",
+      "gloss": "if; when",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Ik lees als het regent.",
+        "example_en": "I read when it rains."
+      },
+      "tags": [
+        "voegwoorden"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "groen",
+      "primary_form": "groen",
+      "gloss": "green",
+      "extras": {
+        "forms": {
+          "base": "groen",
+          "inflected": "groene"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden",
+        "colors"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "er-is-er-zijn",
+      "primary_form": "er is, er zijn",
+      "gloss": "there is, there are",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "woensdag",
+      "primary_form": "woensdag",
+      "gloss": "Wednesday",
+      "extras": {
+        "article": "de",
+        "plural": "woensdagen"
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "staan",
+      "primary_form": "staan",
+      "gloss": "to stand",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gestaan",
+        "past": "stond / stonden",
+        "example": "De fiets staat voor het huis.",
+        "example_en": "The bike is (standing) in front of the house."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "sta",
+          "2s": "staat",
+          "3s": "staat",
+          "1p": "staan",
+          "2p": "staan",
+          "3p": "staan"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gestaan",
+          "2s": "hebt gestaan",
+          "3s": "heeft gestaan",
+          "1p": "hebben gestaan",
+          "2p": "hebben gestaan",
+          "3p": "hebben gestaan"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "stond",
+          "2s": "stond",
+          "3s": "stond",
+          "1p": "stonden",
+          "2p": "stonden",
+          "3p": "stonden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal staan",
+          "2s": "zult staan",
+          "3s": "zal staan",
+          "1p": "zullen staan",
+          "2p": "zullen staan",
+          "3p": "zullen staan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "donderdag",
+      "primary_form": "donderdag",
+      "gloss": "Thursday",
+      "extras": {
+        "article": "de",
+        "plural": "donderdagen"
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vrijdag",
+      "primary_form": "vrijdag",
+      "gloss": "Friday",
+      "extras": {
+        "article": "de",
+        "plural": "vrijdagen"
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "wat-is-dat",
+      "primary_form": "wat is dat?",
+      "gloss": "what's that?",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "zitten",
+      "primary_form": "zitten",
+      "gloss": "to sit",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gezeten",
+        "past": "zat / zaten",
+        "example": "Ik zit in de trein.",
+        "example_en": "I'm on the train."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "zit",
+          "2s": "zit",
+          "3s": "zit",
+          "1p": "zitten",
+          "2p": "zitten",
+          "3p": "zitten"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gezeten",
+          "2s": "hebt gezeten",
+          "3s": "heeft gezeten",
+          "1p": "hebben gezeten",
+          "2p": "hebben gezeten",
+          "3p": "hebben gezeten"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "zat",
+          "2s": "zat",
+          "3s": "zat",
+          "1p": "zaten",
+          "2p": "zaten",
+          "3p": "zaten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal zitten",
+          "2s": "zult zitten",
+          "3s": "zal zitten",
+          "1p": "zullen zitten",
+          "2p": "zullen zitten",
+          "3p": "zullen zitten"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "zaterdag",
+      "primary_form": "zaterdag",
+      "gloss": "Saturday",
+      "extras": {
+        "article": "de",
+        "plural": "zaterdagen"
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "geel",
+      "primary_form": "geel",
+      "gloss": "yellow",
+      "extras": {
+        "forms": {
+          "base": "geel",
+          "inflected": "gele"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "zondag",
+      "primary_form": "zondag",
+      "gloss": "Sunday",
+      "extras": {
+        "article": "de",
+        "plural": "zondagen"
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "stad",
+      "primary_form": "stad",
+      "gloss": "town, city",
+      "extras": {
+        "article": "de",
+        "plural": "steden"
+      },
+      "tags": [
+        "city",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "hoe-laat-is-het",
+      "primary_form": "hoe laat is het?",
+      "gloss": "what time is it?",
+      "extras": {
+        "literal": "how late is it?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "liggen",
+      "primary_form": "liggen",
+      "gloss": "to lie (be lying down)",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gelegen",
+        "past": "lag / lagen",
+        "example": "Het boek ligt op tafel.",
+        "example_en": "The book is (lying) on the table."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "lig",
+          "2s": "ligt",
+          "3s": "ligt",
+          "1p": "liggen",
+          "2p": "liggen",
+          "3p": "liggen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gelegen",
+          "2s": "hebt gelegen",
+          "3s": "heeft gelegen",
+          "1p": "hebben gelegen",
+          "2p": "hebben gelegen",
+          "3p": "hebben gelegen"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "lag",
+          "2s": "lag",
+          "3s": "lag",
+          "1p": "lagen",
+          "2p": "lagen",
+          "3p": "lagen"
+        },
+        "toekomende-tijd": {
+          "1s": "zal liggen",
+          "2s": "zult liggen",
+          "3s": "zal liggen",
+          "1p": "zullen liggen",
+          "2p": "zullen liggen",
+          "3p": "zullen liggen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "straat",
+      "primary_form": "straat",
+      "gloss": "street",
+      "extras": {
+        "article": "de",
+        "plural": "straten"
+      },
+      "tags": [
+        "city",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "winkel",
+      "primary_form": "winkel",
+      "gloss": "shop",
+      "extras": {
+        "article": "de",
+        "plural": "winkels"
+      },
+      "tags": [
+        "city",
+        "de"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "zwart",
+      "primary_form": "zwart",
+      "gloss": "black",
+      "extras": {
+        "forms": {
+          "base": "zwart",
+          "inflected": "zwarte"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden",
+        "colors"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "eet-smakelijk",
+      "primary_form": "eet smakelijk",
+      "gloss": "enjoy your meal",
+      "extras": {
+        "literal": "eat tastily"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "heten",
+      "primary_form": "heten",
+      "gloss": "to be called",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "geheten",
+        "past": "heette / heetten",
+        "example": "Ik heet Sanne.",
+        "example_en": "My name is Sanne."
+      },
+      "tags": [
+        "tegenwoordige-tijd",
+        "people"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "heet",
+          "2s": "heet",
+          "3s": "heet",
+          "1p": "heten",
+          "2p": "heten",
+          "3p": "heten"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb geheten",
+          "2s": "hebt geheten",
+          "3s": "heeft geheten",
+          "1p": "hebben geheten",
+          "2p": "hebben geheten",
+          "3p": "hebben geheten"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "heette",
+          "2s": "heette",
+          "3s": "heette",
+          "1p": "heetten",
+          "2p": "heetten",
+          "3p": "heetten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal heten",
+          "2s": "zult heten",
+          "3s": "zal heten",
+          "1p": "zullen heten",
+          "2p": "zullen heten",
+          "3p": "zullen heten"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "markt",
+      "primary_form": "markt",
+      "gloss": "market",
+      "extras": {
+        "article": "de",
+        "plural": "markten"
+      },
+      "tags": [
+        "city",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "bakker",
+      "primary_form": "bakker",
+      "gloss": "baker; bakery",
+      "extras": {
+        "article": "de",
+        "plural": "bakkers"
+      },
+      "tags": [
+        "city",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "station",
+      "primary_form": "station",
+      "gloss": "station",
+      "extras": {
+        "article": "het",
+        "plural": "stations"
+      },
+      "tags": [
+        "city",
+        "het"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "proost",
+      "primary_form": "proost!",
+      "gloss": "cheers!",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "wachten",
+      "primary_form": "wachten",
+      "gloss": "to wait",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gewacht",
+        "past": "wachtte / wachtten",
+        "example": "Ik wacht op de bus.",
+        "example_en": "I'm waiting for the bus."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "wacht",
+          "2s": "wacht",
+          "3s": "wacht",
+          "1p": "wachten",
+          "2p": "wachten",
+          "3p": "wachten"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gewacht",
+          "2s": "hebt gewacht",
+          "3s": "heeft gewacht",
+          "1p": "hebben gewacht",
+          "2p": "hebben gewacht",
+          "3p": "hebben gewacht"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "wachtte",
+          "2s": "wachtte",
+          "3s": "wachtte",
+          "1p": "wachtten",
+          "2p": "wachtten",
+          "3p": "wachtten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal wachten",
+          "2s": "zult wachten",
+          "3s": "zal wachten",
+          "1p": "zullen wachten",
+          "2p": "zullen wachten",
+          "3p": "zullen wachten"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "school",
+      "primary_form": "school",
+      "gloss": "school",
+      "extras": {
+        "article": "de",
+        "plural": "scholen"
+      },
+      "tags": [
+        "city",
+        "de"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "wit",
+      "primary_form": "wit",
+      "gloss": "white",
+      "extras": {
+        "forms": {
+          "base": "wit",
+          "inflected": "witte"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "kerk",
+      "primary_form": "kerk",
+      "gloss": "church",
+      "extras": {
+        "article": "de",
+        "plural": "kerken"
+      },
+      "tags": [
+        "city",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "fijne-dag",
+      "primary_form": "fijne dag",
+      "gloss": "have a nice day",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "koken",
+      "primary_form": "koken",
+      "gloss": "to cook",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gekookt",
+        "past": "kookte / kookten",
+        "example": "Wie kookt er vanavond?",
+        "example_en": "Who's cooking tonight?"
+      },
+      "tags": [
+        "tegenwoordige-tijd",
+        "food"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "kook",
+          "2s": "kookt",
+          "3s": "kookt",
+          "1p": "koken",
+          "2p": "koken",
+          "3p": "koken"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gekookt",
+          "2s": "hebt gekookt",
+          "3s": "heeft gekookt",
+          "1p": "hebben gekookt",
+          "2p": "hebben gekookt",
+          "3p": "hebben gekookt"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "kookte",
+          "2s": "kookte",
+          "3s": "kookte",
+          "1p": "kookten",
+          "2p": "kookten",
+          "3p": "kookten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal koken",
+          "2s": "zult koken",
+          "3s": "zal koken",
+          "1p": "zullen koken",
+          "2p": "zullen koken",
+          "3p": "zullen koken"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "ziekenhuis",
+      "primary_form": "ziekenhuis",
+      "gloss": "hospital",
+      "extras": {
+        "article": "het",
+        "plural": "ziekenhuizen"
+      },
+      "tags": [
+        "city",
+        "het"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "restaurant",
+      "primary_form": "restaurant",
+      "gloss": "restaurant",
+      "extras": {
+        "article": "het",
+        "plural": "restaurants"
+      },
+      "tags": [
+        "city",
+        "het"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "dat",
+      "primary_form": "dat",
+      "gloss": "that",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Ik denk dat hij morgen komt.",
+        "example_en": "I think that he's coming tomorrow."
+      },
+      "tags": [
+        "voegwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "gracht",
+      "primary_form": "gracht",
+      "gloss": "canal (in a city)",
+      "extras": {
+        "article": "de",
+        "plural": "grachten"
+      },
+      "tags": [
+        "city",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "fijn-weekend",
+      "primary_form": "fijn weekend",
+      "gloss": "have a nice weekend",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "helpen",
+      "primary_form": "helpen",
+      "gloss": "to help",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "geholpen",
+        "past": "hielp / hielpen",
+        "example": "Kan ik u helpen?",
+        "example_en": "Can I help you?"
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "help",
+          "2s": "helpt",
+          "3s": "helpt",
+          "1p": "helpen",
+          "2p": "helpen",
+          "3p": "helpen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb geholpen",
+          "2s": "hebt geholpen",
+          "3s": "heeft geholpen",
+          "1p": "hebben geholpen",
+          "2p": "hebben geholpen",
+          "3p": "hebben geholpen"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "hielp",
+          "2s": "hielp",
+          "3s": "hielp",
+          "1p": "hielpen",
+          "2p": "hielpen",
+          "3p": "hielpen"
+        },
+        "toekomende-tijd": {
+          "1s": "zal helpen",
+          "2s": "zult helpen",
+          "3s": "zal helpen",
+          "1p": "zullen helpen",
+          "2p": "zullen helpen",
+          "3p": "zullen helpen"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "bruin",
+      "primary_form": "bruin",
+      "gloss": "brown",
+      "extras": {
+        "forms": {
+          "base": "bruin",
+          "inflected": "bruine"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "plein",
+      "primary_form": "plein",
+      "gloss": "square",
+      "extras": {
+        "article": "het",
+        "plural": "pleinen"
+      },
+      "tags": [
+        "city",
+        "het"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "brug",
+      "primary_form": "brug",
+      "gloss": "bridge",
+      "extras": {
+        "article": "de",
+        "plural": "bruggen"
+      },
+      "tags": [
+        "city",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "het-maakt-niet-uit",
+      "primary_form": "het maakt niet uit",
+      "gloss": "it doesn't matter",
+      "extras": {
+        "literal": "it makes not out"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "vragen",
+      "primary_form": "vragen",
+      "gloss": "to ask",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gevraagd",
+        "past": "vroeg / vroegen",
+        "example": "Mag ik iets vragen?",
+        "example_en": "Can I ask something?"
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "vraag",
+          "2s": "vraagt",
+          "3s": "vraagt",
+          "1p": "vragen",
+          "2p": "vragen",
+          "3p": "vragen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gevraagd",
+          "2s": "hebt gevraagd",
+          "3s": "heeft gevraagd",
+          "1p": "hebben gevraagd",
+          "2p": "hebben gevraagd",
+          "3p": "hebben gevraagd"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "vroeg",
+          "2s": "vroeg",
+          "3s": "vroeg",
+          "1p": "vroegen",
+          "2p": "vroegen",
+          "3p": "vroegen"
+        },
+        "toekomende-tijd": {
+          "1s": "zal vragen",
+          "2s": "zult vragen",
+          "3s": "zal vragen",
+          "1p": "zullen vragen",
+          "2p": "zullen vragen",
+          "3p": "zullen vragen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "fiets",
+      "primary_form": "fiets",
+      "gloss": "bicycle",
+      "extras": {
+        "article": "de",
+        "plural": "fietsen"
+      },
+      "tags": [
+        "transport",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "werk",
+      "primary_form": "werk",
+      "gloss": "work, job",
+      "extras": {
+        "article": "het"
+      },
+      "tags": [
+        "city",
+        "het"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "oranje",
+      "primary_form": "oranje",
+      "gloss": "orange (never takes -e)",
+      "extras": {
+        "forms": {
+          "base": "oranje",
+          "inflected": "oranje"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "geld",
+      "primary_form": "geld",
+      "gloss": "money",
+      "extras": {
+        "article": "het"
+      },
+      "tags": [
+        "objects",
+        "het"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "geen-idee",
+      "primary_form": "geen idee",
+      "gloss": "no idea",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "begrijpen",
+      "primary_form": "begrijpen",
+      "gloss": "to understand",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "begrepen",
+        "past": "begreep / begrepen",
+        "example": "Ik begrijp het niet.",
+        "example_en": "I don't understand."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "begrijp",
+          "2s": "begrijpt",
+          "3s": "begrijpt",
+          "1p": "begrijpen",
+          "2p": "begrijpen",
+          "3p": "begrijpen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb begrepen",
+          "2s": "hebt begrepen",
+          "3s": "heeft begrepen",
+          "1p": "hebben begrepen",
+          "2p": "hebben begrepen",
+          "3p": "hebben begrepen"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "begreep",
+          "2s": "begreep",
+          "3s": "begreep",
+          "1p": "begrepen",
+          "2p": "begrepen",
+          "3p": "begrepen"
+        },
+        "toekomende-tijd": {
+          "1s": "zal begrijpen",
+          "2s": "zult begrijpen",
+          "3s": "zal begrijpen",
+          "1p": "zullen begrijpen",
+          "2p": "zullen begrijpen",
+          "3p": "zullen begrijpen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "telefoon",
+      "primary_form": "telefoon",
+      "gloss": "telephone",
+      "extras": {
+        "article": "de",
+        "plural": "telefoons"
+      },
+      "tags": [
+        "objects",
+        "de"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "title": "Uitspraak",
+      "word_ids": [
+        "hallo",
+        "goedemorgen",
+        "dank-je-wel",
+        "alsjeblieft",
+        "sorry",
+        "pardon"
+      ],
+      "page_id": "nl-pronunciation"
+    },
+    {
+      "title": "Voornaamwoorden",
+      "word_ids": [
+        "hoi",
+        "dag",
+        "doei",
+        "tot-ziens",
+        "hoe-gaat-het",
+        "spreekt-u-engels"
+      ],
+      "page_id": "nl-pronouns"
+    },
+    {
+      "title": "Zijn en hebben",
+      "word_ids": [
+        "zijn",
+        "hebben",
+        "doen",
+        "willen",
+        "kunnen",
+        "moeten"
+      ],
+      "page_id": "nl-zijn-hebben"
+    },
+    {
+      "title": "De tegenwoordige tijd",
+      "word_ids": [
+        "werken",
+        "maken",
+        "zitten",
+        "wonen",
+        "leren",
+        "spelen",
+        "kijken"
+      ],
+      "page_id": "nl-present-spelling"
+    },
+    {
+      "title": "Werkwoord op de tweede plaats",
+      "word_ids": [
+        "lopen",
+        "fietsen",
+        "kopen",
+        "betalen",
+        "zoeken",
+        "vinden"
+      ],
+      "page_id": "nl-word-order"
+    },
+    {
+      "title": "Geen of niet",
+      "word_ids": [
+        "denken",
+        "geven",
+        "nemen",
+        "beginnen",
+        "blijven",
+        "staan"
+      ],
+      "page_id": "nl-negation"
+    },
+    {
+      "title": "Vraagzinnen",
+      "word_ids": [
+        "hoeveel-kost-het",
+        "waar-is-de-wc",
+        "wat-is-dat",
+        "hoe-laat-is-het",
+        "kunt-u-dat-herhalen",
+        "ik-begrijp-het-niet"
+      ],
+      "page_id": "nl-questions"
+    },
+    {
+      "title": "Meervoud",
+      "word_ids": [
+        "liggen",
+        "heten",
+        "wachten",
+        "koken",
+        "helpen",
+        "vragen",
+        "begrijpen"
+      ],
+      "page_id": "nl-plurals"
+    },
+    {
+      "title": "Verkleinwoorden",
+      "word_ids": [
+        "hoofd",
+        "oog",
+        "oor",
+        "hart",
+        "bed",
+        "appartement"
+      ],
+      "page_id": "nl-diminutives"
+    },
+    {
+      "title": "Getallen en tijd",
+      "word_ids": [
+        "uur",
+        "minuut",
+        "maandag",
+        "dinsdag",
+        "woensdag",
+        "ochtend"
+      ],
+      "page_id": "nl-numbers-time"
+    },
+    {
+      "title": "Mijn, jouw, ons en onze",
+      "word_ids": [
+        "vader",
+        "moeder",
+        "broer",
+        "zus",
+        "man",
+        "vrouw"
+      ],
+      "page_id": "nl-possessives"
+    },
+    {
+      "title": "Kleuren",
+      "word_ids": [
+        "rood",
+        "blauw",
+        "groen",
+        "geel",
+        "zwart",
+        "wit",
+        "bruin",
+        "oranje"
+      ]
+    },
+    {
+      "title": "Familie",
+      "word_ids": [
+        "zoon",
+        "dochter",
+        "ouder",
+        "opa",
+        "oma",
+        "oom",
+        "tante",
+        "neef",
+        "nicht"
+      ]
+    },
+    {
+      "title": "Begroetingen",
+      "word_ids": [
+        "goedemiddag",
+        "goedenavond",
+        "welterusten",
+        "tot-straks",
+        "tot-morgen",
+        "dank-u-wel",
+        "bedankt",
+        "alstublieft"
+      ]
+    },
+    {
+      "title": "Begroetingen",
+      "word_ids": [
+        "graag-gedaan",
+        "ja",
+        "nee",
+        "oke",
+        "goed-dank-je",
+        "prettig-kennis-te-maken",
+        "ik-weet-het-niet",
+        "mag-ik-de-rekening"
+      ]
+    },
+    {
+      "title": "Begroetingen",
+      "word_ids": [
+        "er-is-er-zijn",
+        "eet-smakelijk",
+        "proost",
+        "fijne-dag",
+        "fijn-weekend",
+        "het-maakt-niet-uit",
+        "geen-idee"
+      ]
+    },
+    {
+      "title": "Mensen",
+      "word_ids": [
+        "jongen",
+        "meisje",
+        "baby",
+        "buurman",
+        "naam",
+        "mens"
+      ]
+    },
+    {
+      "title": "Lichaam",
+      "word_ids": [
+        "mond",
+        "neus",
+        "hand",
+        "arm",
+        "been",
+        "voet",
+        "rug",
+        "buik",
+        "haar",
+        "tand"
+      ]
+    },
+    {
+      "title": "Eten",
+      "word_ids": [
+        "ontbijt",
+        "lunch",
+        "avondeten",
+        "kaas",
+        "vlees",
+        "vis",
+        "kip",
+        "ei",
+        "melk"
+      ]
+    },
+    {
+      "title": "Eten",
+      "word_ids": [
+        "koffie",
+        "thee",
+        "wijn",
+        "bier",
+        "appel",
+        "aardappel",
+        "groente",
+        "fruit",
+        "suiker"
+      ]
+    },
+    {
+      "title": "Eten",
+      "word_ids": [
+        "zout",
+        "rijst",
+        "boter",
+        "taart",
+        "koekje",
+        "broodje",
+        "hagelslag",
+        "stroopwafel",
+        "drop"
+      ]
+    },
+    {
+      "title": "Huis",
+      "word_ids": [
+        "slaapkamer",
+        "keuken",
+        "badkamer",
+        "woonkamer",
+        "sleutel",
+        "tuin",
+        "bank"
+      ]
+    },
+    {
+      "title": "Tijd",
+      "word_ids": [
+        "week",
+        "maand",
+        "jaar",
+        "middag",
+        "avond",
+        "donderdag",
+        "vrijdag",
+        "zaterdag",
+        "zondag"
+      ]
+    },
+    {
+      "title": "Stad",
+      "word_ids": [
+        "stad",
+        "straat",
+        "winkel",
+        "markt",
+        "bakker",
+        "station",
+        "school"
+      ]
+    },
+    {
+      "title": "Stad",
+      "word_ids": [
+        "kerk",
+        "ziekenhuis",
+        "restaurant",
+        "gracht",
+        "plein",
+        "brug",
+        "werk"
+      ]
+    },
+    {
+      "title": "Oefening",
+      "word_ids": [
+        "groot",
+        "klein",
+        "goed",
+        "slecht",
+        "mooi",
+        "lelijk",
+        "jong",
+        "oud",
+        "nieuw",
+        "aardig"
+      ]
+    },
+    {
+      "title": "Oefening",
+      "word_ids": [
+        "blij",
+        "lekker",
+        "warm",
+        "koud",
+        "makkelijk",
+        "moeilijk",
+        "duur",
+        "goedkoop",
+        "eerst",
+        "dan"
+      ]
+    },
+    {
+      "title": "Oefening",
+      "word_ids": [
+        "ook",
+        "komen",
+        "mogen",
+        "weten",
+        "kennen",
+        "zien",
+        "zeggen",
+        "luisteren",
+        "lezen"
+      ]
+    },
+    {
+      "title": "Oefening",
+      "word_ids": [
+        "schrijven",
+        "slapen",
+        "en",
+        "of",
+        "als",
+        "dat",
+        "fiets",
+        "geld",
+        "telefoon"
+      ]
+    }
+  ]
+}

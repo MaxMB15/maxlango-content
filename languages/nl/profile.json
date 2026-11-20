@@ -1,0 +1,170 @@
+{
+  "$schema": "https://maxlango/schemas/profile-v1.json",
+  "code": "nl",
+  "name": "Dutch",
+  "version": 2,
+  "capitalizeNouns": false,
+  "pronouns": {
+    "1s": "ik",
+    "2s": "jij",
+    "3s": "hij/zij",
+    "1p": "wij",
+    "2p": "jullie",
+    "3p": "zij"
+  },
+  "auxiliaries": ["hebben", "zijn"],
+  "adjectiveForms": [
+    { "key": "base", "label": "base" },
+    { "key": "inflected", "label": "inflected (+e)" }
+  ],
+  "concepts": [
+    {
+      "id": "lidwoorden",
+      "kind": "topic",
+      "label": "Lidwoorden",
+      "labelGloss": "articles",
+      "order": 0,
+      "dependsOn": []
+    },
+    {
+      "id": "de",
+      "kind": "noun-class",
+      "label": "de-woord",
+      "labelGloss": "common gender",
+      "article": "de",
+      "appliesTo": { "kind": "noun", "gender": "de" },
+      "dependsOn": ["lidwoorden"]
+    },
+    {
+      "id": "het",
+      "kind": "noun-class",
+      "label": "het-woord",
+      "labelGloss": "neuter gender",
+      "article": "het",
+      "appliesTo": { "kind": "noun", "gender": "het" },
+      "dependsOn": ["lidwoorden"]
+    },
+    {
+      "id": "meervoud",
+      "kind": "topic",
+      "label": "Meervoud",
+      "labelGloss": "plural",
+      "dependsOn": ["lidwoorden"]
+    },
+    {
+      "id": "bijvoeglijke-naamwoorden",
+      "kind": "adjective-class",
+      "label": "Bijvoeglijke naamwoorden",
+      "labelGloss": "adjectives",
+      "forms": ["base", "inflected"],
+      "appliesTo": { "kind": "adjective" },
+      "dependsOn": ["lidwoorden"]
+    },
+    {
+      "id": "tegenwoordige-tijd",
+      "kind": "tense",
+      "label": "Tegenwoordige tijd",
+      "labelGloss": "present tense",
+      "order": 0,
+      "role": "base-tense",
+      "appliesTo": { "kind": "verb" },
+      "dependsOn": [],
+      "patterns": [
+        {
+          "matchSuffix": "en",
+          "stemStrip": 2,
+          "rule": "The stem is found by removing **-en** and checking the final consonant. Add **-t** for 2nd/3rd singular.",
+          "subtitle": "Dutch weak verbs in -en: stem + ending, with -t for jij/hij/zij.",
+          "endings": ["∅", "-t", "-t", "-en", "-en", "-en"]
+        }
+      ]
+    },
+    {
+      "id": "voltooid-tegenwoordige-tijd",
+      "kind": "tense",
+      "label": "Voltooid tegenwoordige tijd",
+      "labelGloss": "present perfect",
+      "order": 1,
+      "dependsOn": ["tegenwoordige-tijd"]
+    },
+    {
+      "id": "onvoltooid-verleden-tijd",
+      "kind": "tense",
+      "label": "Onvoltooid verleden tijd",
+      "labelGloss": "imperfect",
+      "order": 2,
+      "dependsOn": ["tegenwoordige-tijd"]
+    },
+    {
+      "id": "toekomende-tijd",
+      "kind": "tense",
+      "label": "Toekomende tijd",
+      "labelGloss": "future",
+      "order": 3,
+      "dependsOn": ["tegenwoordige-tijd"]
+    },
+    {
+      "id": "ontkenning",
+      "kind": "topic",
+      "label": "Ontkenning",
+      "labelGloss": "negation",
+      "dependsOn": ["tegenwoordige-tijd"]
+    },
+    {
+      "id": "conj-coordinating",
+      "kind": "conjunction-class",
+      "label": "Nevenschikkend",
+      "labelGloss": "joins two main clauses; the verb stays in second place (en, maar, of, want, dus, doch)",
+      "order": 0,
+      "appliesTo": { "kind": "conjunction" },
+      "dependsOn": [],
+      "explainer": "A **nevenschikkend voegwoord** joins two main clauses, each of which could stand alone. After it, the second clause keeps **normal word order**: the subject, then the conjugated verb in second place.\n\nThere are only six. Learn them by heart, because every other conjunction works differently:\n\n**en · maar · of · want · dus · doch**\n\n| Clause 1 | | Clause 2, verb second |\n| --- | --- | --- |\n| Ik ben moe, | **want** | ik **heb** hard gewerkt. |\n| Het regent, | **maar** | wij **gaan** toch fietsen. |\n| Ga je mee, | **of** | **blijf** je thuis? |\n\n> The conjunction itself sits *outside* the clause. Read the clause after it as if it were a sentence on its own: *ik heb hard gewerkt*.\n\n**Dus** can also be an adverb, and then the verb jumps forward: *dus **ga** ik naar bed*. Both are correct. As a conjunction it keeps the order: *dus ik **ga** naar bed*.\n\n:::order{sentence=\"Ik ben moe, want ik heb hard gewerkt.\" after=\"want\" en=\"I'm tired, because I've worked hard.\"}\n:::"
+    },
+    {
+      "id": "conj-subordinating",
+      "kind": "conjunction-class",
+      "label": "Onderschikkend",
+      "labelGloss": "starts a bijzin; the conjugated verb goes to the end (omdat, als, dat, hoewel)",
+      "order": 1,
+      "appliesTo": { "kind": "conjunction" },
+      "dependsOn": [],
+      "explainer": "An **onderschikkend voegwoord** starts a **bijzin**, a clause that can't stand on its own. Inside the bijzin the conjugated verb moves to **the very end**.\n\n**omdat · als · dat · of** *(whether)* **· hoewel · toen · terwijl · voordat · nadat · zodat · zodra · tenzij · totdat · sinds**\n\n| Main clause | | Bijzin, verb last |\n| --- | --- | --- |\n| Ik ben moe, | **omdat** | ik hard **heb gewerkt**. |\n| Ik blijf thuis | **als** | het morgen **regent**. |\n| Ik denk | **dat** | hij morgen **komt**. |\n\nWith two verbs at the end, both orders are fine: *omdat ik hard **heb gewerkt*** or *omdat ik hard **gewerkt heb***.\n\nWhen the bijzin comes first, the main clause starts with its verb:\n\n***Omdat** ik moe **ben**, **ga** ik vroeg naar bed.*\n\n> **Want or omdat?** Both mean *because*. **Want** leaves the verb where it is: *want ik **ben** moe*. **Omdat** sends it to the end: *omdat ik moe **ben***.\n\n:::order{sentence=\"Ik ga vroeg naar bed, omdat ik erg moe ben.\" after=\"omdat\" en=\"I'm going to bed early, because I'm very tired.\"}\n:::"
+    },
+    {
+      "id": "conn-contrast",
+      "kind": "connective-class",
+      "label": "Tegenstelling",
+      "labelGloss": "the next statement pushes against the last one (echter, toch)",
+      "order": 0,
+      "appliesTo": { "kind": "connective" },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-cause",
+      "kind": "connective-class",
+      "label": "Oorzaak",
+      "labelGloss": "the next statement explains why (daarom, immers)",
+      "order": 1,
+      "appliesTo": { "kind": "connective" },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-addition",
+      "kind": "connective-class",
+      "label": "Toevoeging",
+      "labelGloss": "the next statement adds to the last one (bovendien, ook)",
+      "order": 2,
+      "appliesTo": { "kind": "connective" },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-sequence",
+      "kind": "connective-class",
+      "label": "Volgorde",
+      "labelGloss": "ordering in time or argument (eerst, vervolgens, ten slotte)",
+      "order": 3,
+      "appliesTo": { "kind": "connective" },
+      "dependsOn": []
+    }
+  ]
+}

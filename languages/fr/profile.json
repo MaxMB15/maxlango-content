@@ -1,0 +1,207 @@
+{
+  "$schema": "https://maxlango/schemas/profile-v1.json",
+  "code": "fr",
+  "name": "French",
+  "version": 2,
+  "capitalizeNouns": false,
+  "pronouns": {
+    "1s": "je",
+    "2s": "tu",
+    "3s": "il/elle",
+    "1p": "nous",
+    "2p": "vous",
+    "3p": "ils/elles"
+  },
+  "auxiliaries": ["avoir", "être"],
+  "adjectiveForms": [
+    { "key": "ms", "label": "masculine sg" },
+    { "key": "fs", "label": "feminine sg" },
+    { "key": "mp", "label": "masculine pl" },
+    { "key": "fp", "label": "feminine pl" }
+  ],
+  "concepts": [
+    {
+      "id": "genre",
+      "kind": "topic",
+      "label": "Genre",
+      "labelGloss": "gender",
+      "order": 0,
+      "dependsOn": []
+    },
+    {
+      "id": "masculin",
+      "kind": "noun-class",
+      "label": "masculin",
+      "labelGloss": "masculine",
+      "article": "le",
+      "appliesTo": { "kind": "noun", "gender": "m" },
+      "dependsOn": ["genre"]
+    },
+    {
+      "id": "féminin",
+      "kind": "noun-class",
+      "label": "féminin",
+      "labelGloss": "feminine",
+      "article": "la",
+      "appliesTo": { "kind": "noun", "gender": "f" },
+      "dependsOn": ["genre"]
+    },
+    {
+      "id": "articles",
+      "kind": "topic",
+      "label": "Articles",
+      "labelGloss": "articles",
+      "dependsOn": ["genre"]
+    },
+    {
+      "id": "pluriel",
+      "kind": "topic",
+      "label": "Pluriel",
+      "labelGloss": "plural",
+      "dependsOn": ["articles"]
+    },
+    {
+      "id": "adjectifs",
+      "kind": "adjective-class",
+      "label": "Adjectifs",
+      "labelGloss": "adjectives",
+      "forms": ["ms", "fs", "mp", "fp"],
+      "appliesTo": { "kind": "adjective" },
+      "dependsOn": ["genre"]
+    },
+    {
+      "id": "présent",
+      "kind": "tense",
+      "label": "Présent",
+      "labelGloss": "present tense",
+      "order": 0,
+      "role": "base-tense",
+      "appliesTo": { "kind": "verb" },
+      "dependsOn": [],
+      "patterns": [
+        {
+          "matchSuffix": "er",
+          "stemStrip": 2,
+          "rule": "Remove **-er** from the infinitive to get the stem. Add the endings for each person.",
+          "subtitle": "The most common verb group in French — learn this pattern once, use it for hundreds of verbs.",
+          "endings": ["-e", "-es", "-e", "-ons", "-ez", "-ent"]
+        },
+        {
+          "matchSuffix": "ir",
+          "stemStrip": 2,
+          "rule": "Remove **-ir** to get the stem, then add the infix **-iss-** for plural forms.",
+          "subtitle": "Second-group -IR verbs share one pattern — the plural forms add -iss- before the ending.",
+          "endings": ["-is", "-is", "-it", "-issons", "-issez", "-issent"]
+        },
+        {
+          "matchSuffix": "re",
+          "stemStrip": 2,
+          "rule": "Remove **-re** from the infinitive to get the stem. The 3rd person singular takes no ending.",
+          "subtitle": "Third-group -RE verbs: watch the silent endings in spoken French.",
+          "endings": ["-s", "-s", "∅", "-ons", "-ez", "-ent"]
+        }
+      ]
+    },
+    {
+      "id": "passé-composé",
+      "kind": "tense",
+      "label": "Passé composé",
+      "labelGloss": "present perfect",
+      "order": 1,
+      "dependsOn": ["présent"]
+    },
+    {
+      "id": "imparfait",
+      "kind": "tense",
+      "label": "Imparfait",
+      "labelGloss": "imperfect",
+      "order": 2,
+      "dependsOn": ["présent"]
+    },
+    {
+      "id": "futur-simple",
+      "kind": "tense",
+      "label": "Futur simple",
+      "labelGloss": "simple future",
+      "order": 3,
+      "dependsOn": ["présent"]
+    },
+    {
+      "id": "conditionnel",
+      "kind": "tense",
+      "label": "Conditionnel",
+      "labelGloss": "conditional",
+      "order": 4,
+      "dependsOn": ["présent"]
+    },
+    {
+      "id": "subjonctif",
+      "kind": "tense",
+      "label": "Subjonctif",
+      "labelGloss": "subjunctive",
+      "order": 5,
+      "dependsOn": ["présent"]
+    },
+    {
+      "id": "négation",
+      "kind": "topic",
+      "label": "Négation",
+      "labelGloss": "negation",
+      "dependsOn": ["présent"]
+    },
+    {
+      "id": "conj-coordinating",
+      "kind": "conjunction-class",
+      "label": "Coordination",
+      "labelGloss": "joins two clauses of equal weight without changing word order (mais, et, ou, donc, car)",
+      "order": 0,
+      "appliesTo": { "kind": "conjunction" },
+      "dependsOn": []
+    },
+    {
+      "id": "conj-subordinating",
+      "kind": "conjunction-class",
+      "label": "Subordination",
+      "labelGloss": "introduces a dependent clause (parce que, bien que, quand)",
+      "order": 1,
+      "appliesTo": { "kind": "conjunction" },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-contrast",
+      "kind": "connective-class",
+      "label": "Opposition",
+      "labelGloss": "the next statement pushes against the last one (cependant, pourtant)",
+      "order": 0,
+      "appliesTo": { "kind": "connective" },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-cause",
+      "kind": "connective-class",
+      "label": "Cause",
+      "labelGloss": "the next statement explains why (en effet, car)",
+      "order": 1,
+      "appliesTo": { "kind": "connective" },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-addition",
+      "kind": "connective-class",
+      "label": "Addition",
+      "labelGloss": "the next statement adds to the last one (de plus, en outre)",
+      "order": 2,
+      "appliesTo": { "kind": "connective" },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-sequence",
+      "kind": "connective-class",
+      "label": "Séquence",
+      "labelGloss": "ordering in time or argument (d'abord, ensuite, enfin)",
+      "order": 3,
+      "appliesTo": { "kind": "connective" },
+      "dependsOn": []
+    }
+  ]
+}

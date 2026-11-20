@@ -1,0 +1,5744 @@
+{
+  "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
+  "id": "fr-everyday-v1",
+  "version": 4,
+  "language": "fr",
+  "name": "Français · Au quotidien (A2)",
+  "author": "Max Boksem",
+  "license": "CC-BY-SA-4.0",
+  "profile_delta": [
+    {
+      "id": "verbes-pronominaux",
+      "kind": "topic",
+      "label": "Verbes pronominaux",
+      "labelGloss": "reflexive verbs",
+      "dependsOn": [
+        "présent"
+      ]
+    },
+    {
+      "id": "pronoms-objets",
+      "kind": "topic",
+      "label": "Pronoms objets",
+      "labelGloss": "object pronouns",
+      "dependsOn": [
+        "présent"
+      ]
+    },
+    {
+      "id": "clothing",
+      "kind": "topic",
+      "label": "Vêtements",
+      "labelGloss": "clothing",
+      "dependsOn": [
+        "articles"
+      ]
+    },
+    {
+      "id": "weather",
+      "kind": "topic",
+      "label": "Météo",
+      "labelGloss": "weather",
+      "dependsOn": [
+        "articles"
+      ]
+    },
+    {
+      "id": "travel",
+      "kind": "topic",
+      "label": "Voyage",
+      "labelGloss": "travel",
+      "dependsOn": [
+        "articles"
+      ]
+    },
+    {
+      "id": "work",
+      "kind": "topic",
+      "label": "Travail",
+      "labelGloss": "work and study",
+      "dependsOn": [
+        "articles"
+      ]
+    },
+    {
+      "id": "health",
+      "kind": "topic",
+      "label": "Santé",
+      "labelGloss": "health",
+      "dependsOn": [
+        "articles"
+      ]
+    },
+    {
+      "id": "leisure",
+      "kind": "topic",
+      "label": "Loisirs",
+      "labelGloss": "free time",
+      "dependsOn": [
+        "articles"
+      ]
+    },
+    {
+      "id": "feelings",
+      "kind": "topic",
+      "label": "Sentiments",
+      "labelGloss": "feelings and character",
+      "dependsOn": [
+        "adjectifs"
+      ]
+    },
+    {
+      "id": "shopping",
+      "kind": "topic",
+      "label": "Achats",
+      "labelGloss": "shopping and money",
+      "dependsOn": [
+        "articles"
+      ]
+    },
+    {
+      "id": "expressions",
+      "kind": "topic",
+      "label": "Expressions",
+      "labelGloss": "set phrases and idioms",
+      "dependsOn": []
+    },
+    {
+      "id": "conn-consequence",
+      "kind": "connective-class",
+      "label": "Conséquence",
+      "labelGloss": "the next statement is the result of the last one (alors, par conséquent)",
+      "order": 4,
+      "appliesTo": {
+        "kind": "connective"
+      },
+      "dependsOn": []
+    }
+  ],
+  "items": [
+    {
+      "kind": "misc",
+      "id": "fr-passe-compose",
+      "title": "The passé composé",
+      "body_md": "The **passé composé** is the everyday past tense for things that happened: *I ate*, *I have eaten* and *I did eat* are all *j'ai mangé*.\n\nIt has two parts: the present of **avoir** (or **être**, see the next page) and the **past participle**.\n\n| | manger |\n| --- | --- |\n| j' | ai mangé |\n| tu | as mangé |\n| il / elle | a mangé |\n| nous | avons mangé |\n| vous | avez mangé |\n| ils / elles | ont mangé |\n\n## Regular participles\n\n| Infinitive | Participle | Example |\n| --- | --- | --- |\n| -er | -é | parler → parlé |\n| -ir | -i | finir → fini |\n| -re | -u | vendre → vendu |\n\n## Irregular participles worth learning now\n\n| | | |\n| --- | --- | --- |\n| être → été | avoir → eu | faire → fait |\n| prendre → pris | mettre → mis | dire → dit |\n| écrire → écrit | voir → vu | lire → lu |\n| boire → bu | pouvoir → pu | vouloir → voulu |\n| devoir → dû | savoir → su | venir → venu |\n| ouvrir → ouvert | naître → né | mourir → mort |\n\n:::examples\n- J'ai mangé une pizza hier soir. — I ate a pizza last night.\n- Nous avons fini le travail. — We've finished the work.\n- Tu as vu ce film ? — Have you seen this film?\n:::\n\n## Negation and questions\n\n*Ne ... pas* wraps the helper verb, not the participle: *Je n'ai pas mangé.* With inversion, the helper moves too: *As-tu mangé ?*\n\n:::predict{prompt=\"nous (finir)\" answer=\"avons fini\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:fr-passe-compose"
+        ],
+        "explains": [
+          "passé-composé"
+        ]
+      },
+      "tags": [
+        "passé-composé"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "fr-etre-verbs",
+      "title": "Verbs that take être",
+      "body_md": "About twenty verbs, mostly about movement or change of state, build the passé composé with **être** instead of avoir. English speakers remember them as **DR MRS VANDERTRAMP**:\n\n| | | |\n| --- | --- | --- |\n| **D**evenir (devenu) | **R**evenir (revenu) | **M**onter (monté) |\n| **R**entrer (rentré) | **S**ortir (sorti) | **V**enir (venu) |\n| **A**ller (allé) | **N**aître (né) | **D**escendre (descendu) |\n| **E**ntrer (entré) | **R**ester (resté) | **T**omber (tombé) |\n| **R**etourner (retourné) | **A**rriver (arrivé) | **M**ourir (mort) |\n| **P**artir (parti) | | |\n\nPicture a house: you arrive, go in, go up the stairs, come down, go out, fall. Those are the être verbs.\n\n## Agreement\n\nWith être, the participle **agrees with the subject** like an adjective:\n\n:::examples\n- Il est allé à Paris. — He went to Paris.\n- Elle est allée à Paris. — She went to Paris.\n- Ils sont allés à Paris. — They went to Paris.\n- Elles sont allées à Paris. — They (all women) went to Paris.\n:::\n\nThe agreement is mostly silent, so you'll see it more than hear it. The drills in this app use the masculine form (*je suis allé*); if you're a woman, write *allée* in real life.\n\n## Reflexive verbs take être too\n\nEvery reflexive verb uses être: *je me suis levé*, *elle s'est habillée*.",
+      "extras": {
+        "unlocks": [
+          "concept:fr-etre-verbs"
+        ]
+      },
+      "tags": [
+        "passé-composé"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "fr-imparfait",
+      "title": "Imparfait or passé composé?",
+      "body_md": "French has two main past tenses, and the choice between them is about how you see the action, not when it happened.\n\n- **Passé composé**: a completed event. Something happened. *J'ai mangé une pizza.*\n- **Imparfait**: the background, a habit, or a state. What things were like. *Je mangeais une pizza* (I was eating a pizza / I used to eat pizza).\n\n## Forming the imparfait\n\nTake the **nous** form of the present, drop **-ons**, add **-ais, -ais, -ait, -ions, -iez, -aient**. Only *être* is irregular (stem *ét-*).\n\n| | parler (nous parlons) | être |\n| --- | --- | --- |\n| je | parlais | étais |\n| tu | parlais | étais |\n| il | parlait | était |\n| nous | parlions | étions |\n| vous | parliez | étiez |\n| ils | parlaient | étaient |\n\n## The film test\n\nImagine the past as a film. The **imparfait** is the scenery and what was already going on. The **passé composé** is the action that moves the plot.\n\n:::examples\n- Il pleuvait quand je suis sorti. — It was raining when I went out.\n- Quand j'étais petit, j'habitais à Nice. — When I was little, I lived in Nice.\n- Tous les étés, nous allions à la mer. — Every summer, we used to go to the sea.\n- Soudain, le téléphone a sonné. — Suddenly, the phone rang.\n:::\n\nSignal words help: *tous les jours*, *souvent*, *d'habitude*, *quand j'étais...* point to the imparfait; *soudain*, *un jour*, *hier*, *tout à coup* point to the passé composé.",
+      "extras": {
+        "unlocks": [
+          "concept:fr-imparfait"
+        ],
+        "explains": [
+          "imparfait"
+        ]
+      },
+      "tags": [
+        "imparfait"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "fr-reflexive-verbs",
+      "title": "Reflexive verbs: se lever",
+      "body_md": "A **reflexive verb** has an extra pronoun that refers back to the subject. English does this rarely (*I hurt myself*). French does it constantly, often where English uses \"get\": *se lever* (get up), *s'habiller* (get dressed), *se marier* (get married).\n\n| | se lever |\n| --- | --- |\n| je | me lève |\n| tu | te lèves |\n| il / elle | se lève |\n| nous | nous levons |\n| vous | vous levez |\n| ils / elles | se lèvent |\n\n*Me, te, se* become *m', t', s'* before a vowel: *je m'appelle*, *il s'habille*.\n\n## Daily routine\n\nThe morning routine in French is almost all reflexive: *je me réveille, je me lève, je me douche, je m'habille, je me brosse les dents*.\n\nNotice *je me brosse **les** dents*: with body parts, French uses the article, not a possessive. The reflexive pronoun already says whose teeth.\n\n## Each other\n\nIn the plural, the pronoun can mean \"each other\": *Ils s'aiment* (they love each other), *On se voit demain* (see each other tomorrow).\n\n## Past and negation\n\nReflexive verbs take **être** in the passé composé: *je me suis levé*. The negation wraps pronoun and verb together: *Je ne me lève pas.*",
+      "extras": {
+        "unlocks": [
+          "concept:fr-reflexive-verbs"
+        ],
+        "explains": [
+          "verbes-pronominaux"
+        ]
+      },
+      "tags": [
+        "verbes-pronominaux"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "fr-object-pronouns",
+      "title": "Le, lui, y, en: object pronouns",
+      "body_md": "French object pronouns go **before the verb**, which is the opposite of English. *I see him* is *je **le** vois*.\n\n## Direct objects: le, la, les\n\nReplace a noun that follows the verb directly.\n\n:::examples\n- Je vois Paul. → Je le vois. — I see him.\n- Tu prends la voiture ? → Tu la prends ? — Are you taking it?\n- Il aime les chats. → Il les aime. — He likes them.\n:::\n\n## Indirect objects: lui, leur\n\nReplace **à + a person**. *Lui* is both \"to him\" and \"to her\".\n\n:::examples\n- Je parle à Marie. → Je lui parle. — I talk to her.\n- Je téléphone à mes parents. → Je leur téléphone. — I phone them.\n:::\n\n**Me, te, nous, vous** are both direct and indirect: *Il me voit*, *Il me parle*.\n\n## Y and en\n\nThese two have no English equivalent.\n\n- **y** replaces **à + a place or thing**: *Tu vas à Paris ? Oui, j'y vais.* (Yes, I'm going there.)\n- **en** replaces **de + something**, including quantities and partitives: *Tu veux du café ? Oui, j'en veux.* (Yes, I want some.) *J'ai trois frères, j'en ai trois.*\n\n*Il y a* (there is) and *Je m'en vais* (I'm leaving) are fixed expressions that use them.\n\n## Order when there are two\n\nme / te / se / nous / vous → le / la / les → lui / leur → y → en\n\n*Il me le donne.* (He gives it to me.) *Je la lui donne.* (I give it to him.) *Il y en a.* (There are some.)\n\n## With an infinitive\n\nThe pronoun goes before the verb it belongs to: *Je vais le faire.* *Je peux t'aider.*",
+      "extras": {
+        "unlocks": [
+          "concept:fr-object-pronouns"
+        ],
+        "explains": [
+          "pronoms-objets"
+        ]
+      },
+      "tags": [
+        "pronoms-objets"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "fr-futur-simple",
+      "title": "The futur simple",
+      "body_md": "The **futur simple** says what will happen. It's more planned, formal or certain than *aller + infinitive*, and it's the tense for promises and predictions.\n\nTake the **infinitive** (drop the final **-e** of -re verbs) and add the endings of *avoir*: **-ai, -as, -a, -ons, -ez, -ont**.\n\n| | parler | prendre |\n| --- | --- | --- |\n| je | parlerai | prendrai |\n| tu | parleras | prendras |\n| il | parlera | prendra |\n| nous | parlerons | prendrons |\n| vous | parlerez | prendrez |\n| ils | parleront | prendront |\n\n## Irregular stems\n\nThe endings never change; only the stem does. These are worth learning as a list:\n\n| | | |\n| --- | --- | --- |\n| être → ser- | avoir → aur- | aller → ir- |\n| faire → fer- | venir → viendr- | voir → verr- |\n| pouvoir → pourr- | vouloir → voudr- | savoir → saur- |\n| devoir → devr- | envoyer → enverr- | il faut → il faudra |\n\n## Quand + future\n\nAfter **quand** and **dès que**, French uses the future where English uses the present: *Quand je serai grand, je serai pilote.* (When I grow up, I'll be a pilot.)\n\n:::examples\n- Demain, il fera beau. — Tomorrow the weather will be nice.\n- Je t'appellerai ce soir. — I'll call you tonight.\n- Quand je serai à Paris, je visiterai le Louvre. — When I'm in Paris, I'll visit the Louvre.\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:fr-futur-simple"
+        ],
+        "explains": [
+          "futur-simple"
+        ]
+      },
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "fr-comparisons",
+      "title": "More, less, as ... as",
+      "body_md": "Comparisons put a word before the adjective and **que** after it.\n\n| | Structure | Example |\n| --- | --- | --- |\n| more | plus ... que | Paul est plus grand que moi. |\n| less | moins ... que | Ce film est moins long que l'autre. |\n| as | aussi ... que | Elle est aussi intelligente que sa sœur. |\n\nAfter *que*, use the stressed pronouns: *moi, toi, lui, elle, nous, vous, eux, elles*.\n\n## The superlative\n\nAdd the article: *le plus*, *la plus*, *les plus*. *C'est la plus belle ville du monde.* (The most beautiful city in the world: note **du**, not *dans*.)\n\n## Good and well\n\n*Bon* (good, an adjective) and *bien* (well, an adverb) have irregular forms:\n\n| | better | the best |\n| --- | --- | --- |\n| bon | meilleur | le meilleur |\n| bien | mieux | le mieux |\n\n*Ce gâteau est meilleur.* *Elle chante mieux que moi.* Saying *plus bon* is a classic mistake.\n\n## With nouns and verbs\n\nWith a noun, use **plus de / moins de / autant de**: *J'ai plus de travail que toi.* With a verb, **plus / moins / autant** follow it: *Il travaille plus que moi.*",
+      "extras": {
+        "unlocks": [
+          "concept:fr-comparisons"
+        ]
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "fr-time-expressions",
+      "title": "Depuis, il y a, pendant",
+      "body_md": "English uses the present perfect for something that started in the past and is still going on: *I have lived here for three years*. French uses the **present tense** with **depuis**.\n\n:::examples\n- J'habite ici depuis trois ans. — I've lived here for three years.\n- Je t'attends depuis une heure ! — I've been waiting for you for an hour!\n- Depuis quand tu apprends le français ? — How long have you been learning French?\n:::\n\nSaying *j'ai habité ici depuis trois ans* is a very common mistake. It's wrong.\n\n## The other time words\n\n| Word | Meaning | Example |\n| --- | --- | --- |\n| il y a | ago | Je suis arrivé il y a deux jours. |\n| pendant | for, during (a finished period) | J'ai dormi pendant huit heures. |\n| dans | in (from now) | Le train part dans dix minutes. |\n| en | in (time it takes) | J'ai fait le trajet en deux heures. |\n\n*Dans dix minutes* is when something will start. *En dix minutes* is how long it takes.",
+      "extras": {
+        "unlocks": [
+          "concept:fr-time-expressions"
+        ],
+        "explains": [
+          "time"
+        ]
+      },
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "fr-gender-patterns",
+      "title": "Guessing a noun's gender",
+      "body_md": "There's no rule that always works, but word endings are right far more often than guessing.\n\n## Usually feminine\n\n| Ending | Examples |\n| --- | --- |\n| -tion, -sion | la nation, la télévision |\n| -té | la liberté, la société (but *l'été*, summer, is masculine) |\n| -ure | la voiture, la culture |\n| -ette | la baguette, la fourchette |\n| -ence, -ance | la patience, la chance |\n| -ie | la vie, la boulangerie |\n| -ée | l'année, la journée (but *le musée*, *le lycée*) |\n\n## Usually masculine\n\n| Ending | Examples |\n| --- | --- |\n| -ment | le moment, le gouvernement |\n| -age | le fromage, le voyage (but *la plage*, *la page*, *l'image*) |\n| -eau | le bateau, le gâteau (but *l'eau*, *la peau*) |\n| -isme | le tourisme |\n| -er, -ier | le boucher, le papier |\n| -oir | le soir, le miroir |\n\nDays, months, seasons, languages, metals and trees are masculine: *le lundi*, *le français*, *le chêne*.\n\n:::examples\n- La voiture est devant le garage. — The car is in front of the garage.\n- Le fromage et la baguette sont sur la table. — The cheese and the baguette are on the table.\n- Le musée est fermé le lundi. — The museum is closed on Mondays.\n:::\n\n## Same word, two genders\n\nA few nouns change meaning with gender. They're worth knowing because the wrong one sounds funny:\n\n| masculine | feminine |\n| --- | --- |\n| le livre (book) | la livre (pound) |\n| le tour (tour, turn) | la tour (tower) |\n| le poste (job, post) | la poste (post office) |\n| le mode (method, mood) | la mode (fashion) |\n| le vase (vase) | la vase (mud) |\n| le moule (mould) | la moule (mussel) |\n| le manche (handle) | la manche (sleeve; the Channel) |",
+      "extras": {
+        "unlocks": [
+          "concept:fr-gender-patterns"
+        ],
+        "explains": [
+          "genre",
+          "masculin",
+          "féminin"
+        ]
+      },
+      "tags": [
+        "genre"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vetement",
+      "primary_form": "vêtement",
+      "gloss": "piece of clothing",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "clothing",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "se-lever",
+      "primary_form": "se lever",
+      "gloss": "to get up",
+      "extras": {
+        "auxiliary": "être",
+        "participle": "levé",
+        "example": "Je me lève à sept heures.",
+        "example_en": "I get up at seven.",
+        "agreement": {
+          "passé-composé.1s": [
+            "levé",
+            "levée"
+          ],
+          "passé-composé.2s": [
+            "levé",
+            "levée"
+          ],
+          "passé-composé.3s": [
+            "levé",
+            "levée"
+          ],
+          "passé-composé.1p": [
+            "levés",
+            "levées"
+          ],
+          "passé-composé.2p": [
+            "levés",
+            "levées"
+          ],
+          "passé-composé.3p": [
+            "levés",
+            "levées"
+          ]
+        }
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "me lève",
+          "2s": "te lèves",
+          "3s": "se lève",
+          "1p": "nous levons",
+          "2p": "vous levez",
+          "3p": "se lèvent"
+        },
+        "passé-composé": {
+          "1s": "me suis levé(e)",
+          "2s": "t'es levé(e)",
+          "3s": "s'est levé(e)",
+          "1p": "nous sommes levé(e)s",
+          "2p": "vous êtes levé(e)s",
+          "3p": "se sont levé(e)s"
+        },
+        "imparfait": {
+          "1s": "me levais",
+          "2s": "te levais",
+          "3s": "se levait",
+          "1p": "nous levions",
+          "2p": "vous leviez",
+          "3p": "se levaient"
+        },
+        "futur-simple": {
+          "1s": "me lèverai",
+          "2s": "te lèveras",
+          "3s": "se lèvera",
+          "1p": "nous lèverons",
+          "2p": "vous lèverez",
+          "3p": "se lèveront"
+        },
+        "conditionnel": {
+          "1s": "me lèverais",
+          "2s": "te lèverais",
+          "3s": "se lèverait",
+          "1p": "nous lèverions",
+          "2p": "vous lèveriez",
+          "3p": "se lèveraient"
+        },
+        "subjonctif": {
+          "1s": "me lève",
+          "2s": "te lèves",
+          "3s": "se lève",
+          "1p": "nous levions",
+          "2p": "vous leviez",
+          "3p": "se lèvent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "chemise",
+      "primary_form": "chemise",
+      "gloss": "shirt",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "clothing",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "il-fait-beau",
+      "primary_form": "il fait beau",
+      "gloss": "the weather is nice",
+      "extras": {
+        "literal": "it makes beautiful"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "heureux",
+      "primary_form": "heureux",
+      "gloss": "happy",
+      "extras": {
+        "forms": {
+          "ms": "heureux",
+          "fs": "heureuse",
+          "mp": "heureux",
+          "fp": "heureuses"
+        }
+      },
+      "tags": [
+        "adjectifs",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pantalon",
+      "primary_form": "pantalon",
+      "gloss": "trousers",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "clothing",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "jupe",
+      "primary_form": "jupe",
+      "gloss": "skirt",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "clothing",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "se-reveiller",
+      "primary_form": "se réveiller",
+      "gloss": "to wake up",
+      "extras": {
+        "auxiliary": "être",
+        "participle": "réveillé",
+        "example": "Il se réveille tôt.",
+        "example_en": "He wakes up early.",
+        "agreement": {
+          "passé-composé.1s": [
+            "réveillé",
+            "réveillée"
+          ],
+          "passé-composé.2s": [
+            "réveillé",
+            "réveillée"
+          ],
+          "passé-composé.3s": [
+            "réveillé",
+            "réveillée"
+          ],
+          "passé-composé.1p": [
+            "réveillés",
+            "réveillées"
+          ],
+          "passé-composé.2p": [
+            "réveillés",
+            "réveillées"
+          ],
+          "passé-composé.3p": [
+            "réveillés",
+            "réveillées"
+          ]
+        }
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "me réveille",
+          "2s": "te réveilles",
+          "3s": "se réveille",
+          "1p": "nous réveillons",
+          "2p": "vous réveillez",
+          "3p": "se réveillent"
+        },
+        "passé-composé": {
+          "1s": "me suis réveillé(e)",
+          "2s": "t'es réveillé(e)",
+          "3s": "s'est réveillé(e)",
+          "1p": "nous sommes réveillé(e)s",
+          "2p": "vous êtes réveillé(e)s",
+          "3p": "se sont réveillé(e)s"
+        },
+        "imparfait": {
+          "1s": "me réveillais",
+          "2s": "te réveillais",
+          "3s": "se réveillait",
+          "1p": "nous réveillions",
+          "2p": "vous réveilliez",
+          "3p": "se réveillaient"
+        },
+        "futur-simple": {
+          "1s": "me réveillerai",
+          "2s": "te réveilleras",
+          "3s": "se réveillera",
+          "1p": "nous réveillerons",
+          "2p": "vous réveillerez",
+          "3p": "se réveilleront"
+        },
+        "conditionnel": {
+          "1s": "me réveillerais",
+          "2s": "te réveillerais",
+          "3s": "se réveillerait",
+          "1p": "nous réveillerions",
+          "2p": "vous réveilleriez",
+          "3p": "se réveilleraient"
+        },
+        "subjonctif": {
+          "1s": "me réveille",
+          "2s": "te réveilles",
+          "3s": "se réveille",
+          "1p": "nous réveillions",
+          "2p": "vous réveilliez",
+          "3p": "se réveillent"
+        }
+      }
+    },
+    {
+      "kind": "connective",
+      "id": "alors",
+      "primary_form": "alors",
+      "gloss": "so, then",
+      "extras": {
+        "role": "conn-consequence",
+        "example": "Il pleut, alors on reste à la maison.",
+        "example_en": "It's raining, so we're staying in."
+      },
+      "tags": [
+        "connecteurs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "robe",
+      "primary_form": "robe",
+      "gloss": "dress",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "clothing",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "il-fait-froid",
+      "primary_form": "il fait froid",
+      "gloss": "it's cold (weather)",
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "triste",
+      "primary_form": "triste",
+      "gloss": "sad",
+      "extras": {
+        "forms": {
+          "ms": "triste",
+          "fs": "triste",
+          "mp": "tristes",
+          "fp": "tristes"
+        }
+      },
+      "tags": [
+        "adjectifs",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "manteau",
+      "primary_form": "manteau",
+      "gloss": "coat",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "manteaux"
+      },
+      "tags": [
+        "clothing",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "s-habiller",
+      "primary_form": "s'habiller",
+      "gloss": "to get dressed",
+      "extras": {
+        "auxiliary": "être",
+        "participle": "habillé",
+        "example": "Elle s'habille vite.",
+        "example_en": "She gets dressed quickly.",
+        "agreement": {
+          "passé-composé.1s": [
+            "habillé",
+            "habillée"
+          ],
+          "passé-composé.2s": [
+            "habillé",
+            "habillée"
+          ],
+          "passé-composé.3s": [
+            "habillé",
+            "habillée"
+          ],
+          "passé-composé.1p": [
+            "habillés",
+            "habillées"
+          ],
+          "passé-composé.2p": [
+            "habillés",
+            "habillées"
+          ],
+          "passé-composé.3p": [
+            "habillés",
+            "habillées"
+          ]
+        }
+      },
+      "tags": [
+        "présent",
+        "clothing"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "m'habille",
+          "2s": "t'habilles",
+          "3s": "s'habille",
+          "1p": "nous habillons",
+          "2p": "vous habillez",
+          "3p": "s'habillent"
+        },
+        "passé-composé": {
+          "1s": "me suis habillé(e)",
+          "2s": "t'es habillé(e)",
+          "3s": "s'est habillé(e)",
+          "1p": "nous sommes habillé(e)s",
+          "2p": "vous êtes habillé(e)s",
+          "3p": "se sont habillé(e)s"
+        },
+        "imparfait": {
+          "1s": "m'habillais",
+          "2s": "t'habillais",
+          "3s": "s'habillait",
+          "1p": "nous habillions",
+          "2p": "vous habilliez",
+          "3p": "s'habillaient"
+        },
+        "futur-simple": {
+          "1s": "m'habillerai",
+          "2s": "t'habilleras",
+          "3s": "s'habillera",
+          "1p": "nous habillerons",
+          "2p": "vous habillerez",
+          "3p": "s'habilleront"
+        },
+        "conditionnel": {
+          "1s": "m'habillerais",
+          "2s": "t'habillerais",
+          "3s": "s'habillerait",
+          "1p": "nous habillerions",
+          "2p": "vous habilleriez",
+          "3p": "s'habilleraient"
+        },
+        "subjonctif": {
+          "1s": "m'habille",
+          "2s": "t'habilles",
+          "3s": "s'habille",
+          "1p": "nous habillions",
+          "2p": "vous habilliez",
+          "3p": "s'habillent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "veste",
+      "primary_form": "veste",
+      "gloss": "jacket",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "clothing",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pull",
+      "primary_form": "pull",
+      "gloss": "jumper, sweater",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "clothing",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "chaussure",
+      "primary_form": "chaussure",
+      "gloss": "shoe",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "clothing",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "se-coucher",
+      "primary_form": "se coucher",
+      "gloss": "to go to bed",
+      "extras": {
+        "auxiliary": "être",
+        "participle": "couché",
+        "example": "Les enfants se couchent à huit heures.",
+        "example_en": "The children go to bed at eight.",
+        "agreement": {
+          "passé-composé.1s": [
+            "couché",
+            "couchée"
+          ],
+          "passé-composé.2s": [
+            "couché",
+            "couchée"
+          ],
+          "passé-composé.3s": [
+            "couché",
+            "couchée"
+          ],
+          "passé-composé.1p": [
+            "couchés",
+            "couchées"
+          ],
+          "passé-composé.2p": [
+            "couchés",
+            "couchées"
+          ],
+          "passé-composé.3p": [
+            "couchés",
+            "couchées"
+          ]
+        }
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "me couche",
+          "2s": "te couches",
+          "3s": "se couche",
+          "1p": "nous couchons",
+          "2p": "vous couchez",
+          "3p": "se couchent"
+        },
+        "passé-composé": {
+          "1s": "me suis couché(e)",
+          "2s": "t'es couché(e)",
+          "3s": "s'est couché(e)",
+          "1p": "nous sommes couché(e)s",
+          "2p": "vous êtes couché(e)s",
+          "3p": "se sont couché(e)s"
+        },
+        "imparfait": {
+          "1s": "me couchais",
+          "2s": "te couchais",
+          "3s": "se couchait",
+          "1p": "nous couchions",
+          "2p": "vous couchiez",
+          "3p": "se couchaient"
+        },
+        "futur-simple": {
+          "1s": "me coucherai",
+          "2s": "te coucheras",
+          "3s": "se couchera",
+          "1p": "nous coucherons",
+          "2p": "vous coucherez",
+          "3p": "se coucheront"
+        },
+        "conditionnel": {
+          "1s": "me coucherais",
+          "2s": "te coucherais",
+          "3s": "se coucherait",
+          "1p": "nous coucherions",
+          "2p": "vous coucheriez",
+          "3p": "se coucheraient"
+        },
+        "subjonctif": {
+          "1s": "me couche",
+          "2s": "te couches",
+          "3s": "se couche",
+          "1p": "nous couchions",
+          "2p": "vous couchiez",
+          "3p": "se couchent"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "il-pleut",
+      "primary_form": "il pleut",
+      "gloss": "it's raining",
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "fache",
+      "primary_form": "fâché",
+      "gloss": "angry",
+      "extras": {
+        "forms": {
+          "ms": "fâché",
+          "fs": "fâchée",
+          "mp": "fâchés",
+          "fp": "fâchées"
+        }
+      },
+      "tags": [
+        "adjectifs",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "chaussette",
+      "primary_form": "chaussette",
+      "gloss": "sock",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "clothing",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "chapeau",
+      "primary_form": "chapeau",
+      "gloss": "hat",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "chapeaux"
+      },
+      "tags": [
+        "clothing",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "se-promener",
+      "primary_form": "se promener",
+      "gloss": "to go for a walk",
+      "extras": {
+        "auxiliary": "être",
+        "participle": "promené",
+        "example": "On se promène au parc.",
+        "example_en": "We're going for a walk in the park.",
+        "agreement": {
+          "passé-composé.1s": [
+            "promené",
+            "promenée"
+          ],
+          "passé-composé.2s": [
+            "promené",
+            "promenée"
+          ],
+          "passé-composé.3s": [
+            "promené",
+            "promenée"
+          ],
+          "passé-composé.1p": [
+            "promenés",
+            "promenées"
+          ],
+          "passé-composé.2p": [
+            "promenés",
+            "promenées"
+          ],
+          "passé-composé.3p": [
+            "promenés",
+            "promenées"
+          ]
+        }
+      },
+      "tags": [
+        "présent",
+        "leisure"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "me promène",
+          "2s": "te promènes",
+          "3s": "se promène",
+          "1p": "nous promenons",
+          "2p": "vous promenez",
+          "3p": "se promènent"
+        },
+        "passé-composé": {
+          "1s": "me suis promené(e)",
+          "2s": "t'es promené(e)",
+          "3s": "s'est promené(e)",
+          "1p": "nous sommes promené(e)s",
+          "2p": "vous êtes promené(e)s",
+          "3p": "se sont promené(e)s"
+        },
+        "imparfait": {
+          "1s": "me promenais",
+          "2s": "te promenais",
+          "3s": "se promenait",
+          "1p": "nous promenions",
+          "2p": "vous promeniez",
+          "3p": "se promenaient"
+        },
+        "futur-simple": {
+          "1s": "me promènerai",
+          "2s": "te promèneras",
+          "3s": "se promènera",
+          "1p": "nous promènerons",
+          "2p": "vous promènerez",
+          "3p": "se promèneront"
+        },
+        "conditionnel": {
+          "1s": "me promènerais",
+          "2s": "te promènerais",
+          "3s": "se promènerait",
+          "1p": "nous promènerions",
+          "2p": "vous promèneriez",
+          "3p": "se promèneraient"
+        },
+        "subjonctif": {
+          "1s": "me promène",
+          "2s": "te promènes",
+          "3s": "se promène",
+          "1p": "nous promenions",
+          "2p": "vous promeniez",
+          "3p": "se promènent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "sac",
+      "primary_form": "sac",
+      "gloss": "bag",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "clothing",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "je-voudrais",
+      "primary_form": "je voudrais...",
+      "gloss": "I would like...",
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "temps",
+      "primary_form": "temps",
+      "gloss": "weather; time",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "temps"
+      },
+      "tags": [
+        "weather",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "calme",
+      "primary_form": "calme",
+      "gloss": "calm, quiet",
+      "extras": {
+        "forms": {
+          "ms": "calme",
+          "fs": "calme",
+          "mp": "calmes",
+          "fp": "calmes"
+        }
+      },
+      "tags": [
+        "adjectifs",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "par-consequent",
+      "primary_form": "par conséquent",
+      "gloss": "consequently",
+      "extras": {
+        "role": "conn-consequence",
+        "example": "Le train est en retard ; par conséquent, nous arriverons à midi.",
+        "example_en": "The train is late; consequently, we'll arrive at noon."
+      },
+      "tags": [
+        "connecteurs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pluie",
+      "primary_form": "pluie",
+      "gloss": "rain",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "weather",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "se-sentir",
+      "primary_form": "se sentir",
+      "gloss": "to feel",
+      "extras": {
+        "auxiliary": "être",
+        "participle": "senti",
+        "example": "Je ne me sens pas bien.",
+        "example_en": "I don't feel well.",
+        "agreement": {
+          "passé-composé.1s": [
+            "senti",
+            "sentie"
+          ],
+          "passé-composé.2s": [
+            "senti",
+            "sentie"
+          ],
+          "passé-composé.3s": [
+            "senti",
+            "sentie"
+          ],
+          "passé-composé.1p": [
+            "sentis",
+            "senties"
+          ],
+          "passé-composé.2p": [
+            "sentis",
+            "senties"
+          ],
+          "passé-composé.3p": [
+            "sentis",
+            "senties"
+          ]
+        }
+      },
+      "tags": [
+        "présent",
+        "health"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "me sens",
+          "2s": "te sens",
+          "3s": "se sent",
+          "1p": "nous sentons",
+          "2p": "vous sentez",
+          "3p": "se sentent"
+        },
+        "passé-composé": {
+          "1s": "me suis senti(e)",
+          "2s": "t'es senti(e)",
+          "3s": "s'est senti(e)",
+          "1p": "nous sommes senti(e)s",
+          "2p": "vous êtes senti(e)s",
+          "3p": "se sont senti(e)s"
+        },
+        "imparfait": {
+          "1s": "me sentais",
+          "2s": "te sentais",
+          "3s": "se sentait",
+          "1p": "nous sentions",
+          "2p": "vous sentiez",
+          "3p": "se sentaient"
+        },
+        "futur-simple": {
+          "1s": "me sentirai",
+          "2s": "te sentiras",
+          "3s": "se sentira",
+          "1p": "nous sentirons",
+          "2p": "vous sentirez",
+          "3p": "se sentiront"
+        },
+        "conditionnel": {
+          "1s": "me sentirais",
+          "2s": "te sentirais",
+          "3s": "se sentirait",
+          "1p": "nous sentirions",
+          "2p": "vous sentiriez",
+          "3p": "se sentiraient"
+        },
+        "subjonctif": {
+          "1s": "me sente",
+          "2s": "te sentes",
+          "3s": "se sente",
+          "1p": "nous sentions",
+          "2p": "vous sentiez",
+          "3p": "se sentent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "neige",
+      "primary_form": "neige",
+      "gloss": "snow",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "weather",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vent",
+      "primary_form": "vent",
+      "gloss": "wind",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "weather",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "je-suis-en-train-de",
+      "primary_form": "je suis en train de...",
+      "gloss": "I'm in the middle of (doing)...",
+      "extras": {
+        "literal": "I am in the process of"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "rester",
+      "primary_form": "rester",
+      "gloss": "to stay",
+      "extras": {
+        "auxiliary": "être",
+        "participle": "resté",
+        "example": "Je reste à la maison.",
+        "example_en": "I'm staying at home.",
+        "agreement": {
+          "passé-composé.1s": [
+            "resté",
+            "restée"
+          ],
+          "passé-composé.2s": [
+            "resté",
+            "restée"
+          ],
+          "passé-composé.3s": [
+            "resté",
+            "restée"
+          ],
+          "passé-composé.1p": [
+            "restés",
+            "restées"
+          ],
+          "passé-composé.2p": [
+            "restés",
+            "restées"
+          ],
+          "passé-composé.3p": [
+            "restés",
+            "restées"
+          ]
+        }
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "reste",
+          "2s": "restes",
+          "3s": "reste",
+          "1p": "restons",
+          "2p": "restez",
+          "3p": "restent"
+        },
+        "passé-composé": {
+          "1s": "suis resté(e)",
+          "2s": "es resté(e)",
+          "3s": "est resté(e)",
+          "1p": "sommes resté(e)s",
+          "2p": "êtes resté(e)s",
+          "3p": "sont resté(e)s"
+        },
+        "imparfait": {
+          "1s": "restais",
+          "2s": "restais",
+          "3s": "restait",
+          "1p": "restions",
+          "2p": "restiez",
+          "3p": "restaient"
+        },
+        "futur-simple": {
+          "1s": "resterai",
+          "2s": "resteras",
+          "3s": "restera",
+          "1p": "resterons",
+          "2p": "resterez",
+          "3p": "resteront"
+        },
+        "conditionnel": {
+          "1s": "resterais",
+          "2s": "resterais",
+          "3s": "resterait",
+          "1p": "resterions",
+          "2p": "resteriez",
+          "3p": "resteraient"
+        },
+        "subjonctif": {
+          "1s": "reste",
+          "2s": "restes",
+          "3s": "reste",
+          "1p": "restions",
+          "2p": "restiez",
+          "3p": "restent"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "sympa",
+      "primary_form": "sympa",
+      "gloss": "nice, friendly (informal)",
+      "extras": {
+        "forms": {
+          "ms": "sympa",
+          "fs": "sympa",
+          "mp": "sympas",
+          "fp": "sympas"
+        }
+      },
+      "tags": [
+        "adjectifs",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "nuage",
+      "primary_form": "nuage",
+      "gloss": "cloud",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "weather",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ciel",
+      "primary_form": "ciel",
+      "gloss": "sky",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "cieux"
+      },
+      "tags": [
+        "weather",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "orage",
+      "primary_form": "orage",
+      "gloss": "storm",
+      "extras": {
+        "gender": "m",
+        "article": "l'"
+      },
+      "tags": [
+        "weather",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "tomber",
+      "primary_form": "tomber",
+      "gloss": "to fall",
+      "extras": {
+        "auxiliary": "être",
+        "participle": "tombé",
+        "example": "Attention, tu vas tomber !",
+        "example_en": "Careful, you're going to fall!",
+        "agreement": {
+          "passé-composé.1s": [
+            "tombé",
+            "tombée"
+          ],
+          "passé-composé.2s": [
+            "tombé",
+            "tombée"
+          ],
+          "passé-composé.3s": [
+            "tombé",
+            "tombée"
+          ],
+          "passé-composé.1p": [
+            "tombés",
+            "tombées"
+          ],
+          "passé-composé.2p": [
+            "tombés",
+            "tombées"
+          ],
+          "passé-composé.3p": [
+            "tombés",
+            "tombées"
+          ]
+        }
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "tombe",
+          "2s": "tombes",
+          "3s": "tombe",
+          "1p": "tombons",
+          "2p": "tombez",
+          "3p": "tombent"
+        },
+        "passé-composé": {
+          "1s": "suis tombé(e)",
+          "2s": "es tombé(e)",
+          "3s": "est tombé(e)",
+          "1p": "sommes tombé(e)s",
+          "2p": "êtes tombé(e)s",
+          "3p": "sont tombé(e)s"
+        },
+        "imparfait": {
+          "1s": "tombais",
+          "2s": "tombais",
+          "3s": "tombait",
+          "1p": "tombions",
+          "2p": "tombiez",
+          "3p": "tombaient"
+        },
+        "futur-simple": {
+          "1s": "tomberai",
+          "2s": "tomberas",
+          "3s": "tombera",
+          "1p": "tomberons",
+          "2p": "tomberez",
+          "3p": "tomberont"
+        },
+        "conditionnel": {
+          "1s": "tomberais",
+          "2s": "tomberais",
+          "3s": "tomberait",
+          "1p": "tomberions",
+          "2p": "tomberiez",
+          "3p": "tomberaient"
+        },
+        "subjonctif": {
+          "1s": "tombe",
+          "2s": "tombes",
+          "3s": "tombe",
+          "1p": "tombions",
+          "2p": "tombiez",
+          "3p": "tombent"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "ca-depend",
+      "primary_form": "ça dépend",
+      "gloss": "it depends",
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ete",
+      "primary_form": "été",
+      "gloss": "summer",
+      "extras": {
+        "gender": "m",
+        "article": "l'"
+      },
+      "tags": [
+        "weather",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "drole",
+      "primary_form": "drôle",
+      "gloss": "funny",
+      "extras": {
+        "forms": {
+          "ms": "drôle",
+          "fs": "drôle",
+          "mp": "drôles",
+          "fp": "drôles"
+        }
+      },
+      "tags": [
+        "adjectifs",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "hiver",
+      "primary_form": "hiver",
+      "gloss": "winter",
+      "extras": {
+        "gender": "m",
+        "article": "l'"
+      },
+      "tags": [
+        "weather",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "entrer",
+      "primary_form": "entrer",
+      "gloss": "to go in, to enter",
+      "extras": {
+        "auxiliary": "être",
+        "participle": "entré",
+        "example": "Entrez, je vous en prie.",
+        "example_en": "Come in, please.",
+        "agreement": {
+          "passé-composé.1s": [
+            "entré",
+            "entrée"
+          ],
+          "passé-composé.2s": [
+            "entré",
+            "entrée"
+          ],
+          "passé-composé.3s": [
+            "entré",
+            "entrée"
+          ],
+          "passé-composé.1p": [
+            "entrés",
+            "entrées"
+          ],
+          "passé-composé.2p": [
+            "entrés",
+            "entrées"
+          ],
+          "passé-composé.3p": [
+            "entrés",
+            "entrées"
+          ]
+        }
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "entre",
+          "2s": "entres",
+          "3s": "entre",
+          "1p": "entrons",
+          "2p": "entrez",
+          "3p": "entrent"
+        },
+        "passé-composé": {
+          "1s": "suis entré(e)",
+          "2s": "es entré(e)",
+          "3s": "est entré(e)",
+          "1p": "sommes entré(e)s",
+          "2p": "êtes entré(e)s",
+          "3p": "sont entré(e)s"
+        },
+        "imparfait": {
+          "1s": "entrais",
+          "2s": "entrais",
+          "3s": "entrait",
+          "1p": "entrions",
+          "2p": "entriez",
+          "3p": "entraient"
+        },
+        "futur-simple": {
+          "1s": "entrerai",
+          "2s": "entreras",
+          "3s": "entrera",
+          "1p": "entrerons",
+          "2p": "entrerez",
+          "3p": "entreront"
+        },
+        "conditionnel": {
+          "1s": "entrerais",
+          "2s": "entrerais",
+          "3s": "entrerait",
+          "1p": "entrerions",
+          "2p": "entreriez",
+          "3p": "entreraient"
+        },
+        "subjonctif": {
+          "1s": "entre",
+          "2s": "entres",
+          "3s": "entre",
+          "1p": "entrions",
+          "2p": "entriez",
+          "3p": "entrent"
+        }
+      }
+    },
+    {
+      "kind": "connective",
+      "id": "pourtant",
+      "primary_form": "pourtant",
+      "gloss": "yet, and yet",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "Il est riche ; pourtant, il n'est pas heureux.",
+        "example_en": "He's rich, and yet he isn't happy."
+      },
+      "tags": [
+        "connecteurs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "printemps",
+      "primary_form": "printemps",
+      "gloss": "spring",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "printemps"
+      },
+      "tags": [
+        "weather",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "automne",
+      "primary_form": "automne",
+      "gloss": "autumn",
+      "extras": {
+        "gender": "m",
+        "article": "l'"
+      },
+      "tags": [
+        "weather",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "pas-de-probleme",
+      "primary_form": "pas de problème",
+      "gloss": "no problem",
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "saison",
+      "primary_form": "saison",
+      "gloss": "season",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "weather",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "rentrer",
+      "primary_form": "rentrer",
+      "gloss": "to go home, to come back",
+      "extras": {
+        "auxiliary": "être",
+        "participle": "rentré",
+        "example": "Je rentre tard ce soir.",
+        "example_en": "I'm getting home late tonight.",
+        "agreement": {
+          "passé-composé.1s": [
+            "rentré",
+            "rentrée"
+          ],
+          "passé-composé.2s": [
+            "rentré",
+            "rentrée"
+          ],
+          "passé-composé.3s": [
+            "rentré",
+            "rentrée"
+          ],
+          "passé-composé.1p": [
+            "rentrés",
+            "rentrées"
+          ],
+          "passé-composé.2p": [
+            "rentrés",
+            "rentrées"
+          ],
+          "passé-composé.3p": [
+            "rentrés",
+            "rentrées"
+          ]
+        }
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "rentre",
+          "2s": "rentres",
+          "3s": "rentre",
+          "1p": "rentrons",
+          "2p": "rentrez",
+          "3p": "rentrent"
+        },
+        "passé-composé": {
+          "1s": "suis rentré(e)",
+          "2s": "es rentré(e)",
+          "3s": "est rentré(e)",
+          "1p": "sommes rentré(e)s",
+          "2p": "êtes rentré(e)s",
+          "3p": "sont rentré(e)s"
+        },
+        "imparfait": {
+          "1s": "rentrais",
+          "2s": "rentrais",
+          "3s": "rentrait",
+          "1p": "rentrions",
+          "2p": "rentriez",
+          "3p": "rentraient"
+        },
+        "futur-simple": {
+          "1s": "rentrerai",
+          "2s": "rentreras",
+          "3s": "rentrera",
+          "1p": "rentrerons",
+          "2p": "rentrerez",
+          "3p": "rentreront"
+        },
+        "conditionnel": {
+          "1s": "rentrerais",
+          "2s": "rentrerais",
+          "3s": "rentrerait",
+          "1p": "rentrerions",
+          "2p": "rentreriez",
+          "3p": "rentreraient"
+        },
+        "subjonctif": {
+          "1s": "rentre",
+          "2s": "rentres",
+          "3s": "rentre",
+          "1p": "rentrions",
+          "2p": "rentriez",
+          "3p": "rentrent"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "serieux",
+      "primary_form": "sérieux",
+      "gloss": "serious",
+      "extras": {
+        "forms": {
+          "ms": "sérieux",
+          "fs": "sérieuse",
+          "mp": "sérieux",
+          "fp": "sérieuses"
+        }
+      },
+      "tags": [
+        "adjectifs",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "voyage",
+      "primary_form": "voyage",
+      "gloss": "trip, journey",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "travel",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "billet",
+      "primary_form": "billet",
+      "gloss": "ticket; banknote",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "travel",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "monter",
+      "primary_form": "monter",
+      "gloss": "to go up; to get on",
+      "extras": {
+        "auxiliary": "être",
+        "participle": "monté",
+        "example": "Elle monte dans le bus.",
+        "example_en": "She gets on the bus.",
+        "agreement": {
+          "passé-composé.1s": [
+            "monté",
+            "montée"
+          ],
+          "passé-composé.2s": [
+            "monté",
+            "montée"
+          ],
+          "passé-composé.3s": [
+            "monté",
+            "montée"
+          ],
+          "passé-composé.1p": [
+            "montés",
+            "montées"
+          ],
+          "passé-composé.2p": [
+            "montés",
+            "montées"
+          ],
+          "passé-composé.3p": [
+            "montés",
+            "montées"
+          ]
+        }
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "monte",
+          "2s": "montes",
+          "3s": "monte",
+          "1p": "montons",
+          "2p": "montez",
+          "3p": "montent"
+        },
+        "passé-composé": {
+          "1s": "suis monté(e)",
+          "2s": "es monté(e)",
+          "3s": "est monté(e)",
+          "1p": "sommes monté(e)s",
+          "2p": "êtes monté(e)s",
+          "3p": "sont monté(e)s"
+        },
+        "imparfait": {
+          "1s": "montais",
+          "2s": "montais",
+          "3s": "montait",
+          "1p": "montions",
+          "2p": "montiez",
+          "3p": "montaient"
+        },
+        "futur-simple": {
+          "1s": "monterai",
+          "2s": "monteras",
+          "3s": "montera",
+          "1p": "monterons",
+          "2p": "monterez",
+          "3p": "monteront"
+        },
+        "conditionnel": {
+          "1s": "monterais",
+          "2s": "monterais",
+          "3s": "monterait",
+          "1p": "monterions",
+          "2p": "monteriez",
+          "3p": "monteraient"
+        },
+        "subjonctif": {
+          "1s": "monte",
+          "2s": "montes",
+          "3s": "monte",
+          "1p": "montions",
+          "2p": "montiez",
+          "3p": "montent"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "bien-sur",
+      "primary_form": "bien sûr",
+      "gloss": "of course",
+      "extras": {
+        "literal": "well sure"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "valise",
+      "primary_form": "valise",
+      "gloss": "suitcase",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "travel",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "timide",
+      "primary_form": "timide",
+      "gloss": "shy",
+      "extras": {
+        "forms": {
+          "ms": "timide",
+          "fs": "timide",
+          "mp": "timides",
+          "fp": "timides"
+        }
+      },
+      "tags": [
+        "adjectifs",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "passeport",
+      "primary_form": "passeport",
+      "gloss": "passport",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "travel",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "descendre",
+      "primary_form": "descendre",
+      "gloss": "to go down; to get off",
+      "extras": {
+        "auxiliary": "être",
+        "participle": "descendu",
+        "example": "On descend au prochain arrêt.",
+        "example_en": "We get off at the next stop.",
+        "agreement": {
+          "passé-composé.1s": [
+            "descendu",
+            "descendue"
+          ],
+          "passé-composé.2s": [
+            "descendu",
+            "descendue"
+          ],
+          "passé-composé.3s": [
+            "descendu",
+            "descendue"
+          ],
+          "passé-composé.1p": [
+            "descendus",
+            "descendues"
+          ],
+          "passé-composé.2p": [
+            "descendus",
+            "descendues"
+          ],
+          "passé-composé.3p": [
+            "descendus",
+            "descendues"
+          ]
+        }
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "descends",
+          "2s": "descends",
+          "3s": "descend",
+          "1p": "descendons",
+          "2p": "descendez",
+          "3p": "descendent"
+        },
+        "passé-composé": {
+          "1s": "suis descendu(e)",
+          "2s": "es descendu(e)",
+          "3s": "est descendu(e)",
+          "1p": "sommes descendu(e)s",
+          "2p": "êtes descendu(e)s",
+          "3p": "sont descendu(e)s"
+        },
+        "imparfait": {
+          "1s": "descendais",
+          "2s": "descendais",
+          "3s": "descendait",
+          "1p": "descendions",
+          "2p": "descendiez",
+          "3p": "descendaient"
+        },
+        "futur-simple": {
+          "1s": "descendrai",
+          "2s": "descendras",
+          "3s": "descendra",
+          "1p": "descendrons",
+          "2p": "descendrez",
+          "3p": "descendront"
+        },
+        "conditionnel": {
+          "1s": "descendrais",
+          "2s": "descendrais",
+          "3s": "descendrait",
+          "1p": "descendrions",
+          "2p": "descendriez",
+          "3p": "descendraient"
+        },
+        "subjonctif": {
+          "1s": "descende",
+          "2s": "descendes",
+          "3s": "descende",
+          "1p": "descendions",
+          "2p": "descendiez",
+          "3p": "descendent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "hotel",
+      "primary_form": "hôtel",
+      "gloss": "hotel",
+      "extras": {
+        "gender": "m",
+        "article": "l'"
+      },
+      "tags": [
+        "travel",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "plage",
+      "primary_form": "plage",
+      "gloss": "beach",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "travel",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "peut-etre",
+      "primary_form": "peut-être",
+      "gloss": "maybe",
+      "extras": {
+        "literal": "can be"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "en-revanche",
+      "primary_form": "en revanche",
+      "gloss": "on the other hand",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "Le logement est cher ; en revanche, la nourriture est bon marché.",
+        "example_en": "Housing is expensive; food, on the other hand, is cheap."
+      },
+      "tags": [
+        "connecteurs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mer",
+      "primary_form": "mer",
+      "gloss": "sea",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "travel",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "paresseux",
+      "primary_form": "paresseux",
+      "gloss": "lazy",
+      "extras": {
+        "forms": {
+          "ms": "paresseux",
+          "fs": "paresseuse",
+          "mp": "paresseux",
+          "fp": "paresseuses"
+        }
+      },
+      "tags": [
+        "adjectifs",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "devenir",
+      "primary_form": "devenir",
+      "gloss": "to become",
+      "extras": {
+        "auxiliary": "être",
+        "participle": "devenu",
+        "example": "Il veut devenir médecin.",
+        "example_en": "He wants to become a doctor.",
+        "agreement": {
+          "passé-composé.1s": [
+            "devenu",
+            "devenue"
+          ],
+          "passé-composé.2s": [
+            "devenu",
+            "devenue"
+          ],
+          "passé-composé.3s": [
+            "devenu",
+            "devenue"
+          ],
+          "passé-composé.1p": [
+            "devenus",
+            "devenues"
+          ],
+          "passé-composé.2p": [
+            "devenus",
+            "devenues"
+          ],
+          "passé-composé.3p": [
+            "devenus",
+            "devenues"
+          ]
+        }
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "deviens",
+          "2s": "deviens",
+          "3s": "devient",
+          "1p": "devenons",
+          "2p": "devenez",
+          "3p": "deviennent"
+        },
+        "passé-composé": {
+          "1s": "suis devenu(e)",
+          "2s": "es devenu(e)",
+          "3s": "est devenu(e)",
+          "1p": "sommes devenu(e)s",
+          "2p": "êtes devenu(e)s",
+          "3p": "sont devenu(e)s"
+        },
+        "imparfait": {
+          "1s": "devenais",
+          "2s": "devenais",
+          "3s": "devenait",
+          "1p": "devenions",
+          "2p": "deveniez",
+          "3p": "devenaient"
+        },
+        "futur-simple": {
+          "1s": "deviendrai",
+          "2s": "deviendras",
+          "3s": "deviendra",
+          "1p": "deviendrons",
+          "2p": "deviendrez",
+          "3p": "deviendront"
+        },
+        "conditionnel": {
+          "1s": "deviendrais",
+          "2s": "deviendrais",
+          "3s": "deviendrait",
+          "1p": "deviendrions",
+          "2p": "deviendriez",
+          "3p": "deviendraient"
+        },
+        "subjonctif": {
+          "1s": "devienne",
+          "2s": "deviennes",
+          "3s": "devienne",
+          "1p": "devenions",
+          "2p": "deveniez",
+          "3p": "deviennent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "montagne",
+      "primary_form": "montagne",
+      "gloss": "mountain",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "travel",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pays",
+      "primary_form": "pays",
+      "gloss": "country",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "pays"
+      },
+      "tags": [
+        "travel",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "j-ai-mal-a-la-tete",
+      "primary_form": "j'ai mal à la tête",
+      "gloss": "I have a headache",
+      "extras": {
+        "literal": "I have hurt at the head"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "revenir",
+      "primary_form": "revenir",
+      "gloss": "to come back",
+      "extras": {
+        "auxiliary": "être",
+        "participle": "revenu",
+        "example": "Je reviens tout de suite.",
+        "example_en": "I'll be right back.",
+        "agreement": {
+          "passé-composé.1s": [
+            "revenu",
+            "revenue"
+          ],
+          "passé-composé.2s": [
+            "revenu",
+            "revenue"
+          ],
+          "passé-composé.3s": [
+            "revenu",
+            "revenue"
+          ],
+          "passé-composé.1p": [
+            "revenus",
+            "revenues"
+          ],
+          "passé-composé.2p": [
+            "revenus",
+            "revenues"
+          ],
+          "passé-composé.3p": [
+            "revenus",
+            "revenues"
+          ]
+        }
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "reviens",
+          "2s": "reviens",
+          "3s": "revient",
+          "1p": "revenons",
+          "2p": "revenez",
+          "3p": "reviennent"
+        },
+        "passé-composé": {
+          "1s": "suis revenu(e)",
+          "2s": "es revenu(e)",
+          "3s": "est revenu(e)",
+          "1p": "sommes revenu(e)s",
+          "2p": "êtes revenu(e)s",
+          "3p": "sont revenu(e)s"
+        },
+        "imparfait": {
+          "1s": "revenais",
+          "2s": "revenais",
+          "3s": "revenait",
+          "1p": "revenions",
+          "2p": "reveniez",
+          "3p": "revenaient"
+        },
+        "futur-simple": {
+          "1s": "reviendrai",
+          "2s": "reviendras",
+          "3s": "reviendra",
+          "1p": "reviendrons",
+          "2p": "reviendrez",
+          "3p": "reviendront"
+        },
+        "conditionnel": {
+          "1s": "reviendrais",
+          "2s": "reviendrais",
+          "3s": "reviendrait",
+          "1p": "reviendrions",
+          "2p": "reviendriez",
+          "3p": "reviendraient"
+        },
+        "subjonctif": {
+          "1s": "revienne",
+          "2s": "reviennes",
+          "3s": "revienne",
+          "1p": "revenions",
+          "2p": "reveniez",
+          "3p": "reviennent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "avion",
+      "primary_form": "avion",
+      "gloss": "aeroplane",
+      "extras": {
+        "gender": "m",
+        "article": "l'"
+      },
+      "tags": [
+        "transport",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "sportif",
+      "primary_form": "sportif",
+      "gloss": "sporty",
+      "extras": {
+        "forms": {
+          "ms": "sportif",
+          "fs": "sportive",
+          "mp": "sportifs",
+          "fp": "sportives"
+        }
+      },
+      "tags": [
+        "adjectifs",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "train",
+      "primary_form": "train",
+      "gloss": "train",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "transport",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "bus",
+      "primary_form": "bus",
+      "gloss": "bus",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "bus"
+      },
+      "tags": [
+        "transport",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "naitre",
+      "primary_form": "naître",
+      "gloss": "to be born",
+      "extras": {
+        "auxiliary": "être",
+        "participle": "né",
+        "example": "Je suis né en 1990.",
+        "example_en": "I was born in 1990.",
+        "agreement": {
+          "passé-composé.1s": [
+            "né",
+            "née"
+          ],
+          "passé-composé.2s": [
+            "né",
+            "née"
+          ],
+          "passé-composé.3s": [
+            "né",
+            "née"
+          ],
+          "passé-composé.1p": [
+            "nés",
+            "nées"
+          ],
+          "passé-composé.2p": [
+            "nés",
+            "nées"
+          ],
+          "passé-composé.3p": [
+            "nés",
+            "nées"
+          ]
+        }
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "nais",
+          "2s": "nais",
+          "3s": "naît",
+          "1p": "naissons",
+          "2p": "naissez",
+          "3p": "naissent"
+        },
+        "passé-composé": {
+          "1s": "suis né(e)",
+          "2s": "es né(e)",
+          "3s": "est né(e)",
+          "1p": "sommes né(e)s",
+          "2p": "êtes né(e)s",
+          "3p": "sont né(e)s"
+        },
+        "imparfait": {
+          "1s": "naissais",
+          "2s": "naissais",
+          "3s": "naissait",
+          "1p": "naissions",
+          "2p": "naissiez",
+          "3p": "naissaient"
+        },
+        "futur-simple": {
+          "1s": "naîtrai",
+          "2s": "naîtras",
+          "3s": "naîtra",
+          "1p": "naîtrons",
+          "2p": "naîtrez",
+          "3p": "naîtront"
+        },
+        "conditionnel": {
+          "1s": "naîtrais",
+          "2s": "naîtrais",
+          "3s": "naîtrait",
+          "1p": "naîtrions",
+          "2p": "naîtriez",
+          "3p": "naîtraient"
+        },
+        "subjonctif": {
+          "1s": "naisse",
+          "2s": "naisses",
+          "3s": "naisse",
+          "1p": "naissions",
+          "2p": "naissiez",
+          "3p": "naissent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "velo",
+      "primary_form": "vélo",
+      "gloss": "bicycle",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "transport",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ca-ne-fait-rien",
+      "primary_form": "ça ne fait rien",
+      "gloss": "never mind, it doesn't matter",
+      "extras": {
+        "literal": "that makes nothing"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "metro",
+      "primary_form": "métro",
+      "gloss": "underground, metro",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "transport",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "malade",
+      "primary_form": "malade",
+      "gloss": "ill, sick",
+      "extras": {
+        "forms": {
+          "ms": "malade",
+          "fs": "malade",
+          "mp": "malades",
+          "fp": "malades"
+        }
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "mourir",
+      "primary_form": "mourir",
+      "gloss": "to die",
+      "extras": {
+        "auxiliary": "être",
+        "participle": "mort",
+        "example": "Je meurs de faim !",
+        "example_en": "I'm starving! (I'm dying of hunger)",
+        "agreement": {
+          "passé-composé.1s": [
+            "mort",
+            "morte"
+          ],
+          "passé-composé.2s": [
+            "mort",
+            "morte"
+          ],
+          "passé-composé.3s": [
+            "mort",
+            "morte"
+          ],
+          "passé-composé.1p": [
+            "morts",
+            "mortes"
+          ],
+          "passé-composé.2p": [
+            "morts",
+            "mortes"
+          ],
+          "passé-composé.3p": [
+            "morts",
+            "mortes"
+          ]
+        }
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "meurs",
+          "2s": "meurs",
+          "3s": "meurt",
+          "1p": "mourons",
+          "2p": "mourez",
+          "3p": "meurent"
+        },
+        "passé-composé": {
+          "1s": "suis mort(e)",
+          "2s": "es mort(e)",
+          "3s": "est mort(e)",
+          "1p": "sommes mort(e)s",
+          "2p": "êtes mort(e)s",
+          "3p": "sont mort(e)s"
+        },
+        "imparfait": {
+          "1s": "mourais",
+          "2s": "mourais",
+          "3s": "mourait",
+          "1p": "mourions",
+          "2p": "mouriez",
+          "3p": "mouraient"
+        },
+        "futur-simple": {
+          "1s": "mourrai",
+          "2s": "mourras",
+          "3s": "mourra",
+          "1p": "mourrons",
+          "2p": "mourrez",
+          "3p": "mourront"
+        },
+        "conditionnel": {
+          "1s": "mourrais",
+          "2s": "mourrais",
+          "3s": "mourrait",
+          "1p": "mourrions",
+          "2p": "mourriez",
+          "3p": "mourraient"
+        },
+        "subjonctif": {
+          "1s": "meure",
+          "2s": "meures",
+          "3s": "meure",
+          "1p": "mourions",
+          "2p": "mouriez",
+          "3p": "meurent"
+        }
+      }
+    },
+    {
+      "kind": "connective",
+      "id": "en-plus",
+      "primary_form": "en plus",
+      "gloss": "on top of that",
+      "extras": {
+        "role": "conn-addition",
+        "example": "Il est en retard, et en plus il a oublié les clés.",
+        "example_en": "He's late, and on top of that he forgot the keys."
+      },
+      "tags": [
+        "connecteurs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "bateau",
+      "primary_form": "bateau",
+      "gloss": "boat",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "bateaux"
+      },
+      "tags": [
+        "transport",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "aeroport",
+      "primary_form": "aéroport",
+      "gloss": "airport",
+      "extras": {
+        "gender": "m",
+        "article": "l'"
+      },
+      "tags": [
+        "transport",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "je-m-en-fiche",
+      "primary_form": "je m'en fiche",
+      "gloss": "I don't care (informal)",
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "carte",
+      "primary_form": "carte",
+      "gloss": "map; card; menu",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "travel",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "ouvrir",
+      "primary_form": "ouvrir",
+      "gloss": "to open",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "ouvert",
+        "example": "Tu peux ouvrir la fenêtre ?",
+        "example_en": "Can you open the window?"
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "ouvre",
+          "2s": "ouvres",
+          "3s": "ouvre",
+          "1p": "ouvrons",
+          "2p": "ouvrez",
+          "3p": "ouvrent"
+        },
+        "passé-composé": {
+          "1s": "ai ouvert",
+          "2s": "as ouvert",
+          "3s": "a ouvert",
+          "1p": "avons ouvert",
+          "2p": "avez ouvert",
+          "3p": "ont ouvert"
+        },
+        "imparfait": {
+          "1s": "ouvrais",
+          "2s": "ouvrais",
+          "3s": "ouvrait",
+          "1p": "ouvrions",
+          "2p": "ouvriez",
+          "3p": "ouvraient"
+        },
+        "futur-simple": {
+          "1s": "ouvrirai",
+          "2s": "ouvriras",
+          "3s": "ouvrira",
+          "1p": "ouvrirons",
+          "2p": "ouvrirez",
+          "3p": "ouvriront"
+        },
+        "conditionnel": {
+          "1s": "ouvrirais",
+          "2s": "ouvrirais",
+          "3s": "ouvrirait",
+          "1p": "ouvririons",
+          "2p": "ouvririez",
+          "3p": "ouvriraient"
+        },
+        "subjonctif": {
+          "1s": "ouvre",
+          "2s": "ouvres",
+          "3s": "ouvre",
+          "1p": "ouvrions",
+          "2p": "ouvriez",
+          "3p": "ouvrent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "bureau",
+      "primary_form": "bureau",
+      "gloss": "office; desk",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "bureaux"
+      },
+      "tags": [
+        "work",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "occupe",
+      "primary_form": "occupé",
+      "gloss": "busy",
+      "extras": {
+        "forms": {
+          "ms": "occupé",
+          "fs": "occupée",
+          "mp": "occupés",
+          "fp": "occupées"
+        }
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "entreprise",
+      "primary_form": "entreprise",
+      "gloss": "company",
+      "extras": {
+        "gender": "f",
+        "article": "l'"
+      },
+      "tags": [
+        "work",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "fermer",
+      "primary_form": "fermer",
+      "gloss": "to close",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "fermé",
+        "example": "Le magasin ferme à sept heures.",
+        "example_en": "The shop closes at seven."
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "ferme",
+          "2s": "fermes",
+          "3s": "ferme",
+          "1p": "fermons",
+          "2p": "fermez",
+          "3p": "ferment"
+        },
+        "passé-composé": {
+          "1s": "ai fermé",
+          "2s": "as fermé",
+          "3s": "a fermé",
+          "1p": "avons fermé",
+          "2p": "avez fermé",
+          "3p": "ont fermé"
+        },
+        "imparfait": {
+          "1s": "fermais",
+          "2s": "fermais",
+          "3s": "fermait",
+          "1p": "fermions",
+          "2p": "fermiez",
+          "3p": "fermaient"
+        },
+        "futur-simple": {
+          "1s": "fermerai",
+          "2s": "fermeras",
+          "3s": "fermera",
+          "1p": "fermerons",
+          "2p": "fermerez",
+          "3p": "fermeront"
+        },
+        "conditionnel": {
+          "1s": "fermerais",
+          "2s": "fermerais",
+          "3s": "fermerait",
+          "1p": "fermerions",
+          "2p": "fermeriez",
+          "3p": "fermeraient"
+        },
+        "subjonctif": {
+          "1s": "ferme",
+          "2s": "fermes",
+          "3s": "ferme",
+          "1p": "fermions",
+          "2p": "fermiez",
+          "3p": "ferment"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "collegue",
+      "primary_form": "collègue",
+      "gloss": "colleague",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "work",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "c-est-pas-grave",
+      "primary_form": "c'est pas grave",
+      "gloss": "it's no big deal",
+      "extras": {
+        "literal": "it's not serious"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "patron",
+      "primary_form": "patron",
+      "gloss": "boss",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "work",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "libre",
+      "primary_form": "libre",
+      "gloss": "free (not busy)",
+      "extras": {
+        "forms": {
+          "ms": "libre",
+          "fs": "libre",
+          "mp": "libres",
+          "fp": "libres"
+        }
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "reunion",
+      "primary_form": "réunion",
+      "gloss": "meeting",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "work",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "connaitre",
+      "primary_form": "connaître",
+      "gloss": "to know (a person, a place)",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "connu",
+        "example": "Tu connais Marie ?",
+        "example_en": "Do you know Marie?"
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "connais",
+          "2s": "connais",
+          "3s": "connaît",
+          "1p": "connaissons",
+          "2p": "connaissez",
+          "3p": "connaissent"
+        },
+        "passé-composé": {
+          "1s": "ai connu",
+          "2s": "as connu",
+          "3s": "a connu",
+          "1p": "avons connu",
+          "2p": "avez connu",
+          "3p": "ont connu"
+        },
+        "imparfait": {
+          "1s": "connaissais",
+          "2s": "connaissais",
+          "3s": "connaissait",
+          "1p": "connaissions",
+          "2p": "connaissiez",
+          "3p": "connaissaient"
+        },
+        "futur-simple": {
+          "1s": "connaîtrai",
+          "2s": "connaîtras",
+          "3s": "connaîtra",
+          "1p": "connaîtrons",
+          "2p": "connaîtrez",
+          "3p": "connaîtront"
+        },
+        "conditionnel": {
+          "1s": "connaîtrais",
+          "2s": "connaîtrais",
+          "3s": "connaîtrait",
+          "1p": "connaîtrions",
+          "2p": "connaîtriez",
+          "3p": "connaîtraient"
+        },
+        "subjonctif": {
+          "1s": "connaisse",
+          "2s": "connaisses",
+          "3s": "connaisse",
+          "1p": "connaissions",
+          "2p": "connaissiez",
+          "3p": "connaissent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "salaire",
+      "primary_form": "salaire",
+      "gloss": "salary",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "work",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "a-tout-a-l-heure",
+      "primary_form": "à tout à l'heure",
+      "gloss": "see you later (today)",
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "enfin",
+      "primary_form": "enfin",
+      "gloss": "finally, at last",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "Enfin, nous sommes arrivés.",
+        "example_en": "At last, we arrived."
+      },
+      "tags": [
+        "connecteurs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "metier",
+      "primary_form": "métier",
+      "gloss": "trade, profession",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "work",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "croire",
+      "primary_form": "croire",
+      "gloss": "to believe",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "cru",
+        "example": "Je crois que tu as raison.",
+        "example_en": "I think you're right."
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "crois",
+          "2s": "crois",
+          "3s": "croit",
+          "1p": "croyons",
+          "2p": "croyez",
+          "3p": "croient"
+        },
+        "passé-composé": {
+          "1s": "ai cru",
+          "2s": "as cru",
+          "3s": "a cru",
+          "1p": "avons cru",
+          "2p": "avez cru",
+          "3p": "ont cru"
+        },
+        "imparfait": {
+          "1s": "croyais",
+          "2s": "croyais",
+          "3s": "croyait",
+          "1p": "croyions",
+          "2p": "croyiez",
+          "3p": "croyaient"
+        },
+        "futur-simple": {
+          "1s": "croirai",
+          "2s": "croiras",
+          "3s": "croira",
+          "1p": "croirons",
+          "2p": "croirez",
+          "3p": "croiront"
+        },
+        "conditionnel": {
+          "1s": "croirais",
+          "2s": "croirais",
+          "3s": "croirait",
+          "1p": "croirions",
+          "2p": "croiriez",
+          "3p": "croiraient"
+        },
+        "subjonctif": {
+          "1s": "croie",
+          "2s": "croies",
+          "3s": "croie",
+          "1p": "croyions",
+          "2p": "croyiez",
+          "3p": "croient"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "etudiant",
+      "primary_form": "étudiant",
+      "gloss": "student",
+      "extras": {
+        "gender": "m",
+        "article": "l'"
+      },
+      "tags": [
+        "work",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "pret",
+      "primary_form": "prêt",
+      "gloss": "ready",
+      "extras": {
+        "forms": {
+          "ms": "prêt",
+          "fs": "prête",
+          "mp": "prêts",
+          "fp": "prêtes"
+        }
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "professeur",
+      "primary_form": "professeur",
+      "gloss": "teacher",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "work",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ca-te-dit",
+      "primary_form": "ça te dit ?",
+      "gloss": "do you fancy it?",
+      "extras": {
+        "literal": "does that say to you?"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cours",
+      "primary_form": "cours",
+      "gloss": "lesson, class",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "cours"
+      },
+      "tags": [
+        "work",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "recevoir",
+      "primary_form": "recevoir",
+      "gloss": "to receive",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "reçu",
+        "example": "J'ai reçu ton message.",
+        "example_en": "I got your message."
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "reçois",
+          "2s": "reçois",
+          "3s": "reçoit",
+          "1p": "recevons",
+          "2p": "recevez",
+          "3p": "reçoivent"
+        },
+        "passé-composé": {
+          "1s": "ai reçu",
+          "2s": "as reçu",
+          "3s": "a reçu",
+          "1p": "avons reçu",
+          "2p": "avez reçu",
+          "3p": "ont reçu"
+        },
+        "imparfait": {
+          "1s": "recevais",
+          "2s": "recevais",
+          "3s": "recevait",
+          "1p": "recevions",
+          "2p": "receviez",
+          "3p": "recevaient"
+        },
+        "futur-simple": {
+          "1s": "recevrai",
+          "2s": "recevras",
+          "3s": "recevra",
+          "1p": "recevrons",
+          "2p": "recevrez",
+          "3p": "recevront"
+        },
+        "conditionnel": {
+          "1s": "recevrais",
+          "2s": "recevrais",
+          "3s": "recevrait",
+          "1p": "recevrions",
+          "2p": "recevriez",
+          "3p": "recevraient"
+        },
+        "subjonctif": {
+          "1s": "reçoive",
+          "2s": "reçoives",
+          "3s": "reçoive",
+          "1p": "recevions",
+          "2p": "receviez",
+          "3p": "reçoivent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "examen",
+      "primary_form": "examen",
+      "gloss": "exam",
+      "extras": {
+        "gender": "m",
+        "article": "l'"
+      },
+      "tags": [
+        "work",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "plein",
+      "primary_form": "plein",
+      "gloss": "full",
+      "extras": {
+        "forms": {
+          "ms": "plein",
+          "fs": "pleine",
+          "mp": "pleins",
+          "fp": "pleines"
+        }
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ordinateur",
+      "primary_form": "ordinateur",
+      "gloss": "computer",
+      "extras": {
+        "gender": "m",
+        "article": "l'"
+      },
+      "tags": [
+        "work",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "envoyer",
+      "primary_form": "envoyer",
+      "gloss": "to send",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "envoyé",
+        "example": "Je t'envoie une photo.",
+        "example_en": "I'll send you a photo."
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "envoie",
+          "2s": "envoies",
+          "3s": "envoie",
+          "1p": "envoyons",
+          "2p": "envoyez",
+          "3p": "envoient"
+        },
+        "passé-composé": {
+          "1s": "ai envoyé",
+          "2s": "as envoyé",
+          "3s": "a envoyé",
+          "1p": "avons envoyé",
+          "2p": "avez envoyé",
+          "3p": "ont envoyé"
+        },
+        "imparfait": {
+          "1s": "envoyais",
+          "2s": "envoyais",
+          "3s": "envoyait",
+          "1p": "envoyions",
+          "2p": "envoyiez",
+          "3p": "envoyaient"
+        },
+        "futur-simple": {
+          "1s": "enverrai",
+          "2s": "enverras",
+          "3s": "enverra",
+          "1p": "enverrons",
+          "2p": "enverrez",
+          "3p": "enverront"
+        },
+        "conditionnel": {
+          "1s": "enverrais",
+          "2s": "enverrais",
+          "3s": "enverrait",
+          "1p": "enverrions",
+          "2p": "enverriez",
+          "3p": "enverraient"
+        },
+        "subjonctif": {
+          "1s": "envoie",
+          "2s": "envoies",
+          "3s": "envoie",
+          "1p": "envoyions",
+          "2p": "envoyiez",
+          "3p": "envoient"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "sante",
+      "primary_form": "santé",
+      "gloss": "health",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "health",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "volontiers",
+      "primary_form": "volontiers",
+      "gloss": "gladly, I'd love to",
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "medecin",
+      "primary_form": "médecin",
+      "gloss": "doctor",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "health",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pharmacie",
+      "primary_form": "pharmacie",
+      "gloss": "chemist's, pharmacy",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "health",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "apres",
+      "primary_form": "après",
+      "gloss": "afterwards",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "On mange d'abord, et on sort après.",
+        "example_en": "We eat first, and go out afterwards."
+      },
+      "tags": [
+        "connecteurs"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "payer",
+      "primary_form": "payer",
+      "gloss": "to pay (for)",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "payé",
+        "example": "Je peux payer par carte ?",
+        "example_en": "Can I pay by card?"
+      },
+      "tags": [
+        "présent",
+        "shopping"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "paie",
+          "2s": "paies",
+          "3s": "paie",
+          "1p": "payons",
+          "2p": "payez",
+          "3p": "paient"
+        },
+        "passé-composé": {
+          "1s": "ai payé",
+          "2s": "as payé",
+          "3s": "a payé",
+          "1p": "avons payé",
+          "2p": "avez payé",
+          "3p": "ont payé"
+        },
+        "imparfait": {
+          "1s": "payais",
+          "2s": "payais",
+          "3s": "payait",
+          "1p": "payions",
+          "2p": "payiez",
+          "3p": "payaient"
+        },
+        "futur-simple": {
+          "1s": "paierai",
+          "2s": "paieras",
+          "3s": "paiera",
+          "1p": "paierons",
+          "2p": "paierez",
+          "3p": "paieront"
+        },
+        "conditionnel": {
+          "1s": "paierais",
+          "2s": "paierais",
+          "3s": "paierait",
+          "1p": "paierions",
+          "2p": "paieriez",
+          "3p": "paieraient"
+        },
+        "subjonctif": {
+          "1s": "paie",
+          "2s": "paies",
+          "3s": "paie",
+          "1p": "payions",
+          "2p": "payiez",
+          "3p": "paient"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "vide",
+      "primary_form": "vide",
+      "gloss": "empty",
+      "extras": {
+        "forms": {
+          "ms": "vide",
+          "fs": "vide",
+          "mp": "vides",
+          "fp": "vides"
+        }
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "medicament",
+      "primary_form": "médicament",
+      "gloss": "medicine (a drug)",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "health",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tant-pis",
+      "primary_form": "tant pis",
+      "gloss": "too bad, oh well",
+      "extras": {
+        "literal": "so much the worse"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "rhume",
+      "primary_form": "rhume",
+      "gloss": "cold (illness)",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "health",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "essayer",
+      "primary_form": "essayer",
+      "gloss": "to try; to try on",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "essayé",
+        "example": "Je peux essayer cette veste ?",
+        "example_en": "Can I try on this jacket?"
+      },
+      "tags": [
+        "présent",
+        "clothing"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "essaie",
+          "2s": "essaies",
+          "3s": "essaie",
+          "1p": "essayons",
+          "2p": "essayez",
+          "3p": "essaient"
+        },
+        "passé-composé": {
+          "1s": "ai essayé",
+          "2s": "as essayé",
+          "3s": "a essayé",
+          "1p": "avons essayé",
+          "2p": "avez essayé",
+          "3p": "ont essayé"
+        },
+        "imparfait": {
+          "1s": "essayais",
+          "2s": "essayais",
+          "3s": "essayait",
+          "1p": "essayions",
+          "2p": "essayiez",
+          "3p": "essayaient"
+        },
+        "futur-simple": {
+          "1s": "essaierai",
+          "2s": "essaieras",
+          "3s": "essaiera",
+          "1p": "essaierons",
+          "2p": "essaierez",
+          "3p": "essaieront"
+        },
+        "conditionnel": {
+          "1s": "essaierais",
+          "2s": "essaierais",
+          "3s": "essaierait",
+          "1p": "essaierions",
+          "2p": "essaieriez",
+          "3p": "essaieraient"
+        },
+        "subjonctif": {
+          "1s": "essaie",
+          "2s": "essaies",
+          "3s": "essaie",
+          "1p": "essayions",
+          "2p": "essayiez",
+          "3p": "essaient"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "fievre",
+      "primary_form": "fièvre",
+      "gloss": "fever",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "health",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "douleur",
+      "primary_form": "douleur",
+      "gloss": "pain",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "health",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "long",
+      "primary_form": "long",
+      "gloss": "long",
+      "extras": {
+        "forms": {
+          "ms": "long",
+          "fs": "longue",
+          "mp": "longs",
+          "fp": "longues"
+        },
+        "position": "before the noun"
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "rendez-vous",
+      "primary_form": "rendez-vous",
+      "gloss": "appointment; date",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "rendez-vous"
+      },
+      "tags": [
+        "health",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "oublier",
+      "primary_form": "oublier",
+      "gloss": "to forget",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "oublié",
+        "example": "J'ai oublié mon parapluie.",
+        "example_en": "I forgot my umbrella."
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "oublie",
+          "2s": "oublies",
+          "3s": "oublie",
+          "1p": "oublions",
+          "2p": "oubliez",
+          "3p": "oublient"
+        },
+        "passé-composé": {
+          "1s": "ai oublié",
+          "2s": "as oublié",
+          "3s": "a oublié",
+          "1p": "avons oublié",
+          "2p": "avez oublié",
+          "3p": "ont oublié"
+        },
+        "imparfait": {
+          "1s": "oubliais",
+          "2s": "oubliais",
+          "3s": "oubliait",
+          "1p": "oubliions",
+          "2p": "oubliiez",
+          "3p": "oubliaient"
+        },
+        "futur-simple": {
+          "1s": "oublierai",
+          "2s": "oublieras",
+          "3s": "oubliera",
+          "1p": "oublierons",
+          "2p": "oublierez",
+          "3p": "oublieront"
+        },
+        "conditionnel": {
+          "1s": "oublierais",
+          "2s": "oublierais",
+          "3s": "oublierait",
+          "1p": "oublierions",
+          "2p": "oublieriez",
+          "3p": "oublieraient"
+        },
+        "subjonctif": {
+          "1s": "oublie",
+          "2s": "oublies",
+          "3s": "oublie",
+          "1p": "oubliions",
+          "2p": "oubliiez",
+          "3p": "oublient"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "tant-mieux",
+      "primary_form": "tant mieux",
+      "gloss": "so much the better, good",
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "film",
+      "primary_form": "film",
+      "gloss": "film",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "leisure",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "musique",
+      "primary_form": "musique",
+      "gloss": "music",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "leisure",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "porter",
+      "primary_form": "porter",
+      "gloss": "to wear; to carry",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "porté",
+        "example": "Il porte un chapeau.",
+        "example_en": "He's wearing a hat."
+      },
+      "tags": [
+        "présent",
+        "clothing"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "porte",
+          "2s": "portes",
+          "3s": "porte",
+          "1p": "portons",
+          "2p": "portez",
+          "3p": "portent"
+        },
+        "passé-composé": {
+          "1s": "ai porté",
+          "2s": "as porté",
+          "3s": "a porté",
+          "1p": "avons porté",
+          "2p": "avez porté",
+          "3p": "ont porté"
+        },
+        "imparfait": {
+          "1s": "portais",
+          "2s": "portais",
+          "3s": "portait",
+          "1p": "portions",
+          "2p": "portiez",
+          "3p": "portaient"
+        },
+        "futur-simple": {
+          "1s": "porterai",
+          "2s": "porteras",
+          "3s": "portera",
+          "1p": "porterons",
+          "2p": "porterez",
+          "3p": "porteront"
+        },
+        "conditionnel": {
+          "1s": "porterais",
+          "2s": "porterais",
+          "3s": "porterait",
+          "1p": "porterions",
+          "2p": "porteriez",
+          "3p": "porteraient"
+        },
+        "subjonctif": {
+          "1s": "porte",
+          "2s": "portes",
+          "3s": "porte",
+          "1p": "portions",
+          "2p": "portiez",
+          "3p": "portent"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "court",
+      "primary_form": "court",
+      "gloss": "short",
+      "extras": {
+        "forms": {
+          "ms": "court",
+          "fs": "courte",
+          "mp": "courts",
+          "fp": "courtes"
+        }
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "chanson",
+      "primary_form": "chanson",
+      "gloss": "song",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "leisure",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "car",
+      "primary_form": "car",
+      "gloss": "for, because (written)",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Je reste ici, car il pleut.",
+        "example_en": "I'm staying here, for it's raining."
+      },
+      "tags": [
+        "conjonctions"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "quoi-de-neuf",
+      "primary_form": "quoi de neuf ?",
+      "gloss": "what's new?",
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "sport",
+      "primary_form": "sport",
+      "gloss": "sport",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "leisure",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "match",
+      "primary_form": "match",
+      "gloss": "match, game",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "leisure",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "perdre",
+      "primary_form": "perdre",
+      "gloss": "to lose",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "perdu",
+        "example": "J'ai perdu mon portefeuille.",
+        "example_en": "I've lost my wallet."
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "perds",
+          "2s": "perds",
+          "3s": "perd",
+          "1p": "perdons",
+          "2p": "perdez",
+          "3p": "perdent"
+        },
+        "passé-composé": {
+          "1s": "ai perdu",
+          "2s": "as perdu",
+          "3s": "a perdu",
+          "1p": "avons perdu",
+          "2p": "avez perdu",
+          "3p": "ont perdu"
+        },
+        "imparfait": {
+          "1s": "perdais",
+          "2s": "perdais",
+          "3s": "perdait",
+          "1p": "perdions",
+          "2p": "perdiez",
+          "3p": "perdaient"
+        },
+        "futur-simple": {
+          "1s": "perdrai",
+          "2s": "perdras",
+          "3s": "perdra",
+          "1p": "perdrons",
+          "2p": "perdrez",
+          "3p": "perdront"
+        },
+        "conditionnel": {
+          "1s": "perdrais",
+          "2s": "perdrais",
+          "3s": "perdrait",
+          "1p": "perdrions",
+          "2p": "perdriez",
+          "3p": "perdraient"
+        },
+        "subjonctif": {
+          "1s": "perde",
+          "2s": "perdes",
+          "3s": "perde",
+          "1p": "perdions",
+          "2p": "perdiez",
+          "3p": "perdent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "jeu",
+      "primary_form": "jeu",
+      "gloss": "game",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "jeux"
+      },
+      "tags": [
+        "leisure",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "lourd",
+      "primary_form": "lourd",
+      "gloss": "heavy",
+      "extras": {
+        "forms": {
+          "ms": "lourd",
+          "fs": "lourde",
+          "mp": "lourds",
+          "fp": "lourdes"
+        }
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fete",
+      "primary_form": "fête",
+      "gloss": "party; celebration",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "leisure",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "on-y-va",
+      "primary_form": "on y va ?",
+      "gloss": "shall we go?",
+      "extras": {
+        "literal": "we there go?"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "repondre",
+      "primary_form": "répondre",
+      "gloss": "to answer",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "répondu",
+        "example": "Réponds au téléphone !",
+        "example_en": "Answer the phone!"
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "réponds",
+          "2s": "réponds",
+          "3s": "répond",
+          "1p": "répondons",
+          "2p": "répondez",
+          "3p": "répondent"
+        },
+        "passé-composé": {
+          "1s": "ai répondu",
+          "2s": "as répondu",
+          "3s": "a répondu",
+          "1p": "avons répondu",
+          "2p": "avez répondu",
+          "3p": "ont répondu"
+        },
+        "imparfait": {
+          "1s": "répondais",
+          "2s": "répondais",
+          "3s": "répondait",
+          "1p": "répondions",
+          "2p": "répondiez",
+          "3p": "répondaient"
+        },
+        "futur-simple": {
+          "1s": "répondrai",
+          "2s": "répondras",
+          "3s": "répondra",
+          "1p": "répondrons",
+          "2p": "répondrez",
+          "3p": "répondront"
+        },
+        "conditionnel": {
+          "1s": "répondrais",
+          "2s": "répondrais",
+          "3s": "répondrait",
+          "1p": "répondrions",
+          "2p": "répondriez",
+          "3p": "répondraient"
+        },
+        "subjonctif": {
+          "1s": "réponde",
+          "2s": "répondes",
+          "3s": "réponde",
+          "1p": "répondions",
+          "2p": "répondiez",
+          "3p": "répondent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "anniversaire",
+      "primary_form": "anniversaire",
+      "gloss": "birthday",
+      "extras": {
+        "gender": "m",
+        "article": "l'"
+      },
+      "tags": [
+        "leisure",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cadeau",
+      "primary_form": "cadeau",
+      "gloss": "present, gift",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "cadeaux"
+      },
+      "tags": [
+        "leisure",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "photo",
+      "primary_form": "photo",
+      "gloss": "photo",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "leisure",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "entendre",
+      "primary_form": "entendre",
+      "gloss": "to hear",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "entendu",
+        "example": "Tu entends ce bruit ?",
+        "example_en": "Can you hear that noise?"
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "entends",
+          "2s": "entends",
+          "3s": "entend",
+          "1p": "entendons",
+          "2p": "entendez",
+          "3p": "entendent"
+        },
+        "passé-composé": {
+          "1s": "ai entendu",
+          "2s": "as entendu",
+          "3s": "a entendu",
+          "1p": "avons entendu",
+          "2p": "avez entendu",
+          "3p": "ont entendu"
+        },
+        "imparfait": {
+          "1s": "entendais",
+          "2s": "entendais",
+          "3s": "entendait",
+          "1p": "entendions",
+          "2p": "entendiez",
+          "3p": "entendaient"
+        },
+        "futur-simple": {
+          "1s": "entendrai",
+          "2s": "entendras",
+          "3s": "entendra",
+          "1p": "entendrons",
+          "2p": "entendrez",
+          "3p": "entendront"
+        },
+        "conditionnel": {
+          "1s": "entendrais",
+          "2s": "entendrais",
+          "3s": "entendrait",
+          "1p": "entendrions",
+          "2p": "entendriez",
+          "3p": "entendraient"
+        },
+        "subjonctif": {
+          "1s": "entende",
+          "2s": "entendes",
+          "3s": "entende",
+          "1p": "entendions",
+          "2p": "entendiez",
+          "3p": "entendent"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "leger",
+      "primary_form": "léger",
+      "gloss": "light (weight)",
+      "extras": {
+        "forms": {
+          "ms": "léger",
+          "fs": "légère",
+          "mp": "légers",
+          "fp": "légères"
+        }
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "je-n-en-peux-plus",
+      "primary_form": "je n'en peux plus",
+      "gloss": "I can't take any more",
+      "extras": {
+        "literal": "I can no more of it"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "prix",
+      "primary_form": "prix",
+      "gloss": "price",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "prix"
+      },
+      "tags": [
+        "shopping",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "euro",
+      "primary_form": "euro",
+      "gloss": "euro",
+      "extras": {
+        "gender": "m",
+        "article": "l'"
+      },
+      "tags": [
+        "shopping",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "comme",
+      "primary_form": "comme",
+      "gloss": "as, since (at the start)",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Comme il pleut, on reste ici.",
+        "example_en": "As it's raining, we're staying here."
+      },
+      "tags": [
+        "conjonctions"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "courir",
+      "primary_form": "courir",
+      "gloss": "to run",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "couru",
+        "example": "Je cours tous les matins.",
+        "example_en": "I run every morning."
+      },
+      "tags": [
+        "présent",
+        "leisure"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "cours",
+          "2s": "cours",
+          "3s": "court",
+          "1p": "courons",
+          "2p": "courez",
+          "3p": "courent"
+        },
+        "passé-composé": {
+          "1s": "ai couru",
+          "2s": "as couru",
+          "3s": "a couru",
+          "1p": "avons couru",
+          "2p": "avez couru",
+          "3p": "ont couru"
+        },
+        "imparfait": {
+          "1s": "courais",
+          "2s": "courais",
+          "3s": "courait",
+          "1p": "courions",
+          "2p": "couriez",
+          "3p": "couraient"
+        },
+        "futur-simple": {
+          "1s": "courrai",
+          "2s": "courras",
+          "3s": "courra",
+          "1p": "courrons",
+          "2p": "courrez",
+          "3p": "courront"
+        },
+        "conditionnel": {
+          "1s": "courrais",
+          "2s": "courrais",
+          "3s": "courrait",
+          "1p": "courrions",
+          "2p": "courriez",
+          "3p": "courraient"
+        },
+        "subjonctif": {
+          "1s": "coure",
+          "2s": "coures",
+          "3s": "coure",
+          "1p": "courions",
+          "2p": "couriez",
+          "3p": "courent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "monnaie",
+      "primary_form": "monnaie",
+      "gloss": "change (coins); currency",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "shopping",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "propre",
+      "primary_form": "propre",
+      "gloss": "clean; own",
+      "extras": {
+        "forms": {
+          "ms": "propre",
+          "fs": "propre",
+          "mp": "propres",
+          "fp": "propres"
+        }
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "carte-bancaire",
+      "primary_form": "carte bancaire",
+      "gloss": "bank card",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "cartes bancaires"
+      },
+      "tags": [
+        "shopping",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "il-vaut-mieux",
+      "primary_form": "il vaut mieux...",
+      "gloss": "it's better to...",
+      "extras": {
+        "literal": "it is worth better"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "conduire",
+      "primary_form": "conduire",
+      "gloss": "to drive",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "conduit",
+        "example": "Tu sais conduire ?",
+        "example_en": "Can you drive?"
+      },
+      "tags": [
+        "présent",
+        "transport"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "conduis",
+          "2s": "conduis",
+          "3s": "conduit",
+          "1p": "conduisons",
+          "2p": "conduisez",
+          "3p": "conduisent"
+        },
+        "passé-composé": {
+          "1s": "ai conduit",
+          "2s": "as conduit",
+          "3s": "a conduit",
+          "1p": "avons conduit",
+          "2p": "avez conduit",
+          "3p": "ont conduit"
+        },
+        "imparfait": {
+          "1s": "conduisais",
+          "2s": "conduisais",
+          "3s": "conduisait",
+          "1p": "conduisions",
+          "2p": "conduisiez",
+          "3p": "conduisaient"
+        },
+        "futur-simple": {
+          "1s": "conduirai",
+          "2s": "conduiras",
+          "3s": "conduira",
+          "1p": "conduirons",
+          "2p": "conduirez",
+          "3p": "conduiront"
+        },
+        "conditionnel": {
+          "1s": "conduirais",
+          "2s": "conduirais",
+          "3s": "conduirait",
+          "1p": "conduirions",
+          "2p": "conduiriez",
+          "3p": "conduiraient"
+        },
+        "subjonctif": {
+          "1s": "conduise",
+          "2s": "conduises",
+          "3s": "conduise",
+          "1p": "conduisions",
+          "2p": "conduisiez",
+          "3p": "conduisent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "caisse",
+      "primary_form": "caisse",
+      "gloss": "till, checkout",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "shopping",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "supermarche",
+      "primary_form": "supermarché",
+      "gloss": "supermarket",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "shopping",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "boutique",
+      "primary_form": "boutique",
+      "gloss": "small shop",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "shopping",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "sale",
+      "primary_form": "sale",
+      "gloss": "dirty",
+      "extras": {
+        "forms": {
+          "ms": "sale",
+          "fs": "sale",
+          "mp": "sales",
+          "fp": "sales"
+        }
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "vivre",
+      "primary_form": "vivre",
+      "gloss": "to live (be alive, live a life)",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "vécu",
+        "example": "On ne vit qu'une fois.",
+        "example_en": "You only live once."
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "vis",
+          "2s": "vis",
+          "3s": "vit",
+          "1p": "vivons",
+          "2p": "vivez",
+          "3p": "vivent"
+        },
+        "passé-composé": {
+          "1s": "ai vécu",
+          "2s": "as vécu",
+          "3s": "a vécu",
+          "1p": "avons vécu",
+          "2p": "avez vécu",
+          "3p": "ont vécu"
+        },
+        "imparfait": {
+          "1s": "vivais",
+          "2s": "vivais",
+          "3s": "vivait",
+          "1p": "vivions",
+          "2p": "viviez",
+          "3p": "vivaient"
+        },
+        "futur-simple": {
+          "1s": "vivrai",
+          "2s": "vivras",
+          "3s": "vivra",
+          "1p": "vivrons",
+          "2p": "vivrez",
+          "3p": "vivront"
+        },
+        "conditionnel": {
+          "1s": "vivrais",
+          "2s": "vivrais",
+          "3s": "vivrait",
+          "1p": "vivrions",
+          "2p": "vivriez",
+          "3p": "vivraient"
+        },
+        "subjonctif": {
+          "1s": "vive",
+          "2s": "vives",
+          "3s": "vive",
+          "1p": "vivions",
+          "2p": "viviez",
+          "3p": "vivent"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "avoir-besoin-de",
+      "primary_form": "avoir besoin de",
+      "gloss": "to need",
+      "extras": {
+        "literal": "to have need of"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fourchette",
+      "primary_form": "fourchette",
+      "gloss": "fork",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "home",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "couteau",
+      "primary_form": "couteau",
+      "gloss": "knife",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "couteaux"
+      },
+      "tags": [
+        "home",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "preferer",
+      "primary_form": "préférer",
+      "gloss": "to prefer",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "préféré",
+        "example": "Je préfère le thé.",
+        "example_en": "I prefer tea."
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "préfère",
+          "2s": "préfères",
+          "3s": "préfère",
+          "1p": "préférons",
+          "2p": "préférez",
+          "3p": "préfèrent"
+        },
+        "passé-composé": {
+          "1s": "ai préféré",
+          "2s": "as préféré",
+          "3s": "a préféré",
+          "1p": "avons préféré",
+          "2p": "avez préféré",
+          "3p": "ont préféré"
+        },
+        "imparfait": {
+          "1s": "préférais",
+          "2s": "préférais",
+          "3s": "préférait",
+          "1p": "préférions",
+          "2p": "préfériez",
+          "3p": "préféraient"
+        },
+        "futur-simple": {
+          "1s": "préférerai",
+          "2s": "préféreras",
+          "3s": "préférera",
+          "1p": "préférerons",
+          "2p": "préférerez",
+          "3p": "préféreront"
+        },
+        "conditionnel": {
+          "1s": "préférerais",
+          "2s": "préférerais",
+          "3s": "préférerait",
+          "1p": "préférerions",
+          "2p": "préféreriez",
+          "3p": "préféreraient"
+        },
+        "subjonctif": {
+          "1s": "préfère",
+          "2s": "préfères",
+          "3s": "préfère",
+          "1p": "préférions",
+          "2p": "préfériez",
+          "3p": "préfèrent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "cuillere",
+      "primary_form": "cuillère",
+      "gloss": "spoon",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "home",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "pendant-que",
+      "primary_form": "pendant que",
+      "gloss": "while",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Il cuisine pendant que je travaille.",
+        "example_en": "He cooks while I work."
+      },
+      "tags": [
+        "conjonctions"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "rapide",
+      "primary_form": "rapide",
+      "gloss": "fast",
+      "extras": {
+        "forms": {
+          "ms": "rapide",
+          "fs": "rapide",
+          "mp": "rapides",
+          "fp": "rapides"
+        }
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "assiette",
+      "primary_form": "assiette",
+      "gloss": "plate",
+      "extras": {
+        "gender": "f",
+        "article": "l'"
+      },
+      "tags": [
+        "home",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "avoir-envie-de",
+      "primary_form": "avoir envie de",
+      "gloss": "to feel like, to want",
+      "extras": {
+        "literal": "to have desire of"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "verre",
+      "primary_form": "verre",
+      "gloss": "glass",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "home",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "appeler",
+      "primary_form": "appeler",
+      "gloss": "to call",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "appelé",
+        "example": "Je t'appelle ce soir.",
+        "example_en": "I'll call you tonight."
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "appelle",
+          "2s": "appelles",
+          "3s": "appelle",
+          "1p": "appelons",
+          "2p": "appelez",
+          "3p": "appellent"
+        },
+        "passé-composé": {
+          "1s": "ai appelé",
+          "2s": "as appelé",
+          "3s": "a appelé",
+          "1p": "avons appelé",
+          "2p": "avez appelé",
+          "3p": "ont appelé"
+        },
+        "imparfait": {
+          "1s": "appelais",
+          "2s": "appelais",
+          "3s": "appelait",
+          "1p": "appelions",
+          "2p": "appeliez",
+          "3p": "appelaient"
+        },
+        "futur-simple": {
+          "1s": "appellerai",
+          "2s": "appelleras",
+          "3s": "appellera",
+          "1p": "appellerons",
+          "2p": "appellerez",
+          "3p": "appelleront"
+        },
+        "conditionnel": {
+          "1s": "appellerais",
+          "2s": "appellerais",
+          "3s": "appellerait",
+          "1p": "appellerions",
+          "2p": "appelleriez",
+          "3p": "appelleraient"
+        },
+        "subjonctif": {
+          "1s": "appelle",
+          "2s": "appelles",
+          "3s": "appelle",
+          "1p": "appelions",
+          "2p": "appeliez",
+          "3p": "appellent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "bouteille",
+      "primary_form": "bouteille",
+      "gloss": "bottle",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "home",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "lumiere",
+      "primary_form": "lumière",
+      "gloss": "light",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "home",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "lent",
+      "primary_form": "lent",
+      "gloss": "slow",
+      "extras": {
+        "forms": {
+          "ms": "lent",
+          "fs": "lente",
+          "mp": "lents",
+          "fp": "lentes"
+        }
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "avoir-l-air",
+      "primary_form": "avoir l'air",
+      "gloss": "to seem, to look",
+      "extras": {
+        "literal": "to have the air"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "demander",
+      "primary_form": "demander",
+      "gloss": "to ask",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "demandé",
+        "example": "Je vais demander le chemin.",
+        "example_en": "I'll ask the way."
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "demande",
+          "2s": "demandes",
+          "3s": "demande",
+          "1p": "demandons",
+          "2p": "demandez",
+          "3p": "demandent"
+        },
+        "passé-composé": {
+          "1s": "ai demandé",
+          "2s": "as demandé",
+          "3s": "a demandé",
+          "1p": "avons demandé",
+          "2p": "avez demandé",
+          "3p": "ont demandé"
+        },
+        "imparfait": {
+          "1s": "demandais",
+          "2s": "demandais",
+          "3s": "demandait",
+          "1p": "demandions",
+          "2p": "demandiez",
+          "3p": "demandaient"
+        },
+        "futur-simple": {
+          "1s": "demanderai",
+          "2s": "demanderas",
+          "3s": "demandera",
+          "1p": "demanderons",
+          "2p": "demanderez",
+          "3p": "demanderont"
+        },
+        "conditionnel": {
+          "1s": "demanderais",
+          "2s": "demanderais",
+          "3s": "demanderait",
+          "1p": "demanderions",
+          "2p": "demanderiez",
+          "3p": "demanderaient"
+        },
+        "subjonctif": {
+          "1s": "demande",
+          "2s": "demandes",
+          "3s": "demande",
+          "1p": "demandions",
+          "2p": "demandiez",
+          "3p": "demandent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "fleur",
+      "primary_form": "fleur",
+      "gloss": "flower",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "nature",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "foret",
+      "primary_form": "forêt",
+      "gloss": "forest",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "nature",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "riviere",
+      "primary_form": "rivière",
+      "gloss": "river",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "nature",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "laisser",
+      "primary_form": "laisser",
+      "gloss": "to leave (something); to let",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "laissé",
+        "example": "Laisse-moi tranquille !",
+        "example_en": "Leave me alone!"
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "laisse",
+          "2s": "laisses",
+          "3s": "laisse",
+          "1p": "laissons",
+          "2p": "laissez",
+          "3p": "laissent"
+        },
+        "passé-composé": {
+          "1s": "ai laissé",
+          "2s": "as laissé",
+          "3s": "a laissé",
+          "1p": "avons laissé",
+          "2p": "avez laissé",
+          "3p": "ont laissé"
+        },
+        "imparfait": {
+          "1s": "laissais",
+          "2s": "laissais",
+          "3s": "laissait",
+          "1p": "laissions",
+          "2p": "laissiez",
+          "3p": "laissaient"
+        },
+        "futur-simple": {
+          "1s": "laisserai",
+          "2s": "laisseras",
+          "3s": "laissera",
+          "1p": "laisserons",
+          "2p": "laisserez",
+          "3p": "laisseront"
+        },
+        "conditionnel": {
+          "1s": "laisserais",
+          "2s": "laisserais",
+          "3s": "laisserait",
+          "1p": "laisserions",
+          "2p": "laisseriez",
+          "3p": "laisseraient"
+        },
+        "subjonctif": {
+          "1s": "laisse",
+          "2s": "laisses",
+          "3s": "laisse",
+          "1p": "laissions",
+          "2p": "laissiez",
+          "3p": "laissent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "lac",
+      "primary_form": "lac",
+      "gloss": "lake",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "nature",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "premier",
+      "primary_form": "premier",
+      "gloss": "first",
+      "extras": {
+        "forms": {
+          "ms": "premier",
+          "fs": "première",
+          "mp": "premiers",
+          "fp": "premières"
+        },
+        "position": "before the noun"
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "faire-la-queue",
+      "primary_form": "faire la queue",
+      "gloss": "to queue",
+      "extras": {
+        "literal": "to make the tail"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "oiseau",
+      "primary_form": "oiseau",
+      "gloss": "bird",
+      "extras": {
+        "gender": "m",
+        "article": "l'",
+        "plural": "oiseaux"
+      },
+      "tags": [
+        "animals",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "lorsque",
+      "primary_form": "lorsque",
+      "gloss": "when (formal)",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Lorsque je suis arrivé, il dormait.",
+        "example_en": "When I arrived, he was asleep."
+      },
+      "tags": [
+        "conjonctions"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "rendre",
+      "primary_form": "rendre",
+      "gloss": "to give back",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "rendu",
+        "example": "Je te rends ton livre demain.",
+        "example_en": "I'll give you your book back tomorrow."
+      },
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "rends",
+          "2s": "rends",
+          "3s": "rend",
+          "1p": "rendons",
+          "2p": "rendez",
+          "3p": "rendent"
+        },
+        "passé-composé": {
+          "1s": "ai rendu",
+          "2s": "as rendu",
+          "3s": "a rendu",
+          "1p": "avons rendu",
+          "2p": "avez rendu",
+          "3p": "ont rendu"
+        },
+        "imparfait": {
+          "1s": "rendais",
+          "2s": "rendais",
+          "3s": "rendait",
+          "1p": "rendions",
+          "2p": "rendiez",
+          "3p": "rendaient"
+        },
+        "futur-simple": {
+          "1s": "rendrai",
+          "2s": "rendras",
+          "3s": "rendra",
+          "1p": "rendrons",
+          "2p": "rendrez",
+          "3p": "rendront"
+        },
+        "conditionnel": {
+          "1s": "rendrais",
+          "2s": "rendrais",
+          "3s": "rendrait",
+          "1p": "rendrions",
+          "2p": "rendriez",
+          "3p": "rendraient"
+        },
+        "subjonctif": {
+          "1s": "rende",
+          "2s": "rendes",
+          "3s": "rende",
+          "1p": "rendions",
+          "2p": "rendiez",
+          "3p": "rendent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "cheval",
+      "primary_form": "cheval",
+      "gloss": "horse",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "chevaux"
+      },
+      "tags": [
+        "animals",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vache",
+      "primary_form": "vache",
+      "gloss": "cow",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "animals",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "dernier",
+      "primary_form": "dernier",
+      "gloss": "last",
+      "extras": {
+        "forms": {
+          "ms": "dernier",
+          "fs": "dernière",
+          "mp": "derniers",
+          "fp": "dernières"
+        }
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "faire-les-courses",
+      "primary_form": "faire les courses",
+      "gloss": "to do the shopping",
+      "extras": {
+        "literal": "to make the runs"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cochon",
+      "primary_form": "cochon",
+      "gloss": "pig",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "animals",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "pleurer",
+      "primary_form": "pleurer",
+      "gloss": "to cry",
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "pleuré",
+        "example": "Pourquoi tu pleures ?",
+        "example_en": "Why are you crying?"
+      },
+      "tags": [
+        "présent",
+        "feelings"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "pleure",
+          "2s": "pleures",
+          "3s": "pleure",
+          "1p": "pleurons",
+          "2p": "pleurez",
+          "3p": "pleurent"
+        },
+        "passé-composé": {
+          "1s": "ai pleuré",
+          "2s": "as pleuré",
+          "3s": "a pleuré",
+          "1p": "avons pleuré",
+          "2p": "avez pleuré",
+          "3p": "ont pleuré"
+        },
+        "imparfait": {
+          "1s": "pleurais",
+          "2s": "pleurais",
+          "3s": "pleurait",
+          "1p": "pleurions",
+          "2p": "pleuriez",
+          "3p": "pleuraient"
+        },
+        "futur-simple": {
+          "1s": "pleurerai",
+          "2s": "pleureras",
+          "3s": "pleurera",
+          "1p": "pleurerons",
+          "2p": "pleurerez",
+          "3p": "pleureront"
+        },
+        "conditionnel": {
+          "1s": "pleurerais",
+          "2s": "pleurerais",
+          "3s": "pleurerait",
+          "1p": "pleurerions",
+          "2p": "pleureriez",
+          "3p": "pleureraient"
+        },
+        "subjonctif": {
+          "1s": "pleure",
+          "2s": "pleures",
+          "3s": "pleure",
+          "1p": "pleurions",
+          "2p": "pleuriez",
+          "3p": "pleurent"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "souris",
+      "primary_form": "souris",
+      "gloss": "mouse",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "souris"
+      },
+      "tags": [
+        "animals",
+        "féminin"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "title": "Le passé composé",
+      "word_ids": [
+        "connaitre",
+        "croire",
+        "recevoir",
+        "envoyer",
+        "payer",
+        "essayer"
+      ],
+      "page_id": "fr-passe-compose"
+    },
+    {
+      "title": "Les verbes avec être",
+      "word_ids": [
+        "rester",
+        "tomber",
+        "entrer",
+        "rentrer",
+        "monter",
+        "descendre",
+        "devenir",
+        "revenir",
+        "naitre",
+        "mourir"
+      ],
+      "page_id": "fr-etre-verbs"
+    },
+    {
+      "title": "L'imparfait",
+      "word_ids": [
+        "oublier",
+        "porter",
+        "perdre",
+        "repondre",
+        "entendre",
+        "courir"
+      ],
+      "page_id": "fr-imparfait"
+    },
+    {
+      "title": "Les verbes pronominaux",
+      "word_ids": [
+        "se-lever",
+        "se-reveiller",
+        "s-habiller",
+        "se-coucher",
+        "se-promener",
+        "se-sentir"
+      ],
+      "page_id": "fr-reflexive-verbs"
+    },
+    {
+      "title": "Les pronoms objets",
+      "word_ids": [
+        "je-m-en-fiche",
+        "ca-te-dit",
+        "on-y-va",
+        "je-n-en-peux-plus",
+        "ca-depend",
+        "il-vaut-mieux"
+      ],
+      "page_id": "fr-object-pronouns"
+    },
+    {
+      "title": "Le futur simple",
+      "word_ids": [
+        "ouvrir",
+        "fermer",
+        "conduire",
+        "vivre",
+        "preferer",
+        "appeler",
+        "demander",
+        "laisser",
+        "rendre",
+        "pleurer"
+      ],
+      "page_id": "fr-futur-simple"
+    },
+    {
+      "title": "Les comparaisons",
+      "word_ids": [
+        "long",
+        "court",
+        "lourd",
+        "leger",
+        "rapide",
+        "lent"
+      ],
+      "page_id": "fr-comparisons"
+    },
+    {
+      "title": "Sentiments",
+      "word_ids": [
+        "heureux",
+        "triste",
+        "fache",
+        "calme",
+        "sympa",
+        "drole",
+        "serieux",
+        "timide",
+        "paresseux",
+        "sportif"
+      ]
+    },
+    {
+      "title": "Depuis, il y a, pendant",
+      "word_ids": [
+        "examen",
+        "cours",
+        "reunion",
+        "rendez-vous",
+        "apres",
+        "enfin"
+      ],
+      "page_id": "fr-time-expressions"
+    },
+    {
+      "title": "Le genre des noms",
+      "word_ids": [
+        "voyage",
+        "plage",
+        "ordinateur",
+        "fourchette",
+        "medicament",
+        "photo"
+      ],
+      "page_id": "fr-gender-patterns"
+    },
+    {
+      "title": "Vêtements",
+      "word_ids": [
+        "vetement",
+        "chemise",
+        "pantalon",
+        "jupe",
+        "robe",
+        "manteau"
+      ]
+    },
+    {
+      "title": "Vêtements",
+      "word_ids": [
+        "veste",
+        "pull",
+        "chaussure",
+        "chaussette",
+        "chapeau",
+        "sac"
+      ]
+    },
+    {
+      "title": "Expressions",
+      "word_ids": [
+        "il-fait-beau",
+        "il-fait-froid",
+        "il-pleut",
+        "je-voudrais",
+        "je-suis-en-train-de",
+        "pas-de-probleme",
+        "bien-sur"
+      ]
+    },
+    {
+      "title": "Expressions",
+      "word_ids": [
+        "peut-etre",
+        "j-ai-mal-a-la-tete",
+        "ca-ne-fait-rien",
+        "c-est-pas-grave",
+        "a-tout-a-l-heure",
+        "volontiers",
+        "tant-pis"
+      ]
+    },
+    {
+      "title": "Expressions",
+      "word_ids": [
+        "tant-mieux",
+        "quoi-de-neuf",
+        "avoir-besoin-de",
+        "avoir-envie-de",
+        "avoir-l-air",
+        "faire-la-queue",
+        "faire-les-courses"
+      ]
+    },
+    {
+      "title": "Météo",
+      "word_ids": [
+        "temps",
+        "pluie",
+        "neige",
+        "vent",
+        "nuage",
+        "ciel"
+      ]
+    },
+    {
+      "title": "Météo",
+      "word_ids": [
+        "orage",
+        "ete",
+        "hiver",
+        "printemps",
+        "automne",
+        "saison"
+      ]
+    },
+    {
+      "title": "Voyage",
+      "word_ids": [
+        "billet",
+        "valise",
+        "passeport",
+        "hotel",
+        "mer",
+        "montagne",
+        "pays",
+        "carte"
+      ]
+    },
+    {
+      "title": "Les transports",
+      "word_ids": [
+        "avion",
+        "train",
+        "bus",
+        "velo",
+        "metro",
+        "bateau",
+        "aeroport"
+      ]
+    },
+    {
+      "title": "Travail",
+      "word_ids": [
+        "bureau",
+        "entreprise",
+        "collegue",
+        "patron",
+        "salaire",
+        "metier",
+        "etudiant",
+        "professeur"
+      ]
+    },
+    {
+      "title": "Santé",
+      "word_ids": [
+        "sante",
+        "medecin",
+        "pharmacie",
+        "rhume",
+        "fievre",
+        "douleur"
+      ]
+    },
+    {
+      "title": "Loisirs",
+      "word_ids": [
+        "film",
+        "musique",
+        "chanson",
+        "sport",
+        "match",
+        "jeu",
+        "fete",
+        "anniversaire",
+        "cadeau"
+      ]
+    },
+    {
+      "title": "Achats",
+      "word_ids": [
+        "prix",
+        "euro",
+        "monnaie",
+        "carte-bancaire",
+        "caisse",
+        "supermarche",
+        "boutique"
+      ]
+    },
+    {
+      "title": "La maison",
+      "word_ids": [
+        "couteau",
+        "cuillere",
+        "assiette",
+        "verre",
+        "bouteille",
+        "lumiere"
+      ]
+    },
+    {
+      "title": "Pratique",
+      "word_ids": [
+        "alors",
+        "par-consequent",
+        "pourtant",
+        "en-revanche",
+        "en-plus",
+        "malade",
+        "occupe",
+        "libre",
+        "pret",
+        "plein"
+      ]
+    },
+    {
+      "title": "Pratique",
+      "word_ids": [
+        "vide",
+        "propre",
+        "sale",
+        "premier",
+        "dernier",
+        "car",
+        "comme",
+        "pendant-que",
+        "lorsque"
+      ]
+    },
+    {
+      "title": "Pratique",
+      "word_ids": [
+        "fleur",
+        "foret",
+        "riviere",
+        "lac",
+        "oiseau",
+        "cheval",
+        "vache",
+        "cochon",
+        "souris"
+      ]
+    }
+  ]
+}

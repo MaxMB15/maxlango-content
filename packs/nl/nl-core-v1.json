@@ -1,0 +1,741 @@
+{
+  "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
+  "id": "nl-core-v1",
+  "version": 7,
+  "language": "nl",
+  "name": "Nederlands Kern",
+  "author": "Max Boksem",
+  "license": "CC-BY-SA-4.0",
+  "profile_delta": [
+    {
+      "id": "home",
+      "kind": "topic",
+      "label": "Huis",
+      "labelGloss": "home",
+      "dependsOn": [
+        "lidwoorden"
+      ]
+    },
+    {
+      "id": "food",
+      "kind": "topic",
+      "label": "Eten",
+      "labelGloss": "food",
+      "dependsOn": [
+        "lidwoorden"
+      ]
+    },
+    {
+      "id": "verbindingswoorden",
+      "kind": "topic",
+      "label": "Verbindingswoorden",
+      "labelGloss": "connectives",
+      "dependsOn": [
+        "conn-contrast",
+        "conn-cause",
+        "conn-addition",
+        "conn-sequence"
+      ]
+    },
+    {
+      "id": "voegwoorden",
+      "kind": "topic",
+      "label": "Voegwoorden",
+      "labelGloss": "conjunctions",
+      "dependsOn": [
+        "conj-coordinating",
+        "conj-subordinating"
+      ]
+    },
+    {
+      "id": "animals",
+      "kind": "topic",
+      "label": "Dieren",
+      "labelGloss": "animals",
+      "dependsOn": [
+        "lidwoorden"
+      ]
+    },
+    {
+      "id": "nature",
+      "kind": "topic",
+      "label": "Natuur",
+      "labelGloss": "nature",
+      "dependsOn": [
+        "lidwoorden"
+      ]
+    },
+    {
+      "id": "people",
+      "kind": "topic",
+      "label": "Mensen",
+      "labelGloss": "people",
+      "dependsOn": [
+        "lidwoorden"
+      ]
+    },
+    {
+      "id": "objects",
+      "kind": "topic",
+      "label": "Objecten",
+      "labelGloss": "objects",
+      "dependsOn": [
+        "lidwoorden"
+      ]
+    },
+    {
+      "id": "transport",
+      "kind": "topic",
+      "label": "Vervoer",
+      "labelGloss": "transport",
+      "dependsOn": [
+        "lidwoorden"
+      ]
+    },
+    {
+      "id": "time",
+      "kind": "topic",
+      "label": "Tijd",
+      "labelGloss": "time",
+      "dependsOn": [
+        "lidwoorden"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "misc",
+      "id": "nl-articles-de-het",
+      "title": "De, het and een",
+      "body_md": "Dutch has two words for \"the\": **de** and **het**. Every noun takes one of them, and the noun decides which.\n\n| | de-word | het-word |\n| --- | --- | --- |\n| the | de kat | het huis |\n| a, an | een kat | een huis |\n| the (plural) | de katten | de huizen |\n\n- **De** goes with about three nouns in four, the common-gender nouns.\n- **Het** goes with the neuter nouns, and with every diminutive.\n- **Een** (a, an) is the same for both. Unstressed, it sounds like *un*. Stressed and written **één**, it means \"one\".\n- Every plural takes **de**.\n\nThe article also decides the form of other words: *het grote huis* but *een groot huis*, and *deze kat* but *dit huis* (this).\n\n:::examples\n- De kat slaapt op de bank. — The cat is sleeping on the sofa.\n- Het huis is groot en mooi. — The house is big and beautiful.\n- De man leest het boek. — The man is reading the book.\n:::\n\n## This, that, which, every\n\nThe words for *this*, *that*, *which* and *every* have a de-word form and a het-word form too:\n\n| | de-word | het-word | plural |\n| --- | --- | --- | --- |\n| this | deze kat | dit huis | deze huizen |\n| that | die kat | dat huis | die huizen |\n| which | welke kat | welk huis | welke huizen |\n| every | elke kat | elk huis | — |\n\nA plural always takes the de-word form, even when its singular is a het-word: *dit huis*, but *deze huizen*.\n\nSo learn every noun with its article: **de kat**, never just *kat*. A few endings and meanings do predict the article, and the **de** and **het** tags on a noun open a page about them.",
+      "extras": {
+        "examples": [
+          "De kat slaapt op de bank.",
+          "Het huis is groot en mooi.",
+          "De man leest het boek."
+        ],
+        "cloze": [
+          {
+            "sentence": "___ kat slaapt.",
+            "blank": "De"
+          },
+          {
+            "sentence": "___ huis is groot.",
+            "blank": "Het"
+          }
+        ],
+        "unlocks": [
+          "concept:nl-articles"
+        ],
+        "explains": [
+          "lidwoorden"
+        ]
+      },
+      "tags": [
+        "lidwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "raam",
+      "primary_form": "raam",
+      "gloss": "window",
+      "extras": {
+        "article": "het"
+      },
+      "tags": [
+        "home",
+        "het"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "kat",
+      "primary_form": "kat",
+      "gloss": "cat",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "animals",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "hond",
+      "primary_form": "hond",
+      "gloss": "dog",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "animals",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "huis",
+      "primary_form": "huis",
+      "gloss": "house",
+      "extras": {
+        "article": "het"
+      },
+      "tags": [
+        "home",
+        "het"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "boek",
+      "primary_form": "boek",
+      "gloss": "book",
+      "extras": {
+        "article": "het"
+      },
+      "tags": [
+        "objects",
+        "het"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "water",
+      "primary_form": "water",
+      "gloss": "water",
+      "extras": {
+        "article": "het"
+      },
+      "tags": [
+        "food",
+        "het"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "brood",
+      "primary_form": "brood",
+      "gloss": "bread",
+      "extras": {
+        "article": "het"
+      },
+      "tags": [
+        "food",
+        "het"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "tafel",
+      "primary_form": "tafel",
+      "gloss": "table",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "home",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "stoel",
+      "primary_form": "stoel",
+      "gloss": "chair",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "home",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "deur",
+      "primary_form": "deur",
+      "gloss": "door",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "home",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "auto",
+      "primary_form": "auto",
+      "gloss": "car",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "transport",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "boom",
+      "primary_form": "boom",
+      "gloss": "tree",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "nature",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "zon",
+      "primary_form": "zon",
+      "gloss": "sun",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "nature",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "nacht",
+      "primary_form": "nacht",
+      "gloss": "night",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vriend",
+      "primary_form": "vriend",
+      "gloss": "friend",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "people",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "kind",
+      "primary_form": "kind",
+      "gloss": "child",
+      "extras": {
+        "article": "het"
+      },
+      "tags": [
+        "people",
+        "het"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "eten",
+      "primary_form": "eten",
+      "gloss": "to eat",
+      "tags": [
+        "tegenwoordige-tijd",
+        "food"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "eet",
+          "2s": "eet",
+          "3s": "eet",
+          "1p": "eten",
+          "2p": "eten",
+          "3p": "eten"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gegeten",
+          "2s": "hebt gegeten",
+          "3s": "heeft gegeten",
+          "1p": "hebben gegeten",
+          "2p": "hebben gegeten",
+          "3p": "hebben gegeten"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "at",
+          "2s": "at",
+          "3s": "at",
+          "1p": "aten",
+          "2p": "aten",
+          "3p": "aten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal eten",
+          "2s": "zult eten",
+          "3s": "zal eten",
+          "1p": "zullen eten",
+          "2p": "zullen eten",
+          "3p": "zullen eten"
+        }
+      },
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gegeten"
+      }
+    },
+    {
+      "kind": "verb",
+      "id": "drinken",
+      "primary_form": "drinken",
+      "gloss": "to drink",
+      "tags": [
+        "tegenwoordige-tijd",
+        "food"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "drink",
+          "2s": "drinkt",
+          "3s": "drinkt",
+          "1p": "drinken",
+          "2p": "drinken",
+          "3p": "drinken"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gedronken",
+          "2s": "hebt gedronken",
+          "3s": "heeft gedronken",
+          "1p": "hebben gedronken",
+          "2p": "hebben gedronken",
+          "3p": "hebben gedronken"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "dronk",
+          "2s": "dronk",
+          "3s": "dronk",
+          "1p": "dronken",
+          "2p": "dronken",
+          "3p": "dronken"
+        },
+        "toekomende-tijd": {
+          "1s": "zal drinken",
+          "2s": "zult drinken",
+          "3s": "zal drinken",
+          "1p": "zullen drinken",
+          "2p": "zullen drinken",
+          "3p": "zullen drinken"
+        }
+      },
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gedronken"
+      }
+    },
+    {
+      "kind": "verb",
+      "id": "spreken",
+      "primary_form": "spreken",
+      "gloss": "to speak",
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "spreek",
+          "2s": "spreekt",
+          "3s": "spreekt",
+          "1p": "spreken",
+          "2p": "spreken",
+          "3p": "spreken"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gesproken",
+          "2s": "hebt gesproken",
+          "3s": "heeft gesproken",
+          "1p": "hebben gesproken",
+          "2p": "hebben gesproken",
+          "3p": "hebben gesproken"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "sprak",
+          "2s": "sprak",
+          "3s": "sprak",
+          "1p": "spraken",
+          "2p": "spraken",
+          "3p": "spraken"
+        },
+        "toekomende-tijd": {
+          "1s": "zal spreken",
+          "2s": "zult spreken",
+          "3s": "zal spreken",
+          "1p": "zullen spreken",
+          "2p": "zullen spreken",
+          "3p": "zullen spreken"
+        }
+      },
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gesproken"
+      }
+    },
+    {
+      "kind": "verb",
+      "id": "gaan",
+      "primary_form": "gaan",
+      "gloss": "to go",
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "ga",
+          "2s": "gaat",
+          "3s": "gaat",
+          "1p": "gaan",
+          "2p": "gaan",
+          "3p": "gaan"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "ben gegaan",
+          "2s": "bent gegaan",
+          "3s": "is gegaan",
+          "1p": "zijn gegaan",
+          "2p": "zijn gegaan",
+          "3p": "zijn gegaan"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "ging",
+          "2s": "ging",
+          "3s": "ging",
+          "1p": "gingen",
+          "2p": "gingen",
+          "3p": "gingen"
+        },
+        "toekomende-tijd": {
+          "1s": "zal gaan",
+          "2s": "zult gaan",
+          "3s": "zal gaan",
+          "1p": "zullen gaan",
+          "2p": "zullen gaan",
+          "3p": "zullen gaan"
+        }
+      },
+      "extras": {
+        "auxiliary": "zijn",
+        "participle": "gegaan"
+      }
+    },
+    {
+      "kind": "connective",
+      "id": "echter",
+      "primary_form": "echter",
+      "gloss": "however",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "Het regent. Wij gaan echter toch naar buiten."
+      },
+      "tags": [
+        "verbindingswoorden"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "namelijk",
+      "primary_form": "namelijk",
+      "gloss": "you see, as it happens",
+      "extras": {
+        "role": "conn-cause",
+        "example": "Ik blijf thuis, ik ben namelijk ziek."
+      },
+      "tags": [
+        "verbindingswoorden"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "bovendien",
+      "primary_form": "bovendien",
+      "gloss": "moreover",
+      "extras": {
+        "role": "conn-addition",
+        "example": "De film is lang, bovendien is hij saai."
+      },
+      "tags": [
+        "verbindingswoorden"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "daarna",
+      "primary_form": "daarna",
+      "gloss": "then, afterwards",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "We eten eerst, daarna gaan we weg."
+      },
+      "tags": [
+        "verbindingswoorden"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "maar",
+      "primary_form": "maar",
+      "gloss": "but",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Ik wil komen, maar ik heb geen tijd."
+      },
+      "tags": [
+        "voegwoorden"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "want",
+      "primary_form": "want",
+      "gloss": "because, for",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Ik blijf thuis, want ik ben moe."
+      },
+      "tags": [
+        "voegwoorden"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "omdat",
+      "primary_form": "omdat",
+      "gloss": "because",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Ik blijf thuis omdat ik moe ben."
+      },
+      "tags": [
+        "voegwoorden"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "hoewel",
+      "primary_form": "hoewel",
+      "gloss": "although",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Hoewel je jong bent, begrijp je het goed."
+      },
+      "tags": [
+        "voegwoorden"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-de-het-words",
+      "title": "De-words and het-words",
+      "body_md": "Most nouns you have to learn with their article. Some groups of nouns, though, always or nearly always take the same one, and knowing them saves a lot of guessing.\n\n## Always het\n\n- **Diminutives**: *het huisje*, *het meisje*, *het kopje*. Even *de tafel* becomes *het tafeltje*.\n- **Infinitives used as nouns**: *het eten* (food), *het leven* (life), *het lezen* (reading).\n- **Languages**: *het Nederlands*, *het Engels*.\n\n## Usually het\n\n- Words ending in **-isme** or **-ment**: *het toerisme*, *het appartement*, *het moment*.\n- Words ending in **-um**: *het museum*, *het centrum*. *De datum* is the exception you'll meet.\n- Words starting with an unstressed **ge-**, **be-**, **ver-** or **ont-**: *het gesprek*, *het begin*, *het verhaal*, *het ontbijt*.\n- Metals: *het goud*, *het zilver*, *het ijzer*.\n\n## Always de\n\n- **Plurals**: *de huizen*, *de kinderen*.\n- Words ending in **-heid**, **-tie** or **-teit**: *de vrijheid*, *de informatie*, *de universiteit*.\n- Nouns made from a verb with **-ing**: *wonen*, *de woning*; *oefenen*, *de oefening*.\n\n## Usually de\n\nWords for people: *de man*, *de vrouw*, *de leraar*. *Het kind* is the big exception, and *het meisje* is a diminutive.\n\n## Compounds\n\nA compound takes the article of its last part: *de deur*, so *de voordeur*; *het huis*, so *het ziekenhuis*.\n\nIf a noun fits none of these, guess **de**. You'll be right about three times in four.\n\n:::examples\n- Het meisje drinkt een kopje thee. — The girl is drinking a cup of tea.\n- Het eten is klaar. — Dinner's ready.\n- De vergadering begint om negen uur. — The meeting starts at nine.\n- Het ziekenhuis ligt naast het station. — The hospital is next to the station.\n:::",
+      "extras": {
+        "explains": [
+          "de",
+          "het"
+        ]
+      },
+      "tags": [
+        "de",
+        "het"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-future",
+      "title": "The future: zullen and gaan",
+      "body_md": "The **toekomende tijd** is **zullen** plus an infinitive, and the infinitive goes to the end of the clause.\n\n| | zullen |\n| --- | --- |\n| ik | zal |\n| jij, u | zult / zal |\n| hij, zij, het | zal |\n| wij, jullie, zij | zullen |\n\n*Zult* drops its -t when *je* follows, as every verb does: *Zul je het doen?*\n\n## When Dutch says zullen\n\nDutch uses *zullen* far less than English uses *will*. It's mostly for promises, predictions and suggestions:\n\n- A promise: *Ik zal je helpen.* (I'll help you.)\n- A prediction or a guess: *Het zal wel meevallen.* (It probably won't be that bad.) *Hij zal wel moe zijn.* (He must be tired.)\n- A suggestion, as a question: *Zullen we gaan?* (Shall we go?)\n\n## Plans: the present or gaan\n\nFor plans and arrangements, Dutch uses the present tense with a time word, or **gaan** plus an infinitive, the everyday \"going to\":\n\n- *Ik bel je morgen.* (I'll call you tomorrow.)\n- *We gaan vanavond koken.* (We're going to cook tonight.)\n\n:::examples\n- Ik zal je morgen helpen. — I'll help you tomorrow.\n- Zullen we morgen gaan zwemmen? — Shall we go swimming tomorrow?\n- Volgend jaar gaan we in Spanje wonen. — Next year we're going to live in Spain.\n- De trein vertrekt om acht uur. — The train leaves at eight.\n:::",
+      "extras": {
+        "explains": [
+          "toekomende-tijd"
+        ]
+      },
+      "tags": [
+        "toekomende-tijd"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-coordinating-conjunctions",
+      "title": "En, maar, of, want and dus",
+      "body_md": "Five short words link two main clauses, or two words, and leave the word order alone: **en** (and), **maar** (but), **of** (or), **want** (because, for) and **dus** (so). Both clauses keep the verb in second place.\n\n:::examples\n- Ik kook en jij wast af. — I cook and you do the dishes.\n- Het is koud, maar de zon schijnt. — It's cold, but the sun is shining.\n- Wil je thee of koffie? — Do you want tea or coffee?\n- Ik ga naar bed, want ik ben moe. — I'm going to bed, because I'm tired.\n- Het regent, dus we blijven binnen. — It's raining, so we're staying in.\n:::\n\n## The conjunction takes no place\n\nThe conjunction stands outside the clause it starts, so that clause begins as it would on its own. When it opens with something other than the subject, the verb still comes second: *Ik werk vandaag, maar **morgen heb** ik tijd.*\n\n## Want or omdat?\n\nBoth mean \"because\". **Want** keeps the order: *Ik blijf thuis, want ik **ben** moe.* **Omdat** starts a subordinate clause and sends the verb to the end: *Ik blijf thuis omdat ik moe **ben**.*\n\n## Dus and of\n\n- **Dus** can also take the first place itself, like an adverb, with the verb straight after it: *Het regent, dus **blijven** we binnen.* Both orders are correct.\n- **Of** also means \"whether\", and then it sends the verb to the end: *Ik weet niet of hij **komt**.*",
+      "extras": {
+        "explains": [
+          "conj-coordinating"
+        ]
+      },
+      "tags": [
+        "conj-coordinating"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-contrast-connectives",
+      "title": "Echter and toch",
+      "body_md": "A contrast connective says that what comes next goes against what came before, or against what you'd expect.\n\n| Dutch | English |\n| --- | --- |\n| echter | however |\n| toch | still, all the same |\n| aan de andere kant | on the other hand |\n| desondanks | nevertheless |\n| integendeel | on the contrary |\n\n## Word order\n\nThese words are adverbs, not conjunctions like *maar*. When one starts a clause it takes the first place, so the verb follows straight after: *Toch **ging** hij.* *Desondanks **is** het gelukt.*\n\n*Echter* usually goes after the verb rather than first: *Het plan is **echter** duur.* *Integendeel* stands apart with a comma, and the clause after it keeps its own order: *Hij is niet verlegen; integendeel, hij praat met iedereen.*\n\n## Maar and hoewel\n\n**Maar** (but) joins two clauses without taking a place, so nothing moves: *Het regende, maar we zijn toch gegaan.* **Hoewel** (although) starts a subordinate clause and sends its verb to the end: *Hoewel het **regende**, zijn we gegaan.*\n\n:::examples\n- Het regent. Wij gaan echter toch naar buiten. — It's raining. However, we're still going outside.\n- Het huis is klein; aan de andere kant is het goedkoop. — The house is small; on the other hand, it's cheap.\n- Het was moeilijk; desondanks is het gelukt. — It was hard; nevertheless, it worked.\n:::",
+      "extras": {
+        "explains": [
+          "conn-contrast"
+        ]
+      },
+      "tags": [
+        "conn-contrast"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-cause-connectives",
+      "title": "Namelijk and immers",
+      "body_md": "A cause connective gives the reason for what was just said. Two adverbs do this job:\n\n| Dutch | English |\n| --- | --- |\n| namelijk | you see, as it happens |\n| immers | after all |\n\n*Namelijk* brings in a reason the listener didn't know: *Ik blijf thuis, ik ben **namelijk** ziek.* It comes after the verb, never first: *Namelijk ben ik ziek* is wrong. *Immers* points to a reason the listener already knows: *Hij kan niet komen; hij is **immers** ziek.*\n\n## Want, omdat and doordat\n\nThe plain words for \"because\" are conjunctions, and each treats word order differently:\n\n- **Want** joins two main clauses and moves nothing: *Ik blijf thuis, want ik ben moe.*\n- **Omdat** starts a subordinate clause, so its verb goes to the end: *Ik blijf thuis omdat ik moe ben.*\n- **Doordat** names what caused something, not why someone chose it, and also sends the verb to the end: *Doordat de trein vertraging had, kwam ik te laat.*\n\nTo give a result instead of a reason, use *dus* or *daarom*: *Ik was ziek, daarom ben ik niet gekomen.*\n\n:::examples\n- Ik blijf thuis, ik ben namelijk ziek. — I'm staying at home; I'm ill, you see.\n- Hij kan niet komen; hij is immers ziek. — He can't come; he's ill, after all.\n- Ik blijf thuis omdat ik moe ben. — I'm staying at home because I'm tired.\n:::",
+      "extras": {
+        "explains": [
+          "conn-cause"
+        ]
+      },
+      "tags": [
+        "conn-cause"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-addition-connectives",
+      "title": "Ook and bovendien",
+      "body_md": "An addition connective adds one more point to what was said.\n\n| Dutch | English |\n| --- | --- |\n| ook | also, too |\n| bovendien | moreover, besides |\n| verder | apart from that, further |\n| trouwens | by the way, besides |\n| overigens | incidentally |\n\n## Word order\n\nLike other adverbs, they take the first place when they start a clause, and the verb follows: *Bovendien **is** hij saai.* *Verder **heb** ik niets nodig.* Inside a main clause they come after the verb: *Ik spreek **ook** Frans.*\n\n*Trouwens* often stands apart at the start, with a comma, and the sentence after it keeps its own order: *Trouwens, heb je mijn sleutels gezien?*\n\n## En\n\nThe conjunction **en** (and) adds too, but it joins two clauses without taking a place in either: *Ik spreek Engels en ik spreek ook Frans.*\n\n:::examples\n- Ik spreek Engels, en ik spreek ook Frans. — I speak English, and I also speak French.\n- De film is lang, bovendien is hij saai. — The film is long; besides, it's boring.\n- Verder heb ik niets nodig. — Apart from that, I don't need anything.\n- Trouwens, heb je mijn sleutels gezien? — By the way, have you seen my keys?\n:::",
+      "extras": {
+        "explains": [
+          "conn-addition"
+        ]
+      },
+      "tags": [
+        "conn-addition"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-sequence-connectives",
+      "title": "Eerst, dan and daarna",
+      "body_md": "Sequence connectives put events in order: first this, then that, and finally the last thing.\n\n| Dutch | English |\n| --- | --- |\n| eerst | first |\n| dan | then |\n| daarna | after that, afterwards |\n| ten slotte | finally, lastly |\n| uiteindelijk | in the end |\n| eindelijk | at last |\n\nAt the start of a clause each one takes the first place, so the verb follows straight after: *Eerst **eten** we, dan **gaan** we weg.*\n\n## Three kinds of finally\n\n- **Ten slotte** brings in the last item of a list: *Ten slotte wil ik iedereen bedanken.*\n- **Uiteindelijk** says how things turned out: *Uiteindelijk zijn we gebleven.*\n- **Eindelijk** is relief after a wait: *Eindelijk is het weekend!*\n\n## Toen in a story\n\nWhen you tell what happened in the past, \"then\" is usually **toen** or **daarna** rather than *dan*: *We aten eerst, toen gingen we naar huis.*\n\n:::examples\n- Eerst eten we, dan gaan we weg. — First we eat, then we leave.\n- We eten eerst, daarna gaan we weg. — We'll eat first, and after that we'll leave.\n- We twijfelden lang, maar uiteindelijk zijn we gebleven. — We hesitated a long time, but in the end we stayed.\n- Eindelijk is het weekend! — At last, it's the weekend!\n:::",
+      "extras": {
+        "explains": [
+          "conn-sequence"
+        ]
+      },
+      "tags": [
+        "conn-sequence"
+      ]
+    }
+  ]
+}

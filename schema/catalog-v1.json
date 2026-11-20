@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://maxmb15.github.io/maxlango-content/schema/catalog-v1.json",
+  "title": "MaxLango content catalog",
+  "description": "The packs one source offers. An app reads it to install packs and to update them when a version goes up.",
+  "type": "object",
+  "required": ["format", "packs"],
+  "properties": {
+    "format": {
+      "const": 1,
+      "description": "The catalog's own shape. A breaking change ships as a new file (catalog.v2.json) so older apps keep reading this one."
+    },
+    "name": { "type": "string", "description": "What the app calls this source." },
+    "packs": {
+      "type": "array",
+      "description": "Every pack, in the order a learner should take them within a language.",
+      "items": {
+        "type": "object",
+        "required": ["id", "language", "name", "version", "url"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[^:]+$" },
+          "language": { "type": "string", "pattern": "^[a-z]{2,3}$" },
+          "name": { "type": "string" },
+          "version": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Must equal the pack file's own version."
+          },
+          "url": {
+            "type": "string",
+            "description": "Where the pack file is, relative to this catalog or absolute (https only)."
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$",
+            "description": "Hex SHA-256 of the pack file's bytes. The app refuses a download that doesn't match."
+          },
+          "size": { "type": "integer", "minimum": 1 },
+          "items": { "type": "integer", "minimum": 1 },
+          "requires": {
+            "type": "integer",
+            "minimum": 1,
+            "default": 1,
+            "description": "The pack format an app must understand. An app that knows an older one skips the pack."
+          },
+          "author": { "type": "string" },
+          "license": { "type": "string" }
+        }
+      }
+    }
+  }
+}

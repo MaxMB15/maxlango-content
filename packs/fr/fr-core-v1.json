@@ -1,0 +1,845 @@
+{
+  "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
+  "id": "fr-core-v1",
+  "version": 7,
+  "language": "fr",
+  "name": "French Core",
+  "author": "Max Boksem",
+  "license": "CC-BY-SA-4.0",
+  "profile_delta": [
+    {
+      "id": "home",
+      "kind": "topic",
+      "label": "Maison",
+      "labelGloss": "home",
+      "dependsOn": [
+        "genre"
+      ]
+    },
+    {
+      "id": "food",
+      "kind": "topic",
+      "label": "Nourriture",
+      "labelGloss": "food",
+      "dependsOn": [
+        "genre"
+      ]
+    },
+    {
+      "id": "connecteurs",
+      "kind": "topic",
+      "label": "Connecteurs",
+      "labelGloss": "connectives",
+      "dependsOn": [
+        "conn-contrast",
+        "conn-cause",
+        "conn-addition",
+        "conn-sequence"
+      ]
+    },
+    {
+      "id": "conjonctions",
+      "kind": "topic",
+      "label": "Conjonctions",
+      "labelGloss": "conjunctions",
+      "dependsOn": [
+        "conj-coordinating",
+        "conj-subordinating"
+      ]
+    },
+    {
+      "id": "animals",
+      "kind": "topic",
+      "label": "Animaux",
+      "labelGloss": "animals",
+      "dependsOn": [
+        "genre"
+      ]
+    },
+    {
+      "id": "nature",
+      "kind": "topic",
+      "label": "Nature",
+      "labelGloss": "nature",
+      "dependsOn": [
+        "genre"
+      ]
+    },
+    {
+      "id": "people",
+      "kind": "topic",
+      "label": "Personnes",
+      "labelGloss": "people",
+      "dependsOn": [
+        "genre"
+      ]
+    },
+    {
+      "id": "objects",
+      "kind": "topic",
+      "label": "Objets",
+      "labelGloss": "objects",
+      "dependsOn": [
+        "genre"
+      ]
+    },
+    {
+      "id": "transport",
+      "kind": "topic",
+      "label": "Transport",
+      "labelGloss": "transport",
+      "dependsOn": [
+        "genre"
+      ]
+    },
+    {
+      "id": "time",
+      "kind": "topic",
+      "label": "Temps",
+      "labelGloss": "time",
+      "dependsOn": [
+        "genre"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "misc",
+      "id": "fr-articles-gender",
+      "title": "Le, la, un and une",
+      "body_md": "Every French noun is **masculine** or **feminine**, and the article shows which.\n\n| | masculine | feminine | plural |\n| --- | --- | --- | --- |\n| the | le chat | la fenêtre | les chats, les fenêtres |\n| a, an, some | un chat | une fenêtre | des chats, des fenêtres |\n\n- **Le** and **la** become **l'** before a vowel or a silent h: *l'ami*, *l'eau*, *l'hôtel*.\n- **Les** and **des** are the same for both genders, so only the singular shows a noun's gender.\n- French uses the article far more than English. A general statement takes *le*, *la* or *les*: *J'aime le café* (I like coffee).\n\n:::examples\n- Le chat dort sur la chaise. — The cat is sleeping on the chair.\n- La fenêtre est ouverte. — The window is open.\n- L'eau est fraîche ce matin. — The water is cool this morning.\n- J'ai un chien et une voiture. — I have a dog and a car.\n:::\n\nSo learn every noun with its article: **le chat**, **la fenêtre**, never the noun alone. When the article is *l'*, learn the gender too: *l'eau* is feminine, *l'arbre* masculine.",
+      "extras": {
+        "examples": [
+          "Le chat dort sur la chaise.",
+          "La fenêtre est ouverte.",
+          "L'eau est fraîche ce matin."
+        ],
+        "cloze": [
+          {
+            "sentence": "___ chat mange.",
+            "blank": "Le"
+          },
+          {
+            "sentence": "___ fenêtre est grande.",
+            "blank": "La"
+          }
+        ],
+        "unlocks": [
+          "concept:fr-articles"
+        ],
+        "explains": [
+          "articles"
+        ]
+      },
+      "tags": [
+        "articles",
+        "genre"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fenêtre",
+      "primary_form": "fenêtre",
+      "gloss": "window",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "home",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "chat",
+      "primary_form": "chat",
+      "gloss": "cat",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "animals",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "chien",
+      "primary_form": "chien",
+      "gloss": "dog",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "animals",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "maison",
+      "primary_form": "maison",
+      "gloss": "house",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "home",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "livre",
+      "primary_form": "livre",
+      "gloss": "book",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "objects",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "eau",
+      "primary_form": "eau",
+      "gloss": "water",
+      "extras": {
+        "gender": "f",
+        "article": "l'"
+      },
+      "tags": [
+        "food",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pain",
+      "primary_form": "pain",
+      "gloss": "bread",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "food",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "table",
+      "primary_form": "table",
+      "gloss": "table",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "home",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "chaise",
+      "primary_form": "chaise",
+      "gloss": "chair",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "home",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "porte",
+      "primary_form": "porte",
+      "gloss": "door",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "home",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "voiture",
+      "primary_form": "voiture",
+      "gloss": "car",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "transport",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "arbre",
+      "primary_form": "arbre",
+      "gloss": "tree",
+      "extras": {
+        "gender": "m",
+        "article": "l'"
+      },
+      "tags": [
+        "nature",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "soleil",
+      "primary_form": "soleil",
+      "gloss": "sun",
+      "extras": {
+        "gender": "m",
+        "article": "le"
+      },
+      "tags": [
+        "nature",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "nuit",
+      "primary_form": "nuit",
+      "gloss": "night",
+      "extras": {
+        "gender": "f",
+        "article": "la"
+      },
+      "tags": [
+        "time",
+        "féminin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ami",
+      "primary_form": "ami",
+      "gloss": "friend",
+      "extras": {
+        "gender": "m",
+        "article": "l'"
+      },
+      "tags": [
+        "people",
+        "masculin"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "enfant",
+      "primary_form": "enfant",
+      "gloss": "child",
+      "extras": {
+        "gender": "m/f",
+        "article": "l'"
+      },
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "manger",
+      "primary_form": "manger",
+      "gloss": "to eat",
+      "tags": [
+        "présent",
+        "food"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "mange",
+          "2s": "manges",
+          "3s": "mange",
+          "1p": "mangeons",
+          "2p": "mangez",
+          "3p": "mangent"
+        },
+        "passé-composé": {
+          "1s": "ai mangé",
+          "2s": "as mangé",
+          "3s": "a mangé",
+          "1p": "avons mangé",
+          "2p": "avez mangé",
+          "3p": "ont mangé"
+        },
+        "imparfait": {
+          "1s": "mangeais",
+          "2s": "mangeais",
+          "3s": "mangeait",
+          "1p": "mangions",
+          "2p": "mangiez",
+          "3p": "mangeaient"
+        },
+        "futur-simple": {
+          "1s": "mangerai",
+          "2s": "mangeras",
+          "3s": "mangera",
+          "1p": "mangerons",
+          "2p": "mangerez",
+          "3p": "mangeront"
+        },
+        "conditionnel": {
+          "1s": "mangerais",
+          "2s": "mangerais",
+          "3s": "mangerait",
+          "1p": "mangerions",
+          "2p": "mangeriez",
+          "3p": "mangeraient"
+        },
+        "subjonctif": {
+          "1s": "mange",
+          "2s": "manges",
+          "3s": "mange",
+          "1p": "mangions",
+          "2p": "mangiez",
+          "3p": "mangent"
+        }
+      },
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "mangé"
+      }
+    },
+    {
+      "kind": "verb",
+      "id": "boire",
+      "primary_form": "boire",
+      "gloss": "to drink",
+      "tags": [
+        "présent",
+        "food"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "bois",
+          "2s": "bois",
+          "3s": "boit",
+          "1p": "buvons",
+          "2p": "buvez",
+          "3p": "boivent"
+        },
+        "passé-composé": {
+          "1s": "ai bu",
+          "2s": "as bu",
+          "3s": "a bu",
+          "1p": "avons bu",
+          "2p": "avez bu",
+          "3p": "ont bu"
+        },
+        "imparfait": {
+          "1s": "buvais",
+          "2s": "buvais",
+          "3s": "buvait",
+          "1p": "buvions",
+          "2p": "buviez",
+          "3p": "buvaient"
+        },
+        "futur-simple": {
+          "1s": "boirai",
+          "2s": "boiras",
+          "3s": "boira",
+          "1p": "boirons",
+          "2p": "boirez",
+          "3p": "boiront"
+        },
+        "conditionnel": {
+          "1s": "boirais",
+          "2s": "boirais",
+          "3s": "boirait",
+          "1p": "boirions",
+          "2p": "boiriez",
+          "3p": "boiraient"
+        },
+        "subjonctif": {
+          "1s": "boive",
+          "2s": "boives",
+          "3s": "boive",
+          "1p": "buvions",
+          "2p": "buviez",
+          "3p": "boivent"
+        }
+      },
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "bu"
+      }
+    },
+    {
+      "kind": "verb",
+      "id": "parler",
+      "primary_form": "parler",
+      "gloss": "to speak",
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "parle",
+          "2s": "parles",
+          "3s": "parle",
+          "1p": "parlons",
+          "2p": "parlez",
+          "3p": "parlent"
+        },
+        "passé-composé": {
+          "1s": "ai parlé",
+          "2s": "as parlé",
+          "3s": "a parlé",
+          "1p": "avons parlé",
+          "2p": "avez parlé",
+          "3p": "ont parlé"
+        },
+        "imparfait": {
+          "1s": "parlais",
+          "2s": "parlais",
+          "3s": "parlait",
+          "1p": "parlions",
+          "2p": "parliez",
+          "3p": "parlaient"
+        },
+        "futur-simple": {
+          "1s": "parlerai",
+          "2s": "parleras",
+          "3s": "parlera",
+          "1p": "parlerons",
+          "2p": "parlerez",
+          "3p": "parleront"
+        },
+        "conditionnel": {
+          "1s": "parlerais",
+          "2s": "parlerais",
+          "3s": "parlerait",
+          "1p": "parlerions",
+          "2p": "parleriez",
+          "3p": "parleraient"
+        },
+        "subjonctif": {
+          "1s": "parle",
+          "2s": "parles",
+          "3s": "parle",
+          "1p": "parlions",
+          "2p": "parliez",
+          "3p": "parlent"
+        }
+      },
+      "extras": {
+        "auxiliary": "avoir",
+        "participle": "parlé"
+      }
+    },
+    {
+      "kind": "verb",
+      "id": "aller",
+      "primary_form": "aller",
+      "gloss": "to go",
+      "tags": [
+        "présent"
+      ],
+      "conjugations": {
+        "présent": {
+          "1s": "vais",
+          "2s": "vas",
+          "3s": "va",
+          "1p": "allons",
+          "2p": "allez",
+          "3p": "vont"
+        },
+        "passé-composé": {
+          "1s": "suis allé(e)",
+          "2s": "es allé(e)",
+          "3s": "est allé(e)",
+          "1p": "sommes allé(e)s",
+          "2p": "êtes allé(e)s",
+          "3p": "sont allé(e)s"
+        },
+        "imparfait": {
+          "1s": "allais",
+          "2s": "allais",
+          "3s": "allait",
+          "1p": "allions",
+          "2p": "alliez",
+          "3p": "allaient"
+        },
+        "futur-simple": {
+          "1s": "irai",
+          "2s": "iras",
+          "3s": "ira",
+          "1p": "irons",
+          "2p": "irez",
+          "3p": "iront"
+        },
+        "conditionnel": {
+          "1s": "irais",
+          "2s": "irais",
+          "3s": "irait",
+          "1p": "irions",
+          "2p": "iriez",
+          "3p": "iraient"
+        },
+        "subjonctif": {
+          "1s": "aille",
+          "2s": "ailles",
+          "3s": "aille",
+          "1p": "allions",
+          "2p": "alliez",
+          "3p": "aillent"
+        }
+      },
+      "extras": {
+        "auxiliary": "être",
+        "participle": "allé",
+        "agreement": {
+          "passé-composé.1s": [
+            "allé",
+            "allée"
+          ],
+          "passé-composé.2s": [
+            "allé",
+            "allée"
+          ],
+          "passé-composé.3s": [
+            "allé",
+            "allée"
+          ],
+          "passé-composé.1p": [
+            "allés",
+            "allées"
+          ],
+          "passé-composé.2p": [
+            "allés",
+            "allées"
+          ],
+          "passé-composé.3p": [
+            "allés",
+            "allées"
+          ]
+        }
+      }
+    },
+    {
+      "kind": "connective",
+      "id": "cependant",
+      "primary_form": "cependant",
+      "gloss": "however",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "Il pleut, cependant nous sortons."
+      },
+      "tags": [
+        "connecteurs"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "en effet",
+      "primary_form": "en effet",
+      "gloss": "indeed, as it happens",
+      "extras": {
+        "role": "conn-cause",
+        "example": "Je reste à la maison, en effet je suis malade."
+      },
+      "tags": [
+        "connecteurs"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "de plus",
+      "primary_form": "de plus",
+      "gloss": "moreover",
+      "extras": {
+        "role": "conn-addition",
+        "example": "Le film est long, de plus il est ennuyeux."
+      },
+      "tags": [
+        "connecteurs"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "ensuite",
+      "primary_form": "ensuite",
+      "gloss": "then, next",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "Nous mangeons, ensuite nous partons."
+      },
+      "tags": [
+        "connecteurs"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "mais",
+      "primary_form": "mais",
+      "gloss": "but",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Je veux venir, mais je n'ai pas le temps."
+      },
+      "tags": [
+        "conjonctions"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "donc",
+      "primary_form": "donc",
+      "gloss": "so, therefore",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Il fait froid, donc je porte un manteau."
+      },
+      "tags": [
+        "conjonctions"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "parce que",
+      "primary_form": "parce que",
+      "gloss": "because",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Je reste ici parce que je suis fatigué."
+      },
+      "tags": [
+        "conjonctions"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "bien que",
+      "primary_form": "bien que",
+      "gloss": "although",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Bien que tu sois jeune, tu comprends vite."
+      },
+      "tags": [
+        "conjonctions"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "fr-plural",
+      "title": "Plurals: -s, -x and -aux",
+      "body_md": "Most French nouns add **-s** in the plural, and the article becomes **les** or **des**: *le chat*, *les chats*; *une maison*, *des maisons*.\n\nThe -s is silent, so *chat* and *chats* sound the same. You hear the plural in the article, and in the liaison before a vowel: *les amis* sounds like \"lay-zah-mee\".\n\n## Other endings\n\n| Singular ends in | Plural | Example |\n| --- | --- | --- |\n| -s, -x, -z | no change | le bras, les bras; la voix, les voix |\n| -eau | add -x | le bateau, les bateaux |\n| -au, -eu | usually add -x | le jeu, les jeux, but le pneu, les pneus |\n| -al | -aux | le journal, les journaux; le cheval, les chevaux |\n| -ail | usually add -s | le détail, les détails, but le travail, les travaux |\n| -ou | usually add -s | le trou, les trous |\n\nSeven nouns in -ou take **-x** instead: *bijou*, *caillou*, *chou*, *genou*, *hibou*, *joujou* and *pou*. A few in -al just add -s: *le festival*, *les festivals*.\n\n## Irregular plurals\n\n- *l'œil* (eye), *les yeux*\n- *monsieur*, *messieurs*; *madame*, *mesdames*\n\nAdjectives follow the same patterns: *un livre intéressant*, *des livres intéressants*; *un journal national*, *des journaux nationaux*.\n\n:::examples\n- J'ai deux chats et un chien. — I have two cats and a dog.\n- Les journaux sont sur la table. — The newspapers are on the table.\n- Elle a les yeux bleus. — She has blue eyes.\n- Les bateaux arrivent ce soir. — The boats arrive this evening.\n:::",
+      "extras": {
+        "explains": [
+          "pluriel"
+        ]
+      },
+      "tags": [
+        "pluriel"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "fr-coordinating-conjunctions",
+      "title": "Mais, ou, et, donc, or, ni and car",
+      "body_md": "French schoolchildren learn the coordinating conjunctions as a question: *Mais où est donc Ornicar ?* It hides **mais** (but), **ou** (or), **et** (and), **donc** (so), **or** (now, yet), **ni** (nor) and **car** (because, for).\n\nThey join two words, or two clauses of the same kind, and leave both as they are.\n\n:::examples\n- J'ai un frère et une sœur. — I have a brother and a sister.\n- Tu veux du thé ou du café ? — Do you want tea or coffee?\n- Je veux venir, mais je n'ai pas le temps. — I want to come, but I don't have time.\n- Il fait froid, donc je porte un manteau. — It's cold, so I'm wearing a coat.\n:::\n\n## Car or parce que?\n\nBoth mean \"because\". **Parce que** is the everyday word, and it starts a subordinate clause. **Car** belongs to writing and careful speech. It comes after a comma and never starts a sentence: *Je reste ici, car il pleut.*\n\n## Ni\n\n**Ni** needs **ne** before the verb, and usually comes twice: *Je ne bois ni thé ni café.* (I drink neither tea nor coffee.)\n\n## Or\n\n**Or** brings in a fact that changes the argument, often one that gets in the way: *Il devait venir, or il n'est pas venu.* (He was supposed to come, yet he didn't.) It belongs to formal French.",
+      "extras": {
+        "explains": [
+          "conj-coordinating"
+        ]
+      },
+      "tags": [
+        "conj-coordinating"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "fr-subordinating-conjunctions",
+      "title": "Que, quand, si and parce que",
+      "body_md": "A subordinating conjunction starts a clause that depends on the main clause: *Je reste ici **parce que** je suis fatigué.* The word order inside that clause stays as it is. What some conjunctions change is the mood of its verb.\n\n| French | English |\n| --- | --- |\n| que | that |\n| quand, lorsque | when |\n| si | if |\n| parce que | because |\n| comme | as, since (at the start of the sentence) |\n| puisque | since (a reason both sides know) |\n| pendant que | while |\n| bien que | although |\n| pour que | so that |\n\n## Que stays\n\nEnglish can leave out *that*. French can't leave out *que*: *Je pense **qu'**il vient.* (I think he's coming.)\n\n## Some take the subjunctive\n\n**Bien que**, **pour que**, **avant que**, **à moins que** and **sans que** take the subjunctive: *Bien que tu **sois** jeune, tu comprends vite.* Most others, *parce que*, *quand* and *si* among them, take the indicative.\n\n## Si and quand\n\n- When **si** means \"if\", the verb after it is never in the future or the conditional: *Si tu viens, je serai content.* When it means \"whether\", the future is fine: *Je ne sais pas s'il viendra.*\n- After **quand**, French puts a future time in the future tense, where English uses the present: *Quand tu arriveras, appelle-moi.* (When you arrive, call me.)\n\n:::examples\n- Je pense qu'il va pleuvoir. — I think it's going to rain.\n- Je lis quand il pleut. — I read when it rains.\n- On sort si tu veux. — We'll go out if you want.\n- Je reste ici parce que je suis fatigué. — I'm staying here because I'm tired.\n:::",
+      "extras": {
+        "explains": [
+          "conj-subordinating"
+        ]
+      },
+      "tags": [
+        "conj-subordinating"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "fr-contrast-connectives",
+      "title": "Cependant and pourtant",
+      "body_md": "A contrast connective says that what comes next goes against what came before, or against what you'd expect.\n\n| French | English |\n| --- | --- |\n| cependant | however |\n| pourtant | yet, and yet |\n| en revanche | on the other hand |\n| néanmoins | nevertheless |\n| toutefois | however (formal) |\n| au contraire | on the contrary |\n\nAt the start of a clause they usually take a comma, and the word order stays as it is: *Pourtant, il n'est pas heureux.* Most can also sit after the verb: *Il n'est **pourtant** pas heureux.*\n\n## Which one?\n\n- **Pourtant** carries surprise, something true against what you'd expect: *Il est riche ; pourtant, il n'est pas heureux.*\n- **Cependant** is a plainer \"however\". *Toutefois* and *néanmoins* say the same more formally.\n- **En revanche** sets two facts side by side: *Le logement est cher ; en revanche, la nourriture est bon marché.*\n- **Au contraire** follows a negative and says the opposite is true: *Il n'est pas timide ; au contraire, il parle à tout le monde.*\n\n## Mais and bien que\n\n**Mais** (but) is the everyday way to set up a contrast: *Je veux venir, mais je n'ai pas le temps.* **Bien que** (although) starts a subordinate clause and takes the subjunctive: *Bien qu'il **soit** riche, il n'est pas heureux.*\n\n:::examples\n- Il pleut, cependant nous sortons. — It's raining; however, we're going out.\n- Il est riche ; pourtant, il n'est pas heureux. — He's rich, and yet he isn't happy.\n- C'est difficile ; néanmoins, c'est possible. — It's difficult; nevertheless, it's possible.\n:::",
+      "extras": {
+        "explains": [
+          "conn-contrast"
+        ]
+      },
+      "tags": [
+        "conn-contrast"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "fr-cause-connectives",
+      "title": "En effet and en fait",
+      "body_md": "A cause connective gives the reason for what was just said.\n\n| French | English |\n| --- | --- |\n| en effet | indeed, as it happens |\n| en fait | in fact, actually |\n\n**En effet** backs up what you just said with its reason: *Je reste à la maison ; en effet, je suis malade.* It doesn't mean \"in effect\". **En fait** brings in what is really the case, often to correct an impression: *Je ne viens pas ; en fait, je suis malade.*\n\n## Parce que, car, puisque and comme\n\n- **Parce que** is the everyday \"because\": *Je reste ici parce que je suis fatigué.*\n- **Car** says the same in writing, after a comma, and never starts a sentence: *Je reste ici, car il pleut.*\n- **Puisque** gives a reason the listener already knows: *Puisque tu es là, aide-moi.*\n- **Comme** puts the reason first, at the start of the sentence: *Comme il pleut, on reste ici.*\n\n:::examples\n- Je reste à la maison, en effet je suis malade. — I'm staying at home; I'm ill, you see.\n- Je ne viens pas ; en fait, je suis malade. — I'm not coming; actually, I'm ill.\n- Puisque tu es là, aide-moi. — Since you're here, help me.\n:::",
+      "extras": {
+        "explains": [
+          "conn-cause"
+        ]
+      },
+      "tags": [
+        "conn-cause"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "fr-addition-connectives",
+      "title": "Aussi and en plus",
+      "body_md": "An addition connective adds one more point to what was said.\n\n| French | English |\n| --- | --- |\n| aussi | also, too |\n| en plus | on top of that |\n| de plus | moreover |\n| d'ailleurs | besides, what's more |\n| en outre | furthermore |\n\n*En plus* is the everyday one, *de plus* suits writing, and *en outre* is formal.\n\nAt the start of a clause they take a comma and change nothing else: *De plus, il est ennuyeux.* **Aussi** is the exception. For \"also\", it goes after the verb: *J'aime aussi le café.* At the start of a sentence, in formal writing, *aussi* means \"so\".\n\n## D'ailleurs\n\n*D'ailleurs* adds a point that backs up what you said, often one that settles it: *Je n'ai pas faim ; d'ailleurs, j'ai déjà mangé.*\n\n:::examples\n- J'aime le thé. J'aime aussi le café. — I like tea. I also like coffee.\n- Le film est long, de plus il est ennuyeux. — The film is long; moreover, it's boring.\n- Il est en retard, et en plus il a oublié les clés. — He's late, and on top of that he forgot the keys.\n:::",
+      "extras": {
+        "explains": [
+          "conn-addition"
+        ]
+      },
+      "tags": [
+        "conn-addition"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "fr-sequence-connectives",
+      "title": "D'abord, ensuite and enfin",
+      "body_md": "Sequence connectives put events in order: first this, then that, and finally the last thing.\n\n| French | English |\n| --- | --- |\n| d'abord | first, first of all |\n| ensuite | then, next |\n| puis | then |\n| après | afterwards |\n| enfin | finally, at last |\n| finalement | in the end |\n\nA story often runs *d'abord*, then *ensuite* or *puis*, then *enfin*: *D'abord, on mange ; ensuite, on va au cinéma ; enfin, on rentre.*\n\n## Enfin or finalement?\n\n- **Enfin** brings in the last step of a list, or says \"at last\" after a wait: *Enfin, nous sommes arrivés !*\n- **Finalement** says how things turned out, often not as planned: *On a beaucoup hésité, et finalement on est restés.*\n\n## Après\n\n*Après* is also a preposition: *après le dîner* (after dinner). On its own at the end of a clause it means \"afterwards\": *On mange d'abord, et on sort après.*\n\n:::examples\n- D'abord, on mange ; après, on sort. — First we eat; then we go out.\n- Il ouvre la porte, puis il entre. — He opens the door, then he goes in.\n- Nous mangeons, ensuite nous partons. — We eat, then we leave.\n- Enfin, nous sommes arrivés. — At last, we arrived.\n:::",
+      "extras": {
+        "explains": [
+          "conn-sequence"
+        ]
+      },
+      "tags": [
+        "conn-sequence"
+      ]
+    }
+  ]
+}

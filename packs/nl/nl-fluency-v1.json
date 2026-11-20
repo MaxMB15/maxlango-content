@@ -1,0 +1,3414 @@
+{
+  "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
+  "id": "nl-fluency-v1",
+  "version": 3,
+  "language": "nl",
+  "name": "Nederlands · Vloeiend (B1)",
+  "author": "Max Boksem",
+  "license": "CC-BY-SA-4.0",
+  "profile_delta": [
+    {
+      "id": "bijzinnen",
+      "kind": "topic",
+      "label": "Bijzinnen",
+      "labelGloss": "subordinate clauses",
+      "dependsOn": [
+        "tegenwoordige-tijd"
+      ]
+    },
+    {
+      "id": "lijdende-vorm",
+      "kind": "topic",
+      "label": "Lijdende vorm",
+      "labelGloss": "the passive",
+      "dependsOn": [
+        "voltooid-tegenwoordige-tijd"
+      ]
+    },
+    {
+      "id": "voorwaardelijke-wijs",
+      "kind": "topic",
+      "label": "Voorwaardelijke wijs",
+      "labelGloss": "would: the conditional",
+      "dependsOn": [
+        "toekomende-tijd"
+      ]
+    },
+    {
+      "id": "valse-vrienden",
+      "kind": "topic",
+      "label": "Valse vrienden",
+      "labelGloss": "false friends",
+      "dependsOn": []
+    },
+    {
+      "id": "idioms",
+      "kind": "topic",
+      "label": "Idioom",
+      "labelGloss": "idioms",
+      "dependsOn": []
+    },
+    {
+      "id": "vlaams",
+      "kind": "topic",
+      "label": "Vlaams",
+      "labelGloss": "Belgian Dutch",
+      "dependsOn": []
+    },
+    {
+      "id": "society",
+      "kind": "topic",
+      "label": "Maatschappij",
+      "labelGloss": "society and ideas",
+      "dependsOn": [
+        "lidwoorden"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "misc",
+      "id": "nl-subordinate-clauses",
+      "title": "Omdat sends the verb to the end",
+      "body_md": "In a **subordinate clause**, every verb goes to the **end**. The clause starts with a subordinating conjunction (*omdat, dat, als, toen, hoewel, terwijl, of*) or a relative pronoun.\n\n| Main clause | Subordinate clause |\n| --- | --- |\n| Ik ben moe. | ...omdat ik moe **ben**. |\n| Hij komt morgen. | Ik denk dat hij morgen **komt**. |\n| Ik bel je op. | ...als ik je **opbel**. |\n\nSeparable verbs join back together at the end: *opbel*.\n\n## Want or omdat?\n\nBoth mean \"because\". **Want** is coordinating and keeps normal word order. **Omdat** is subordinating and sends the verb to the end.\n\n:::examples\n- Ik blijf thuis, want ik ben ziek. — I'm staying home, because I'm ill.\n- Ik blijf thuis omdat ik ziek ben. — I'm staying home because I'm ill.\n:::\n\nThe coordinating conjunctions are few: **en, maar, of, want, dus** (when it means \"so\"). Everything else sends the verb to the end.\n\n## Verb clusters\n\nWith two or more verbs at the end, the order is flexible. The finite verb can go first or last:\n\n- *...omdat ik het **heb gedaan**.* / *...omdat ik het **gedaan heb**.*\n- *...omdat ik morgen **moet werken**.* / *...omdat ik morgen **werken moet**.*\n\nThe Netherlands and Flanders lean different ways. Both are correct.\n\n## A subordinate clause first\n\nWhen the subordinate clause comes first, it counts as the first element of the main clause, so the main verb comes straight after: *Omdat ik ziek ben, **blijf** ik thuis.* Verb, comma, verb.\n\n:::examples\n- Ik denk dat het morgen gaat regenen. — I think it's going to rain tomorrow.\n- Als je tijd hebt, kun je me helpen. — If you have time, you can help me.\n- Hoewel het koud was, gingen we zwemmen. — Although it was cold, we went swimming.\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:nl-subordinate-clauses"
+        ],
+        "explains": [
+          "conj-subordinating",
+          "bijzinnen"
+        ]
+      },
+      "tags": [
+        "bijzinnen"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-om-te",
+      "title": "Om ... te",
+      "body_md": "Where English uses *to* + verb, Dutch uses **te** + infinitive, often inside **om ... te**, with everything else in between.\n\n## Om ... te: in order to\n\n:::examples\n- Ik ga naar de winkel om brood te kopen. — I'm going to the shop to buy bread.\n- Het is te koud om buiten te zitten. — It's too cold to sit outside.\n- Ik heb geen tijd om te koken. — I have no time to cook.\n:::\n\n## Te without om\n\nAfter verbs like *proberen, beginnen, vergeten, hopen, durven, besluiten*, the *om* is optional or left out:\n\n- *Ik probeer (om) Nederlands te leren.*\n- *Vergeet niet de deur dicht te doen.*\n\n## No te\n\nThe modal verbs (*kunnen, willen, moeten, mogen, zullen*) and a few others (*gaan, komen, laten, zien, horen*) take a bare infinitive: *Ik wil slapen*, *Ik ga zwemmen*, *Laat me gaan*.\n\n## Separable verbs\n\n**Te** goes between the prefix and the verb: *op te bellen*, *mee te nemen*, *uit te gaan*.",
+      "extras": {
+        "unlocks": [
+          "concept:nl-om-te"
+        ]
+      },
+      "tags": [
+        "bijzinnen"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-relative-pronouns",
+      "title": "Die, dat and waar-",
+      "body_md": "The relative pronoun follows the noun's article: **die** for de-words and all plurals, **dat** for singular het-words.\n\n:::examples\n- De man die daar staat, is mijn buurman. — The man who's standing there is my neighbour.\n- Het boek dat ik lees, is spannend. — The book I'm reading is exciting.\n- De boeken die ik lees, zijn spannend. — The books I'm reading are exciting.\n:::\n\nThe relative clause is a subordinate clause, so the verb goes to the end.\n\n## Wie after a preposition (people)\n\n*De vrouw met wie ik praat.* (The woman I'm talking to.)\n\n## Waar + preposition (things)\n\nFor things, Dutch doesn't say *met die* or *over dat*. It says **waarmee, waarover, waarop, waarin**:\n\n- *Het mes waarmee ik snijd.* (The knife I'm cutting with.)\n- *Het onderwerp waarover we praten.* (The subject we're talking about.)\n\nThis is the same pattern as *ermee, erover* on the page about **er**.\n\n## Wat\n\nAfter *alles, iets, niets, het enige* and after a whole clause, use **wat**: *Alles wat je zegt*, *Hij komt niet, wat jammer is.*",
+      "extras": {
+        "unlocks": [
+          "concept:nl-relative-pronouns"
+        ]
+      },
+      "tags": [
+        "bijzinnen"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-passive",
+      "title": "The passive: worden",
+      "body_md": "The Dutch passive uses **worden** (to become) plus the participle, where English uses *to be*.\n\n:::examples\n- Het huis wordt verkocht. — The house is being sold.\n- De brief werd gisteren geschreven. — The letter was written yesterday.\n- Het boek is door een Belg geschreven. — The book was written by a Belgian.\n:::\n\nThe one who does the action is introduced with **door** (by).\n\n## Worden or zijn?\n\nThe present and simple past use **worden**. The perfect uses **zijn**, and *geworden* drops out:\n\n| Tense | Passive |\n| --- | --- |\n| present | Het huis **wordt** verkocht. |\n| simple past | Het huis **werd** verkocht. |\n| perfect | Het huis **is** verkocht. |\n| past perfect | Het huis **was** verkocht. |\n\nSo *het huis is verkocht* is \"the house has been sold\", not \"the house is sold (right now, in progress)\".\n\n## Er + passive\n\nDutch can make a passive with no subject at all, with **er**: *Er wordt gebeld.* (Someone's at the door.) *Er wordt hier veel gelachen.* (People laugh a lot here.)",
+      "extras": {
+        "unlocks": [
+          "concept:nl-passive"
+        ],
+        "explains": [
+          "lijdende-vorm"
+        ]
+      },
+      "tags": [
+        "lijdende-vorm"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-conditional",
+      "title": "Zou: the conditional",
+      "body_md": "**Zou** / **zouden** plus an infinitive is Dutch *would*.\n\n| | zullen (past) |\n| --- | --- |\n| ik, jij, hij | zou |\n| wij, jullie, zij | zouden |\n\n## Politeness\n\n:::examples\n- Zou je me kunnen helpen? — Could you help me?\n- Ik zou graag een kamer reserveren. — I'd like to book a room.\n- Je zou eens met hem moeten praten. — You should talk to him some time.\n:::\n\n## If\n\nUnlike French, Dutch allows *zou* on both sides of *als*, and speech often uses the simple past:\n\n- *Als ik rijk was, zou ik een boot kopen.* (If I were rich, I'd buy a boat.)\n- *Als ik rijk zou zijn, zou ik een boot kopen.* (Same meaning.)\n\nMissed chances use *had* or *was*: *Als ik het had geweten, was ik gekomen.* (If I'd known, I'd have come.)\n\n## Hearsay\n\nLike French, the conditional marks a rumour: *De minister zou ontslag nemen.* (The minister is said to be resigning.)",
+      "extras": {
+        "unlocks": [
+          "concept:nl-conditional"
+        ],
+        "explains": [
+          "voorwaardelijke-wijs"
+        ]
+      },
+      "tags": [
+        "voorwaardelijke-wijs"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-untranslatables",
+      "title": "Gezellig, lekker and uitwaaien",
+      "body_md": "Some Dutch words carry a whole idea that English needs a sentence for. You'll hear these every day.\n\n## Gezellig\n\nA place, an evening, a person or a conversation can be *gezellig*: cosy, convivial, relaxed, warm, with people you like. A birthday party is *gezellig*. So is a crowded café, a candle on a table, or a chat with a neighbour. *Ongezellig* is the opposite, and a real criticism.\n\n*Het was heel gezellig!* is the standard thing to say when leaving.\n\n## Lekker\n\nLiterally \"tasty\", but it's used for anything pleasant: *lekker weer* (lovely weather), *lekker slapen* (sleep well), *lekker bezig* (doing great). *Ik voel me niet lekker* means \"I don't feel well\".\n\n## Uitwaaien\n\nTo go for a walk in strong wind, usually by the sea, to clear your head.\n\n## Gedogen\n\nTo officially tolerate something that's technically illegal. The Dutch coffeeshop policy is the famous case. The word says a lot about how the Netherlands governs.\n\n## Polderen\n\nTo reach a decision by long consensus between everyone involved. Named after the polders, reclaimed land that only stayed dry because neighbours cooperated.\n\n## Borrel\n\nDrinks and snacks after work or on a Friday afternoon. *Kom je ook naar de borrel?*\n\n## Sterkte and beterschap\n\n*Beterschap* is \"get well soon\". *Sterkte* (\"strength\") is what you wish someone facing something hard: an exam, an illness, a funeral. English has no single word for it.",
+      "extras": {
+        "unlocks": [
+          "concept:nl-untranslatables"
+        ]
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-false-friends",
+      "title": "False friends",
+      "body_md": "Dutch and English share so much that learners guess, and usually guess right. These are where guessing fails.\n\n| Dutch | Means | Not |\n| --- | --- | --- |\n| eventueel | possibly, if need be | eventually (*uiteindelijk*) |\n| actueel | current, topical | actual (*werkelijk*) |\n| brutaal | cheeky | brutal (*wreed*) |\n| slim | clever | slim (*slank*) |\n| bellen | to phone; to ring | to bell |\n| de brand | fire | brand (*het merk*) |\n| de kok | cook | cock |\n| de room | cream | room (*de kamer*) |\n| het bad | bath | bad (*slecht*) |\n| de rok | skirt | rock (*de rots*) |\n| eerlijk | honest; fair | early (*vroeg*) |\n| wandelen | to go for a walk | to wander (*zwerven*) |\n| de winkel | shop | winkle |\n| door | through; by | door (*de deur*) |\n| durven | to dare | |\n| de map | folder | map (*de kaart*) |\n| de hut | cabin | hut |\n| de gift | donation | gift (*het cadeau*) |\n| het cadeau | present, gift | |\n\n*Gift* is the classic one: a *gift* is a donation, and *het gif* is poison.",
+      "extras": {
+        "unlocks": [
+          "concept:nl-false-friends"
+        ],
+        "explains": [
+          "valse-vrienden"
+        ]
+      },
+      "tags": [
+        "valse-vrienden"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-flemish",
+      "title": "Belgian Dutch",
+      "body_md": "Dutch is also the language of Flanders, the northern half of Belgium, and Flemish Dutch sounds and feels different. The written standard is shared; speech differs.\n\n| Flemish | Netherlands Dutch | English |\n| --- | --- | --- |\n| gij, ge | jij, je | you |\n| goesting | zin | desire, appetite |\n| amai! | jeetje! | wow! |\n| allez | kom op, nou | come on, well |\n| schoon | mooi | beautiful (in NL: clean) |\n| plezant | leuk | fun, pleasant |\n| een pintje | een biertje | a beer |\n| content | tevreden | pleased |\n| efkes | even | a moment |\n| den dezen | deze hier | this one |\n| wablieft? | wat zeg je? | pardon? |\n\n## Politeness\n\nFlanders uses **u** more readily than the Netherlands, and speech is generally softer. The Dutch are often seen in Flanders as blunt; Flemish speakers in the Netherlands as formal.\n\n## Pronunciation\n\nThe Flemish **g** is soft, closer to the g in *loch* whispered. The Netherlands, especially the north, rasps it.",
+      "extras": {
+        "unlocks": [
+          "concept:nl-flemish"
+        ],
+        "explains": [
+          "vlaams"
+        ]
+      },
+      "tags": [
+        "vlaams"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "nl-idioms",
+      "title": "How Dutch idioms work",
+      "body_md": "Dutch idioms are rooted in farming, the sea, and cheerful rudeness. Many have an English cousin with a different animal.\n\n| Dutch | Literally | Meaning |\n| --- | --- | --- |\n| nu komt de aap uit de mouw | now the monkey comes out of the sleeve | now the truth comes out |\n| met de deur in huis vallen | to fall into the house with the door | to get straight to the point |\n| het regent pijpenstelen | it's raining pipe stems | it's raining cats and dogs |\n| van een mug een olifant maken | to make an elephant of a mosquito | to make a mountain out of a molehill |\n| dat is een eitje | that's a little egg | that's a piece of cake |\n\nThe literal translation is stored with each idiom in this pack. It's often what makes it stick.\n\n*Met de deur in huis vallen* is also a fair description of the Dutch conversational style: people get to the point, and that isn't rude.",
+      "extras": {
+        "unlocks": [
+          "concept:nl-idioms"
+        ],
+        "explains": [
+          "idioms"
+        ]
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "maatschappij",
+      "primary_form": "maatschappij",
+      "gloss": "society",
+      "extras": {
+        "article": "de",
+        "plural": "maatschappijen"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "nu-komt-de-aap-uit-de-mouw",
+      "primary_form": "nu komt de aap uit de mouw",
+      "gloss": "now the truth comes out",
+      "extras": {
+        "literal": "now the monkey comes out of the sleeve"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "zich-afvragen",
+      "primary_form": "zich afvragen",
+      "gloss": "to wonder",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "afgevraagd",
+        "past": "vroeg / vroegen",
+        "separable": "af",
+        "example": "Ik vraag me af of hij komt.",
+        "example_en": "I wonder whether he's coming."
+      },
+      "tags": [
+        "tegenwoordige-tijd",
+        "scheidbare-werkwoorden",
+        "wederkerende-werkwoorden"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "vraag me af",
+          "2s": "vraagt je af",
+          "3s": "vraagt zich af",
+          "1p": "vragen ons af",
+          "2p": "vragen je af",
+          "3p": "vragen zich af"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb me afgevraagd",
+          "2s": "hebt je afgevraagd",
+          "3s": "heeft zich afgevraagd",
+          "1p": "hebben ons afgevraagd",
+          "2p": "hebben je afgevraagd",
+          "3p": "hebben zich afgevraagd"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "vroeg me af",
+          "2s": "vroeg je af",
+          "3s": "vroeg zich af",
+          "1p": "vroegen ons af",
+          "2p": "vroegen je af",
+          "3p": "vroegen zich af"
+        },
+        "toekomende-tijd": {
+          "1s": "zal me afvragen",
+          "2s": "zult je afvragen",
+          "3s": "zal zich afvragen",
+          "1p": "zullen ons afvragen",
+          "2p": "zullen je afvragen",
+          "3p": "zullen zich afvragen"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "gezellig",
+      "primary_form": "gezellig",
+      "gloss": "cosy, convivial, fun",
+      "extras": {
+        "forms": {
+          "base": "gezellig",
+          "inflected": "gezellige"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "doe-normaal",
+      "primary_form": "doe normaal",
+      "gloss": "act normal, calm down",
+      "extras": {
+        "literal": "do normal"
+      },
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "regering",
+      "primary_form": "regering",
+      "gloss": "government",
+      "extras": {
+        "article": "de",
+        "plural": "regeringen"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "desondanks",
+      "primary_form": "desondanks",
+      "gloss": "nevertheless",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "Het was moeilijk; desondanks is het gelukt.",
+        "example_en": "It was hard; nevertheless, it worked."
+      },
+      "tags": [
+        "verbindingswoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "met-de-deur-in-huis-vallen",
+      "primary_form": "met de deur in huis vallen",
+      "gloss": "to get straight to the point",
+      "extras": {
+        "literal": "to fall into the house with the door"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "wet",
+      "primary_form": "wet",
+      "gloss": "law",
+      "extras": {
+        "article": "de",
+        "plural": "wetten"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "overleggen",
+      "primary_form": "overleggen",
+      "gloss": "to consult, to discuss",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "overlegd",
+        "past": "overlegde / overlegden",
+        "example": "We moeten even overleggen.",
+        "example_en": "We need to talk it over."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "overleg",
+          "2s": "overlegt",
+          "3s": "overlegt",
+          "1p": "overleggen",
+          "2p": "overleggen",
+          "3p": "overleggen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb overlegd",
+          "2s": "hebt overlegd",
+          "3s": "heeft overlegd",
+          "1p": "hebben overlegd",
+          "2p": "hebben overlegd",
+          "3p": "hebben overlegd"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "overlegde",
+          "2s": "overlegde",
+          "3s": "overlegde",
+          "1p": "overlegden",
+          "2p": "overlegden",
+          "3p": "overlegden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal overleggen",
+          "2s": "zult overleggen",
+          "3s": "zal overleggen",
+          "1p": "zullen overleggen",
+          "2p": "zullen overleggen",
+          "3p": "zullen overleggen"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "eerlijk",
+      "primary_form": "eerlijk",
+      "gloss": "honest; fair",
+      "extras": {
+        "forms": {
+          "base": "eerlijk",
+          "inflected": "eerlijke"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden",
+        "valse-vrienden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "doe-maar-gewoon-dan-doe-je-al-gek-genoeg",
+      "primary_form": "doe maar gewoon, dan doe je al gek genoeg",
+      "gloss": "just act normal, that's crazy enough",
+      "extras": {
+        "literal": "just act ordinary, then you're acting crazy enough"
+      },
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "het-regent-pijpenstelen",
+      "primary_form": "het regent pijpenstelen",
+      "gloss": "it's raining cats and dogs",
+      "extras": {
+        "literal": "it's raining pipe stems"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "recht",
+      "primary_form": "recht",
+      "gloss": "right; law (the subject)",
+      "extras": {
+        "article": "het",
+        "plural": "rechten"
+      },
+      "tags": [
+        "society",
+        "het"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vrijheid",
+      "primary_form": "vrijheid",
+      "gloss": "freedom",
+      "extras": {
+        "article": "de",
+        "plural": "vrijheden"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "integendeel",
+      "primary_form": "integendeel",
+      "gloss": "on the contrary",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "Hij is niet verlegen; integendeel, hij praat met iedereen.",
+        "example_en": "He isn't shy; on the contrary, he talks to everyone."
+      },
+      "tags": [
+        "verbindingswoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "iets-onder-de-knie-hebben",
+      "primary_form": "iets onder de knie hebben",
+      "gloss": "to have mastered something",
+      "extras": {
+        "literal": "to have something under the knee"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "beslissen",
+      "primary_form": "beslissen",
+      "gloss": "to decide",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "beslist",
+        "past": "besliste / beslisten",
+        "example": "Jij mag beslissen.",
+        "example_en": "You can decide."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "beslis",
+          "2s": "beslist",
+          "3s": "beslist",
+          "1p": "beslissen",
+          "2p": "beslissen",
+          "3p": "beslissen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb beslist",
+          "2s": "hebt beslist",
+          "3s": "heeft beslist",
+          "1p": "hebben beslist",
+          "2p": "hebben beslist",
+          "3p": "hebben beslist"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "besliste",
+          "2s": "besliste",
+          "3s": "besliste",
+          "1p": "beslisten",
+          "2p": "beslisten",
+          "3p": "beslisten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal beslissen",
+          "2s": "zult beslissen",
+          "3s": "zal beslissen",
+          "1p": "zullen beslissen",
+          "2p": "zullen beslissen",
+          "3p": "zullen beslissen"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "brutaal",
+      "primary_form": "brutaal",
+      "gloss": "cheeky",
+      "extras": {
+        "forms": {
+          "base": "brutaal",
+          "inflected": "brutale"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden",
+        "valse-vrienden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "gelijkheid",
+      "primary_form": "gelijkheid",
+      "gloss": "equality",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "het-valt-mee",
+      "primary_form": "het valt mee",
+      "gloss": "it's not as bad as expected",
+      "extras": {
+        "literal": "it falls along"
+      },
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "een-appeltje-met-iemand-te-schillen-hebben",
+      "primary_form": "een appeltje met iemand te schillen hebben",
+      "gloss": "to have a bone to pick with someone",
+      "extras": {
+        "literal": "to have an apple to peel with someone"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "verkiezing",
+      "primary_form": "verkiezing",
+      "gloss": "election",
+      "extras": {
+        "article": "de",
+        "plural": "verkiezingen"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "ontmoeten",
+      "primary_form": "ontmoeten",
+      "gloss": "to meet",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "ontmoet",
+        "past": "ontmoette / ontmoetten",
+        "example": "Leuk je te ontmoeten!",
+        "example_en": "Nice to meet you!"
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "ontmoet",
+          "2s": "ontmoet",
+          "3s": "ontmoet",
+          "1p": "ontmoeten",
+          "2p": "ontmoeten",
+          "3p": "ontmoeten"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb ontmoet",
+          "2s": "hebt ontmoet",
+          "3s": "heeft ontmoet",
+          "1p": "hebben ontmoet",
+          "2p": "hebben ontmoet",
+          "3p": "hebben ontmoet"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "ontmoette",
+          "2s": "ontmoette",
+          "3s": "ontmoette",
+          "1p": "ontmoetten",
+          "2p": "ontmoetten",
+          "3p": "ontmoetten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal ontmoeten",
+          "2s": "zult ontmoeten",
+          "3s": "zal ontmoeten",
+          "1p": "zullen ontmoeten",
+          "2p": "zullen ontmoeten",
+          "3p": "zullen ontmoeten"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "de-kat-uit-de-boom-kijken",
+      "primary_form": "de kat uit de boom kijken",
+      "gloss": "to wait and see",
+      "extras": {
+        "literal": "to watch the cat out of the tree"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "oorlog",
+      "primary_form": "oorlog",
+      "gloss": "war",
+      "extras": {
+        "article": "de",
+        "plural": "oorlogen"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "slim",
+      "primary_form": "slim",
+      "gloss": "clever",
+      "extras": {
+        "forms": {
+          "base": "slim",
+          "inflected": "slimme"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden",
+        "valse-vrienden"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "trouwens",
+      "primary_form": "trouwens",
+      "gloss": "by the way; besides",
+      "extras": {
+        "role": "conn-addition",
+        "example": "Trouwens, heb je mijn sleutels gezien?",
+        "example_en": "By the way, have you seen my keys?"
+      },
+      "tags": [
+        "verbindingswoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "het-valt-tegen",
+      "primary_form": "het valt tegen",
+      "gloss": "it's worse than expected, disappointing",
+      "extras": {
+        "literal": "it falls against"
+      },
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vrede",
+      "primary_form": "vrede",
+      "gloss": "peace",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "verdienen",
+      "primary_form": "verdienen",
+      "gloss": "to earn; to deserve",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "verdiend",
+        "past": "verdiende / verdienden",
+        "example": "Hij verdient veel geld.",
+        "example_en": "He earns a lot of money."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "verdien",
+          "2s": "verdient",
+          "3s": "verdient",
+          "1p": "verdienen",
+          "2p": "verdienen",
+          "3p": "verdienen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb verdiend",
+          "2s": "hebt verdiend",
+          "3s": "heeft verdiend",
+          "1p": "hebben verdiend",
+          "2p": "hebben verdiend",
+          "3p": "hebben verdiend"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "verdiende",
+          "2s": "verdiende",
+          "3s": "verdiende",
+          "1p": "verdienden",
+          "2p": "verdienden",
+          "3p": "verdienden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal verdienen",
+          "2s": "zult verdienen",
+          "3s": "zal verdienen",
+          "1p": "zullen verdienen",
+          "2p": "zullen verdienen",
+          "3p": "zullen verdienen"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "nu-breekt-mijn-klomp",
+      "primary_form": "nu breekt mijn klomp",
+      "gloss": "well I never!",
+      "extras": {
+        "literal": "now my clog breaks"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "milieu",
+      "primary_form": "milieu",
+      "gloss": "environment",
+      "extras": {
+        "article": "het"
+      },
+      "tags": [
+        "society",
+        "het"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "eventueel",
+      "primary_form": "eventueel",
+      "gloss": "possible",
+      "extras": {
+        "forms": {
+          "base": "eventueel",
+          "inflected": "eventuele"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden",
+        "valse-vrienden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "dat-klopt",
+      "primary_form": "dat klopt",
+      "gloss": "that's right",
+      "extras": {
+        "literal": "that knocks"
+      },
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tussen-de-soep-en-de-aardappelen",
+      "primary_form": "tussen de soep en de aardappelen",
+      "gloss": "in between, squeezed in",
+      "extras": {
+        "literal": "between the soup and the potatoes"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vervuiling",
+      "primary_form": "vervuiling",
+      "gloss": "pollution",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "overigens",
+      "primary_form": "overigens",
+      "gloss": "incidentally",
+      "extras": {
+        "role": "conn-addition",
+        "example": "Het eten was lekker; de wijn was overigens ook goed.",
+        "example_en": "The food was good; incidentally, so was the wine."
+      },
+      "tags": [
+        "verbindingswoorden"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "veranderen",
+      "primary_form": "veranderen",
+      "gloss": "to change",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "veranderd",
+        "past": "veranderde / veranderden",
+        "example": "Er is veel veranderd.",
+        "example_en": "A lot has changed."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "verander",
+          "2s": "verandert",
+          "3s": "verandert",
+          "1p": "veranderen",
+          "2p": "veranderen",
+          "3p": "veranderen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb veranderd",
+          "2s": "hebt veranderd",
+          "3s": "heeft veranderd",
+          "1p": "hebben veranderd",
+          "2p": "hebben veranderd",
+          "3p": "hebben veranderd"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "veranderde",
+          "2s": "veranderde",
+          "3s": "veranderde",
+          "1p": "veranderden",
+          "2p": "veranderden",
+          "3p": "veranderden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal veranderen",
+          "2s": "zult veranderen",
+          "3s": "zal veranderen",
+          "1p": "zullen veranderen",
+          "2p": "zullen veranderen",
+          "3p": "zullen veranderen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "toekomst",
+      "primary_form": "toekomst",
+      "gloss": "future",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "door-de-mand-vallen",
+      "primary_form": "door de mand vallen",
+      "gloss": "to be found out",
+      "extras": {
+        "literal": "to fall through the basket"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "actueel",
+      "primary_form": "actueel",
+      "gloss": "current, topical",
+      "extras": {
+        "forms": {
+          "base": "actueel",
+          "inflected": "actuele"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden",
+        "valse-vrienden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "je-weet-wel",
+      "primary_form": "je weet wel",
+      "gloss": "you know",
+      "extras": {
+        "literal": "you know well"
+      },
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "verleden",
+      "primary_form": "verleden",
+      "gloss": "past",
+      "extras": {
+        "article": "het"
+      },
+      "tags": [
+        "society",
+        "het"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "ontdekken",
+      "primary_form": "ontdekken",
+      "gloss": "to discover",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "ontdekt",
+        "past": "ontdekte / ontdekten",
+        "example": "Ik heb een leuk café ontdekt.",
+        "example_en": "I've discovered a nice café."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "ontdek",
+          "2s": "ontdekt",
+          "3s": "ontdekt",
+          "1p": "ontdekken",
+          "2p": "ontdekken",
+          "3p": "ontdekken"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb ontdekt",
+          "2s": "hebt ontdekt",
+          "3s": "heeft ontdekt",
+          "1p": "hebben ontdekt",
+          "2p": "hebben ontdekt",
+          "3p": "hebben ontdekt"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "ontdekte",
+          "2s": "ontdekte",
+          "3s": "ontdekte",
+          "1p": "ontdekten",
+          "2p": "ontdekten",
+          "3p": "ontdekten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal ontdekken",
+          "2s": "zult ontdekken",
+          "3s": "zal ontdekken",
+          "1p": "zullen ontdekken",
+          "2p": "zullen ontdekken",
+          "3p": "zullen ontdekken"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "iemand-een-oor-aannaaien",
+      "primary_form": "iemand een oor aannaaien",
+      "gloss": "to con someone",
+      "extras": {
+        "literal": "to sew an ear on someone"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "geschiedenis",
+      "primary_form": "geschiedenis",
+      "gloss": "history",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "immers",
+      "primary_form": "immers",
+      "gloss": "after all",
+      "extras": {
+        "role": "conn-cause",
+        "example": "Hij kan niet komen; hij is immers ziek.",
+        "example_en": "He can't come; he's ill, after all."
+      },
+      "tags": [
+        "verbindingswoorden"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "bijzonder",
+      "primary_form": "bijzonder",
+      "gloss": "special, unusual",
+      "extras": {
+        "forms": {
+          "base": "bijzonder",
+          "inflected": "bijzondere"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ze-zijn-koek-en-ei",
+      "primary_form": "ze zijn koek en ei",
+      "gloss": "they're thick as thieves",
+      "extras": {
+        "literal": "they're cake and egg"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cultuur",
+      "primary_form": "cultuur",
+      "gloss": "culture",
+      "extras": {
+        "article": "de",
+        "plural": "culturen"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "nou-ja",
+      "primary_form": "nou ja",
+      "gloss": "oh well",
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "gebeuren",
+      "primary_form": "gebeuren",
+      "gloss": "to happen",
+      "extras": {
+        "auxiliary": "zijn",
+        "participle": "gebeurd",
+        "past": "gebeurde / gebeurden",
+        "example": "Wat is er gebeurd?",
+        "example_en": "What happened?"
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "gebeur",
+          "2s": "gebeurt",
+          "3s": "gebeurt",
+          "1p": "gebeuren",
+          "2p": "gebeuren",
+          "3p": "gebeuren"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "ben gebeurd",
+          "2s": "bent gebeurd",
+          "3s": "is gebeurd",
+          "1p": "zijn gebeurd",
+          "2p": "zijn gebeurd",
+          "3p": "zijn gebeurd"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "gebeurde",
+          "2s": "gebeurde",
+          "3s": "gebeurde",
+          "1p": "gebeurden",
+          "2p": "gebeurden",
+          "3p": "gebeurden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal gebeuren",
+          "2s": "zult gebeuren",
+          "3s": "zal gebeuren",
+          "1p": "zullen gebeuren",
+          "2p": "zullen gebeuren",
+          "3p": "zullen gebeuren"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "taal",
+      "primary_form": "taal",
+      "gloss": "language",
+      "extras": {
+        "article": "de",
+        "plural": "talen"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ik-heb-er-een-hard-hoofd-in",
+      "primary_form": "ik heb er een hard hoofd in",
+      "gloss": "I'm pessimistic about it",
+      "extras": {
+        "literal": "I have a hard head in it"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "belangrijk",
+      "primary_form": "belangrijk",
+      "gloss": "important",
+      "extras": {
+        "forms": {
+          "base": "belangrijk",
+          "inflected": "belangrijke"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "probleem",
+      "primary_form": "probleem",
+      "gloss": "problem",
+      "extras": {
+        "article": "het",
+        "plural": "problemen"
+      },
+      "tags": [
+        "society",
+        "het"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "kortom",
+      "primary_form": "kortom",
+      "gloss": "in short",
+      "extras": {
+        "role": "conn-consequence",
+        "example": "Kortom, het was een geweldige dag.",
+        "example_en": "In short, it was a great day."
+      },
+      "tags": [
+        "verbindingswoorden"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "bestaan",
+      "primary_form": "bestaan",
+      "gloss": "to exist",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "bestaan",
+        "past": "bestond / bestonden",
+        "example": "Dat woord bestaat niet.",
+        "example_en": "That word doesn't exist."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "besta",
+          "2s": "bestaat",
+          "3s": "bestaat",
+          "1p": "bestaan",
+          "2p": "bestaan",
+          "3p": "bestaan"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb bestaan",
+          "2s": "hebt bestaan",
+          "3s": "heeft bestaan",
+          "1p": "hebben bestaan",
+          "2p": "hebben bestaan",
+          "3p": "hebben bestaan"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "bestond",
+          "2s": "bestond",
+          "3s": "bestond",
+          "1p": "bestonden",
+          "2p": "bestonden",
+          "3p": "bestonden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal bestaan",
+          "2s": "zult bestaan",
+          "3s": "zal bestaan",
+          "1p": "zullen bestaan",
+          "2p": "zullen bestaan",
+          "3p": "zullen bestaan"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "he-he",
+      "primary_form": "hè hè",
+      "gloss": "phew, finally",
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "wie-het-eerst-komt-het-eerst-maalt",
+      "primary_form": "wie het eerst komt, het eerst maalt",
+      "gloss": "first come, first served",
+      "extras": {
+        "literal": "who comes first, grinds first"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "oplossing",
+      "primary_form": "oplossing",
+      "gloss": "solution",
+      "extras": {
+        "article": "de",
+        "plural": "oplossingen"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "mogelijk",
+      "primary_form": "mogelijk",
+      "gloss": "possible",
+      "extras": {
+        "forms": {
+          "base": "mogelijk",
+          "inflected": "mogelijke"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "de-koe-bij-de-hoorns-vatten",
+      "primary_form": "de koe bij de hoorns vatten",
+      "gloss": "to take the bull by the horns",
+      "extras": {
+        "literal": "to take the cow by the horns"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "reden",
+      "primary_form": "reden",
+      "gloss": "reason",
+      "extras": {
+        "article": "de",
+        "plural": "redenen"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "verwachten",
+      "primary_form": "verwachten",
+      "gloss": "to expect",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "verwacht",
+        "past": "verwachtte / verwachtten",
+        "example": "Dat had ik niet verwacht.",
+        "example_en": "I didn't expect that."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "verwacht",
+          "2s": "verwacht",
+          "3s": "verwacht",
+          "1p": "verwachten",
+          "2p": "verwachten",
+          "3p": "verwachten"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb verwacht",
+          "2s": "hebt verwacht",
+          "3s": "heeft verwacht",
+          "1p": "hebben verwacht",
+          "2p": "hebben verwacht",
+          "3p": "hebben verwacht"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "verwachtte",
+          "2s": "verwachtte",
+          "3s": "verwachtte",
+          "1p": "verwachtten",
+          "2p": "verwachtten",
+          "3p": "verwachtten"
+        },
+        "toekomende-tijd": {
+          "1s": "zal verwachten",
+          "2s": "zult verwachten",
+          "3s": "zal verwachten",
+          "1p": "zullen verwachten",
+          "2p": "zullen verwachten",
+          "3p": "zullen verwachten"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "echt-waar",
+      "primary_form": "echt waar?",
+      "gloss": "really?",
+      "extras": {
+        "literal": "truly true?"
+      },
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mening",
+      "primary_form": "mening",
+      "gloss": "opinion",
+      "extras": {
+        "article": "de",
+        "plural": "meningen"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "zodoende",
+      "primary_form": "zodoende",
+      "gloss": "and so, as a result",
+      "extras": {
+        "role": "conn-consequence",
+        "example": "De trein reed niet; zodoende kwam ik te laat.",
+        "example_en": "The train wasn't running; as a result, I was late."
+      },
+      "tags": [
+        "verbindingswoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "met-je-neus-in-de-boter-vallen",
+      "primary_form": "met je neus in de boter vallen",
+      "gloss": "to strike lucky",
+      "extras": {
+        "literal": "to fall with your nose in the butter"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "ongerust",
+      "primary_form": "ongerust",
+      "gloss": "worried",
+      "extras": {
+        "forms": {
+          "base": "ongerust",
+          "inflected": "ongeruste"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "idee",
+      "primary_form": "idee",
+      "gloss": "idea",
+      "extras": {
+        "article": "het",
+        "plural": "ideeën"
+      },
+      "tags": [
+        "society",
+        "het"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "vergelijken",
+      "primary_form": "vergelijken",
+      "gloss": "to compare",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "vergeleken",
+        "past": "vergeleek / vergeleken",
+        "example": "Je kunt het niet vergelijken.",
+        "example_en": "You can't compare them."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "vergelijk",
+          "2s": "vergelijkt",
+          "3s": "vergelijkt",
+          "1p": "vergelijken",
+          "2p": "vergelijken",
+          "3p": "vergelijken"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb vergeleken",
+          "2s": "hebt vergeleken",
+          "3s": "heeft vergeleken",
+          "1p": "hebben vergeleken",
+          "2p": "hebben vergeleken",
+          "3p": "hebben vergeleken"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "vergeleek",
+          "2s": "vergeleek",
+          "3s": "vergeleek",
+          "1p": "vergeleken",
+          "2p": "vergeleken",
+          "3p": "vergeleken"
+        },
+        "toekomende-tijd": {
+          "1s": "zal vergelijken",
+          "2s": "zult vergelijken",
+          "3s": "zal vergelijken",
+          "1p": "zullen vergelijken",
+          "2p": "zullen vergelijken",
+          "3p": "zullen vergelijken"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "een-kat-in-de-zak-kopen",
+      "primary_form": "een kat in de zak kopen",
+      "gloss": "to buy a pig in a poke",
+      "extras": {
+        "literal": "to buy a cat in the bag"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "jeetje",
+      "primary_form": "jeetje",
+      "gloss": "gosh, wow",
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "keuze",
+      "primary_form": "keuze",
+      "gloss": "choice",
+      "extras": {
+        "article": "de",
+        "plural": "keuzes"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "iets-uit-je-duim-zuigen",
+      "primary_form": "iets uit je duim zuigen",
+      "gloss": "to make something up",
+      "extras": {
+        "literal": "to suck something from your thumb"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "kans",
+      "primary_form": "kans",
+      "gloss": "chance",
+      "extras": {
+        "article": "de",
+        "plural": "kansen"
+      },
+      "tags": [
+        "society",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "beloven",
+      "primary_form": "beloven",
+      "gloss": "to promise",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "beloofd",
+        "past": "beloofde / beloofden",
+        "example": "Ik beloof het.",
+        "example_en": "I promise."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "beloof",
+          "2s": "belooft",
+          "3s": "belooft",
+          "1p": "beloven",
+          "2p": "beloven",
+          "3p": "beloven"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb beloofd",
+          "2s": "hebt beloofd",
+          "3s": "heeft beloofd",
+          "1p": "hebben beloofd",
+          "2p": "hebben beloofd",
+          "3p": "hebben beloofd"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "beloofde",
+          "2s": "beloofde",
+          "3s": "beloofde",
+          "1p": "beloofden",
+          "2p": "beloofden",
+          "3p": "beloofden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal beloven",
+          "2s": "zult beloven",
+          "3s": "zal beloven",
+          "1p": "zullen beloven",
+          "2p": "zullen beloven",
+          "3p": "zullen beloven"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "trots",
+      "primary_form": "trots",
+      "gloss": "proud",
+      "extras": {
+        "forms": {
+          "base": "trots",
+          "inflected": "trotse"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "uiteindelijk",
+      "primary_form": "uiteindelijk",
+      "gloss": "in the end",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "We twijfelden lang, maar uiteindelijk zijn we gebleven.",
+        "example_en": "We hesitated a long time, but in the end we stayed."
+      },
+      "tags": [
+        "verbindingswoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "succes",
+      "primary_form": "succes",
+      "gloss": "success",
+      "extras": {
+        "article": "het",
+        "plural": "successen"
+      },
+      "tags": [
+        "society",
+        "het"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "succes",
+      "primary_form": "succes!",
+      "gloss": "good luck!",
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "hij-heeft-ze-niet-allemaal-op-een-rijtje",
+      "primary_form": "hij heeft ze niet allemaal op een rijtje",
+      "gloss": "he's not all there",
+      "extras": {
+        "literal": "he doesn't have them all in a row"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "durven",
+      "primary_form": "durven",
+      "gloss": "to dare",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gedurfd",
+        "past": "durfde / durfden",
+        "example": "Durf jij te springen?",
+        "example_en": "Do you dare to jump?"
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "durf",
+          "2s": "durft",
+          "3s": "durft",
+          "1p": "durven",
+          "2p": "durven",
+          "3p": "durven"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gedurfd",
+          "2s": "hebt gedurfd",
+          "3s": "heeft gedurfd",
+          "1p": "hebben gedurfd",
+          "2p": "hebben gedurfd",
+          "3p": "hebben gedurfd"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "durfde",
+          "2s": "durfde",
+          "3s": "durfde",
+          "1p": "durfden",
+          "2p": "durfden",
+          "3p": "durfden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal durven",
+          "2s": "zult durven",
+          "3s": "zal durven",
+          "1p": "zullen durven",
+          "2p": "zullen durven",
+          "3p": "zullen durven"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "angst",
+      "primary_form": "angst",
+      "gloss": "fear",
+      "extras": {
+        "article": "de",
+        "plural": "angsten"
+      },
+      "tags": [
+        "feelings",
+        "de"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "jaloers",
+      "primary_form": "jaloers",
+      "gloss": "jealous",
+      "extras": {
+        "forms": {
+          "base": "jaloers",
+          "inflected": "jaloerse"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "oost-west-thuis-best",
+      "primary_form": "oost west, thuis best",
+      "gloss": "there's no place like home",
+      "extras": {
+        "literal": "east, west, home is best"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vreugde",
+      "primary_form": "vreugde",
+      "gloss": "joy",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "feelings",
+        "de"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "zodat",
+      "primary_form": "zodat",
+      "gloss": "so that",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Ik spreek langzaam zodat je het begrijpt.",
+        "example_en": "I speak slowly so that you understand."
+      },
+      "tags": [
+        "voegwoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "sterkte",
+      "primary_form": "sterkte!",
+      "gloss": "be strong, I'm thinking of you",
+      "extras": {
+        "literal": "strength!"
+      },
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "klagen",
+      "primary_form": "klagen",
+      "gloss": "to complain",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "geklaagd",
+        "past": "klaagde / klaagden",
+        "example": "Hij klaagt altijd over het weer.",
+        "example_en": "He always complains about the weather."
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "klaag",
+          "2s": "klaagt",
+          "3s": "klaagt",
+          "1p": "klagen",
+          "2p": "klagen",
+          "3p": "klagen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb geklaagd",
+          "2s": "hebt geklaagd",
+          "3s": "heeft geklaagd",
+          "1p": "hebben geklaagd",
+          "2p": "hebben geklaagd",
+          "3p": "hebben geklaagd"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "klaagde",
+          "2s": "klaagde",
+          "3s": "klaagde",
+          "1p": "klaagden",
+          "2p": "klaagden",
+          "3p": "klaagden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal klagen",
+          "2s": "zult klagen",
+          "3s": "zal klagen",
+          "1p": "zullen klagen",
+          "2p": "zullen klagen",
+          "3p": "zullen klagen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "woede",
+      "primary_form": "woede",
+      "gloss": "anger",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "feelings",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "twee-vliegen-in-een-klap",
+      "primary_form": "twee vliegen in één klap",
+      "gloss": "to kill two birds with one stone",
+      "extras": {
+        "literal": "two flies in one swat"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "gul",
+      "primary_form": "gul",
+      "gloss": "generous",
+      "extras": {
+        "forms": {
+          "base": "gul",
+          "inflected": "gulle"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "schaamte",
+      "primary_form": "schaamte",
+      "gloss": "shame",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "feelings",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "op-je-tenen-lopen",
+      "primary_form": "op je tenen lopen",
+      "gloss": "to push yourself to the limit",
+      "extras": {
+        "literal": "to walk on your toes"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "beterschap",
+      "primary_form": "beterschap!",
+      "gloss": "get well soon!",
+      "extras": {
+        "literal": "betterment!"
+      },
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "zeuren",
+      "primary_form": "zeuren",
+      "gloss": "to nag, to whine",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gezeurd",
+        "past": "zeurde / zeurden",
+        "example": "Niet zo zeuren!",
+        "example_en": "Stop whining!"
+      },
+      "tags": [
+        "tegenwoordige-tijd"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "zeur",
+          "2s": "zeurt",
+          "3s": "zeurt",
+          "1p": "zeuren",
+          "2p": "zeuren",
+          "3p": "zeuren"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gezeurd",
+          "2s": "hebt gezeurd",
+          "3s": "heeft gezeurd",
+          "1p": "hebben gezeurd",
+          "2p": "hebben gezeurd",
+          "3p": "hebben gezeurd"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "zeurde",
+          "2s": "zeurde",
+          "3s": "zeurde",
+          "1p": "zeurden",
+          "2p": "zeurden",
+          "3p": "zeurden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal zeuren",
+          "2s": "zult zeuren",
+          "3s": "zal zeuren",
+          "1p": "zullen zeuren",
+          "2p": "zullen zeuren",
+          "3p": "zullen zeuren"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "herinnering",
+      "primary_form": "herinnering",
+      "gloss": "memory (something remembered)",
+      "extras": {
+        "article": "de",
+        "plural": "herinneringen"
+      },
+      "tags": [
+        "feelings",
+        "de"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "tenzij",
+      "primary_form": "tenzij",
+      "gloss": "unless",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "We gaan fietsen, tenzij het regent.",
+        "example_en": "We'll go cycling, unless it rains."
+      },
+      "tags": [
+        "voegwoorden"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "dom",
+      "primary_form": "dom",
+      "gloss": "stupid",
+      "extras": {
+        "forms": {
+          "base": "dom",
+          "inflected": "domme"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "van-een-mug-een-olifant-maken",
+      "primary_form": "van een mug een olifant maken",
+      "gloss": "to make a mountain out of a molehill",
+      "extras": {
+        "literal": "to make an elephant of a mosquito"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "droom",
+      "primary_form": "droom",
+      "gloss": "dream",
+      "extras": {
+        "article": "de",
+        "plural": "dromen"
+      },
+      "tags": [
+        "feelings",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "gedogen",
+      "primary_form": "gedogen",
+      "gloss": "to tolerate (officially)",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "gedoogd",
+        "past": "gedoogde / gedoogden",
+        "example": "De gemeente gedoogt het.",
+        "example_en": "The council tolerates it."
+      },
+      "tags": [
+        "tegenwoordige-tijd",
+        "idioms"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "gedoog",
+          "2s": "gedoogt",
+          "3s": "gedoogt",
+          "1p": "gedogen",
+          "2p": "gedogen",
+          "3p": "gedogen"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb gedoogd",
+          "2s": "hebt gedoogd",
+          "3s": "heeft gedoogd",
+          "1p": "hebben gedoogd",
+          "2p": "hebben gedoogd",
+          "3p": "hebben gedoogd"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "gedoogde",
+          "2s": "gedoogde",
+          "3s": "gedoogde",
+          "1p": "gedoogden",
+          "2p": "gedoogden",
+          "3p": "gedoogden"
+        },
+        "toekomende-tijd": {
+          "1s": "zal gedogen",
+          "2s": "zult gedogen",
+          "3s": "zal gedogen",
+          "1p": "zullen gedogen",
+          "2p": "zullen gedogen",
+          "3p": "zullen gedogen"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "gefeliciteerd",
+      "primary_form": "gefeliciteerd!",
+      "gloss": "congratulations!; happy birthday!",
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "hoop",
+      "primary_form": "hoop",
+      "gloss": "hope",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "feelings",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "iemand-in-de-maling-nemen",
+      "primary_form": "iemand in de maling nemen",
+      "gloss": "to pull someone's leg",
+      "extras": {
+        "literal": "to take someone into the grinder"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "zacht",
+      "primary_form": "zacht",
+      "gloss": "soft, gentle",
+      "extras": {
+        "forms": {
+          "base": "zacht",
+          "inflected": "zachte"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "liefde",
+      "primary_form": "liefde",
+      "gloss": "love",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "feelings",
+        "de"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "zodra",
+      "primary_form": "zodra",
+      "gloss": "as soon as",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Bel me zodra je er bent.",
+        "example_en": "Call me as soon as you get there."
+      },
+      "tags": [
+        "voegwoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "het-zal-me-worst-wezen",
+      "primary_form": "het zal me worst wezen",
+      "gloss": "I couldn't care less",
+      "extras": {
+        "literal": "it'll be sausage to me"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "uitleggen",
+      "primary_form": "uitleggen",
+      "gloss": "to explain",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "uitgelegd",
+        "past": "legde / legden",
+        "separable": "uit",
+        "example": "Kun je dat uitleggen?",
+        "example_en": "Can you explain that?"
+      },
+      "tags": [
+        "tegenwoordige-tijd",
+        "scheidbare-werkwoorden"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "leg uit",
+          "2s": "legt uit",
+          "3s": "legt uit",
+          "1p": "leggen uit",
+          "2p": "leggen uit",
+          "3p": "leggen uit"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb uitgelegd",
+          "2s": "hebt uitgelegd",
+          "3s": "heeft uitgelegd",
+          "1p": "hebben uitgelegd",
+          "2p": "hebben uitgelegd",
+          "3p": "hebben uitgelegd"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "legde uit",
+          "2s": "legde uit",
+          "3s": "legde uit",
+          "1p": "legden uit",
+          "2p": "legden uit",
+          "3p": "legden uit"
+        },
+        "toekomende-tijd": {
+          "1s": "zal uitleggen",
+          "2s": "zult uitleggen",
+          "3s": "zal uitleggen",
+          "1p": "zullen uitleggen",
+          "2p": "zullen uitleggen",
+          "3p": "zullen uitleggen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "vriendschap",
+      "primary_form": "vriendschap",
+      "gloss": "friendship",
+      "extras": {
+        "article": "de",
+        "plural": "vriendschappen"
+      },
+      "tags": [
+        "feelings",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "lekker-bezig",
+      "primary_form": "lekker bezig!",
+      "gloss": "nice going!, well done!",
+      "extras": {
+        "literal": "tastily busy"
+      },
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "vers",
+      "primary_form": "vers",
+      "gloss": "fresh",
+      "extras": {
+        "forms": {
+          "base": "vers",
+          "inflected": "verse"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "aan-de-bel-trekken",
+      "primary_form": "aan de bel trekken",
+      "gloss": "to raise the alarm",
+      "extras": {
+        "literal": "to pull the bell"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "borrel",
+      "primary_form": "borrel",
+      "gloss": "after-work drinks",
+      "extras": {
+        "article": "de",
+        "plural": "borrels"
+      },
+      "tags": [
+        "idioms",
+        "de"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "voorstellen",
+      "primary_form": "voorstellen",
+      "gloss": "to propose; to introduce",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "voorgesteld",
+        "past": "stelde / stelden",
+        "separable": "voor",
+        "example": "Mag ik mijn vriend voorstellen?",
+        "example_en": "May I introduce my friend?"
+      },
+      "tags": [
+        "tegenwoordige-tijd",
+        "scheidbare-werkwoorden"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "stel voor",
+          "2s": "stelt voor",
+          "3s": "stelt voor",
+          "1p": "stellen voor",
+          "2p": "stellen voor",
+          "3p": "stellen voor"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb voorgesteld",
+          "2s": "hebt voorgesteld",
+          "3s": "heeft voorgesteld",
+          "1p": "hebben voorgesteld",
+          "2p": "hebben voorgesteld",
+          "3p": "hebben voorgesteld"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "stelde voor",
+          "2s": "stelde voor",
+          "3s": "stelde voor",
+          "1p": "stelden voor",
+          "2p": "stelden voor",
+          "3p": "stelden voor"
+        },
+        "toekomende-tijd": {
+          "1s": "zal voorstellen",
+          "2s": "zult voorstellen",
+          "3s": "zal voorstellen",
+          "1p": "zullen voorstellen",
+          "2p": "zullen voorstellen",
+          "3p": "zullen voorstellen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "gezelligheid",
+      "primary_form": "gezelligheid",
+      "gloss": "cosiness, conviviality",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "idioms",
+        "de"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "sinds",
+      "primary_form": "sinds",
+      "gloss": "since",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Sinds ik hier woon, fiets ik elke dag.",
+        "example_en": "Since I've lived here, I cycle every day."
+      },
+      "tags": [
+        "voegwoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "de-puntjes-op-de-i-zetten",
+      "primary_form": "de puntjes op de i zetten",
+      "gloss": "to dot the i's and cross the t's",
+      "extras": {
+        "literal": "to put the dots on the i"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "gatverdamme",
+      "primary_form": "gatverdamme",
+      "gloss": "yuck, gross",
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "vals",
+      "primary_form": "vals",
+      "gloss": "false; out of tune",
+      "extras": {
+        "forms": {
+          "base": "vals",
+          "inflected": "valse"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "polder",
+      "primary_form": "polder",
+      "gloss": "reclaimed land",
+      "extras": {
+        "article": "de",
+        "plural": "polders"
+      },
+      "tags": [
+        "nature",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "dat-is-een-eitje",
+      "primary_form": "dat is een eitje",
+      "gloss": "that's a piece of cake",
+      "extras": {
+        "literal": "that's a little egg"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "nadenken",
+      "primary_form": "nadenken",
+      "gloss": "to think (something over)",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "nagedacht",
+        "past": "dacht / dachten",
+        "separable": "na",
+        "example": "Ik moet erover nadenken.",
+        "example_en": "I need to think about it."
+      },
+      "tags": [
+        "tegenwoordige-tijd",
+        "scheidbare-werkwoorden"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "denk na",
+          "2s": "denkt na",
+          "3s": "denkt na",
+          "1p": "denken na",
+          "2p": "denken na",
+          "3p": "denken na"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb nagedacht",
+          "2s": "hebt nagedacht",
+          "3s": "heeft nagedacht",
+          "1p": "hebben nagedacht",
+          "2p": "hebben nagedacht",
+          "3p": "hebben nagedacht"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "dacht na",
+          "2s": "dacht na",
+          "3s": "dacht na",
+          "1p": "dachten na",
+          "2p": "dachten na",
+          "3p": "dachten na"
+        },
+        "toekomende-tijd": {
+          "1s": "zal nadenken",
+          "2s": "zult nadenken",
+          "3s": "zal nadenken",
+          "1p": "zullen nadenken",
+          "2p": "zullen nadenken",
+          "3p": "zullen nadenken"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "dijk",
+      "primary_form": "dijk",
+      "gloss": "dyke",
+      "extras": {
+        "article": "de",
+        "plural": "dijken"
+      },
+      "tags": [
+        "nature",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "het-was-heel-gezellig",
+      "primary_form": "het was heel gezellig",
+      "gloss": "it was really lovely (said when leaving)",
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tot-in-de-puntjes",
+      "primary_form": "tot in de puntjes",
+      "gloss": "down to the last detail",
+      "extras": {
+        "literal": "into the little points"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "klomp",
+      "primary_form": "klomp",
+      "gloss": "clog",
+      "extras": {
+        "article": "de",
+        "plural": "klompen"
+      },
+      "tags": [
+        "clothing",
+        "de"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "nuchter",
+      "primary_form": "nuchter",
+      "gloss": "sober; down-to-earth",
+      "extras": {
+        "forms": {
+          "base": "nuchter",
+          "inflected": "nuchtere"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "doordat",
+      "primary_form": "doordat",
+      "gloss": "because (the cause of a result)",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Doordat de trein vertraging had, kwam ik te laat.",
+        "example_en": "Because the train was delayed, I was late."
+      },
+      "tags": [
+        "voegwoorden"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "meedoen",
+      "primary_form": "meedoen",
+      "gloss": "to take part, to join in",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "meegedaan",
+        "past": "deed / deden",
+        "separable": "mee",
+        "example": "Doe je mee?",
+        "example_en": "Are you joining in?"
+      },
+      "tags": [
+        "tegenwoordige-tijd",
+        "scheidbare-werkwoorden"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "doe mee",
+          "2s": "doet mee",
+          "3s": "doet mee",
+          "1p": "doen mee",
+          "2p": "doen mee",
+          "3p": "doen mee"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb meegedaan",
+          "2s": "hebt meegedaan",
+          "3s": "heeft meegedaan",
+          "1p": "hebben meegedaan",
+          "2p": "hebben meegedaan",
+          "3p": "hebben meegedaan"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "deed mee",
+          "2s": "deed mee",
+          "3s": "deed mee",
+          "1p": "deden mee",
+          "2p": "deden mee",
+          "3p": "deden mee"
+        },
+        "toekomende-tijd": {
+          "1s": "zal meedoen",
+          "2s": "zult meedoen",
+          "3s": "zal meedoen",
+          "1p": "zullen meedoen",
+          "2p": "zullen meedoen",
+          "3p": "zullen meedoen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "molen",
+      "primary_form": "molen",
+      "gloss": "windmill; mill",
+      "extras": {
+        "article": "de",
+        "plural": "molens"
+      },
+      "tags": [
+        "nature",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "dat-kost-een-rib-uit-je-lijf",
+      "primary_form": "dat kost een rib uit je lijf",
+      "gloss": "that costs an arm and a leg",
+      "extras": {
+        "literal": "that costs a rib from your body"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "niet-zo-zeuren",
+      "primary_form": "niet zo zeuren",
+      "gloss": "stop whining",
+      "extras": {
+        "literal": "not so nag"
+      },
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "brand",
+      "primary_form": "brand",
+      "gloss": "fire",
+      "extras": {
+        "article": "de",
+        "plural": "branden"
+      },
+      "tags": [
+        "valse-vrienden",
+        "de"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "zuinig",
+      "primary_form": "zuinig",
+      "gloss": "thrifty, careful with money",
+      "extras": {
+        "forms": {
+          "base": "zuinig",
+          "inflected": "zuinige"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "ophouden",
+      "primary_form": "ophouden",
+      "gloss": "to stop",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "opgehouden",
+        "past": "hield / hielden",
+        "separable": "op",
+        "example": "Hou op!",
+        "example_en": "Stop it!"
+      },
+      "tags": [
+        "tegenwoordige-tijd",
+        "scheidbare-werkwoorden"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "houd op",
+          "2s": "houdt op",
+          "3s": "houdt op",
+          "1p": "houden op",
+          "2p": "houden op",
+          "3p": "houden op"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb opgehouden",
+          "2s": "hebt opgehouden",
+          "3s": "heeft opgehouden",
+          "1p": "hebben opgehouden",
+          "2p": "hebben opgehouden",
+          "3p": "hebben opgehouden"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "hield op",
+          "2s": "hield op",
+          "3s": "hield op",
+          "1p": "hielden op",
+          "2p": "hielden op",
+          "3p": "hielden op"
+        },
+        "toekomende-tijd": {
+          "1s": "zal ophouden",
+          "2s": "zult ophouden",
+          "3s": "zal ophouden",
+          "1p": "zullen ophouden",
+          "2p": "zullen ophouden",
+          "3p": "zullen ophouden"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "een-gat-in-de-lucht-springen",
+      "primary_form": "een gat in de lucht springen",
+      "gloss": "to jump for joy",
+      "extras": {
+        "literal": "to jump a hole in the air"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "merk",
+      "primary_form": "merk",
+      "gloss": "brand",
+      "extras": {
+        "article": "het",
+        "plural": "merken"
+      },
+      "tags": [
+        "valse-vrienden",
+        "het"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "alsof",
+      "primary_form": "alsof",
+      "gloss": "as if",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Hij doet alsof hij het niet weet.",
+        "example_en": "He acts as if he doesn't know."
+      },
+      "tags": [
+        "voegwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "room",
+      "primary_form": "room",
+      "gloss": "cream",
+      "extras": {
+        "article": "de"
+      },
+      "tags": [
+        "valse-vrienden",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "met-de-noorderzon-vertrekken",
+      "primary_form": "met de noorderzon vertrekken",
+      "gloss": "to vanish without paying",
+      "extras": {
+        "literal": "to leave with the northern sun"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ik-heb-er-zin-in",
+      "primary_form": "ik heb er zin in",
+      "gloss": "I'm looking forward to it",
+      "extras": {
+        "literal": "I have mind in it"
+      },
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "eigenwijs",
+      "primary_form": "eigenwijs",
+      "gloss": "headstrong, know-it-all",
+      "extras": {
+        "forms": {
+          "base": "eigenwijs",
+          "inflected": "eigenwijze"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "toegeven",
+      "primary_form": "toegeven",
+      "gloss": "to admit; to give in",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "toegegeven",
+        "past": "gaf / gaven",
+        "separable": "toe",
+        "example": "Ik geef het toe, ik had ongelijk.",
+        "example_en": "I admit it, I was wrong."
+      },
+      "tags": [
+        "tegenwoordige-tijd",
+        "scheidbare-werkwoorden"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "geef toe",
+          "2s": "geeft toe",
+          "3s": "geeft toe",
+          "1p": "geven toe",
+          "2p": "geven toe",
+          "3p": "geven toe"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb toegegeven",
+          "2s": "hebt toegegeven",
+          "3s": "heeft toegegeven",
+          "1p": "hebben toegegeven",
+          "2p": "hebben toegegeven",
+          "3p": "hebben toegegeven"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "gaf toe",
+          "2s": "gaf toe",
+          "3s": "gaf toe",
+          "1p": "gaven toe",
+          "2p": "gaven toe",
+          "3p": "gaven toe"
+        },
+        "toekomende-tijd": {
+          "1s": "zal toegeven",
+          "2s": "zult toegeven",
+          "3s": "zal toegeven",
+          "1p": "zullen toegeven",
+          "2p": "zullen toegeven",
+          "3p": "zullen toegeven"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "kamer",
+      "primary_form": "kamer",
+      "gloss": "room",
+      "extras": {
+        "article": "de",
+        "plural": "kamers"
+      },
+      "tags": [
+        "valse-vrienden",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "roeien-met-de-riemen-die-je-hebt",
+      "primary_form": "roeien met de riemen die je hebt",
+      "gloss": "to make do with what you have",
+      "extras": {
+        "literal": "to row with the oars you have"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "map",
+      "primary_form": "map",
+      "gloss": "folder",
+      "extras": {
+        "article": "de",
+        "plural": "mappen"
+      },
+      "tags": [
+        "valse-vrienden",
+        "de"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "zolang",
+      "primary_form": "zolang",
+      "gloss": "as long as",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Je mag blijven zolang je wilt.",
+        "example_en": "You can stay as long as you like."
+      },
+      "tags": [
+        "voegwoorden"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "kom-op",
+      "primary_form": "kom op!",
+      "gloss": "come on!",
+      "tags": [
+        "uitdrukkingen"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "stoer",
+      "primary_form": "stoer",
+      "gloss": "tough, cool",
+      "extras": {
+        "forms": {
+          "base": "stoer",
+          "inflected": "stoere"
+        }
+      },
+      "tags": [
+        "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "uitwaaien",
+      "primary_form": "uitwaaien",
+      "gloss": "to blow the cobwebs away (walk in the wind)",
+      "extras": {
+        "auxiliary": "hebben",
+        "participle": "uitgewaaid",
+        "past": "waaide / waaiden",
+        "separable": "uit",
+        "example": "We gaan uitwaaien op het strand.",
+        "example_en": "We're going for a windy walk on the beach."
+      },
+      "tags": [
+        "tegenwoordige-tijd",
+        "scheidbare-werkwoorden",
+        "idioms"
+      ],
+      "conjugations": {
+        "tegenwoordige-tijd": {
+          "1s": "waai uit",
+          "2s": "waait uit",
+          "3s": "waait uit",
+          "1p": "waaien uit",
+          "2p": "waaien uit",
+          "3p": "waaien uit"
+        },
+        "voltooid-tegenwoordige-tijd": {
+          "1s": "heb uitgewaaid",
+          "2s": "hebt uitgewaaid",
+          "3s": "heeft uitgewaaid",
+          "1p": "hebben uitgewaaid",
+          "2p": "hebben uitgewaaid",
+          "3p": "hebben uitgewaaid"
+        },
+        "onvoltooid-verleden-tijd": {
+          "1s": "waaide uit",
+          "2s": "waaide uit",
+          "3s": "waaide uit",
+          "1p": "waaiden uit",
+          "2p": "waaiden uit",
+          "3p": "waaiden uit"
+        },
+        "toekomende-tijd": {
+          "1s": "zal uitwaaien",
+          "2s": "zult uitwaaien",
+          "3s": "zal uitwaaien",
+          "1p": "zullen uitwaaien",
+          "2p": "zullen uitwaaien",
+          "3p": "zullen uitwaaien"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "nood-breekt-wet",
+      "primary_form": "nood breekt wet",
+      "gloss": "necessity knows no law",
+      "extras": {
+        "literal": "need breaks law"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "gift",
+      "primary_form": "gift",
+      "gloss": "donation",
+      "extras": {
+        "article": "de",
+        "plural": "giften"
+      },
+      "tags": [
+        "valse-vrienden",
+        "de"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "title": "Bijzinnen",
+      "word_ids": [
+        "zich-afvragen",
+        "overleggen",
+        "beslissen",
+        "ontmoeten",
+        "verdienen",
+        "veranderen"
+      ],
+      "page_id": "nl-subordinate-clauses"
+    },
+    {
+      "title": "Om ... te",
+      "word_ids": [
+        "ontdekken",
+        "gebeuren",
+        "bestaan",
+        "verwachten",
+        "vergelijken",
+        "beloven"
+      ],
+      "page_id": "nl-om-te"
+    },
+    {
+      "title": "Die, dat en waar-",
+      "word_ids": [
+        "durven",
+        "klagen",
+        "zeuren",
+        "gedogen",
+        "uitleggen",
+        "voorstellen"
+      ],
+      "page_id": "nl-relative-pronouns"
+    },
+    {
+      "title": "De lijdende vorm",
+      "word_ids": [
+        "regering",
+        "wet",
+        "recht",
+        "vrijheid",
+        "gelijkheid",
+        "verkiezing"
+      ],
+      "page_id": "nl-passive"
+    },
+    {
+      "title": "Zou: de voorwaardelijke wijs",
+      "word_ids": [
+        "nadenken",
+        "meedoen",
+        "ophouden",
+        "toegeven",
+        "uitwaaien",
+        "zodat"
+      ],
+      "page_id": "nl-conditional"
+    },
+    {
+      "title": "Onvertaalbare woorden",
+      "word_ids": [
+        "gezelligheid",
+        "borrel",
+        "dat-is-een-eitje",
+        "tot-in-de-puntjes",
+        "oost-west-thuis-best",
+        "roeien-met-de-riemen-die-je-hebt"
+      ],
+      "page_id": "nl-untranslatables"
+    },
+    {
+      "title": "Valse vrienden",
+      "word_ids": [
+        "brand",
+        "merk",
+        "room",
+        "kamer",
+        "map",
+        "gift"
+      ],
+      "page_id": "nl-false-friends"
+    },
+    {
+      "title": "Vlaams",
+      "word_ids": [
+        "doe-normaal",
+        "echt-waar",
+        "nou-ja",
+        "he-he",
+        "jeetje",
+        "kom-op"
+      ],
+      "page_id": "nl-flemish"
+    },
+    {
+      "title": "Idioom",
+      "word_ids": [
+        "nu-komt-de-aap-uit-de-mouw",
+        "met-de-deur-in-huis-vallen",
+        "het-regent-pijpenstelen",
+        "iets-onder-de-knie-hebben",
+        "een-appeltje-met-iemand-te-schillen-hebben",
+        "de-kat-uit-de-boom-kijken",
+        "nu-breekt-mijn-klomp",
+        "tussen-de-soep-en-de-aardappelen"
+      ],
+      "page_id": "nl-idioms"
+    },
+    {
+      "title": "Maatschappij",
+      "word_ids": [
+        "maatschappij",
+        "oorlog",
+        "vrede",
+        "milieu",
+        "vervuiling",
+        "toekomst",
+        "verleden",
+        "geschiedenis",
+        "cultuur"
+      ]
+    },
+    {
+      "title": "Maatschappij",
+      "word_ids": [
+        "taal",
+        "probleem",
+        "oplossing",
+        "reden",
+        "mening",
+        "idee",
+        "keuze",
+        "kans",
+        "succes"
+      ]
+    },
+    {
+      "title": "Idioom",
+      "word_ids": [
+        "door-de-mand-vallen",
+        "iemand-een-oor-aannaaien",
+        "ze-zijn-koek-en-ei",
+        "ik-heb-er-een-hard-hoofd-in",
+        "wie-het-eerst-komt-het-eerst-maalt",
+        "de-koe-bij-de-hoorns-vatten",
+        "met-je-neus-in-de-boter-vallen"
+      ]
+    },
+    {
+      "title": "Idioom",
+      "word_ids": [
+        "een-kat-in-de-zak-kopen",
+        "iets-uit-je-duim-zuigen",
+        "hij-heeft-ze-niet-allemaal-op-een-rijtje",
+        "twee-vliegen-in-een-klap",
+        "op-je-tenen-lopen",
+        "van-een-mug-een-olifant-maken",
+        "iemand-in-de-maling-nemen"
+      ]
+    },
+    {
+      "title": "Idioom",
+      "word_ids": [
+        "het-zal-me-worst-wezen",
+        "aan-de-bel-trekken",
+        "de-puntjes-op-de-i-zetten",
+        "dat-kost-een-rib-uit-je-lijf",
+        "een-gat-in-de-lucht-springen",
+        "met-de-noorderzon-vertrekken",
+        "nood-breekt-wet"
+      ]
+    },
+    {
+      "title": "Gevoelens",
+      "word_ids": [
+        "angst",
+        "vreugde",
+        "woede",
+        "schaamte",
+        "herinnering",
+        "droom",
+        "hoop",
+        "liefde",
+        "vriendschap"
+      ]
+    },
+    {
+      "title": "Oefening",
+      "word_ids": [
+        "gezellig",
+        "eerlijk",
+        "brutaal",
+        "slim",
+        "eventueel",
+        "actueel",
+        "bijzonder",
+        "belangrijk",
+        "mogelijk"
+      ]
+    },
+    {
+      "title": "Oefening",
+      "word_ids": [
+        "ongerust",
+        "trots",
+        "jaloers",
+        "gul",
+        "dom",
+        "zacht",
+        "vers",
+        "vals",
+        "nuchter"
+      ]
+    },
+    {
+      "title": "Oefening",
+      "word_ids": [
+        "zuinig",
+        "eigenwijs",
+        "stoer",
+        "desondanks",
+        "integendeel",
+        "trouwens",
+        "overigens",
+        "immers",
+        "kortom"
+      ]
+    },
+    {
+      "title": "Oefening",
+      "word_ids": [
+        "zodoende",
+        "uiteindelijk",
+        "doe-maar-gewoon-dan-doe-je-al-gek-genoeg",
+        "het-valt-mee",
+        "het-valt-tegen",
+        "dat-klopt",
+        "je-weet-wel",
+        "sterkte",
+        "beterschap"
+      ]
+    },
+    {
+      "title": "Oefening",
+      "word_ids": [
+        "gefeliciteerd",
+        "lekker-bezig",
+        "gatverdamme",
+        "het-was-heel-gezellig",
+        "niet-zo-zeuren",
+        "ik-heb-er-zin-in",
+        "tenzij",
+        "zodra"
+      ]
+    },
+    {
+      "title": "Oefening",
+      "word_ids": [
+        "sinds",
+        "doordat",
+        "alsof",
+        "zolang",
+        "polder",
+        "dijk",
+        "molen",
+        "klomp"
+      ]
+    }
+  ]
+}
