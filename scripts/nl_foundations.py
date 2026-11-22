@@ -840,7 +840,7 @@ LABELS = {
 
 PACK = pack(
     "nl-foundations-v1",
-    3,
+    4,
     "nl",
     "Nederlands · Basis (A1)",
     ITEMS,

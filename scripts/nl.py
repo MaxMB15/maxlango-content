@@ -332,7 +332,7 @@ When you tell what happened in the past, "then" is usually **toen** or **daarna*
 
 CORE = patch_core(
     "nl",
-    7,
+    8,
     {
         "eten": _core_verb("eten", "eet", past="at aten", pp="gegeten"),
         "drinken": _core_verb("drinken", "drink", past="dronk dronken", pp="gedronken"),

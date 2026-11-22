@@ -773,7 +773,7 @@ LABELS = {
 
 PACK = pack(
     "fr-everyday-v1",
-    4,
+    5,
     "fr",
     "Français · Au quotidien (A2)",
     ITEMS,

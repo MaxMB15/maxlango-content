@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "nl-everyday-v1",
-  "version": 7,
+  "version": 8,
   "language": "nl",
   "name": "Nederlands · Dagelijks (A2)",
   "author": "Max Boksem",
@@ -328,7 +328,9 @@
       "primary_form": "kleding",
       "gloss": "clothing",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Ik geef veel geld uit aan kleding.",
+        "example_en": "I spend a lot of money on clothes."
       },
       "tags": [
         "clothing",
@@ -394,7 +396,9 @@
       "gloss": "(dress) shirt",
       "extras": {
         "article": "het",
-        "plural": "overhemden"
+        "plural": "overhemden",
+        "example": "Ik moet mijn overhemd nog strijken.",
+        "example_en": "I still need to iron my shirt."
       },
       "tags": [
         "clothing",
@@ -408,7 +412,11 @@
       "gloss": "it's raining",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Het regent al de hele dag.",
+        "example_en": "It's been raining all day."
+      }
     },
     {
       "kind": "adjective",
@@ -419,7 +427,9 @@
         "forms": {
           "base": "boos",
           "inflected": "boze"
-        }
+        },
+        "example": "Waarom ben je boos op mij?",
+        "example_en": "Why are you angry with me?"
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -433,7 +443,9 @@
       "gloss": "trousers",
       "extras": {
         "article": "de",
-        "plural": "broeken"
+        "plural": "broeken",
+        "example": "Ik koop een nieuwe broek.",
+        "example_en": "I'm buying new trousers."
       },
       "tags": [
         "clothing",
@@ -447,7 +459,9 @@
       "gloss": "skirt",
       "extras": {
         "article": "de",
-        "plural": "rokken"
+        "plural": "rokken",
+        "example": "Ze draagt vandaag een blauwe rok.",
+        "example_en": "She's wearing a blue skirt today."
       },
       "tags": [
         "clothing",
@@ -530,7 +544,9 @@
       "gloss": "dress",
       "extras": {
         "article": "de",
-        "plural": "jurken"
+        "plural": "jurken",
+        "example": "Wat een leuke jurk heb je aan!",
+        "example_en": "What a lovely dress you're wearing!"
       },
       "tags": [
         "clothing",
@@ -544,7 +560,11 @@
       "gloss": "it's cold",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Doe je jas aan, het is koud.",
+        "example_en": "Put your coat on, it's cold."
+      }
     },
     {
       "kind": "adjective",
@@ -555,7 +575,9 @@
         "forms": {
           "base": "bang",
           "inflected": "bange"
-        }
+        },
+        "example": "Mijn zusje is bang voor honden.",
+        "example_en": "My little sister is afraid of dogs."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -569,7 +591,9 @@
       "gloss": "coat",
       "extras": {
         "article": "de",
-        "plural": "jassen"
+        "plural": "jassen",
+        "example": "Hang je jas maar aan de kapstok.",
+        "example_en": "Just hang your coat on the coat rack."
       },
       "tags": [
         "clothing",
@@ -635,7 +659,9 @@
       "gloss": "jumper, sweater",
       "extras": {
         "article": "de",
-        "plural": "truien"
+        "plural": "truien",
+        "example": "Deze trui is lekker warm.",
+        "example_en": "This jumper is nice and warm."
       },
       "tags": [
         "clothing",
@@ -649,7 +675,9 @@
       "gloss": "shoe",
       "extras": {
         "article": "de",
-        "plural": "schoenen"
+        "plural": "schoenen",
+        "example": "Doe je schoenen uit, alsjeblieft.",
+        "example_en": "Take your shoes off, please."
       },
       "tags": [
         "clothing",
@@ -716,7 +744,9 @@
       "gloss": "sock",
       "extras": {
         "article": "de",
-        "plural": "sokken"
+        "plural": "sokken",
+        "example": "Ik kan mijn andere sok niet vinden.",
+        "example_en": "I can't find my other sock."
       },
       "tags": [
         "clothing",
@@ -729,7 +759,9 @@
       "primary_form": "ik wil graag...",
       "gloss": "I'd like...",
       "extras": {
-        "literal": "I want gladly"
+        "literal": "I want gladly",
+        "example": "Ik wil graag een kopje koffie.",
+        "example_en": "I'd like a cup of coffee."
       },
       "tags": [
         "uitdrukkingen"
@@ -744,7 +776,9 @@
         "forms": {
           "base": "verdrietig",
           "inflected": "verdrietige"
-        }
+        },
+        "example": "Waarom kijk je zo verdrietig?",
+        "example_en": "Why do you look so sad?"
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -758,7 +792,9 @@
       "gloss": "hat",
       "extras": {
         "article": "de",
-        "plural": "hoeden"
+        "plural": "hoeden",
+        "example": "Die hoed staat je goed.",
+        "example_en": "That hat suits you."
       },
       "tags": [
         "clothing",
@@ -772,7 +808,9 @@
       "gloss": "bag",
       "extras": {
         "article": "de",
-        "plural": "tassen"
+        "plural": "tassen",
+        "example": "Wat zit er in je tas?",
+        "example_en": "What's in your bag?"
       },
       "tags": [
         "clothing",
@@ -839,7 +877,9 @@
       "gloss": "glasses",
       "extras": {
         "article": "de",
-        "plural": "brillen"
+        "plural": "brillen",
+        "example": "Zonder bril zie ik niets.",
+        "example_en": "Without my glasses I can't see anything."
       },
       "tags": [
         "clothing",
@@ -867,7 +907,9 @@
       "gloss": "umbrella",
       "extras": {
         "article": "de",
-        "plural": "paraplu's"
+        "plural": "paraplu's",
+        "example": "Mijn paraplu is kapot door de wind.",
+        "example_en": "My umbrella broke in the wind."
       },
       "tags": [
         "clothing",
@@ -880,7 +922,9 @@
       "primary_form": "ik ben aan het...",
       "gloss": "I'm (in the middle of)...",
       "extras": {
-        "literal": "I am at the"
+        "literal": "I am at the",
+        "example": "Ik ben aan het koken, bel me later.",
+        "example_en": "I'm cooking, call me later."
       },
       "tags": [
         "uitdrukkingen"
@@ -895,7 +939,9 @@
         "forms": {
           "base": "vrolijk",
           "inflected": "vrolijke"
-        }
+        },
+        "example": "Mijn buurvrouw is altijd vrolijk.",
+        "example_en": "My neighbour is always cheerful."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -960,7 +1006,9 @@
       "primary_form": "weer",
       "gloss": "weather",
       "extras": {
-        "article": "het"
+        "article": "het",
+        "example": "Hoe wordt het weer morgen?",
+        "example_en": "What will the weather be like tomorrow?"
       },
       "tags": [
         "weather",
@@ -973,7 +1021,9 @@
       "primary_form": "regen",
       "gloss": "rain",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "We fietsen in de regen naar huis.",
+        "example_en": "We're cycling home in the rain."
       },
       "tags": [
         "weather",
@@ -986,7 +1036,9 @@
       "primary_form": "sneeuw",
       "gloss": "snow",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "De kinderen spelen in de sneeuw.",
+        "example_en": "The children are playing in the snow."
       },
       "tags": [
         "weather",
@@ -1051,7 +1103,9 @@
       "primary_form": "het hangt ervan af",
       "gloss": "it depends",
       "extras": {
-        "literal": "it hangs of it"
+        "literal": "it hangs of it",
+        "example": "Het hangt ervan af of het regent.",
+        "example_en": "It depends on whether it rains."
       },
       "tags": [
         "uitdrukkingen"
@@ -1066,7 +1120,9 @@
         "forms": {
           "base": "rustig",
           "inflected": "rustige"
-        }
+        },
+        "example": "Het is hier lekker rustig.",
+        "example_en": "It's nice and quiet here."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -1080,7 +1136,9 @@
       "gloss": "wind",
       "extras": {
         "article": "de",
-        "plural": "winden"
+        "plural": "winden",
+        "example": "Er staat vandaag veel wind.",
+        "example_en": "It's very windy today."
       },
       "tags": [
         "weather",
@@ -1094,7 +1152,9 @@
       "gloss": "cloud",
       "extras": {
         "article": "de",
-        "plural": "wolken"
+        "plural": "wolken",
+        "example": "Er zijn geen wolken in de lucht.",
+        "example_en": "There are no clouds in the sky."
       },
       "tags": [
         "weather",
@@ -1161,7 +1221,9 @@
       "gloss": "sky; air",
       "extras": {
         "article": "de",
-        "plural": "luchten"
+        "plural": "luchten",
+        "example": "De lucht is helemaal blauw.",
+        "example_en": "The sky is completely blue."
       },
       "tags": [
         "weather",
@@ -1175,7 +1237,9 @@
       "gloss": "summer",
       "extras": {
         "article": "de",
-        "plural": "zomers"
+        "plural": "zomers",
+        "example": "Deze zomer gaan we naar Italië.",
+        "example_en": "This summer we're going to Italy."
       },
       "tags": [
         "weather",
@@ -1203,7 +1267,11 @@
       "gloss": "no problem",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Geen probleem, ik help je graag.",
+        "example_en": "No problem, I'm happy to help."
+      }
     },
     {
       "kind": "adjective",
@@ -1214,7 +1282,9 @@
         "forms": {
           "base": "druk",
           "inflected": "drukke"
-        }
+        },
+        "example": "Op zaterdag is het altijd druk in de stad.",
+        "example_en": "On Saturdays it's always busy in town."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -1281,7 +1351,9 @@
       "gloss": "winter",
       "extras": {
         "article": "de",
-        "plural": "winters"
+        "plural": "winters",
+        "example": "Het wordt vroeg donker in de winter.",
+        "example_en": "It gets dark early in winter."
       },
       "tags": [
         "weather",
@@ -1295,7 +1367,9 @@
       "gloss": "spring",
       "extras": {
         "article": "de",
-        "plural": "lentes"
+        "plural": "lentes",
+        "example": "De lente begint in maart.",
+        "example_en": "Spring starts in March."
       },
       "tags": [
         "weather",
@@ -1309,7 +1383,9 @@
       "gloss": "autumn",
       "extras": {
         "article": "de",
-        "plural": "herfsten"
+        "plural": "herfsten",
+        "example": "In de herfst vallen de bladeren.",
+        "example_en": "In autumn the leaves fall."
       },
       "tags": [
         "weather",
@@ -1374,7 +1450,9 @@
       "primary_form": "natuurlijk",
       "gloss": "of course",
       "extras": {
-        "literal": "naturally"
+        "literal": "naturally",
+        "example": "Natuurlijk mag je mijn fiets lenen.",
+        "example_en": "Of course you can borrow my bike."
       },
       "tags": [
         "uitdrukkingen"
@@ -1387,7 +1465,9 @@
       "gloss": "season",
       "extras": {
         "article": "het",
-        "plural": "seizoenen"
+        "plural": "seizoenen",
+        "example": "Welk seizoen vind jij het leukst?",
+        "example_en": "Which season do you like best?"
       },
       "tags": [
         "weather",
@@ -1403,7 +1483,9 @@
         "forms": {
           "base": "grappig",
           "inflected": "grappige"
-        }
+        },
+        "example": "Hij vertelt altijd grappige verhalen.",
+        "example_en": "He always tells funny stories."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -1417,7 +1499,9 @@
       "gloss": "trip, journey",
       "extras": {
         "article": "de",
-        "plural": "reizen"
+        "plural": "reizen",
+        "example": "Hoe was de reis naar Parijs?",
+        "example_en": "How was the trip to Paris?"
       },
       "tags": [
         "travel",
@@ -1485,7 +1569,9 @@
       "gloss": "holiday",
       "extras": {
         "article": "de",
-        "plural": "vakanties"
+        "plural": "vakanties",
+        "example": "Waar ga je naartoe op vakantie?",
+        "example_en": "Where are you going on holiday?"
       },
       "tags": [
         "travel",
@@ -1499,7 +1585,9 @@
       "gloss": "ticket",
       "extras": {
         "article": "het",
-        "plural": "kaartjes"
+        "plural": "kaartjes",
+        "example": "Waar kan ik een kaartje kopen?",
+        "example_en": "Where can I buy a ticket?"
       },
       "tags": [
         "travel",
@@ -1513,7 +1601,11 @@
       "gloss": "maybe",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Misschien kom ik morgen langs.",
+        "example_en": "Maybe I'll drop by tomorrow."
+      }
     },
     {
       "kind": "adjective",
@@ -1524,7 +1616,9 @@
         "forms": {
           "base": "serieus",
           "inflected": "serieuze"
-        }
+        },
+        "example": "Dit is een serieus probleem.",
+        "example_en": "This is a serious problem."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -1552,7 +1646,9 @@
       "gloss": "suitcase",
       "extras": {
         "article": "de",
-        "plural": "koffers"
+        "plural": "koffers",
+        "example": "Ik heb mijn koffer al ingepakt.",
+        "example_en": "I've already packed my suitcase."
       },
       "tags": [
         "travel",
@@ -1617,7 +1713,9 @@
       "gloss": "passport",
       "extras": {
         "article": "het",
-        "plural": "paspoorten"
+        "plural": "paspoorten",
+        "example": "Vergeet je paspoort niet!",
+        "example_en": "Don't forget your passport!"
       },
       "tags": [
         "travel",
@@ -1631,7 +1729,9 @@
       "gloss": "hotel",
       "extras": {
         "article": "het",
-        "plural": "hotels"
+        "plural": "hotels",
+        "example": "Het hotel heeft een zwembad.",
+        "example_en": "The hotel has a swimming pool."
       },
       "tags": [
         "travel",
@@ -1696,7 +1796,9 @@
       "gloss": "beach",
       "extras": {
         "article": "het",
-        "plural": "stranden"
+        "plural": "stranden",
+        "example": "We liggen de hele dag op het strand.",
+        "example_en": "We lie on the beach all day."
       },
       "tags": [
         "travel",
@@ -1709,7 +1811,9 @@
       "primary_form": "ik heb hoofdpijn",
       "gloss": "I have a headache",
       "extras": {
-        "literal": "I have head-pain"
+        "literal": "I have head-pain",
+        "example": "Ik heb hoofdpijn, ik ga even liggen.",
+        "example_en": "I have a headache, I'm going to lie down for a bit."
       },
       "tags": [
         "uitdrukkingen"
@@ -1724,7 +1828,9 @@
         "forms": {
           "base": "verlegen",
           "inflected": "verlegen"
-        }
+        },
+        "example": "Het is een verlegen meisje.",
+        "example_en": "She's a shy girl."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -1738,7 +1844,9 @@
       "gloss": "sea",
       "extras": {
         "article": "de",
-        "plural": "zeeën"
+        "plural": "zeeën",
+        "example": "We wonen dicht bij de zee.",
+        "example_en": "We live close to the sea."
       },
       "tags": [
         "travel",
@@ -1752,7 +1860,9 @@
       "gloss": "mountain",
       "extras": {
         "article": "de",
-        "plural": "bergen"
+        "plural": "bergen",
+        "example": "We gaan wandelen in de bergen.",
+        "example_en": "We're going hiking in the mountains."
       },
       "tags": [
         "travel",
@@ -1818,7 +1928,9 @@
       "gloss": "country; land",
       "extras": {
         "article": "het",
-        "plural": "landen"
+        "plural": "landen",
+        "example": "Nederland is een klein land.",
+        "example_en": "The Netherlands is a small country."
       },
       "tags": [
         "travel",
@@ -1831,7 +1943,9 @@
       "primary_form": "laat maar",
       "gloss": "never mind, forget it",
       "extras": {
-        "literal": "let but"
+        "literal": "let but",
+        "example": "Laat maar, het is niet belangrijk.",
+        "example_en": "Never mind, it's not important."
       },
       "tags": [
         "uitdrukkingen"
@@ -1846,7 +1960,9 @@
         "forms": {
           "base": "lui",
           "inflected": "luie"
-        }
+        },
+        "example": "Hij is te lui om te koken.",
+        "example_en": "He's too lazy to cook."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -1860,7 +1976,9 @@
       "gloss": "aeroplane",
       "extras": {
         "article": "het",
-        "plural": "vliegtuigen"
+        "plural": "vliegtuigen",
+        "example": "Ik slaap nooit in het vliegtuig.",
+        "example_en": "I never sleep on the plane."
       },
       "tags": [
         "transport",
@@ -1939,7 +2057,9 @@
       "gloss": "train",
       "extras": {
         "article": "de",
-        "plural": "treinen"
+        "plural": "treinen",
+        "example": "De trein heeft tien minuten vertraging.",
+        "example_en": "The train is ten minutes late."
       },
       "tags": [
         "transport",
@@ -1953,7 +2073,9 @@
       "gloss": "bus",
       "extras": {
         "article": "de",
-        "plural": "bussen"
+        "plural": "bussen",
+        "example": "Ik neem de bus naar school.",
+        "example_en": "I take the bus to school."
       },
       "tags": [
         "transport",
@@ -2019,7 +2141,9 @@
       "gloss": "tram",
       "extras": {
         "article": "de",
-        "plural": "trams"
+        "plural": "trams",
+        "example": "Deze tram gaat naar het centrum.",
+        "example_en": "This tram goes to the centre."
       },
       "tags": [
         "transport",
@@ -2032,7 +2156,9 @@
       "primary_form": "tot zo",
       "gloss": "see you in a bit",
       "extras": {
-        "literal": "until so"
+        "literal": "until so",
+        "example": "Ik ben er over vijf minuten, tot zo!",
+        "example_en": "I'll be there in five minutes, see you in a bit!"
       },
       "tags": [
         "uitdrukkingen"
@@ -2047,7 +2173,9 @@
         "forms": {
           "base": "leuk",
           "inflected": "leuke"
-        }
+        },
+        "example": "Wat leuk dat je er bent!",
+        "example_en": "How nice that you're here!"
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -2061,7 +2189,9 @@
       "gloss": "boat",
       "extras": {
         "article": "de",
-        "plural": "boten"
+        "plural": "boten",
+        "example": "We gaan met de boot naar het eiland.",
+        "example_en": "We're going to the island by boat."
       },
       "tags": [
         "transport",
@@ -2075,7 +2205,9 @@
       "gloss": "airport",
       "extras": {
         "article": "het",
-        "plural": "vliegvelden"
+        "plural": "vliegvelden",
+        "example": "Het vliegveld is ver van de stad.",
+        "example_en": "The airport is far from the city."
       },
       "tags": [
         "transport",
@@ -2139,7 +2271,9 @@
       "gloss": "map; card",
       "extras": {
         "article": "de",
-        "plural": "kaarten"
+        "plural": "kaarten",
+        "example": "Kun je het me op de kaart laten zien?",
+        "example_en": "Can you show me on the map?"
       },
       "tags": [
         "travel",
@@ -2153,7 +2287,9 @@
       "gloss": "office",
       "extras": {
         "article": "het",
-        "plural": "kantoren"
+        "plural": "kantoren",
+        "example": "Ze werkt op een kantoor in de stad.",
+        "example_en": "She works in an office in town."
       },
       "tags": [
         "work",
@@ -2166,7 +2302,9 @@
       "primary_form": "heb je zin om...?",
       "gloss": "do you feel like...?",
       "extras": {
-        "literal": "have you mind to"
+        "literal": "have you mind to",
+        "example": "Heb je zin om te gaan zwemmen?",
+        "example_en": "Do you feel like going swimming?"
       },
       "tags": [
         "uitdrukkingen"
@@ -2181,7 +2319,9 @@
         "forms": {
           "base": "saai",
           "inflected": "saaie"
-        }
+        },
+        "example": "Ik vind dit boek een beetje saai.",
+        "example_en": "I find this book a bit boring."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -2245,7 +2385,9 @@
       "gloss": "company",
       "extras": {
         "article": "het",
-        "plural": "bedrijven"
+        "plural": "bedrijven",
+        "example": "Het bedrijf heeft vijftig werknemers.",
+        "example_en": "The company has fifty employees."
       },
       "tags": [
         "work",
@@ -2273,7 +2415,9 @@
       "gloss": "colleague",
       "extras": {
         "article": "de",
-        "plural": "collega's"
+        "plural": "collega's",
+        "example": "Mijn collega's zijn heel aardig.",
+        "example_en": "My colleagues are very nice."
       },
       "tags": [
         "work",
@@ -2287,7 +2431,9 @@
       "gloss": "boss",
       "extras": {
         "article": "de",
-        "plural": "bazen"
+        "plural": "bazen",
+        "example": "Ik moet het eerst aan mijn baas vragen.",
+        "example_en": "I have to ask my boss first."
       },
       "tags": [
         "work",
@@ -2352,7 +2498,11 @@
       "gloss": "yes please!, gladly!",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Graag, met melk en suiker.",
+        "example_en": "Yes please, with milk and sugar."
+      }
     },
     {
       "kind": "adjective",
@@ -2363,7 +2513,9 @@
         "forms": {
           "base": "eng",
           "inflected": "enge"
-        }
+        },
+        "example": "Die film was echt eng.",
+        "example_en": "That film was really scary."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -2377,7 +2529,9 @@
       "gloss": "meeting",
       "extras": {
         "article": "de",
-        "plural": "vergaderingen"
+        "plural": "vergaderingen",
+        "example": "De vergadering begint om tien uur.",
+        "example_en": "The meeting starts at ten."
       },
       "tags": [
         "work",
@@ -2391,7 +2545,9 @@
       "gloss": "salary",
       "extras": {
         "article": "het",
-        "plural": "salarissen"
+        "plural": "salarissen",
+        "example": "Hij krijgt een hoger salaris.",
+        "example_en": "He's getting a higher salary."
       },
       "tags": [
         "work",
@@ -2456,7 +2612,9 @@
       "gloss": "profession",
       "extras": {
         "article": "het",
-        "plural": "beroepen"
+        "plural": "beroepen",
+        "example": "Verpleegkundige is een zwaar beroep.",
+        "example_en": "Nursing is a demanding profession."
       },
       "tags": [
         "work",
@@ -2470,7 +2628,9 @@
       "gloss": "student",
       "extras": {
         "article": "de",
-        "plural": "studenten"
+        "plural": "studenten",
+        "example": "Mijn broer is student in Utrecht.",
+        "example_en": "My brother is a student in Utrecht."
       },
       "tags": [
         "work",
@@ -2484,7 +2644,11 @@
       "gloss": "what a pity",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Jammer dat je niet kunt komen.",
+        "example_en": "What a pity you can't come."
+      }
     },
     {
       "kind": "adjective",
@@ -2495,7 +2659,9 @@
         "forms": {
           "base": "ziek",
           "inflected": "zieke"
-        }
+        },
+        "example": "Hij is al een week ziek.",
+        "example_en": "He's been ill for a week."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -2559,7 +2725,9 @@
       "gloss": "teacher",
       "extras": {
         "article": "de",
-        "plural": "leraren"
+        "plural": "leraren",
+        "example": "Onze leraar legt alles goed uit.",
+        "example_en": "Our teacher explains everything well."
       },
       "tags": [
         "work",
@@ -2573,7 +2741,9 @@
       "gloss": "lesson",
       "extras": {
         "article": "de",
-        "plural": "lessen"
+        "plural": "lessen",
+        "example": "We hebben morgen geen les.",
+        "example_en": "We don't have class tomorrow."
       },
       "tags": [
         "work",
@@ -2601,7 +2771,9 @@
       "gloss": "exam",
       "extras": {
         "article": "het",
-        "plural": "examens"
+        "plural": "examens",
+        "example": "Ze leert hard voor haar examen.",
+        "example_en": "She's studying hard for her exam."
       },
       "tags": [
         "work",
@@ -2666,7 +2838,11 @@
       "gloss": "fortunately; happy",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Gelukkig regent het niet meer.",
+        "example_en": "Fortunately it's not raining any more."
+      }
     },
     {
       "kind": "adjective",
@@ -2677,7 +2853,9 @@
         "forms": {
           "base": "gezond",
           "inflected": "gezonde"
-        }
+        },
+        "example": "Ze eet altijd heel gezond.",
+        "example_en": "She always eats very healthily."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -2690,7 +2868,9 @@
       "gloss": "computer",
       "extras": {
         "article": "de",
-        "plural": "computers"
+        "plural": "computers",
+        "example": "Ik werk de hele dag achter de computer.",
+        "example_en": "I work at the computer all day."
       },
       "tags": [
         "work",
@@ -2703,7 +2883,9 @@
       "primary_form": "gezondheid",
       "gloss": "health",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Roken is slecht voor je gezondheid.",
+        "example_en": "Smoking is bad for your health."
       },
       "tags": [
         "health",
@@ -2768,7 +2950,9 @@
       "gloss": "doctor",
       "extras": {
         "article": "de",
-        "plural": "dokters"
+        "plural": "dokters",
+        "example": "Je moet echt naar de dokter.",
+        "example_en": "You really need to see a doctor."
       },
       "tags": [
         "health",
@@ -2782,7 +2966,9 @@
       "gloss": "GP, family doctor",
       "extras": {
         "article": "de",
-        "plural": "huisartsen"
+        "plural": "huisartsen",
+        "example": "Bel eerst je huisarts.",
+        "example_en": "Call your GP first."
       },
       "tags": [
         "health",
@@ -2795,7 +2981,9 @@
       "primary_form": "wat is er aan de hand?",
       "gloss": "what's the matter?",
       "extras": {
-        "literal": "what is there at the hand?"
+        "literal": "what is there at the hand?",
+        "example": "Je bent zo stil, wat is er aan de hand?",
+        "example_en": "You're so quiet, what's the matter?"
       },
       "tags": [
         "uitdrukkingen"
@@ -2810,7 +2998,9 @@
         "forms": {
           "base": "vrij",
           "inflected": "vrije"
-        }
+        },
+        "example": "Op vrijdag ben ik altijd vrij.",
+        "example_en": "I'm always free on Fridays."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -2823,7 +3013,9 @@
       "gloss": "pharmacy",
       "extras": {
         "article": "de",
-        "plural": "apotheken"
+        "plural": "apotheken",
+        "example": "De apotheek gaat om zes uur dicht.",
+        "example_en": "The pharmacy closes at six."
       },
       "tags": [
         "health",
@@ -2888,7 +3080,9 @@
       "gloss": "medicine",
       "extras": {
         "article": "het",
-        "plural": "medicijnen"
+        "plural": "medicijnen",
+        "example": "Neem dit medicijn twee keer per dag.",
+        "example_en": "Take this medicine twice a day."
       },
       "tags": [
         "health",
@@ -2902,7 +3096,9 @@
       "gloss": "cold (illness)",
       "extras": {
         "article": "de",
-        "plural": "verkoudheden"
+        "plural": "verkoudheden",
+        "example": "Tegen verkoudheid helpt thee met honing.",
+        "example_en": "Tea with honey helps with a cold."
       },
       "tags": [
         "health",
@@ -2979,7 +3175,9 @@
       "primary_form": "koorts",
       "gloss": "fever",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Het kind heeft hoge koorts.",
+        "example_en": "The child has a high fever."
       },
       "tags": [
         "health",
@@ -2993,7 +3191,11 @@
       "gloss": "shall we go?",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Het is al laat, zullen we gaan?",
+        "example_en": "It's already late, shall we go?"
+      }
     },
     {
       "kind": "adjective",
@@ -3004,7 +3206,9 @@
         "forms": {
           "base": "vol",
           "inflected": "volle"
-        }
+        },
+        "example": "Het restaurant zit helemaal vol.",
+        "example_en": "The restaurant is completely full."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -3017,7 +3221,9 @@
       "gloss": "pain",
       "extras": {
         "article": "de",
-        "plural": "pijnen"
+        "plural": "pijnen",
+        "example": "Ik heb pijn in mijn rug.",
+        "example_en": "My back hurts."
       },
       "tags": [
         "health",
@@ -3081,7 +3287,9 @@
       "gloss": "appointment",
       "extras": {
         "article": "de",
-        "plural": "afspraken"
+        "plural": "afspraken",
+        "example": "Ik heb om drie uur een afspraak.",
+        "example_en": "I have an appointment at three."
       },
       "tags": [
         "health",
@@ -3095,7 +3303,9 @@
       "gloss": "film",
       "extras": {
         "article": "de",
-        "plural": "films"
+        "plural": "films",
+        "example": "Welke film wil je zien?",
+        "example_en": "Which film do you want to see?"
       },
       "tags": [
         "leisure",
@@ -3109,7 +3319,11 @@
       "gloss": "I can't take any more; I'm full",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Nee, dank je, ik kan niet meer.",
+        "example_en": "No thanks, I'm full."
+      }
     },
     {
       "kind": "adjective",
@@ -3120,7 +3334,9 @@
         "forms": {
           "base": "leeg",
           "inflected": "lege"
-        }
+        },
+        "example": "De koelkast is bijna leeg.",
+        "example_en": "The fridge is almost empty."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -3132,7 +3348,9 @@
       "primary_form": "muziek",
       "gloss": "music",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Ik luister graag naar muziek.",
+        "example_en": "I like listening to music."
       },
       "tags": [
         "leisure",
@@ -3196,7 +3414,9 @@
       "gloss": "song",
       "extras": {
         "article": "het",
-        "plural": "liedjes"
+        "plural": "liedjes",
+        "example": "Dit liedje hoor ik overal.",
+        "example_en": "I hear this song everywhere."
       },
       "tags": [
         "leisure",
@@ -3210,7 +3430,9 @@
       "gloss": "sport",
       "extras": {
         "article": "de",
-        "plural": "sporten"
+        "plural": "sporten",
+        "example": "Voetbal is de populairste sport in Nederland.",
+        "example_en": "Football is the most popular sport in the Netherlands."
       },
       "tags": [
         "leisure",
@@ -3274,7 +3496,9 @@
       "gloss": "match, game",
       "extras": {
         "article": "de",
-        "plural": "wedstrijden"
+        "plural": "wedstrijden",
+        "example": "We kijken samen naar de wedstrijd.",
+        "example_en": "We're watching the match together."
       },
       "tags": [
         "leisure",
@@ -3301,7 +3525,9 @@
       "primary_form": "zin hebben in",
       "gloss": "to feel like, to look forward to",
       "extras": {
-        "literal": "to have mind in"
+        "literal": "to have mind in",
+        "example": "We hebben echt zin in de vakantie.",
+        "example_en": "We're really looking forward to the holiday."
       },
       "tags": [
         "uitdrukkingen"
@@ -3316,7 +3542,9 @@
         "forms": {
           "base": "lang",
           "inflected": "lange"
-        }
+        },
+        "example": "Het was een lange dag.",
+        "example_en": "It was a long day."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -3329,7 +3557,9 @@
       "gloss": "game",
       "extras": {
         "article": "het",
-        "plural": "spellen"
+        "plural": "spellen",
+        "example": "Dit spel is leuk voor het hele gezin.",
+        "example_en": "This game is fun for the whole family."
       },
       "tags": [
         "leisure",
@@ -3343,7 +3573,9 @@
       "gloss": "party",
       "extras": {
         "article": "het",
-        "plural": "feesten"
+        "plural": "feesten",
+        "example": "Kom je ook naar het feest?",
+        "example_en": "Are you coming to the party too?"
       },
       "tags": [
         "leisure",
@@ -3407,7 +3639,9 @@
       "gloss": "birthday",
       "extras": {
         "article": "de",
-        "plural": "verjaardagen"
+        "plural": "verjaardagen",
+        "example": "Morgen vier ik mijn verjaardag.",
+        "example_en": "Tomorrow I'm celebrating my birthday."
       },
       "tags": [
         "leisure",
@@ -3420,7 +3654,9 @@
       "primary_form": "nodig hebben",
       "gloss": "to need",
       "extras": {
-        "literal": "to have necessary"
+        "literal": "to have necessary",
+        "example": "We hebben nog melk nodig.",
+        "example_en": "We still need milk."
       },
       "tags": [
         "uitdrukkingen"
@@ -3433,7 +3669,9 @@
       "gloss": "present, gift",
       "extras": {
         "article": "het",
-        "plural": "cadeaus"
+        "plural": "cadeaus",
+        "example": "Wat een mooi cadeau, dank je wel!",
+        "example_en": "What a lovely present, thank you!"
       },
       "tags": [
         "leisure",
@@ -3449,7 +3687,9 @@
         "forms": {
           "base": "kort",
           "inflected": "korte"
-        }
+        },
+        "example": "Ze heeft kort haar.",
+        "example_en": "She has short hair."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -3512,7 +3752,9 @@
       "gloss": "photo",
       "extras": {
         "article": "de",
-        "plural": "foto's"
+        "plural": "foto's",
+        "example": "Mag ik een foto van jullie maken?",
+        "example_en": "May I take a photo of you?"
       },
       "tags": [
         "leisure",
@@ -3526,7 +3768,9 @@
       "gloss": "price; prize",
       "extras": {
         "article": "de",
-        "plural": "prijzen"
+        "plural": "prijzen",
+        "example": "Wat is de prijs van deze fiets?",
+        "example_en": "What's the price of this bike?"
       },
       "tags": [
         "shopping",
@@ -3540,7 +3784,9 @@
       "gloss": "euro",
       "extras": {
         "article": "de",
-        "plural": "euro's"
+        "plural": "euro's",
+        "example": "Een kopje koffie kost drie euro.",
+        "example_en": "A cup of coffee costs three euros."
       },
       "tags": [
         "shopping",
@@ -3603,7 +3849,9 @@
       "primary_form": "aan de beurt zijn",
       "gloss": "to be someone's turn",
       "extras": {
-        "literal": "to be at the turn"
+        "literal": "to be at the turn",
+        "example": "Jullie zijn nu aan de beurt.",
+        "example_en": "It's your turn now."
       },
       "tags": [
         "uitdrukkingen"
@@ -3618,7 +3866,9 @@
         "forms": {
           "base": "zwaar",
           "inflected": "zware"
-        }
+        },
+        "example": "Deze tas is te zwaar voor mij.",
+        "example_en": "This bag is too heavy for me."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -3645,7 +3895,9 @@
       "gloss": "receipt",
       "extras": {
         "article": "het",
-        "plural": "bonnetjes"
+        "plural": "bonnetjes",
+        "example": "Wilt u het bonnetje?",
+        "example_en": "Would you like the receipt?"
       },
       "tags": [
         "shopping",
@@ -3659,7 +3911,9 @@
       "gloss": "debit card",
       "extras": {
         "article": "de",
-        "plural": "pinpassen"
+        "plural": "pinpassen",
+        "example": "Ik ben mijn pinpas kwijt.",
+        "example_en": "I've lost my debit card."
       },
       "tags": [
         "shopping",
@@ -3723,7 +3977,9 @@
       "gloss": "till, checkout",
       "extras": {
         "article": "de",
-        "plural": "kassa's"
+        "plural": "kassa's",
+        "example": "Je kunt betalen bij de kassa.",
+        "example_en": "You can pay at the till."
       },
       "tags": [
         "shopping",
@@ -3737,7 +3993,9 @@
       "gloss": "supermarket",
       "extras": {
         "article": "de",
-        "plural": "supermarkten"
+        "plural": "supermarkten",
+        "example": "De supermarkt is op zondag open.",
+        "example_en": "The supermarket is open on Sundays."
       },
       "tags": [
         "shopping",
@@ -3750,7 +4008,9 @@
       "primary_form": "in de rij staan",
       "gloss": "to queue",
       "extras": {
-        "literal": "to stand in the row"
+        "literal": "to stand in the row",
+        "example": "We staan al een half uur in de rij.",
+        "example_en": "We've been queuing for half an hour."
       },
       "tags": [
         "uitdrukkingen"
@@ -3765,7 +4025,9 @@
         "forms": {
           "base": "licht",
           "inflected": "lichte"
-        }
+        },
+        "example": "Deze doos is heel licht.",
+        "example_en": "This box is very light."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -3828,7 +4090,9 @@
       "gloss": "fork",
       "extras": {
         "article": "de",
-        "plural": "vorken"
+        "plural": "vorken",
+        "example": "Mag ik een vork, alsjeblieft?",
+        "example_en": "Could I have a fork, please?"
       },
       "tags": [
         "home",
@@ -3842,7 +4106,9 @@
       "gloss": "knife",
       "extras": {
         "article": "het",
-        "plural": "messen"
+        "plural": "messen",
+        "example": "Pas op, dat mes is scherp.",
+        "example_en": "Careful, that knife is sharp."
       },
       "tags": [
         "home",
@@ -3856,7 +4122,9 @@
       "gloss": "spoon",
       "extras": {
         "article": "de",
-        "plural": "lepels"
+        "plural": "lepels",
+        "example": "Je eet soep met een lepel.",
+        "example_en": "You eat soup with a spoon."
       },
       "tags": [
         "home",
@@ -3919,7 +4187,9 @@
       "primary_form": "boodschappen doen",
       "gloss": "to do the grocery shopping",
       "extras": {
-        "literal": "to do errands"
+        "literal": "to do errands",
+        "example": "Na het werk ga ik boodschappen doen.",
+        "example_en": "After work I'm going grocery shopping."
       },
       "tags": [
         "uitdrukkingen"
@@ -3934,7 +4204,9 @@
         "forms": {
           "base": "schoon",
           "inflected": "schone"
-        }
+        },
+        "example": "Zijn de handdoeken schoon?",
+        "example_en": "Are the towels clean?"
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -3947,7 +4219,9 @@
       "gloss": "plate",
       "extras": {
         "article": "het",
-        "plural": "borden"
+        "plural": "borden",
+        "example": "Zet je bord maar in de gootsteen.",
+        "example_en": "Just put your plate in the sink."
       },
       "tags": [
         "home",
@@ -3978,7 +4252,9 @@
       "gloss": "glass",
       "extras": {
         "article": "het",
-        "plural": "glazen"
+        "plural": "glazen",
+        "example": "Mag ik een glas water?",
+        "example_en": "Could I have a glass of water?"
       },
       "tags": [
         "home",
@@ -4042,7 +4318,9 @@
       "gloss": "bottle",
       "extras": {
         "article": "de",
-        "plural": "flessen"
+        "plural": "flessen",
+        "example": "We drinken een fles wijn bij het eten.",
+        "example_en": "We're having a bottle of wine with dinner."
       },
       "tags": [
         "home",
@@ -4056,7 +4334,9 @@
       "gloss": "lamp",
       "extras": {
         "article": "de",
-        "plural": "lampen"
+        "plural": "lampen",
+        "example": "Kun je de lamp aandoen?",
+        "example_en": "Can you turn on the lamp?"
       },
       "tags": [
         "home",
@@ -4070,7 +4350,11 @@
       "gloss": "on time",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Zorg dat je op tijd bent.",
+        "example_en": "Make sure you're on time."
+      }
     },
     {
       "kind": "adjective",
@@ -4081,7 +4365,9 @@
         "forms": {
           "base": "vies",
           "inflected": "vieze"
-        }
+        },
+        "example": "Je handen zijn vies, ga ze wassen.",
+        "example_en": "Your hands are dirty, go and wash them."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -4094,7 +4380,9 @@
       "gloss": "flower",
       "extras": {
         "article": "de",
-        "plural": "bloemen"
+        "plural": "bloemen",
+        "example": "Ik koop bloemen voor mijn moeder.",
+        "example_en": "I'm buying flowers for my mother."
       },
       "tags": [
         "nature",
@@ -4158,7 +4446,9 @@
       "gloss": "forest, wood",
       "extras": {
         "article": "het",
-        "plural": "bossen"
+        "plural": "bossen",
+        "example": "Achter ons huis ligt een groot bos.",
+        "example_en": "There's a big forest behind our house."
       },
       "tags": [
         "nature",
@@ -4172,7 +4462,9 @@
       "gloss": "river",
       "extras": {
         "article": "de",
-        "plural": "rivieren"
+        "plural": "rivieren",
+        "example": "De rivier stroomt door de stad.",
+        "example_en": "The river flows through the city."
       },
       "tags": [
         "nature",
@@ -4237,7 +4529,9 @@
       "gloss": "lake",
       "extras": {
         "article": "het",
-        "plural": "meren"
+        "plural": "meren",
+        "example": "In de zomer zwemmen we in het meer.",
+        "example_en": "In summer we swim in the lake."
       },
       "tags": [
         "nature",
@@ -4251,7 +4545,11 @@
       "gloss": "too late; late",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Sorry dat ik te laat ben.",
+        "example_en": "Sorry I'm late."
+      }
     },
     {
       "kind": "adjective",
@@ -4262,7 +4560,9 @@
         "forms": {
           "base": "snel",
           "inflected": "snelle"
-        }
+        },
+        "example": "Die auto rijdt erg snel.",
+        "example_en": "That car is going very fast."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -4275,7 +4575,9 @@
       "gloss": "bird",
       "extras": {
         "article": "de",
-        "plural": "vogels"
+        "plural": "vogels",
+        "example": "Ik hoor een vogel in de tuin.",
+        "example_en": "I can hear a bird in the garden."
       },
       "tags": [
         "animals",
@@ -4357,7 +4659,9 @@
       "gloss": "horse",
       "extras": {
         "article": "het",
-        "plural": "paarden"
+        "plural": "paarden",
+        "example": "Mijn nichtje heeft een eigen paard.",
+        "example_en": "My niece has her own horse."
       },
       "tags": [
         "animals",
@@ -4371,7 +4675,9 @@
       "gloss": "cow",
       "extras": {
         "article": "de",
-        "plural": "koeien"
+        "plural": "koeien",
+        "example": "In Nederland zie je veel koeien.",
+        "example_en": "In the Netherlands you see lots of cows."
       },
       "tags": [
         "animals",
@@ -4384,7 +4690,9 @@
       "primary_form": "met pinnen",
       "gloss": "by card (paying)",
       "extras": {
-        "literal": "with pinning"
+        "literal": "with pinning",
+        "example": "Kan ik hier met pinnen betalen?",
+        "example_en": "Can I pay by card here?"
       },
       "tags": [
         "uitdrukkingen"
@@ -4399,7 +4707,9 @@
         "forms": {
           "base": "langzaam",
           "inflected": "langzame"
-        }
+        },
+        "example": "Oma loopt heel langzaam.",
+        "example_en": "Grandma walks very slowly."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -4412,7 +4722,9 @@
       "gloss": "pig",
       "extras": {
         "article": "het",
-        "plural": "varkens"
+        "plural": "varkens",
+        "example": "Op de boerderij wonen drie varkens.",
+        "example_en": "Three pigs live on the farm."
       },
       "tags": [
         "animals",
@@ -4477,7 +4789,9 @@
       "gloss": "mouse",
       "extras": {
         "article": "de",
-        "plural": "muizen"
+        "plural": "muizen",
+        "example": "De kat vangt een muis.",
+        "example_en": "The cat catches a mouse."
       },
       "tags": [
         "animals",

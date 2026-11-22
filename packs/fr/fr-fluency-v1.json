@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "fr-fluency-v1",
-  "version": 4,
+  "version": 5,
   "language": "fr",
   "name": "Français · Aisance (B1)",
   "author": "Max Boksem",
@@ -216,7 +216,9 @@
       "gloss": "society; company",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Elle travaille pour une grande société à Lyon.",
+        "example_en": "She works for a big company in Lyon."
       },
       "tags": [
         "society",
@@ -229,7 +231,9 @@
       "primary_form": "avoir le cafard",
       "gloss": "to feel down, to have the blues",
       "extras": {
-        "literal": "to have the cockroach"
+        "literal": "to have the cockroach",
+        "example": "J'ai le cafard depuis la fin des vacances.",
+        "example_en": "I've been feeling down since the holidays ended."
       },
       "tags": [
         "idioms"
@@ -333,7 +337,9 @@
       "primary_form": "bref",
       "gloss": "in short, anyway",
       "extras": {
-        "literal": "brief"
+        "literal": "brief",
+        "example": "Bref, la soirée a été un vrai désastre.",
+        "example_en": "In short, the evening was a real disaster."
       },
       "tags": [
         "expressions",
@@ -355,7 +361,9 @@
           "fs": "actuelle",
           "mp": "actuels",
           "fp": "actuelles"
-        }
+        },
+        "example": "La situation actuelle est assez compliquée.",
+        "example_en": "The current situation is fairly complicated."
       },
       "tags": [
         "adjectifs",
@@ -383,7 +391,9 @@
       "gloss": "government",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le gouvernement a annoncé une nouvelle réforme.",
+        "example_en": "The government has announced a new reform."
       },
       "tags": [
         "society",
@@ -396,7 +406,9 @@
       "primary_form": "avoir la flemme",
       "gloss": "to not be able to be bothered",
       "extras": {
-        "literal": "to have the laziness"
+        "literal": "to have the laziness",
+        "example": "J'ai la flemme de faire la vaisselle.",
+        "example_en": "I can't be bothered to do the dishes."
       },
       "tags": [
         "idioms"
@@ -409,7 +421,9 @@
       "gloss": "law",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Cette loi protège mieux les locataires.",
+        "example_en": "This law gives tenants better protection."
       },
       "tags": [
         "society",
@@ -513,7 +527,9 @@
       "primary_form": "poser un lapin",
       "gloss": "to stand someone up",
       "extras": {
-        "literal": "to put down a rabbit"
+        "literal": "to put down a rabbit",
+        "example": "J'espère qu'il ne va pas me poser un lapin.",
+        "example_en": "I hope he isn't going to stand me up."
       },
       "tags": [
         "idioms"
@@ -525,7 +541,9 @@
       "primary_form": "du coup",
       "gloss": "so, as a result (spoken)",
       "extras": {
-        "literal": "of the blow"
+        "literal": "of the blow",
+        "example": "Il pleuvait, du coup on est restés à la maison.",
+        "example_en": "It was raining, so we stayed at home."
       },
       "tags": [
         "expressions",
@@ -543,7 +561,9 @@
       "gloss": "right; law (the subject)",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Tout le monde a le droit de se tromper.",
+        "example_en": "Everyone has the right to make mistakes."
       },
       "tags": [
         "society",
@@ -561,7 +581,9 @@
           "fs": "éventuelle",
           "mp": "éventuels",
           "fp": "éventuelles"
-        }
+        },
+        "example": "Prévenez-nous de tout retard éventuel.",
+        "example_en": "Let us know about any possible delay."
       },
       "tags": [
         "adjectifs",
@@ -589,7 +611,9 @@
       "gloss": "freedom",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "La liberté d'expression est essentielle en démocratie.",
+        "example_en": "Freedom of speech is essential in a democracy."
       },
       "tags": [
         "society",
@@ -602,7 +626,9 @@
       "primary_form": "il pleut des cordes",
       "gloss": "it's raining cats and dogs",
       "extras": {
-        "literal": "it's raining ropes"
+        "literal": "it's raining ropes",
+        "example": "Prends un parapluie, il pleut des cordes !",
+        "example_en": "Take an umbrella, it's raining cats and dogs!"
       },
       "tags": [
         "idioms"
@@ -706,7 +732,9 @@
       "gloss": "equality",
       "extras": {
         "gender": "f",
-        "article": "l'"
+        "article": "l'",
+        "example": "L'égalité entre hommes et femmes progresse lentement.",
+        "example_en": "Equality between men and women is progressing slowly."
       },
       "tags": [
         "society",
@@ -719,7 +747,9 @@
       "primary_form": "les retrouvailles",
       "gloss": "the joy of meeting again after a long time",
       "extras": {
-        "literal": "the re-findings"
+        "literal": "the re-findings",
+        "example": "Les retrouvailles avec ma sœur ont été très émouvantes.",
+        "example_en": "Seeing my sister again after so long was very moving."
       },
       "tags": [
         "expressions",
@@ -736,7 +766,9 @@
       "primary_form": "coûter les yeux de la tête",
       "gloss": "to cost an arm and a leg",
       "extras": {
-        "literal": "to cost the eyes of the head"
+        "literal": "to cost the eyes of the head",
+        "example": "Les loyers à Paris coûtent les yeux de la tête.",
+        "example_en": "Rents in Paris cost an arm and a leg."
       },
       "tags": [
         "idioms"
@@ -753,7 +785,9 @@
           "fs": "sensible",
           "mp": "sensibles",
           "fp": "sensibles"
-        }
+        },
+        "example": "Ma fille est très sensible aux critiques.",
+        "example_en": "My daughter is very sensitive to criticism."
       },
       "tags": [
         "adjectifs",
@@ -781,7 +815,9 @@
       "gloss": "election",
       "extras": {
         "gender": "f",
-        "article": "l'"
+        "article": "l'",
+        "example": "L'élection présidentielle a lieu au printemps.",
+        "example_en": "The presidential election takes place in spring."
       },
       "tags": [
         "society",
@@ -886,7 +922,9 @@
       "primary_form": "avoir un chat dans la gorge",
       "gloss": "to have a frog in your throat",
       "extras": {
-        "literal": "to have a cat in the throat"
+        "literal": "to have a cat in the throat",
+        "example": "Excusez-moi, j'ai un chat dans la gorge.",
+        "example_en": "Excuse me, I have a frog in my throat."
       },
       "tags": [
         "idioms"
@@ -899,7 +937,9 @@
       "gloss": "war",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Mon grand-père a connu la guerre.",
+        "example_en": "My grandfather lived through the war."
       },
       "tags": [
         "society",
@@ -918,7 +958,11 @@
         "registre",
         "registre",
         "registre"
-      ]
+      ],
+      "extras": {
+        "example": "En tout cas, merci beaucoup pour ton aide.",
+        "example_en": "Anyway, thanks a lot for your help."
+      }
     },
     {
       "kind": "adjective",
@@ -931,7 +975,9 @@
           "fs": "large",
           "mp": "larges",
           "fp": "larges"
-        }
+        },
+        "example": "La rivière est très large à cet endroit.",
+        "example_en": "The river is very wide at this point."
       },
       "tags": [
         "adjectifs",
@@ -945,7 +991,9 @@
       "gloss": "peace",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Laisse-moi en paix, je travaille.",
+        "example_en": "Leave me in peace, I'm working."
       },
       "tags": [
         "society",
@@ -958,7 +1006,9 @@
       "primary_form": "quand les poules auront des dents",
       "gloss": "when pigs fly",
       "extras": {
-        "literal": "when hens have teeth"
+        "literal": "when hens have teeth",
+        "example": "Il rangera sa chambre quand les poules auront des dents.",
+        "example_en": "He'll tidy his room when pigs fly."
       },
       "tags": [
         "idioms"
@@ -1076,7 +1126,9 @@
       "gloss": "environment",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Le vélo est bon pour l'environnement.",
+        "example_en": "Cycling is good for the environment."
       },
       "tags": [
         "society",
@@ -1089,7 +1141,9 @@
       "primary_form": "ce n'est pas la mer à boire",
       "gloss": "it's not that hard",
       "extras": {
-        "literal": "it's not the sea to drink"
+        "literal": "it's not the sea to drink",
+        "example": "Courage, ce n'est pas la mer à boire !",
+        "example_en": "Come on, it's not that hard!"
       },
       "tags": [
         "idioms"
@@ -1101,7 +1155,9 @@
       "primary_form": "n'importe quoi",
       "gloss": "nonsense; anything at all",
       "extras": {
-        "literal": "no matter what"
+        "literal": "no matter what",
+        "example": "Ne l'écoute pas, il dit n'importe quoi.",
+        "example_en": "Don't listen to him, he's talking nonsense."
       },
       "tags": [
         "expressions",
@@ -1119,7 +1175,9 @@
       "gloss": "pollution",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "La pollution de l'air augmente dans les grandes villes.",
+        "example_en": "Air pollution is rising in big cities."
       },
       "tags": [
         "society",
@@ -1137,7 +1195,9 @@
           "fs": "ancienne",
           "mp": "anciens",
           "fp": "anciennes"
-        }
+        },
+        "example": "C'est mon ancien professeur de maths.",
+        "example_en": "That's my former maths teacher."
       },
       "tags": [
         "adjectifs"
@@ -1214,7 +1274,9 @@
       "primary_form": "avoir la pêche",
       "gloss": "to be full of energy",
       "extras": {
-        "literal": "to have the peach"
+        "literal": "to have the peach",
+        "example": "Tu as la pêche ce matin !",
+        "example_en": "You're full of beans this morning!"
       },
       "tags": [
         "idioms"
@@ -1227,7 +1289,9 @@
       "gloss": "future",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Personne ne sait ce que l'avenir nous réserve.",
+        "example_en": "Nobody knows what the future holds for us."
       },
       "tags": [
         "society",
@@ -1254,7 +1318,9 @@
       "primary_form": "casser les pieds",
       "gloss": "to annoy someone",
       "extras": {
-        "literal": "to break the feet"
+        "literal": "to break the feet",
+        "example": "Tu commences à me casser les pieds avec tes questions.",
+        "example_en": "You're starting to get on my nerves with your questions."
       },
       "tags": [
         "idioms"
@@ -1267,7 +1333,9 @@
       "gloss": "past",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Il ne parle jamais de son passé.",
+        "example_en": "He never talks about his past."
       },
       "tags": [
         "society",
@@ -1286,7 +1354,11 @@
         "registre",
         "registre",
         "registre"
-      ]
+      ],
+      "extras": {
+        "example": "Je reste tant que tu as besoin de moi.",
+        "example_en": "I'll stay as long as you need me."
+      }
     },
     {
       "kind": "verb",
@@ -1364,7 +1436,9 @@
           "fs": "seule",
           "mp": "seuls",
           "fp": "seules"
-        }
+        },
+        "example": "Elle habite seule depuis deux ans.",
+        "example_en": "She has lived alone for two years."
       },
       "tags": [
         "adjectifs"
@@ -1377,7 +1451,9 @@
       "gloss": "history; story",
       "extras": {
         "gender": "f",
-        "article": "l'"
+        "article": "l'",
+        "example": "Le soir, je lis une histoire à mon fils.",
+        "example_en": "In the evening, I read my son a story."
       },
       "tags": [
         "society",
@@ -1390,7 +1466,9 @@
       "primary_form": "donner sa langue au chat",
       "gloss": "to give up guessing",
       "extras": {
-        "literal": "to give your tongue to the cat"
+        "literal": "to give your tongue to the cat",
+        "example": "Je donne ma langue au chat, c'est quoi la réponse ?",
+        "example_en": "I give up, what's the answer?"
       },
       "tags": [
         "idioms"
@@ -1417,7 +1495,9 @@
       "gloss": "culture",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Elle s'intéresse beaucoup à la culture japonaise.",
+        "example_en": "She's very interested in Japanese culture."
       },
       "tags": [
         "society",
@@ -1430,7 +1510,9 @@
       "primary_form": "à la limite",
       "gloss": "at a push, if need be",
       "extras": {
-        "literal": "at the limit"
+        "literal": "at the limit",
+        "example": "À la limite, on dormira chez mes parents.",
+        "example_en": "At a push, we'll sleep at my parents' place."
       },
       "tags": [
         "expressions",
@@ -1512,7 +1594,9 @@
       "primary_form": "tomber dans les pommes",
       "gloss": "to faint",
       "extras": {
-        "literal": "to fall in the apples"
+        "literal": "to fall in the apples",
+        "example": "Il faisait si chaud qu'elle est tombée dans les pommes.",
+        "example_en": "It was so hot that she fainted."
       },
       "tags": [
         "idioms"
@@ -1525,7 +1609,9 @@
       "gloss": "language; tongue",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Elle parle trois langues couramment.",
+        "example_en": "She speaks three languages fluently."
       },
       "tags": [
         "society",
@@ -1543,7 +1629,9 @@
           "fs": "importante",
           "mp": "importants",
           "fp": "importantes"
-        }
+        },
+        "example": "Il est important de boire beaucoup d'eau.",
+        "example_en": "It's important to drink plenty of water."
       },
       "tags": [
         "adjectifs"
@@ -1555,7 +1643,9 @@
       "primary_form": "mettre son grain de sel",
       "gloss": "to put your two cents in",
       "extras": {
-        "literal": "to put in your grain of salt"
+        "literal": "to put in your grain of salt",
+        "example": "Il faut toujours qu'il mette son grain de sel.",
+        "example_en": "He always has to put his two cents in."
       },
       "tags": [
         "idioms"
@@ -1568,7 +1658,9 @@
       "gloss": "problem",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Pas de problème, je m'en occupe.",
+        "example_en": "No problem, I'll take care of it."
       },
       "tags": [
         "society",
@@ -1666,7 +1758,11 @@
         "registre",
         "registre",
         "registre"
-      ]
+      ],
+      "extras": {
+        "example": "Bof, ce film ne m'a pas vraiment plu.",
+        "example_en": "Meh, I didn't really like that film."
+      }
     },
     {
       "kind": "noun",
@@ -1675,7 +1771,9 @@
       "gloss": "solution",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "On va trouver une solution ensemble.",
+        "example_en": "We'll find a solution together."
       },
       "tags": [
         "society",
@@ -1688,7 +1786,9 @@
       "primary_form": "avoir d'autres chats à fouetter",
       "gloss": "to have bigger fish to fry",
       "extras": {
-        "literal": "to have other cats to whip"
+        "literal": "to have other cats to whip",
+        "example": "Désolé, j'ai d'autres chats à fouetter.",
+        "example_en": "Sorry, I have bigger fish to fry."
       },
       "tags": [
         "idioms"
@@ -1705,7 +1805,9 @@
           "fs": "nécessaire",
           "mp": "nécessaires",
           "fp": "nécessaires"
-        }
+        },
+        "example": "Il n'est pas nécessaire de réserver à l'avance.",
+        "example_en": "There's no need to book in advance."
       },
       "tags": [
         "adjectifs"
@@ -1718,7 +1820,9 @@
       "gloss": "reason",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Pour quelle raison est-il parti si tôt ?",
+        "example_en": "Why did he leave so early?"
       },
       "tags": [
         "society",
@@ -1796,7 +1900,9 @@
       "primary_form": "raconter des salades",
       "gloss": "to tell tall stories",
       "extras": {
-        "literal": "to tell salads"
+        "literal": "to tell salads",
+        "example": "Arrête de raconter des salades, je sais la vérité.",
+        "example_en": "Stop telling tall stories, I know the truth."
       },
       "tags": [
         "idioms"
@@ -1824,7 +1930,9 @@
       "extras": {
         "gender": "m",
         "article": "l'",
-        "plural": "avis"
+        "plural": "avis",
+        "example": "À mon avis, c'est une mauvaise idée.",
+        "example_en": "In my opinion, it's a bad idea."
       },
       "tags": [
         "society",
@@ -1837,7 +1945,9 @@
       "primary_form": "ça marche",
       "gloss": "sounds good, deal",
       "extras": {
-        "literal": "that walks"
+        "literal": "that walks",
+        "example": "Ça marche, je t'attends devant le cinéma.",
+        "example_en": "Sounds good, I'll wait for you outside the cinema."
       },
       "tags": [
         "expressions",
@@ -1854,7 +1964,9 @@
       "primary_form": "être dans la lune",
       "gloss": "to be daydreaming",
       "extras": {
-        "literal": "to be in the moon"
+        "literal": "to be in the moon",
+        "example": "Pardon, j'étais dans la lune.",
+        "example_en": "Sorry, I was miles away."
       },
       "tags": [
         "idioms"
@@ -1867,7 +1979,9 @@
       "gloss": "idea",
       "extras": {
         "gender": "f",
-        "article": "l'"
+        "article": "l'",
+        "example": "J'ai une idée, si on allait à la plage ?",
+        "example_en": "I have an idea, how about going to the beach?"
       },
       "tags": [
         "society",
@@ -1885,7 +1999,9 @@
           "fs": "possible",
           "mp": "possibles",
           "fp": "possibles"
-        }
+        },
+        "example": "Réponds-moi dès que possible, c'est urgent.",
+        "example_en": "Reply as soon as possible, it's urgent."
       },
       "tags": [
         "adjectifs"
@@ -1964,7 +2080,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "choix"
+        "plural": "choix",
+        "example": "Je n'ai pas le choix, je dois partir.",
+        "example_en": "I have no choice, I have to leave."
       },
       "tags": [
         "society",
@@ -1977,7 +2095,9 @@
       "primary_form": "les carottes sont cuites",
       "gloss": "the game is up, it's all over",
       "extras": {
-        "literal": "the carrots are cooked"
+        "literal": "the carrots are cooked",
+        "example": "Le dernier bus est parti, les carottes sont cuites.",
+        "example_en": "The last bus has gone, it's all over."
       },
       "tags": [
         "idioms"
@@ -2009,7 +2129,11 @@
         "registre",
         "registre",
         "registre"
-      ]
+      ],
+      "extras": {
+        "example": "Le camping, c'est pas mon truc.",
+        "example_en": "Camping isn't my thing."
+      }
     },
     {
       "kind": "noun",
@@ -2018,7 +2142,9 @@
       "gloss": "luck; chance",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Tu as de la chance d'habiter près de la mer.",
+        "example_en": "You're lucky to live near the sea."
       },
       "tags": [
         "society",
@@ -2031,7 +2157,9 @@
       "primary_form": "faire la grasse matinée",
       "gloss": "to have a lie-in",
       "extras": {
-        "literal": "to make the fat morning"
+        "literal": "to make the fat morning",
+        "example": "Ce week-end, je vais faire la grasse matinée.",
+        "example_en": "This weekend, I'm going to have a lie-in."
       },
       "tags": [
         "idioms"
@@ -2113,7 +2241,9 @@
           "fs": "inquiète",
           "mp": "inquiets",
           "fp": "inquiètes"
-        }
+        },
+        "example": "Je suis inquiet pour lui, il ne répond pas.",
+        "example_en": "I'm worried about him, he isn't answering."
       },
       "tags": [
         "adjectifs"
@@ -2127,7 +2257,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "succès"
+        "plural": "succès",
+        "example": "Le concert a été un grand succès.",
+        "example_en": "The concert was a big success."
       },
       "tags": [
         "society",
@@ -2140,7 +2272,9 @@
       "primary_form": "j'ai hâte",
       "gloss": "I can't wait",
       "extras": {
-        "literal": "I have haste"
+        "literal": "I have haste",
+        "example": "J'ai hâte de partir en vacances !",
+        "example_en": "I can't wait to go on holiday!"
       },
       "tags": [
         "expressions",
@@ -2171,7 +2305,9 @@
       "primary_form": "avoir le coup de foudre",
       "gloss": "to fall in love at first sight",
       "extras": {
-        "literal": "to have the lightning strike"
+        "literal": "to have the lightning strike",
+        "example": "J'ai eu le coup de foudre pour Lisbonne.",
+        "example_en": "I fell in love with Lisbon at first sight."
       },
       "tags": [
         "idioms"
@@ -2184,7 +2320,9 @@
       "gloss": "failure",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Cet échec lui a beaucoup appris.",
+        "example_en": "This failure taught him a lot."
       },
       "tags": [
         "society",
@@ -2267,7 +2405,9 @@
           "fs": "fière",
           "mp": "fiers",
           "fp": "fières"
-        }
+        },
+        "example": "Ses parents sont très fiers de lui.",
+        "example_en": "His parents are very proud of him."
       },
       "tags": [
         "adjectifs"
@@ -2280,7 +2420,9 @@
       "gloss": "fear",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Mon petit frère a peur du noir.",
+        "example_en": "My little brother is afraid of the dark."
       },
       "tags": [
         "feelings",
@@ -2293,7 +2435,9 @@
       "primary_form": "se prendre un râteau",
       "gloss": "to be turned down (romantically)",
       "extras": {
-        "literal": "to take a rake"
+        "literal": "to take a rake",
+        "example": "Il s'est pris un râteau à la soirée.",
+        "example_en": "He got turned down at the party."
       },
       "tags": [
         "idioms"
@@ -2311,7 +2455,11 @@
         "registre",
         "registre",
         "registre"
-      ]
+      ],
+      "extras": {
+        "example": "Je ne sais pas encore, on verra bien.",
+        "example_en": "I don't know yet, we'll see."
+      }
     },
     {
       "kind": "noun",
@@ -2320,7 +2468,9 @@
       "gloss": "joy",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Elle a sauté de joie en apprenant la nouvelle.",
+        "example_en": "She jumped for joy when she heard the news."
       },
       "tags": [
         "feelings",
@@ -2347,7 +2497,9 @@
       "primary_form": "appeler un chat un chat",
       "gloss": "to call a spade a spade",
       "extras": {
-        "literal": "to call a cat a cat"
+        "literal": "to call a cat a cat",
+        "example": "Appelons un chat un chat, ce plan est nul.",
+        "example_en": "Let's call a spade a spade, this plan is rubbish."
       },
       "tags": [
         "idioms"
@@ -2426,7 +2578,9 @@
       "gloss": "anger",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Elle était en colère contre son voisin.",
+        "example_en": "She was angry with her neighbour."
       },
       "tags": [
         "feelings",
@@ -2444,7 +2598,9 @@
           "fs": "jalouse",
           "mp": "jaloux",
           "fp": "jalouses"
-        }
+        },
+        "example": "Mon chien est jaloux quand je caresse le chat.",
+        "example_en": "My dog gets jealous when I stroke the cat."
       },
       "tags": [
         "adjectifs"
@@ -2456,7 +2612,9 @@
       "primary_form": "revenir à nos moutons",
       "gloss": "to get back to the subject",
       "extras": {
-        "literal": "to come back to our sheep"
+        "literal": "to come back to our sheep",
+        "example": "Pour revenir à nos moutons, qui paie l'addition ?",
+        "example_en": "To get back to the subject, who's paying the bill?"
       },
       "tags": [
         "idioms"
@@ -2469,7 +2627,9 @@
       "gloss": "shame",
       "extras": {
         "gender": "f",
-        "article": "l'"
+        "article": "l'",
+        "example": "J'ai eu honte de mon comportement.",
+        "example_en": "I was ashamed of my behaviour."
       },
       "tags": [
         "feelings",
@@ -2482,7 +2642,9 @@
       "primary_form": "laisse tomber",
       "gloss": "forget it, drop it",
       "extras": {
-        "literal": "let fall"
+        "literal": "let fall",
+        "example": "Laisse tomber, ce n'est pas grave.",
+        "example_en": "Forget it, it doesn't matter."
       },
       "tags": [
         "expressions",
@@ -2580,7 +2742,9 @@
       "gloss": "haste, eagerness",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Dans ma hâte, j'ai oublié mon téléphone.",
+        "example_en": "In my haste, I forgot my phone."
       },
       "tags": [
         "feelings",
@@ -2593,7 +2757,9 @@
       "primary_form": "chercher la petite bête",
       "gloss": "to nitpick",
       "extras": {
-        "literal": "to look for the little beast"
+        "literal": "to look for the little beast",
+        "example": "Mon chef cherche toujours la petite bête.",
+        "example_en": "My boss always nitpicks."
       },
       "tags": [
         "idioms"
@@ -2610,7 +2776,9 @@
           "fs": "généreuse",
           "mp": "généreux",
           "fp": "généreuses"
-        }
+        },
+        "example": "Merci, c'est très généreux de ta part.",
+        "example_en": "Thanks, that's very generous of you."
       },
       "tags": [
         "adjectifs"
@@ -2623,7 +2791,9 @@
       "gloss": "memory (something remembered)",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "J'ai de très bons souvenirs de cet été.",
+        "example_en": "I have very good memories of that summer."
       },
       "tags": [
         "feelings",
@@ -2636,7 +2806,9 @@
       "primary_form": "en avoir marre",
       "gloss": "to be fed up",
       "extras": {
-        "literal": "to have enough of it"
+        "literal": "to have enough of it",
+        "example": "J'en ai marre de cette pluie !",
+        "example_en": "I'm fed up with this rain!"
       },
       "tags": [
         "idioms"
@@ -2714,7 +2886,9 @@
       "primary_form": "tu parles !",
       "gloss": "you must be joking!, yeah right!",
       "extras": {
-        "literal": "you speak!"
+        "literal": "you speak!",
+        "example": "Tu parles, il ne viendra jamais !",
+        "example_en": "Yeah right, he'll never come!"
       },
       "tags": [
         "expressions",
@@ -2732,7 +2906,9 @@
       "gloss": "memory (the faculty)",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Ma grand-mère perd un peu la mémoire.",
+        "example_en": "My grandmother is losing her memory a little."
       },
       "tags": [
         "feelings",
@@ -2759,7 +2935,9 @@
       "primary_form": "ça me fait une belle jambe",
       "gloss": "a fat lot of good that does me",
       "extras": {
-        "literal": "that makes me a beautiful leg"
+        "literal": "that makes me a beautiful leg",
+        "example": "Ses excuses, ça me fait une belle jambe.",
+        "example_en": "His apologies, a fat lot of good they do me."
       },
       "tags": [
         "idioms"
@@ -2772,7 +2950,9 @@
       "gloss": "dream",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "J'ai fait un rêve bizarre cette nuit.",
+        "example_en": "I had a strange dream last night."
       },
       "tags": [
         "feelings",
@@ -2790,7 +2970,9 @@
           "fs": "bête",
           "mp": "bêtes",
           "fp": "bêtes"
-        }
+        },
+        "example": "Ne sois pas bête, viens avec nous !",
+        "example_en": "Don't be silly, come with us!"
       },
       "tags": [
         "adjectifs"
@@ -2873,7 +3055,11 @@
         "registre",
         "registre",
         "registre"
-      ]
+      ],
+      "extras": {
+        "example": "On a perdu le match, mais c'est la vie.",
+        "example_en": "We lost the match, but that's life."
+      }
     },
     {
       "kind": "noun",
@@ -2882,7 +3068,9 @@
       "gloss": "hope",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Il ne faut jamais perdre espoir.",
+        "example_en": "You must never lose hope."
       },
       "tags": [
         "feelings",
@@ -2895,7 +3083,9 @@
       "primary_form": "être au bout du rouleau",
       "gloss": "to be at the end of your tether",
       "extras": {
-        "literal": "to be at the end of the roll"
+        "literal": "to be at the end of the roll",
+        "example": "Après cette semaine, je suis au bout du rouleau.",
+        "example_en": "After this week, I'm at the end of my rope."
       },
       "tags": [
         "idioms"
@@ -2908,7 +3098,9 @@
       "gloss": "love",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Il lui a écrit une lettre d'amour.",
+        "example_en": "He wrote her a love letter."
       },
       "tags": [
         "feelings",
@@ -2935,7 +3127,9 @@
       "primary_form": "faire d'une pierre deux coups",
       "gloss": "to kill two birds with one stone",
       "extras": {
-        "literal": "to make two hits with one stone"
+        "literal": "to make two hits with one stone",
+        "example": "Comme ça, on fait d'une pierre deux coups.",
+        "example_en": "That way, we kill two birds with one stone."
       },
       "tags": [
         "idioms"
@@ -3017,7 +3211,9 @@
           "fs": "maligne",
           "mp": "malins",
           "fp": "malignes"
-        }
+        },
+        "example": "Le renard est un animal très malin.",
+        "example_en": "The fox is a very crafty animal."
       },
       "tags": [
         "adjectifs"
@@ -3030,7 +3226,9 @@
       "gloss": "friendship",
       "extras": {
         "gender": "f",
-        "article": "l'"
+        "article": "l'",
+        "example": "Notre amitié dure depuis vingt ans.",
+        "example_en": "Our friendship has lasted twenty years."
       },
       "tags": [
         "feelings",
@@ -3043,7 +3241,9 @@
       "primary_form": "je t'en prie",
       "gloss": "don't mention it; go ahead",
       "extras": {
-        "literal": "I pray you of it"
+        "literal": "I pray you of it",
+        "example": "Je t'en prie, sers-toi autant que tu veux.",
+        "example_en": "Go ahead, help yourself to as much as you like."
       },
       "tags": [
         "expressions",
@@ -3060,7 +3260,9 @@
       "primary_form": "il y a anguille sous roche",
       "gloss": "something fishy is going on",
       "extras": {
-        "literal": "there's an eel under the rock"
+        "literal": "there's an eel under the rock",
+        "example": "Ils sont bizarres aujourd'hui, il y a anguille sous roche.",
+        "example_en": "They're acting strange today, something fishy is going on."
       },
       "tags": [
         "idioms"
@@ -3073,7 +3275,9 @@
       "gloss": "laziness, can't-be-bothered feeling",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Quelle flemme de faire les courses ce soir !",
+        "example_en": "I really can't be bothered to do the shopping tonight!"
       },
       "tags": [
         "idioms",
@@ -3165,7 +3369,9 @@
       "primary_form": "avoir la tête dans le cul",
       "gloss": "to be groggy, half asleep (vulgar)",
       "extras": {
-        "literal": "to have your head in your backside"
+        "literal": "to have your head in your backside",
+        "example": "Désolé, j'ai la tête dans le cul ce matin.",
+        "example_en": "Sorry, I'm totally groggy this morning."
       },
       "tags": [
         "idioms"
@@ -3178,7 +3384,9 @@
       "gloss": "the disorientation of being somewhere foreign",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Elle adore voyager pour le dépaysement.",
+        "example_en": "She loves travelling for the feeling of being somewhere new."
       },
       "tags": [
         "idioms",
@@ -3196,7 +3404,9 @@
           "fs": "douce",
           "mp": "doux",
           "fp": "douces"
-        }
+        },
+        "example": "Ce pull en laine est vraiment doux.",
+        "example_en": "This wool jumper is really soft."
       },
       "tags": [
         "adjectifs"
@@ -3208,7 +3418,9 @@
       "primary_form": "il n'y a pas de quoi",
       "gloss": "don't mention it",
       "extras": {
-        "literal": "there is nothing of what"
+        "literal": "there is nothing of what",
+        "example": "Il n'y a pas de quoi, c'était un plaisir.",
+        "example_en": "Don't mention it, it was a pleasure."
       },
       "tags": [
         "expressions",
@@ -3226,7 +3438,9 @@
       "gloss": "the September return to school and work",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Les enfants sont tristes, c'est bientôt la rentrée.",
+        "example_en": "The children are sad, school starts again soon."
       },
       "tags": [
         "idioms",
@@ -3239,7 +3453,9 @@
       "primary_form": "les doigts dans le nez",
       "gloss": "easily, with no effort",
       "extras": {
-        "literal": "fingers in the nose"
+        "literal": "fingers in the nose",
+        "example": "Il a gagné la course les doigts dans le nez.",
+        "example_en": "He won the race easily."
       },
       "tags": [
         "idioms"
@@ -3317,7 +3533,9 @@
       "gloss": "the land and climate that give food its character",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Ce vin reflète parfaitement son terroir.",
+        "example_en": "This wine perfectly reflects the land it comes from."
       },
       "tags": [
         "idioms",
@@ -3349,7 +3567,9 @@
           "fs": "fraîche",
           "mp": "frais",
           "fp": "fraîches"
-        }
+        },
+        "example": "Il fait frais ce matin, prends une veste.",
+        "example_en": "It's cool this morning, take a jacket."
       },
       "tags": [
         "adjectifs"
@@ -3361,7 +3581,9 @@
       "primary_form": "occupe-toi de tes oignons",
       "gloss": "mind your own business",
       "extras": {
-        "literal": "take care of your onions"
+        "literal": "take care of your onions",
+        "example": "Occupe-toi de tes oignons, je fais ce que je veux.",
+        "example_en": "Mind your own business, I'll do what I want."
       },
       "tags": [
         "idioms"
@@ -3373,7 +3595,9 @@
       "primary_form": "à vrai dire",
       "gloss": "to tell the truth",
       "extras": {
-        "literal": "to true say"
+        "literal": "to true say",
+        "example": "À vrai dire, je n'ai pas lu le livre.",
+        "example_en": "To tell the truth, I haven't read the book."
       },
       "tags": [
         "expressions",
@@ -3391,7 +3615,9 @@
       "gloss": "library",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Je vais à la bibliothèque pour réviser.",
+        "example_en": "I'm going to the library to revise."
       },
       "tags": [
         "faux-amis",
@@ -3470,7 +3696,9 @@
       "primary_form": "ne pas être dans son assiette",
       "gloss": "to feel under the weather",
       "extras": {
-        "literal": "to not be in your plate"
+        "literal": "to not be in your plate",
+        "example": "Je ne suis pas dans mon assiette aujourd'hui.",
+        "example_en": "I'm not feeling myself today."
       },
       "tags": [
         "idioms"
@@ -3483,7 +3711,9 @@
       "gloss": "bookshop",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "J'ai acheté ce roman dans une petite librairie.",
+        "example_en": "I bought this novel in a small bookshop."
       },
       "tags": [
         "faux-amis",
@@ -3515,7 +3745,9 @@
           "fs": "fausse",
           "mp": "faux",
           "fp": "fausses"
-        }
+        },
+        "example": "C'est faux, il n'a jamais dit ça.",
+        "example_en": "That's not true, he never said that."
       },
       "tags": [
         "adjectifs"
@@ -3528,7 +3760,9 @@
       "gloss": "rental",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "La location de voitures coûte cher en été.",
+        "example_en": "Car rental is expensive in summer."
       },
       "tags": [
         "faux-amis",
@@ -3541,7 +3775,9 @@
       "primary_form": "système D",
       "gloss": "resourcefulness, making do",
       "extras": {
-        "literal": "system D (from débrouiller)"
+        "literal": "system D (from débrouiller)",
+        "example": "Avec le système D, on s'en sort toujours.",
+        "example_en": "With a bit of resourcefulness, we always manage."
       },
       "tags": [
         "expressions",
@@ -3558,7 +3794,9 @@
       "primary_form": "tirer les vers du nez",
       "gloss": "to worm information out of someone",
       "extras": {
-        "literal": "to pull the worms from the nose"
+        "literal": "to pull the worms from the nose",
+        "example": "Il a fallu lui tirer les vers du nez.",
+        "example_en": "We had to worm it out of him."
       },
       "tags": [
         "idioms"
@@ -3637,7 +3875,9 @@
       "gloss": "disappointment",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Quelle déception, le restaurant était fermé !",
+        "example_en": "What a disappointment, the restaurant was closed!"
       },
       "tags": [
         "faux-amis",
@@ -3650,7 +3890,9 @@
       "primary_form": "avoir un poil dans la main",
       "gloss": "to be very lazy",
       "extras": {
-        "literal": "to have a hair in your hand"
+        "literal": "to have a hair in your hand",
+        "example": "Mon colocataire a un poil dans la main.",
+        "example_en": "My flatmate is bone idle."
       },
       "tags": [
         "idioms"
@@ -3663,7 +3905,9 @@
       "gloss": "corner",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Il y a une boulangerie au coin de la rue.",
+        "example_en": "There's a bakery on the corner of the street."
       },
       "tags": [
         "faux-amis",
@@ -3695,7 +3939,9 @@
           "fs": "crevée",
           "mp": "crevés",
           "fp": "crevées"
-        }
+        },
+        "example": "Je suis crevé, je vais me coucher.",
+        "example_en": "I'm knackered, I'm going to bed."
       },
       "tags": [
         "adjectifs"
@@ -3707,7 +3953,9 @@
       "primary_form": "l'esprit de l'escalier",
       "gloss": "thinking of the perfect reply too late",
       "extras": {
-        "literal": "the spirit of the staircase"
+        "literal": "the spirit of the staircase",
+        "example": "J'ai toujours l'esprit de l'escalier dans les disputes.",
+        "example_en": "In arguments, I always think of the perfect reply too late."
       },
       "tags": [
         "expressions",
@@ -3789,7 +4037,9 @@
       "primary_form": "coûter la peau des fesses",
       "gloss": "to cost a fortune (informal)",
       "extras": {
-        "literal": "to cost the skin of the buttocks"
+        "literal": "to cost the skin of the buttocks",
+        "example": "Ce mariage va coûter la peau des fesses.",
+        "example_en": "This wedding is going to cost a fortune."
       },
       "tags": [
         "idioms"
@@ -3802,7 +4052,9 @@
       "gloss": "day (its length)",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "J'ai passé toute la journée à travailler.",
+        "example_en": "I spent the whole day working."
       },
       "tags": [
         "faux-amis",

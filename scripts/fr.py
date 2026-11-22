@@ -294,7 +294,7 @@ A story often runs *d'abord*, then *ensuite* or *puis*, then *enfin*: *D'abord, 
 
 CORE = patch_core(
     "fr",
-    7,
+    8,
     {
         "manger": (conjugate("manger", pp="mangé"), {"auxiliary": "avoir", "participle": "mangé"}),
         "boire": (

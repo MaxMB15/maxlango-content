@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "fr-everyday-v1",
-  "version": 4,
+  "version": 5,
   "language": "fr",
   "name": "Français · Au quotidien (A2)",
   "author": "Max Boksem",
@@ -273,7 +273,9 @@
       "gloss": "piece of clothing",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Elle range ses vêtements dans l'armoire.",
+        "example_en": "She puts her clothes away in the wardrobe."
       },
       "tags": [
         "clothing",
@@ -378,7 +380,9 @@
       "gloss": "shirt",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Ta chemise bleue est très jolie.",
+        "example_en": "Your blue shirt is very nice."
       },
       "tags": [
         "clothing",
@@ -391,7 +395,9 @@
       "primary_form": "il fait beau",
       "gloss": "the weather is nice",
       "extras": {
-        "literal": "it makes beautiful"
+        "literal": "it makes beautiful",
+        "example": "Il fait beau aujourd'hui, sortons !",
+        "example_en": "The weather is nice today, let's go out!"
       },
       "tags": [
         "expressions"
@@ -408,7 +414,9 @@
           "fs": "heureuse",
           "mp": "heureux",
           "fp": "heureuses"
-        }
+        },
+        "example": "Je suis heureux de te voir !",
+        "example_en": "I'm happy to see you!"
       },
       "tags": [
         "adjectifs",
@@ -422,7 +430,9 @@
       "gloss": "trousers",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Ce pantalon est un peu trop long.",
+        "example_en": "These trousers are a bit too long."
       },
       "tags": [
         "clothing",
@@ -436,7 +446,9 @@
       "gloss": "skirt",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Elle met sa jupe rouge pour la fête.",
+        "example_en": "She's putting on her red skirt for the party."
       },
       "tags": [
         "clothing",
@@ -555,7 +567,9 @@
       "gloss": "dress",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Elle a acheté une robe pour le mariage.",
+        "example_en": "She bought a dress for the wedding."
       },
       "tags": [
         "clothing",
@@ -569,7 +583,11 @@
       "gloss": "it's cold (weather)",
       "tags": [
         "expressions"
-      ]
+      ],
+      "extras": {
+        "example": "Il fait froid, prends ton manteau.",
+        "example_en": "It's cold, take your coat."
+      }
     },
     {
       "kind": "adjective",
@@ -582,7 +600,9 @@
           "fs": "triste",
           "mp": "tristes",
           "fp": "tristes"
-        }
+        },
+        "example": "Ce film me rend triste.",
+        "example_en": "This film makes me sad."
       },
       "tags": [
         "adjectifs",
@@ -597,7 +617,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "manteaux"
+        "plural": "manteaux",
+        "example": "Où est mon manteau noir ?",
+        "example_en": "Where is my black coat?"
       },
       "tags": [
         "clothing",
@@ -703,7 +725,9 @@
       "gloss": "jacket",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Mets ta veste, il y a du vent.",
+        "example_en": "Put your jacket on, it's windy."
       },
       "tags": [
         "clothing",
@@ -717,7 +741,9 @@
       "gloss": "jumper, sweater",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Ma grand-mère m'a tricoté un pull.",
+        "example_en": "My grandmother knitted me a sweater."
       },
       "tags": [
         "clothing",
@@ -731,7 +757,9 @@
       "gloss": "shoe",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Ces chaussures sont très confortables.",
+        "example_en": "These shoes are very comfortable."
       },
       "tags": [
         "clothing",
@@ -836,7 +864,11 @@
       "gloss": "it's raining",
       "tags": [
         "expressions"
-      ]
+      ],
+      "extras": {
+        "example": "Il pleut depuis ce matin.",
+        "example_en": "It has been raining since this morning."
+      }
     },
     {
       "kind": "adjective",
@@ -849,7 +881,9 @@
           "fs": "fâchée",
           "mp": "fâchés",
           "fp": "fâchées"
-        }
+        },
+        "example": "Mon père est fâché contre moi.",
+        "example_en": "My father is angry with me."
       },
       "tags": [
         "adjectifs",
@@ -863,7 +897,9 @@
       "gloss": "sock",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Je ne trouve pas mon autre chaussette.",
+        "example_en": "I can't find my other sock."
       },
       "tags": [
         "clothing",
@@ -878,7 +914,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "chapeaux"
+        "plural": "chapeaux",
+        "example": "J'aime beaucoup ton chapeau de paille.",
+        "example_en": "I really like your straw hat."
       },
       "tags": [
         "clothing",
@@ -984,7 +1022,9 @@
       "gloss": "bag",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "J'ai oublié mon sac dans le bus.",
+        "example_en": "I left my bag on the bus."
       },
       "tags": [
         "clothing",
@@ -998,7 +1038,11 @@
       "gloss": "I would like...",
       "tags": [
         "expressions"
-      ]
+      ],
+      "extras": {
+        "example": "Je voudrais un café, s'il vous plaît.",
+        "example_en": "I would like a coffee, please."
+      }
     },
     {
       "kind": "noun",
@@ -1008,7 +1052,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "temps"
+        "plural": "temps",
+        "example": "Quel temps fait-il chez toi ?",
+        "example_en": "What's the weather like where you are?"
       },
       "tags": [
         "weather",
@@ -1026,7 +1072,9 @@
           "fs": "calme",
           "mp": "calmes",
           "fp": "calmes"
-        }
+        },
+        "example": "Le quartier est très calme le soir.",
+        "example_en": "The neighbourhood is very quiet in the evening."
       },
       "tags": [
         "adjectifs",
@@ -1054,7 +1102,9 @@
       "gloss": "rain",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "J'adore marcher sous la pluie.",
+        "example_en": "I love walking in the rain."
       },
       "tags": [
         "weather",
@@ -1160,7 +1210,9 @@
       "gloss": "snow",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Les enfants jouent dans la neige.",
+        "example_en": "The children are playing in the snow."
       },
       "tags": [
         "weather",
@@ -1174,7 +1226,9 @@
       "gloss": "wind",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le vent souffle très fort.",
+        "example_en": "The wind is blowing very hard."
       },
       "tags": [
         "weather",
@@ -1187,7 +1241,9 @@
       "primary_form": "je suis en train de...",
       "gloss": "I'm in the middle of (doing)...",
       "extras": {
-        "literal": "I am in the process of"
+        "literal": "I am in the process of",
+        "example": "Je suis en train de préparer le dîner.",
+        "example_en": "I'm in the middle of making dinner."
       },
       "tags": [
         "expressions"
@@ -1295,7 +1351,9 @@
           "fs": "sympa",
           "mp": "sympas",
           "fp": "sympas"
-        }
+        },
+        "example": "Ton frère est vraiment sympa.",
+        "example_en": "Your brother is really nice."
       },
       "tags": [
         "adjectifs",
@@ -1309,7 +1367,9 @@
       "gloss": "cloud",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Il n'y a pas un nuage dans le ciel.",
+        "example_en": "There isn't a cloud in the sky."
       },
       "tags": [
         "weather",
@@ -1324,7 +1384,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "cieux"
+        "plural": "cieux",
+        "example": "Le ciel est tout gris ce matin.",
+        "example_en": "The sky is all grey this morning."
       },
       "tags": [
         "weather",
@@ -1338,7 +1400,9 @@
       "gloss": "storm",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Il y a eu un gros orage cette nuit.",
+        "example_en": "There was a big storm last night."
       },
       "tags": [
         "weather",
@@ -1443,7 +1507,11 @@
       "gloss": "it depends",
       "tags": [
         "expressions"
-      ]
+      ],
+      "extras": {
+        "example": "Ça dépend du prix.",
+        "example_en": "It depends on the price."
+      }
     },
     {
       "kind": "noun",
@@ -1452,7 +1520,9 @@
       "gloss": "summer",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "En été, on mange souvent dehors.",
+        "example_en": "In summer, we often eat outside."
       },
       "tags": [
         "weather",
@@ -1470,7 +1540,9 @@
           "fs": "drôle",
           "mp": "drôles",
           "fp": "drôles"
-        }
+        },
+        "example": "Ton histoire est très drôle !",
+        "example_en": "Your story is very funny!"
       },
       "tags": [
         "adjectifs",
@@ -1484,7 +1556,9 @@
       "gloss": "winter",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "L'hiver est long et froid ici.",
+        "example_en": "Winter is long and cold here."
       },
       "tags": [
         "weather",
@@ -1604,7 +1678,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "printemps"
+        "plural": "printemps",
+        "example": "Les fleurs poussent au printemps.",
+        "example_en": "Flowers grow in spring."
       },
       "tags": [
         "weather",
@@ -1618,7 +1694,9 @@
       "gloss": "autumn",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Les feuilles tombent en automne.",
+        "example_en": "The leaves fall in autumn."
       },
       "tags": [
         "weather",
@@ -1632,7 +1710,11 @@
       "gloss": "no problem",
       "tags": [
         "expressions"
-      ]
+      ],
+      "extras": {
+        "example": "Pas de problème, je t'aide demain.",
+        "example_en": "No problem, I'll help you tomorrow."
+      }
     },
     {
       "kind": "noun",
@@ -1641,7 +1723,9 @@
       "gloss": "season",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "L'automne est ma saison préférée.",
+        "example_en": "Autumn is my favourite season."
       },
       "tags": [
         "weather",
@@ -1750,7 +1834,9 @@
           "fs": "sérieuse",
           "mp": "sérieux",
           "fp": "sérieuses"
-        }
+        },
+        "example": "Il est très sérieux au travail.",
+        "example_en": "He's very serious at work."
       },
       "tags": [
         "adjectifs",
@@ -1764,7 +1850,9 @@
       "gloss": "trip, journey",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le voyage dure trois heures en train.",
+        "example_en": "The journey takes three hours by train."
       },
       "tags": [
         "travel",
@@ -1778,7 +1866,9 @@
       "gloss": "ticket; banknote",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "J'ai acheté deux billets de train.",
+        "example_en": "I bought two train tickets."
       },
       "tags": [
         "travel",
@@ -1882,7 +1972,9 @@
       "primary_form": "bien sûr",
       "gloss": "of course",
       "extras": {
-        "literal": "well sure"
+        "literal": "well sure",
+        "example": "Bien sûr, tu peux venir avec nous.",
+        "example_en": "Of course, you can come with us."
       },
       "tags": [
         "expressions"
@@ -1895,7 +1987,9 @@
       "gloss": "suitcase",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Je n'ai pas encore fait ma valise.",
+        "example_en": "I haven't packed my suitcase yet."
       },
       "tags": [
         "travel",
@@ -1913,7 +2007,9 @@
           "fs": "timide",
           "mp": "timides",
           "fp": "timides"
-        }
+        },
+        "example": "Ne sois pas timide, viens danser !",
+        "example_en": "Don't be shy, come and dance!"
       },
       "tags": [
         "adjectifs",
@@ -1927,7 +2023,9 @@
       "gloss": "passport",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "N'oublie pas ton passeport !",
+        "example_en": "Don't forget your passport!"
       },
       "tags": [
         "travel",
@@ -2032,7 +2130,9 @@
       "gloss": "hotel",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Notre hôtel est près de la gare.",
+        "example_en": "Our hotel is near the station."
       },
       "tags": [
         "travel",
@@ -2046,7 +2146,9 @@
       "gloss": "beach",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "On va à la plage cet après-midi.",
+        "example_en": "We're going to the beach this afternoon."
       },
       "tags": [
         "travel",
@@ -2059,7 +2161,9 @@
       "primary_form": "peut-être",
       "gloss": "maybe",
       "extras": {
-        "literal": "can be"
+        "literal": "can be",
+        "example": "Il est peut-être à la maison.",
+        "example_en": "Maybe he's at home."
       },
       "tags": [
         "expressions"
@@ -2086,7 +2190,9 @@
       "gloss": "sea",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "La mer est froide en juin.",
+        "example_en": "The sea is cold in June."
       },
       "tags": [
         "travel",
@@ -2104,7 +2210,9 @@
           "fs": "paresseuse",
           "mp": "paresseux",
           "fp": "paresseuses"
-        }
+        },
+        "example": "Mon chat est très paresseux.",
+        "example_en": "My cat is very lazy."
       },
       "tags": [
         "adjectifs",
@@ -2209,7 +2317,9 @@
       "gloss": "mountain",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Nous faisons du ski à la montagne.",
+        "example_en": "We go skiing in the mountains."
       },
       "tags": [
         "travel",
@@ -2224,7 +2334,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "pays"
+        "plural": "pays",
+        "example": "Tu as visité beaucoup de pays ?",
+        "example_en": "Have you visited many countries?"
       },
       "tags": [
         "travel",
@@ -2237,7 +2349,9 @@
       "primary_form": "j'ai mal à la tête",
       "gloss": "I have a headache",
       "extras": {
-        "literal": "I have hurt at the head"
+        "literal": "I have hurt at the head",
+        "example": "J'ai mal à la tête, je vais me coucher.",
+        "example_en": "I have a headache, I'm going to bed."
       },
       "tags": [
         "expressions"
@@ -2341,7 +2455,9 @@
       "gloss": "aeroplane",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "L'avion part à six heures.",
+        "example_en": "The plane leaves at six."
       },
       "tags": [
         "transport",
@@ -2359,7 +2475,9 @@
           "fs": "sportive",
           "mp": "sportifs",
           "fp": "sportives"
-        }
+        },
+        "example": "Elle est sportive, elle court tous les jours.",
+        "example_en": "She's sporty, she runs every day."
       },
       "tags": [
         "adjectifs",
@@ -2373,7 +2491,9 @@
       "gloss": "train",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le train a dix minutes de retard.",
+        "example_en": "The train is ten minutes late."
       },
       "tags": [
         "transport",
@@ -2388,7 +2508,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "bus"
+        "plural": "bus",
+        "example": "Je prends le bus pour aller au travail.",
+        "example_en": "I take the bus to work."
       },
       "tags": [
         "transport",
@@ -2493,7 +2615,9 @@
       "gloss": "bicycle",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Il va à l'école à vélo.",
+        "example_en": "He goes to school by bike."
       },
       "tags": [
         "transport",
@@ -2506,7 +2630,9 @@
       "primary_form": "ça ne fait rien",
       "gloss": "never mind, it doesn't matter",
       "extras": {
-        "literal": "that makes nothing"
+        "literal": "that makes nothing",
+        "example": "Ça ne fait rien, on peut attendre.",
+        "example_en": "It doesn't matter, we can wait."
       },
       "tags": [
         "expressions"
@@ -2519,7 +2645,9 @@
       "gloss": "underground, metro",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "On prend le métro ou on marche ?",
+        "example_en": "Shall we take the metro or walk?"
       },
       "tags": [
         "transport",
@@ -2537,7 +2665,9 @@
           "fs": "malade",
           "mp": "malades",
           "fp": "malades"
-        }
+        },
+        "example": "Je suis malade, je reste au lit.",
+        "example_en": "I'm ill, I'm staying in bed."
       },
       "tags": [
         "adjectifs"
@@ -2656,7 +2786,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "bateaux"
+        "plural": "bateaux",
+        "example": "Nous faisons un tour en bateau.",
+        "example_en": "We're taking a boat trip."
       },
       "tags": [
         "transport",
@@ -2670,7 +2802,9 @@
       "gloss": "airport",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Je t'attends à l'aéroport.",
+        "example_en": "I'll wait for you at the airport."
       },
       "tags": [
         "transport",
@@ -2684,7 +2818,11 @@
       "gloss": "I don't care (informal)",
       "tags": [
         "expressions"
-      ]
+      ],
+      "extras": {
+        "example": "Je m'en fiche, je sors quand même.",
+        "example_en": "I don't care, I'm going out anyway."
+      }
     },
     {
       "kind": "noun",
@@ -2693,7 +2831,9 @@
       "gloss": "map; card; menu",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Le serveur nous apporte la carte.",
+        "example_en": "The waiter brings us the menu."
       },
       "tags": [
         "travel",
@@ -2773,7 +2913,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "bureaux"
+        "plural": "bureaux",
+        "example": "Mon bureau est au troisième étage.",
+        "example_en": "My office is on the third floor."
       },
       "tags": [
         "work",
@@ -2791,7 +2933,9 @@
           "fs": "occupée",
           "mp": "occupés",
           "fp": "occupées"
-        }
+        },
+        "example": "Désolé, je suis très occupé aujourd'hui.",
+        "example_en": "Sorry, I'm very busy today."
       },
       "tags": [
         "adjectifs"
@@ -2804,7 +2948,9 @@
       "gloss": "company",
       "extras": {
         "gender": "f",
-        "article": "l'"
+        "article": "l'",
+        "example": "Elle travaille dans une grande entreprise.",
+        "example_en": "She works for a big company."
       },
       "tags": [
         "work",
@@ -2883,7 +3029,9 @@
       "gloss": "colleague",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Je déjeune avec mes collègues.",
+        "example_en": "I have lunch with my colleagues."
       },
       "tags": [
         "work",
@@ -2896,7 +3044,9 @@
       "primary_form": "c'est pas grave",
       "gloss": "it's no big deal",
       "extras": {
-        "literal": "it's not serious"
+        "literal": "it's not serious",
+        "example": "C'est pas grave, ça arrive à tout le monde.",
+        "example_en": "It's no big deal, it happens to everyone."
       },
       "tags": [
         "expressions"
@@ -2909,7 +3059,9 @@
       "gloss": "boss",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Mon patron est en vacances cette semaine.",
+        "example_en": "My boss is on holiday this week."
       },
       "tags": [
         "work",
@@ -2927,7 +3079,9 @@
           "fs": "libre",
           "mp": "libres",
           "fp": "libres"
-        }
+        },
+        "example": "Tu es libre samedi soir ?",
+        "example_en": "Are you free on Saturday evening?"
       },
       "tags": [
         "adjectifs"
@@ -2940,7 +3094,9 @@
       "gloss": "meeting",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "On a une réunion à dix heures.",
+        "example_en": "We have a meeting at ten."
       },
       "tags": [
         "work",
@@ -3019,7 +3175,9 @@
       "gloss": "salary",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Son salaire n'est pas très élevé.",
+        "example_en": "His salary isn't very high."
       },
       "tags": [
         "work",
@@ -3033,7 +3191,11 @@
       "gloss": "see you later (today)",
       "tags": [
         "expressions"
-      ]
+      ],
+      "extras": {
+        "example": "Je pars au marché, à tout à l'heure !",
+        "example_en": "I'm off to the market, see you later!"
+      }
     },
     {
       "kind": "connective",
@@ -3056,7 +3218,9 @@
       "gloss": "trade, profession",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Quel métier veux-tu faire plus tard ?",
+        "example_en": "What job do you want to do later on?"
       },
       "tags": [
         "work",
@@ -3135,7 +3299,9 @@
       "gloss": "student",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Mon cousin est étudiant en médecine.",
+        "example_en": "My cousin is a medical student."
       },
       "tags": [
         "work",
@@ -3153,7 +3319,9 @@
           "fs": "prête",
           "mp": "prêts",
           "fp": "prêtes"
-        }
+        },
+        "example": "Le dîner est prêt, venez manger !",
+        "example_en": "Dinner is ready, come and eat!"
       },
       "tags": [
         "adjectifs"
@@ -3166,7 +3334,9 @@
       "gloss": "teacher",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Notre professeur explique très bien.",
+        "example_en": "Our teacher explains things very well."
       },
       "tags": [
         "work",
@@ -3179,7 +3349,9 @@
       "primary_form": "ça te dit ?",
       "gloss": "do you fancy it?",
       "extras": {
-        "literal": "does that say to you?"
+        "literal": "does that say to you?",
+        "example": "Un petit café, ça te dit ?",
+        "example_en": "A quick coffee, do you fancy it?"
       },
       "tags": [
         "expressions"
@@ -3193,7 +3365,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "cours"
+        "plural": "cours",
+        "example": "Le cours de français commence à neuf heures.",
+        "example_en": "The French class starts at nine."
       },
       "tags": [
         "work",
@@ -3272,7 +3446,9 @@
       "gloss": "exam",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Elle a réussi son examen !",
+        "example_en": "She passed her exam!"
       },
       "tags": [
         "work",
@@ -3290,7 +3466,9 @@
           "fs": "pleine",
           "mp": "pleins",
           "fp": "pleines"
-        }
+        },
+        "example": "Le bus est plein, on attend le prochain.",
+        "example_en": "The bus is full, we'll wait for the next one."
       },
       "tags": [
         "adjectifs"
@@ -3303,7 +3481,9 @@
       "gloss": "computer",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Mon ordinateur ne marche plus.",
+        "example_en": "My computer doesn't work anymore."
       },
       "tags": [
         "work",
@@ -3382,7 +3562,9 @@
       "gloss": "health",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Le sport est bon pour la santé.",
+        "example_en": "Sport is good for your health."
       },
       "tags": [
         "health",
@@ -3396,7 +3578,11 @@
       "gloss": "gladly, I'd love to",
       "tags": [
         "expressions"
-      ]
+      ],
+      "extras": {
+        "example": "J'accepte volontiers ton invitation.",
+        "example_en": "I gladly accept your invitation."
+      }
     },
     {
       "kind": "noun",
@@ -3405,7 +3591,9 @@
       "gloss": "doctor",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Tu devrais aller chez le médecin.",
+        "example_en": "You should go to the doctor."
       },
       "tags": [
         "health",
@@ -3419,7 +3607,9 @@
       "gloss": "chemist's, pharmacy",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Où est la pharmacie la plus proche ?",
+        "example_en": "Where is the nearest pharmacy?"
       },
       "tags": [
         "health",
@@ -3517,7 +3707,9 @@
           "fs": "vide",
           "mp": "vides",
           "fp": "vides"
-        }
+        },
+        "example": "Ma tasse est déjà vide !",
+        "example_en": "My cup is already empty!"
       },
       "tags": [
         "adjectifs"
@@ -3530,7 +3722,9 @@
       "gloss": "medicine (a drug)",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Prends ce médicament après le repas.",
+        "example_en": "Take this medicine after the meal."
       },
       "tags": [
         "health",
@@ -3543,7 +3737,9 @@
       "primary_form": "tant pis",
       "gloss": "too bad, oh well",
       "extras": {
-        "literal": "so much the worse"
+        "literal": "so much the worse",
+        "example": "Le magasin est fermé, tant pis.",
+        "example_en": "The shop is closed, oh well."
       },
       "tags": [
         "expressions"
@@ -3556,7 +3752,9 @@
       "gloss": "cold (illness)",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "J'ai attrapé un rhume.",
+        "example_en": "I've caught a cold."
       },
       "tags": [
         "health",
@@ -3636,7 +3834,9 @@
       "gloss": "fever",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Mon fils a de la fièvre depuis hier.",
+        "example_en": "My son has had a fever since yesterday."
       },
       "tags": [
         "health",
@@ -3650,7 +3850,9 @@
       "gloss": "pain",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Elle a une douleur au genou.",
+        "example_en": "She has a pain in her knee."
       },
       "tags": [
         "health",
@@ -3669,7 +3871,9 @@
           "mp": "longs",
           "fp": "longues"
         },
-        "position": "before the noun"
+        "position": "before the noun",
+        "example": "Elle a les cheveux longs.",
+        "example_en": "She has long hair."
       },
       "tags": [
         "adjectifs"
@@ -3683,7 +3887,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "rendez-vous"
+        "plural": "rendez-vous",
+        "example": "J'ai rendez-vous chez le dentiste demain.",
+        "example_en": "I have a dentist appointment tomorrow."
       },
       "tags": [
         "health",
@@ -3762,7 +3968,11 @@
       "gloss": "so much the better, good",
       "tags": [
         "expressions"
-      ]
+      ],
+      "extras": {
+        "example": "Il ne pleut plus, tant mieux !",
+        "example_en": "It's stopped raining, so much the better!"
+      }
     },
     {
       "kind": "noun",
@@ -3771,7 +3981,9 @@
       "gloss": "film",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "On regarde un film ce soir ?",
+        "example_en": "Shall we watch a film tonight?"
       },
       "tags": [
         "leisure",
@@ -3785,7 +3997,9 @@
       "gloss": "music",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "J'écoute de la musique dans le train.",
+        "example_en": "I listen to music on the train."
       },
       "tags": [
         "leisure",
@@ -3869,7 +4083,9 @@
           "fs": "courte",
           "mp": "courts",
           "fp": "courtes"
-        }
+        },
+        "example": "La réunion a été très courte.",
+        "example_en": "The meeting was very short."
       },
       "tags": [
         "adjectifs"
@@ -3882,7 +4098,9 @@
       "gloss": "song",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Tu connais cette chanson ?",
+        "example_en": "Do you know this song?"
       },
       "tags": [
         "leisure",
@@ -3910,7 +4128,11 @@
       "gloss": "what's new?",
       "tags": [
         "expressions"
-      ]
+      ],
+      "extras": {
+        "example": "Alors, quoi de neuf au travail ?",
+        "example_en": "So, what's new at work?"
+      }
     },
     {
       "kind": "noun",
@@ -3919,7 +4141,9 @@
       "gloss": "sport",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Tu fais du sport le week-end ?",
+        "example_en": "Do you do any sport at the weekend?"
       },
       "tags": [
         "leisure",
@@ -3933,7 +4157,9 @@
       "gloss": "match, game",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Notre équipe a gagné le match !",
+        "example_en": "Our team won the match!"
       },
       "tags": [
         "leisure",
@@ -4013,7 +4239,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "jeux"
+        "plural": "jeux",
+        "example": "On joue à un jeu de société ?",
+        "example_en": "Shall we play a board game?"
       },
       "tags": [
         "leisure",
@@ -4031,7 +4259,9 @@
           "fs": "lourde",
           "mp": "lourds",
           "fp": "lourdes"
-        }
+        },
+        "example": "Ta valise est trop lourde !",
+        "example_en": "Your suitcase is too heavy!"
       },
       "tags": [
         "adjectifs"
@@ -4044,7 +4274,9 @@
       "gloss": "party; celebration",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "La fête commence à vingt heures.",
+        "example_en": "The party starts at eight in the evening."
       },
       "tags": [
         "leisure",
@@ -4057,7 +4289,9 @@
       "primary_form": "on y va ?",
       "gloss": "shall we go?",
       "extras": {
-        "literal": "we there go?"
+        "literal": "we there go?",
+        "example": "Tout le monde est prêt, on y va ?",
+        "example_en": "Everyone's ready, shall we go?"
       },
       "tags": [
         "expressions"
@@ -4135,7 +4369,9 @@
       "gloss": "birthday",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Qu'est-ce que tu veux pour ton anniversaire ?",
+        "example_en": "What do you want for your birthday?"
       },
       "tags": [
         "leisure",
@@ -4150,7 +4386,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "cadeaux"
+        "plural": "cadeaux",
+        "example": "Merci pour le cadeau, il est super !",
+        "example_en": "Thanks for the present, it's great!"
       },
       "tags": [
         "leisure",
@@ -4164,7 +4402,9 @@
       "gloss": "photo",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Tu peux prendre une photo de nous ?",
+        "example_en": "Can you take a photo of us?"
       },
       "tags": [
         "leisure",
@@ -4247,7 +4487,9 @@
           "fs": "légère",
           "mp": "légers",
           "fp": "légères"
-        }
+        },
+        "example": "Prends un manteau léger, il fait doux.",
+        "example_en": "Take a light coat, it's mild."
       },
       "tags": [
         "adjectifs"
@@ -4259,7 +4501,9 @@
       "primary_form": "je n'en peux plus",
       "gloss": "I can't take any more",
       "extras": {
-        "literal": "I can no more of it"
+        "literal": "I can no more of it",
+        "example": "Je n'en peux plus, je suis trop fatigué.",
+        "example_en": "I can't take any more, I'm too tired."
       },
       "tags": [
         "expressions"
@@ -4273,7 +4517,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "prix"
+        "plural": "prix",
+        "example": "Les prix ont beaucoup augmenté.",
+        "example_en": "Prices have gone up a lot."
       },
       "tags": [
         "shopping",
@@ -4287,7 +4533,9 @@
       "gloss": "euro",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Ce livre coûte dix euros.",
+        "example_en": "This book costs ten euros."
       },
       "tags": [
         "shopping",
@@ -4381,7 +4629,9 @@
       "gloss": "change (coins); currency",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Je n'ai pas de monnaie pour le parking.",
+        "example_en": "I don't have any change for the parking."
       },
       "tags": [
         "shopping",
@@ -4399,7 +4649,9 @@
           "fs": "propre",
           "mp": "propres",
           "fp": "propres"
-        }
+        },
+        "example": "Ta chambre est enfin propre !",
+        "example_en": "Your room is finally clean!"
       },
       "tags": [
         "adjectifs"
@@ -4413,7 +4665,9 @@
       "extras": {
         "gender": "f",
         "article": "la",
-        "plural": "cartes bancaires"
+        "plural": "cartes bancaires",
+        "example": "Vous acceptez la carte bancaire ?",
+        "example_en": "Do you take bank cards?"
       },
       "tags": [
         "shopping",
@@ -4426,7 +4680,9 @@
       "primary_form": "il vaut mieux...",
       "gloss": "it's better to...",
       "extras": {
-        "literal": "it is worth better"
+        "literal": "it is worth better",
+        "example": "Il vaut mieux réserver une table.",
+        "example_en": "It's better to book a table."
       },
       "tags": [
         "expressions"
@@ -4505,7 +4761,9 @@
       "gloss": "till, checkout",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Il faut payer à la caisse.",
+        "example_en": "You have to pay at the till."
       },
       "tags": [
         "shopping",
@@ -4519,7 +4777,9 @@
       "gloss": "supermarket",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le supermarché est ouvert le dimanche.",
+        "example_en": "The supermarket is open on Sundays."
       },
       "tags": [
         "shopping",
@@ -4533,7 +4793,9 @@
       "gloss": "small shop",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Elle a une petite boutique de vêtements.",
+        "example_en": "She has a small clothes shop."
       },
       "tags": [
         "shopping",
@@ -4551,7 +4813,9 @@
           "fs": "sale",
           "mp": "sales",
           "fp": "sales"
-        }
+        },
+        "example": "Tes mains sont sales, va les laver !",
+        "example_en": "Your hands are dirty, go and wash them!"
       },
       "tags": [
         "adjectifs"
@@ -4628,7 +4892,9 @@
       "primary_form": "avoir besoin de",
       "gloss": "to need",
       "extras": {
-        "literal": "to have need of"
+        "literal": "to have need of",
+        "example": "J'ai besoin de ton aide, s'il te plaît.",
+        "example_en": "I need your help, please."
       },
       "tags": [
         "expressions"
@@ -4641,7 +4907,9 @@
       "gloss": "fork",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Il manque une fourchette sur la table.",
+        "example_en": "There's a fork missing from the table."
       },
       "tags": [
         "home",
@@ -4656,7 +4924,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "couteaux"
+        "plural": "couteaux",
+        "example": "Ce couteau ne coupe pas bien.",
+        "example_en": "This knife doesn't cut well."
       },
       "tags": [
         "home",
@@ -4735,7 +5005,9 @@
       "gloss": "spoon",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Tu peux me passer une cuillère ?",
+        "example_en": "Can you pass me a spoon?"
       },
       "tags": [
         "home",
@@ -4767,7 +5039,9 @@
           "fs": "rapide",
           "mp": "rapides",
           "fp": "rapides"
-        }
+        },
+        "example": "Le train est plus rapide que le bus.",
+        "example_en": "The train is faster than the bus."
       },
       "tags": [
         "adjectifs"
@@ -4780,7 +5054,9 @@
       "gloss": "plate",
       "extras": {
         "gender": "f",
-        "article": "l'"
+        "article": "l'",
+        "example": "Ton assiette est encore pleine !",
+        "example_en": "Your plate is still full!"
       },
       "tags": [
         "home",
@@ -4793,7 +5069,9 @@
       "primary_form": "avoir envie de",
       "gloss": "to feel like, to want",
       "extras": {
-        "literal": "to have desire of"
+        "literal": "to have desire of",
+        "example": "J'ai envie de rester à la maison ce soir.",
+        "example_en": "I feel like staying home tonight."
       },
       "tags": [
         "expressions"
@@ -4806,7 +5084,9 @@
       "gloss": "glass",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Tu veux un verre de vin ?",
+        "example_en": "Would you like a glass of wine?"
       },
       "tags": [
         "home",
@@ -4885,7 +5165,9 @@
       "gloss": "bottle",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Il reste une bouteille d'eau au frigo.",
+        "example_en": "There's one bottle of water left in the fridge."
       },
       "tags": [
         "home",
@@ -4899,7 +5181,9 @@
       "gloss": "light",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Éteins la lumière, s'il te plaît.",
+        "example_en": "Turn off the light, please."
       },
       "tags": [
         "home",
@@ -4917,7 +5201,9 @@
           "fs": "lente",
           "mp": "lents",
           "fp": "lentes"
-        }
+        },
+        "example": "Le service est lent dans ce restaurant.",
+        "example_en": "The service is slow in this restaurant."
       },
       "tags": [
         "adjectifs"
@@ -4929,7 +5215,9 @@
       "primary_form": "avoir l'air",
       "gloss": "to seem, to look",
       "extras": {
-        "literal": "to have the air"
+        "literal": "to have the air",
+        "example": "Je ne veux pas avoir l'air ridicule.",
+        "example_en": "I don't want to look ridiculous."
       },
       "tags": [
         "expressions"
@@ -5007,7 +5295,9 @@
       "gloss": "flower",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Il m'a offert des fleurs.",
+        "example_en": "He gave me flowers."
       },
       "tags": [
         "nature",
@@ -5021,7 +5311,9 @@
       "gloss": "forest",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "On a fait une balade dans la forêt.",
+        "example_en": "We went for a walk in the forest."
       },
       "tags": [
         "nature",
@@ -5035,7 +5327,9 @@
       "gloss": "river",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "On pique-nique au bord de la rivière.",
+        "example_en": "We're having a picnic by the river."
       },
       "tags": [
         "nature",
@@ -5114,7 +5408,9 @@
       "gloss": "lake",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le lac est gelé en hiver.",
+        "example_en": "The lake is frozen in winter."
       },
       "tags": [
         "nature",
@@ -5133,7 +5429,9 @@
           "mp": "premiers",
           "fp": "premières"
         },
-        "position": "before the noun"
+        "position": "before the noun",
+        "example": "C'est la première fois que je viens ici.",
+        "example_en": "It's the first time I've come here."
       },
       "tags": [
         "adjectifs"
@@ -5145,7 +5443,9 @@
       "primary_form": "faire la queue",
       "gloss": "to queue",
       "extras": {
-        "literal": "to make the tail"
+        "literal": "to make the tail",
+        "example": "Je déteste faire la queue à la poste.",
+        "example_en": "I hate queuing at the post office."
       },
       "tags": [
         "expressions"
@@ -5159,7 +5459,9 @@
       "extras": {
         "gender": "m",
         "article": "l'",
-        "plural": "oiseaux"
+        "plural": "oiseaux",
+        "example": "Les oiseaux chantent le matin.",
+        "example_en": "The birds sing in the morning."
       },
       "tags": [
         "animals",
@@ -5253,7 +5555,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "chevaux"
+        "plural": "chevaux",
+        "example": "Ma fille fait du cheval le samedi.",
+        "example_en": "My daughter goes horse riding on Saturdays."
       },
       "tags": [
         "animals",
@@ -5267,7 +5571,9 @@
       "gloss": "cow",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Les vaches sont dans le champ.",
+        "example_en": "The cows are in the field."
       },
       "tags": [
         "animals",
@@ -5285,7 +5591,9 @@
           "fs": "dernière",
           "mp": "derniers",
           "fp": "dernières"
-        }
+        },
+        "example": "C'est le dernier jour des vacances.",
+        "example_en": "It's the last day of the holidays."
       },
       "tags": [
         "adjectifs"
@@ -5297,7 +5605,9 @@
       "primary_form": "faire les courses",
       "gloss": "to do the shopping",
       "extras": {
-        "literal": "to make the runs"
+        "literal": "to make the runs",
+        "example": "Qui va faire les courses demain ?",
+        "example_en": "Who's going to do the shopping tomorrow?"
       },
       "tags": [
         "expressions"
@@ -5310,7 +5620,9 @@
       "gloss": "pig",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le fermier a trois cochons.",
+        "example_en": "The farmer has three pigs."
       },
       "tags": [
         "animals",
@@ -5391,7 +5703,9 @@
       "extras": {
         "gender": "f",
         "article": "la",
-        "plural": "souris"
+        "plural": "souris",
+        "example": "Il y a une souris dans la cuisine !",
+        "example_en": "There's a mouse in the kitchen!"
       },
       "tags": [
         "animals",

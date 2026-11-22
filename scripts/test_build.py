@@ -26,7 +26,15 @@ sys.path.insert(0, str(HERE))
 
 import core_patch  # noqa: E402
 from check_versions import version_errors  # noqa: E402
-from build import ROOT, check_no_silent_removals, check_tag_pages, profile_for, validate  # noqa: E402
+from build import (  # noqa: E402
+    EXAMPLE_DIR,
+    ROOT,
+    apply_examples,
+    check_no_silent_removals,
+    check_tag_pages,
+    profile_for,
+    validate,
+)
 from common import page, topic  # noqa: E402
 
 CURRICULUM_ORDER = [
@@ -400,6 +408,59 @@ class VersionGuardTests(unittest.TestCase):
         base = self.catalog(("xx-core-v1", 1, "aaa"))
 
         self.assertEqual(version_errors(base, self.catalog()), ["xx-core-v1: left the catalog"])
+
+
+class ApplyExamplesTests(unittest.TestCase):
+    def pack(self, *items):
+        return {"id": "nl-test-v1", "items": list(items)}
+
+    def word(self, kind, id, **extras):
+        it = {"kind": kind, "id": id, "primary_form": id, "gloss": id}
+        if extras:
+            it["extras"] = extras
+        return it
+
+    def test_fills_a_word_without_an_example(self):
+        pack = self.pack(self.word("noun", "fiets", article="de"))
+        errs = apply_examples(pack, {"fiets": {"example": "Mijn fiets is rood.", "example_en": "My bike is red."}})
+        self.assertEqual(errs, [])
+        self.assertEqual(
+            pack["items"][0]["extras"],
+            {"article": "de", "example": "Mijn fiets is rood.", "example_en": "My bike is red."},
+        )
+
+    def test_the_sources_own_example_wins(self):
+        pack = self.pack(self.word("noun", "fiets", example="Ik fiets.", example_en="I cycle."))
+        apply_examples(pack, {"fiets": {"example": "Mijn fiets is rood.", "example_en": "My bike is red."}})
+        self.assertEqual(pack["items"][0]["extras"]["example"], "Ik fiets.")
+
+    def test_an_english_only_entry_translates_the_sources_sentence(self):
+        pack = self.pack(self.word("conjunction", "maar", example="Ik wil, maar ik kan niet."))
+        apply_examples(pack, {"maar": {"example_en": "I want to, but I can't."}})
+        self.assertEqual(pack["items"][0]["extras"]["example"], "Ik wil, maar ik kan niet.")
+        self.assertEqual(pack["items"][0]["extras"]["example_en"], "I want to, but I can't.")
+
+    def test_kind_id_picks_one_of_two_words_sharing_an_id(self):
+        pack = self.pack(self.word("phrase", "dag"), self.word("noun", "dag"))
+        ex = {"example": "Het was een lange dag.", "example_en": "It was a long day."}
+        self.assertEqual(apply_examples(pack, {"noun:dag": ex}), [])
+        self.assertNotIn("extras", pack["items"][0])
+        self.assertEqual(pack["items"][1]["extras"]["example"], "Het was een lange dag.")
+
+    def test_a_bare_id_two_words_share_is_an_error(self):
+        pack = self.pack(self.word("phrase", "dag"), self.word("noun", "dag"))
+        errs = apply_examples(pack, {"dag": {"example": "Dag!", "example_en": "Bye!"}})
+        self.assertEqual(len(errs), 1)
+        self.assertIn("kind:id", errs[0])
+
+    def test_a_key_that_matches_no_word_is_an_error(self):
+        errs = apply_examples(self.pack(self.word("noun", "fiets")), {"auto": {"example": "x", "example_en": "y"}})
+        self.assertEqual(errs, ["nl-test-v1: example for 'auto' matches no Word"])
+
+    def test_every_shipped_example_file_names_a_built_pack(self):
+        for path in sorted(EXAMPLE_DIR.glob("*.json")):
+            code = path.stem.split("-")[0]
+            self.assertTrue((ROOT / "packs" / code / path.name).exists(), path.name)
 
 
 if __name__ == "__main__":

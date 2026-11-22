@@ -1,0 +1,586 @@
+{
+ "aan-de-beurt-zijn": {
+  "example": "Jullie zijn nu aan de beurt.",
+  "example_en": "It's your turn now."
+ },
+ "afspraak": {
+  "example": "Ik heb om drie uur een afspraak.",
+  "example_en": "I have an appointment at three."
+ },
+ "apotheek": {
+  "example": "De apotheek gaat om zes uur dicht.",
+  "example_en": "The pharmacy closes at six."
+ },
+ "baas": {
+  "example": "Ik moet het eerst aan mijn baas vragen.",
+  "example_en": "I have to ask my boss first."
+ },
+ "bang": {
+  "example": "Mijn zusje is bang voor honden.",
+  "example_en": "My little sister is afraid of dogs."
+ },
+ "bedrijf": {
+  "example": "Het bedrijf heeft vijftig werknemers.",
+  "example_en": "The company has fifty employees."
+ },
+ "berg": {
+  "example": "We gaan wandelen in de bergen.",
+  "example_en": "We're going hiking in the mountains."
+ },
+ "beroep": {
+  "example": "Verpleegkundige is een zwaar beroep.",
+  "example_en": "Nursing is a demanding profession."
+ },
+ "bloem": {
+  "example": "Ik koop bloemen voor mijn moeder.",
+  "example_en": "I'm buying flowers for my mother."
+ },
+ "bonnetje": {
+  "example": "Wilt u het bonnetje?",
+  "example_en": "Would you like the receipt?"
+ },
+ "boodschappen-doen": {
+  "example": "Na het werk ga ik boodschappen doen.",
+  "example_en": "After work I'm going grocery shopping."
+ },
+ "boos": {
+  "example": "Waarom ben je boos op mij?",
+  "example_en": "Why are you angry with me?"
+ },
+ "boot": {
+  "example": "We gaan met de boot naar het eiland.",
+  "example_en": "We're going to the island by boat."
+ },
+ "bord": {
+  "example": "Zet je bord maar in de gootsteen.",
+  "example_en": "Just put your plate in the sink."
+ },
+ "bos": {
+  "example": "Achter ons huis ligt een groot bos.",
+  "example_en": "There's a big forest behind our house."
+ },
+ "bril": {
+  "example": "Zonder bril zie ik niets.",
+  "example_en": "Without my glasses I can't see anything."
+ },
+ "broek": {
+  "example": "Ik koop een nieuwe broek.",
+  "example_en": "I'm buying new trousers."
+ },
+ "bus": {
+  "example": "Ik neem de bus naar school.",
+  "example_en": "I take the bus to school."
+ },
+ "cadeau": {
+  "example": "Wat een mooi cadeau, dank je wel!",
+  "example_en": "What a lovely present, thank you!"
+ },
+ "collega": {
+  "example": "Mijn collega's zijn heel aardig.",
+  "example_en": "My colleagues are very nice."
+ },
+ "computer": {
+  "example": "Ik werk de hele dag achter de computer.",
+  "example_en": "I work at the computer all day."
+ },
+ "dokter": {
+  "example": "Je moet echt naar de dokter.",
+  "example_en": "You really need to see a doctor."
+ },
+ "druk": {
+  "example": "Op zaterdag is het altijd druk in de stad.",
+  "example_en": "On Saturdays it's always busy in town."
+ },
+ "eng": {
+  "example": "Die film was echt eng.",
+  "example_en": "That film was really scary."
+ },
+ "euro": {
+  "example": "Een kopje koffie kost drie euro.",
+  "example_en": "A cup of coffee costs three euros."
+ },
+ "examen": {
+  "example": "Ze leert hard voor haar examen.",
+  "example_en": "She's studying hard for her exam."
+ },
+ "feest": {
+  "example": "Kom je ook naar het feest?",
+  "example_en": "Are you coming to the party too?"
+ },
+ "film": {
+  "example": "Welke film wil je zien?",
+  "example_en": "Which film do you want to see?"
+ },
+ "fles": {
+  "example": "We drinken een fles wijn bij het eten.",
+  "example_en": "We're having a bottle of wine with dinner."
+ },
+ "foto": {
+  "example": "Mag ik een foto van jullie maken?",
+  "example_en": "May I take a photo of you?"
+ },
+ "geen-probleem": {
+  "example": "Geen probleem, ik help je graag.",
+  "example_en": "No problem, I'm happy to help."
+ },
+ "gelukkig": {
+  "example": "Gelukkig regent het niet meer.",
+  "example_en": "Fortunately it's not raining any more."
+ },
+ "gezond": {
+  "example": "Ze eet altijd heel gezond.",
+  "example_en": "She always eats very healthily."
+ },
+ "gezondheid": {
+  "example": "Roken is slecht voor je gezondheid.",
+  "example_en": "Smoking is bad for your health."
+ },
+ "glas": {
+  "example": "Mag ik een glas water?",
+  "example_en": "Could I have a glass of water?"
+ },
+ "graag": {
+  "example": "Graag, met melk en suiker.",
+  "example_en": "Yes please, with milk and sugar."
+ },
+ "grappig": {
+  "example": "Hij vertelt altijd grappige verhalen.",
+  "example_en": "He always tells funny stories."
+ },
+ "heb-je-zin-om": {
+  "example": "Heb je zin om te gaan zwemmen?",
+  "example_en": "Do you feel like going swimming?"
+ },
+ "herfst": {
+  "example": "In de herfst vallen de bladeren.",
+  "example_en": "In autumn the leaves fall."
+ },
+ "het-hangt-ervan-af": {
+  "example": "Het hangt ervan af of het regent.",
+  "example_en": "It depends on whether it rains."
+ },
+ "het-is-koud": {
+  "example": "Doe je jas aan, het is koud.",
+  "example_en": "Put your coat on, it's cold."
+ },
+ "het-regent": {
+  "example": "Het regent al de hele dag.",
+  "example_en": "It's been raining all day."
+ },
+ "hoed": {
+  "example": "Die hoed staat je goed.",
+  "example_en": "That hat suits you."
+ },
+ "hotel": {
+  "example": "Het hotel heeft een zwembad.",
+  "example_en": "The hotel has a swimming pool."
+ },
+ "huisarts": {
+  "example": "Bel eerst je huisarts.",
+  "example_en": "Call your GP first."
+ },
+ "ik-ben-aan-het": {
+  "example": "Ik ben aan het koken, bel me later.",
+  "example_en": "I'm cooking, call me later."
+ },
+ "ik-heb-hoofdpijn": {
+  "example": "Ik heb hoofdpijn, ik ga even liggen.",
+  "example_en": "I have a headache, I'm going to lie down for a bit."
+ },
+ "ik-kan-niet-meer": {
+  "example": "Nee, dank je, ik kan niet meer.",
+  "example_en": "No thanks, I'm full."
+ },
+ "ik-wil-graag": {
+  "example": "Ik wil graag een kopje koffie.",
+  "example_en": "I'd like a cup of coffee."
+ },
+ "in-de-rij-staan": {
+  "example": "We staan al een half uur in de rij.",
+  "example_en": "We've been queuing for half an hour."
+ },
+ "jammer": {
+  "example": "Jammer dat je niet kunt komen.",
+  "example_en": "What a pity you can't come."
+ },
+ "jas": {
+  "example": "Hang je jas maar aan de kapstok.",
+  "example_en": "Just hang your coat on the coat rack."
+ },
+ "jurk": {
+  "example": "Wat een leuke jurk heb je aan!",
+  "example_en": "What a lovely dress you're wearing!"
+ },
+ "kaart": {
+  "example": "Kun je het me op de kaart laten zien?",
+  "example_en": "Can you show me on the map?"
+ },
+ "kaartje": {
+  "example": "Waar kan ik een kaartje kopen?",
+  "example_en": "Where can I buy a ticket?"
+ },
+ "kantoor": {
+  "example": "Ze werkt op een kantoor in de stad.",
+  "example_en": "She works in an office in town."
+ },
+ "kassa": {
+  "example": "Je kunt betalen bij de kassa.",
+  "example_en": "You can pay at the till."
+ },
+ "kleding": {
+  "example": "Ik geef veel geld uit aan kleding.",
+  "example_en": "I spend a lot of money on clothes."
+ },
+ "koe": {
+  "example": "In Nederland zie je veel koeien.",
+  "example_en": "In the Netherlands you see lots of cows."
+ },
+ "koffer": {
+  "example": "Ik heb mijn koffer al ingepakt.",
+  "example_en": "I've already packed my suitcase."
+ },
+ "koorts": {
+  "example": "Het kind heeft hoge koorts.",
+  "example_en": "The child has a high fever."
+ },
+ "kort": {
+  "example": "Ze heeft kort haar.",
+  "example_en": "She has short hair."
+ },
+ "laat-maar": {
+  "example": "Laat maar, het is niet belangrijk.",
+  "example_en": "Never mind, it's not important."
+ },
+ "lamp": {
+  "example": "Kun je de lamp aandoen?",
+  "example_en": "Can you turn on the lamp?"
+ },
+ "land": {
+  "example": "Nederland is een klein land.",
+  "example_en": "The Netherlands is a small country."
+ },
+ "lang": {
+  "example": "Het was een lange dag.",
+  "example_en": "It was a long day."
+ },
+ "langzaam": {
+  "example": "Oma loopt heel langzaam.",
+  "example_en": "Grandma walks very slowly."
+ },
+ "leeg": {
+  "example": "De koelkast is bijna leeg.",
+  "example_en": "The fridge is almost empty."
+ },
+ "lente": {
+  "example": "De lente begint in maart.",
+  "example_en": "Spring starts in March."
+ },
+ "lepel": {
+  "example": "Je eet soep met een lepel.",
+  "example_en": "You eat soup with a spoon."
+ },
+ "leraar": {
+  "example": "Onze leraar legt alles goed uit.",
+  "example_en": "Our teacher explains everything well."
+ },
+ "les": {
+  "example": "We hebben morgen geen les.",
+  "example_en": "We don't have class tomorrow."
+ },
+ "leuk": {
+  "example": "Wat leuk dat je er bent!",
+  "example_en": "How nice that you're here!"
+ },
+ "licht": {
+  "example": "Deze doos is heel licht.",
+  "example_en": "This box is very light."
+ },
+ "liedje": {
+  "example": "Dit liedje hoor ik overal.",
+  "example_en": "I hear this song everywhere."
+ },
+ "lucht": {
+  "example": "De lucht is helemaal blauw.",
+  "example_en": "The sky is completely blue."
+ },
+ "lui": {
+  "example": "Hij is te lui om te koken.",
+  "example_en": "He's too lazy to cook."
+ },
+ "medicijn": {
+  "example": "Neem dit medicijn twee keer per dag.",
+  "example_en": "Take this medicine twice a day."
+ },
+ "meer": {
+  "example": "In de zomer zwemmen we in het meer.",
+  "example_en": "In summer we swim in the lake."
+ },
+ "mes": {
+  "example": "Pas op, dat mes is scherp.",
+  "example_en": "Careful, that knife is sharp."
+ },
+ "met-pinnen": {
+  "example": "Kan ik hier met pinnen betalen?",
+  "example_en": "Can I pay by card here?"
+ },
+ "misschien": {
+  "example": "Misschien kom ik morgen langs.",
+  "example_en": "Maybe I'll drop by tomorrow."
+ },
+ "muis": {
+  "example": "De kat vangt een muis.",
+  "example_en": "The cat catches a mouse."
+ },
+ "muziek": {
+  "example": "Ik luister graag naar muziek.",
+  "example_en": "I like listening to music."
+ },
+ "natuurlijk": {
+  "example": "Natuurlijk mag je mijn fiets lenen.",
+  "example_en": "Of course you can borrow my bike."
+ },
+ "nodig-hebben": {
+  "example": "We hebben nog melk nodig.",
+  "example_en": "We still need milk."
+ },
+ "op-tijd": {
+  "example": "Zorg dat je op tijd bent.",
+  "example_en": "Make sure you're on time."
+ },
+ "overhemd": {
+  "example": "Ik moet mijn overhemd nog strijken.",
+  "example_en": "I still need to iron my shirt."
+ },
+ "paard": {
+  "example": "Mijn nichtje heeft een eigen paard.",
+  "example_en": "My niece has her own horse."
+ },
+ "paraplu": {
+  "example": "Mijn paraplu is kapot door de wind.",
+  "example_en": "My umbrella broke in the wind."
+ },
+ "paspoort": {
+  "example": "Vergeet je paspoort niet!",
+  "example_en": "Don't forget your passport!"
+ },
+ "pijn": {
+  "example": "Ik heb pijn in mijn rug.",
+  "example_en": "My back hurts."
+ },
+ "pinpas": {
+  "example": "Ik ben mijn pinpas kwijt.",
+  "example_en": "I've lost my debit card."
+ },
+ "prijs": {
+  "example": "Wat is de prijs van deze fiets?",
+  "example_en": "What's the price of this bike?"
+ },
+ "regen": {
+  "example": "We fietsen in de regen naar huis.",
+  "example_en": "We're cycling home in the rain."
+ },
+ "reis": {
+  "example": "Hoe was de reis naar Parijs?",
+  "example_en": "How was the trip to Paris?"
+ },
+ "rivier": {
+  "example": "De rivier stroomt door de stad.",
+  "example_en": "The river flows through the city."
+ },
+ "rok": {
+  "example": "Ze draagt vandaag een blauwe rok.",
+  "example_en": "She's wearing a blue skirt today."
+ },
+ "rustig": {
+  "example": "Het is hier lekker rustig.",
+  "example_en": "It's nice and quiet here."
+ },
+ "saai": {
+  "example": "Ik vind dit boek een beetje saai.",
+  "example_en": "I find this book a bit boring."
+ },
+ "salaris": {
+  "example": "Hij krijgt een hoger salaris.",
+  "example_en": "He's getting a higher salary."
+ },
+ "schoen": {
+  "example": "Doe je schoenen uit, alsjeblieft.",
+  "example_en": "Take your shoes off, please."
+ },
+ "schoon": {
+  "example": "Zijn de handdoeken schoon?",
+  "example_en": "Are the towels clean?"
+ },
+ "seizoen": {
+  "example": "Welk seizoen vind jij het leukst?",
+  "example_en": "Which season do you like best?"
+ },
+ "serieus": {
+  "example": "Dit is een serieus probleem.",
+  "example_en": "This is a serious problem."
+ },
+ "sneeuw": {
+  "example": "De kinderen spelen in de sneeuw.",
+  "example_en": "The children are playing in the snow."
+ },
+ "snel": {
+  "example": "Die auto rijdt erg snel.",
+  "example_en": "That car is going very fast."
+ },
+ "sok": {
+  "example": "Ik kan mijn andere sok niet vinden.",
+  "example_en": "I can't find my other sock."
+ },
+ "spel": {
+  "example": "Dit spel is leuk voor het hele gezin.",
+  "example_en": "This game is fun for the whole family."
+ },
+ "sport": {
+  "example": "Voetbal is de populairste sport in Nederland.",
+  "example_en": "Football is the most popular sport in the Netherlands."
+ },
+ "strand": {
+  "example": "We liggen de hele dag op het strand.",
+  "example_en": "We lie on the beach all day."
+ },
+ "student": {
+  "example": "Mijn broer is student in Utrecht.",
+  "example_en": "My brother is a student in Utrecht."
+ },
+ "supermarkt": {
+  "example": "De supermarkt is op zondag open.",
+  "example_en": "The supermarket is open on Sundays."
+ },
+ "tas": {
+  "example": "Wat zit er in je tas?",
+  "example_en": "What's in your bag?"
+ },
+ "te-laat": {
+  "example": "Sorry dat ik te laat ben.",
+  "example_en": "Sorry I'm late."
+ },
+ "tot-zo": {
+  "example": "Ik ben er over vijf minuten, tot zo!",
+  "example_en": "I'll be there in five minutes, see you in a bit!"
+ },
+ "tram": {
+  "example": "Deze tram gaat naar het centrum.",
+  "example_en": "This tram goes to the centre."
+ },
+ "trein": {
+  "example": "De trein heeft tien minuten vertraging.",
+  "example_en": "The train is ten minutes late."
+ },
+ "trui": {
+  "example": "Deze trui is lekker warm.",
+  "example_en": "This jumper is nice and warm."
+ },
+ "vakantie": {
+  "example": "Waar ga je naartoe op vakantie?",
+  "example_en": "Where are you going on holiday?"
+ },
+ "varken": {
+  "example": "Op de boerderij wonen drie varkens.",
+  "example_en": "Three pigs live on the farm."
+ },
+ "verdrietig": {
+  "example": "Waarom kijk je zo verdrietig?",
+  "example_en": "Why do you look so sad?"
+ },
+ "vergadering": {
+  "example": "De vergadering begint om tien uur.",
+  "example_en": "The meeting starts at ten."
+ },
+ "verjaardag": {
+  "example": "Morgen vier ik mijn verjaardag.",
+  "example_en": "Tomorrow I'm celebrating my birthday."
+ },
+ "verkoudheid": {
+  "example": "Tegen verkoudheid helpt thee met honing.",
+  "example_en": "Tea with honey helps with a cold."
+ },
+ "verlegen": {
+  "example": "Het is een verlegen meisje.",
+  "example_en": "She's a shy girl."
+ },
+ "vies": {
+  "example": "Je handen zijn vies, ga ze wassen.",
+  "example_en": "Your hands are dirty, go and wash them."
+ },
+ "vliegtuig": {
+  "example": "Ik slaap nooit in het vliegtuig.",
+  "example_en": "I never sleep on the plane."
+ },
+ "vliegveld": {
+  "example": "Het vliegveld is ver van de stad.",
+  "example_en": "The airport is far from the city."
+ },
+ "vogel": {
+  "example": "Ik hoor een vogel in de tuin.",
+  "example_en": "I can hear a bird in the garden."
+ },
+ "vol": {
+  "example": "Het restaurant zit helemaal vol.",
+  "example_en": "The restaurant is completely full."
+ },
+ "vork": {
+  "example": "Mag ik een vork, alsjeblieft?",
+  "example_en": "Could I have a fork, please?"
+ },
+ "vrij": {
+  "example": "Op vrijdag ben ik altijd vrij.",
+  "example_en": "I'm always free on Fridays."
+ },
+ "vrolijk": {
+  "example": "Mijn buurvrouw is altijd vrolijk.",
+  "example_en": "My neighbour is always cheerful."
+ },
+ "wat-is-er-aan-de-hand": {
+  "example": "Je bent zo stil, wat is er aan de hand?",
+  "example_en": "You're so quiet, what's the matter?"
+ },
+ "wedstrijd": {
+  "example": "We kijken samen naar de wedstrijd.",
+  "example_en": "We're watching the match together."
+ },
+ "weer": {
+  "example": "Hoe wordt het weer morgen?",
+  "example_en": "What will the weather be like tomorrow?"
+ },
+ "wind": {
+  "example": "Er staat vandaag veel wind.",
+  "example_en": "It's very windy today."
+ },
+ "winter": {
+  "example": "Het wordt vroeg donker in de winter.",
+  "example_en": "It gets dark early in winter."
+ },
+ "wolk": {
+  "example": "Er zijn geen wolken in de lucht.",
+  "example_en": "There are no clouds in the sky."
+ },
+ "zee": {
+  "example": "We wonen dicht bij de zee.",
+  "example_en": "We live close to the sea."
+ },
+ "ziek": {
+  "example": "Hij is al een week ziek.",
+  "example_en": "He's been ill for a week."
+ },
+ "zin-hebben-in": {
+  "example": "We hebben echt zin in de vakantie.",
+  "example_en": "We're really looking forward to the holiday."
+ },
+ "zomer": {
+  "example": "Deze zomer gaan we naar Italië.",
+  "example_en": "This summer we're going to Italy."
+ },
+ "zullen-we-gaan": {
+  "example": "Het is al laat, zullen we gaan?",
+  "example_en": "It's already late, shall we go?"
+ },
+ "zwaar": {
+  "example": "Deze tas is te zwaar voor mij.",
+  "example_en": "This bag is too heavy for me."
+ }
+}

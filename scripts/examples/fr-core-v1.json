@@ -1,0 +1,106 @@
+{
+ "aller": {
+  "example": "Je vais à la plage demain.",
+  "example_en": "I'm going to the beach tomorrow."
+ },
+ "ami": {
+  "example": "C'est mon meilleur ami.",
+  "example_en": "He's my best friend."
+ },
+ "arbre": {
+  "example": "Cet arbre a cent ans.",
+  "example_en": "This tree is a hundred years old."
+ },
+ "bien que": {
+  "example_en": "Although you're young, you understand quickly."
+ },
+ "boire": {
+  "example": "Tu bois du café le matin ?",
+  "example_en": "Do you drink coffee in the morning?"
+ },
+ "cependant": {
+  "example_en": "It's raining. However, we're going out."
+ },
+ "chaise": {
+  "example": "Prends une chaise et assieds-toi.",
+  "example_en": "Take a chair and sit down."
+ },
+ "chat": {
+  "example": "Le chat dort sur le canapé.",
+  "example_en": "The cat is sleeping on the sofa."
+ },
+ "chien": {
+  "example": "Mon chien aime jouer dehors.",
+  "example_en": "My dog likes playing outside."
+ },
+ "de plus": {
+  "example_en": "The film is long, and what's more, it's boring."
+ },
+ "donc": {
+  "example_en": "It's cold, so I'm wearing a coat."
+ },
+ "eau": {
+  "example": "Je voudrais un verre d'eau.",
+  "example_en": "I'd like a glass of water."
+ },
+ "en effet": {
+  "example_en": "I'm staying home, I'm sick, you see."
+ },
+ "enfant": {
+  "example": "L'enfant joue avec son ballon.",
+  "example_en": "The child is playing with his ball."
+ },
+ "ensuite": {
+  "example_en": "We eat, then we leave."
+ },
+ "fenêtre": {
+  "example": "Tu peux ouvrir la fenêtre ?",
+  "example_en": "Can you open the window?"
+ },
+ "livre": {
+  "example": "Je lis un livre le soir.",
+  "example_en": "I read a book in the evening."
+ },
+ "mais": {
+  "example_en": "I want to come, but I don't have time."
+ },
+ "maison": {
+  "example": "Leur maison est près de la mer.",
+  "example_en": "Their house is near the sea."
+ },
+ "manger": {
+  "example": "Nous mangeons à midi.",
+  "example_en": "We eat at noon."
+ },
+ "nuit": {
+  "example": "Il fait froid la nuit.",
+  "example_en": "It's cold at night."
+ },
+ "pain": {
+  "example": "Le pain est encore chaud.",
+  "example_en": "The bread is still warm."
+ },
+ "parce que": {
+  "example_en": "I'm staying here because I'm tired."
+ },
+ "parler": {
+  "example": "Elle parle trois langues.",
+  "example_en": "She speaks three languages."
+ },
+ "porte": {
+  "example": "Quelqu'un frappe à la porte.",
+  "example_en": "Someone is knocking at the door."
+ },
+ "soleil": {
+  "example": "Le soleil brille ce matin.",
+  "example_en": "The sun is shining this morning."
+ },
+ "table": {
+  "example": "Les clés sont sur la table.",
+  "example_en": "The keys are on the table."
+ },
+ "voiture": {
+  "example": "Ma voiture est en panne.",
+  "example_en": "My car has broken down."
+ }
+}

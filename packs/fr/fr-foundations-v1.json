@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "fr-foundations-v1",
-  "version": 4,
+  "version": 5,
   "language": "fr",
   "name": "Français · Fondations (A1)",
   "author": "Max Boksem",
@@ -292,7 +292,9 @@
       "gloss": "father",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Mon père cuisine très bien.",
+        "example_en": "My father cooks very well."
       },
       "tags": [
         "family",
@@ -305,7 +307,9 @@
       "primary_form": "bonjour",
       "gloss": "hello, good morning",
       "extras": {
-        "literal": "good day"
+        "literal": "good day",
+        "example": "Bonjour, vous avez du pain ?",
+        "example_en": "Hello, do you have any bread?"
       },
       "tags": [
         "greetings"
@@ -383,7 +387,9 @@
       "gloss": "mother",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Ma mère adore les fleurs.",
+        "example_en": "My mother loves flowers."
       },
       "tags": [
         "family",
@@ -402,7 +408,9 @@
           "mp": "grands",
           "fp": "grandes"
         },
-        "position": "before the noun"
+        "position": "before the noun",
+        "example": "Ils habitent dans une grande maison.",
+        "example_en": "They live in a big house."
       },
       "tags": [
         "adjectifs"
@@ -415,7 +423,9 @@
       "gloss": "brother",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Mon frère a dix ans.",
+        "example_en": "My brother is ten."
       },
       "tags": [
         "family",
@@ -429,7 +439,9 @@
       "gloss": "sister",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Ma sœur habite à Marseille.",
+        "example_en": "My sister lives in Marseille."
       },
       "tags": [
         "family",
@@ -443,7 +455,11 @@
       "gloss": "good evening",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Bonsoir, vous avez une table pour deux ?",
+        "example_en": "Good evening, do you have a table for two?"
+      }
     },
     {
       "kind": "verb",
@@ -518,7 +534,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "fils"
+        "plural": "fils",
+        "example": "Leur fils va à l'école.",
+        "example_en": "Their son goes to school."
       },
       "tags": [
         "family",
@@ -532,7 +550,9 @@
       "gloss": "daughter; girl",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Ma fille aime les chats.",
+        "example_en": "My daughter loves cats."
       },
       "tags": [
         "family",
@@ -551,7 +571,9 @@
           "mp": "petits",
           "fp": "petites"
         },
-        "position": "before the noun"
+        "position": "before the noun",
+        "example": "J'habite dans un petit village.",
+        "example_en": "I live in a small village."
       },
       "tags": [
         "adjectifs"
@@ -564,7 +586,11 @@
       "gloss": "hi; bye (informal)",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Salut, tu vas bien ?",
+        "example_en": "Hi, how are you doing?"
+      }
     },
     {
       "kind": "verb",
@@ -638,7 +664,9 @@
       "gloss": "husband",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Mon mari rentre à six heures.",
+        "example_en": "My husband gets home at six."
       },
       "tags": [
         "family",
@@ -666,7 +694,9 @@
       "gloss": "wife; woman",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Sa femme est infirmière.",
+        "example_en": "His wife is a nurse."
       },
       "tags": [
         "family",
@@ -680,7 +710,9 @@
       "gloss": "parent",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Mes parents habitent à la campagne.",
+        "example_en": "My parents live in the countryside."
       },
       "tags": [
         "family",
@@ -693,7 +725,9 @@
       "primary_form": "au revoir",
       "gloss": "goodbye",
       "extras": {
-        "literal": "until the re-seeing"
+        "literal": "until the re-seeing",
+        "example": "Au revoir, bonne soirée !",
+        "example_en": "Goodbye, have a nice evening!"
       },
       "tags": [
         "greetings"
@@ -798,7 +832,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "grands-pères"
+        "plural": "grands-pères",
+        "example": "Mon grand-père a quatre-vingts ans.",
+        "example_en": "My grandfather is eighty."
       },
       "tags": [
         "family",
@@ -817,7 +853,9 @@
           "mp": "bons",
           "fp": "bonnes"
         },
-        "position": "before the noun"
+        "position": "before the noun",
+        "example": "Le café ici est très bon.",
+        "example_en": "The coffee here is very good."
       },
       "tags": [
         "adjectifs"
@@ -831,7 +869,9 @@
       "extras": {
         "gender": "f",
         "article": "la",
-        "plural": "grands-mères"
+        "plural": "grands-mères",
+        "example": "Ma grand-mère raconte de belles histoires.",
+        "example_en": "My grandmother tells lovely stories."
       },
       "tags": [
         "family",
@@ -845,7 +885,11 @@
       "gloss": "see you soon",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Merci pour tout, à bientôt !",
+        "example_en": "Thanks for everything, see you soon!"
+      }
     },
     {
       "kind": "verb",
@@ -919,7 +963,9 @@
       "gloss": "uncle",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Mon oncle habite en Belgique.",
+        "example_en": "My uncle lives in Belgium."
       },
       "tags": [
         "family",
@@ -933,7 +979,9 @@
       "gloss": "aunt",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Ma tante a deux chiens.",
+        "example_en": "My aunt has two dogs."
       },
       "tags": [
         "family",
@@ -947,7 +995,9 @@
       "gloss": "cousin (male)",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Mon cousin joue au foot.",
+        "example_en": "My cousin plays football."
       },
       "tags": [
         "family",
@@ -961,7 +1011,11 @@
       "gloss": "see you tomorrow",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Je pars maintenant, à demain !",
+        "example_en": "I'm leaving now, see you tomorrow!"
+      }
     },
     {
       "kind": "adjective",
@@ -975,7 +1029,9 @@
           "mp": "mauvais",
           "fp": "mauvaises"
         },
-        "position": "before the noun"
+        "position": "before the noun",
+        "example": "Ce film est vraiment mauvais.",
+        "example_en": "This film is really bad."
       },
       "tags": [
         "adjectifs"
@@ -1053,7 +1109,9 @@
       "gloss": "cousin (female)",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Ma cousine vient ce week-end.",
+        "example_en": "My cousin is coming this weekend."
       },
       "tags": [
         "family",
@@ -1067,7 +1125,9 @@
       "gloss": "man",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Un homme demande son chemin.",
+        "example_en": "A man is asking for directions."
       },
       "tags": [
         "people",
@@ -1081,7 +1141,11 @@
       "gloss": "good night",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Bonne nuit, dors bien !",
+        "example_en": "Good night, sleep well!"
+      }
     },
     {
       "kind": "noun",
@@ -1090,7 +1154,9 @@
       "gloss": "boy",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le petit garçon a peur du chien.",
+        "example_en": "The little boy is scared of the dog."
       },
       "tags": [
         "people",
@@ -1169,7 +1235,9 @@
       "gloss": "baby",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le bébé a faim.",
+        "example_en": "The baby is hungry."
       },
       "tags": [
         "people",
@@ -1188,7 +1256,9 @@
           "mp": "beaux",
           "fp": "belles"
         },
-        "position": "before the noun"
+        "position": "before the noun",
+        "example": "Quel beau bébé !",
+        "example_en": "What a beautiful baby!"
       },
       "tags": [
         "adjectifs"
@@ -1201,7 +1271,9 @@
       "gloss": "neighbour",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Notre voisin est très sympa.",
+        "example_en": "Our neighbour is very nice."
       },
       "tags": [
         "people",
@@ -1215,7 +1287,11 @@
       "gloss": "thank you",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Merci pour le café !",
+        "example_en": "Thanks for the coffee!"
+      }
     },
     {
       "kind": "verb",
@@ -1289,7 +1365,9 @@
       "gloss": "name; surname",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Quel est votre nom ?",
+        "example_en": "What is your name?"
       },
       "tags": [
         "people",
@@ -1317,7 +1395,9 @@
       "gloss": "first name",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Comment s'écrit ton prénom ?",
+        "example_en": "How do you spell your first name?"
       },
       "tags": [
         "people",
@@ -1331,7 +1411,11 @@
       "gloss": "thank you very much",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Merci beaucoup pour votre aide.",
+        "example_en": "Thank you very much for your help."
+      }
     },
     {
       "kind": "noun",
@@ -1340,7 +1424,9 @@
       "gloss": "head",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "J'ai mal à la tête.",
+        "example_en": "I have a headache."
       },
       "tags": [
         "body",
@@ -1359,7 +1445,9 @@
           "mp": "jolis",
           "fp": "jolies"
         },
-        "position": "before the noun"
+        "position": "before the noun",
+        "example": "Quel joli prénom !",
+        "example_en": "What a pretty name!"
       },
       "tags": [
         "adjectifs"
@@ -1438,7 +1526,9 @@
       "extras": {
         "gender": "m",
         "article": "l'",
-        "plural": "yeux"
+        "plural": "yeux",
+        "example": "J'ai quelque chose dans l'œil.",
+        "example_en": "I have something in my eye."
       },
       "tags": [
         "body",
@@ -1451,7 +1541,9 @@
       "primary_form": "de rien",
       "gloss": "you're welcome",
       "extras": {
-        "literal": "of nothing"
+        "literal": "of nothing",
+        "example": "De rien, avec plaisir !",
+        "example_en": "You're welcome, my pleasure!"
       },
       "tags": [
         "greetings"
@@ -1464,7 +1556,9 @@
       "gloss": "mouth",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Ne parle pas la bouche pleine !",
+        "example_en": "Don't talk with your mouth full!"
       },
       "tags": [
         "body",
@@ -1544,7 +1638,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "nez"
+        "plural": "nez",
+        "example": "Le clown a un nez rouge.",
+        "example_en": "The clown has a red nose."
       },
       "tags": [
         "body",
@@ -1563,7 +1659,9 @@
           "mp": "jeunes",
           "fp": "jeunes"
         },
-        "position": "before the noun"
+        "position": "before the noun",
+        "example": "Il est trop jeune pour conduire.",
+        "example_en": "He's too young to drive."
       },
       "tags": [
         "adjectifs"
@@ -1576,7 +1674,9 @@
       "gloss": "ear",
       "extras": {
         "gender": "f",
-        "article": "l'"
+        "article": "l'",
+        "example": "Le chat a une oreille blanche.",
+        "example_en": "The cat has one white ear."
       },
       "tags": [
         "body",
@@ -1589,7 +1689,9 @@
       "primary_form": "je vous en prie",
       "gloss": "you're welcome (polite); please, go ahead",
       "extras": {
-        "literal": "I pray you of it"
+        "literal": "I pray you of it",
+        "example": "Je vous en prie, entrez.",
+        "example_en": "Please, come in."
       },
       "tags": [
         "greetings"
@@ -1602,7 +1704,9 @@
       "gloss": "hand",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Lave-toi les mains avant de manger.",
+        "example_en": "Wash your hands before eating."
       },
       "tags": [
         "body",
@@ -1682,7 +1786,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "bras"
+        "plural": "bras",
+        "example": "Il porte le bébé dans ses bras.",
+        "example_en": "He carries the baby in his arms."
       },
       "tags": [
         "body",
@@ -1695,7 +1801,9 @@
       "primary_form": "s'il vous plaît",
       "gloss": "please (polite)",
       "extras": {
-        "literal": "if it pleases you"
+        "literal": "if it pleases you",
+        "example": "Un billet pour Lyon, s'il vous plaît.",
+        "example_en": "One ticket to Lyon, please."
       },
       "tags": [
         "greetings"
@@ -1708,7 +1816,9 @@
       "gloss": "leg",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Elle s'est cassé la jambe.",
+        "example_en": "She broke her leg."
       },
       "tags": [
         "body",
@@ -1792,7 +1902,9 @@
           "mp": "vieux",
           "fp": "vieilles"
         },
-        "position": "before the noun"
+        "position": "before the noun",
+        "example": "Mon grand-père a un vieux vélo.",
+        "example_en": "My grandfather has an old bike."
       },
       "tags": [
         "adjectifs"
@@ -1805,7 +1917,9 @@
       "gloss": "foot",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Nous allons à l'école à pied.",
+        "example_en": "We walk to school."
       },
       "tags": [
         "body",
@@ -1820,7 +1934,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "dos"
+        "plural": "dos",
+        "example": "Il dort sur le dos.",
+        "example_en": "He sleeps on his back."
       },
       "tags": [
         "body",
@@ -1833,7 +1949,9 @@
       "primary_form": "s'il te plaît",
       "gloss": "please (informal)",
       "extras": {
-        "literal": "if it pleases you"
+        "literal": "if it pleases you",
+        "example": "Passe-moi le sel, s'il te plaît.",
+        "example_en": "Pass me the salt, please."
       },
       "tags": [
         "greetings"
@@ -1846,7 +1964,9 @@
       "gloss": "heart",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Mon cœur bat très vite.",
+        "example_en": "My heart is beating very fast."
       },
       "tags": [
         "body",
@@ -1926,7 +2046,9 @@
       "gloss": "belly, stomach",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Mon ventre fait du bruit.",
+        "example_en": "My stomach is rumbling."
       },
       "tags": [
         "body",
@@ -1945,7 +2067,9 @@
           "mp": "nouveaux",
           "fp": "nouvelles"
         },
-        "position": "before the noun"
+        "position": "before the noun",
+        "example": "C'est notre nouveau professeur.",
+        "example_en": "This is our new teacher."
       },
       "tags": [
         "adjectifs"
@@ -1958,7 +2082,11 @@
       "gloss": "excuse me (polite)",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Excusez-moi, vous avez l'heure ?",
+        "example_en": "Excuse me, do you have the time?"
+      }
     },
     {
       "kind": "noun",
@@ -1967,7 +2095,9 @@
       "gloss": "tooth",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Je me brosse les dents le soir.",
+        "example_en": "I brush my teeth in the evening."
       },
       "tags": [
         "body",
@@ -2061,7 +2191,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "petits-déjeuners"
+        "plural": "petits-déjeuners",
+        "example": "Je prends le petit-déjeuner à sept heures.",
+        "example_en": "I have breakfast at seven."
       },
       "tags": [
         "food",
@@ -2075,7 +2207,9 @@
       "gloss": "lunch",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le déjeuner est prêt !",
+        "example_en": "Lunch is ready!"
       },
       "tags": [
         "food",
@@ -2089,7 +2223,11 @@
       "gloss": "sorry; pardon?",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Oh pardon, c'est votre place ?",
+        "example_en": "Oh sorry, is this your seat?"
+      }
     },
     {
       "kind": "noun",
@@ -2098,7 +2236,9 @@
       "gloss": "dinner",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "On mange quoi pour le dîner ?",
+        "example_en": "What are we having for dinner?"
       },
       "tags": [
         "food",
@@ -2182,7 +2322,9 @@
           "mp": "gentils",
           "fp": "gentilles"
         },
-        "position": "before the noun"
+        "position": "before the noun",
+        "example": "Vous êtes très gentil, merci.",
+        "example_en": "You're very kind, thank you."
       },
       "tags": [
         "adjectifs"
@@ -2195,7 +2337,9 @@
       "gloss": "cheese",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Tu veux du fromage ?",
+        "example_en": "Do you want some cheese?"
       },
       "tags": [
         "food",
@@ -2209,7 +2353,11 @@
       "gloss": "sorry",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Désolé, je suis en retard.",
+        "example_en": "Sorry, I'm late."
+      }
     },
     {
       "kind": "noun",
@@ -2218,7 +2366,9 @@
       "gloss": "meat",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Elle ne mange pas de viande.",
+        "example_en": "She doesn't eat meat."
       },
       "tags": [
         "food",
@@ -2297,7 +2447,9 @@
       "gloss": "fish (to eat)",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le poisson est très frais ici.",
+        "example_en": "The fish is very fresh here."
       },
       "tags": [
         "food",
@@ -2311,7 +2463,9 @@
       "gloss": "chicken",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le poulet est délicieux.",
+        "example_en": "The chicken is delicious."
       },
       "tags": [
         "food",
@@ -2325,7 +2479,11 @@
       "gloss": "yes",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Oui, je veux bien.",
+        "example_en": "Yes, I'd like that."
+      }
     },
     {
       "kind": "adjective",
@@ -2338,7 +2496,9 @@
           "fs": "contente",
           "mp": "contents",
           "fp": "contentes"
-        }
+        },
+        "example": "Je suis content de te voir.",
+        "example_en": "I'm happy to see you."
       },
       "tags": [
         "adjectifs"
@@ -2351,7 +2511,9 @@
       "gloss": "egg",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Je mange un œuf le matin.",
+        "example_en": "I eat an egg in the morning."
       },
       "tags": [
         "food",
@@ -2430,7 +2592,9 @@
       "gloss": "milk",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Tu prends du lait dans ton café ?",
+        "example_en": "Do you take milk in your coffee?"
       },
       "tags": [
         "food",
@@ -2444,7 +2608,11 @@
       "gloss": "no",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Non merci, ça va.",
+        "example_en": "No thanks, I'm fine."
+      }
     },
     {
       "kind": "noun",
@@ -2453,7 +2621,9 @@
       "gloss": "coffee; café",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "On se retrouve au café ?",
+        "example_en": "Shall we meet at the café?"
       },
       "tags": [
         "food",
@@ -2532,7 +2702,9 @@
       "gloss": "tea",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Je bois du thé sans sucre.",
+        "example_en": "I drink tea without sugar."
       },
       "tags": [
         "food",
@@ -2550,7 +2722,9 @@
           "fs": "fatiguée",
           "mp": "fatigués",
           "fp": "fatiguées"
-        }
+        },
+        "example": "Elle est très fatiguée aujourd'hui.",
+        "example_en": "She is very tired today."
       },
       "tags": [
         "adjectifs"
@@ -2563,7 +2737,9 @@
       "gloss": "wine",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Ils boivent du vin rouge.",
+        "example_en": "They drink red wine."
       },
       "tags": [
         "food",
@@ -2576,7 +2752,9 @@
       "primary_form": "si",
       "gloss": "yes (contradicting a negative question)",
       "extras": {
-        "note": "Tu ne viens pas ? Si ! (You're not coming? Yes I am!)"
+        "note": "Tu ne viens pas ? Si ! (You're not coming? Yes I am!)",
+        "example": "Tu n'aimes pas le chocolat ? Si, j'adore !",
+        "example_en": "You don't like chocolate? Yes, I love it!"
       },
       "tags": [
         "greetings"
@@ -2589,7 +2767,9 @@
       "gloss": "beer",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Il boit une bière avec ses amis.",
+        "example_en": "He has a beer with his friends."
       },
       "tags": [
         "food",
@@ -2682,7 +2862,9 @@
       "gloss": "apple",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Cette pomme est très sucrée.",
+        "example_en": "This apple is very sweet."
       },
       "tags": [
         "food",
@@ -2695,7 +2877,9 @@
       "primary_form": "d'accord",
       "gloss": "OK, agreed",
       "extras": {
-        "literal": "of agreement"
+        "literal": "of agreement",
+        "example": "D'accord, on se voit à midi.",
+        "example_en": "OK, see you at noon."
       },
       "tags": [
         "greetings"
@@ -2709,7 +2893,9 @@
       "extras": {
         "gender": "f",
         "article": "la",
-        "plural": "pommes de terre"
+        "plural": "pommes de terre",
+        "example": "Elle coupe les pommes de terre.",
+        "example_en": "She is cutting the potatoes."
       },
       "tags": [
         "food",
@@ -2727,7 +2913,9 @@
           "fs": "chaude",
           "mp": "chauds",
           "fp": "chaudes"
-        }
+        },
+        "example": "Attention, le café est chaud !",
+        "example_en": "Careful, the coffee is hot!"
       },
       "tags": [
         "adjectifs"
@@ -2740,7 +2928,9 @@
       "gloss": "vegetable",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Les enfants n'aiment pas les légumes.",
+        "example_en": "The children don't like vegetables."
       },
       "tags": [
         "food",
@@ -2819,7 +3009,9 @@
       "gloss": "fruit",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Je prends un fruit au dessert.",
+        "example_en": "I have a piece of fruit for dessert."
       },
       "tags": [
         "food",
@@ -2832,7 +3024,9 @@
       "primary_form": "ça va ?",
       "gloss": "how are you? how's it going?",
       "extras": {
-        "literal": "it goes?"
+        "literal": "it goes?",
+        "example": "Ça va ? Tu as l'air fatigué.",
+        "example_en": "How's it going? You look tired."
       },
       "tags": [
         "greetings"
@@ -2845,7 +3039,9 @@
       "gloss": "sugar",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Il n'y a plus de sucre.",
+        "example_en": "There's no more sugar."
       },
       "tags": [
         "food",
@@ -2924,7 +3120,9 @@
       "gloss": "salt",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "La soupe manque de sel.",
+        "example_en": "The soup needs more salt."
       },
       "tags": [
         "food",
@@ -2942,7 +3140,9 @@
           "fs": "froide",
           "mp": "froids",
           "fp": "froides"
-        }
+        },
+        "example": "J'ai froid, ferme la fenêtre.",
+        "example_en": "I'm cold, close the window."
       },
       "tags": [
         "adjectifs"
@@ -2954,7 +3154,9 @@
       "primary_form": "ça va bien, merci",
       "gloss": "I'm fine, thanks",
       "extras": {
-        "literal": "it goes well"
+        "literal": "it goes well",
+        "example": "Ça va bien, merci, et toi ?",
+        "example_en": "I'm fine, thanks, and you?"
       },
       "tags": [
         "greetings"
@@ -2967,7 +3169,9 @@
       "gloss": "rice",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Je prépare du riz pour ce soir.",
+        "example_en": "I'm making rice for tonight."
       },
       "tags": [
         "food",
@@ -2981,7 +3185,9 @@
       "gloss": "jam",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "J'aime le pain avec de la confiture.",
+        "example_en": "I like bread with jam."
       },
       "tags": [
         "food",
@@ -3061,7 +3267,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "gâteaux"
+        "plural": "gâteaux",
+        "example": "C'est un gâteau au chocolat.",
+        "example_en": "It's a chocolate cake."
       },
       "tags": [
         "food",
@@ -3074,7 +3282,9 @@
       "primary_form": "comment allez-vous ?",
       "gloss": "how are you? (polite)",
       "extras": {
-        "literal": "how go you?"
+        "literal": "how go you?",
+        "example": "Bonjour madame, comment allez-vous ?",
+        "example_en": "Hello madam, how are you?"
       },
       "tags": [
         "greetings"
@@ -3087,7 +3297,9 @@
       "gloss": "bedroom",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Ma chambre est au premier étage.",
+        "example_en": "My bedroom is on the first floor."
       },
       "tags": [
         "home",
@@ -3105,7 +3317,9 @@
           "fs": "facile",
           "mp": "faciles",
           "fp": "faciles"
-        }
+        },
+        "example": "Cet exercice est facile.",
+        "example_en": "This exercise is easy."
       },
       "tags": [
         "adjectifs"
@@ -3209,7 +3423,9 @@
       "gloss": "kitchen; cooking",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "On mange dans la cuisine.",
+        "example_en": "We eat in the kitchen."
       },
       "tags": [
         "home",
@@ -3222,7 +3438,9 @@
       "primary_form": "enchanté",
       "gloss": "nice to meet you",
       "extras": {
-        "literal": "enchanted"
+        "literal": "enchanted",
+        "example": "Enchanté, je suis le nouveau voisin.",
+        "example_en": "Nice to meet you, I'm the new neighbour."
       },
       "tags": [
         "greetings"
@@ -3236,7 +3454,9 @@
       "extras": {
         "gender": "f",
         "article": "la",
-        "plural": "salles de bains"
+        "plural": "salles de bains",
+        "example": "La salle de bains est à gauche.",
+        "example_en": "The bathroom is on the left."
       },
       "tags": [
         "home",
@@ -3250,7 +3470,9 @@
       "gloss": "living room",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Nous regardons la télé dans le salon.",
+        "example_en": "We watch TV in the living room."
       },
       "tags": [
         "home",
@@ -3343,7 +3565,9 @@
       "gloss": "bed",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le lit est trop petit.",
+        "example_en": "The bed is too small."
       },
       "tags": [
         "home",
@@ -3357,7 +3581,11 @@
       "gloss": "I don't understand",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Je ne comprends pas cette question.",
+        "example_en": "I don't understand this question."
+      }
     },
     {
       "kind": "adjective",
@@ -3370,7 +3598,9 @@
           "fs": "difficile",
           "mp": "difficiles",
           "fp": "difficiles"
-        }
+        },
+        "example": "Le français n'est pas si difficile.",
+        "example_en": "French isn't that difficult."
       },
       "tags": [
         "adjectifs"
@@ -3383,7 +3613,9 @@
       "gloss": "key",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Où est la clé de la voiture ?",
+        "example_en": "Where is the car key?"
       },
       "tags": [
         "home",
@@ -3463,7 +3695,9 @@
       "gloss": "flat, apartment",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Nous cherchons un appartement en ville.",
+        "example_en": "We're looking for a flat in town."
       },
       "tags": [
         "home",
@@ -3477,7 +3711,11 @@
       "gloss": "could you repeat that?",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Vous pouvez répéter, s'il vous plaît ?",
+        "example_en": "Could you repeat that, please?"
+      }
     },
     {
       "kind": "noun",
@@ -3486,7 +3724,9 @@
       "gloss": "garden",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Il y a des fleurs dans le jardin.",
+        "example_en": "There are flowers in the garden."
       },
       "tags": [
         "home",
@@ -3500,7 +3740,9 @@
       "gloss": "day",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Il pleut depuis trois jours.",
+        "example_en": "It has been raining for three days."
       },
       "tags": [
         "time",
@@ -3518,7 +3760,9 @@
           "fs": "chère",
           "mp": "chers",
           "fp": "chères"
-        }
+        },
+        "example": "Ce manteau est trop cher.",
+        "example_en": "This coat is too expensive."
       },
       "tags": [
         "adjectifs"
@@ -3596,7 +3840,9 @@
       "gloss": "week",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Je travaille cinq jours par semaine.",
+        "example_en": "I work five days a week."
       },
       "tags": [
         "time",
@@ -3610,7 +3856,11 @@
       "gloss": "please speak more slowly",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Pardon, parlez plus lentement, s'il vous plaît.",
+        "example_en": "Sorry, please speak more slowly."
+      }
     },
     {
       "kind": "noun",
@@ -3620,7 +3870,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "mois"
+        "plural": "mois",
+        "example": "Elle part en vacances le mois prochain.",
+        "example_en": "She's going on holiday next month."
       },
       "tags": [
         "time",
@@ -3699,7 +3951,9 @@
       "gloss": "year (counting: trois ans)",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Il apprend le français depuis deux ans.",
+        "example_en": "He has been learning French for two years."
       },
       "tags": [
         "time",
@@ -3713,7 +3967,11 @@
       "gloss": "I don't know",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Je ne sais pas où il habite.",
+        "example_en": "I don't know where he lives."
+      }
     },
     {
       "kind": "noun",
@@ -3722,7 +3980,9 @@
       "gloss": "year (duration, a school year)",
       "extras": {
         "gender": "f",
-        "article": "l'"
+        "article": "l'",
+        "example": "L'année scolaire commence en septembre.",
+        "example_en": "The school year starts in September."
       },
       "tags": [
         "time",
@@ -3740,7 +4000,9 @@
           "fs": "rouge",
           "mp": "rouges",
           "fp": "rouges"
-        }
+        },
+        "example": "Elle a une voiture rouge.",
+        "example_en": "She has a red car."
       },
       "tags": [
         "adjectifs",
@@ -3754,7 +4016,9 @@
       "gloss": "hour; o'clock",
       "extras": {
         "gender": "f",
-        "article": "l'"
+        "article": "l'",
+        "example": "Le cours dure une heure.",
+        "example_en": "The lesson lasts an hour."
       },
       "tags": [
         "time",
@@ -3833,7 +4097,11 @@
       "gloss": "how much does it cost?",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Combien ça coûte, ce sac ?",
+        "example_en": "How much is this bag?"
+      }
     },
     {
       "kind": "noun",
@@ -3842,7 +4110,9 @@
       "gloss": "minute",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "J'arrive dans cinq minutes.",
+        "example_en": "I'll be there in five minutes."
       },
       "tags": [
         "time",
@@ -3856,7 +4126,9 @@
       "gloss": "morning",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Je cours tous les matins.",
+        "example_en": "I run every morning."
       },
       "tags": [
         "time",
@@ -3939,7 +4211,9 @@
           "fs": "bleue",
           "mp": "bleus",
           "fp": "bleues"
-        }
+        },
+        "example": "Le ciel est bleu aujourd'hui.",
+        "example_en": "The sky is blue today."
       },
       "tags": [
         "adjectifs",
@@ -3953,7 +4227,9 @@
       "gloss": "evening",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "On dîne à huit heures du soir.",
+        "example_en": "We have dinner at eight in the evening."
       },
       "tags": [
         "time",
@@ -3967,7 +4243,11 @@
       "gloss": "the bill, please",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Monsieur, l'addition, s'il vous plaît.",
+        "example_en": "Excuse me, the bill, please."
+      }
     },
     {
       "kind": "noun",
@@ -3976,7 +4256,9 @@
       "gloss": "Monday",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Je commence un nouveau travail lundi.",
+        "example_en": "I start a new job on Monday."
       },
       "tags": [
         "time",
@@ -4004,7 +4286,9 @@
       "gloss": "Tuesday",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Mardi, j'ai un rendez-vous.",
+        "example_en": "On Tuesday, I have an appointment."
       },
       "tags": [
         "time",
@@ -4083,7 +4367,11 @@
       "gloss": "where is the toilet?",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Excusez-moi, où sont les toilettes ?",
+        "example_en": "Excuse me, where is the toilet?"
+      }
     },
     {
       "kind": "noun",
@@ -4092,7 +4380,9 @@
       "gloss": "Wednesday",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le mercredi, les enfants n'ont pas école.",
+        "example_en": "On Wednesdays, the children have no school."
       },
       "tags": [
         "time",
@@ -4110,7 +4400,9 @@
           "fs": "verte",
           "mp": "verts",
           "fp": "vertes"
-        }
+        },
+        "example": "Il porte un pull vert.",
+        "example_en": "He's wearing a green jumper."
       },
       "tags": [
         "adjectifs",
@@ -4124,7 +4416,9 @@
       "gloss": "Thursday",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "On se voit jeudi soir ?",
+        "example_en": "Shall we meet on Thursday evening?"
       },
       "tags": [
         "time",
@@ -4203,7 +4497,9 @@
       "gloss": "Friday",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Vendredi, je rentre tôt.",
+        "example_en": "On Friday, I'm coming home early."
       },
       "tags": [
         "time",
@@ -4216,7 +4512,9 @@
       "primary_form": "il y a",
       "gloss": "there is, there are",
       "extras": {
-        "literal": "it there has"
+        "literal": "it there has",
+        "example": "Il y a beaucoup de monde ici.",
+        "example_en": "There are a lot of people here."
       },
       "tags": [
         "greetings"
@@ -4229,7 +4527,9 @@
       "gloss": "Saturday",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Samedi, on fait la fête chez moi.",
+        "example_en": "On Saturday, we're having a party at my place."
       },
       "tags": [
         "time",
@@ -4243,7 +4543,9 @@
       "gloss": "Sunday",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le dimanche, tout est fermé.",
+        "example_en": "On Sundays, everything is closed."
       },
       "tags": [
         "time",
@@ -4352,7 +4654,9 @@
           "fs": "jaune",
           "mp": "jaunes",
           "fp": "jaunes"
-        }
+        },
+        "example": "Les bananes sont jaunes.",
+        "example_en": "Bananas are yellow."
       },
       "tags": [
         "adjectifs",
@@ -4365,7 +4669,9 @@
       "primary_form": "qu'est-ce que c'est ?",
       "gloss": "what is it?",
       "extras": {
-        "literal": "what is it that it is?"
+        "literal": "what is it that it is?",
+        "example": "Qu'est-ce que c'est, ce bruit ?",
+        "example_en": "What's that noise?"
       },
       "tags": [
         "greetings"
@@ -4378,7 +4684,9 @@
       "gloss": "town, city",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "La ville est belle la nuit.",
+        "example_en": "The city is beautiful at night."
       },
       "tags": [
         "city",
@@ -4392,7 +4700,9 @@
       "gloss": "street",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "La boulangerie est dans cette rue.",
+        "example_en": "The bakery is on this street."
       },
       "tags": [
         "city",
@@ -4406,7 +4716,9 @@
       "gloss": "shop",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le magasin ouvre à neuf heures.",
+        "example_en": "The shop opens at nine."
       },
       "tags": [
         "city",
@@ -4511,7 +4823,11 @@
       "gloss": "at what time?",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Le train part à quelle heure ?",
+        "example_en": "What time does the train leave?"
+      }
     },
     {
       "kind": "noun",
@@ -4520,7 +4836,9 @@
       "gloss": "market",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "On achète des légumes au marché.",
+        "example_en": "We buy vegetables at the market."
       },
       "tags": [
         "city",
@@ -4538,7 +4856,9 @@
           "fs": "noire",
           "mp": "noirs",
           "fp": "noires"
-        }
+        },
+        "example": "Je prends un café noir.",
+        "example_en": "I'll have a black coffee."
       },
       "tags": [
         "adjectifs",
@@ -4552,7 +4872,9 @@
       "gloss": "bakery",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Je passe à la boulangerie ce matin.",
+        "example_en": "I'm stopping by the bakery this morning."
       },
       "tags": [
         "city",
@@ -4630,7 +4952,9 @@
       "primary_form": "bon appétit",
       "gloss": "enjoy your meal",
       "extras": {
-        "literal": "good appetite"
+        "literal": "good appetite",
+        "example": "Le dîner est servi, bon appétit !",
+        "example_en": "Dinner is served, enjoy your meal!"
       },
       "tags": [
         "greetings"
@@ -4643,7 +4967,9 @@
       "gloss": "train station",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Le bus s'arrête devant la gare.",
+        "example_en": "The bus stops in front of the station."
       },
       "tags": [
         "city",
@@ -4657,7 +4983,9 @@
       "gloss": "school",
       "extras": {
         "gender": "f",
-        "article": "l'"
+        "article": "l'",
+        "example": "L'école est fermée en août.",
+        "example_en": "The school is closed in August."
       },
       "tags": [
         "city",
@@ -4685,7 +5013,9 @@
       "gloss": "church",
       "extras": {
         "gender": "f",
-        "article": "l'"
+        "article": "l'",
+        "example": "L'église est au centre du village.",
+        "example_en": "The church is in the centre of the village."
       },
       "tags": [
         "city",
@@ -4763,7 +5093,9 @@
       "primary_form": "santé !",
       "gloss": "cheers!",
       "extras": {
-        "literal": "health!"
+        "literal": "health!",
+        "example": "Allez, santé tout le monde !",
+        "example_en": "Come on, cheers everyone!"
       },
       "tags": [
         "greetings"
@@ -4780,7 +5112,9 @@
           "fs": "blanche",
           "mp": "blancs",
           "fp": "blanches"
-        }
+        },
+        "example": "Elle porte une chemise blanche.",
+        "example_en": "She's wearing a white shirt."
       },
       "tags": [
         "adjectifs",
@@ -4794,7 +5128,9 @@
       "gloss": "bank",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "La banque ferme à midi.",
+        "example_en": "The bank closes at noon."
       },
       "tags": [
         "city",
@@ -4809,7 +5145,9 @@
       "extras": {
         "gender": "m",
         "article": "l'",
-        "plural": "hôpitaux"
+        "plural": "hôpitaux",
+        "example": "Mon oncle est à l'hôpital.",
+        "example_en": "My uncle is in hospital."
       },
       "tags": [
         "city",
@@ -4888,7 +5226,11 @@
       "gloss": "have a good day",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Bonne journée, à ce soir !",
+        "example_en": "Have a good day, see you tonight!"
+      }
     },
     {
       "kind": "noun",
@@ -4897,7 +5239,9 @@
       "gloss": "restaurant",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Ce soir, on dîne au restaurant.",
+        "example_en": "Tonight we're eating at a restaurant."
       },
       "tags": [
         "city",
@@ -4912,7 +5256,9 @@
       "extras": {
         "gender": "m",
         "article": "le",
-        "plural": "travaux"
+        "plural": "travaux",
+        "example": "Je vais au travail en bus.",
+        "example_en": "I go to work by bus."
       },
       "tags": [
         "city",
@@ -4930,7 +5276,9 @@
           "fs": "grise",
           "mp": "gris",
           "fp": "grises"
-        }
+        },
+        "example": "Mon chat est gris et blanc.",
+        "example_en": "My cat is grey and white."
       },
       "tags": [
         "adjectifs",
@@ -4944,7 +5292,9 @@
       "gloss": "money; silver",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Je n'ai pas d'argent sur moi.",
+        "example_en": "I don't have any money on me."
       },
       "tags": [
         "objects",
@@ -5050,7 +5400,11 @@
       "gloss": "have a good weekend",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "À lundi, bon week-end !",
+        "example_en": "See you on Monday, have a good weekend!"
+      }
     },
     {
       "kind": "noun",
@@ -5059,7 +5413,9 @@
       "gloss": "telephone",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Ton téléphone sonne !",
+        "example_en": "Your phone is ringing!"
       },
       "tags": [
         "objects",

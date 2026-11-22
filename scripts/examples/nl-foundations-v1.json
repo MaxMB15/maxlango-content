@@ -1,0 +1,686 @@
+{
+ "aardappel": {
+  "example": "We eten vaak aardappelen met groente.",
+  "example_en": "We often eat potatoes with vegetables."
+ },
+ "aardig": {
+  "example": "Onze nieuwe buren zijn heel aardig.",
+  "example_en": "Our new neighbours are very nice."
+ },
+ "alsjeblieft": {
+  "example": "Doe het licht uit, alsjeblieft.",
+  "example_en": "Turn off the light, please."
+ },
+ "alstublieft": {
+  "example": "Mag ik twee koffie, alstublieft?",
+  "example_en": "Could I have two coffees, please?"
+ },
+ "appartement": {
+  "example": "Ons appartement heeft een balkon.",
+  "example_en": "Our apartment has a balcony."
+ },
+ "appel": {
+  "example": "Deze appels zijn lekker zoet.",
+  "example_en": "These apples are nice and sweet."
+ },
+ "arm": {
+  "example": "Hij heeft zijn arm gebroken.",
+  "example_en": "He has broken his arm."
+ },
+ "avond": {
+  "example": "Het was een gezellige avond.",
+  "example_en": "It was a lovely evening."
+ },
+ "avondeten": {
+  "example": "Het avondeten is om zes uur.",
+  "example_en": "Dinner is at six."
+ },
+ "baby": {
+  "example": "De baby heeft honger.",
+  "example_en": "The baby is hungry."
+ },
+ "badkamer": {
+  "example": "De badkamer is boven.",
+  "example_en": "The bathroom is upstairs."
+ },
+ "bakker": {
+  "example": "De bakker op de hoek is erg goed.",
+  "example_en": "The bakery on the corner is very good."
+ },
+ "bank": {
+  "example": "Na het werk zit ik op de bank.",
+  "example_en": "After work I sit on the sofa."
+ },
+ "bed": {
+  "example": "Ik ga vroeg naar bed.",
+  "example_en": "I'm going to bed early."
+ },
+ "bedankt": {
+  "example": "Bedankt voor het eten!",
+  "example_en": "Thanks for the meal!"
+ },
+ "been": {
+  "example": "Mijn benen zijn moe van het fietsen.",
+  "example_en": "My legs are tired from cycling."
+ },
+ "bier": {
+  "example": "Hij drinkt geen bier.",
+  "example_en": "He doesn't drink beer."
+ },
+ "blauw": {
+  "example": "Hij heeft een blauwe auto.",
+  "example_en": "He has a blue car."
+ },
+ "blij": {
+  "example": "Ik ben blij dat je er bent.",
+  "example_en": "I'm glad you're here."
+ },
+ "boter": {
+  "example": "De boter staat in de koelkast.",
+  "example_en": "The butter is in the fridge."
+ },
+ "broer": {
+  "example": "Mijn broer is twee jaar ouder.",
+  "example_en": "My brother is two years older."
+ },
+ "broodje": {
+  "example": "Ik neem een broodje kaas.",
+  "example_en": "I'll have a cheese sandwich."
+ },
+ "brug": {
+  "example": "Fiets over de brug en dan rechts.",
+  "example_en": "Cycle over the bridge and then turn right."
+ },
+ "bruin": {
+  "example": "Ik eet liever bruin brood.",
+  "example_en": "I prefer brown bread."
+ },
+ "buik": {
+  "example": "Ik heb pijn in mijn buik.",
+  "example_en": "I have a pain in my stomach."
+ },
+ "buurman": {
+  "example": "De buurman helpt ons met de tuin.",
+  "example_en": "The neighbour is helping us with the garden."
+ },
+ "dank-je-wel": {
+  "example": "Dank je wel voor het cadeau!",
+  "example_en": "Thank you for the present!"
+ },
+ "dank-u-wel": {
+  "example": "Dank u wel, dat is heel vriendelijk.",
+  "example_en": "Thank you, that's very kind."
+ },
+ "dinsdag": {
+  "example": "Op dinsdag ga ik zwemmen.",
+  "example_en": "On Tuesdays I go swimming."
+ },
+ "dochter": {
+  "example": "Onze dochter is drie jaar oud.",
+  "example_en": "Our daughter is three years old."
+ },
+ "doei": {
+  "example": "Doei, ik moet nu weg!",
+  "example_en": "Bye, I have to go now!"
+ },
+ "donderdag": {
+  "example": "De markt is op donderdag.",
+  "example_en": "The market is on Thursday."
+ },
+ "drop": {
+  "example": "Veel Nederlanders eten graag drop.",
+  "example_en": "Lots of Dutch people like liquorice."
+ },
+ "duur": {
+  "example": "Die auto is te duur.",
+  "example_en": "That car is too expensive."
+ },
+ "eet-smakelijk": {
+  "example": "Het eten is klaar, eet smakelijk!",
+  "example_en": "Dinner is ready, enjoy your meal!"
+ },
+ "ei": {
+  "example": "Ik bak een ei.",
+  "example_en": "I'm frying an egg."
+ },
+ "er-is-er-zijn": {
+  "example": "Er is koffie en er zijn koekjes.",
+  "example_en": "There's coffee and there are biscuits."
+ },
+ "fiets": {
+  "example": "Mijn fiets is gestolen.",
+  "example_en": "My bike has been stolen."
+ },
+ "fijn-weekend": {
+  "example": "Tot maandag, fijn weekend!",
+  "example_en": "See you on Monday, have a nice weekend!"
+ },
+ "fijne-dag": {
+  "example": "Hier is uw bon, fijne dag!",
+  "example_en": "Here's your receipt, have a nice day!"
+ },
+ "fruit": {
+  "example": "Ik neem fruit mee naar mijn werk.",
+  "example_en": "I take fruit to work."
+ },
+ "geel": {
+  "example": "Mijn nieuwe jas is geel.",
+  "example_en": "My new coat is yellow."
+ },
+ "geen-idee": {
+  "example": "Geen idee, vraag het aan je moeder.",
+  "example_en": "No idea, ask your mother."
+ },
+ "geld": {
+  "example": "Ik heb geen geld bij me.",
+  "example_en": "I don't have any money on me."
+ },
+ "goed": {
+  "example": "Dat is een goed idee!",
+  "example_en": "That's a good idea!"
+ },
+ "goed-dank-je": {
+  "example": "Goed, dank je, en met jou?",
+  "example_en": "Fine, thanks, and you?"
+ },
+ "goedemiddag": {
+  "example": "Goedemiddag, ik heb een afspraak om twee uur.",
+  "example_en": "Good afternoon, I have an appointment at two."
+ },
+ "goedemorgen": {
+  "example": "Goedemorgen, heb je goed geslapen?",
+  "example_en": "Good morning, did you sleep well?"
+ },
+ "goedenavond": {
+  "example": "Goedenavond, een tafel voor twee, graag.",
+  "example_en": "Good evening, a table for two, please."
+ },
+ "goedkoop": {
+  "example": "Deze winkel is heel goedkoop.",
+  "example_en": "This shop is very cheap."
+ },
+ "graag-gedaan": {
+  "example": "Graag gedaan, het was geen moeite.",
+  "example_en": "You're welcome, it was no trouble."
+ },
+ "gracht": {
+  "example": "Ze wonen aan een gracht in Amsterdam.",
+  "example_en": "They live on a canal in Amsterdam."
+ },
+ "groen": {
+  "example": "De bomen zijn weer groen.",
+  "example_en": "The trees are green again."
+ },
+ "groente": {
+  "example": "Kinderen moeten veel groente eten.",
+  "example_en": "Children should eat lots of vegetables."
+ },
+ "groot": {
+  "example": "Hij is groot voor zijn leeftijd.",
+  "example_en": "He's tall for his age."
+ },
+ "haar": {
+  "example": "Ze heeft lang blond haar.",
+  "example_en": "She has long blond hair."
+ },
+ "hagelslag": {
+  "example": "Ik eet graag brood met hagelslag.",
+  "example_en": "I like bread with chocolate sprinkles."
+ },
+ "hallo": {
+  "example": "Hallo, welkom in ons huis!",
+  "example_en": "Hello, welcome to our house!"
+ },
+ "hand": {
+  "example": "Was je handen voor het eten.",
+  "example_en": "Wash your hands before dinner."
+ },
+ "hart": {
+  "example": "Mijn hart klopt snel.",
+  "example_en": "My heart is beating fast."
+ },
+ "het-maakt-niet-uit": {
+  "example": "Het maakt niet uit, ik vind alles lekker.",
+  "example_en": "It doesn't matter, I like everything."
+ },
+ "hoe-gaat-het": {
+  "example": "Hallo, hoe gaat het?",
+  "example_en": "Hello, how are you?"
+ },
+ "hoe-laat-is-het": {
+  "example": "Mijn telefoon is leeg, hoe laat is het?",
+  "example_en": "My phone is dead, what time is it?"
+ },
+ "hoeveel-kost-het": {
+  "example": "Mooi boek, hoeveel kost het?",
+  "example_en": "Nice book, how much does it cost?"
+ },
+ "hoi": {
+  "example": "Hoi, alles goed met je?",
+  "example_en": "Hi, are you doing okay?"
+ },
+ "hoofd": {
+  "example": "Hij schudt zijn hoofd.",
+  "example_en": "He shakes his head."
+ },
+ "ik-begrijp-het-niet": {
+  "example": "Ik begrijp het niet, wat bedoel je?",
+  "example_en": "I don't understand, what do you mean?"
+ },
+ "ik-weet-het-niet": {
+  "example": "Ik weet het niet, misschien morgen.",
+  "example_en": "I don't know, maybe tomorrow."
+ },
+ "ja": {
+  "example": "Ja, dat is goed.",
+  "example_en": "Yes, that's fine."
+ },
+ "jaar": {
+  "example": "Ik woon hier al drie jaar.",
+  "example_en": "I've lived here for three years."
+ },
+ "jong": {
+  "example": "Mijn moeder ziet er jong uit.",
+  "example_en": "My mother looks young."
+ },
+ "jongen": {
+  "example": "Die jongen fietst erg snel.",
+  "example_en": "That boy cycles very fast."
+ },
+ "kaas": {
+  "example": "Wil je kaas op je brood?",
+  "example_en": "Do you want cheese on your bread?"
+ },
+ "kerk": {
+  "example": "De kerk staat midden in het dorp.",
+  "example_en": "The church is in the middle of the village."
+ },
+ "keuken": {
+  "example": "We eten meestal in de keuken.",
+  "example_en": "We usually eat in the kitchen."
+ },
+ "kip": {
+  "example": "Ik maak kip met rijst.",
+  "example_en": "I'm making chicken with rice."
+ },
+ "klein": {
+  "example": "We hebben een kleine keuken.",
+  "example_en": "We have a small kitchen."
+ },
+ "koekje": {
+  "example": "Mag ik nog een koekje?",
+  "example_en": "May I have another biscuit?"
+ },
+ "koffie": {
+  "example": "Deze koffie is te sterk.",
+  "example_en": "This coffee is too strong."
+ },
+ "koud": {
+  "example": "Het water is erg koud.",
+  "example_en": "The water is very cold."
+ },
+ "kunt-u-dat-herhalen": {
+  "example": "Sorry, kunt u dat herhalen?",
+  "example_en": "Sorry, could you repeat that?"
+ },
+ "lekker": {
+  "example": "Wat ruikt dat lekker!",
+  "example_en": "That smells delicious!"
+ },
+ "lelijk": {
+  "example": "Ik vind die jas lelijk.",
+  "example_en": "I think that coat is ugly."
+ },
+ "lunch": {
+  "example": "Na de lunch gaan we wandelen.",
+  "example_en": "After lunch we're going for a walk."
+ },
+ "maand": {
+  "example": "Deze maand werk ik veel.",
+  "example_en": "I'm working a lot this month."
+ },
+ "maandag": {
+  "example": "Maandag moet ik weer werken.",
+  "example_en": "On Monday I have to work again."
+ },
+ "mag-ik-de-rekening": {
+  "example": "Het was heerlijk, mag ik de rekening?",
+  "example_en": "It was lovely, may I have the bill?"
+ },
+ "makkelijk": {
+  "example": "Nederlands is niet makkelijk.",
+  "example_en": "Dutch isn't easy."
+ },
+ "man": {
+  "example": "Ik ga met mijn man op vakantie.",
+  "example_en": "I'm going on holiday with my husband."
+ },
+ "markt": {
+  "example": "Op de markt is alles vers.",
+  "example_en": "Everything is fresh at the market."
+ },
+ "meisje": {
+  "example": "Hebben ze een jongen of een meisje?",
+  "example_en": "Do they have a boy or a girl?"
+ },
+ "melk": {
+  "example": "Er is geen melk meer.",
+  "example_en": "There's no milk left."
+ },
+ "mens": {
+  "example": "Er zijn veel mensen op straat.",
+  "example_en": "There are a lot of people in the street."
+ },
+ "middag": {
+  "example": "Ik werk alleen in de middag.",
+  "example_en": "I only work in the afternoon."
+ },
+ "minuut": {
+  "example": "De bus komt over vijf minuten.",
+  "example_en": "The bus is coming in five minutes."
+ },
+ "moeder": {
+  "example": "Mijn moeder belt me elke zondag.",
+  "example_en": "My mother calls me every Sunday."
+ },
+ "moeilijk": {
+  "example": "Ik vind deze les moeilijk.",
+  "example_en": "I find this lesson difficult."
+ },
+ "mond": {
+  "example": "Praat niet met je mond vol.",
+  "example_en": "Don't talk with your mouth full."
+ },
+ "mooi": {
+  "example": "Wat een mooie dag!",
+  "example_en": "What a beautiful day!"
+ },
+ "naam": {
+  "example": "Wat is je naam?",
+  "example_en": "What's your name?"
+ },
+ "nee": {
+  "example": "Nee, dank je, ik heb al gegeten.",
+  "example_en": "No, thank you, I've already eaten."
+ },
+ "neef": {
+  "example": "Mijn neef en ik zitten in dezelfde klas.",
+  "example_en": "My cousin and I are in the same class."
+ },
+ "neus": {
+  "example": "Ik heb een rode neus van de kou.",
+  "example_en": "My nose is red from the cold."
+ },
+ "nicht": {
+  "example": "Mijn nicht gaat volgend jaar trouwen.",
+  "example_en": "My niece is getting married next year."
+ },
+ "nieuw": {
+  "example": "Zij heeft een nieuwe baan.",
+  "example_en": "She has a new job."
+ },
+ "noun:dag": {
+  "example": "Het was een lange dag op het werk.",
+  "example_en": "It was a long day at work."
+ },
+ "ochtend": {
+  "example": "Elke ochtend laat ik de hond uit.",
+  "example_en": "Every morning I walk the dog."
+ },
+ "oke": {
+  "example": "Oké, dan zie ik je morgen.",
+  "example_en": "OK, then I'll see you tomorrow."
+ },
+ "oma": {
+  "example": "We gaan zondag naar oma.",
+  "example_en": "We're going to grandma's on Sunday."
+ },
+ "ontbijt": {
+  "example": "Het ontbijt staat klaar.",
+  "example_en": "Breakfast is ready."
+ },
+ "oog": {
+  "example": "Ze heeft groene ogen.",
+  "example_en": "She has green eyes."
+ },
+ "oom": {
+  "example": "Mijn oom heeft een boerderij.",
+  "example_en": "My uncle has a farm."
+ },
+ "oor": {
+  "example": "Ze heeft een bloem achter haar oor.",
+  "example_en": "She has a flower behind her ear."
+ },
+ "opa": {
+  "example": "Opa vertelt graag verhalen.",
+  "example_en": "Grandpa loves telling stories."
+ },
+ "oranje": {
+  "example": "Ze draagt een oranje jurk.",
+  "example_en": "She's wearing an orange dress."
+ },
+ "oud": {
+  "example": "Hoe oud ben je?",
+  "example_en": "How old are you?"
+ },
+ "ouder": {
+  "example": "Mijn ouders wonen in Utrecht.",
+  "example_en": "My parents live in Utrecht."
+ },
+ "pardon": {
+  "example": "Pardon, mag ik er even langs?",
+  "example_en": "Excuse me, may I get past?"
+ },
+ "phrase:dag": {
+  "example": "Dag, ik ga nu naar huis.",
+  "example_en": "Bye, I'm going home now."
+ },
+ "plein": {
+  "example": "We spreken af op het plein.",
+  "example_en": "We're meeting on the square."
+ },
+ "prettig-kennis-te-maken": {
+  "example": "Hallo, prettig kennis te maken!",
+  "example_en": "Hello, nice to meet you!"
+ },
+ "proost": {
+  "example": "Op ons nieuwe huis, proost!",
+  "example_en": "To our new house, cheers!"
+ },
+ "restaurant": {
+  "example": "Dit restaurant is altijd vol.",
+  "example_en": "This restaurant is always full."
+ },
+ "rijst": {
+  "example": "Hoe lang moet de rijst koken?",
+  "example_en": "How long does the rice need to cook?"
+ },
+ "rood": {
+  "example": "Het stoplicht is rood.",
+  "example_en": "The traffic light is red."
+ },
+ "rug": {
+  "example": "Mijn rug doet pijn.",
+  "example_en": "My back hurts."
+ },
+ "school": {
+  "example": "Mijn kinderen fietsen naar school.",
+  "example_en": "My children cycle to school."
+ },
+ "slaapkamer": {
+  "example": "Het huis heeft drie slaapkamers.",
+  "example_en": "The house has three bedrooms."
+ },
+ "slecht": {
+  "example": "Het weer is slecht vandaag.",
+  "example_en": "The weather is bad today."
+ },
+ "sleutel": {
+  "example": "Ik kan mijn sleutel niet vinden.",
+  "example_en": "I can't find my key."
+ },
+ "sorry": {
+  "example": "Sorry, ik ben te laat.",
+  "example_en": "Sorry, I'm late."
+ },
+ "spreekt-u-engels": {
+  "example": "Goedemiddag, spreekt u Engels?",
+  "example_en": "Good afternoon, do you speak English?"
+ },
+ "stad": {
+  "example": "We gaan zaterdag naar de stad.",
+  "example_en": "We're going into town on Saturday."
+ },
+ "station": {
+  "example": "Hoe kom ik bij het station?",
+  "example_en": "How do I get to the station?"
+ },
+ "straat": {
+  "example": "Ik woon in deze straat.",
+  "example_en": "I live on this street."
+ },
+ "stroopwafel": {
+  "example": "Een stroopwafel is lekker bij de koffie.",
+  "example_en": "A syrup waffle is nice with coffee."
+ },
+ "suiker": {
+  "example": "Ik neem geen suiker, dank je.",
+  "example_en": "No sugar for me, thanks."
+ },
+ "taart": {
+  "example": "Er is taart voor mijn verjaardag!",
+  "example_en": "There's cake for my birthday!"
+ },
+ "tand": {
+  "example": "Ik poets twee keer per dag mijn tanden.",
+  "example_en": "I brush my teeth twice a day."
+ },
+ "tante": {
+  "example": "Morgen komt mijn tante op bezoek.",
+  "example_en": "My aunt is coming to visit tomorrow."
+ },
+ "telefoon": {
+  "example": "Waar is mijn telefoon?",
+  "example_en": "Where's my phone?"
+ },
+ "thee": {
+  "example": "Zal ik thee zetten?",
+  "example_en": "Shall I make some tea?"
+ },
+ "tot-morgen": {
+  "example": "Ik ga naar huis, tot morgen!",
+  "example_en": "I'm going home, see you tomorrow!"
+ },
+ "tot-straks": {
+  "example": "Ik ga even boodschappen doen, tot straks!",
+  "example_en": "I'm just going shopping, see you later!"
+ },
+ "tot-ziens": {
+  "example": "Tot ziens, en bedankt voor alles!",
+  "example_en": "Goodbye, and thanks for everything!"
+ },
+ "tuin": {
+  "example": "In de zomer zitten we in de tuin.",
+  "example_en": "In summer we sit in the garden."
+ },
+ "uur": {
+  "example": "Ik slaap acht uur per nacht.",
+  "example_en": "I sleep eight hours a night."
+ },
+ "vader": {
+  "example": "Mijn vader kookt vanavond.",
+  "example_en": "My father is cooking tonight."
+ },
+ "vis": {
+  "example": "Hij houdt niet van vis.",
+  "example_en": "He doesn't like fish."
+ },
+ "vlees": {
+  "example": "Ik eet geen vlees.",
+  "example_en": "I don't eat meat."
+ },
+ "voet": {
+  "example": "Ik heb koude voeten.",
+  "example_en": "I have cold feet."
+ },
+ "vrijdag": {
+  "example": "Vrijdag ga ik met vrienden uit.",
+  "example_en": "On Friday I'm going out with friends."
+ },
+ "vrouw": {
+  "example": "Die vrouw is mijn lerares.",
+  "example_en": "That woman is my teacher."
+ },
+ "waar-is-de-wc": {
+  "example": "Meneer, waar is de wc?",
+  "example_en": "Excuse me, sir, where is the toilet?"
+ },
+ "warm": {
+  "example": "Vandaag is het erg warm.",
+  "example_en": "It's very hot today."
+ },
+ "wat-is-dat": {
+  "example": "Kijk, wat is dat?",
+  "example_en": "Look, what's that?"
+ },
+ "week": {
+  "example": "Ik werk vier dagen per week.",
+  "example_en": "I work four days a week."
+ },
+ "welterusten": {
+  "example": "Welterusten, slaap lekker!",
+  "example_en": "Good night, sleep well!"
+ },
+ "werk": {
+  "example": "Hoe was het op je werk?",
+  "example_en": "How was work?"
+ },
+ "wijn": {
+  "example": "We drinken een glas wijn bij het eten.",
+  "example_en": "We drink a glass of wine with dinner."
+ },
+ "winkel": {
+  "example": "De winkel gaat om zes uur dicht.",
+  "example_en": "The shop closes at six."
+ },
+ "wit": {
+  "example": "Wil je rode of witte wijn?",
+  "example_en": "Do you want red or white wine?"
+ },
+ "woensdag": {
+  "example": "Woensdag ga ik naar de tandarts.",
+  "example_en": "On Wednesday I'm going to the dentist."
+ },
+ "woonkamer": {
+  "example": "We kijken tv in de woonkamer.",
+  "example_en": "We watch TV in the living room."
+ },
+ "zaterdag": {
+  "example": "Op zaterdag slaap ik lekker uit.",
+  "example_en": "On Saturdays I have a nice lie-in."
+ },
+ "ziekenhuis": {
+  "example": "Hij werkt in het ziekenhuis.",
+  "example_en": "He works at the hospital."
+ },
+ "zondag": {
+  "example": "Op zondag zijn veel winkels dicht.",
+  "example_en": "On Sundays many shops are closed."
+ },
+ "zoon": {
+  "example": "Hun zoon gaat al naar school.",
+  "example_en": "Their son already goes to school."
+ },
+ "zout": {
+  "example": "Er zit te veel zout in de soep.",
+  "example_en": "There's too much salt in the soup."
+ },
+ "zus": {
+  "example": "Mijn zus woont in Rotterdam.",
+  "example_en": "My sister lives in Rotterdam."
+ },
+ "zwart": {
+  "example": "Ik drink mijn koffie zwart.",
+  "example_en": "I drink my coffee black."
+ }
+}

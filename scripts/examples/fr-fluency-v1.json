@@ -1,0 +1,482 @@
+{
+ "a-la-limite": {
+  "example": "À la limite, on dormira chez mes parents.",
+  "example_en": "At a push, we'll sleep at my parents' place."
+ },
+ "a-vrai-dire": {
+  "example": "À vrai dire, je n'ai pas lu le livre.",
+  "example_en": "To tell the truth, I haven't read the book."
+ },
+ "actuel": {
+  "example": "La situation actuelle est assez compliquée.",
+  "example_en": "The current situation is fairly complicated."
+ },
+ "amitie": {
+  "example": "Notre amitié dure depuis vingt ans.",
+  "example_en": "Our friendship has lasted twenty years."
+ },
+ "amour": {
+  "example": "Il lui a écrit une lettre d'amour.",
+  "example_en": "He wrote her a love letter."
+ },
+ "ancien": {
+  "example": "C'est mon ancien professeur de maths.",
+  "example_en": "That's my former maths teacher."
+ },
+ "appeler-un-chat-un-chat": {
+  "example": "Appelons un chat un chat, ce plan est nul.",
+  "example_en": "Let's call a spade a spade, this plan is rubbish."
+ },
+ "avenir": {
+  "example": "Personne ne sait ce que l'avenir nous réserve.",
+  "example_en": "Nobody knows what the future holds for us."
+ },
+ "avis": {
+  "example": "À mon avis, c'est une mauvaise idée.",
+  "example_en": "In my opinion, it's a bad idea."
+ },
+ "avoir-d-autres-chats-a-fouetter": {
+  "example": "Désolé, j'ai d'autres chats à fouetter.",
+  "example_en": "Sorry, I have bigger fish to fry."
+ },
+ "avoir-la-flemme": {
+  "example": "J'ai la flemme de faire la vaisselle.",
+  "example_en": "I can't be bothered to do the dishes."
+ },
+ "avoir-la-peche": {
+  "example": "Tu as la pêche ce matin !",
+  "example_en": "You're full of beans this morning!"
+ },
+ "avoir-la-tete-dans-le-cul": {
+  "example": "Désolé, j'ai la tête dans le cul ce matin.",
+  "example_en": "Sorry, I'm totally groggy this morning."
+ },
+ "avoir-le-cafard": {
+  "example": "J'ai le cafard depuis la fin des vacances.",
+  "example_en": "I've been feeling down since the holidays ended."
+ },
+ "avoir-le-coup-de-foudre": {
+  "example": "J'ai eu le coup de foudre pour Lisbonne.",
+  "example_en": "I fell in love with Lisbon at first sight."
+ },
+ "avoir-un-chat-dans-la-gorge": {
+  "example": "Excusez-moi, j'ai un chat dans la gorge.",
+  "example_en": "Excuse me, I have a frog in my throat."
+ },
+ "avoir-un-poil-dans-la-main": {
+  "example": "Mon colocataire a un poil dans la main.",
+  "example_en": "My flatmate is bone idle."
+ },
+ "bete": {
+  "example": "Ne sois pas bête, viens avec nous !",
+  "example_en": "Don't be silly, come with us!"
+ },
+ "bibliotheque": {
+  "example": "Je vais à la bibliothèque pour réviser.",
+  "example_en": "I'm going to the library to revise."
+ },
+ "bof": {
+  "example": "Bof, ce film ne m'a pas vraiment plu.",
+  "example_en": "Meh, I didn't really like that film."
+ },
+ "bref": {
+  "example": "Bref, la soirée a été un vrai désastre.",
+  "example_en": "In short, the evening was a real disaster."
+ },
+ "c-est-la-vie": {
+  "example": "On a perdu le match, mais c'est la vie.",
+  "example_en": "We lost the match, but that's life."
+ },
+ "c-est-pas-mon-truc": {
+  "example": "Le camping, c'est pas mon truc.",
+  "example_en": "Camping isn't my thing."
+ },
+ "ca-marche": {
+  "example": "Ça marche, je t'attends devant le cinéma.",
+  "example_en": "Sounds good, I'll wait for you outside the cinema."
+ },
+ "ca-me-fait-une-belle-jambe": {
+  "example": "Ses excuses, ça me fait une belle jambe.",
+  "example_en": "His apologies, a fat lot of good they do me."
+ },
+ "casser-les-pieds": {
+  "example": "Tu commences à me casser les pieds avec tes questions.",
+  "example_en": "You're starting to get on my nerves with your questions."
+ },
+ "ce-n-est-pas-la-mer-a-boire": {
+  "example": "Courage, ce n'est pas la mer à boire !",
+  "example_en": "Come on, it's not that hard!"
+ },
+ "chance": {
+  "example": "Tu as de la chance d'habiter près de la mer.",
+  "example_en": "You're lucky to live near the sea."
+ },
+ "chercher-la-petite-bete": {
+  "example": "Mon chef cherche toujours la petite bête.",
+  "example_en": "My boss always nitpicks."
+ },
+ "choix": {
+  "example": "Je n'ai pas le choix, je dois partir.",
+  "example_en": "I have no choice, I have to leave."
+ },
+ "coin": {
+  "example": "Il y a une boulangerie au coin de la rue.",
+  "example_en": "There's a bakery on the corner of the street."
+ },
+ "colere": {
+  "example": "Elle était en colère contre son voisin.",
+  "example_en": "She was angry with her neighbour."
+ },
+ "couter-la-peau-des-fesses": {
+  "example": "Ce mariage va coûter la peau des fesses.",
+  "example_en": "This wedding is going to cost a fortune."
+ },
+ "couter-les-yeux-de-la-tete": {
+  "example": "Les loyers à Paris coûtent les yeux de la tête.",
+  "example_en": "Rents in Paris cost an arm and a leg."
+ },
+ "creve": {
+  "example": "Je suis crevé, je vais me coucher.",
+  "example_en": "I'm knackered, I'm going to bed."
+ },
+ "culture": {
+  "example": "Elle s'intéresse beaucoup à la culture japonaise.",
+  "example_en": "She's very interested in Japanese culture."
+ },
+ "deception": {
+  "example": "Quelle déception, le restaurant était fermé !",
+  "example_en": "What a disappointment, the restaurant was closed!"
+ },
+ "depaysement": {
+  "example": "Elle adore voyager pour le dépaysement.",
+  "example_en": "She loves travelling for the feeling of being somewhere new."
+ },
+ "donner-sa-langue-au-chat": {
+  "example": "Je donne ma langue au chat, c'est quoi la réponse ?",
+  "example_en": "I give up, what's the answer?"
+ },
+ "doux": {
+  "example": "Ce pull en laine est vraiment doux.",
+  "example_en": "This wool jumper is really soft."
+ },
+ "droit": {
+  "example": "Tout le monde a le droit de se tromper.",
+  "example_en": "Everyone has the right to make mistakes."
+ },
+ "du-coup": {
+  "example": "Il pleuvait, du coup on est restés à la maison.",
+  "example_en": "It was raining, so we stayed at home."
+ },
+ "echec": {
+  "example": "Cet échec lui a beaucoup appris.",
+  "example_en": "This failure taught him a lot."
+ },
+ "egalite": {
+  "example": "L'égalité entre hommes et femmes progresse lentement.",
+  "example_en": "Equality between men and women is progressing slowly."
+ },
+ "election": {
+  "example": "L'élection présidentielle a lieu au printemps.",
+  "example_en": "The presidential election takes place in spring."
+ },
+ "en-avoir-marre": {
+  "example": "J'en ai marre de cette pluie !",
+  "example_en": "I'm fed up with this rain!"
+ },
+ "en-tout-cas": {
+  "example": "En tout cas, merci beaucoup pour ton aide.",
+  "example_en": "Anyway, thanks a lot for your help."
+ },
+ "environnement": {
+  "example": "Le vélo est bon pour l'environnement.",
+  "example_en": "Cycling is good for the environment."
+ },
+ "espoir": {
+  "example": "Il ne faut jamais perdre espoir.",
+  "example_en": "You must never lose hope."
+ },
+ "etre-au-bout-du-rouleau": {
+  "example": "Après cette semaine, je suis au bout du rouleau.",
+  "example_en": "After this week, I'm at the end of my rope."
+ },
+ "etre-dans-la-lune": {
+  "example": "Pardon, j'étais dans la lune.",
+  "example_en": "Sorry, I was miles away."
+ },
+ "eventuel": {
+  "example": "Prévenez-nous de tout retard éventuel.",
+  "example_en": "Let us know about any possible delay."
+ },
+ "faire-d-une-pierre-deux-coups": {
+  "example": "Comme ça, on fait d'une pierre deux coups.",
+  "example_en": "That way, we kill two birds with one stone."
+ },
+ "faire-la-grasse-matinee": {
+  "example": "Ce week-end, je vais faire la grasse matinée.",
+  "example_en": "This weekend, I'm going to have a lie-in."
+ },
+ "faux": {
+  "example": "C'est faux, il n'a jamais dit ça.",
+  "example_en": "That's not true, he never said that."
+ },
+ "fier": {
+  "example": "Ses parents sont très fiers de lui.",
+  "example_en": "His parents are very proud of him."
+ },
+ "flemme": {
+  "example": "Quelle flemme de faire les courses ce soir !",
+  "example_en": "I really can't be bothered to do the shopping tonight!"
+ },
+ "frais": {
+  "example": "Il fait frais ce matin, prends une veste.",
+  "example_en": "It's cool this morning, take a jacket."
+ },
+ "genereux": {
+  "example": "Merci, c'est très généreux de ta part.",
+  "example_en": "Thanks, that's very generous of you."
+ },
+ "gouvernement": {
+  "example": "Le gouvernement a annoncé une nouvelle réforme.",
+  "example_en": "The government has announced a new reform."
+ },
+ "guerre": {
+  "example": "Mon grand-père a connu la guerre.",
+  "example_en": "My grandfather lived through the war."
+ },
+ "hate": {
+  "example": "Dans ma hâte, j'ai oublié mon téléphone.",
+  "example_en": "In my haste, I forgot my phone."
+ },
+ "histoire": {
+  "example": "Le soir, je lis une histoire à mon fils.",
+  "example_en": "In the evening, I read my son a story."
+ },
+ "honte": {
+  "example": "J'ai eu honte de mon comportement.",
+  "example_en": "I was ashamed of my behaviour."
+ },
+ "idee": {
+  "example": "J'ai une idée, si on allait à la plage ?",
+  "example_en": "I have an idea, how about going to the beach?"
+ },
+ "il-n-y-a-pas-de-quoi": {
+  "example": "Il n'y a pas de quoi, c'était un plaisir.",
+  "example_en": "Don't mention it, it was a pleasure."
+ },
+ "il-pleut-des-cordes": {
+  "example": "Prends un parapluie, il pleut des cordes !",
+  "example_en": "Take an umbrella, it's raining cats and dogs!"
+ },
+ "il-y-a-anguille-sous-roche": {
+  "example": "Ils sont bizarres aujourd'hui, il y a anguille sous roche.",
+  "example_en": "They're acting strange today, something fishy is going on."
+ },
+ "important": {
+  "example": "Il est important de boire beaucoup d'eau.",
+  "example_en": "It's important to drink plenty of water."
+ },
+ "inquiet": {
+  "example": "Je suis inquiet pour lui, il ne répond pas.",
+  "example_en": "I'm worried about him, he isn't answering."
+ },
+ "j-ai-hate": {
+  "example": "J'ai hâte de partir en vacances !",
+  "example_en": "I can't wait to go on holiday!"
+ },
+ "jaloux": {
+  "example": "Mon chien est jaloux quand je caresse le chat.",
+  "example_en": "My dog gets jealous when I stroke the cat."
+ },
+ "je-t-en-prie": {
+  "example": "Je t'en prie, sers-toi autant que tu veux.",
+  "example_en": "Go ahead, help yourself to as much as you like."
+ },
+ "joie": {
+  "example": "Elle a sauté de joie en apprenant la nouvelle.",
+  "example_en": "She jumped for joy when she heard the news."
+ },
+ "journee": {
+  "example": "J'ai passé toute la journée à travailler.",
+  "example_en": "I spent the whole day working."
+ },
+ "l-esprit-de-l-escalier": {
+  "example": "J'ai toujours l'esprit de l'escalier dans les disputes.",
+  "example_en": "In arguments, I always think of the perfect reply too late."
+ },
+ "laisse-tomber": {
+  "example": "Laisse tomber, ce n'est pas grave.",
+  "example_en": "Forget it, it doesn't matter."
+ },
+ "langue": {
+  "example": "Elle parle trois langues couramment.",
+  "example_en": "She speaks three languages fluently."
+ },
+ "large": {
+  "example": "La rivière est très large à cet endroit.",
+  "example_en": "The river is very wide at this point."
+ },
+ "les-carottes-sont-cuites": {
+  "example": "Le dernier bus est parti, les carottes sont cuites.",
+  "example_en": "The last bus has gone, it's all over."
+ },
+ "les-doigts-dans-le-nez": {
+  "example": "Il a gagné la course les doigts dans le nez.",
+  "example_en": "He won the race easily."
+ },
+ "les-retrouvailles": {
+  "example": "Les retrouvailles avec ma sœur ont été très émouvantes.",
+  "example_en": "Seeing my sister again after so long was very moving."
+ },
+ "liberte": {
+  "example": "La liberté d'expression est essentielle en démocratie.",
+  "example_en": "Freedom of speech is essential in a democracy."
+ },
+ "librairie": {
+  "example": "J'ai acheté ce roman dans une petite librairie.",
+  "example_en": "I bought this novel in a small bookshop."
+ },
+ "location": {
+  "example": "La location de voitures coûte cher en été.",
+  "example_en": "Car rental is expensive in summer."
+ },
+ "loi": {
+  "example": "Cette loi protège mieux les locataires.",
+  "example_en": "This law gives tenants better protection."
+ },
+ "malin": {
+  "example": "Le renard est un animal très malin.",
+  "example_en": "The fox is a very crafty animal."
+ },
+ "memoire": {
+  "example": "Ma grand-mère perd un peu la mémoire.",
+  "example_en": "My grandmother is losing her memory a little."
+ },
+ "mettre-son-grain-de-sel": {
+  "example": "Il faut toujours qu'il mette son grain de sel.",
+  "example_en": "He always has to put his two cents in."
+ },
+ "n-importe-quoi": {
+  "example": "Ne l'écoute pas, il dit n'importe quoi.",
+  "example_en": "Don't listen to him, he's talking nonsense."
+ },
+ "ne-pas-etre-dans-son-assiette": {
+  "example": "Je ne suis pas dans mon assiette aujourd'hui.",
+  "example_en": "I'm not feeling myself today."
+ },
+ "necessaire": {
+  "example": "Il n'est pas nécessaire de réserver à l'avance.",
+  "example_en": "There's no need to book in advance."
+ },
+ "occupe-toi-de-tes-oignons": {
+  "example": "Occupe-toi de tes oignons, je fais ce que je veux.",
+  "example_en": "Mind your own business, I'll do what I want."
+ },
+ "on-verra": {
+  "example": "Je ne sais pas encore, on verra bien.",
+  "example_en": "I don't know yet, we'll see."
+ },
+ "paix": {
+  "example": "Laisse-moi en paix, je travaille.",
+  "example_en": "Leave me in peace, I'm working."
+ },
+ "passe": {
+  "example": "Il ne parle jamais de son passé.",
+  "example_en": "He never talks about his past."
+ },
+ "peur": {
+  "example": "Mon petit frère a peur du noir.",
+  "example_en": "My little brother is afraid of the dark."
+ },
+ "pollution": {
+  "example": "La pollution de l'air augmente dans les grandes villes.",
+  "example_en": "Air pollution is rising in big cities."
+ },
+ "poser-un-lapin": {
+  "example": "J'espère qu'il ne va pas me poser un lapin.",
+  "example_en": "I hope he isn't going to stand me up."
+ },
+ "possible": {
+  "example": "Réponds-moi dès que possible, c'est urgent.",
+  "example_en": "Reply as soon as possible, it's urgent."
+ },
+ "probleme": {
+  "example": "Pas de problème, je m'en occupe.",
+  "example_en": "No problem, I'll take care of it."
+ },
+ "quand-les-poules-auront-des-dents": {
+  "example": "Il rangera sa chambre quand les poules auront des dents.",
+  "example_en": "He'll tidy his room when pigs fly."
+ },
+ "raconter-des-salades": {
+  "example": "Arrête de raconter des salades, je sais la vérité.",
+  "example_en": "Stop telling tall stories, I know the truth."
+ },
+ "raison": {
+  "example": "Pour quelle raison est-il parti si tôt ?",
+  "example_en": "Why did he leave so early?"
+ },
+ "rentree": {
+  "example": "Les enfants sont tristes, c'est bientôt la rentrée.",
+  "example_en": "The children are sad, school starts again soon."
+ },
+ "reve": {
+  "example": "J'ai fait un rêve bizarre cette nuit.",
+  "example_en": "I had a strange dream last night."
+ },
+ "revenir-a-nos-moutons": {
+  "example": "Pour revenir à nos moutons, qui paie l'addition ?",
+  "example_en": "To get back to the subject, who's paying the bill?"
+ },
+ "se-prendre-un-rateau": {
+  "example": "Il s'est pris un râteau à la soirée.",
+  "example_en": "He got turned down at the party."
+ },
+ "sensible": {
+  "example": "Ma fille est très sensible aux critiques.",
+  "example_en": "My daughter is very sensitive to criticism."
+ },
+ "seul": {
+  "example": "Elle habite seule depuis deux ans.",
+  "example_en": "She has lived alone for two years."
+ },
+ "societe": {
+  "example": "Elle travaille pour une grande société à Lyon.",
+  "example_en": "She works for a big company in Lyon."
+ },
+ "solution": {
+  "example": "On va trouver une solution ensemble.",
+  "example_en": "We'll find a solution together."
+ },
+ "souvenir": {
+  "example": "J'ai de très bons souvenirs de cet été.",
+  "example_en": "I have very good memories of that summer."
+ },
+ "succes": {
+  "example": "Le concert a été un grand succès.",
+  "example_en": "The concert was a big success."
+ },
+ "systeme-d": {
+  "example": "Avec le système D, on s'en sort toujours.",
+  "example_en": "With a bit of resourcefulness, we always manage."
+ },
+ "tant-que": {
+  "example": "Je reste tant que tu as besoin de moi.",
+  "example_en": "I'll stay as long as you need me."
+ },
+ "terroir": {
+  "example": "Ce vin reflète parfaitement son terroir.",
+  "example_en": "This wine perfectly reflects the land it comes from."
+ },
+ "tirer-les-vers-du-nez": {
+  "example": "Il a fallu lui tirer les vers du nez.",
+  "example_en": "We had to worm it out of him."
+ },
+ "tomber-dans-les-pommes": {
+  "example": "Il faisait si chaud qu'elle est tombée dans les pommes.",
+  "example_en": "It was so hot that she fainted."
+ },
+ "tu-parles": {
+  "example": "Tu parles, il ne viendra jamais !",
+  "example_en": "Yeah right, he'll never come!"
+ }
+}

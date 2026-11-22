@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "nl-core-v1",
-  "version": 7,
+  "version": 8,
   "language": "nl",
   "name": "Nederlands Kern",
   "author": "Max Boksem",
@@ -141,7 +141,9 @@
       "primary_form": "raam",
       "gloss": "window",
       "extras": {
-        "article": "het"
+        "article": "het",
+        "example": "Kun je het raam dichtdoen?",
+        "example_en": "Can you close the window?"
       },
       "tags": [
         "home",
@@ -154,7 +156,9 @@
       "primary_form": "kat",
       "gloss": "cat",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "De kat ligt in de zon.",
+        "example_en": "The cat is lying in the sun."
       },
       "tags": [
         "animals",
@@ -167,7 +171,9 @@
       "primary_form": "hond",
       "gloss": "dog",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Onze hond wil naar buiten.",
+        "example_en": "Our dog wants to go outside."
       },
       "tags": [
         "animals",
@@ -180,7 +186,9 @@
       "primary_form": "huis",
       "gloss": "house",
       "extras": {
-        "article": "het"
+        "article": "het",
+        "example": "Het huis is te klein voor ons.",
+        "example_en": "The house is too small for us."
       },
       "tags": [
         "home",
@@ -193,7 +201,9 @@
       "primary_form": "boek",
       "gloss": "book",
       "extras": {
-        "article": "het"
+        "article": "het",
+        "example": "Dit boek is van mijn broer.",
+        "example_en": "This book is my brother's."
       },
       "tags": [
         "objects",
@@ -206,7 +216,9 @@
       "primary_form": "water",
       "gloss": "water",
       "extras": {
-        "article": "het"
+        "article": "het",
+        "example": "Mag ik een glas water?",
+        "example_en": "May I have a glass of water?"
       },
       "tags": [
         "food",
@@ -219,7 +231,9 @@
       "primary_form": "brood",
       "gloss": "bread",
       "extras": {
-        "article": "het"
+        "article": "het",
+        "example": "Dit brood is nog warm.",
+        "example_en": "This bread is still warm."
       },
       "tags": [
         "food",
@@ -232,7 +246,9 @@
       "primary_form": "tafel",
       "gloss": "table",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Zet de borden op tafel.",
+        "example_en": "Put the plates on the table."
       },
       "tags": [
         "home",
@@ -245,7 +261,9 @@
       "primary_form": "stoel",
       "gloss": "chair",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Pak een stoel en ga zitten.",
+        "example_en": "Grab a chair and sit down."
       },
       "tags": [
         "home",
@@ -258,7 +276,9 @@
       "primary_form": "deur",
       "gloss": "door",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Er staat iemand voor de deur.",
+        "example_en": "There's someone at the door."
       },
       "tags": [
         "home",
@@ -271,7 +291,9 @@
       "primary_form": "auto",
       "gloss": "car",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Mijn vader heeft een nieuwe auto.",
+        "example_en": "My father has a new car."
       },
       "tags": [
         "transport",
@@ -284,7 +306,9 @@
       "primary_form": "boom",
       "gloss": "tree",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Er staat een oude boom in de tuin.",
+        "example_en": "There's an old tree in the garden."
       },
       "tags": [
         "nature",
@@ -297,7 +321,9 @@
       "primary_form": "zon",
       "gloss": "sun",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "De zon schijnt vandaag.",
+        "example_en": "The sun is shining today."
       },
       "tags": [
         "nature",
@@ -310,7 +336,9 @@
       "primary_form": "nacht",
       "gloss": "night",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Hij werkt vaak de hele nacht.",
+        "example_en": "He often works all night."
       },
       "tags": [
         "time",
@@ -323,7 +351,9 @@
       "primary_form": "vriend",
       "gloss": "friend",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Ik ga met een vriend naar de film.",
+        "example_en": "I'm going to the cinema with a friend."
       },
       "tags": [
         "people",
@@ -336,7 +366,9 @@
       "primary_form": "kind",
       "gloss": "child",
       "extras": {
-        "article": "het"
+        "article": "het",
+        "example": "Het kind slaapt al.",
+        "example_en": "The child is already asleep."
       },
       "tags": [
         "people",
@@ -388,7 +420,9 @@
       },
       "extras": {
         "auxiliary": "hebben",
-        "participle": "gegeten"
+        "participle": "gegeten",
+        "example": "Wat eten we vanavond?",
+        "example_en": "What are we eating tonight?"
       }
     },
     {
@@ -436,7 +470,9 @@
       },
       "extras": {
         "auxiliary": "hebben",
-        "participle": "gedronken"
+        "participle": "gedronken",
+        "example": "Wat wil je drinken?",
+        "example_en": "What would you like to drink?"
       }
     },
     {
@@ -483,7 +519,9 @@
       },
       "extras": {
         "auxiliary": "hebben",
-        "participle": "gesproken"
+        "participle": "gesproken",
+        "example": "Ze spreekt goed Frans.",
+        "example_en": "She speaks French well."
       }
     },
     {
@@ -530,7 +568,9 @@
       },
       "extras": {
         "auxiliary": "zijn",
-        "participle": "gegaan"
+        "participle": "gegaan",
+        "example": "We gaan morgen naar het strand.",
+        "example_en": "We're going to the beach tomorrow."
       }
     },
     {
@@ -540,7 +580,8 @@
       "gloss": "however",
       "extras": {
         "role": "conn-contrast",
-        "example": "Het regent. Wij gaan echter toch naar buiten."
+        "example": "Het regent. Wij gaan echter toch naar buiten.",
+        "example_en": "It's raining. We're going outside anyway, though."
       },
       "tags": [
         "verbindingswoorden"
@@ -553,7 +594,8 @@
       "gloss": "you see, as it happens",
       "extras": {
         "role": "conn-cause",
-        "example": "Ik blijf thuis, ik ben namelijk ziek."
+        "example": "Ik blijf thuis, ik ben namelijk ziek.",
+        "example_en": "I'm staying home, I'm sick, you see."
       },
       "tags": [
         "verbindingswoorden"
@@ -566,7 +608,8 @@
       "gloss": "moreover",
       "extras": {
         "role": "conn-addition",
-        "example": "De film is lang, bovendien is hij saai."
+        "example": "De film is lang, bovendien is hij saai.",
+        "example_en": "The film is long, and what's more, it's boring."
       },
       "tags": [
         "verbindingswoorden"
@@ -579,7 +622,8 @@
       "gloss": "then, afterwards",
       "extras": {
         "role": "conn-sequence",
-        "example": "We eten eerst, daarna gaan we weg."
+        "example": "We eten eerst, daarna gaan we weg.",
+        "example_en": "We eat first, then we leave."
       },
       "tags": [
         "verbindingswoorden"
@@ -592,7 +636,8 @@
       "gloss": "but",
       "extras": {
         "role": "conj-coordinating",
-        "example": "Ik wil komen, maar ik heb geen tijd."
+        "example": "Ik wil komen, maar ik heb geen tijd.",
+        "example_en": "I want to come, but I don't have time."
       },
       "tags": [
         "voegwoorden"
@@ -605,7 +650,8 @@
       "gloss": "because, for",
       "extras": {
         "role": "conj-coordinating",
-        "example": "Ik blijf thuis, want ik ben moe."
+        "example": "Ik blijf thuis, want ik ben moe.",
+        "example_en": "I'm staying home, because I'm tired."
       },
       "tags": [
         "voegwoorden"
@@ -618,7 +664,8 @@
       "gloss": "because",
       "extras": {
         "role": "conj-subordinating",
-        "example": "Ik blijf thuis omdat ik moe ben."
+        "example": "Ik blijf thuis omdat ik moe ben.",
+        "example_en": "I'm staying home because I'm tired."
       },
       "tags": [
         "voegwoorden"
@@ -631,7 +678,8 @@
       "gloss": "although",
       "extras": {
         "role": "conj-subordinating",
-        "example": "Hoewel je jong bent, begrijp je het goed."
+        "example": "Hoewel je jong bent, begrijp je het goed.",
+        "example_en": "Although you're young, you understand it well."
       },
       "tags": [
         "voegwoorden"

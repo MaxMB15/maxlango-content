@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "fr-core-v1",
-  "version": 7,
+  "version": 8,
   "language": "fr",
   "name": "French Core",
   "author": "Max Boksem",
@@ -143,7 +143,9 @@
       "gloss": "window",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Tu peux ouvrir la fenêtre ?",
+        "example_en": "Can you open the window?"
       },
       "tags": [
         "home",
@@ -157,7 +159,9 @@
       "gloss": "cat",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le chat dort sur le canapé.",
+        "example_en": "The cat is sleeping on the sofa."
       },
       "tags": [
         "animals",
@@ -171,7 +175,9 @@
       "gloss": "dog",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Mon chien aime jouer dehors.",
+        "example_en": "My dog likes playing outside."
       },
       "tags": [
         "animals",
@@ -185,7 +191,9 @@
       "gloss": "house",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Leur maison est près de la mer.",
+        "example_en": "Their house is near the sea."
       },
       "tags": [
         "home",
@@ -199,7 +207,9 @@
       "gloss": "book",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Je lis un livre le soir.",
+        "example_en": "I read a book in the evening."
       },
       "tags": [
         "objects",
@@ -213,7 +223,9 @@
       "gloss": "water",
       "extras": {
         "gender": "f",
-        "article": "l'"
+        "article": "l'",
+        "example": "Je voudrais un verre d'eau.",
+        "example_en": "I'd like a glass of water."
       },
       "tags": [
         "food",
@@ -227,7 +239,9 @@
       "gloss": "bread",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le pain est encore chaud.",
+        "example_en": "The bread is still warm."
       },
       "tags": [
         "food",
@@ -241,7 +255,9 @@
       "gloss": "table",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Les clés sont sur la table.",
+        "example_en": "The keys are on the table."
       },
       "tags": [
         "home",
@@ -255,7 +271,9 @@
       "gloss": "chair",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Prends une chaise et assieds-toi.",
+        "example_en": "Take a chair and sit down."
       },
       "tags": [
         "home",
@@ -269,7 +287,9 @@
       "gloss": "door",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Quelqu'un frappe à la porte.",
+        "example_en": "Someone is knocking at the door."
       },
       "tags": [
         "home",
@@ -283,7 +303,9 @@
       "gloss": "car",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Ma voiture est en panne.",
+        "example_en": "My car has broken down."
       },
       "tags": [
         "transport",
@@ -297,7 +319,9 @@
       "gloss": "tree",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "Cet arbre a cent ans.",
+        "example_en": "This tree is a hundred years old."
       },
       "tags": [
         "nature",
@@ -311,7 +335,9 @@
       "gloss": "sun",
       "extras": {
         "gender": "m",
-        "article": "le"
+        "article": "le",
+        "example": "Le soleil brille ce matin.",
+        "example_en": "The sun is shining this morning."
       },
       "tags": [
         "nature",
@@ -325,7 +351,9 @@
       "gloss": "night",
       "extras": {
         "gender": "f",
-        "article": "la"
+        "article": "la",
+        "example": "Il fait froid la nuit.",
+        "example_en": "It's cold at night."
       },
       "tags": [
         "time",
@@ -339,7 +367,9 @@
       "gloss": "friend",
       "extras": {
         "gender": "m",
-        "article": "l'"
+        "article": "l'",
+        "example": "C'est mon meilleur ami.",
+        "example_en": "He's my best friend."
       },
       "tags": [
         "people",
@@ -353,7 +383,9 @@
       "gloss": "child",
       "extras": {
         "gender": "m/f",
-        "article": "l'"
+        "article": "l'",
+        "example": "L'enfant joue avec son ballon.",
+        "example_en": "The child is playing with his ball."
       },
       "tags": [
         "people"
@@ -420,7 +452,9 @@
       },
       "extras": {
         "auxiliary": "avoir",
-        "participle": "mangé"
+        "participle": "mangé",
+        "example": "Nous mangeons à midi.",
+        "example_en": "We eat at noon."
       }
     },
     {
@@ -484,7 +518,9 @@
       },
       "extras": {
         "auxiliary": "avoir",
-        "participle": "bu"
+        "participle": "bu",
+        "example": "Tu bois du café le matin ?",
+        "example_en": "Do you drink coffee in the morning?"
       }
     },
     {
@@ -547,7 +583,9 @@
       },
       "extras": {
         "auxiliary": "avoir",
-        "participle": "parlé"
+        "participle": "parlé",
+        "example": "Elle parle trois langues.",
+        "example_en": "She speaks three languages."
       }
     },
     {
@@ -636,7 +674,9 @@
             "allés",
             "allées"
           ]
-        }
+        },
+        "example": "Je vais à la plage demain.",
+        "example_en": "I'm going to the beach tomorrow."
       }
     },
     {
@@ -646,7 +686,8 @@
       "gloss": "however",
       "extras": {
         "role": "conn-contrast",
-        "example": "Il pleut, cependant nous sortons."
+        "example": "Il pleut, cependant nous sortons.",
+        "example_en": "It's raining. However, we're going out."
       },
       "tags": [
         "connecteurs"
@@ -659,7 +700,8 @@
       "gloss": "indeed, as it happens",
       "extras": {
         "role": "conn-cause",
-        "example": "Je reste à la maison, en effet je suis malade."
+        "example": "Je reste à la maison, en effet je suis malade.",
+        "example_en": "I'm staying home, I'm sick, you see."
       },
       "tags": [
         "connecteurs"
@@ -672,7 +714,8 @@
       "gloss": "moreover",
       "extras": {
         "role": "conn-addition",
-        "example": "Le film est long, de plus il est ennuyeux."
+        "example": "Le film est long, de plus il est ennuyeux.",
+        "example_en": "The film is long, and what's more, it's boring."
       },
       "tags": [
         "connecteurs"
@@ -685,7 +728,8 @@
       "gloss": "then, next",
       "extras": {
         "role": "conn-sequence",
-        "example": "Nous mangeons, ensuite nous partons."
+        "example": "Nous mangeons, ensuite nous partons.",
+        "example_en": "We eat, then we leave."
       },
       "tags": [
         "connecteurs"
@@ -698,7 +742,8 @@
       "gloss": "but",
       "extras": {
         "role": "conj-coordinating",
-        "example": "Je veux venir, mais je n'ai pas le temps."
+        "example": "Je veux venir, mais je n'ai pas le temps.",
+        "example_en": "I want to come, but I don't have time."
       },
       "tags": [
         "conjonctions"
@@ -711,7 +756,8 @@
       "gloss": "so, therefore",
       "extras": {
         "role": "conj-coordinating",
-        "example": "Il fait froid, donc je porte un manteau."
+        "example": "Il fait froid, donc je porte un manteau.",
+        "example_en": "It's cold, so I'm wearing a coat."
       },
       "tags": [
         "conjonctions"
@@ -724,7 +770,8 @@
       "gloss": "because",
       "extras": {
         "role": "conj-subordinating",
-        "example": "Je reste ici parce que je suis fatigué."
+        "example": "Je reste ici parce que je suis fatigué.",
+        "example_en": "I'm staying here because I'm tired."
       },
       "tags": [
         "conjonctions"
@@ -737,7 +784,8 @@
       "gloss": "although",
       "extras": {
         "role": "conj-subordinating",
-        "example": "Bien que tu sois jeune, tu comprends vite."
+        "example": "Bien que tu sois jeune, tu comprends vite.",
+        "example_en": "Although you're young, you understand quickly."
       },
       "tags": [
         "conjonctions"

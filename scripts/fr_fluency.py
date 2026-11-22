@@ -691,7 +691,7 @@ LABELS = {
 
 PACK = pack(
     "fr-fluency-v1",
-    4,
+    5,
     "fr",
     "Français · Aisance (B1)",
     ITEMS,

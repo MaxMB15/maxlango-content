@@ -198,6 +198,48 @@ def check_tag_pages(code: str, packs: list[dict], profile: dict) -> list[str]:
     return errors
 
 
+EXAMPLE_DIR = HERE / "examples"
+
+
+def apply_examples(pack: dict, examples: dict[str, dict]) -> list[str]:
+    """Give each Word its example sentence from `examples`, in place.
+
+    `examples` maps a Word's id, or "kind:id" where two Words in the pack
+    share an id, to {"example", "example_en"}, or to {"example_en"} alone
+    for a sentence the source already has. An example written in the pack's
+    own source wins. A key that matches no Word, or a bare id two
+    Words share, is an error, so a renamed Word can't silently lose its
+    sentence.
+    """
+    errors: list[str] = []
+    words = [it for it in pack["items"] if it["kind"] != "misc"]
+    by_id: dict[str, list[dict]] = {}
+    for it in words:
+        by_id.setdefault(it["id"], []).append(it)
+    for key, ex in examples.items():
+        kind, _, wid = key.rpartition(":")
+        hits = [it for it in by_id.get(wid, []) if not kind or it["kind"] == kind]
+        if not hits:
+            errors.append(f"{pack['id']}: example for '{key}' matches no Word")
+            continue
+        if len(hits) > 1:
+            errors.append(f"{pack['id']}: example for '{key}' fits {len(hits)} Words; key it as kind:id")
+            continue
+        extras = hits[0].setdefault("extras", {})
+        if not extras.get("example") and ex.get("example"):
+            extras["example"] = ex["example"]
+            extras["example_en"] = ex["example_en"]
+        elif extras.get("example") and not extras.get("example_en"):
+            # An entry with only "example_en" translates the source's own sentence.
+            extras["example_en"] = ex["example_en"]
+    return errors
+
+
+def examples_for(pack_id: str) -> dict[str, dict]:
+    path = EXAMPLE_DIR / f"{pack_id}.json"
+    return json.loads(path.read_text()) if path.exists() else {}
+
+
 def profile_for(code: str) -> dict:
     return json.loads((LANGUAGE_DIR / code / "profile.json").read_text())
 
@@ -241,7 +283,8 @@ def main(argv: list[str] | None = None) -> int:
             out_path = pack_dir / f"{pack['id']}.json"
             previous = json.loads(out_path.read_text()) if out_path.exists() else None
 
-            errs = validate(pack, profile, seen)
+            errs = apply_examples(pack, examples_for(pack["id"]))
+            errs += validate(pack, profile, seen)
             errs += check_no_silent_removals(pack, previous, retired)
             seen |= {c["id"] for c in pack.get("profile_delta", [])}
             kinds: dict[str, int] = {}

@@ -1,0 +1,106 @@
+{
+ "auto": {
+  "example": "Mijn vader heeft een nieuwe auto.",
+  "example_en": "My father has a new car."
+ },
+ "boek": {
+  "example": "Dit boek is van mijn broer.",
+  "example_en": "This book is my brother's."
+ },
+ "boom": {
+  "example": "Er staat een oude boom in de tuin.",
+  "example_en": "There's an old tree in the garden."
+ },
+ "bovendien": {
+  "example_en": "The film is long, and what's more, it's boring."
+ },
+ "brood": {
+  "example": "Dit brood is nog warm.",
+  "example_en": "This bread is still warm."
+ },
+ "daarna": {
+  "example_en": "We eat first, then we leave."
+ },
+ "deur": {
+  "example": "Er staat iemand voor de deur.",
+  "example_en": "There's someone at the door."
+ },
+ "drinken": {
+  "example": "Wat wil je drinken?",
+  "example_en": "What would you like to drink?"
+ },
+ "echter": {
+  "example_en": "It's raining. We're going outside anyway, though."
+ },
+ "eten": {
+  "example": "Wat eten we vanavond?",
+  "example_en": "What are we eating tonight?"
+ },
+ "gaan": {
+  "example": "We gaan morgen naar het strand.",
+  "example_en": "We're going to the beach tomorrow."
+ },
+ "hoewel": {
+  "example_en": "Although you're young, you understand it well."
+ },
+ "hond": {
+  "example": "Onze hond wil naar buiten.",
+  "example_en": "Our dog wants to go outside."
+ },
+ "huis": {
+  "example": "Het huis is te klein voor ons.",
+  "example_en": "The house is too small for us."
+ },
+ "kat": {
+  "example": "De kat ligt in de zon.",
+  "example_en": "The cat is lying in the sun."
+ },
+ "kind": {
+  "example": "Het kind slaapt al.",
+  "example_en": "The child is already asleep."
+ },
+ "maar": {
+  "example_en": "I want to come, but I don't have time."
+ },
+ "nacht": {
+  "example": "Hij werkt vaak de hele nacht.",
+  "example_en": "He often works all night."
+ },
+ "namelijk": {
+  "example_en": "I'm staying home, I'm sick, you see."
+ },
+ "omdat": {
+  "example_en": "I'm staying home because I'm tired."
+ },
+ "raam": {
+  "example": "Kun je het raam dichtdoen?",
+  "example_en": "Can you close the window?"
+ },
+ "spreken": {
+  "example": "Ze spreekt goed Frans.",
+  "example_en": "She speaks French well."
+ },
+ "stoel": {
+  "example": "Pak een stoel en ga zitten.",
+  "example_en": "Grab a chair and sit down."
+ },
+ "tafel": {
+  "example": "Zet de borden op tafel.",
+  "example_en": "Put the plates on the table."
+ },
+ "vriend": {
+  "example": "Ik ga met een vriend naar de film.",
+  "example_en": "I'm going to the cinema with a friend."
+ },
+ "want": {
+  "example_en": "I'm staying home, because I'm tired."
+ },
+ "water": {
+  "example": "Mag ik een glas water?",
+  "example_en": "May I have a glass of water?"
+ },
+ "zon": {
+  "example": "De zon schijnt vandaag.",
+  "example_en": "The sun is shining today."
+ }
+}

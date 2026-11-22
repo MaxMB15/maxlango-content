@@ -1,0 +1,590 @@
+{
+ "a-tout-a-l-heure": {
+  "example": "Je pars au marché, à tout à l'heure !",
+  "example_en": "I'm off to the market, see you later!"
+ },
+ "aeroport": {
+  "example": "Je t'attends à l'aéroport.",
+  "example_en": "I'll wait for you at the airport."
+ },
+ "anniversaire": {
+  "example": "Qu'est-ce que tu veux pour ton anniversaire ?",
+  "example_en": "What do you want for your birthday?"
+ },
+ "assiette": {
+  "example": "Ton assiette est encore pleine !",
+  "example_en": "Your plate is still full!"
+ },
+ "automne": {
+  "example": "Les feuilles tombent en automne.",
+  "example_en": "The leaves fall in autumn."
+ },
+ "avion": {
+  "example": "L'avion part à six heures.",
+  "example_en": "The plane leaves at six."
+ },
+ "avoir-besoin-de": {
+  "example": "J'ai besoin de ton aide, s'il te plaît.",
+  "example_en": "I need your help, please."
+ },
+ "avoir-envie-de": {
+  "example": "J'ai envie de rester à la maison ce soir.",
+  "example_en": "I feel like staying home tonight."
+ },
+ "avoir-l-air": {
+  "example": "Je ne veux pas avoir l'air ridicule.",
+  "example_en": "I don't want to look ridiculous."
+ },
+ "bateau": {
+  "example": "Nous faisons un tour en bateau.",
+  "example_en": "We're taking a boat trip."
+ },
+ "bien-sur": {
+  "example": "Bien sûr, tu peux venir avec nous.",
+  "example_en": "Of course, you can come with us."
+ },
+ "billet": {
+  "example": "J'ai acheté deux billets de train.",
+  "example_en": "I bought two train tickets."
+ },
+ "bouteille": {
+  "example": "Il reste une bouteille d'eau au frigo.",
+  "example_en": "There's one bottle of water left in the fridge."
+ },
+ "boutique": {
+  "example": "Elle a une petite boutique de vêtements.",
+  "example_en": "She has a small clothes shop."
+ },
+ "bureau": {
+  "example": "Mon bureau est au troisième étage.",
+  "example_en": "My office is on the third floor."
+ },
+ "bus": {
+  "example": "Je prends le bus pour aller au travail.",
+  "example_en": "I take the bus to work."
+ },
+ "c-est-pas-grave": {
+  "example": "C'est pas grave, ça arrive à tout le monde.",
+  "example_en": "It's no big deal, it happens to everyone."
+ },
+ "ca-depend": {
+  "example": "Ça dépend du prix.",
+  "example_en": "It depends on the price."
+ },
+ "ca-ne-fait-rien": {
+  "example": "Ça ne fait rien, on peut attendre.",
+  "example_en": "It doesn't matter, we can wait."
+ },
+ "ca-te-dit": {
+  "example": "Un petit café, ça te dit ?",
+  "example_en": "A quick coffee, do you fancy it?"
+ },
+ "cadeau": {
+  "example": "Merci pour le cadeau, il est super !",
+  "example_en": "Thanks for the present, it's great!"
+ },
+ "caisse": {
+  "example": "Il faut payer à la caisse.",
+  "example_en": "You have to pay at the till."
+ },
+ "calme": {
+  "example": "Le quartier est très calme le soir.",
+  "example_en": "The neighbourhood is very quiet in the evening."
+ },
+ "carte": {
+  "example": "Le serveur nous apporte la carte.",
+  "example_en": "The waiter brings us the menu."
+ },
+ "carte-bancaire": {
+  "example": "Vous acceptez la carte bancaire ?",
+  "example_en": "Do you take bank cards?"
+ },
+ "chanson": {
+  "example": "Tu connais cette chanson ?",
+  "example_en": "Do you know this song?"
+ },
+ "chapeau": {
+  "example": "J'aime beaucoup ton chapeau de paille.",
+  "example_en": "I really like your straw hat."
+ },
+ "chaussette": {
+  "example": "Je ne trouve pas mon autre chaussette.",
+  "example_en": "I can't find my other sock."
+ },
+ "chaussure": {
+  "example": "Ces chaussures sont très confortables.",
+  "example_en": "These shoes are very comfortable."
+ },
+ "chemise": {
+  "example": "Ta chemise bleue est très jolie.",
+  "example_en": "Your blue shirt is very nice."
+ },
+ "cheval": {
+  "example": "Ma fille fait du cheval le samedi.",
+  "example_en": "My daughter goes horse riding on Saturdays."
+ },
+ "ciel": {
+  "example": "Le ciel est tout gris ce matin.",
+  "example_en": "The sky is all grey this morning."
+ },
+ "cochon": {
+  "example": "Le fermier a trois cochons.",
+  "example_en": "The farmer has three pigs."
+ },
+ "collegue": {
+  "example": "Je déjeune avec mes collègues.",
+  "example_en": "I have lunch with my colleagues."
+ },
+ "cours": {
+  "example": "Le cours de français commence à neuf heures.",
+  "example_en": "The French class starts at nine."
+ },
+ "court": {
+  "example": "La réunion a été très courte.",
+  "example_en": "The meeting was very short."
+ },
+ "couteau": {
+  "example": "Ce couteau ne coupe pas bien.",
+  "example_en": "This knife doesn't cut well."
+ },
+ "cuillere": {
+  "example": "Tu peux me passer une cuillère ?",
+  "example_en": "Can you pass me a spoon?"
+ },
+ "dernier": {
+  "example": "C'est le dernier jour des vacances.",
+  "example_en": "It's the last day of the holidays."
+ },
+ "douleur": {
+  "example": "Elle a une douleur au genou.",
+  "example_en": "She has a pain in her knee."
+ },
+ "drole": {
+  "example": "Ton histoire est très drôle !",
+  "example_en": "Your story is very funny!"
+ },
+ "entreprise": {
+  "example": "Elle travaille dans une grande entreprise.",
+  "example_en": "She works for a big company."
+ },
+ "ete": {
+  "example": "En été, on mange souvent dehors.",
+  "example_en": "In summer, we often eat outside."
+ },
+ "etudiant": {
+  "example": "Mon cousin est étudiant en médecine.",
+  "example_en": "My cousin is a medical student."
+ },
+ "euro": {
+  "example": "Ce livre coûte dix euros.",
+  "example_en": "This book costs ten euros."
+ },
+ "examen": {
+  "example": "Elle a réussi son examen !",
+  "example_en": "She passed her exam!"
+ },
+ "fache": {
+  "example": "Mon père est fâché contre moi.",
+  "example_en": "My father is angry with me."
+ },
+ "faire-la-queue": {
+  "example": "Je déteste faire la queue à la poste.",
+  "example_en": "I hate queuing at the post office."
+ },
+ "faire-les-courses": {
+  "example": "Qui va faire les courses demain ?",
+  "example_en": "Who's going to do the shopping tomorrow?"
+ },
+ "fete": {
+  "example": "La fête commence à vingt heures.",
+  "example_en": "The party starts at eight in the evening."
+ },
+ "fievre": {
+  "example": "Mon fils a de la fièvre depuis hier.",
+  "example_en": "My son has had a fever since yesterday."
+ },
+ "film": {
+  "example": "On regarde un film ce soir ?",
+  "example_en": "Shall we watch a film tonight?"
+ },
+ "fleur": {
+  "example": "Il m'a offert des fleurs.",
+  "example_en": "He gave me flowers."
+ },
+ "foret": {
+  "example": "On a fait une balade dans la forêt.",
+  "example_en": "We went for a walk in the forest."
+ },
+ "fourchette": {
+  "example": "Il manque une fourchette sur la table.",
+  "example_en": "There's a fork missing from the table."
+ },
+ "heureux": {
+  "example": "Je suis heureux de te voir !",
+  "example_en": "I'm happy to see you!"
+ },
+ "hiver": {
+  "example": "L'hiver est long et froid ici.",
+  "example_en": "Winter is long and cold here."
+ },
+ "hotel": {
+  "example": "Notre hôtel est près de la gare.",
+  "example_en": "Our hotel is near the station."
+ },
+ "il-fait-beau": {
+  "example": "Il fait beau aujourd'hui, sortons !",
+  "example_en": "The weather is nice today, let's go out!"
+ },
+ "il-fait-froid": {
+  "example": "Il fait froid, prends ton manteau.",
+  "example_en": "It's cold, take your coat."
+ },
+ "il-pleut": {
+  "example": "Il pleut depuis ce matin.",
+  "example_en": "It has been raining since this morning."
+ },
+ "il-vaut-mieux": {
+  "example": "Il vaut mieux réserver une table.",
+  "example_en": "It's better to book a table."
+ },
+ "j-ai-mal-a-la-tete": {
+  "example": "J'ai mal à la tête, je vais me coucher.",
+  "example_en": "I have a headache, I'm going to bed."
+ },
+ "je-m-en-fiche": {
+  "example": "Je m'en fiche, je sors quand même.",
+  "example_en": "I don't care, I'm going out anyway."
+ },
+ "je-n-en-peux-plus": {
+  "example": "Je n'en peux plus, je suis trop fatigué.",
+  "example_en": "I can't take any more, I'm too tired."
+ },
+ "je-suis-en-train-de": {
+  "example": "Je suis en train de préparer le dîner.",
+  "example_en": "I'm in the middle of making dinner."
+ },
+ "je-voudrais": {
+  "example": "Je voudrais un café, s'il vous plaît.",
+  "example_en": "I would like a coffee, please."
+ },
+ "jeu": {
+  "example": "On joue à un jeu de société ?",
+  "example_en": "Shall we play a board game?"
+ },
+ "jupe": {
+  "example": "Elle met sa jupe rouge pour la fête.",
+  "example_en": "She's putting on her red skirt for the party."
+ },
+ "lac": {
+  "example": "Le lac est gelé en hiver.",
+  "example_en": "The lake is frozen in winter."
+ },
+ "leger": {
+  "example": "Prends un manteau léger, il fait doux.",
+  "example_en": "Take a light coat, it's mild."
+ },
+ "lent": {
+  "example": "Le service est lent dans ce restaurant.",
+  "example_en": "The service is slow in this restaurant."
+ },
+ "libre": {
+  "example": "Tu es libre samedi soir ?",
+  "example_en": "Are you free on Saturday evening?"
+ },
+ "long": {
+  "example": "Elle a les cheveux longs.",
+  "example_en": "She has long hair."
+ },
+ "lourd": {
+  "example": "Ta valise est trop lourde !",
+  "example_en": "Your suitcase is too heavy!"
+ },
+ "lumiere": {
+  "example": "Éteins la lumière, s'il te plaît.",
+  "example_en": "Turn off the light, please."
+ },
+ "malade": {
+  "example": "Je suis malade, je reste au lit.",
+  "example_en": "I'm ill, I'm staying in bed."
+ },
+ "manteau": {
+  "example": "Où est mon manteau noir ?",
+  "example_en": "Where is my black coat?"
+ },
+ "match": {
+  "example": "Notre équipe a gagné le match !",
+  "example_en": "Our team won the match!"
+ },
+ "medecin": {
+  "example": "Tu devrais aller chez le médecin.",
+  "example_en": "You should go to the doctor."
+ },
+ "medicament": {
+  "example": "Prends ce médicament après le repas.",
+  "example_en": "Take this medicine after the meal."
+ },
+ "mer": {
+  "example": "La mer est froide en juin.",
+  "example_en": "The sea is cold in June."
+ },
+ "metier": {
+  "example": "Quel métier veux-tu faire plus tard ?",
+  "example_en": "What job do you want to do later on?"
+ },
+ "metro": {
+  "example": "On prend le métro ou on marche ?",
+  "example_en": "Shall we take the metro or walk?"
+ },
+ "monnaie": {
+  "example": "Je n'ai pas de monnaie pour le parking.",
+  "example_en": "I don't have any change for the parking."
+ },
+ "montagne": {
+  "example": "Nous faisons du ski à la montagne.",
+  "example_en": "We go skiing in the mountains."
+ },
+ "musique": {
+  "example": "J'écoute de la musique dans le train.",
+  "example_en": "I listen to music on the train."
+ },
+ "neige": {
+  "example": "Les enfants jouent dans la neige.",
+  "example_en": "The children are playing in the snow."
+ },
+ "nuage": {
+  "example": "Il n'y a pas un nuage dans le ciel.",
+  "example_en": "There isn't a cloud in the sky."
+ },
+ "occupe": {
+  "example": "Désolé, je suis très occupé aujourd'hui.",
+  "example_en": "Sorry, I'm very busy today."
+ },
+ "oiseau": {
+  "example": "Les oiseaux chantent le matin.",
+  "example_en": "The birds sing in the morning."
+ },
+ "on-y-va": {
+  "example": "Tout le monde est prêt, on y va ?",
+  "example_en": "Everyone's ready, shall we go?"
+ },
+ "orage": {
+  "example": "Il y a eu un gros orage cette nuit.",
+  "example_en": "There was a big storm last night."
+ },
+ "ordinateur": {
+  "example": "Mon ordinateur ne marche plus.",
+  "example_en": "My computer doesn't work anymore."
+ },
+ "pantalon": {
+  "example": "Ce pantalon est un peu trop long.",
+  "example_en": "These trousers are a bit too long."
+ },
+ "paresseux": {
+  "example": "Mon chat est très paresseux.",
+  "example_en": "My cat is very lazy."
+ },
+ "pas-de-probleme": {
+  "example": "Pas de problème, je t'aide demain.",
+  "example_en": "No problem, I'll help you tomorrow."
+ },
+ "passeport": {
+  "example": "N'oublie pas ton passeport !",
+  "example_en": "Don't forget your passport!"
+ },
+ "patron": {
+  "example": "Mon patron est en vacances cette semaine.",
+  "example_en": "My boss is on holiday this week."
+ },
+ "pays": {
+  "example": "Tu as visité beaucoup de pays ?",
+  "example_en": "Have you visited many countries?"
+ },
+ "peut-etre": {
+  "example": "Il est peut-être à la maison.",
+  "example_en": "Maybe he's at home."
+ },
+ "pharmacie": {
+  "example": "Où est la pharmacie la plus proche ?",
+  "example_en": "Where is the nearest pharmacy?"
+ },
+ "photo": {
+  "example": "Tu peux prendre une photo de nous ?",
+  "example_en": "Can you take a photo of us?"
+ },
+ "plage": {
+  "example": "On va à la plage cet après-midi.",
+  "example_en": "We're going to the beach this afternoon."
+ },
+ "plein": {
+  "example": "Le bus est plein, on attend le prochain.",
+  "example_en": "The bus is full, we'll wait for the next one."
+ },
+ "pluie": {
+  "example": "J'adore marcher sous la pluie.",
+  "example_en": "I love walking in the rain."
+ },
+ "premier": {
+  "example": "C'est la première fois que je viens ici.",
+  "example_en": "It's the first time I've come here."
+ },
+ "pret": {
+  "example": "Le dîner est prêt, venez manger !",
+  "example_en": "Dinner is ready, come and eat!"
+ },
+ "printemps": {
+  "example": "Les fleurs poussent au printemps.",
+  "example_en": "Flowers grow in spring."
+ },
+ "prix": {
+  "example": "Les prix ont beaucoup augmenté.",
+  "example_en": "Prices have gone up a lot."
+ },
+ "professeur": {
+  "example": "Notre professeur explique très bien.",
+  "example_en": "Our teacher explains things very well."
+ },
+ "propre": {
+  "example": "Ta chambre est enfin propre !",
+  "example_en": "Your room is finally clean!"
+ },
+ "pull": {
+  "example": "Ma grand-mère m'a tricoté un pull.",
+  "example_en": "My grandmother knitted me a sweater."
+ },
+ "quoi-de-neuf": {
+  "example": "Alors, quoi de neuf au travail ?",
+  "example_en": "So, what's new at work?"
+ },
+ "rapide": {
+  "example": "Le train est plus rapide que le bus.",
+  "example_en": "The train is faster than the bus."
+ },
+ "rendez-vous": {
+  "example": "J'ai rendez-vous chez le dentiste demain.",
+  "example_en": "I have a dentist appointment tomorrow."
+ },
+ "reunion": {
+  "example": "On a une réunion à dix heures.",
+  "example_en": "We have a meeting at ten."
+ },
+ "rhume": {
+  "example": "J'ai attrapé un rhume.",
+  "example_en": "I've caught a cold."
+ },
+ "riviere": {
+  "example": "On pique-nique au bord de la rivière.",
+  "example_en": "We're having a picnic by the river."
+ },
+ "robe": {
+  "example": "Elle a acheté une robe pour le mariage.",
+  "example_en": "She bought a dress for the wedding."
+ },
+ "sac": {
+  "example": "J'ai oublié mon sac dans le bus.",
+  "example_en": "I left my bag on the bus."
+ },
+ "saison": {
+  "example": "L'automne est ma saison préférée.",
+  "example_en": "Autumn is my favourite season."
+ },
+ "salaire": {
+  "example": "Son salaire n'est pas très élevé.",
+  "example_en": "His salary isn't very high."
+ },
+ "sale": {
+  "example": "Tes mains sont sales, va les laver !",
+  "example_en": "Your hands are dirty, go and wash them!"
+ },
+ "sante": {
+  "example": "Le sport est bon pour la santé.",
+  "example_en": "Sport is good for your health."
+ },
+ "serieux": {
+  "example": "Il est très sérieux au travail.",
+  "example_en": "He's very serious at work."
+ },
+ "souris": {
+  "example": "Il y a une souris dans la cuisine !",
+  "example_en": "There's a mouse in the kitchen!"
+ },
+ "sport": {
+  "example": "Tu fais du sport le week-end ?",
+  "example_en": "Do you do any sport at the weekend?"
+ },
+ "sportif": {
+  "example": "Elle est sportive, elle court tous les jours.",
+  "example_en": "She's sporty, she runs every day."
+ },
+ "supermarche": {
+  "example": "Le supermarché est ouvert le dimanche.",
+  "example_en": "The supermarket is open on Sundays."
+ },
+ "sympa": {
+  "example": "Ton frère est vraiment sympa.",
+  "example_en": "Your brother is really nice."
+ },
+ "tant-mieux": {
+  "example": "Il ne pleut plus, tant mieux !",
+  "example_en": "It's stopped raining, so much the better!"
+ },
+ "tant-pis": {
+  "example": "Le magasin est fermé, tant pis.",
+  "example_en": "The shop is closed, oh well."
+ },
+ "temps": {
+  "example": "Quel temps fait-il chez toi ?",
+  "example_en": "What's the weather like where you are?"
+ },
+ "timide": {
+  "example": "Ne sois pas timide, viens danser !",
+  "example_en": "Don't be shy, come and dance!"
+ },
+ "train": {
+  "example": "Le train a dix minutes de retard.",
+  "example_en": "The train is ten minutes late."
+ },
+ "triste": {
+  "example": "Ce film me rend triste.",
+  "example_en": "This film makes me sad."
+ },
+ "vache": {
+  "example": "Les vaches sont dans le champ.",
+  "example_en": "The cows are in the field."
+ },
+ "valise": {
+  "example": "Je n'ai pas encore fait ma valise.",
+  "example_en": "I haven't packed my suitcase yet."
+ },
+ "velo": {
+  "example": "Il va à l'école à vélo.",
+  "example_en": "He goes to school by bike."
+ },
+ "vent": {
+  "example": "Le vent souffle très fort.",
+  "example_en": "The wind is blowing very hard."
+ },
+ "verre": {
+  "example": "Tu veux un verre de vin ?",
+  "example_en": "Would you like a glass of wine?"
+ },
+ "veste": {
+  "example": "Mets ta veste, il y a du vent.",
+  "example_en": "Put your jacket on, it's windy."
+ },
+ "vetement": {
+  "example": "Elle range ses vêtements dans l'armoire.",
+  "example_en": "She puts her clothes away in the wardrobe."
+ },
+ "vide": {
+  "example": "Ma tasse est déjà vide !",
+  "example_en": "My cup is already empty!"
+ },
+ "volontiers": {
+  "example": "J'accepte volontiers ton invitation.",
+  "example_en": "I gladly accept your invitation."
+ },
+ "voyage": {
+  "example": "Le voyage dure trois heures en train.",
+  "example_en": "The journey takes three hours by train."
+ }
+}

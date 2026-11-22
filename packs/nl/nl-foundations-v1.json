@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "nl-foundations-v1",
-  "version": 3,
+  "version": 4,
   "language": "nl",
   "name": "Nederlands · Basis (A1)",
   "author": "Max Boksem",
@@ -291,7 +291,9 @@
       "gloss": "father",
       "extras": {
         "article": "de",
-        "plural": "vaders"
+        "plural": "vaders",
+        "example": "Mijn vader kookt vanavond.",
+        "example_en": "My father is cooking tonight."
       },
       "tags": [
         "family",
@@ -355,7 +357,11 @@
       "gloss": "hello",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Hallo, welkom in ons huis!",
+        "example_en": "Hello, welcome to our house!"
+      }
     },
     {
       "kind": "noun",
@@ -364,7 +370,9 @@
       "gloss": "mother",
       "extras": {
         "article": "de",
-        "plural": "moeders"
+        "plural": "moeders",
+        "example": "Mijn moeder belt me elke zondag.",
+        "example_en": "My mother calls me every Sunday."
       },
       "tags": [
         "family",
@@ -380,7 +388,9 @@
         "forms": {
           "base": "groot",
           "inflected": "grote"
-        }
+        },
+        "example": "Hij is groot voor zijn leeftijd.",
+        "example_en": "He's tall for his age."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -393,7 +403,9 @@
       "gloss": "brother",
       "extras": {
         "article": "de",
-        "plural": "broers"
+        "plural": "broers",
+        "example": "Mijn broer is twee jaar ouder.",
+        "example_en": "My brother is two years older."
       },
       "tags": [
         "family",
@@ -407,7 +419,9 @@
       "gloss": "sister",
       "extras": {
         "article": "de",
-        "plural": "zussen"
+        "plural": "zussen",
+        "example": "Mijn zus woont in Rotterdam.",
+        "example_en": "My sister lives in Rotterdam."
       },
       "tags": [
         "family",
@@ -471,7 +485,11 @@
       "gloss": "hi (informal)",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Hoi, alles goed met je?",
+        "example_en": "Hi, are you doing okay?"
+      }
     },
     {
       "kind": "noun",
@@ -480,7 +498,9 @@
       "gloss": "son",
       "extras": {
         "article": "de",
-        "plural": "zonen"
+        "plural": "zonen",
+        "example": "Hun zoon gaat al naar school.",
+        "example_en": "Their son already goes to school."
       },
       "tags": [
         "family",
@@ -494,7 +514,9 @@
       "gloss": "daughter",
       "extras": {
         "article": "de",
-        "plural": "dochters"
+        "plural": "dochters",
+        "example": "Onze dochter is drie jaar oud.",
+        "example_en": "Our daughter is three years old."
       },
       "tags": [
         "family",
@@ -510,7 +532,9 @@
         "forms": {
           "base": "klein",
           "inflected": "kleine"
-        }
+        },
+        "example": "We hebben een kleine keuken.",
+        "example_en": "We have a small kitchen."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -573,7 +597,11 @@
       "gloss": "good morning",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Goedemorgen, heb je goed geslapen?",
+        "example_en": "Good morning, did you sleep well?"
+      }
     },
     {
       "kind": "noun",
@@ -582,7 +610,9 @@
       "gloss": "man; husband",
       "extras": {
         "article": "de",
-        "plural": "mannen"
+        "plural": "mannen",
+        "example": "Ik ga met mijn man op vakantie.",
+        "example_en": "I'm going on holiday with my husband."
       },
       "tags": [
         "family",
@@ -610,7 +640,9 @@
       "gloss": "woman; wife",
       "extras": {
         "article": "de",
-        "plural": "vrouwen"
+        "plural": "vrouwen",
+        "example": "Die vrouw is mijn lerares.",
+        "example_en": "That woman is my teacher."
       },
       "tags": [
         "family",
@@ -624,7 +656,9 @@
       "gloss": "parent",
       "extras": {
         "article": "de",
-        "plural": "ouders"
+        "plural": "ouders",
+        "example": "Mijn ouders wonen in Utrecht.",
+        "example_en": "My parents live in Utrecht."
       },
       "tags": [
         "family",
@@ -688,7 +722,11 @@
       "gloss": "good afternoon",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Goedemiddag, ik heb een afspraak om twee uur.",
+        "example_en": "Good afternoon, I have an appointment at two."
+      }
     },
     {
       "kind": "noun",
@@ -697,7 +735,9 @@
       "gloss": "grandpa",
       "extras": {
         "article": "de",
-        "plural": "opa's"
+        "plural": "opa's",
+        "example": "Opa vertelt graag verhalen.",
+        "example_en": "Grandpa loves telling stories."
       },
       "tags": [
         "family",
@@ -713,7 +753,9 @@
         "forms": {
           "base": "goed",
           "inflected": "goede"
-        }
+        },
+        "example": "Dat is een goed idee!",
+        "example_en": "That's a good idea!"
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -726,7 +768,9 @@
       "gloss": "grandma",
       "extras": {
         "article": "de",
-        "plural": "oma's"
+        "plural": "oma's",
+        "example": "We gaan zondag naar oma.",
+        "example_en": "We're going to grandma's on Sunday."
       },
       "tags": [
         "family",
@@ -790,7 +834,11 @@
       "gloss": "good evening",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Goedenavond, een tafel voor twee, graag.",
+        "example_en": "Good evening, a table for two, please."
+      }
     },
     {
       "kind": "noun",
@@ -799,7 +847,9 @@
       "gloss": "uncle",
       "extras": {
         "article": "de",
-        "plural": "ooms"
+        "plural": "ooms",
+        "example": "Mijn oom heeft een boerderij.",
+        "example_en": "My uncle has a farm."
       },
       "tags": [
         "family",
@@ -813,7 +863,9 @@
       "gloss": "aunt",
       "extras": {
         "article": "de",
-        "plural": "tantes"
+        "plural": "tantes",
+        "example": "Morgen komt mijn tante op bezoek.",
+        "example_en": "My aunt is coming to visit tomorrow."
       },
       "tags": [
         "family",
@@ -827,7 +879,9 @@
       "gloss": "nephew; male cousin",
       "extras": {
         "article": "de",
-        "plural": "neven"
+        "plural": "neven",
+        "example": "Mijn neef en ik zitten in dezelfde klas.",
+        "example_en": "My cousin and I are in the same class."
       },
       "tags": [
         "family",
@@ -890,7 +944,9 @@
       "primary_form": "welterusten",
       "gloss": "good night (going to sleep)",
       "extras": {
-        "literal": "rest well"
+        "literal": "rest well",
+        "example": "Welterusten, slaap lekker!",
+        "example_en": "Good night, sleep well!"
       },
       "tags": [
         "greetings"
@@ -905,7 +961,9 @@
         "forms": {
           "base": "slecht",
           "inflected": "slechte"
-        }
+        },
+        "example": "Het weer is slecht vandaag.",
+        "example_en": "The weather is bad today."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -918,7 +976,9 @@
       "gloss": "niece; female cousin",
       "extras": {
         "article": "de",
-        "plural": "nichten"
+        "plural": "nichten",
+        "example": "Mijn nicht gaat volgend jaar trouwen.",
+        "example_en": "My niece is getting married next year."
       },
       "tags": [
         "family",
@@ -932,7 +992,9 @@
       "gloss": "boy",
       "extras": {
         "article": "de",
-        "plural": "jongens"
+        "plural": "jongens",
+        "example": "Die jongen fietst erg snel.",
+        "example_en": "That boy cycles very fast."
       },
       "tags": [
         "people",
@@ -995,7 +1057,9 @@
       "primary_form": "dag",
       "gloss": "hello; goodbye",
       "extras": {
-        "literal": "day"
+        "literal": "day",
+        "example": "Dag, ik ga nu naar huis.",
+        "example_en": "Bye, I'm going home now."
       },
       "tags": [
         "greetings"
@@ -1008,7 +1072,9 @@
       "gloss": "girl",
       "extras": {
         "article": "het",
-        "plural": "meisjes"
+        "plural": "meisjes",
+        "example": "Hebben ze een jongen of een meisje?",
+        "example_en": "Do they have a boy or a girl?"
       },
       "tags": [
         "people",
@@ -1022,7 +1088,9 @@
       "gloss": "baby",
       "extras": {
         "article": "de",
-        "plural": "baby's"
+        "plural": "baby's",
+        "example": "De baby heeft honger.",
+        "example_en": "The baby is hungry."
       },
       "tags": [
         "people",
@@ -1038,7 +1106,9 @@
         "forms": {
           "base": "mooi",
           "inflected": "mooie"
-        }
+        },
+        "example": "Wat een mooie dag!",
+        "example_en": "What a beautiful day!"
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -1051,7 +1121,9 @@
       "gloss": "neighbour",
       "extras": {
         "article": "de",
-        "plural": "buren"
+        "plural": "buren",
+        "example": "De buurman helpt ons met de tuin.",
+        "example_en": "The neighbour is helping us with the garden."
       },
       "tags": [
         "people",
@@ -1115,7 +1187,11 @@
       "gloss": "bye (informal)",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Doei, ik moet nu weg!",
+        "example_en": "Bye, I have to go now!"
+      }
     },
     {
       "kind": "noun",
@@ -1124,7 +1200,9 @@
       "gloss": "name",
       "extras": {
         "article": "de",
-        "plural": "namen"
+        "plural": "namen",
+        "example": "Wat is je naam?",
+        "example_en": "What's your name?"
       },
       "tags": [
         "people",
@@ -1138,7 +1216,9 @@
       "gloss": "person, human being",
       "extras": {
         "article": "de",
-        "plural": "mensen"
+        "plural": "mensen",
+        "example": "Er zijn veel mensen op straat.",
+        "example_en": "There are a lot of people in the street."
       },
       "tags": [
         "people",
@@ -1202,7 +1282,9 @@
       "gloss": "head",
       "extras": {
         "article": "het",
-        "plural": "hoofden"
+        "plural": "hoofden",
+        "example": "Hij schudt zijn hoofd.",
+        "example_en": "He shakes his head."
       },
       "tags": [
         "body",
@@ -1215,7 +1297,9 @@
       "primary_form": "tot ziens",
       "gloss": "goodbye",
       "extras": {
-        "literal": "until seeing"
+        "literal": "until seeing",
+        "example": "Tot ziens, en bedankt voor alles!",
+        "example_en": "Goodbye, and thanks for everything!"
       },
       "tags": [
         "greetings"
@@ -1230,7 +1314,9 @@
         "forms": {
           "base": "lelijk",
           "inflected": "lelijke"
-        }
+        },
+        "example": "Ik vind die jas lelijk.",
+        "example_en": "I think that coat is ugly."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -1257,7 +1343,9 @@
       "gloss": "eye",
       "extras": {
         "article": "het",
-        "plural": "ogen"
+        "plural": "ogen",
+        "example": "Ze heeft groene ogen.",
+        "example_en": "She has green eyes."
       },
       "tags": [
         "body",
@@ -1271,7 +1359,9 @@
       "gloss": "mouth",
       "extras": {
         "article": "de",
-        "plural": "monden"
+        "plural": "monden",
+        "example": "Praat niet met je mond vol.",
+        "example_en": "Don't talk with your mouth full."
       },
       "tags": [
         "body",
@@ -1334,7 +1424,9 @@
       "primary_form": "tot straks",
       "gloss": "see you later (today)",
       "extras": {
-        "literal": "until soon"
+        "literal": "until soon",
+        "example": "Ik ga even boodschappen doen, tot straks!",
+        "example_en": "I'm just going shopping, see you later!"
       },
       "tags": [
         "greetings"
@@ -1347,7 +1439,9 @@
       "gloss": "nose",
       "extras": {
         "article": "de",
-        "plural": "neuzen"
+        "plural": "neuzen",
+        "example": "Ik heb een rode neus van de kou.",
+        "example_en": "My nose is red from the cold."
       },
       "tags": [
         "body",
@@ -1361,7 +1455,9 @@
       "gloss": "ear",
       "extras": {
         "article": "het",
-        "plural": "oren"
+        "plural": "oren",
+        "example": "Ze heeft een bloem achter haar oor.",
+        "example_en": "She has a flower behind her ear."
       },
       "tags": [
         "body",
@@ -1427,7 +1523,9 @@
         "forms": {
           "base": "jong",
           "inflected": "jonge"
-        }
+        },
+        "example": "Mijn moeder ziet er jong uit.",
+        "example_en": "My mother looks young."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -1440,7 +1538,9 @@
       "gloss": "hand",
       "extras": {
         "article": "de",
-        "plural": "handen"
+        "plural": "handen",
+        "example": "Was je handen voor het eten.",
+        "example_en": "Wash your hands before dinner."
       },
       "tags": [
         "body",
@@ -1454,7 +1554,11 @@
       "gloss": "see you tomorrow",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Ik ga naar huis, tot morgen!",
+        "example_en": "I'm going home, see you tomorrow!"
+      }
     },
     {
       "kind": "noun",
@@ -1463,7 +1567,9 @@
       "gloss": "arm",
       "extras": {
         "article": "de",
-        "plural": "armen"
+        "plural": "armen",
+        "example": "Hij heeft zijn arm gebroken.",
+        "example_en": "He has broken his arm."
       },
       "tags": [
         "body",
@@ -1527,7 +1633,9 @@
       "gloss": "leg",
       "extras": {
         "article": "het",
-        "plural": "benen"
+        "plural": "benen",
+        "example": "Mijn benen zijn moe van het fietsen.",
+        "example_en": "My legs are tired from cycling."
       },
       "tags": [
         "body",
@@ -1541,7 +1649,11 @@
       "gloss": "thank you (informal)",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Dank je wel voor het cadeau!",
+        "example_en": "Thank you for the present!"
+      }
     },
     {
       "kind": "noun",
@@ -1550,7 +1662,9 @@
       "gloss": "foot",
       "extras": {
         "article": "de",
-        "plural": "voeten"
+        "plural": "voeten",
+        "example": "Ik heb koude voeten.",
+        "example_en": "I have cold feet."
       },
       "tags": [
         "body",
@@ -1566,7 +1680,9 @@
         "forms": {
           "base": "oud",
           "inflected": "oude"
-        }
+        },
+        "example": "Hoe oud ben je?",
+        "example_en": "How old are you?"
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -1579,7 +1695,9 @@
       "gloss": "back",
       "extras": {
         "article": "de",
-        "plural": "ruggen"
+        "plural": "ruggen",
+        "example": "Mijn rug doet pijn.",
+        "example_en": "My back hurts."
       },
       "tags": [
         "body",
@@ -1643,7 +1761,9 @@
       "gloss": "heart",
       "extras": {
         "article": "het",
-        "plural": "harten"
+        "plural": "harten",
+        "example": "Mijn hart klopt snel.",
+        "example_en": "My heart is beating fast."
       },
       "tags": [
         "body",
@@ -1657,7 +1777,11 @@
       "gloss": "thank you (polite)",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Dank u wel, dat is heel vriendelijk.",
+        "example_en": "Thank you, that's very kind."
+      }
     },
     {
       "kind": "noun",
@@ -1666,7 +1790,9 @@
       "gloss": "belly, stomach",
       "extras": {
         "article": "de",
-        "plural": "buiken"
+        "plural": "buiken",
+        "example": "Ik heb pijn in mijn buik.",
+        "example_en": "I have a pain in my stomach."
       },
       "tags": [
         "body",
@@ -1731,7 +1857,9 @@
       "gloss": "hair",
       "extras": {
         "article": "het",
-        "plural": "haren"
+        "plural": "haren",
+        "example": "Ze heeft lang blond haar.",
+        "example_en": "She has long blond hair."
       },
       "tags": [
         "body",
@@ -1747,7 +1875,9 @@
         "forms": {
           "base": "nieuw",
           "inflected": "nieuwe"
-        }
+        },
+        "example": "Zij heeft een nieuwe baan.",
+        "example_en": "She has a new job."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -1760,7 +1890,11 @@
       "gloss": "thanks",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Bedankt voor het eten!",
+        "example_en": "Thanks for the meal!"
+      }
     },
     {
       "kind": "noun",
@@ -1769,7 +1903,9 @@
       "gloss": "tooth",
       "extras": {
         "article": "de",
-        "plural": "tanden"
+        "plural": "tanden",
+        "example": "Ik poets twee keer per dag mijn tanden.",
+        "example_en": "I brush my teeth twice a day."
       },
       "tags": [
         "body",
@@ -1783,7 +1919,9 @@
       "gloss": "breakfast",
       "extras": {
         "article": "het",
-        "plural": "ontbijten"
+        "plural": "ontbijten",
+        "example": "Het ontbijt staat klaar.",
+        "example_en": "Breakfast is ready."
       },
       "tags": [
         "food",
@@ -1847,7 +1985,9 @@
       "gloss": "lunch",
       "extras": {
         "article": "de",
-        "plural": "lunches"
+        "plural": "lunches",
+        "example": "Na de lunch gaan we wandelen.",
+        "example_en": "After lunch we're going for a walk."
       },
       "tags": [
         "food",
@@ -1860,7 +2000,9 @@
       "primary_form": "alsjeblieft",
       "gloss": "please; here you are (informal)",
       "extras": {
-        "literal": "if it pleases you"
+        "literal": "if it pleases you",
+        "example": "Doe het licht uit, alsjeblieft.",
+        "example_en": "Turn off the light, please."
       },
       "tags": [
         "greetings"
@@ -1886,7 +2028,9 @@
       "primary_form": "avondeten",
       "gloss": "dinner",
       "extras": {
-        "article": "het"
+        "article": "het",
+        "example": "Het avondeten is om zes uur.",
+        "example_en": "Dinner is at six."
       },
       "tags": [
         "food",
@@ -1902,7 +2046,9 @@
         "forms": {
           "base": "aardig",
           "inflected": "aardige"
-        }
+        },
+        "example": "Onze nieuwe buren zijn heel aardig.",
+        "example_en": "Our new neighbours are very nice."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -1965,7 +2111,9 @@
       "gloss": "cheese",
       "extras": {
         "article": "de",
-        "plural": "kazen"
+        "plural": "kazen",
+        "example": "Wil je kaas op je brood?",
+        "example_en": "Do you want cheese on your bread?"
       },
       "tags": [
         "food",
@@ -1978,7 +2126,9 @@
       "primary_form": "alstublieft",
       "gloss": "please; here you are (polite)",
       "extras": {
-        "literal": "if it pleases you"
+        "literal": "if it pleases you",
+        "example": "Mag ik twee koffie, alstublieft?",
+        "example_en": "Could I have two coffees, please?"
       },
       "tags": [
         "greetings"
@@ -1990,7 +2140,9 @@
       "primary_form": "vlees",
       "gloss": "meat",
       "extras": {
-        "article": "het"
+        "article": "het",
+        "example": "Ik eet geen vlees.",
+        "example_en": "I don't eat meat."
       },
       "tags": [
         "food",
@@ -2004,7 +2156,9 @@
       "gloss": "fish",
       "extras": {
         "article": "de",
-        "plural": "vissen"
+        "plural": "vissen",
+        "example": "Hij houdt niet van vis.",
+        "example_en": "He doesn't like fish."
       },
       "tags": [
         "food",
@@ -2068,7 +2222,9 @@
       "gloss": "chicken",
       "extras": {
         "article": "de",
-        "plural": "kippen"
+        "plural": "kippen",
+        "example": "Ik maak kip met rijst.",
+        "example_en": "I'm making chicken with rice."
       },
       "tags": [
         "food",
@@ -2081,7 +2237,9 @@
       "primary_form": "graag gedaan",
       "gloss": "you're welcome",
       "extras": {
-        "literal": "gladly done"
+        "literal": "gladly done",
+        "example": "Graag gedaan, het was geen moeite.",
+        "example_en": "You're welcome, it was no trouble."
       },
       "tags": [
         "greetings"
@@ -2096,7 +2254,9 @@
         "forms": {
           "base": "blij",
           "inflected": "blije"
-        }
+        },
+        "example": "Ik ben blij dat je er bent.",
+        "example_en": "I'm glad you're here."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -2109,7 +2269,9 @@
       "gloss": "egg",
       "extras": {
         "article": "het",
-        "plural": "eieren"
+        "plural": "eieren",
+        "example": "Ik bak een ei.",
+        "example_en": "I'm frying an egg."
       },
       "tags": [
         "food",
@@ -2172,7 +2334,9 @@
       "primary_form": "melk",
       "gloss": "milk",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Er is geen melk meer.",
+        "example_en": "There's no milk left."
       },
       "tags": [
         "food",
@@ -2186,7 +2350,11 @@
       "gloss": "sorry",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Sorry, ik ben te laat.",
+        "example_en": "Sorry, I'm late."
+      }
     },
     {
       "kind": "noun",
@@ -2194,7 +2362,9 @@
       "primary_form": "koffie",
       "gloss": "coffee",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Deze koffie is te sterk.",
+        "example_en": "This coffee is too strong."
       },
       "tags": [
         "food",
@@ -2207,7 +2377,9 @@
       "primary_form": "thee",
       "gloss": "tea",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Zal ik thee zetten?",
+        "example_en": "Shall I make some tea?"
       },
       "tags": [
         "food",
@@ -2273,7 +2445,9 @@
         "forms": {
           "base": "lekker",
           "inflected": "lekkere"
-        }
+        },
+        "example": "Wat ruikt dat lekker!",
+        "example_en": "That smells delicious!"
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -2286,7 +2460,9 @@
       "gloss": "wine",
       "extras": {
         "article": "de",
-        "plural": "wijnen"
+        "plural": "wijnen",
+        "example": "We drinken een glas wijn bij het eten.",
+        "example_en": "We drink a glass of wine with dinner."
       },
       "tags": [
         "food",
@@ -2300,7 +2476,11 @@
       "gloss": "excuse me; pardon?",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Pardon, mag ik er even langs?",
+        "example_en": "Excuse me, may I get past?"
+      }
     },
     {
       "kind": "noun",
@@ -2309,7 +2489,9 @@
       "gloss": "beer",
       "extras": {
         "article": "het",
-        "plural": "bieren"
+        "plural": "bieren",
+        "example": "Hij drinkt geen bier.",
+        "example_en": "He doesn't drink beer."
       },
       "tags": [
         "food",
@@ -2373,7 +2555,9 @@
       "gloss": "apple",
       "extras": {
         "article": "de",
-        "plural": "appels"
+        "plural": "appels",
+        "example": "Deze appels zijn lekker zoet.",
+        "example_en": "These apples are nice and sweet."
       },
       "tags": [
         "food",
@@ -2387,7 +2571,11 @@
       "gloss": "yes",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Ja, dat is goed.",
+        "example_en": "Yes, that's fine."
+      }
     },
     {
       "kind": "noun",
@@ -2396,7 +2584,9 @@
       "gloss": "potato",
       "extras": {
         "article": "de",
-        "plural": "aardappelen"
+        "plural": "aardappelen",
+        "example": "We eten vaak aardappelen met groente.",
+        "example_en": "We often eat potatoes with vegetables."
       },
       "tags": [
         "food",
@@ -2412,7 +2602,9 @@
         "forms": {
           "base": "warm",
           "inflected": "warme"
-        }
+        },
+        "example": "Vandaag is het erg warm.",
+        "example_en": "It's very hot today."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -2425,7 +2617,9 @@
       "gloss": "vegetable",
       "extras": {
         "article": "de",
-        "plural": "groenten"
+        "plural": "groenten",
+        "example": "Kinderen moeten veel groente eten.",
+        "example_en": "Children should eat lots of vegetables."
       },
       "tags": [
         "food",
@@ -2488,7 +2682,9 @@
       "primary_form": "fruit",
       "gloss": "fruit",
       "extras": {
-        "article": "het"
+        "article": "het",
+        "example": "Ik neem fruit mee naar mijn werk.",
+        "example_en": "I take fruit to work."
       },
       "tags": [
         "food",
@@ -2502,7 +2698,11 @@
       "gloss": "no",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Nee, dank je, ik heb al gegeten.",
+        "example_en": "No, thank you, I've already eaten."
+      }
     },
     {
       "kind": "conjunction",
@@ -2524,7 +2724,9 @@
       "primary_form": "suiker",
       "gloss": "sugar",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Ik neem geen suiker, dank je.",
+        "example_en": "No sugar for me, thanks."
       },
       "tags": [
         "food",
@@ -2587,7 +2789,9 @@
       "primary_form": "zout",
       "gloss": "salt",
       "extras": {
-        "article": "het"
+        "article": "het",
+        "example": "Er zit te veel zout in de soep.",
+        "example_en": "There's too much salt in the soup."
       },
       "tags": [
         "food",
@@ -2603,7 +2807,9 @@
         "forms": {
           "base": "koud",
           "inflected": "koude"
-        }
+        },
+        "example": "Het water is erg koud.",
+        "example_en": "The water is very cold."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -2615,7 +2821,9 @@
       "primary_form": "rijst",
       "gloss": "rice",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Hoe lang moet de rijst koken?",
+        "example_en": "How long does the rice need to cook?"
       },
       "tags": [
         "food",
@@ -2629,7 +2837,11 @@
       "gloss": "OK",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Oké, dan zie ik je morgen.",
+        "example_en": "OK, then I'll see you tomorrow."
+      }
     },
     {
       "kind": "noun",
@@ -2637,7 +2849,9 @@
       "primary_form": "boter",
       "gloss": "butter",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "De boter staat in de koelkast.",
+        "example_en": "The butter is in the fridge."
       },
       "tags": [
         "food",
@@ -2701,7 +2915,9 @@
       "gloss": "cake, tart",
       "extras": {
         "article": "de",
-        "plural": "taarten"
+        "plural": "taarten",
+        "example": "Er is taart voor mijn verjaardag!",
+        "example_en": "There's cake for my birthday!"
       },
       "tags": [
         "food",
@@ -2714,7 +2930,9 @@
       "primary_form": "hoe gaat het?",
       "gloss": "how are you?",
       "extras": {
-        "literal": "how goes it?"
+        "literal": "how goes it?",
+        "example": "Hallo, hoe gaat het?",
+        "example_en": "Hello, how are you?"
       },
       "tags": [
         "greetings"
@@ -2727,7 +2945,9 @@
       "gloss": "biscuit, cookie",
       "extras": {
         "article": "het",
-        "plural": "koekjes"
+        "plural": "koekjes",
+        "example": "Mag ik nog een koekje?",
+        "example_en": "May I have another biscuit?"
       },
       "tags": [
         "food",
@@ -2743,7 +2963,9 @@
         "forms": {
           "base": "makkelijk",
           "inflected": "makkelijke"
-        }
+        },
+        "example": "Nederlands is niet makkelijk.",
+        "example_en": "Dutch isn't easy."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -2807,7 +3029,9 @@
       "gloss": "bread roll, sandwich",
       "extras": {
         "article": "het",
-        "plural": "broodjes"
+        "plural": "broodjes",
+        "example": "Ik neem een broodje kaas.",
+        "example_en": "I'll have a cheese sandwich."
       },
       "tags": [
         "food",
@@ -2820,7 +3044,9 @@
       "primary_form": "hagelslag",
       "gloss": "chocolate sprinkles (on bread)",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Ik eet graag brood met hagelslag.",
+        "example_en": "I like bread with chocolate sprinkles."
       },
       "tags": [
         "food",
@@ -2834,7 +3060,11 @@
       "gloss": "fine, thanks",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Goed, dank je, en met jou?",
+        "example_en": "Fine, thanks, and you?"
+      }
     },
     {
       "kind": "noun",
@@ -2843,7 +3073,9 @@
       "gloss": "syrup waffle",
       "extras": {
         "article": "de",
-        "plural": "stroopwafels"
+        "plural": "stroopwafels",
+        "example": "Een stroopwafel is lekker bij de koffie.",
+        "example_en": "A syrup waffle is nice with coffee."
       },
       "tags": [
         "food",
@@ -2906,7 +3138,9 @@
       "primary_form": "drop",
       "gloss": "liquorice",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Veel Nederlanders eten graag drop.",
+        "example_en": "Lots of Dutch people like liquorice."
       },
       "tags": [
         "food",
@@ -2922,7 +3156,9 @@
         "forms": {
           "base": "moeilijk",
           "inflected": "moeilijke"
-        }
+        },
+        "example": "Ik vind deze les moeilijk.",
+        "example_en": "I find this lesson difficult."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -2934,7 +3170,9 @@
       "primary_form": "prettig kennis te maken",
       "gloss": "nice to meet you",
       "extras": {
-        "literal": "pleasant to make acquaintance"
+        "literal": "pleasant to make acquaintance",
+        "example": "Hallo, prettig kennis te maken!",
+        "example_en": "Hello, nice to meet you!"
       },
       "tags": [
         "greetings"
@@ -2947,7 +3185,9 @@
       "gloss": "bedroom",
       "extras": {
         "article": "de",
-        "plural": "slaapkamers"
+        "plural": "slaapkamers",
+        "example": "Het huis heeft drie slaapkamers.",
+        "example_en": "The house has three bedrooms."
       },
       "tags": [
         "home",
@@ -3011,7 +3251,9 @@
       "gloss": "kitchen",
       "extras": {
         "article": "de",
-        "plural": "keukens"
+        "plural": "keukens",
+        "example": "We eten meestal in de keuken.",
+        "example_en": "We usually eat in the kitchen."
       },
       "tags": [
         "home",
@@ -3025,7 +3267,9 @@
       "gloss": "bathroom",
       "extras": {
         "article": "de",
-        "plural": "badkamers"
+        "plural": "badkamers",
+        "example": "De badkamer is boven.",
+        "example_en": "The bathroom is upstairs."
       },
       "tags": [
         "home",
@@ -3039,7 +3283,11 @@
       "gloss": "I don't understand",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Ik begrijp het niet, wat bedoel je?",
+        "example_en": "I don't understand, what do you mean?"
+      }
     },
     {
       "kind": "noun",
@@ -3048,7 +3296,9 @@
       "gloss": "living room",
       "extras": {
         "article": "de",
-        "plural": "woonkamers"
+        "plural": "woonkamers",
+        "example": "We kijken tv in de woonkamer.",
+        "example_en": "We watch TV in the living room."
       },
       "tags": [
         "home",
@@ -3114,7 +3364,9 @@
         "forms": {
           "base": "duur",
           "inflected": "dure"
-        }
+        },
+        "example": "Die auto is te duur.",
+        "example_en": "That car is too expensive."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -3127,7 +3379,9 @@
       "gloss": "bed",
       "extras": {
         "article": "het",
-        "plural": "bedden"
+        "plural": "bedden",
+        "example": "Ik ga vroeg naar bed.",
+        "example_en": "I'm going to bed early."
       },
       "tags": [
         "home",
@@ -3155,7 +3409,11 @@
       "gloss": "could you repeat that?",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Sorry, kunt u dat herhalen?",
+        "example_en": "Sorry, could you repeat that?"
+      }
     },
     {
       "kind": "noun",
@@ -3164,7 +3422,9 @@
       "gloss": "key",
       "extras": {
         "article": "de",
-        "plural": "sleutels"
+        "plural": "sleutels",
+        "example": "Ik kan mijn sleutel niet vinden.",
+        "example_en": "I can't find my key."
       },
       "tags": [
         "home",
@@ -3228,7 +3488,9 @@
       "gloss": "flat, apartment",
       "extras": {
         "article": "het",
-        "plural": "appartementen"
+        "plural": "appartementen",
+        "example": "Ons appartement heeft een balkon.",
+        "example_en": "Our apartment has a balcony."
       },
       "tags": [
         "home",
@@ -3242,7 +3504,9 @@
       "gloss": "garden",
       "extras": {
         "article": "de",
-        "plural": "tuinen"
+        "plural": "tuinen",
+        "example": "In de zomer zitten we in de tuin.",
+        "example_en": "In summer we sit in the garden."
       },
       "tags": [
         "home",
@@ -3256,7 +3520,11 @@
       "gloss": "do you speak English?",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Goedemiddag, spreekt u Engels?",
+        "example_en": "Good afternoon, do you speak English?"
+      }
     },
     {
       "kind": "adjective",
@@ -3267,7 +3535,9 @@
         "forms": {
           "base": "goedkoop",
           "inflected": "goedkope"
-        }
+        },
+        "example": "Deze winkel is heel goedkoop.",
+        "example_en": "This shop is very cheap."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -3280,7 +3550,9 @@
       "gloss": "sofa; bank",
       "extras": {
         "article": "de",
-        "plural": "banken"
+        "plural": "banken",
+        "example": "Na het werk zit ik op de bank.",
+        "example_en": "After work I sit on the sofa."
       },
       "tags": [
         "home",
@@ -3344,7 +3616,9 @@
       "gloss": "day",
       "extras": {
         "article": "de",
-        "plural": "dagen"
+        "plural": "dagen",
+        "example": "Het was een lange dag op het werk.",
+        "example_en": "It was a long day at work."
       },
       "tags": [
         "time",
@@ -3358,7 +3632,11 @@
       "gloss": "I don't know",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Ik weet het niet, misschien morgen.",
+        "example_en": "I don't know, maybe tomorrow."
+      }
     },
     {
       "kind": "noun",
@@ -3367,7 +3645,9 @@
       "gloss": "week",
       "extras": {
         "article": "de",
-        "plural": "weken"
+        "plural": "weken",
+        "example": "Ik werk vier dagen per week.",
+        "example_en": "I work four days a week."
       },
       "tags": [
         "time",
@@ -3431,7 +3711,9 @@
       "gloss": "month",
       "extras": {
         "article": "de",
-        "plural": "maanden"
+        "plural": "maanden",
+        "example": "Deze maand werk ik veel.",
+        "example_en": "I'm working a lot this month."
       },
       "tags": [
         "time",
@@ -3447,7 +3729,9 @@
         "forms": {
           "base": "rood",
           "inflected": "rode"
-        }
+        },
+        "example": "Het stoplicht is rood.",
+        "example_en": "The traffic light is red."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -3461,7 +3745,9 @@
       "gloss": "year",
       "extras": {
         "article": "het",
-        "plural": "jaren"
+        "plural": "jaren",
+        "example": "Ik woon hier al drie jaar.",
+        "example_en": "I've lived here for three years."
       },
       "tags": [
         "time",
@@ -3475,7 +3761,11 @@
       "gloss": "how much does it cost?",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Mooi boek, hoeveel kost het?",
+        "example_en": "Nice book, how much does it cost?"
+      }
     },
     {
       "kind": "noun",
@@ -3484,7 +3774,9 @@
       "gloss": "hour; o'clock",
       "extras": {
         "article": "het",
-        "plural": "uren"
+        "plural": "uren",
+        "example": "Ik slaap acht uur per nacht.",
+        "example_en": "I sleep eight hours a night."
       },
       "tags": [
         "time",
@@ -3548,7 +3840,9 @@
       "gloss": "minute",
       "extras": {
         "article": "de",
-        "plural": "minuten"
+        "plural": "minuten",
+        "example": "De bus komt over vijf minuten.",
+        "example_en": "The bus is coming in five minutes."
       },
       "tags": [
         "time",
@@ -3562,7 +3856,11 @@
       "gloss": "may I have the bill?",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Het was heerlijk, mag ik de rekening?",
+        "example_en": "It was lovely, may I have the bill?"
+      }
     },
     {
       "kind": "noun",
@@ -3571,7 +3869,9 @@
       "gloss": "morning",
       "extras": {
         "article": "de",
-        "plural": "ochtenden"
+        "plural": "ochtenden",
+        "example": "Elke ochtend laat ik de hond uit.",
+        "example_en": "Every morning I walk the dog."
       },
       "tags": [
         "time",
@@ -3637,7 +3937,9 @@
         "forms": {
           "base": "blauw",
           "inflected": "blauwe"
-        }
+        },
+        "example": "Hij heeft een blauwe auto.",
+        "example_en": "He has a blue car."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -3651,7 +3953,9 @@
       "gloss": "afternoon",
       "extras": {
         "article": "de",
-        "plural": "middagen"
+        "plural": "middagen",
+        "example": "Ik werk alleen in de middag.",
+        "example_en": "I only work in the afternoon."
       },
       "tags": [
         "time",
@@ -3665,7 +3969,9 @@
       "gloss": "evening",
       "extras": {
         "article": "de",
-        "plural": "avonden"
+        "plural": "avonden",
+        "example": "Het was een gezellige avond.",
+        "example_en": "It was a lovely evening."
       },
       "tags": [
         "time",
@@ -3679,7 +3985,11 @@
       "gloss": "where is the toilet?",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Meneer, waar is de wc?",
+        "example_en": "Excuse me, sir, where is the toilet?"
+      }
     },
     {
       "kind": "verb",
@@ -3738,7 +4048,9 @@
       "gloss": "Monday",
       "extras": {
         "article": "de",
-        "plural": "maandagen"
+        "plural": "maandagen",
+        "example": "Maandag moet ik weer werken.",
+        "example_en": "On Monday I have to work again."
       },
       "tags": [
         "time",
@@ -3752,7 +4064,9 @@
       "gloss": "Tuesday",
       "extras": {
         "article": "de",
-        "plural": "dinsdagen"
+        "plural": "dinsdagen",
+        "example": "Op dinsdag ga ik zwemmen.",
+        "example_en": "On Tuesdays I go swimming."
       },
       "tags": [
         "time",
@@ -3782,7 +4096,9 @@
         "forms": {
           "base": "groen",
           "inflected": "groene"
-        }
+        },
+        "example": "De bomen zijn weer groen.",
+        "example_en": "The trees are green again."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -3796,7 +4112,11 @@
       "gloss": "there is, there are",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Er is koffie en er zijn koekjes.",
+        "example_en": "There's coffee and there are biscuits."
+      }
     },
     {
       "kind": "noun",
@@ -3805,7 +4125,9 @@
       "gloss": "Wednesday",
       "extras": {
         "article": "de",
-        "plural": "woensdagen"
+        "plural": "woensdagen",
+        "example": "Woensdag ga ik naar de tandarts.",
+        "example_en": "On Wednesday I'm going to the dentist."
       },
       "tags": [
         "time",
@@ -3869,7 +4191,9 @@
       "gloss": "Thursday",
       "extras": {
         "article": "de",
-        "plural": "donderdagen"
+        "plural": "donderdagen",
+        "example": "De markt is op donderdag.",
+        "example_en": "The market is on Thursday."
       },
       "tags": [
         "time",
@@ -3883,7 +4207,9 @@
       "gloss": "Friday",
       "extras": {
         "article": "de",
-        "plural": "vrijdagen"
+        "plural": "vrijdagen",
+        "example": "Vrijdag ga ik met vrienden uit.",
+        "example_en": "On Friday I'm going out with friends."
       },
       "tags": [
         "time",
@@ -3897,7 +4223,11 @@
       "gloss": "what's that?",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Kijk, wat is dat?",
+        "example_en": "Look, what's that?"
+      }
     },
     {
       "kind": "verb",
@@ -3956,7 +4286,9 @@
       "gloss": "Saturday",
       "extras": {
         "article": "de",
-        "plural": "zaterdagen"
+        "plural": "zaterdagen",
+        "example": "Op zaterdag slaap ik lekker uit.",
+        "example_en": "On Saturdays I have a nice lie-in."
       },
       "tags": [
         "time",
@@ -3972,7 +4304,9 @@
         "forms": {
           "base": "geel",
           "inflected": "gele"
-        }
+        },
+        "example": "Mijn nieuwe jas is geel.",
+        "example_en": "My new coat is yellow."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -3986,7 +4320,9 @@
       "gloss": "Sunday",
       "extras": {
         "article": "de",
-        "plural": "zondagen"
+        "plural": "zondagen",
+        "example": "Op zondag zijn veel winkels dicht.",
+        "example_en": "On Sundays many shops are closed."
       },
       "tags": [
         "time",
@@ -4000,7 +4336,9 @@
       "gloss": "town, city",
       "extras": {
         "article": "de",
-        "plural": "steden"
+        "plural": "steden",
+        "example": "We gaan zaterdag naar de stad.",
+        "example_en": "We're going into town on Saturday."
       },
       "tags": [
         "city",
@@ -4013,7 +4351,9 @@
       "primary_form": "hoe laat is het?",
       "gloss": "what time is it?",
       "extras": {
-        "literal": "how late is it?"
+        "literal": "how late is it?",
+        "example": "Mijn telefoon is leeg, hoe laat is het?",
+        "example_en": "My phone is dead, what time is it?"
       },
       "tags": [
         "greetings"
@@ -4076,7 +4416,9 @@
       "gloss": "street",
       "extras": {
         "article": "de",
-        "plural": "straten"
+        "plural": "straten",
+        "example": "Ik woon in deze straat.",
+        "example_en": "I live on this street."
       },
       "tags": [
         "city",
@@ -4090,7 +4432,9 @@
       "gloss": "shop",
       "extras": {
         "article": "de",
-        "plural": "winkels"
+        "plural": "winkels",
+        "example": "De winkel gaat om zes uur dicht.",
+        "example_en": "The shop closes at six."
       },
       "tags": [
         "city",
@@ -4106,7 +4450,9 @@
         "forms": {
           "base": "zwart",
           "inflected": "zwarte"
-        }
+        },
+        "example": "Ik drink mijn koffie zwart.",
+        "example_en": "I drink my coffee black."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -4119,7 +4465,9 @@
       "primary_form": "eet smakelijk",
       "gloss": "enjoy your meal",
       "extras": {
-        "literal": "eat tastily"
+        "literal": "eat tastily",
+        "example": "Het eten is klaar, eet smakelijk!",
+        "example_en": "Dinner is ready, enjoy your meal!"
       },
       "tags": [
         "greetings"
@@ -4183,7 +4531,9 @@
       "gloss": "market",
       "extras": {
         "article": "de",
-        "plural": "markten"
+        "plural": "markten",
+        "example": "Op de markt is alles vers.",
+        "example_en": "Everything is fresh at the market."
       },
       "tags": [
         "city",
@@ -4197,7 +4547,9 @@
       "gloss": "baker; bakery",
       "extras": {
         "article": "de",
-        "plural": "bakkers"
+        "plural": "bakkers",
+        "example": "De bakker op de hoek is erg goed.",
+        "example_en": "The bakery on the corner is very good."
       },
       "tags": [
         "city",
@@ -4211,7 +4563,9 @@
       "gloss": "station",
       "extras": {
         "article": "het",
-        "plural": "stations"
+        "plural": "stations",
+        "example": "Hoe kom ik bij het station?",
+        "example_en": "How do I get to the station?"
       },
       "tags": [
         "city",
@@ -4225,7 +4579,11 @@
       "gloss": "cheers!",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Op ons nieuwe huis, proost!",
+        "example_en": "To our new house, cheers!"
+      }
     },
     {
       "kind": "verb",
@@ -4284,7 +4642,9 @@
       "gloss": "school",
       "extras": {
         "article": "de",
-        "plural": "scholen"
+        "plural": "scholen",
+        "example": "Mijn kinderen fietsen naar school.",
+        "example_en": "My children cycle to school."
       },
       "tags": [
         "city",
@@ -4300,7 +4660,9 @@
         "forms": {
           "base": "wit",
           "inflected": "witte"
-        }
+        },
+        "example": "Wil je rode of witte wijn?",
+        "example_en": "Do you want red or white wine?"
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -4314,7 +4676,9 @@
       "gloss": "church",
       "extras": {
         "article": "de",
-        "plural": "kerken"
+        "plural": "kerken",
+        "example": "De kerk staat midden in het dorp.",
+        "example_en": "The church is in the middle of the village."
       },
       "tags": [
         "city",
@@ -4328,7 +4692,11 @@
       "gloss": "have a nice day",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Hier is uw bon, fijne dag!",
+        "example_en": "Here's your receipt, have a nice day!"
+      }
     },
     {
       "kind": "verb",
@@ -4388,7 +4756,9 @@
       "gloss": "hospital",
       "extras": {
         "article": "het",
-        "plural": "ziekenhuizen"
+        "plural": "ziekenhuizen",
+        "example": "Hij werkt in het ziekenhuis.",
+        "example_en": "He works at the hospital."
       },
       "tags": [
         "city",
@@ -4402,7 +4772,9 @@
       "gloss": "restaurant",
       "extras": {
         "article": "het",
-        "plural": "restaurants"
+        "plural": "restaurants",
+        "example": "Dit restaurant is altijd vol.",
+        "example_en": "This restaurant is always full."
       },
       "tags": [
         "city",
@@ -4430,7 +4802,9 @@
       "gloss": "canal (in a city)",
       "extras": {
         "article": "de",
-        "plural": "grachten"
+        "plural": "grachten",
+        "example": "Ze wonen aan een gracht in Amsterdam.",
+        "example_en": "They live on a canal in Amsterdam."
       },
       "tags": [
         "city",
@@ -4444,7 +4818,11 @@
       "gloss": "have a nice weekend",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Tot maandag, fijn weekend!",
+        "example_en": "See you on Monday, have a nice weekend!"
+      }
     },
     {
       "kind": "verb",
@@ -4505,7 +4883,9 @@
         "forms": {
           "base": "bruin",
           "inflected": "bruine"
-        }
+        },
+        "example": "Ik eet liever bruin brood.",
+        "example_en": "I prefer brown bread."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -4519,7 +4899,9 @@
       "gloss": "square",
       "extras": {
         "article": "het",
-        "plural": "pleinen"
+        "plural": "pleinen",
+        "example": "We spreken af op het plein.",
+        "example_en": "We're meeting on the square."
       },
       "tags": [
         "city",
@@ -4533,7 +4915,9 @@
       "gloss": "bridge",
       "extras": {
         "article": "de",
-        "plural": "bruggen"
+        "plural": "bruggen",
+        "example": "Fiets over de brug en dan rechts.",
+        "example_en": "Cycle over the bridge and then turn right."
       },
       "tags": [
         "city",
@@ -4546,7 +4930,9 @@
       "primary_form": "het maakt niet uit",
       "gloss": "it doesn't matter",
       "extras": {
-        "literal": "it makes not out"
+        "literal": "it makes not out",
+        "example": "Het maakt niet uit, ik vind alles lekker.",
+        "example_en": "It doesn't matter, I like everything."
       },
       "tags": [
         "greetings"
@@ -4609,7 +4995,9 @@
       "gloss": "bicycle",
       "extras": {
         "article": "de",
-        "plural": "fietsen"
+        "plural": "fietsen",
+        "example": "Mijn fiets is gestolen.",
+        "example_en": "My bike has been stolen."
       },
       "tags": [
         "transport",
@@ -4622,7 +5010,9 @@
       "primary_form": "werk",
       "gloss": "work, job",
       "extras": {
-        "article": "het"
+        "article": "het",
+        "example": "Hoe was het op je werk?",
+        "example_en": "How was work?"
       },
       "tags": [
         "city",
@@ -4638,7 +5028,9 @@
         "forms": {
           "base": "oranje",
           "inflected": "oranje"
-        }
+        },
+        "example": "Ze draagt een oranje jurk.",
+        "example_en": "She's wearing an orange dress."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -4651,7 +5043,9 @@
       "primary_form": "geld",
       "gloss": "money",
       "extras": {
-        "article": "het"
+        "article": "het",
+        "example": "Ik heb geen geld bij me.",
+        "example_en": "I don't have any money on me."
       },
       "tags": [
         "objects",
@@ -4665,7 +5059,11 @@
       "gloss": "no idea",
       "tags": [
         "greetings"
-      ]
+      ],
+      "extras": {
+        "example": "Geen idee, vraag het aan je moeder.",
+        "example_en": "No idea, ask your mother."
+      }
     },
     {
       "kind": "verb",
@@ -4724,7 +5122,9 @@
       "gloss": "telephone",
       "extras": {
         "article": "de",
-        "plural": "telefoons"
+        "plural": "telefoons",
+        "example": "Waar is mijn telefoon?",
+        "example_en": "Where's my phone?"
       },
       "tags": [
         "objects",

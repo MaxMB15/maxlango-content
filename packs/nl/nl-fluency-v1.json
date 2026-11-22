@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "nl-fluency-v1",
-  "version": 3,
+  "version": 4,
   "language": "nl",
   "name": "Nederlands · Vloeiend (B1)",
   "author": "Max Boksem",
@@ -218,7 +218,9 @@
       "gloss": "society",
       "extras": {
         "article": "de",
-        "plural": "maatschappijen"
+        "plural": "maatschappijen",
+        "example": "Onze maatschappij verandert snel door technologie.",
+        "example_en": "Our society is changing quickly because of technology."
       },
       "tags": [
         "society",
@@ -231,7 +233,9 @@
       "primary_form": "nu komt de aap uit de mouw",
       "gloss": "now the truth comes out",
       "extras": {
-        "literal": "now the monkey comes out of the sleeve"
+        "literal": "now the monkey comes out of the sleeve",
+        "example": "Nu komt de aap uit de mouw, hij wil geld.",
+        "example_en": "Now the truth comes out, he wants money."
       },
       "tags": [
         "idioms"
@@ -299,7 +303,9 @@
         "forms": {
           "base": "gezellig",
           "inflected": "gezellige"
-        }
+        },
+        "example": "We hebben een gezellig café in de buurt gevonden.",
+        "example_en": "We found a cosy café in the neighbourhood."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -311,7 +317,9 @@
       "primary_form": "doe normaal",
       "gloss": "act normal, calm down",
       "extras": {
-        "literal": "do normal"
+        "literal": "do normal",
+        "example": "Doe normaal, het is maar een spelletje.",
+        "example_en": "Calm down, it's only a game."
       },
       "tags": [
         "uitdrukkingen"
@@ -324,7 +332,9 @@
       "gloss": "government",
       "extras": {
         "article": "de",
-        "plural": "regeringen"
+        "plural": "regeringen",
+        "example": "De regering heeft nieuwe maatregelen aangekondigd.",
+        "example_en": "The government has announced new measures."
       },
       "tags": [
         "society",
@@ -351,7 +361,9 @@
       "primary_form": "met de deur in huis vallen",
       "gloss": "to get straight to the point",
       "extras": {
-        "literal": "to fall into the house with the door"
+        "literal": "to fall into the house with the door",
+        "example": "Mag ik meteen met de deur in huis vallen?",
+        "example_en": "May I get straight to the point?"
       },
       "tags": [
         "idioms"
@@ -364,7 +376,9 @@
       "gloss": "law",
       "extras": {
         "article": "de",
-        "plural": "wetten"
+        "plural": "wetten",
+        "example": "Volgens de wet mag dat niet.",
+        "example_en": "According to the law, that isn't allowed."
       },
       "tags": [
         "society",
@@ -430,7 +444,9 @@
         "forms": {
           "base": "eerlijk",
           "inflected": "eerlijke"
-        }
+        },
+        "example": "Wees eerlijk, vind je mijn plan goed?",
+        "example_en": "Be honest, do you like my plan?"
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -443,7 +459,9 @@
       "primary_form": "doe maar gewoon, dan doe je al gek genoeg",
       "gloss": "just act normal, that's crazy enough",
       "extras": {
-        "literal": "just act ordinary, then you're acting crazy enough"
+        "literal": "just act ordinary, then you're acting crazy enough",
+        "example": "Doe maar gewoon, dan doe je al gek genoeg.",
+        "example_en": "Just act normal, that's crazy enough already."
       },
       "tags": [
         "uitdrukkingen"
@@ -455,7 +473,9 @@
       "primary_form": "het regent pijpenstelen",
       "gloss": "it's raining cats and dogs",
       "extras": {
-        "literal": "it's raining pipe stems"
+        "literal": "it's raining pipe stems",
+        "example": "Neem een paraplu mee, het regent pijpenstelen.",
+        "example_en": "Take an umbrella, it's raining cats and dogs."
       },
       "tags": [
         "idioms"
@@ -468,7 +488,9 @@
       "gloss": "right; law (the subject)",
       "extras": {
         "article": "het",
-        "plural": "rechten"
+        "plural": "rechten",
+        "example": "Iedereen heeft recht op onderwijs.",
+        "example_en": "Everyone has a right to education."
       },
       "tags": [
         "society",
@@ -482,7 +504,9 @@
       "gloss": "freedom",
       "extras": {
         "article": "de",
-        "plural": "vrijheden"
+        "plural": "vrijheden",
+        "example": "Na de oorlog vierde het land zijn vrijheid.",
+        "example_en": "After the war, the country celebrated its freedom."
       },
       "tags": [
         "society",
@@ -509,7 +533,9 @@
       "primary_form": "iets onder de knie hebben",
       "gloss": "to have mastered something",
       "extras": {
-        "literal": "to have something under the knee"
+        "literal": "to have something under the knee",
+        "example": "Ik heb het rijden nu onder de knie.",
+        "example_en": "I've got the hang of driving now."
       },
       "tags": [
         "idioms"
@@ -574,7 +600,9 @@
         "forms": {
           "base": "brutaal",
           "inflected": "brutale"
-        }
+        },
+        "example": "Wat een brutaal antwoord van dat kind!",
+        "example_en": "What a cheeky answer from that child!"
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -587,7 +615,9 @@
       "primary_form": "gelijkheid",
       "gloss": "equality",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Ze strijden al jaren voor gelijkheid tussen mannen en vrouwen.",
+        "example_en": "They have been fighting for equality between men and women for years."
       },
       "tags": [
         "society",
@@ -600,7 +630,9 @@
       "primary_form": "het valt mee",
       "gloss": "it's not as bad as expected",
       "extras": {
-        "literal": "it falls along"
+        "literal": "it falls along",
+        "example": "Het valt mee met de drukte vandaag.",
+        "example_en": "The crowds aren't as bad as expected today."
       },
       "tags": [
         "uitdrukkingen"
@@ -612,7 +644,9 @@
       "primary_form": "een appeltje met iemand te schillen hebben",
       "gloss": "to have a bone to pick with someone",
       "extras": {
-        "literal": "to have an apple to peel with someone"
+        "literal": "to have an apple to peel with someone",
+        "example": "Ik heb nog een appeltje met je te schillen.",
+        "example_en": "I still have a bone to pick with you."
       },
       "tags": [
         "idioms"
@@ -625,7 +659,9 @@
       "gloss": "election",
       "extras": {
         "article": "de",
-        "plural": "verkiezingen"
+        "plural": "verkiezingen",
+        "example": "Volgende maand zijn er verkiezingen in ons land.",
+        "example_en": "There are elections in our country next month."
       },
       "tags": [
         "society",
@@ -688,7 +724,9 @@
       "primary_form": "de kat uit de boom kijken",
       "gloss": "to wait and see",
       "extras": {
-        "literal": "to watch the cat out of the tree"
+        "literal": "to watch the cat out of the tree",
+        "example": "We kijken nog even de kat uit de boom.",
+        "example_en": "We'll wait and see for a while."
       },
       "tags": [
         "idioms"
@@ -701,7 +739,9 @@
       "gloss": "war",
       "extras": {
         "article": "de",
-        "plural": "oorlogen"
+        "plural": "oorlogen",
+        "example": "Mijn opa heeft de oorlog nog meegemaakt.",
+        "example_en": "My grandfather lived through the war."
       },
       "tags": [
         "society",
@@ -717,7 +757,9 @@
         "forms": {
           "base": "slim",
           "inflected": "slimme"
-        }
+        },
+        "example": "Het is slim om vroeg te vertrekken.",
+        "example_en": "It's smart to leave early."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -744,7 +786,9 @@
       "primary_form": "het valt tegen",
       "gloss": "it's worse than expected, disappointing",
       "extras": {
-        "literal": "it falls against"
+        "literal": "it falls against",
+        "example": "Ik had er veel van verwacht, maar het valt tegen.",
+        "example_en": "I expected a lot from it, but it's disappointing."
       },
       "tags": [
         "uitdrukkingen"
@@ -756,7 +800,9 @@
       "primary_form": "vrede",
       "gloss": "peace",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Iedereen wil in vrede leven.",
+        "example_en": "Everyone wants to live in peace."
       },
       "tags": [
         "society",
@@ -819,7 +865,9 @@
       "primary_form": "nu breekt mijn klomp",
       "gloss": "well I never!",
       "extras": {
-        "literal": "now my clog breaks"
+        "literal": "now my clog breaks",
+        "example": "Nu breekt mijn klomp, de trein is op tijd!",
+        "example_en": "Well I never, the train is on time!"
       },
       "tags": [
         "idioms"
@@ -831,7 +879,9 @@
       "primary_form": "milieu",
       "gloss": "environment",
       "extras": {
-        "article": "het"
+        "article": "het",
+        "example": "We moeten beter voor het milieu zorgen.",
+        "example_en": "We need to take better care of the environment."
       },
       "tags": [
         "society",
@@ -847,7 +897,9 @@
         "forms": {
           "base": "eventueel",
           "inflected": "eventuele"
-        }
+        },
+        "example": "Eventuele vragen kun je na de les stellen.",
+        "example_en": "You can ask any questions after the lesson."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -860,7 +912,9 @@
       "primary_form": "dat klopt",
       "gloss": "that's right",
       "extras": {
-        "literal": "that knocks"
+        "literal": "that knocks",
+        "example": "Dat klopt, ik woon hier al tien jaar.",
+        "example_en": "That's right, I've lived here for ten years."
       },
       "tags": [
         "uitdrukkingen"
@@ -872,7 +926,9 @@
       "primary_form": "tussen de soep en de aardappelen",
       "gloss": "in between, squeezed in",
       "extras": {
-        "literal": "between the soup and the potatoes"
+        "literal": "between the soup and the potatoes",
+        "example": "Ik heb het tussen de soep en de aardappelen gedaan.",
+        "example_en": "I squeezed it in between other things."
       },
       "tags": [
         "idioms"
@@ -884,7 +940,9 @@
       "primary_form": "vervuiling",
       "gloss": "pollution",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "De vervuiling in de rivier is erg toegenomen.",
+        "example_en": "Pollution in the river has increased a lot."
       },
       "tags": [
         "society",
@@ -961,7 +1019,9 @@
       "primary_form": "toekomst",
       "gloss": "future",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Wat wil je in de toekomst gaan doen?",
+        "example_en": "What do you want to do in the future?"
       },
       "tags": [
         "society",
@@ -974,7 +1034,9 @@
       "primary_form": "door de mand vallen",
       "gloss": "to be found out",
       "extras": {
-        "literal": "to fall through the basket"
+        "literal": "to fall through the basket",
+        "example": "Hij was bang om door de mand te vallen.",
+        "example_en": "He was afraid of being found out."
       },
       "tags": [
         "idioms"
@@ -989,7 +1051,9 @@
         "forms": {
           "base": "actueel",
           "inflected": "actuele"
-        }
+        },
+        "example": "Dit onderwerp is nog steeds heel actueel.",
+        "example_en": "This subject is still very topical."
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -1002,7 +1066,9 @@
       "primary_form": "je weet wel",
       "gloss": "you know",
       "extras": {
-        "literal": "you know well"
+        "literal": "you know well",
+        "example": "Ik bedoel die winkel, je weet wel, naast het station.",
+        "example_en": "I mean that shop, you know, next to the station."
       },
       "tags": [
         "uitdrukkingen"
@@ -1014,7 +1080,9 @@
       "primary_form": "verleden",
       "gloss": "past",
       "extras": {
-        "article": "het"
+        "article": "het",
+        "example": "Je moet het verleden achter je laten.",
+        "example_en": "You have to leave the past behind you."
       },
       "tags": [
         "society",
@@ -1077,7 +1145,9 @@
       "primary_form": "iemand een oor aannaaien",
       "gloss": "to con someone",
       "extras": {
-        "literal": "to sew an ear on someone"
+        "literal": "to sew an ear on someone",
+        "example": "Laat je door niemand een oor aannaaien.",
+        "example_en": "Don't let anyone con you."
       },
       "tags": [
         "idioms"
@@ -1089,7 +1159,9 @@
       "primary_form": "geschiedenis",
       "gloss": "history",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Ik vind geschiedenis het leukste vak op school.",
+        "example_en": "I think history is the most fun subject at school."
       },
       "tags": [
         "society",
@@ -1119,7 +1191,9 @@
         "forms": {
           "base": "bijzonder",
           "inflected": "bijzondere"
-        }
+        },
+        "example": "Het was een heel bijzondere dag.",
+        "example_en": "It was a very special day."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -1131,7 +1205,9 @@
       "primary_form": "ze zijn koek en ei",
       "gloss": "they're thick as thieves",
       "extras": {
-        "literal": "they're cake and egg"
+        "literal": "they're cake and egg",
+        "example": "Sinds de basisschool zijn ze koek en ei.",
+        "example_en": "They've been thick as thieves since primary school."
       },
       "tags": [
         "idioms"
@@ -1144,7 +1220,9 @@
       "gloss": "culture",
       "extras": {
         "article": "de",
-        "plural": "culturen"
+        "plural": "culturen",
+        "example": "Ik wil meer leren over de Nederlandse cultuur.",
+        "example_en": "I want to learn more about Dutch culture."
       },
       "tags": [
         "society",
@@ -1158,7 +1236,11 @@
       "gloss": "oh well",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Nou ja, dan gaan we morgen wel.",
+        "example_en": "Oh well, we'll go tomorrow then."
+      }
     },
     {
       "kind": "verb",
@@ -1217,7 +1299,9 @@
       "gloss": "language",
       "extras": {
         "article": "de",
-        "plural": "talen"
+        "plural": "talen",
+        "example": "Nederlands is geen makkelijke taal.",
+        "example_en": "Dutch is not an easy language."
       },
       "tags": [
         "society",
@@ -1230,7 +1314,9 @@
       "primary_form": "ik heb er een hard hoofd in",
       "gloss": "I'm pessimistic about it",
       "extras": {
-        "literal": "I have a hard head in it"
+        "literal": "I have a hard head in it",
+        "example": "Ik heb er een hard hoofd in dat we winnen.",
+        "example_en": "I'm pessimistic about our chances of winning."
       },
       "tags": [
         "idioms"
@@ -1245,7 +1331,9 @@
         "forms": {
           "base": "belangrijk",
           "inflected": "belangrijke"
-        }
+        },
+        "example": "Gezondheid is het belangrijkste in het leven.",
+        "example_en": "Health is the most important thing in life."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -1258,7 +1346,9 @@
       "gloss": "problem",
       "extras": {
         "article": "het",
-        "plural": "problemen"
+        "plural": "problemen",
+        "example": "Geen probleem, ik help je graag.",
+        "example_en": "No problem, I'm happy to help you."
       },
       "tags": [
         "society",
@@ -1336,7 +1426,11 @@
       "gloss": "phew, finally",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Hè hè, eindelijk is het weekend!",
+        "example_en": "Phew, it's finally the weekend!"
+      }
     },
     {
       "kind": "phrase",
@@ -1344,7 +1438,9 @@
       "primary_form": "wie het eerst komt, het eerst maalt",
       "gloss": "first come, first served",
       "extras": {
-        "literal": "who comes first, grinds first"
+        "literal": "who comes first, grinds first",
+        "example": "Wees op tijd, wie het eerst komt, het eerst maalt.",
+        "example_en": "Be on time, first come, first served."
       },
       "tags": [
         "idioms"
@@ -1357,7 +1453,9 @@
       "gloss": "solution",
       "extras": {
         "article": "de",
-        "plural": "oplossingen"
+        "plural": "oplossingen",
+        "example": "Samen vinden we wel een oplossing.",
+        "example_en": "Together we'll find a solution."
       },
       "tags": [
         "society",
@@ -1373,7 +1471,9 @@
         "forms": {
           "base": "mogelijk",
           "inflected": "mogelijke"
-        }
+        },
+        "example": "Is het mogelijk om morgen te betalen?",
+        "example_en": "Is it possible to pay tomorrow?"
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -1385,7 +1485,9 @@
       "primary_form": "de koe bij de hoorns vatten",
       "gloss": "to take the bull by the horns",
       "extras": {
-        "literal": "to take the cow by the horns"
+        "literal": "to take the cow by the horns",
+        "example": "We moeten nu de koe bij de hoorns vatten.",
+        "example_en": "We have to take the bull by the horns now."
       },
       "tags": [
         "idioms"
@@ -1398,7 +1500,9 @@
       "gloss": "reason",
       "extras": {
         "article": "de",
-        "plural": "redenen"
+        "plural": "redenen",
+        "example": "Wat is de reden van je bezoek?",
+        "example_en": "What is the reason for your visit?"
       },
       "tags": [
         "society",
@@ -1461,7 +1565,9 @@
       "primary_form": "echt waar?",
       "gloss": "really?",
       "extras": {
-        "literal": "truly true?"
+        "literal": "truly true?",
+        "example": "Je gaat naar Spanje verhuizen, echt waar?",
+        "example_en": "You're moving to Spain, really?"
       },
       "tags": [
         "uitdrukkingen"
@@ -1474,7 +1580,9 @@
       "gloss": "opinion",
       "extras": {
         "article": "de",
-        "plural": "meningen"
+        "plural": "meningen",
+        "example": "Ik ben het niet eens met zijn mening.",
+        "example_en": "I don't agree with his opinion."
       },
       "tags": [
         "society",
@@ -1501,7 +1609,9 @@
       "primary_form": "met je neus in de boter vallen",
       "gloss": "to strike lucky",
       "extras": {
-        "literal": "to fall with your nose in the butter"
+        "literal": "to fall with your nose in the butter",
+        "example": "Gratis taart, we vallen met onze neus in de boter!",
+        "example_en": "Free cake, we've turned up at just the right time!"
       },
       "tags": [
         "idioms"
@@ -1516,7 +1626,9 @@
         "forms": {
           "base": "ongerust",
           "inflected": "ongeruste"
-        }
+        },
+        "example": "Je moeder was ongerust omdat je niet belde.",
+        "example_en": "Your mother was worried because you didn't call."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -1529,7 +1641,9 @@
       "gloss": "idea",
       "extras": {
         "article": "het",
-        "plural": "ideeën"
+        "plural": "ideeën",
+        "example": "Dat is een goed idee, laten we dat doen.",
+        "example_en": "That's a good idea, let's do that."
       },
       "tags": [
         "society",
@@ -1592,7 +1706,9 @@
       "primary_form": "een kat in de zak kopen",
       "gloss": "to buy a pig in a poke",
       "extras": {
-        "literal": "to buy a cat in the bag"
+        "literal": "to buy a cat in the bag",
+        "example": "Ik wil geen kat in de zak kopen.",
+        "example_en": "I don't want to buy a pig in a poke."
       },
       "tags": [
         "idioms"
@@ -1605,7 +1721,11 @@
       "gloss": "gosh, wow",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Jeetje, wat ben jij groot geworden!",
+        "example_en": "Gosh, how tall you've grown!"
+      }
     },
     {
       "kind": "noun",
@@ -1614,7 +1734,9 @@
       "gloss": "choice",
       "extras": {
         "article": "de",
-        "plural": "keuzes"
+        "plural": "keuzes",
+        "example": "Je hebt de keuze tussen koffie en thee.",
+        "example_en": "You have the choice between coffee and tea."
       },
       "tags": [
         "society",
@@ -1627,7 +1749,9 @@
       "primary_form": "iets uit je duim zuigen",
       "gloss": "to make something up",
       "extras": {
-        "literal": "to suck something from your thumb"
+        "literal": "to suck something from your thumb",
+        "example": "Ik moest snel iets uit mijn duim zuigen.",
+        "example_en": "I had to make something up quickly."
       },
       "tags": [
         "idioms"
@@ -1640,7 +1764,9 @@
       "gloss": "chance",
       "extras": {
         "article": "de",
-        "plural": "kansen"
+        "plural": "kansen",
+        "example": "Ik wil hem nog een kans geven.",
+        "example_en": "I want to give him another chance."
       },
       "tags": [
         "society",
@@ -1706,7 +1832,9 @@
         "forms": {
           "base": "trots",
           "inflected": "trotse"
-        }
+        },
+        "example": "Mijn ouders zijn erg trots op mij.",
+        "example_en": "My parents are very proud of me."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -1733,7 +1861,9 @@
       "gloss": "success",
       "extras": {
         "article": "het",
-        "plural": "successen"
+        "plural": "successen",
+        "example": "Het feest was een groot succes.",
+        "example_en": "The party was a big success."
       },
       "tags": [
         "society",
@@ -1747,7 +1877,11 @@
       "gloss": "good luck!",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Succes met je examen morgen!",
+        "example_en": "Good luck with your exam tomorrow!"
+      }
     },
     {
       "kind": "phrase",
@@ -1755,7 +1889,9 @@
       "primary_form": "hij heeft ze niet allemaal op een rijtje",
       "gloss": "he's not all there",
       "extras": {
-        "literal": "he doesn't have them all in a row"
+        "literal": "he doesn't have them all in a row",
+        "example": "Volgens mij heeft hij ze niet allemaal op een rijtje.",
+        "example_en": "I think he's not all there."
       },
       "tags": [
         "idioms"
@@ -1818,7 +1954,9 @@
       "gloss": "fear",
       "extras": {
         "article": "de",
-        "plural": "angsten"
+        "plural": "angsten",
+        "example": "Hij probeert zijn angst voor vliegen te overwinnen.",
+        "example_en": "He's trying to overcome his fear of flying."
       },
       "tags": [
         "feelings",
@@ -1834,7 +1972,9 @@
         "forms": {
           "base": "jaloers",
           "inflected": "jaloerse"
-        }
+        },
+        "example": "Mijn broer is jaloers op mijn nieuwe fiets.",
+        "example_en": "My brother is jealous of my new bike."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -1846,7 +1986,9 @@
       "primary_form": "oost west, thuis best",
       "gloss": "there's no place like home",
       "extras": {
-        "literal": "east, west, home is best"
+        "literal": "east, west, home is best",
+        "example": "Lekker weer in mijn eigen bed, oost west, thuis best!",
+        "example_en": "Back in my own bed at last, there's no place like home!"
       },
       "tags": [
         "idioms"
@@ -1858,7 +2000,9 @@
       "primary_form": "vreugde",
       "gloss": "joy",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Het nieuws over de baby bracht veel vreugde.",
+        "example_en": "The news about the baby brought a lot of joy."
       },
       "tags": [
         "feelings",
@@ -1885,7 +2029,9 @@
       "primary_form": "sterkte!",
       "gloss": "be strong, I'm thinking of you",
       "extras": {
-        "literal": "strength!"
+        "literal": "strength!",
+        "example": "Wat een moeilijke tijd voor je, heel veel sterkte!",
+        "example_en": "What a difficult time for you, be strong!"
       },
       "tags": [
         "uitdrukkingen"
@@ -1947,7 +2093,9 @@
       "primary_form": "woede",
       "gloss": "anger",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Hij kon zijn woede niet meer beheersen.",
+        "example_en": "He could no longer control his anger."
       },
       "tags": [
         "feelings",
@@ -1960,7 +2108,9 @@
       "primary_form": "twee vliegen in één klap",
       "gloss": "to kill two birds with one stone",
       "extras": {
-        "literal": "two flies in one swat"
+        "literal": "two flies in one swat",
+        "example": "Zo slaan we twee vliegen in één klap.",
+        "example_en": "That way we kill two birds with one stone."
       },
       "tags": [
         "idioms"
@@ -1975,7 +2125,9 @@
         "forms": {
           "base": "gul",
           "inflected": "gulle"
-        }
+        },
+        "example": "Onze buren zijn altijd erg gul met cadeautjes.",
+        "example_en": "Our neighbours are always very generous with presents."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -1987,7 +2139,9 @@
       "primary_form": "schaamte",
       "gloss": "shame",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Hij werd rood van schaamte.",
+        "example_en": "He turned red with shame."
       },
       "tags": [
         "feelings",
@@ -2000,7 +2154,9 @@
       "primary_form": "op je tenen lopen",
       "gloss": "to push yourself to the limit",
       "extras": {
-        "literal": "to walk on your toes"
+        "literal": "to walk on your toes",
+        "example": "Ik loop al maanden op mijn tenen.",
+        "example_en": "I've been running on empty for months."
       },
       "tags": [
         "idioms"
@@ -2012,7 +2168,9 @@
       "primary_form": "beterschap!",
       "gloss": "get well soon!",
       "extras": {
-        "literal": "betterment!"
+        "literal": "betterment!",
+        "example": "Ik hoorde dat je griep hebt, beterschap!",
+        "example_en": "I heard you have the flu, get well soon!"
       },
       "tags": [
         "uitdrukkingen"
@@ -2075,7 +2233,9 @@
       "gloss": "memory (something remembered)",
       "extras": {
         "article": "de",
-        "plural": "herinneringen"
+        "plural": "herinneringen",
+        "example": "Ik heb mooie herinneringen aan die zomer.",
+        "example_en": "I have lovely memories of that summer."
       },
       "tags": [
         "feelings",
@@ -2105,7 +2265,9 @@
         "forms": {
           "base": "dom",
           "inflected": "domme"
-        }
+        },
+        "example": "Wat dom van me, ik ben mijn sleutels vergeten.",
+        "example_en": "How stupid of me, I forgot my keys."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -2117,7 +2279,9 @@
       "primary_form": "van een mug een olifant maken",
       "gloss": "to make a mountain out of a molehill",
       "extras": {
-        "literal": "to make an elephant of a mosquito"
+        "literal": "to make an elephant of a mosquito",
+        "example": "Je moet niet van een mug een olifant maken.",
+        "example_en": "You shouldn't make a mountain out of a molehill."
       },
       "tags": [
         "idioms"
@@ -2130,7 +2294,9 @@
       "gloss": "dream",
       "extras": {
         "article": "de",
-        "plural": "dromen"
+        "plural": "dromen",
+        "example": "Mijn droom is een huis aan zee.",
+        "example_en": "My dream is a house by the sea."
       },
       "tags": [
         "feelings",
@@ -2195,7 +2361,11 @@
       "gloss": "congratulations!; happy birthday!",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Je bent voor je examen geslaagd, gefeliciteerd!",
+        "example_en": "You passed your exam, congratulations!"
+      }
     },
     {
       "kind": "noun",
@@ -2203,7 +2373,9 @@
       "primary_form": "hoop",
       "gloss": "hope",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Hij geeft de hoop nooit op.",
+        "example_en": "He never gives up hope."
       },
       "tags": [
         "feelings",
@@ -2216,7 +2388,9 @@
       "primary_form": "iemand in de maling nemen",
       "gloss": "to pull someone's leg",
       "extras": {
-        "literal": "to take someone into the grinder"
+        "literal": "to take someone into the grinder",
+        "example": "Neem je me nou in de maling?",
+        "example_en": "Are you pulling my leg?"
       },
       "tags": [
         "idioms"
@@ -2231,7 +2405,9 @@
         "forms": {
           "base": "zacht",
           "inflected": "zachte"
-        }
+        },
+        "example": "Deze trui is heerlijk zacht.",
+        "example_en": "This jumper is lovely and soft."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -2243,7 +2419,9 @@
       "primary_form": "liefde",
       "gloss": "love",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Liefde op het eerste gezicht bestaat echt.",
+        "example_en": "Love at first sight really exists."
       },
       "tags": [
         "feelings",
@@ -2270,7 +2448,9 @@
       "primary_form": "het zal me worst wezen",
       "gloss": "I couldn't care less",
       "extras": {
-        "literal": "it'll be sausage to me"
+        "literal": "it'll be sausage to me",
+        "example": "Wat de buren ervan vinden, het zal me worst wezen.",
+        "example_en": "I couldn't care less what the neighbours think."
       },
       "tags": [
         "idioms"
@@ -2335,7 +2515,9 @@
       "gloss": "friendship",
       "extras": {
         "article": "de",
-        "plural": "vriendschappen"
+        "plural": "vriendschappen",
+        "example": "Een goede vriendschap is goud waard.",
+        "example_en": "A good friendship is worth its weight in gold."
       },
       "tags": [
         "feelings",
@@ -2348,7 +2530,9 @@
       "primary_form": "lekker bezig!",
       "gloss": "nice going!, well done!",
       "extras": {
-        "literal": "tastily busy"
+        "literal": "tastily busy",
+        "example": "Je hebt de hele keuken opgeruimd, lekker bezig!",
+        "example_en": "You've tidied the whole kitchen, nice going!"
       },
       "tags": [
         "uitdrukkingen"
@@ -2363,7 +2547,9 @@
         "forms": {
           "base": "vers",
           "inflected": "verse"
-        }
+        },
+        "example": "Ik koop elke ochtend vers brood bij de bakker.",
+        "example_en": "I buy fresh bread from the baker every morning."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -2375,7 +2561,9 @@
       "primary_form": "aan de bel trekken",
       "gloss": "to raise the alarm",
       "extras": {
-        "literal": "to pull the bell"
+        "literal": "to pull the bell",
+        "example": "De leraren trekken aan de bel over de werkdruk.",
+        "example_en": "The teachers are raising the alarm about the workload."
       },
       "tags": [
         "idioms"
@@ -2388,7 +2576,9 @@
       "gloss": "after-work drinks",
       "extras": {
         "article": "de",
-        "plural": "borrels"
+        "plural": "borrels",
+        "example": "Ga je vrijdag mee naar de borrel?",
+        "example_en": "Are you coming to the drinks on Friday?"
       },
       "tags": [
         "idioms",
@@ -2453,7 +2643,9 @@
       "primary_form": "gezelligheid",
       "gloss": "cosiness, conviviality",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Ik mis de gezelligheid van mijn studententijd.",
+        "example_en": "I miss the cosy fun of my student days."
       },
       "tags": [
         "idioms",
@@ -2480,7 +2672,9 @@
       "primary_form": "de puntjes op de i zetten",
       "gloss": "to dot the i's and cross the t's",
       "extras": {
-        "literal": "to put the dots on the i"
+        "literal": "to put the dots on the i",
+        "example": "Ik moet alleen nog de puntjes op de i zetten.",
+        "example_en": "I just need to dot the i's and cross the t's."
       },
       "tags": [
         "idioms"
@@ -2493,7 +2687,11 @@
       "gloss": "yuck, gross",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Gatverdamme, er zit een haar in mijn soep!",
+        "example_en": "Yuck, there's a hair in my soup!"
+      }
     },
     {
       "kind": "adjective",
@@ -2504,7 +2702,9 @@
         "forms": {
           "base": "vals",
           "inflected": "valse"
-        }
+        },
+        "example": "De piano klinkt een beetje vals.",
+        "example_en": "The piano sounds a bit out of tune."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -2517,7 +2717,9 @@
       "gloss": "reclaimed land",
       "extras": {
         "article": "de",
-        "plural": "polders"
+        "plural": "polders",
+        "example": "We fietsen door de polder naar het dorp.",
+        "example_en": "We're cycling through the polder to the village."
       },
       "tags": [
         "nature",
@@ -2530,7 +2732,9 @@
       "primary_form": "dat is een eitje",
       "gloss": "that's a piece of cake",
       "extras": {
-        "literal": "that's a little egg"
+        "literal": "that's a little egg",
+        "example": "Maak je geen zorgen, dat is een eitje.",
+        "example_en": "Don't worry, that's a piece of cake."
       },
       "tags": [
         "idioms"
@@ -2595,7 +2799,9 @@
       "gloss": "dyke",
       "extras": {
         "article": "de",
-        "plural": "dijken"
+        "plural": "dijken",
+        "example": "Er lopen veel schapen op de dijk.",
+        "example_en": "There are lots of sheep on the dyke."
       },
       "tags": [
         "nature",
@@ -2609,7 +2815,11 @@
       "gloss": "it was really lovely (said when leaving)",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Bedankt voor het eten, het was heel gezellig.",
+        "example_en": "Thanks for dinner, it was really lovely."
+      }
     },
     {
       "kind": "phrase",
@@ -2617,7 +2827,9 @@
       "primary_form": "tot in de puntjes",
       "gloss": "down to the last detail",
       "extras": {
-        "literal": "into the little points"
+        "literal": "into the little points",
+        "example": "Ze heeft het feest tot in de puntjes geregeld.",
+        "example_en": "She organised the party down to the last detail."
       },
       "tags": [
         "idioms"
@@ -2630,7 +2842,9 @@
       "gloss": "clog",
       "extras": {
         "article": "de",
-        "plural": "klompen"
+        "plural": "klompen",
+        "example": "Vroeger droegen boeren klompen op het land.",
+        "example_en": "In the past, farmers wore clogs in the fields."
       },
       "tags": [
         "clothing",
@@ -2646,7 +2860,9 @@
         "forms": {
           "base": "nuchter",
           "inflected": "nuchtere"
-        }
+        },
+        "example": "Zij blijft altijd nuchter, ook in een crisis.",
+        "example_en": "She always stays down-to-earth, even in a crisis."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -2725,7 +2941,9 @@
       "gloss": "windmill; mill",
       "extras": {
         "article": "de",
-        "plural": "molens"
+        "plural": "molens",
+        "example": "Op zaterdag is de oude molen open voor bezoekers.",
+        "example_en": "The old windmill is open to visitors on Saturdays."
       },
       "tags": [
         "nature",
@@ -2738,7 +2956,9 @@
       "primary_form": "dat kost een rib uit je lijf",
       "gloss": "that costs an arm and a leg",
       "extras": {
-        "literal": "that costs a rib from your body"
+        "literal": "that costs a rib from your body",
+        "example": "Een nieuwe auto, dat kost een rib uit je lijf.",
+        "example_en": "A new car, that costs an arm and a leg."
       },
       "tags": [
         "idioms"
@@ -2750,7 +2970,9 @@
       "primary_form": "niet zo zeuren",
       "gloss": "stop whining",
       "extras": {
-        "literal": "not so nag"
+        "literal": "not so nag",
+        "example": "Niet zo zeuren, we zijn er bijna.",
+        "example_en": "Stop whining, we're almost there."
       },
       "tags": [
         "uitdrukkingen"
@@ -2763,7 +2985,9 @@
       "gloss": "fire",
       "extras": {
         "article": "de",
-        "plural": "branden"
+        "plural": "branden",
+        "example": "Gisteren was er een grote brand in de fabriek.",
+        "example_en": "Yesterday there was a big fire in the factory."
       },
       "tags": [
         "valse-vrienden",
@@ -2779,7 +3003,9 @@
         "forms": {
           "base": "zuinig",
           "inflected": "zuinige"
-        }
+        },
+        "example": "Wees deze maand zuinig met je geld.",
+        "example_en": "Be careful with your money this month."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -2843,7 +3069,9 @@
       "primary_form": "een gat in de lucht springen",
       "gloss": "to jump for joy",
       "extras": {
-        "literal": "to jump a hole in the air"
+        "literal": "to jump a hole in the air",
+        "example": "Ze sprongen een gat in de lucht.",
+        "example_en": "They jumped for joy."
       },
       "tags": [
         "idioms"
@@ -2856,7 +3084,9 @@
       "gloss": "brand",
       "extras": {
         "article": "het",
-        "plural": "merken"
+        "plural": "merken",
+        "example": "Welk merk koffie drink jij het liefst?",
+        "example_en": "Which brand of coffee do you like best?"
       },
       "tags": [
         "valse-vrienden",
@@ -2883,7 +3113,9 @@
       "primary_form": "room",
       "gloss": "cream",
       "extras": {
-        "article": "de"
+        "article": "de",
+        "example": "Doe op het laatst wat room bij de saus.",
+        "example_en": "Add some cream to the sauce at the end."
       },
       "tags": [
         "valse-vrienden",
@@ -2896,7 +3128,9 @@
       "primary_form": "met de noorderzon vertrekken",
       "gloss": "to vanish without paying",
       "extras": {
-        "literal": "to leave with the northern sun"
+        "literal": "to leave with the northern sun",
+        "example": "De huurder is met de noorderzon vertrokken.",
+        "example_en": "The tenant vanished without paying."
       },
       "tags": [
         "idioms"
@@ -2908,7 +3142,9 @@
       "primary_form": "ik heb er zin in",
       "gloss": "I'm looking forward to it",
       "extras": {
-        "literal": "I have mind in it"
+        "literal": "I have mind in it",
+        "example": "Morgen gaan we op vakantie, ik heb er zin in!",
+        "example_en": "We're going on holiday tomorrow, I'm looking forward to it!"
       },
       "tags": [
         "uitdrukkingen"
@@ -2923,7 +3159,9 @@
         "forms": {
           "base": "eigenwijs",
           "inflected": "eigenwijze"
-        }
+        },
+        "example": "Mijn zoontje is erg eigenwijs, hij luistert nooit.",
+        "example_en": "My little son is very headstrong, he never listens."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -2988,7 +3226,9 @@
       "gloss": "room",
       "extras": {
         "article": "de",
-        "plural": "kamers"
+        "plural": "kamers",
+        "example": "Ik huur een kamer in het centrum.",
+        "example_en": "I rent a room in the city centre."
       },
       "tags": [
         "valse-vrienden",
@@ -3001,7 +3241,9 @@
       "primary_form": "roeien met de riemen die je hebt",
       "gloss": "to make do with what you have",
       "extras": {
-        "literal": "to row with the oars you have"
+        "literal": "to row with the oars you have",
+        "example": "Je moet roeien met de riemen die je hebt.",
+        "example_en": "You have to make do with what you have."
       },
       "tags": [
         "idioms"
@@ -3014,7 +3256,9 @@
       "gloss": "folder",
       "extras": {
         "article": "de",
-        "plural": "mappen"
+        "plural": "mappen",
+        "example": "Sla het bestand op in de juiste map.",
+        "example_en": "Save the file in the right folder."
       },
       "tags": [
         "valse-vrienden",
@@ -3042,7 +3286,11 @@
       "gloss": "come on!",
       "tags": [
         "uitdrukkingen"
-      ]
+      ],
+      "extras": {
+        "example": "Nog maar één kilometer, kom op!",
+        "example_en": "Only one more kilometre, come on!"
+      }
     },
     {
       "kind": "adjective",
@@ -3053,7 +3301,9 @@
         "forms": {
           "base": "stoer",
           "inflected": "stoere"
-        }
+        },
+        "example": "Hij vindt zichzelf heel stoer op zijn motor.",
+        "example_en": "He thinks he's really cool on his motorbike."
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -3118,7 +3368,9 @@
       "primary_form": "nood breekt wet",
       "gloss": "necessity knows no law",
       "extras": {
-        "literal": "need breaks law"
+        "literal": "need breaks law",
+        "example": "We hebben geen keus, nood breekt wet.",
+        "example_en": "We have no choice, necessity knows no law."
       },
       "tags": [
         "idioms"
@@ -3131,7 +3383,9 @@
       "gloss": "donation",
       "extras": {
         "article": "de",
-        "plural": "giften"
+        "plural": "giften",
+        "example": "Elke gift voor het goede doel is welkom.",
+        "example_en": "Every donation to charity is welcome."
       },
       "tags": [
         "valse-vrienden",

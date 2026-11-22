@@ -1,0 +1,626 @@
+{
+ "a-bientot": {
+  "example": "Merci pour tout, à bientôt !",
+  "example_en": "Thanks for everything, see you soon!"
+ },
+ "a-demain": {
+  "example": "Je pars maintenant, à demain !",
+  "example_en": "I'm leaving now, see you tomorrow!"
+ },
+ "a-quelle-heure": {
+  "example": "Le train part à quelle heure ?",
+  "example_en": "What time does the train leave?"
+ },
+ "an": {
+  "example": "Il apprend le français depuis deux ans.",
+  "example_en": "He has been learning French for two years."
+ },
+ "annee": {
+  "example": "L'année scolaire commence en septembre.",
+  "example_en": "The school year starts in September."
+ },
+ "appartement": {
+  "example": "Nous cherchons un appartement en ville.",
+  "example_en": "We're looking for a flat in town."
+ },
+ "argent": {
+  "example": "Je n'ai pas d'argent sur moi.",
+  "example_en": "I don't have any money on me."
+ },
+ "au-revoir": {
+  "example": "Au revoir, bonne soirée !",
+  "example_en": "Goodbye, have a nice evening!"
+ },
+ "banque": {
+  "example": "La banque ferme à midi.",
+  "example_en": "The bank closes at noon."
+ },
+ "beau": {
+  "example": "Quel beau bébé !",
+  "example_en": "What a beautiful baby!"
+ },
+ "bebe": {
+  "example": "Le bébé a faim.",
+  "example_en": "The baby is hungry."
+ },
+ "biere": {
+  "example": "Il boit une bière avec ses amis.",
+  "example_en": "He has a beer with his friends."
+ },
+ "blanc": {
+  "example": "Elle porte une chemise blanche.",
+  "example_en": "She's wearing a white shirt."
+ },
+ "bleu": {
+  "example": "Le ciel est bleu aujourd'hui.",
+  "example_en": "The sky is blue today."
+ },
+ "bon": {
+  "example": "Le café ici est très bon.",
+  "example_en": "The coffee here is very good."
+ },
+ "bon-appetit": {
+  "example": "Le dîner est servi, bon appétit !",
+  "example_en": "Dinner is served, enjoy your meal!"
+ },
+ "bon-week-end": {
+  "example": "À lundi, bon week-end !",
+  "example_en": "See you on Monday, have a good weekend!"
+ },
+ "bonjour": {
+  "example": "Bonjour, vous avez du pain ?",
+  "example_en": "Hello, do you have any bread?"
+ },
+ "bonne-journee": {
+  "example": "Bonne journée, à ce soir !",
+  "example_en": "Have a good day, see you tonight!"
+ },
+ "bonne-nuit": {
+  "example": "Bonne nuit, dors bien !",
+  "example_en": "Good night, sleep well!"
+ },
+ "bonsoir": {
+  "example": "Bonsoir, vous avez une table pour deux ?",
+  "example_en": "Good evening, do you have a table for two?"
+ },
+ "bouche": {
+  "example": "Ne parle pas la bouche pleine !",
+  "example_en": "Don't talk with your mouth full!"
+ },
+ "boulangerie": {
+  "example": "Je passe à la boulangerie ce matin.",
+  "example_en": "I'm stopping by the bakery this morning."
+ },
+ "bras": {
+  "example": "Il porte le bébé dans ses bras.",
+  "example_en": "He carries the baby in his arms."
+ },
+ "c-ur": {
+  "example": "Mon cœur bat très vite.",
+  "example_en": "My heart is beating very fast."
+ },
+ "ca-va": {
+  "example": "Ça va ? Tu as l'air fatigué.",
+  "example_en": "How's it going? You look tired."
+ },
+ "ca-va-bien-merci": {
+  "example": "Ça va bien, merci, et toi ?",
+  "example_en": "I'm fine, thanks, and you?"
+ },
+ "cafe": {
+  "example": "On se retrouve au café ?",
+  "example_en": "Shall we meet at the café?"
+ },
+ "chambre": {
+  "example": "Ma chambre est au premier étage.",
+  "example_en": "My bedroom is on the first floor."
+ },
+ "chaud": {
+  "example": "Attention, le café est chaud !",
+  "example_en": "Careful, the coffee is hot!"
+ },
+ "cher": {
+  "example": "Ce manteau est trop cher.",
+  "example_en": "This coat is too expensive."
+ },
+ "cle": {
+  "example": "Où est la clé de la voiture ?",
+  "example_en": "Where is the car key?"
+ },
+ "combien-ca-coute": {
+  "example": "Combien ça coûte, ce sac ?",
+  "example_en": "How much is this bag?"
+ },
+ "comment-allez-vous": {
+  "example": "Bonjour madame, comment allez-vous ?",
+  "example_en": "Hello madam, how are you?"
+ },
+ "confiture": {
+  "example": "J'aime le pain avec de la confiture.",
+  "example_en": "I like bread with jam."
+ },
+ "content": {
+  "example": "Je suis content de te voir.",
+  "example_en": "I'm happy to see you."
+ },
+ "cousin": {
+  "example": "Mon cousin joue au foot.",
+  "example_en": "My cousin plays football."
+ },
+ "cousine": {
+  "example": "Ma cousine vient ce week-end.",
+  "example_en": "My cousin is coming this weekend."
+ },
+ "cuisine": {
+  "example": "On mange dans la cuisine.",
+  "example_en": "We eat in the kitchen."
+ },
+ "d-accord": {
+  "example": "D'accord, on se voit à midi.",
+  "example_en": "OK, see you at noon."
+ },
+ "de-rien": {
+  "example": "De rien, avec plaisir !",
+  "example_en": "You're welcome, my pleasure!"
+ },
+ "dejeuner": {
+  "example": "Le déjeuner est prêt !",
+  "example_en": "Lunch is ready!"
+ },
+ "dent": {
+  "example": "Je me brosse les dents le soir.",
+  "example_en": "I brush my teeth in the evening."
+ },
+ "desole": {
+  "example": "Désolé, je suis en retard.",
+  "example_en": "Sorry, I'm late."
+ },
+ "difficile": {
+  "example": "Le français n'est pas si difficile.",
+  "example_en": "French isn't that difficult."
+ },
+ "dimanche": {
+  "example": "Le dimanche, tout est fermé.",
+  "example_en": "On Sundays, everything is closed."
+ },
+ "diner": {
+  "example": "On mange quoi pour le dîner ?",
+  "example_en": "What are we having for dinner?"
+ },
+ "dos": {
+  "example": "Il dort sur le dos.",
+  "example_en": "He sleeps on his back."
+ },
+ "ecole": {
+  "example": "L'école est fermée en août.",
+  "example_en": "The school is closed in August."
+ },
+ "eglise": {
+  "example": "L'église est au centre du village.",
+  "example_en": "The church is in the centre of the village."
+ },
+ "enchante": {
+  "example": "Enchanté, je suis le nouveau voisin.",
+  "example_en": "Nice to meet you, I'm the new neighbour."
+ },
+ "excusez-moi": {
+  "example": "Excusez-moi, vous avez l'heure ?",
+  "example_en": "Excuse me, do you have the time?"
+ },
+ "facile": {
+  "example": "Cet exercice est facile.",
+  "example_en": "This exercise is easy."
+ },
+ "fatigue": {
+  "example": "Elle est très fatiguée aujourd'hui.",
+  "example_en": "She is very tired today."
+ },
+ "femme": {
+  "example": "Sa femme est infirmière.",
+  "example_en": "His wife is a nurse."
+ },
+ "fille": {
+  "example": "Ma fille aime les chats.",
+  "example_en": "My daughter loves cats."
+ },
+ "fils": {
+  "example": "Leur fils va à l'école.",
+  "example_en": "Their son goes to school."
+ },
+ "frere": {
+  "example": "Mon frère a dix ans.",
+  "example_en": "My brother is ten."
+ },
+ "froid": {
+  "example": "J'ai froid, ferme la fenêtre.",
+  "example_en": "I'm cold, close the window."
+ },
+ "fromage": {
+  "example": "Tu veux du fromage ?",
+  "example_en": "Do you want some cheese?"
+ },
+ "fruit": {
+  "example": "Je prends un fruit au dessert.",
+  "example_en": "I have a piece of fruit for dessert."
+ },
+ "garcon": {
+  "example": "Le petit garçon a peur du chien.",
+  "example_en": "The little boy is scared of the dog."
+ },
+ "gare": {
+  "example": "Le bus s'arrête devant la gare.",
+  "example_en": "The bus stops in front of the station."
+ },
+ "gateau": {
+  "example": "C'est un gâteau au chocolat.",
+  "example_en": "It's a chocolate cake."
+ },
+ "gentil": {
+  "example": "Vous êtes très gentil, merci.",
+  "example_en": "You're very kind, thank you."
+ },
+ "grand": {
+  "example": "Ils habitent dans une grande maison.",
+  "example_en": "They live in a big house."
+ },
+ "grand-mere": {
+  "example": "Ma grand-mère raconte de belles histoires.",
+  "example_en": "My grandmother tells lovely stories."
+ },
+ "grand-pere": {
+  "example": "Mon grand-père a quatre-vingts ans.",
+  "example_en": "My grandfather is eighty."
+ },
+ "gris": {
+  "example": "Mon chat est gris et blanc.",
+  "example_en": "My cat is grey and white."
+ },
+ "heure": {
+  "example": "Le cours dure une heure.",
+  "example_en": "The lesson lasts an hour."
+ },
+ "homme": {
+  "example": "Un homme demande son chemin.",
+  "example_en": "A man is asking for directions."
+ },
+ "hopital": {
+  "example": "Mon oncle est à l'hôpital.",
+  "example_en": "My uncle is in hospital."
+ },
+ "il": {
+  "example": "J'ai quelque chose dans l'œil.",
+  "example_en": "I have something in my eye."
+ },
+ "il-y-a": {
+  "example": "Il y a beaucoup de monde ici.",
+  "example_en": "There are a lot of people here."
+ },
+ "jambe": {
+  "example": "Elle s'est cassé la jambe.",
+  "example_en": "She broke her leg."
+ },
+ "jardin": {
+  "example": "Il y a des fleurs dans le jardin.",
+  "example_en": "There are flowers in the garden."
+ },
+ "jaune": {
+  "example": "Les bananes sont jaunes.",
+  "example_en": "Bananas are yellow."
+ },
+ "je-ne-comprends-pas": {
+  "example": "Je ne comprends pas cette question.",
+  "example_en": "I don't understand this question."
+ },
+ "je-ne-sais-pas": {
+  "example": "Je ne sais pas où il habite.",
+  "example_en": "I don't know where he lives."
+ },
+ "je-vous-en-prie": {
+  "example": "Je vous en prie, entrez.",
+  "example_en": "Please, come in."
+ },
+ "jeudi": {
+  "example": "On se voit jeudi soir ?",
+  "example_en": "Shall we meet on Thursday evening?"
+ },
+ "jeune": {
+  "example": "Il est trop jeune pour conduire.",
+  "example_en": "He's too young to drive."
+ },
+ "joli": {
+  "example": "Quel joli prénom !",
+  "example_en": "What a pretty name!"
+ },
+ "jour": {
+  "example": "Il pleut depuis trois jours.",
+  "example_en": "It has been raining for three days."
+ },
+ "l-addition-s-il-vous-plait": {
+  "example": "Monsieur, l'addition, s'il vous plaît.",
+  "example_en": "Excuse me, the bill, please."
+ },
+ "lait": {
+  "example": "Tu prends du lait dans ton café ?",
+  "example_en": "Do you take milk in your coffee?"
+ },
+ "legume": {
+  "example": "Les enfants n'aiment pas les légumes.",
+  "example_en": "The children don't like vegetables."
+ },
+ "lit": {
+  "example": "Le lit est trop petit.",
+  "example_en": "The bed is too small."
+ },
+ "lundi": {
+  "example": "Je commence un nouveau travail lundi.",
+  "example_en": "I start a new job on Monday."
+ },
+ "magasin": {
+  "example": "Le magasin ouvre à neuf heures.",
+  "example_en": "The shop opens at nine."
+ },
+ "main": {
+  "example": "Lave-toi les mains avant de manger.",
+  "example_en": "Wash your hands before eating."
+ },
+ "marche": {
+  "example": "On achète des légumes au marché.",
+  "example_en": "We buy vegetables at the market."
+ },
+ "mardi": {
+  "example": "Mardi, j'ai un rendez-vous.",
+  "example_en": "On Tuesday, I have an appointment."
+ },
+ "mari": {
+  "example": "Mon mari rentre à six heures.",
+  "example_en": "My husband gets home at six."
+ },
+ "matin": {
+  "example": "Je cours tous les matins.",
+  "example_en": "I run every morning."
+ },
+ "mauvais": {
+  "example": "Ce film est vraiment mauvais.",
+  "example_en": "This film is really bad."
+ },
+ "merci": {
+  "example": "Merci pour le café !",
+  "example_en": "Thanks for the coffee!"
+ },
+ "merci-beaucoup": {
+  "example": "Merci beaucoup pour votre aide.",
+  "example_en": "Thank you very much for your help."
+ },
+ "mercredi": {
+  "example": "Le mercredi, les enfants n'ont pas école.",
+  "example_en": "On Wednesdays, the children have no school."
+ },
+ "mere": {
+  "example": "Ma mère adore les fleurs.",
+  "example_en": "My mother loves flowers."
+ },
+ "minute": {
+  "example": "J'arrive dans cinq minutes.",
+  "example_en": "I'll be there in five minutes."
+ },
+ "mois": {
+  "example": "Elle part en vacances le mois prochain.",
+  "example_en": "She's going on holiday next month."
+ },
+ "nez": {
+  "example": "Le clown a un nez rouge.",
+  "example_en": "The clown has a red nose."
+ },
+ "noir": {
+  "example": "Je prends un café noir.",
+  "example_en": "I'll have a black coffee."
+ },
+ "nom": {
+  "example": "Quel est votre nom ?",
+  "example_en": "What is your name?"
+ },
+ "non": {
+  "example": "Non merci, ça va.",
+  "example_en": "No thanks, I'm fine."
+ },
+ "nouveau": {
+  "example": "C'est notre nouveau professeur.",
+  "example_en": "This is our new teacher."
+ },
+ "oncle": {
+  "example": "Mon oncle habite en Belgique.",
+  "example_en": "My uncle lives in Belgium."
+ },
+ "oreille": {
+  "example": "Le chat a une oreille blanche.",
+  "example_en": "The cat has one white ear."
+ },
+ "ou-sont-les-toilettes": {
+  "example": "Excusez-moi, où sont les toilettes ?",
+  "example_en": "Excuse me, where is the toilet?"
+ },
+ "oui": {
+  "example": "Oui, je veux bien.",
+  "example_en": "Yes, I'd like that."
+ },
+ "pardon": {
+  "example": "Oh pardon, c'est votre place ?",
+  "example_en": "Oh sorry, is this your seat?"
+ },
+ "parent": {
+  "example": "Mes parents habitent à la campagne.",
+  "example_en": "My parents live in the countryside."
+ },
+ "parlez-plus-lentement-s-il-vous-plait": {
+  "example": "Pardon, parlez plus lentement, s'il vous plaît.",
+  "example_en": "Sorry, please speak more slowly."
+ },
+ "pere": {
+  "example": "Mon père cuisine très bien.",
+  "example_en": "My father cooks very well."
+ },
+ "petit": {
+  "example": "J'habite dans un petit village.",
+  "example_en": "I live in a small village."
+ },
+ "petit-dejeuner": {
+  "example": "Je prends le petit-déjeuner à sept heures.",
+  "example_en": "I have breakfast at seven."
+ },
+ "phrase:si": {
+  "example": "Tu n'aimes pas le chocolat ? Si, j'adore !",
+  "example_en": "You don't like chocolate? Yes, I love it!"
+ },
+ "pied": {
+  "example": "Nous allons à l'école à pied.",
+  "example_en": "We walk to school."
+ },
+ "poisson": {
+  "example": "Le poisson est très frais ici.",
+  "example_en": "The fish is very fresh here."
+ },
+ "pomme": {
+  "example": "Cette pomme est très sucrée.",
+  "example_en": "This apple is very sweet."
+ },
+ "pomme-de-terre": {
+  "example": "Elle coupe les pommes de terre.",
+  "example_en": "She is cutting the potatoes."
+ },
+ "poulet": {
+  "example": "Le poulet est délicieux.",
+  "example_en": "The chicken is delicious."
+ },
+ "prenom": {
+  "example": "Comment s'écrit ton prénom ?",
+  "example_en": "How do you spell your first name?"
+ },
+ "qu-est-ce-que-c-est": {
+  "example": "Qu'est-ce que c'est, ce bruit ?",
+  "example_en": "What's that noise?"
+ },
+ "restaurant": {
+  "example": "Ce soir, on dîne au restaurant.",
+  "example_en": "Tonight we're eating at a restaurant."
+ },
+ "riz": {
+  "example": "Je prépare du riz pour ce soir.",
+  "example_en": "I'm making rice for tonight."
+ },
+ "rouge": {
+  "example": "Elle a une voiture rouge.",
+  "example_en": "She has a red car."
+ },
+ "rue": {
+  "example": "La boulangerie est dans cette rue.",
+  "example_en": "The bakery is on this street."
+ },
+ "s-il-te-plait": {
+  "example": "Passe-moi le sel, s'il te plaît.",
+  "example_en": "Pass me the salt, please."
+ },
+ "s-il-vous-plait": {
+  "example": "Un billet pour Lyon, s'il vous plaît.",
+  "example_en": "One ticket to Lyon, please."
+ },
+ "s-ur": {
+  "example": "Ma sœur habite à Marseille.",
+  "example_en": "My sister lives in Marseille."
+ },
+ "salle-de-bains": {
+  "example": "La salle de bains est à gauche.",
+  "example_en": "The bathroom is on the left."
+ },
+ "salon": {
+  "example": "Nous regardons la télé dans le salon.",
+  "example_en": "We watch TV in the living room."
+ },
+ "salut": {
+  "example": "Salut, tu vas bien ?",
+  "example_en": "Hi, how are you doing?"
+ },
+ "samedi": {
+  "example": "Samedi, on fait la fête chez moi.",
+  "example_en": "On Saturday, we're having a party at my place."
+ },
+ "sante": {
+  "example": "Allez, santé tout le monde !",
+  "example_en": "Come on, cheers everyone!"
+ },
+ "sel": {
+  "example": "La soupe manque de sel.",
+  "example_en": "The soup needs more salt."
+ },
+ "semaine": {
+  "example": "Je travaille cinq jours par semaine.",
+  "example_en": "I work five days a week."
+ },
+ "soir": {
+  "example": "On dîne à huit heures du soir.",
+  "example_en": "We have dinner at eight in the evening."
+ },
+ "sucre": {
+  "example": "Il n'y a plus de sucre.",
+  "example_en": "There's no more sugar."
+ },
+ "tante": {
+  "example": "Ma tante a deux chiens.",
+  "example_en": "My aunt has two dogs."
+ },
+ "telephone": {
+  "example": "Ton téléphone sonne !",
+  "example_en": "Your phone is ringing!"
+ },
+ "tete": {
+  "example": "J'ai mal à la tête.",
+  "example_en": "I have a headache."
+ },
+ "the": {
+  "example": "Je bois du thé sans sucre.",
+  "example_en": "I drink tea without sugar."
+ },
+ "travail": {
+  "example": "Je vais au travail en bus.",
+  "example_en": "I go to work by bus."
+ },
+ "uf": {
+  "example": "Je mange un œuf le matin.",
+  "example_en": "I eat an egg in the morning."
+ },
+ "vendredi": {
+  "example": "Vendredi, je rentre tôt.",
+  "example_en": "On Friday, I'm coming home early."
+ },
+ "ventre": {
+  "example": "Mon ventre fait du bruit.",
+  "example_en": "My stomach is rumbling."
+ },
+ "vert": {
+  "example": "Il porte un pull vert.",
+  "example_en": "He's wearing a green jumper."
+ },
+ "viande": {
+  "example": "Elle ne mange pas de viande.",
+  "example_en": "She doesn't eat meat."
+ },
+ "vieux": {
+  "example": "Mon grand-père a un vieux vélo.",
+  "example_en": "My grandfather has an old bike."
+ },
+ "ville": {
+  "example": "La ville est belle la nuit.",
+  "example_en": "The city is beautiful at night."
+ },
+ "vin": {
+  "example": "Ils boivent du vin rouge.",
+  "example_en": "They drink red wine."
+ },
+ "voisin": {
+  "example": "Notre voisin est très sympa.",
+  "example_en": "Our neighbour is very nice."
+ },
+ "vous-pouvez-repeter": {
+  "example": "Vous pouvez répéter, s'il vous plaît ?",
+  "example_en": "Could you repeat that, please?"
+ }
+}

@@ -898,7 +898,7 @@ LABELS = {
 
 PACK = pack(
     "fr-foundations-v1",
-    4,
+    5,
     "fr",
     "Français · Fondations (A1)",
     ITEMS,
