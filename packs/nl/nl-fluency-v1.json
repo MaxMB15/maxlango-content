@@ -3395,7 +3395,7 @@
   ],
   "units": [
     {
-      "title": "Bijzinnen",
+      "title": "Overleggen en beslissen",
       "word_ids": [
         "zich-afvragen",
         "overleggen",
@@ -3404,10 +3404,11 @@
         "verdienen",
         "veranderen"
       ],
-      "page_id": "nl-subordinate-clauses"
+      "page_id": "nl-subordinate-clauses",
+      "subtitle": "To wonder, discuss, decide, earn, change"
     },
     {
-      "title": "Om ... te",
+      "title": "Ontdekken en verwachten",
       "word_ids": [
         "ontdekken",
         "gebeuren",
@@ -3416,10 +3417,11 @@
         "vergelijken",
         "beloven"
       ],
-      "page_id": "nl-om-te"
+      "page_id": "nl-om-te",
+      "subtitle": "To discover, happen, expect and promise"
     },
     {
-      "title": "Die, dat en waar-",
+      "title": "Klagen en uitleggen",
       "word_ids": [
         "durven",
         "klagen",
@@ -3428,10 +3430,11 @@
         "uitleggen",
         "voorstellen"
       ],
-      "page_id": "nl-relative-pronouns"
+      "page_id": "nl-relative-pronouns",
+      "subtitle": "To dare, complain, nag, explain, propose"
     },
     {
-      "title": "De lijdende vorm",
+      "title": "Politiek en recht",
       "word_ids": [
         "regering",
         "wet",
@@ -3440,10 +3443,11 @@
         "gelijkheid",
         "verkiezing"
       ],
-      "page_id": "nl-passive"
+      "page_id": "nl-passive",
+      "subtitle": "Government, laws, rights and elections"
     },
     {
-      "title": "Zou: de voorwaardelijke wijs",
+      "title": "Nadenken en meedoen",
       "word_ids": [
         "nadenken",
         "meedoen",
@@ -3452,10 +3456,11 @@
         "uitwaaien",
         "zodat"
       ],
-      "page_id": "nl-conditional"
+      "page_id": "nl-conditional",
+      "subtitle": "To think over, join in, stop and admit"
     },
     {
-      "title": "Onvertaalbare woorden",
+      "title": "Typisch Nederlands",
       "word_ids": [
         "gezelligheid",
         "borrel",
@@ -3464,7 +3469,8 @@
         "oost-west-thuis-best",
         "roeien-met-de-riemen-die-je-hebt"
       ],
-      "page_id": "nl-untranslatables"
+      "page_id": "nl-untranslatables",
+      "subtitle": "Cosiness, after-work drinks and sayings"
     },
     {
       "title": "Valse vrienden",
@@ -3476,10 +3482,11 @@
         "map",
         "gift"
       ],
-      "page_id": "nl-false-friends"
+      "page_id": "nl-false-friends",
+      "subtitle": "Brand, room, map, gift: not what they seem"
     },
     {
-      "title": "Vlaams",
+      "title": "Uitroepen",
       "word_ids": [
         "doe-normaal",
         "echt-waar",
@@ -3488,10 +3495,11 @@
         "jeetje",
         "kom-op"
       ],
-      "page_id": "nl-flemish"
+      "page_id": "nl-flemish",
+      "subtitle": "Calm down, really, oh well, gosh, come on"
     },
     {
-      "title": "Idioom",
+      "title": "Aap, kat en klomp",
       "word_ids": [
         "nu-komt-de-aap-uit-de-mouw",
         "met-de-deur-in-huis-vallen",
@@ -3502,7 +3510,8 @@
         "nu-breekt-mijn-klomp",
         "tussen-de-soep-en-de-aardappelen"
       ],
-      "page_id": "nl-idioms"
+      "page_id": "nl-idioms",
+      "subtitle": "Idioms with monkeys, cats, clogs and soup"
     },
     {
       "title": "Maatschappij",
@@ -3516,10 +3525,11 @@
         "verleden",
         "geschiedenis",
         "cultuur"
-      ]
+      ],
+      "subtitle": "War, peace, environment and history"
     },
     {
-      "title": "Maatschappij",
+      "title": "Meningen en ideeën",
       "word_ids": [
         "taal",
         "probleem",
@@ -3530,10 +3540,11 @@
         "keuze",
         "kans",
         "succes"
-      ]
+      ],
+      "subtitle": "Problems, solutions, opinions and choices"
     },
     {
-      "title": "Idioom",
+      "title": "Neus, oor en hoofd",
       "word_ids": [
         "door-de-mand-vallen",
         "iemand-een-oor-aannaaien",
@@ -3542,10 +3553,11 @@
         "wie-het-eerst-komt-het-eerst-maalt",
         "de-koe-bij-de-hoorns-vatten",
         "met-je-neus-in-de-boter-vallen"
-      ]
+      ],
+      "subtitle": "Idioms with ears, noses, cows and butter"
     },
     {
-      "title": "Idioom",
+      "title": "Dieren in uitdrukkingen",
       "word_ids": [
         "een-kat-in-de-zak-kopen",
         "iets-uit-je-duim-zuigen",
@@ -3554,10 +3566,11 @@
         "op-je-tenen-lopen",
         "van-een-mug-een-olifant-maken",
         "iemand-in-de-maling-nemen"
-      ]
+      ],
+      "subtitle": "Idioms with cats, flies and elephants"
     },
     {
-      "title": "Idioom",
+      "title": "Worst en noorderzon",
       "word_ids": [
         "het-zal-me-worst-wezen",
         "aan-de-bel-trekken",
@@ -3566,10 +3579,11 @@
         "een-gat-in-de-lucht-springen",
         "met-de-noorderzon-vertrekken",
         "nood-breekt-wet"
-      ]
+      ],
+      "subtitle": "Idioms about money, joy and not caring"
     },
     {
-      "title": "Gevoelens",
+      "title": "Emoties",
       "word_ids": [
         "angst",
         "vreugde",
@@ -3580,10 +3594,11 @@
         "hoop",
         "liefde",
         "vriendschap"
-      ]
+      ],
+      "subtitle": "Fear, joy, shame, love, hope and dreams"
     },
     {
-      "title": "Oefening",
+      "title": "Eerlijk en slim",
       "word_ids": [
         "gezellig",
         "eerlijk",
@@ -3594,10 +3609,11 @@
         "bijzonder",
         "belangrijk",
         "mogelijk"
-      ]
+      ],
+      "subtitle": "Cosy, honest, cheeky, clever, important"
     },
     {
-      "title": "Oefening",
+      "title": "Trots en jaloers",
       "word_ids": [
         "ongerust",
         "trots",
@@ -3608,10 +3624,11 @@
         "vers",
         "vals",
         "nuchter"
-      ]
+      ],
+      "subtitle": "Worried, proud, jealous, generous, sober"
     },
     {
-      "title": "Oefening",
+      "title": "Trouwens en kortom",
       "word_ids": [
         "zuinig",
         "eigenwijs",
@@ -3622,10 +3639,11 @@
         "overigens",
         "immers",
         "kortom"
-      ]
+      ],
+      "subtitle": "Nevertheless, by the way, in short"
     },
     {
-      "title": "Oefening",
+      "title": "Valt mee, valt tegen",
       "word_ids": [
         "zodoende",
         "uiteindelijk",
@@ -3636,10 +3654,11 @@
         "je-weet-wel",
         "sterkte",
         "beterschap"
-      ]
+      ],
+      "subtitle": "Not so bad, that's right, get well soon"
     },
     {
-      "title": "Oefening",
+      "title": "Gelukwensen en reacties",
       "word_ids": [
         "gefeliciteerd",
         "lekker-bezig",
@@ -3649,10 +3668,11 @@
         "ik-heb-er-zin-in",
         "tenzij",
         "zodra"
-      ]
+      ],
+      "subtitle": "Congratulations, well done, can't wait"
     },
     {
-      "title": "Oefening",
+      "title": "Polder, dijk en molen",
       "word_ids": [
         "sinds",
         "doordat",
@@ -3662,7 +3682,8 @@
         "dijk",
         "molen",
         "klomp"
-      ]
+      ],
+      "subtitle": "Since, as if, polders, dykes and windmills"
     }
   ]
 }

@@ -5425,7 +5425,7 @@
   ],
   "units": [
     {
-      "title": "La prononciation",
+      "title": "Bonjour et merci",
       "word_ids": [
         "bonjour",
         "bonsoir",
@@ -5434,10 +5434,11 @@
         "pardon",
         "s-il-vous-plait"
       ],
-      "page_id": "fr-pronunciation"
+      "page_id": "fr-pronunciation",
+      "subtitle": "Hello, good evening, thanks and sorry"
     },
     {
-      "title": "Tu ou vous",
+      "title": "Salut, ça va ?",
       "word_ids": [
         "salut",
         "ca-va",
@@ -5446,10 +5447,11 @@
         "d-accord",
         "excusez-moi"
       ],
-      "page_id": "fr-subject-pronouns"
+      "page_id": "fr-subject-pronouns",
+      "subtitle": "Hi, how are you, OK and excuse me"
     },
     {
-      "title": "Être et avoir",
+      "title": "Verbes essentiels",
       "word_ids": [
         "etre",
         "avoir",
@@ -5458,10 +5460,11 @@
         "pouvoir",
         "devoir"
       ],
-      "page_id": "fr-etre-avoir"
+      "page_id": "fr-etre-avoir",
+      "subtitle": "To be, have, do, want, can and must"
     },
     {
-      "title": "Le présent",
+      "title": "Verbes réguliers",
       "word_ids": [
         "habiter",
         "aimer",
@@ -5471,10 +5474,11 @@
         "vendre",
         "attendre"
       ],
-      "page_id": "fr-present-tense"
+      "page_id": "fr-present-tense",
+      "subtitle": "To live, love, work, finish, sell, wait"
     },
     {
-      "title": "La négation",
+      "title": "Prendre, voir et écouter",
       "word_ids": [
         "prendre",
         "mettre",
@@ -5483,10 +5487,11 @@
         "regarder",
         "ecouter"
       ],
-      "page_id": "fr-negation"
+      "page_id": "fr-negation",
+      "subtitle": "To take, put, say, see, watch, listen"
     },
     {
-      "title": "Les questions",
+      "title": "Questions utiles",
       "word_ids": [
         "ou-sont-les-toilettes",
         "a-quelle-heure",
@@ -5496,10 +5501,11 @@
         "parlez-plus-lentement-s-il-vous-plait",
         "il-y-a"
       ],
-      "page_id": "fr-questions"
+      "page_id": "fr-questions",
+      "subtitle": "Where, what time, how much, slow down"
     },
     {
-      "title": "Le partitif",
+      "title": "Les boissons",
       "word_ids": [
         "cafe",
         "the",
@@ -5508,10 +5514,11 @@
         "lait",
         "sucre"
       ],
-      "page_id": "fr-partitive"
+      "page_id": "fr-partitive",
+      "subtitle": "Coffee, tea, wine, beer, milk and sugar"
     },
     {
-      "title": "Au, à la, aux",
+      "title": "Les lieux publics",
       "word_ids": [
         "banque",
         "ecole",
@@ -5520,10 +5527,11 @@
         "gare",
         "marche"
       ],
-      "page_id": "fr-contractions"
+      "page_id": "fr-contractions",
+      "subtitle": "Bank, school, hospital, station, market"
     },
     {
-      "title": "Les adjectifs",
+      "title": "Adjectifs de base",
       "word_ids": [
         "grand",
         "petit",
@@ -5533,7 +5541,8 @@
         "nouveau",
         "gentil"
       ],
-      "page_id": "fr-adjectives"
+      "page_id": "fr-adjectives",
+      "subtitle": "Big, small, good, beautiful, old and new"
     },
     {
       "title": "Les couleurs",
@@ -5545,10 +5554,11 @@
         "noir",
         "blanc",
         "gris"
-      ]
+      ],
+      "subtitle": "Red, blue, green, yellow, black and white"
     },
     {
-      "title": "Les nombres",
+      "title": "L'heure et les jours",
       "word_ids": [
         "heure",
         "minute",
@@ -5557,10 +5567,11 @@
         "mardi",
         "mercredi"
       ],
-      "page_id": "fr-numbers"
+      "page_id": "fr-numbers",
+      "subtitle": "Hours, minutes, days, Monday to Wednesday"
     },
     {
-      "title": "Le futur proche",
+      "title": "Venir, partir, écrire",
       "word_ids": [
         "venir",
         "arriver",
@@ -5570,10 +5581,11 @@
         "lire",
         "ecrire"
       ],
-      "page_id": "fr-near-future"
+      "page_id": "fr-near-future",
+      "subtitle": "To come, arrive, leave, sleep, read, write"
     },
     {
-      "title": "Les possessifs",
+      "title": "La famille proche",
       "word_ids": [
         "pere",
         "mere",
@@ -5582,10 +5594,11 @@
         "mari",
         "femme"
       ],
-      "page_id": "fr-possessives"
+      "page_id": "fr-possessives",
+      "subtitle": "Father, mother, brother, sister, husband"
     },
     {
-      "title": "Famille",
+      "title": "La famille élargie",
       "word_ids": [
         "fils",
         "fille",
@@ -5596,10 +5609,11 @@
         "tante",
         "cousin",
         "cousine"
-      ]
+      ],
+      "subtitle": "Son, daughter, grandparents, uncle, aunt"
     },
     {
-      "title": "Salutations",
+      "title": "Dire au revoir",
       "word_ids": [
         "au-revoir",
         "a-bientot",
@@ -5611,10 +5625,11 @@
         "desole",
         "oui",
         "non"
-      ]
+      ],
+      "subtitle": "Goodbye, see you soon, you're welcome"
     },
     {
-      "title": "Salutations",
+      "title": "Phrases de survie",
       "word_ids": [
         "si",
         "ca-va-bien-merci",
@@ -5625,10 +5640,11 @@
         "sante",
         "bonne-journee",
         "bon-week-end"
-      ]
+      ],
+      "subtitle": "I don't understand, the bill and cheers"
     },
     {
-      "title": "Les gens",
+      "title": "Les gens et les noms",
       "word_ids": [
         "homme",
         "garcon",
@@ -5636,10 +5652,11 @@
         "voisin",
         "nom",
         "prenom"
-      ]
+      ],
+      "subtitle": "Man, boy, baby, neighbour and names"
     },
     {
-      "title": "Corps",
+      "title": "La tête et les bras",
       "word_ids": [
         "tete",
         "il",
@@ -5648,10 +5665,11 @@
         "oreille",
         "main",
         "bras"
-      ]
+      ],
+      "subtitle": "Head, eyes, mouth, nose, ears and hands"
     },
     {
-      "title": "Corps",
+      "title": "Le corps",
       "word_ids": [
         "jambe",
         "pied",
@@ -5659,10 +5677,11 @@
         "c-ur",
         "ventre",
         "dent"
-      ]
+      ],
+      "subtitle": "Legs, feet, back, heart, belly and teeth"
     },
     {
-      "title": "La nourriture",
+      "title": "Les repas",
       "word_ids": [
         "petit-dejeuner",
         "dejeuner",
@@ -5672,10 +5691,11 @@
         "poisson",
         "poulet",
         "uf"
-      ]
+      ],
+      "subtitle": "Breakfast, lunch, dinner, meat and fish"
     },
     {
-      "title": "La nourriture",
+      "title": "Fruits et légumes",
       "word_ids": [
         "pomme",
         "pomme-de-terre",
@@ -5685,7 +5705,8 @@
         "riz",
         "confiture",
         "gateau"
-      ]
+      ],
+      "subtitle": "Apples, potatoes, rice, salt, jam, cake"
     },
     {
       "title": "La maison",
@@ -5698,10 +5719,11 @@
         "cle",
         "appartement",
         "jardin"
-      ]
+      ],
+      "subtitle": "Bedroom, kitchen, bathroom, bed and keys"
     },
     {
-      "title": "Le temps",
+      "title": "La semaine et l'année",
       "word_ids": [
         "semaine",
         "mois",
@@ -5713,10 +5735,11 @@
         "vendredi",
         "samedi",
         "dimanche"
-      ]
+      ],
+      "subtitle": "Weeks, months, years, Thursday to Sunday"
     },
     {
-      "title": "Ville",
+      "title": "En ville",
       "word_ids": [
         "ville",
         "rue",
@@ -5724,10 +5747,11 @@
         "boulangerie",
         "eglise",
         "travail"
-      ]
+      ],
+      "subtitle": "Town, street, shop, bakery and church"
     },
     {
-      "title": "Pratique",
+      "title": "Adjectifs et petits mots",
       "word_ids": [
         "d-abord",
         "puis",
@@ -5739,10 +5763,11 @@
         "fatigue",
         "chaud",
         "froid"
-      ]
+      ],
+      "subtitle": "Tired, happy, hot, cold, first and then"
     },
     {
-      "title": "Pratique",
+      "title": "Verbes du quotidien",
       "word_ids": [
         "facile",
         "difficile",
@@ -5754,10 +5779,11 @@
         "trouver",
         "penser",
         "commencer"
-      ]
+      ],
+      "subtitle": "To give, find, think, plus easy and hard"
     },
     {
-      "title": "Pratique",
+      "title": "Apprendre et comprendre",
       "word_ids": [
         "acheter",
         "comprendre",
@@ -5768,7 +5794,8 @@
         "quand",
         "argent",
         "telephone"
-      ]
+      ],
+      "subtitle": "To buy, learn, understand, money, phone"
     }
   ]
 }

@@ -4801,7 +4801,7 @@
   ],
   "units": [
     {
-      "title": "Het perfectum",
+      "title": "Werkwoorden van beweging",
       "word_ids": [
         "vallen",
         "worden",
@@ -4810,10 +4810,11 @@
         "rijden",
         "vliegen"
       ],
-      "page_id": "nl-perfect"
+      "page_id": "nl-perfect",
+      "subtitle": "To fall, leave, travel, drive and fly"
     },
     {
-      "title": "Hebben of zijn",
+      "title": "Brengen en krijgen",
       "word_ids": [
         "zwemmen",
         "dragen",
@@ -4822,10 +4823,11 @@
         "sturen",
         "vergeten"
       ],
-      "page_id": "nl-zijn-or-hebben"
+      "page_id": "nl-zijn-or-hebben",
+      "subtitle": "To swim, carry, bring, get, send, forget"
     },
     {
-      "title": "De onvoltooid verleden tijd",
+      "title": "Openen en sluiten",
       "word_ids": [
         "verliezen",
         "antwoorden",
@@ -4834,7 +4836,8 @@
         "sluiten",
         "proberen"
       ],
-      "page_id": "nl-imperfect"
+      "page_id": "nl-imperfect",
+      "subtitle": "To lose, answer, hear, open, close, try"
     },
     {
       "title": "Scheidbare werkwoorden",
@@ -4850,10 +4853,11 @@
         "opruimen",
         "afspreken"
       ],
-      "page_id": "nl-separable-verbs"
+      "page_id": "nl-separable-verbs",
+      "subtitle": "To phone, get up, go out, arrive, tidy up"
     },
     {
-      "title": "Kunnen, willen, moeten, mogen",
+      "title": "Lachen en huilen",
       "word_ids": [
         "gebruiken",
         "vertellen",
@@ -4862,7 +4866,8 @@
         "huilen",
         "natuurlijk"
       ],
-      "page_id": "nl-modal-verbs"
+      "page_id": "nl-modal-verbs",
+      "subtitle": "To use, tell, sell, laugh and cry"
     },
     {
       "title": "Wederkerende werkwoorden",
@@ -4874,10 +4879,11 @@
         "zich-haasten",
         "zich-vervelen"
       ],
-      "page_id": "nl-reflexive-verbs"
+      "page_id": "nl-reflexive-verbs",
+      "subtitle": "To get dressed, remember, hurry, be bored"
     },
     {
-      "title": "Bijvoeglijke naamwoorden",
+      "title": "Leuk of saai",
       "word_ids": [
         "leuk",
         "saai",
@@ -4886,10 +4892,11 @@
         "gezond",
         "vrij"
       ],
-      "page_id": "nl-adjective-endings"
+      "page_id": "nl-adjective-endings",
+      "subtitle": "Fun, boring, scary, ill, healthy and free"
     },
     {
-      "title": "Er",
+      "title": "Korte reacties",
       "word_ids": [
         "misschien",
         "laat-maar",
@@ -4898,10 +4905,11 @@
         "gelukkig",
         "graag"
       ],
-      "page_id": "nl-er"
+      "page_id": "nl-er",
+      "subtitle": "Maybe, never mind, what a pity, gladly"
     },
     {
-      "title": "Modale partikels",
+      "title": "Zinnen verbinden",
       "word_ids": [
         "dus",
         "daarom",
@@ -4911,10 +4919,11 @@
         "ten-slotte",
         "eindelijk"
       ],
-      "page_id": "nl-modal-particles"
+      "page_id": "nl-modal-particles",
+      "subtitle": "So, that's why, on the other hand, finally"
     },
     {
-      "title": "Groter, grootst",
+      "title": "Lang en kort",
       "word_ids": [
         "lang",
         "kort",
@@ -4923,10 +4932,11 @@
         "snel",
         "langzaam"
       ],
-      "page_id": "nl-comparisons"
+      "page_id": "nl-comparisons",
+      "subtitle": "Long, short, heavy, light, fast and slow"
     },
     {
-      "title": "Gevoelens",
+      "title": "Stemming en karakter",
       "word_ids": [
         "boos",
         "bang",
@@ -4938,7 +4948,8 @@
         "serieus",
         "verlegen",
         "lui"
-      ]
+      ],
+      "subtitle": "Angry, scared, sad, funny, shy and lazy"
     },
     {
       "title": "Kleding",
@@ -4950,10 +4961,11 @@
         "jurk",
         "jas",
         "trui"
-      ]
+      ],
+      "subtitle": "Shirts, trousers, skirts, dresses, coats"
     },
     {
-      "title": "Kleding",
+      "title": "Schoenen en accessoires",
       "word_ids": [
         "schoen",
         "sok",
@@ -4961,10 +4973,11 @@
         "tas",
         "bril",
         "paraplu"
-      ]
+      ],
+      "subtitle": "Shoes, socks, hats, bags and glasses"
     },
     {
-      "title": "Uitdrukkingen",
+      "title": "Handige zinnetjes",
       "word_ids": [
         "het-regent",
         "het-is-koud",
@@ -4976,10 +4989,11 @@
         "heb-je-zin-om",
         "wat-is-er-aan-de-hand",
         "zullen-we-gaan"
-      ]
+      ],
+      "subtitle": "It's raining, it depends, shall we go?"
     },
     {
-      "title": "Uitdrukkingen",
+      "title": "Op tijd en in de rij",
       "word_ids": [
         "ik-kan-niet-meer",
         "zin-hebben-in",
@@ -4990,10 +5004,11 @@
         "op-tijd",
         "te-laat",
         "met-pinnen"
-      ]
+      ],
+      "subtitle": "Queueing, shopping, paying and being late"
     },
     {
-      "title": "Weer",
+      "title": "Weer en seizoenen",
       "word_ids": [
         "weer",
         "regen",
@@ -5005,10 +5020,11 @@
         "winter",
         "lente",
         "herfst"
-      ]
+      ],
+      "subtitle": "Rain, snow, wind, clouds and the seasons"
     },
     {
-      "title": "Reizen",
+      "title": "Op vakantie",
       "word_ids": [
         "reis",
         "vakantie",
@@ -5020,7 +5036,8 @@
         "zee",
         "berg",
         "land"
-      ]
+      ],
+      "subtitle": "Tickets, suitcases, hotels, beach and sea"
     },
     {
       "title": "Vervoer",
@@ -5031,10 +5048,11 @@
         "tram",
         "boot",
         "vliegveld"
-      ]
+      ],
+      "subtitle": "Planes, trains, buses, trams and boats"
     },
     {
-      "title": "Werk",
+      "title": "Op kantoor",
       "word_ids": [
         "kantoor",
         "bedrijf",
@@ -5042,10 +5060,11 @@
         "baas",
         "vergadering",
         "salaris"
-      ]
+      ],
+      "subtitle": "Colleagues, the boss, meetings and salary"
     },
     {
-      "title": "Werk",
+      "title": "School en studie",
       "word_ids": [
         "beroep",
         "student",
@@ -5053,10 +5072,11 @@
         "les",
         "examen",
         "computer"
-      ]
+      ],
+      "subtitle": "Jobs, students, teachers, lessons, exams"
     },
     {
-      "title": "Gezondheid",
+      "title": "Bij de dokter",
       "word_ids": [
         "gezondheid",
         "dokter",
@@ -5067,7 +5087,8 @@
         "koorts",
         "pijn",
         "afspraak"
-      ]
+      ],
+      "subtitle": "Doctor, pharmacy, a cold, fever and pain"
     },
     {
       "title": "Vrije tijd",
@@ -5082,10 +5103,11 @@
         "verjaardag",
         "cadeau",
         "foto"
-      ]
+      ],
+      "subtitle": "Films, music, sport, parties and birthdays"
     },
     {
-      "title": "Winkelen",
+      "title": "Afrekenen",
       "word_ids": [
         "prijs",
         "euro",
@@ -5093,10 +5115,11 @@
         "pinpas",
         "kassa",
         "supermarkt"
-      ]
+      ],
+      "subtitle": "Prices, receipts, cards and the checkout"
     },
     {
-      "title": "Huis",
+      "title": "Bestek en servies",
       "word_ids": [
         "vork",
         "mes",
@@ -5105,10 +5128,11 @@
         "glas",
         "fles",
         "lamp"
-      ]
+      ],
+      "subtitle": "Forks, knives, spoons, plates and glasses"
     },
     {
-      "title": "Oefening",
+      "title": "Toen, terwijl en nadat",
       "word_ids": [
         "seizoen",
         "kaart",
@@ -5120,10 +5144,11 @@
         "vol",
         "leeg",
         "schoon"
-      ]
+      ],
+      "subtitle": "When, while, before, after, full, empty"
     },
     {
-      "title": "Oefening",
+      "title": "Natuur en dieren",
       "word_ids": [
         "vies",
         "bloem",
@@ -5135,7 +5160,8 @@
         "koe",
         "varken",
         "muis"
-      ]
+      ],
+      "subtitle": "Woods, rivers, lakes, birds, cows and pigs"
     }
   ]
 }

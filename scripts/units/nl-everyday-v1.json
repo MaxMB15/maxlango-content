@@ -1,0 +1,106 @@
+{
+ "vallen": {
+  "title": "Werkwoorden van beweging",
+  "subtitle": "To fall, leave, travel, drive and fly"
+ },
+ "zwemmen": {
+  "title": "Brengen en krijgen",
+  "subtitle": "To swim, carry, bring, get, send, forget"
+ },
+ "verliezen": {
+  "title": "Openen en sluiten",
+  "subtitle": "To lose, answer, hear, open, close, try"
+ },
+ "opbellen": {
+  "title": "Scheidbare werkwoorden",
+  "subtitle": "To phone, get up, go out, arrive, tidy up"
+ },
+ "gebruiken": {
+  "title": "Lachen en huilen",
+  "subtitle": "To use, tell, sell, laugh and cry"
+ },
+ "zich-aankleden": {
+  "title": "Wederkerende werkwoorden",
+  "subtitle": "To get dressed, remember, hurry, be bored"
+ },
+ "leuk": {
+  "title": "Leuk of saai",
+  "subtitle": "Fun, boring, scary, ill, healthy and free"
+ },
+ "misschien": {
+  "title": "Korte reacties",
+  "subtitle": "Maybe, never mind, what a pity, gladly"
+ },
+ "dus": {
+  "title": "Zinnen verbinden",
+  "subtitle": "So, that's why, on the other hand, finally"
+ },
+ "lang": {
+  "title": "Lang en kort",
+  "subtitle": "Long, short, heavy, light, fast and slow"
+ },
+ "boos": {
+  "title": "Stemming en karakter",
+  "subtitle": "Angry, scared, sad, funny, shy and lazy"
+ },
+ "kleding": {
+  "title": "Kleding",
+  "subtitle": "Shirts, trousers, skirts, dresses, coats"
+ },
+ "schoen": {
+  "title": "Schoenen en accessoires",
+  "subtitle": "Shoes, socks, hats, bags and glasses"
+ },
+ "het-regent": {
+  "title": "Handige zinnetjes",
+  "subtitle": "It's raining, it depends, shall we go?"
+ },
+ "ik-kan-niet-meer": {
+  "title": "Op tijd en in de rij",
+  "subtitle": "Queueing, shopping, paying and being late"
+ },
+ "weer": {
+  "title": "Weer en seizoenen",
+  "subtitle": "Rain, snow, wind, clouds and the seasons"
+ },
+ "reis": {
+  "title": "Op vakantie",
+  "subtitle": "Tickets, suitcases, hotels, beach and sea"
+ },
+ "vliegtuig": {
+  "title": "Vervoer",
+  "subtitle": "Planes, trains, buses, trams and boats"
+ },
+ "kantoor": {
+  "title": "Op kantoor",
+  "subtitle": "Colleagues, the boss, meetings and salary"
+ },
+ "beroep": {
+  "title": "School en studie",
+  "subtitle": "Jobs, students, teachers, lessons, exams"
+ },
+ "gezondheid": {
+  "title": "Bij de dokter",
+  "subtitle": "Doctor, pharmacy, a cold, fever and pain"
+ },
+ "film": {
+  "title": "Vrije tijd",
+  "subtitle": "Films, music, sport, parties and birthdays"
+ },
+ "prijs": {
+  "title": "Afrekenen",
+  "subtitle": "Prices, receipts, cards and the checkout"
+ },
+ "vork": {
+  "title": "Bestek en servies",
+  "subtitle": "Forks, knives, spoons, plates and glasses"
+ },
+ "seizoen": {
+  "title": "Toen, terwijl en nadat",
+  "subtitle": "When, while, before, after, full, empty"
+ },
+ "vies": {
+  "title": "Natuur en dieren",
+  "subtitle": "Woods, rivers, lakes, birds, cows and pigs"
+ }
+}

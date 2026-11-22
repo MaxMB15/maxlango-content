@@ -29,7 +29,9 @@ from check_versions import version_errors  # noqa: E402
 from build import (  # noqa: E402
     EXAMPLE_DIR,
     ROOT,
+    UNIT_NAME_DIR,
     apply_examples,
+    apply_unit_names,
     check_no_silent_removals,
     check_tag_pages,
     profile_for,
@@ -461,6 +463,64 @@ class ApplyExamplesTests(unittest.TestCase):
         for path in sorted(EXAMPLE_DIR.glob("*.json")):
             code = path.stem.split("-")[0]
             self.assertTrue((ROOT / "packs" / code / path.name).exists(), path.name)
+
+
+
+class ApplyUnitNamesTests(unittest.TestCase):
+    def pack(self):
+        return {
+            "id": "nl-test-v1",
+            "units": [
+                {"title": "Oefening", "word_ids": ["hoi", "dag"], "page_id": "nl-pronouns"},
+                {"title": "Oefening", "word_ids": ["rood", "blauw"]},
+            ],
+        }
+
+    def test_renames_every_unit_and_keeps_its_words(self):
+        pack = self.pack()
+        errs = apply_unit_names(
+            pack,
+            {
+                "hoi": {"title": "Hoi en doei", "subtitle": "Hi and bye"},
+                "rood": {"title": "Kleuren", "subtitle": "Red and blue"},
+            },
+        )
+        self.assertEqual(errs, [])
+        self.assertEqual(
+            pack["units"][0],
+            {"title": "Hoi en doei", "subtitle": "Hi and bye", "word_ids": ["hoi", "dag"], "page_id": "nl-pronouns"},
+        )
+        self.assertEqual(pack["units"][1]["word_ids"], ["rood", "blauw"])
+
+    def test_no_names_file_leaves_the_units_alone(self):
+        pack = self.pack()
+        self.assertEqual(apply_unit_names(pack, {}), [])
+        self.assertNotIn("subtitle", pack["units"][0])
+
+    def test_a_key_that_starts_no_unit_is_an_error(self):
+        errs = apply_unit_names(self.pack(), {
+            "hoi": {"title": "A", "subtitle": "a"},
+            "rood": {"title": "B", "subtitle": "b"},
+            "dag": {"title": "C", "subtitle": "c"},
+        })
+        self.assertEqual(errs, ["nl-test-v1: unit name for 'dag' starts no Unit"])
+
+    def test_a_unit_left_without_a_name_is_an_error(self):
+        errs = apply_unit_names(self.pack(), {"hoi": {"title": "A", "subtitle": "a"}})
+        self.assertEqual(errs, ["nl-test-v1: Unit 'Oefening' (rood) has no name"])
+
+    def test_every_shipped_names_file_names_a_built_pack(self):
+        for path in sorted(UNIT_NAME_DIR.glob("*.json")):
+            code = path.stem.split("-")[0]
+            self.assertTrue((ROOT / "packs" / code / path.name).exists(), path.name)
+
+    def test_every_built_unit_has_a_distinct_title_and_a_subtitle(self):
+        for path in sorted(UNIT_NAME_DIR.glob("*.json")):
+            code = path.stem.split("-")[0]
+            units = json.loads((ROOT / "packs" / code / path.name).read_text())["units"]
+            titles = [u["title"].casefold() for u in units]
+            self.assertEqual(len(titles), len(set(titles)), path.name)
+            self.assertTrue(all(u.get("subtitle") for u in units), path.name)
 
 
 if __name__ == "__main__":

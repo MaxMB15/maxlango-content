@@ -1,0 +1,118 @@
+{
+ "hallo": {
+  "title": "Groeten en bedanken",
+  "subtitle": "Hello, please, thank you and sorry"
+ },
+ "hoi": {
+  "title": "Hoi en doei",
+  "subtitle": "Hi, bye, how are you, do you speak English"
+ },
+ "zijn": {
+  "title": "Basiswerkwoorden",
+  "subtitle": "To be, have, do, want, can and must"
+ },
+ "werken": {
+  "title": "Werken en wonen",
+  "subtitle": "To work, make, sit, live, learn and play"
+ },
+ "lopen": {
+  "title": "Lopen en kopen",
+  "subtitle": "To walk, cycle, buy, pay, seek and find"
+ },
+ "denken": {
+  "title": "Geven en nemen",
+  "subtitle": "To think, give, take, begin, stay, stand"
+ },
+ "hoeveel-kost-het": {
+  "title": "Vragen stellen",
+  "subtitle": "How much, what time, I don't understand"
+ },
+ "liggen": {
+  "title": "Wachten en helpen",
+  "subtitle": "To wait, help, ask, cook and understand"
+ },
+ "hoofd": {
+  "title": "Hoofd en hart",
+  "subtitle": "Head, eyes, ears, heart, a bed and a flat"
+ },
+ "uur": {
+  "title": "Uren en dagen",
+  "subtitle": "Hours, minutes, Monday to Wednesday"
+ },
+ "vader": {
+  "title": "Het gezin",
+  "subtitle": "Father, mother, brother, sister, spouse"
+ },
+ "rood": {
+  "title": "Kleuren",
+  "subtitle": "Red, blue, green, yellow, black and white"
+ },
+ "zoon": {
+  "title": "Familie",
+  "subtitle": "Sons, daughters, grandparents and cousins"
+ },
+ "goedemiddag": {
+  "title": "Beleefd groeten",
+  "subtitle": "Good evening, see you and polite thanks"
+ },
+ "graag-gedaan": {
+  "title": "Ja, nee en graag gedaan",
+  "subtitle": "Yes, no, you're welcome, nice to meet you"
+ },
+ "er-is-er-zijn": {
+  "title": "Proost en eet smakelijk",
+  "subtitle": "Cheers, enjoy your meal, have a nice day"
+ },
+ "jongen": {
+  "title": "Mensen",
+  "subtitle": "Boys, girls, babies and the neighbour"
+ },
+ "mond": {
+  "title": "Het lichaam",
+  "subtitle": "Mouth, nose, hands, legs, back and teeth"
+ },
+ "ontbijt": {
+  "title": "Maaltijden",
+  "subtitle": "Breakfast, dinner, cheese, fish and eggs"
+ },
+ "koffie": {
+  "title": "Drinken, groente en fruit",
+  "subtitle": "Coffee, tea, beer, potatoes and fruit"
+ },
+ "zout": {
+  "title": "Hagelslag en stroopwafels",
+  "subtitle": "Rice, butter, cake and Dutch sweet treats"
+ },
+ "slaapkamer": {
+  "title": "Kamers in huis",
+  "subtitle": "Bedroom, kitchen, garden, key and sofa"
+ },
+ "week": {
+  "title": "Week, maand en jaar",
+  "subtitle": "Weeks, months, years, Thursday to Sunday"
+ },
+ "stad": {
+  "title": "In de stad",
+  "subtitle": "Streets, shops, the market and the station"
+ },
+ "kerk": {
+  "title": "Gracht, plein en brug",
+  "subtitle": "Church, hospital, canal, square and bridge"
+ },
+ "groot": {
+  "title": "Groot en klein",
+  "subtitle": "Big, small, good, bad, young, old and new"
+ },
+ "blij": {
+  "title": "Duur en goedkoop",
+  "subtitle": "Tasty, warm, cold, easy, expensive, cheap"
+ },
+ "ook": {
+  "title": "Weten en kennen",
+  "subtitle": "To know, see, say, listen, read and come"
+ },
+ "schrijven": {
+  "title": "En, of, als en dat",
+  "subtitle": "And, or, if, that, a bike and money"
+ }
+}

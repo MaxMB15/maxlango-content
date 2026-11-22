@@ -1,0 +1,110 @@
+{
+ "connaitre": {
+  "title": "Envoyer et recevoir",
+  "subtitle": "To know, believe, send, receive, pay, try"
+ },
+ "rester": {
+  "title": "Monter et descendre",
+  "subtitle": "To enter, fall, stay, become, be born, die"
+ },
+ "oublier": {
+  "title": "Oublier et perdre",
+  "subtitle": "To forget, lose, wear, answer, hear, run"
+ },
+ "se-lever": {
+  "title": "La routine quotidienne",
+  "subtitle": "To get up, get dressed, go to bed, walk"
+ },
+ "je-m-en-fiche": {
+  "title": "Phrases à l'oral",
+  "subtitle": "I don't care, shall we go, it depends"
+ },
+ "ouvrir": {
+  "title": "Ouvrir et fermer",
+  "subtitle": "To open, close, drive, call, ask, cry"
+ },
+ "long": {
+  "title": "Les contraires",
+  "subtitle": "Long, short, heavy, light, fast and slow"
+ },
+ "heureux": {
+  "title": "Caractère et humeur",
+  "subtitle": "Happy, sad, funny, shy, lazy and sporty"
+ },
+ "examen": {
+  "title": "Cours et rendez-vous",
+  "subtitle": "Exams, lessons, meetings, appointments"
+ },
+ "voyage": {
+  "title": "Noms de tous les jours",
+  "subtitle": "Trip, beach, computer, fork and medicine"
+ },
+ "vetement": {
+  "title": "Les vêtements",
+  "subtitle": "Shirt, trousers, skirt, dress and coat"
+ },
+ "veste": {
+  "title": "Chaussures et accessoires",
+  "subtitle": "Jacket, jumper, shoes, socks, hat, bag"
+ },
+ "il-fait-beau": {
+  "title": "Phrases toutes faites",
+  "subtitle": "Nice weather, rain, I'd like, of course"
+ },
+ "peut-etre": {
+  "title": "Ce n'est pas grave",
+  "subtitle": "Maybe, never mind, too bad and gladly"
+ },
+ "tant-mieux": {
+  "title": "Avoir et faire",
+  "subtitle": "To need, feel like, seem, queue, shop"
+ },
+ "temps": {
+  "title": "La météo",
+  "subtitle": "Weather, rain, snow, wind, clouds, sky"
+ },
+ "orage": {
+  "title": "Les saisons",
+  "subtitle": "Summer, winter, spring, autumn, storms"
+ },
+ "billet": {
+  "title": "En voyage",
+  "subtitle": "Tickets, suitcase, passport, hotel, map"
+ },
+ "avion": {
+  "title": "Les transports",
+  "subtitle": "Plane, train, bus, bike, metro and boat"
+ },
+ "bureau": {
+  "title": "Au travail",
+  "subtitle": "Office, company, colleague, boss, salary"
+ },
+ "sante": {
+  "title": "La santé",
+  "subtitle": "Doctor, pharmacy, a cold, fever and pain"
+ },
+ "film": {
+  "title": "Les loisirs",
+  "subtitle": "Films, music, sport, games, parties, gifts"
+ },
+ "prix": {
+  "title": "Les achats",
+  "subtitle": "Prices, change, bank card, till, shops"
+ },
+ "couteau": {
+  "title": "Mettre la table",
+  "subtitle": "Knife, spoon, plate, glass and bottle"
+ },
+ "alors": {
+  "title": "Mots de liaison",
+  "subtitle": "So, yet, on top of that, ill, busy, free"
+ },
+ "vide": {
+  "title": "Propre ou sale",
+  "subtitle": "Empty, clean, dirty, last, because, while"
+ },
+ "fleur": {
+  "title": "Nature et animaux",
+  "subtitle": "Flowers, forest, river, birds, horses"
+ }
+}

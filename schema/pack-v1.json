@@ -109,6 +109,7 @@
       "required": ["title", "word_ids"],
       "properties": {
         "title": { "type": "string" },
+        "subtitle": { "type": "string", "minLength": 1 },
         "page_id": { "$ref": "#/$defs/itemId" },
         "word_ids": {
           "type": "array",

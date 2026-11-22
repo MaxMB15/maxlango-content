@@ -101,8 +101,14 @@ def validate(pack: dict, profile: dict, seen_concepts: set[str]) -> list[str]:
 
     unit_page_ids: set[str] = set()
     seen_word_ids: set[str] = set()
+    seen_titles: set[str] = set()
     for i, u in enumerate(pack.get("units", [])):
         label = f"{pack['id']} unit {i} ('{u['title']}')"
+        if u["title"].casefold() in seen_titles:
+            errors.append(f"{label}: another Unit in the pack has this title")
+        seen_titles.add(u["title"].casefold())
+        if "subtitle" in u and not (isinstance(u["subtitle"], str) and u["subtitle"].strip()):
+            errors.append(f"{label}: subtitle must be a non-empty string")
         n = len(u["word_ids"])
         if not (6 <= n <= 10):
             errors.append(f"{label}: has {n} word_ids, must be 6-10")
@@ -240,6 +246,40 @@ def examples_for(pack_id: str) -> dict[str, dict]:
     return json.loads(path.read_text()) if path.exists() else {}
 
 
+UNIT_NAME_DIR = HERE / "units"
+
+
+def apply_unit_names(pack: dict, names: dict[str, dict]) -> list[str]:
+    """Give each Unit its title and subtitle from `names`, in place.
+
+    `names` maps a Unit's first word_id to {"title", "subtitle"}: the title
+    in the pack's language, the subtitle in English saying what the words
+    cover. Keying by the first word keeps the grouping, and so a learner's
+    progress, untouched. A key that starts no Unit is an error, and so is a
+    Unit left without a name once the pack has a names file.
+    """
+    if not names:
+        return []
+    errors: list[str] = []
+    units = {u["word_ids"][0]: u for u in pack.get("units", [])}
+    for key, name in names.items():
+        unit = units.get(key)
+        if unit is None:
+            errors.append(f"{pack['id']}: unit name for '{key}' starts no Unit")
+            continue
+        unit["title"] = name["title"]
+        unit["subtitle"] = name["subtitle"]
+    for key, unit in units.items():
+        if key not in names:
+            errors.append(f"{pack['id']}: Unit '{unit['title']}' ({key}) has no name")
+    return errors
+
+
+def unit_names_for(pack_id: str) -> dict[str, dict]:
+    path = UNIT_NAME_DIR / f"{pack_id}.json"
+    return json.loads(path.read_text()) if path.exists() else {}
+
+
 def profile_for(code: str) -> dict:
     return json.loads((LANGUAGE_DIR / code / "profile.json").read_text())
 
@@ -284,6 +324,7 @@ def main(argv: list[str] | None = None) -> int:
             previous = json.loads(out_path.read_text()) if out_path.exists() else None
 
             errs = apply_examples(pack, examples_for(pack["id"]))
+            errs += apply_unit_names(pack, unit_names_for(pack["id"]))
             errs += validate(pack, profile, seen)
             errs += check_no_silent_removals(pack, previous, retired)
             seen |= {c["id"] for c in pack.get("profile_delta", [])}

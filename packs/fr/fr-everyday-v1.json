@@ -5715,7 +5715,7 @@
   ],
   "units": [
     {
-      "title": "Le passé composé",
+      "title": "Envoyer et recevoir",
       "word_ids": [
         "connaitre",
         "croire",
@@ -5724,10 +5724,11 @@
         "payer",
         "essayer"
       ],
-      "page_id": "fr-passe-compose"
+      "page_id": "fr-passe-compose",
+      "subtitle": "To know, believe, send, receive, pay, try"
     },
     {
-      "title": "Les verbes avec être",
+      "title": "Monter et descendre",
       "word_ids": [
         "rester",
         "tomber",
@@ -5740,10 +5741,11 @@
         "naitre",
         "mourir"
       ],
-      "page_id": "fr-etre-verbs"
+      "page_id": "fr-etre-verbs",
+      "subtitle": "To enter, fall, stay, become, be born, die"
     },
     {
-      "title": "L'imparfait",
+      "title": "Oublier et perdre",
       "word_ids": [
         "oublier",
         "porter",
@@ -5752,10 +5754,11 @@
         "entendre",
         "courir"
       ],
-      "page_id": "fr-imparfait"
+      "page_id": "fr-imparfait",
+      "subtitle": "To forget, lose, wear, answer, hear, run"
     },
     {
-      "title": "Les verbes pronominaux",
+      "title": "La routine quotidienne",
       "word_ids": [
         "se-lever",
         "se-reveiller",
@@ -5764,10 +5767,11 @@
         "se-promener",
         "se-sentir"
       ],
-      "page_id": "fr-reflexive-verbs"
+      "page_id": "fr-reflexive-verbs",
+      "subtitle": "To get up, get dressed, go to bed, walk"
     },
     {
-      "title": "Les pronoms objets",
+      "title": "Phrases à l'oral",
       "word_ids": [
         "je-m-en-fiche",
         "ca-te-dit",
@@ -5776,10 +5780,11 @@
         "ca-depend",
         "il-vaut-mieux"
       ],
-      "page_id": "fr-object-pronouns"
+      "page_id": "fr-object-pronouns",
+      "subtitle": "I don't care, shall we go, it depends"
     },
     {
-      "title": "Le futur simple",
+      "title": "Ouvrir et fermer",
       "word_ids": [
         "ouvrir",
         "fermer",
@@ -5792,10 +5797,11 @@
         "rendre",
         "pleurer"
       ],
-      "page_id": "fr-futur-simple"
+      "page_id": "fr-futur-simple",
+      "subtitle": "To open, close, drive, call, ask, cry"
     },
     {
-      "title": "Les comparaisons",
+      "title": "Les contraires",
       "word_ids": [
         "long",
         "court",
@@ -5804,10 +5810,11 @@
         "rapide",
         "lent"
       ],
-      "page_id": "fr-comparisons"
+      "page_id": "fr-comparisons",
+      "subtitle": "Long, short, heavy, light, fast and slow"
     },
     {
-      "title": "Sentiments",
+      "title": "Caractère et humeur",
       "word_ids": [
         "heureux",
         "triste",
@@ -5819,10 +5826,11 @@
         "timide",
         "paresseux",
         "sportif"
-      ]
+      ],
+      "subtitle": "Happy, sad, funny, shy, lazy and sporty"
     },
     {
-      "title": "Depuis, il y a, pendant",
+      "title": "Cours et rendez-vous",
       "word_ids": [
         "examen",
         "cours",
@@ -5831,10 +5839,11 @@
         "apres",
         "enfin"
       ],
-      "page_id": "fr-time-expressions"
+      "page_id": "fr-time-expressions",
+      "subtitle": "Exams, lessons, meetings, appointments"
     },
     {
-      "title": "Le genre des noms",
+      "title": "Noms de tous les jours",
       "word_ids": [
         "voyage",
         "plage",
@@ -5843,10 +5852,11 @@
         "medicament",
         "photo"
       ],
-      "page_id": "fr-gender-patterns"
+      "page_id": "fr-gender-patterns",
+      "subtitle": "Trip, beach, computer, fork and medicine"
     },
     {
-      "title": "Vêtements",
+      "title": "Les vêtements",
       "word_ids": [
         "vetement",
         "chemise",
@@ -5854,10 +5864,11 @@
         "jupe",
         "robe",
         "manteau"
-      ]
+      ],
+      "subtitle": "Shirt, trousers, skirt, dress and coat"
     },
     {
-      "title": "Vêtements",
+      "title": "Chaussures et accessoires",
       "word_ids": [
         "veste",
         "pull",
@@ -5865,10 +5876,11 @@
         "chaussette",
         "chapeau",
         "sac"
-      ]
+      ],
+      "subtitle": "Jacket, jumper, shoes, socks, hat, bag"
     },
     {
-      "title": "Expressions",
+      "title": "Phrases toutes faites",
       "word_ids": [
         "il-fait-beau",
         "il-fait-froid",
@@ -5877,10 +5889,11 @@
         "je-suis-en-train-de",
         "pas-de-probleme",
         "bien-sur"
-      ]
+      ],
+      "subtitle": "Nice weather, rain, I'd like, of course"
     },
     {
-      "title": "Expressions",
+      "title": "Ce n'est pas grave",
       "word_ids": [
         "peut-etre",
         "j-ai-mal-a-la-tete",
@@ -5889,10 +5902,11 @@
         "a-tout-a-l-heure",
         "volontiers",
         "tant-pis"
-      ]
+      ],
+      "subtitle": "Maybe, never mind, too bad and gladly"
     },
     {
-      "title": "Expressions",
+      "title": "Avoir et faire",
       "word_ids": [
         "tant-mieux",
         "quoi-de-neuf",
@@ -5901,10 +5915,11 @@
         "avoir-l-air",
         "faire-la-queue",
         "faire-les-courses"
-      ]
+      ],
+      "subtitle": "To need, feel like, seem, queue, shop"
     },
     {
-      "title": "Météo",
+      "title": "La météo",
       "word_ids": [
         "temps",
         "pluie",
@@ -5912,10 +5927,11 @@
         "vent",
         "nuage",
         "ciel"
-      ]
+      ],
+      "subtitle": "Weather, rain, snow, wind, clouds, sky"
     },
     {
-      "title": "Météo",
+      "title": "Les saisons",
       "word_ids": [
         "orage",
         "ete",
@@ -5923,10 +5939,11 @@
         "printemps",
         "automne",
         "saison"
-      ]
+      ],
+      "subtitle": "Summer, winter, spring, autumn, storms"
     },
     {
-      "title": "Voyage",
+      "title": "En voyage",
       "word_ids": [
         "billet",
         "valise",
@@ -5936,7 +5953,8 @@
         "montagne",
         "pays",
         "carte"
-      ]
+      ],
+      "subtitle": "Tickets, suitcase, passport, hotel, map"
     },
     {
       "title": "Les transports",
@@ -5948,10 +5966,11 @@
         "metro",
         "bateau",
         "aeroport"
-      ]
+      ],
+      "subtitle": "Plane, train, bus, bike, metro and boat"
     },
     {
-      "title": "Travail",
+      "title": "Au travail",
       "word_ids": [
         "bureau",
         "entreprise",
@@ -5961,10 +5980,11 @@
         "metier",
         "etudiant",
         "professeur"
-      ]
+      ],
+      "subtitle": "Office, company, colleague, boss, salary"
     },
     {
-      "title": "Santé",
+      "title": "La santé",
       "word_ids": [
         "sante",
         "medecin",
@@ -5972,10 +5992,11 @@
         "rhume",
         "fievre",
         "douleur"
-      ]
+      ],
+      "subtitle": "Doctor, pharmacy, a cold, fever and pain"
     },
     {
-      "title": "Loisirs",
+      "title": "Les loisirs",
       "word_ids": [
         "film",
         "musique",
@@ -5986,10 +6007,11 @@
         "fete",
         "anniversaire",
         "cadeau"
-      ]
+      ],
+      "subtitle": "Films, music, sport, games, parties, gifts"
     },
     {
-      "title": "Achats",
+      "title": "Les achats",
       "word_ids": [
         "prix",
         "euro",
@@ -5998,10 +6020,11 @@
         "caisse",
         "supermarche",
         "boutique"
-      ]
+      ],
+      "subtitle": "Prices, change, bank card, till, shops"
     },
     {
-      "title": "La maison",
+      "title": "Mettre la table",
       "word_ids": [
         "couteau",
         "cuillere",
@@ -6009,10 +6032,11 @@
         "verre",
         "bouteille",
         "lumiere"
-      ]
+      ],
+      "subtitle": "Knife, spoon, plate, glass and bottle"
     },
     {
-      "title": "Pratique",
+      "title": "Mots de liaison",
       "word_ids": [
         "alors",
         "par-consequent",
@@ -6024,10 +6048,11 @@
         "libre",
         "pret",
         "plein"
-      ]
+      ],
+      "subtitle": "So, yet, on top of that, ill, busy, free"
     },
     {
-      "title": "Pratique",
+      "title": "Propre ou sale",
       "word_ids": [
         "vide",
         "propre",
@@ -6038,10 +6063,11 @@
         "comme",
         "pendant-que",
         "lorsque"
-      ]
+      ],
+      "subtitle": "Empty, clean, dirty, last, because, while"
     },
     {
-      "title": "Pratique",
+      "title": "Nature et animaux",
       "word_ids": [
         "fleur",
         "foret",
@@ -6052,7 +6078,8 @@
         "vache",
         "cochon",
         "souris"
-      ]
+      ],
+      "subtitle": "Flowers, forest, river, birds, horses"
     }
   ]
 }

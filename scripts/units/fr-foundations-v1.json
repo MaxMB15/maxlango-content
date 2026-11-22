@@ -1,0 +1,110 @@
+{
+ "bonjour": {
+  "title": "Bonjour et merci",
+  "subtitle": "Hello, good evening, thanks and sorry"
+ },
+ "salut": {
+  "title": "Salut, ça va ?",
+  "subtitle": "Hi, how are you, OK and excuse me"
+ },
+ "etre": {
+  "title": "Verbes essentiels",
+  "subtitle": "To be, have, do, want, can and must"
+ },
+ "habiter": {
+  "title": "Verbes réguliers",
+  "subtitle": "To live, love, work, finish, sell, wait"
+ },
+ "prendre": {
+  "title": "Prendre, voir et écouter",
+  "subtitle": "To take, put, say, see, watch, listen"
+ },
+ "ou-sont-les-toilettes": {
+  "title": "Questions utiles",
+  "subtitle": "Where, what time, how much, slow down"
+ },
+ "cafe": {
+  "title": "Les boissons",
+  "subtitle": "Coffee, tea, wine, beer, milk and sugar"
+ },
+ "banque": {
+  "title": "Les lieux publics",
+  "subtitle": "Bank, school, hospital, station, market"
+ },
+ "grand": {
+  "title": "Adjectifs de base",
+  "subtitle": "Big, small, good, beautiful, old and new"
+ },
+ "rouge": {
+  "title": "Les couleurs",
+  "subtitle": "Red, blue, green, yellow, black and white"
+ },
+ "heure": {
+  "title": "L'heure et les jours",
+  "subtitle": "Hours, minutes, days, Monday to Wednesday"
+ },
+ "venir": {
+  "title": "Venir, partir, écrire",
+  "subtitle": "To come, arrive, leave, sleep, read, write"
+ },
+ "pere": {
+  "title": "La famille proche",
+  "subtitle": "Father, mother, brother, sister, husband"
+ },
+ "fils": {
+  "title": "La famille élargie",
+  "subtitle": "Son, daughter, grandparents, uncle, aunt"
+ },
+ "au-revoir": {
+  "title": "Dire au revoir",
+  "subtitle": "Goodbye, see you soon, you're welcome"
+ },
+ "si": {
+  "title": "Phrases de survie",
+  "subtitle": "I don't understand, the bill and cheers"
+ },
+ "homme": {
+  "title": "Les gens et les noms",
+  "subtitle": "Man, boy, baby, neighbour and names"
+ },
+ "tete": {
+  "title": "La tête et les bras",
+  "subtitle": "Head, eyes, mouth, nose, ears and hands"
+ },
+ "jambe": {
+  "title": "Le corps",
+  "subtitle": "Legs, feet, back, heart, belly and teeth"
+ },
+ "petit-dejeuner": {
+  "title": "Les repas",
+  "subtitle": "Breakfast, lunch, dinner, meat and fish"
+ },
+ "pomme": {
+  "title": "Fruits et légumes",
+  "subtitle": "Apples, potatoes, rice, salt, jam, cake"
+ },
+ "chambre": {
+  "title": "La maison",
+  "subtitle": "Bedroom, kitchen, bathroom, bed and keys"
+ },
+ "semaine": {
+  "title": "La semaine et l'année",
+  "subtitle": "Weeks, months, years, Thursday to Sunday"
+ },
+ "ville": {
+  "title": "En ville",
+  "subtitle": "Town, street, shop, bakery and church"
+ },
+ "d-abord": {
+  "title": "Adjectifs et petits mots",
+  "subtitle": "Tired, happy, hot, cold, first and then"
+ },
+ "facile": {
+  "title": "Verbes du quotidien",
+  "subtitle": "To give, find, think, plus easy and hard"
+ },
+ "acheter": {
+  "title": "Apprendre et comprendre",
+  "subtitle": "To buy, learn, understand, money, phone"
+ }
+}

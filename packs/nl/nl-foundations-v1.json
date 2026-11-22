@@ -5134,7 +5134,7 @@
   ],
   "units": [
     {
-      "title": "Uitspraak",
+      "title": "Groeten en bedanken",
       "word_ids": [
         "hallo",
         "goedemorgen",
@@ -5143,10 +5143,11 @@
         "sorry",
         "pardon"
       ],
-      "page_id": "nl-pronunciation"
+      "page_id": "nl-pronunciation",
+      "subtitle": "Hello, please, thank you and sorry"
     },
     {
-      "title": "Voornaamwoorden",
+      "title": "Hoi en doei",
       "word_ids": [
         "hoi",
         "dag",
@@ -5155,10 +5156,11 @@
         "hoe-gaat-het",
         "spreekt-u-engels"
       ],
-      "page_id": "nl-pronouns"
+      "page_id": "nl-pronouns",
+      "subtitle": "Hi, bye, how are you, do you speak English"
     },
     {
-      "title": "Zijn en hebben",
+      "title": "Basiswerkwoorden",
       "word_ids": [
         "zijn",
         "hebben",
@@ -5167,10 +5169,11 @@
         "kunnen",
         "moeten"
       ],
-      "page_id": "nl-zijn-hebben"
+      "page_id": "nl-zijn-hebben",
+      "subtitle": "To be, have, do, want, can and must"
     },
     {
-      "title": "De tegenwoordige tijd",
+      "title": "Werken en wonen",
       "word_ids": [
         "werken",
         "maken",
@@ -5180,10 +5183,11 @@
         "spelen",
         "kijken"
       ],
-      "page_id": "nl-present-spelling"
+      "page_id": "nl-present-spelling",
+      "subtitle": "To work, make, sit, live, learn and play"
     },
     {
-      "title": "Werkwoord op de tweede plaats",
+      "title": "Lopen en kopen",
       "word_ids": [
         "lopen",
         "fietsen",
@@ -5192,10 +5196,11 @@
         "zoeken",
         "vinden"
       ],
-      "page_id": "nl-word-order"
+      "page_id": "nl-word-order",
+      "subtitle": "To walk, cycle, buy, pay, seek and find"
     },
     {
-      "title": "Geen of niet",
+      "title": "Geven en nemen",
       "word_ids": [
         "denken",
         "geven",
@@ -5204,10 +5209,11 @@
         "blijven",
         "staan"
       ],
-      "page_id": "nl-negation"
+      "page_id": "nl-negation",
+      "subtitle": "To think, give, take, begin, stay, stand"
     },
     {
-      "title": "Vraagzinnen",
+      "title": "Vragen stellen",
       "word_ids": [
         "hoeveel-kost-het",
         "waar-is-de-wc",
@@ -5216,10 +5222,11 @@
         "kunt-u-dat-herhalen",
         "ik-begrijp-het-niet"
       ],
-      "page_id": "nl-questions"
+      "page_id": "nl-questions",
+      "subtitle": "How much, what time, I don't understand"
     },
     {
-      "title": "Meervoud",
+      "title": "Wachten en helpen",
       "word_ids": [
         "liggen",
         "heten",
@@ -5229,10 +5236,11 @@
         "vragen",
         "begrijpen"
       ],
-      "page_id": "nl-plurals"
+      "page_id": "nl-plurals",
+      "subtitle": "To wait, help, ask, cook and understand"
     },
     {
-      "title": "Verkleinwoorden",
+      "title": "Hoofd en hart",
       "word_ids": [
         "hoofd",
         "oog",
@@ -5241,10 +5249,11 @@
         "bed",
         "appartement"
       ],
-      "page_id": "nl-diminutives"
+      "page_id": "nl-diminutives",
+      "subtitle": "Head, eyes, ears, heart, a bed and a flat"
     },
     {
-      "title": "Getallen en tijd",
+      "title": "Uren en dagen",
       "word_ids": [
         "uur",
         "minuut",
@@ -5253,10 +5262,11 @@
         "woensdag",
         "ochtend"
       ],
-      "page_id": "nl-numbers-time"
+      "page_id": "nl-numbers-time",
+      "subtitle": "Hours, minutes, Monday to Wednesday"
     },
     {
-      "title": "Mijn, jouw, ons en onze",
+      "title": "Het gezin",
       "word_ids": [
         "vader",
         "moeder",
@@ -5265,7 +5275,8 @@
         "man",
         "vrouw"
       ],
-      "page_id": "nl-possessives"
+      "page_id": "nl-possessives",
+      "subtitle": "Father, mother, brother, sister, spouse"
     },
     {
       "title": "Kleuren",
@@ -5278,7 +5289,8 @@
         "wit",
         "bruin",
         "oranje"
-      ]
+      ],
+      "subtitle": "Red, blue, green, yellow, black and white"
     },
     {
       "title": "Familie",
@@ -5292,10 +5304,11 @@
         "tante",
         "neef",
         "nicht"
-      ]
+      ],
+      "subtitle": "Sons, daughters, grandparents and cousins"
     },
     {
-      "title": "Begroetingen",
+      "title": "Beleefd groeten",
       "word_ids": [
         "goedemiddag",
         "goedenavond",
@@ -5305,10 +5318,11 @@
         "dank-u-wel",
         "bedankt",
         "alstublieft"
-      ]
+      ],
+      "subtitle": "Good evening, see you and polite thanks"
     },
     {
-      "title": "Begroetingen",
+      "title": "Ja, nee en graag gedaan",
       "word_ids": [
         "graag-gedaan",
         "ja",
@@ -5318,10 +5332,11 @@
         "prettig-kennis-te-maken",
         "ik-weet-het-niet",
         "mag-ik-de-rekening"
-      ]
+      ],
+      "subtitle": "Yes, no, you're welcome, nice to meet you"
     },
     {
-      "title": "Begroetingen",
+      "title": "Proost en eet smakelijk",
       "word_ids": [
         "er-is-er-zijn",
         "eet-smakelijk",
@@ -5330,7 +5345,8 @@
         "fijn-weekend",
         "het-maakt-niet-uit",
         "geen-idee"
-      ]
+      ],
+      "subtitle": "Cheers, enjoy your meal, have a nice day"
     },
     {
       "title": "Mensen",
@@ -5341,10 +5357,11 @@
         "buurman",
         "naam",
         "mens"
-      ]
+      ],
+      "subtitle": "Boys, girls, babies and the neighbour"
     },
     {
-      "title": "Lichaam",
+      "title": "Het lichaam",
       "word_ids": [
         "mond",
         "neus",
@@ -5356,10 +5373,11 @@
         "buik",
         "haar",
         "tand"
-      ]
+      ],
+      "subtitle": "Mouth, nose, hands, legs, back and teeth"
     },
     {
-      "title": "Eten",
+      "title": "Maaltijden",
       "word_ids": [
         "ontbijt",
         "lunch",
@@ -5370,10 +5388,11 @@
         "kip",
         "ei",
         "melk"
-      ]
+      ],
+      "subtitle": "Breakfast, dinner, cheese, fish and eggs"
     },
     {
-      "title": "Eten",
+      "title": "Drinken, groente en fruit",
       "word_ids": [
         "koffie",
         "thee",
@@ -5384,10 +5403,11 @@
         "groente",
         "fruit",
         "suiker"
-      ]
+      ],
+      "subtitle": "Coffee, tea, beer, potatoes and fruit"
     },
     {
-      "title": "Eten",
+      "title": "Hagelslag en stroopwafels",
       "word_ids": [
         "zout",
         "rijst",
@@ -5398,10 +5418,11 @@
         "hagelslag",
         "stroopwafel",
         "drop"
-      ]
+      ],
+      "subtitle": "Rice, butter, cake and Dutch sweet treats"
     },
     {
-      "title": "Huis",
+      "title": "Kamers in huis",
       "word_ids": [
         "slaapkamer",
         "keuken",
@@ -5410,10 +5431,11 @@
         "sleutel",
         "tuin",
         "bank"
-      ]
+      ],
+      "subtitle": "Bedroom, kitchen, garden, key and sofa"
     },
     {
-      "title": "Tijd",
+      "title": "Week, maand en jaar",
       "word_ids": [
         "week",
         "maand",
@@ -5424,10 +5446,11 @@
         "vrijdag",
         "zaterdag",
         "zondag"
-      ]
+      ],
+      "subtitle": "Weeks, months, years, Thursday to Sunday"
     },
     {
-      "title": "Stad",
+      "title": "In de stad",
       "word_ids": [
         "stad",
         "straat",
@@ -5436,10 +5459,11 @@
         "bakker",
         "station",
         "school"
-      ]
+      ],
+      "subtitle": "Streets, shops, the market and the station"
     },
     {
-      "title": "Stad",
+      "title": "Gracht, plein en brug",
       "word_ids": [
         "kerk",
         "ziekenhuis",
@@ -5448,10 +5472,11 @@
         "plein",
         "brug",
         "werk"
-      ]
+      ],
+      "subtitle": "Church, hospital, canal, square and bridge"
     },
     {
-      "title": "Oefening",
+      "title": "Groot en klein",
       "word_ids": [
         "groot",
         "klein",
@@ -5463,10 +5488,11 @@
         "oud",
         "nieuw",
         "aardig"
-      ]
+      ],
+      "subtitle": "Big, small, good, bad, young, old and new"
     },
     {
-      "title": "Oefening",
+      "title": "Duur en goedkoop",
       "word_ids": [
         "blij",
         "lekker",
@@ -5478,10 +5504,11 @@
         "goedkoop",
         "eerst",
         "dan"
-      ]
+      ],
+      "subtitle": "Tasty, warm, cold, easy, expensive, cheap"
     },
     {
-      "title": "Oefening",
+      "title": "Weten en kennen",
       "word_ids": [
         "ook",
         "komen",
@@ -5492,10 +5519,11 @@
         "zeggen",
         "luisteren",
         "lezen"
-      ]
+      ],
+      "subtitle": "To know, see, say, listen, read and come"
     },
     {
-      "title": "Oefening",
+      "title": "En, of, als en dat",
       "word_ids": [
         "schrijven",
         "slapen",
@@ -5506,7 +5534,8 @@
         "fiets",
         "geld",
         "telefoon"
-      ]
+      ],
+      "subtitle": "And, or, if, that, a bike and money"
     }
   ]
 }

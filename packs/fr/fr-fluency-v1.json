@@ -4064,7 +4064,7 @@
   ],
   "units": [
     {
-      "title": "Le subjonctif",
+      "title": "Réussir et grandir",
       "word_ids": [
         "reussir",
         "reflechir",
@@ -4073,10 +4073,11 @@
         "mentir",
         "servir"
       ],
-      "page_id": "fr-subjunctive"
+      "page_id": "fr-subjunctive",
+      "subtitle": "To succeed, think over, hope, lie, serve"
     },
     {
-      "title": "Le conditionnel",
+      "title": "Rire et sourire",
       "word_ids": [
         "disparaitre",
         "jeter",
@@ -4085,10 +4086,11 @@
         "rire",
         "sourire"
       ],
-      "page_id": "fr-conditional"
+      "page_id": "fr-conditional",
+      "subtitle": "To laugh, smile, follow, clean, throw away"
     },
     {
-      "title": "Pronoms relatifs",
+      "title": "Promettre et permettre",
       "word_ids": [
         "tenir",
         "obtenir",
@@ -4097,10 +4099,11 @@
         "construire",
         "craindre"
       ],
-      "page_id": "fr-relative-pronouns"
+      "page_id": "fr-relative-pronouns",
+      "subtitle": "To hold, get, allow, promise, build, fear"
     },
     {
-      "title": "Registre familier",
+      "title": "Le français familier",
       "word_ids": [
         "bref",
         "du-coup",
@@ -4110,10 +4113,11 @@
         "tu-parles",
         "c-est-la-vie"
       ],
-      "page_id": "fr-register"
+      "page_id": "fr-register",
+      "subtitle": "Meh, deal, yeah right and that's life"
     },
     {
-      "title": "Faux amis",
+      "title": "Les faux amis",
       "word_ids": [
         "bibliotheque",
         "librairie",
@@ -4122,10 +4126,11 @@
         "coin",
         "journee"
       ],
-      "page_id": "fr-false-friends"
+      "page_id": "fr-false-friends",
+      "subtitle": "Library, bookshop, rental, corner, day"
     },
     {
-      "title": "Idiomes",
+      "title": "Expressions animales",
       "word_ids": [
         "avoir-le-cafard",
         "avoir-la-flemme",
@@ -4136,10 +4141,11 @@
         "quand-les-poules-auront-des-dents",
         "ce-n-est-pas-la-mer-a-boire"
       ],
-      "page_id": "fr-idioms"
+      "page_id": "fr-idioms",
+      "subtitle": "Idioms with rabbits, cats, hens and rain"
     },
     {
-      "title": "Le plus-que-parfait et le passé simple",
+      "title": "Histoire et culture",
       "word_ids": [
         "passe",
         "histoire",
@@ -4148,10 +4154,11 @@
         "paix",
         "culture"
       ],
-      "page_id": "fr-past-perfect-and-literary"
+      "page_id": "fr-past-perfect-and-literary",
+      "subtitle": "Past, future, history, war and peace"
     },
     {
-      "title": "Le gérondif",
+      "title": "Tournures orales",
       "word_ids": [
         "en-tout-cas",
         "tant-que",
@@ -4160,10 +4167,11 @@
         "on-verra",
         "j-ai-hate"
       ],
-      "page_id": "fr-gerund"
+      "page_id": "fr-gerund",
+      "subtitle": "Anyway, we'll see, forget it, can't wait"
     },
     {
-      "title": "Bien que, même si, parce que",
+      "title": "Les conjonctions",
       "word_ids": [
         "puisque",
         "pour-que",
@@ -4175,10 +4183,11 @@
         "sans-que",
         "or"
       ],
-      "page_id": "fr-nuance-connectives"
+      "page_id": "fr-nuance-connectives",
+      "subtitle": "Since, so that, unless, even if, whereas"
     },
     {
-      "title": "Société",
+      "title": "La société",
       "word_ids": [
         "societe",
         "gouvernement",
@@ -4190,10 +4199,11 @@
         "environnement",
         "pollution",
         "langue"
-      ]
+      ],
+      "subtitle": "Government, laws, rights, freedom, votes"
     },
     {
-      "title": "Société",
+      "title": "Idées et opinions",
       "word_ids": [
         "probleme",
         "solution",
@@ -4204,10 +4214,11 @@
         "chance",
         "succes",
         "echec"
-      ]
+      ],
+      "subtitle": "Problems, ideas, choices, luck, failure"
     },
     {
-      "title": "Idiomes",
+      "title": "Expressions gourmandes",
       "word_ids": [
         "avoir-la-peche",
         "casser-les-pieds",
@@ -4217,10 +4228,11 @@
         "avoir-d-autres-chats-a-fouetter",
         "raconter-des-salades",
         "etre-dans-la-lune"
-      ]
+      ],
+      "subtitle": "Idioms with peaches, apples, salt, salad"
     },
     {
-      "title": "Idiomes",
+      "title": "Carottes et moutons",
       "word_ids": [
         "les-carottes-sont-cuites",
         "faire-la-grasse-matinee",
@@ -4230,10 +4242,11 @@
         "revenir-a-nos-moutons",
         "chercher-la-petite-bete",
         "en-avoir-marre"
-      ]
+      ],
+      "subtitle": "Idioms on love, lie-ins and nitpicking"
     },
     {
-      "title": "Idiomes",
+      "title": "Au bout du rouleau",
       "word_ids": [
         "ca-me-fait-une-belle-jambe",
         "etre-au-bout-du-rouleau",
@@ -4243,10 +4256,11 @@
         "avoir-la-tete-dans-le-cul",
         "depaysement",
         "rentree"
-      ]
+      ],
+      "subtitle": "Tiredness idioms, eels and back to school"
     },
     {
-      "title": "Idiomes",
+      "title": "Expressions du corps",
       "word_ids": [
         "les-doigts-dans-le-nez",
         "terroir",
@@ -4255,10 +4269,11 @@
         "tirer-les-vers-du-nez",
         "avoir-un-poil-dans-la-main",
         "couter-la-peau-des-fesses"
-      ]
+      ],
+      "subtitle": "Idioms with fingers, noses, hands, onions"
     },
     {
-      "title": "Sentiments",
+      "title": "Émotions et souvenirs",
       "word_ids": [
         "peur",
         "joie",
@@ -4270,10 +4285,11 @@
         "reve",
         "espoir",
         "amour"
-      ]
+      ],
+      "subtitle": "Fear, joy, anger, shame, dreams and love"
     },
     {
-      "title": "Pratique",
+      "title": "Verbes pronominaux",
       "word_ids": [
         "se-souvenir",
         "s-occuper",
@@ -4284,10 +4300,11 @@
         "eventuel",
         "sensible",
         "large"
-      ]
+      ],
+      "subtitle": "To remember, worry and tricky adjectives"
     },
     {
-      "title": "Pratique",
+      "title": "Fier ou jaloux",
       "word_ids": [
         "ancien",
         "seul",
@@ -4297,10 +4314,11 @@
         "inquiet",
         "fier",
         "jaloux"
-      ]
+      ],
+      "subtitle": "Proud, jealous, worried, alone, necessary"
     },
     {
-      "title": "Pratique",
+      "title": "Bête ou malin",
       "word_ids": [
         "genereux",
         "bete",
@@ -4310,10 +4328,11 @@
         "faux",
         "creve",
         "neanmoins"
-      ]
+      ],
+      "subtitle": "Generous, silly, clever, soft, fresh"
     },
     {
-      "title": "Pratique",
+      "title": "Connecteurs logiques",
       "word_ids": [
         "toutefois",
         "au-contraire",
@@ -4323,10 +4342,11 @@
         "ainsi",
         "en-fait",
         "finalement"
-      ]
+      ],
+      "subtitle": "However, besides, furthermore, thus"
     },
     {
-      "title": "Pratique",
+      "title": "Mots bien français",
       "word_ids": [
         "les-retrouvailles",
         "n-importe-quoi",
@@ -4336,7 +4356,8 @@
         "systeme-d",
         "l-esprit-de-l-escalier",
         "amitie"
-      ]
+      ],
+      "subtitle": "Reunions, making do, don't mention it"
     }
   ]
 }
