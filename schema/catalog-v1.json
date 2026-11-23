@@ -44,7 +44,16 @@
             "description": "The pack format an app must understand. An app that knows an older one skips the pack."
           },
           "author": { "type": "string" },
-          "license": { "type": "string" }
+          "license": { "type": "string" },
+          "level": {
+            "enum": ["A1", "A2", "B1", "B2", "C1", "C2"],
+            "description": "The CEFR level the pack teaches. Leave it out for a pack without one."
+          },
+          "description": {
+            "type": "string",
+            "maxLength": 240,
+            "description": "One or two sentences on what the pack teaches and who it is for, shown on its card."
+          }
         }
       }
     }

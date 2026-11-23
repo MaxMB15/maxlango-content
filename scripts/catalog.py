@@ -11,7 +11,8 @@ verify the download before it touches its database.
       "packs": [
         {"id": "nl-core-v1", "language": "nl", "name": "...", "version": 7,
          "url": "packs/nl/nl-core-v1.json", "sha256": "...", "size": 26034,
-         "items": 120, "requires": 1, "author": "...", "license": "CC-BY-SA-4.0"}
+         "items": 120, "requires": 1, "author": "...", "license": "CC-BY-SA-4.0",
+         "level": "A1", "description": "..."}
       ]
     }
 
@@ -19,12 +20,18 @@ verify the download before it touches its database.
 anywhere. `format` versions the catalog's own shape and `requires` the pack
 format an app has to understand: an app skips a pack whose `requires` is
 newer than it knows.
+
+`level` is the CEFR level in the pack's name, as in "Nederlands · Basis (A1)",
+and is left out for a pack without one. `description` is one or two sentences
+from catalog_meta.json for the app's pack card. Neither is in the pack file,
+so an app that predates them reads the same packs.
 """
 
 from __future__ import annotations
 
 import hashlib
 import json
+import re
 from pathlib import Path
 
 CATALOG_FORMAT = 1
@@ -32,6 +39,13 @@ CATALOG_FORMAT = 1
 # uses the new shape, when a change would break an app that doesn't know it.
 PACK_FORMAT = 1
 CATALOG_NAME = "MaxLango"
+META_PATH = Path(__file__).parent / "catalog_meta.json"
+LEVEL = re.compile(r"\((A1|A2|B1|B2|C1|C2)\)\s*$")
+
+
+def catalog_meta() -> dict[str, dict]:
+    """Per-pack card text the pack files don't carry, keyed by pack id."""
+    return json.loads(META_PATH.read_text()) if META_PATH.exists() else {}
 
 
 def pack_path(code: str, pack_id: str) -> str:
@@ -39,7 +53,7 @@ def pack_path(code: str, pack_id: str) -> str:
     return f"packs/{code}/{pack_id}.json"
 
 
-def entry_for(root: Path, pack: dict) -> dict:
+def entry_for(root: Path, pack: dict, meta: dict | None = None) -> dict:
     """The catalog entry for `pack`, read from its file under `root`."""
     rel = pack_path(pack["language"], pack["id"])
     raw = (root / rel).read_bytes()
@@ -57,13 +71,20 @@ def entry_for(root: Path, pack: dict) -> dict:
     for key in ("author", "license"):
         if pack.get(key):
             entry[key] = pack[key]
+    level = LEVEL.search(pack["name"])
+    if level:
+        entry["level"] = level.group(1)
+    description = (meta or {}).get("description")
+    if description:
+        entry["description"] = description
     return entry
 
 
 def build_catalog(root: Path, packs: list[dict]) -> dict:
     """The catalog for `packs`, in the order given, from their files under `root`."""
+    meta = catalog_meta()
     return {
         "format": CATALOG_FORMAT,
         "name": CATALOG_NAME,
-        "packs": [entry_for(root, p) for p in packs],
+        "packs": [entry_for(root, p, meta.get(p["id"])) for p in packs],
     }

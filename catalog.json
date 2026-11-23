@@ -13,7 +13,8 @@
       "items": 36,
       "requires": 1,
       "author": "Max Boksem",
-      "license": "CC-BY-SA-4.0"
+      "license": "CC-BY-SA-4.0",
+      "description": "A short starter set: everyday nouns, a few key verbs and the words that link sentences, with grammar pages for them."
     },
     {
       "id": "fr-foundations-v1",
@@ -26,7 +27,9 @@
       "items": 212,
       "requires": 1,
       "author": "Max Boksem",
-      "license": "CC-BY-SA-4.0"
+      "license": "CC-BY-SA-4.0",
+      "level": "A1",
+      "description": "For a complete beginner. Greetings, the verbs you need first, numbers and time, family, food, the body and finding your way in town."
     },
     {
       "id": "fr-everyday-v1",
@@ -39,7 +42,9 @@
       "items": 205,
       "requires": 1,
       "author": "Max Boksem",
-      "license": "CC-BY-SA-4.0"
+      "license": "CC-BY-SA-4.0",
+      "level": "A2",
+      "description": "After A1. Daily routines, weather and seasons, clothes, travel, work, the doctor and shopping, plus short spoken replies."
     },
     {
       "id": "fr-fluency-v1",
@@ -52,7 +57,9 @@
       "items": 170,
       "requires": 1,
       "author": "Max Boksem",
-      "license": "CC-BY-SA-4.0"
+      "license": "CC-BY-SA-4.0",
+      "level": "B1",
+      "description": "After A2. Opinions, society and history, everyday idioms, false friends and the French people speak."
     },
     {
       "id": "nl-core-v1",
@@ -65,7 +72,8 @@
       "items": 36,
       "requires": 1,
       "author": "Max Boksem",
-      "license": "CC-BY-SA-4.0"
+      "license": "CC-BY-SA-4.0",
+      "description": "A short starter set: everyday nouns, a few key verbs and the words that link sentences, with grammar pages for them."
     },
     {
       "id": "nl-foundations-v1",
@@ -78,7 +86,9 @@
       "items": 231,
       "requires": 1,
       "author": "Max Boksem",
-      "license": "CC-BY-SA-4.0"
+      "license": "CC-BY-SA-4.0",
+      "level": "A1",
+      "description": "For a complete beginner. Greetings, the verbs you need first, time, family, food, the body and finding your way in town."
     },
     {
       "id": "nl-everyday-v1",
@@ -91,7 +101,9 @@
       "items": 208,
       "requires": 1,
       "author": "Max Boksem",
-      "license": "CC-BY-SA-4.0"
+      "license": "CC-BY-SA-4.0",
+      "level": "A2",
+      "description": "After A1. Separable and reflexive verbs, weather, clothes, travel, work, the doctor and shopping."
     },
     {
       "id": "nl-fluency-v1",
@@ -104,7 +116,9 @@
       "items": 166,
       "requires": 1,
       "author": "Max Boksem",
-      "license": "CC-BY-SA-4.0"
+      "license": "CC-BY-SA-4.0",
+      "level": "B1",
+      "description": "After A2. Opinions, politics and history, Dutch idioms, false friends and the Dutch people speak."
     }
   ]
 }

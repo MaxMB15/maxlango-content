@@ -359,6 +359,13 @@ class BuildOutputTests(unittest.TestCase):
             self.assertEqual(entry["sha256"], hashlib.sha256(raw).hexdigest())
             self.assertEqual(entry["size"], len(raw))
             self.assertEqual(entry["requires"], 1)
+            # Every official pack has card text; the levelled ones say their level.
+            self.assertTrue(entry["description"])
+            self.assertLessEqual(len(entry["description"]), 240)
+            if pack["name"].endswith(")"):
+                self.assertEqual(entry["level"], pack["name"][-3:-1])
+            else:
+                self.assertNotIn("level", entry)
 
     def test_the_committed_catalog_is_up_to_date(self):
         self.run_build("1")

@@ -1,0 +1,26 @@
+{
+  "fr-core-v1": {
+    "description": "A short starter set: everyday nouns, a few key verbs and the words that link sentences, with grammar pages for them."
+  },
+  "fr-foundations-v1": {
+    "description": "For a complete beginner. Greetings, the verbs you need first, numbers and time, family, food, the body and finding your way in town."
+  },
+  "fr-everyday-v1": {
+    "description": "After A1. Daily routines, weather and seasons, clothes, travel, work, the doctor and shopping, plus short spoken replies."
+  },
+  "fr-fluency-v1": {
+    "description": "After A2. Opinions, society and history, everyday idioms, false friends and the French people speak."
+  },
+  "nl-core-v1": {
+    "description": "A short starter set: everyday nouns, a few key verbs and the words that link sentences, with grammar pages for them."
+  },
+  "nl-foundations-v1": {
+    "description": "For a complete beginner. Greetings, the verbs you need first, time, family, food, the body and finding your way in town."
+  },
+  "nl-everyday-v1": {
+    "description": "After A1. Separable and reflexive verbs, weather, clothes, travel, work, the doctor and shopping."
+  },
+  "nl-fluency-v1": {
+    "description": "After A2. Opinions, politics and history, Dutch idioms, false friends and the Dutch people speak."
+  }
+}
