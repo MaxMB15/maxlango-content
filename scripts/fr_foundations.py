@@ -184,7 +184,7 @@ Remove **-re** and add **-s, -s, (nothing), -ons, -ez, -ent**. *Il vend*, with n
 
 *Je mange* is "I eat", "I am eating" and "I do eat". French has no continuous tense. To stress that something is happening right now, say *je suis en train de manger*.
 
-:::predict{prompt="nous (manger)" answer="mangeons"}
+:::predict{prompt="nous (nager)" answer="nageons"}
 :::
 """,
         ["présent"],

@@ -68,7 +68,7 @@ So learn every noun with its article: **de kat**, never just *kat*. A few ending
 # and leaves out the :::examples block the page itself shows.
 ARTICLES["extras"] = {
     "examples": ["De kat slaapt op de bank.", "Het huis is groot en mooi.", "De man leest het boek."],
-    "cloze": [{"sentence": "___ kat slaapt.", "blank": "De"}, {"sentence": "___ huis is groot.", "blank": "Het"}],
+    "cloze": [{"sentence": "___ katje slaapt.", "blank": "Het"}, {"sentence": "___ boeken liggen op tafel.", "blank": "De"}],
     **ARTICLES["extras"],
 }
 

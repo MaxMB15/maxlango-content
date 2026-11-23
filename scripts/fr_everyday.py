@@ -74,7 +74,7 @@ It has two parts: the present of **avoir** (or **être**, see the next page) and
 
 *Ne ... pas* wraps the helper verb, not the participle: *Je n'ai pas mangé.* With inversion, the helper moves too: *As-tu mangé ?*
 
-:::predict{prompt="nous (finir)" answer="avons fini"}
+:::predict{prompt="nous (choisir)" answer="avons choisi"}
 :::
 """,
         ["passé-composé"],

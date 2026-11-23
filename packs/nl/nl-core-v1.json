@@ -116,12 +116,12 @@
         ],
         "cloze": [
           {
-            "sentence": "___ kat slaapt.",
-            "blank": "De"
+            "sentence": "___ katje slaapt.",
+            "blank": "Het"
           },
           {
-            "sentence": "___ huis is groot.",
-            "blank": "Het"
+            "sentence": "___ boeken liggen op tafel.",
+            "blank": "De"
           }
         ],
         "unlocks": [

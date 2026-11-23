@@ -39,7 +39,7 @@ So learn every noun with its article: **le chat**, **la fenêtre**, never the no
 # and leaves out the :::examples block the page itself shows.
 ARTICLES["extras"] = {
     "examples": ["Le chat dort sur la chaise.", "La fenêtre est ouverte.", "L'eau est fraîche ce matin."],
-    "cloze": [{"sentence": "___ chat mange.", "blank": "Le"}, {"sentence": "___ fenêtre est grande.", "blank": "La"}],
+    "cloze": [{"sentence": "___ chat mange.", "blank": "Le"}, {"sentence": "___ voitures sont rapides.", "blank": "Les"}],
     **ARTICLES["extras"],
 }
 

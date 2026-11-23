@@ -13,7 +13,8 @@ catalog.json: every pack's version, location, size and checksum in curriculum
 order, which is what an app reads to install and update packs (see catalog.py).
 
 Across each language's packs it also checks that every concept a learner can
-tap as a Tag opens exactly one page (check_tag_pages).
+tap as a Tag opens exactly one page (check_tag_pages), and on each page that
+no game's answer is already printed (gap_answers.py).
 """
 
 from __future__ import annotations
@@ -30,6 +31,8 @@ LANGUAGE_DIR = ROOT / "languages"
 PERSONS = ["1s", "2s", "3s", "1p", "2p", "3p"]
 
 sys.path.insert(0, str(HERE))
+
+from gap_answers import check_gap_answers  # noqa: E402
 
 
 def word_span_count(text: str, word: str) -> int:
@@ -327,6 +330,7 @@ def main(argv: list[str] | None = None) -> int:
             errs += apply_unit_names(pack, unit_names_for(pack["id"]))
             errs += validate(pack, profile, seen)
             errs += check_no_silent_removals(pack, previous, retired)
+            errs += check_gap_answers(pack)
             seen |= {c["id"] for c in pack.get("profile_delta", [])}
             kinds: dict[str, int] = {}
             for it in pack["items"]:

@@ -122,7 +122,7 @@ Like English, and unlike French, Dutch uses *zijn* for age.
 
 *Ik ben koud* means your body is cold to the touch, like a corpse. You want *ik heb het koud*.
 
-:::cloze{sentence="Ik ___ het koud, doe het raam dicht." blank="heb"}
+:::cloze{sentence="Wij ___ haast, de trein vertrekt zo." blank="hebben"}
 :::
 """,
         ["tegenwoordige-tijd"],

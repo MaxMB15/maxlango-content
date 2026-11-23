@@ -184,22 +184,22 @@ Everything else that says **when, where, how or why**: *gisteren*, *in Delft*, *
 
 Find every part. A part the sentence doesn't have stays empty.
 
-:::parse{sentence="Lisa heeft gisteren in Delft een cadeau gekocht." en="Lisa bought a present in Delft yesterday."}
+:::parse{sentence="Mijn buurman heeft gisteravond zijn auto in de garage gezet." en="My neighbour put his car in the garage last night."}
 Persoonsvorm: heeft
-Onderwerp: Lisa
-Werkwoordelijk gezegde: heeft gekocht
-Lijdend voorwerp: een cadeau
+Onderwerp: Mijn buurman
+Werkwoordelijk gezegde: heeft gezet
+Lijdend voorwerp: zijn auto
 Meewerkend voorwerp: -
-Bijwoordelijke bepaling: gisteren | in Delft
+Bijwoordelijke bepaling: gisteravond | in de garage
 :::
 
-:::parse{sentence="Morgen geef ik mijn moeder bloemen." en="Tomorrow I'm giving my mother flowers."}
-Persoonsvorm: geef
-Onderwerp: ik
-Werkwoordelijk gezegde: geef
-Lijdend voorwerp: bloemen
-Meewerkend voorwerp: mijn moeder
-Bijwoordelijke bepaling: Morgen
+:::parse{sentence="Vanavond stuurt Tom zijn oma een kaart." en="Tonight Tom is sending his grandma a card."}
+Persoonsvorm: stuurt
+Onderwerp: Tom
+Werkwoordelijk gezegde: stuurt
+Lijdend voorwerp: een kaart
+Meewerkend voorwerp: zijn oma
+Bijwoordelijke bepaling: Vanavond
 :::
 
 :::parse{sentence="Na het werk fietst Daan met zijn zus naar huis." en="After work, Daan cycles home with his sister."}

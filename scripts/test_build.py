@@ -26,6 +26,7 @@ sys.path.insert(0, str(HERE))
 
 import core_patch  # noqa: E402
 from check_versions import version_errors  # noqa: E402
+from gap_answers import check_gap_answers  # noqa: E402
 from build import (  # noqa: E402
     EXAMPLE_DIR,
     ROOT,
@@ -521,6 +522,57 @@ class ApplyUnitNamesTests(unittest.TestCase):
             titles = [u["title"].casefold() for u in units]
             self.assertEqual(len(titles), len(set(titles)), path.name)
             self.assertTrue(all(u.get("subtitle") for u in units), path.name)
+
+
+def gap_page(body: str, **extras) -> dict:
+    return {"items": [{"kind": "misc", "id": "xx-page", "title": "P", "body_md": body, "extras": extras}]}
+
+
+class GapAnswersTests(unittest.TestCase):
+    """A page's games must not have their answers printed on the same page."""
+
+    def test_a_gap_whose_filled_words_the_page_prints_fails(self):
+        body = 'You want *ik heb het koud*.\n\n:::cloze{sentence="Ik ___ het koud, doe het raam dicht." blank="heb"}\n:::'
+
+        errors = check_gap_answers(gap_page(body))
+
+        self.assertEqual(len(errors), 1)
+        self.assertIn("ik heb het koud", errors[0])
+
+    def test_a_gap_the_page_teaches_but_does_not_spell_out_passes(self):
+        body = '| wij | hebben |\n\n:::cloze{sentence="Wij ___ haast, de trein vertrekt zo." blank="hebben"}\n:::'
+
+        self.assertEqual(check_gap_answers(gap_page(body)), [])
+
+    def test_a_reading_card_gap_next_to_its_own_example_fails(self):
+        page = gap_page("", examples=["De kat slaapt op de bank."], cloze=[{"sentence": "___ kat slaapt.", "blank": "De"}])
+
+        self.assertEqual(len(check_gap_answers(page)), 1)
+
+    def test_a_prediction_the_page_conjugates_fails(self):
+        body = 'Verbs in -ger keep an e: *nous mangeons*.\n\n:::predict{prompt="nous (manger)" answer="mangeons"}\n:::'
+
+        self.assertEqual(len(check_gap_answers(gap_page(body))), 1)
+
+    def test_a_parse_sentence_the_page_already_takes_apart_fails(self):
+        body = (
+            "In *Lisa heeft gisteren een cadeau gekocht*, the gezegde is *heeft gekocht*.\n\n"
+            ':::parse{sentence="Lisa heeft gisteren in Delft een cadeau gekocht." en="x"}\nPersoonsvorm: heeft\n:::'
+        )
+
+        self.assertEqual(len(check_gap_answers(gap_page(body))), 1)
+
+    def test_a_parse_sentence_that_only_shares_a_few_words_passes(self):
+        body = "*Daan fietst naar huis* has no lijdend voorwerp.\n\n" + (
+            ':::parse{sentence="Na het werk fietst Daan met zijn zus naar huis." en="x"}\nPersoonsvorm: fietst\n:::'
+        )
+
+        self.assertEqual(check_gap_answers(gap_page(body)), [])
+
+    def test_the_bundled_packs_print_no_answers(self):
+        for path in sorted((ROOT / "packs").glob("*/*.json")):
+            with self.subTest(pack=path.name):
+                self.assertEqual(check_gap_answers(json.loads(path.read_text())), [])
 
 
 if __name__ == "__main__":
