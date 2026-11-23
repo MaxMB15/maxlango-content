@@ -26,9 +26,9 @@ French spelling looks chaotic, but it's regular once you know what to ignore. Mo
 
 ## Silent endings
 
-A final **e**, **s**, **t**, **d**, **x** and **z** are usually silent. *Petit*, *grand*, *les amis* and *vous parlez* all end on a vowel sound.
+A final **e**, **s**, **t**, **d**, **x** and **z** are usually silent. *[Petit](lango:say)*, *[grand](lango:say)*, *[les amis](lango:say)* and *[vous parlez](lango:say)* all end on a vowel sound.
 
-A handy exception: final **c**, **r**, **f** and **l** are often pronounced. Think of the English word *CaReFuL*: *parc*, *bonjour*, *neuf*, *sel*. The **-er** of an infinitive is the big exception to the exception: *parler* ends in "é".
+A handy exception: final **c**, **r**, **f** and **l** are often pronounced. Think of the English word *CaReFuL*: *[parc](lango:say)*, *[bonjour](lango:say)*, *[neuf](lango:say)*, *[sel](lango:say)*. The **-er** of an infinitive is the big exception to the exception: *[parler](lango:say)* ends in "é".
 
 ## Nasal vowels
 
@@ -36,24 +36,24 @@ When a vowel sits before **n** or **m** in the same syllable, the n is not prono
 
 | Spelling | Sound | Example |
 | --- | --- | --- |
-| an, en, am, em | "ahn" | *enfant*, *temps* |
-| on, om | "ohn" | *bon*, *nom* |
-| in, ain, ein, un | "ahn" (front) | *vin*, *pain*, *un* |
+| an, en, am, em | "ahn" | *[enfant](lango:say)*, *[temps](lango:say)* |
+| on, om | "ohn" | *[bon](lango:say)*, *[nom](lango:say)* |
+| in, ain, ein, un | "ahn" (front) | *[vin](lango:say)*, *[pain](lango:say)*, *[un](lango:say)* |
 
-If a vowel follows the n (*bonne*, *une*), the nasal disappears and the n is pronounced.
+If a vowel follows the n (*[bonne](lango:say)*, *[une](lango:say)*), the nasal disappears and the n is pronounced.
 
 ## Liaison and elision
 
-**Liaison**: a silent final consonant is pronounced when the next word starts with a vowel. *Les amis* sounds like "lé-z-ami". *Vous avez* sounds like "vou-z-avé".
+**Liaison**: a silent final consonant is pronounced when the next word starts with a vowel. *[Les amis](lango:say)* sounds like "lé-z-ami". *[Vous avez](lango:say)* sounds like "vou-z-avé".
 
-**Elision**: short words drop their vowel before another vowel and take an apostrophe. *Le ami* becomes *l'ami*, *je aime* becomes *j'aime*, *ne est* becomes *n'est*.
+**Elision**: short words drop their vowel before another vowel and take an apostrophe. *Le ami* becomes *[l'ami](lango:say)*, *je aime* becomes *[j'aime](lango:say)*, *ne est* becomes *[n'est](lango:say)*.
 
 ## Accents
 
-- **é** (accent aigu) is a closed "ay": *été*.
-- **è** and **ê** are an open "eh": *mère*, *fête*.
-- **ç** makes c soft before a, o, u: *ça*, *garçon*.
-- **à**, **ù**, **â**, **î**, **ô**, **û** don't change the sound much. They tell words apart: *a* (has) and *à* (to), *ou* (or) and *où* (where).
+- **é** (accent aigu) is a closed "ay": *[été](lango:say)*.
+- **è** and **ê** are an open "eh": *[mère](lango:say)*, *[fête](lango:say)*.
+- **ç** makes c soft before a, o, u: *[ça](lango:say)*, *[garçon](lango:say)*.
+- **à**, **ù**, **â**, **î**, **ô**, **û** don't change the sound much. They tell words apart: *[a](lango:say)* (has) and *[à](lango:say)* (to), *[ou](lango:say)* (or) and *[où](lango:say)* (where).
 """,
         ["prononciation"],
         "fr-pronunciation",

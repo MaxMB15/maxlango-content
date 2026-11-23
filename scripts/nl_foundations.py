@@ -29,25 +29,25 @@ Dutch spelling is close to phonetic: once you know the sound of each letter grou
 
 | Spelling | Sound | Example |
 | --- | --- | --- |
-| g, ch | a rasp at the back of the throat, like Scottish *loch* | *goed*, *acht* |
-| ui | between "ow" and "oy", lips rounded | *huis*, *uit* |
-| eu | like French *peu*, "e" with rounded lips | *leuk*, *neus* |
-| ij, ei | "ay" as in *day*, a bit wider | *ijs*, *klein* |
-| u | like French *tu*: "ee" with rounded lips | *u*, *nu* |
-| oe | "oo" as in *food* | *boek*, *goed* |
-| ou, au | "ow" as in *how* | *oud*, *blauw* |
-| sch | s + the g sound | *school* ("s-gohl", never "skool") |
+| g, ch | a rasp at the back of the throat, like Scottish *loch* | *[goed](lango:say)*, *[acht](lango:say)* |
+| ui | between "ow" and "oy", lips rounded | *[huis](lango:say)*, *[uit](lango:say)* |
+| eu | like French *peu*, "e" with rounded lips | *[leuk](lango:say)*, *[neus](lango:say)* |
+| ij, ei | "ay" as in *day*, a bit wider | *[ijs](lango:say)*, *[klein](lango:say)* |
+| u | like French *tu*: "ee" with rounded lips | *[u](lango:say)*, *[nu](lango:say)* |
+| oe | "oo" as in *food* | *[boek](lango:say)*, *[goed](lango:say)* |
+| ou, au | "ow" as in *how* | *[oud](lango:say)*, *[blauw](lango:say)* |
+| sch | s + the g sound | *[school](lango:say)* ("s-gohl", never "skool") |
 
 In the south of the Netherlands and in Flanders, the **g** is soft. In the north it's harsh. Both are correct.
 
 ## Long and short vowels
 
-A double vowel is long: *maan* (moon), *boom* (tree). A single vowel is long when it ends a syllable (*ma-ken*) and short when a consonant closes it (*man*, *bed*). This one rule explains most Dutch spelling. The next pages use it.
+A double vowel is long: *[maan](lango:say)* (moon), *[boom](lango:say)* (tree). A single vowel is long when it ends a syllable (*[ma-ken](lango:say/maken)*) and short when a consonant closes it (*[man](lango:say)*, *[bed](lango:say)*). This one rule explains most Dutch spelling. The next pages use it.
 
 ## Endings
 
-- **-en** at the end of a word is usually said as a short "uh": *maken* sounds like "maakuh".
-- **-d** at the end of a word is said as **t**: *hond* sounds like "hont".
+- **-en** at the end of a word is usually said as a short "uh": *[maken](lango:say)* sounds like "maakuh".
+- **-d** at the end of a word is said as **t**: *[hond](lango:say)* sounds like "hont".
 - **v** and **z** soften towards f and s at the start of a word in many accents.
 
 ## W
