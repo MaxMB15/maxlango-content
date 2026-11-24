@@ -53,6 +53,13 @@ A double vowel is long: *[maan](lango:say)* (moon), *[boom](lango:say)* (tree). 
 ## W
 
 The Dutch **w** is softer than English w, somewhere between v and w, made with the lower lip against the top teeth.
+
+## This unit's words
+
+- *[goedemorgen](lango:say)*: the g twice and the oe, with the -en said as "uh": "ghoo-duh-mor-ghuh".
+- *[dank je wel](lango:say)*: the soft w.
+- *[alsjeblieft](lango:say)*: sj is "sh" and ie is "ee".
+- *[hallo](lango:say)*, *[sorry](lango:say)* and *[pardon](lango:say)*: short vowels, each closed by a consonant. *Pardon* puts the stress on the end: par-DON.
 """,
         ["uitspraak"],
         "nl-pronunciation",
@@ -303,9 +310,9 @@ Every plural noun takes **de**, whatever its singular article. *Het huis*, *de h
 
 ## Which ending?
 
-- Most nouns take **-en**: *boek → boeken*, *stoel → stoelen*.
-- Nouns ending in unstressed **-el, -em, -en, -er, -je** take **-s**: *tafel → tafels*, *vader → vaders*, *meisje → meisjes*.
-- Nouns ending in a vowel usually take **'s** or **s**: *auto → auto's*, *foto → foto's*, *zee → zeeën*.
+- Most nouns take **-en**: *boek → boeken*, *mens → mensen*.
+- Nouns ending in unstressed **-el, -em, -en, -er, -je** take **-s**: *jongen → jongens*, *vader → vaders*, *meisje → meisjes*.
+- Nouns ending in a vowel usually take **'s** or **s**: *baby → baby's*, *foto → foto's*, *zee → zeeën*.
 
 This is a strong tendency, not a law. Learn the plural with the word; every noun in these packs carries it.
 
@@ -313,7 +320,7 @@ This is a strong tendency, not a law. Learn the plural with the word; every noun
 
 The long-and-short vowel rule applies again:
 
-- A long vowel spelled double in a closed syllable becomes single when the syllable opens: *boom → bomen*, *maan → manen*.
+- A long vowel spelled double in a closed syllable becomes single when the syllable opens: *naam → namen*, *boom → bomen*.
 - A short vowel needs its consonant doubled: *bed → bedden*, *kat → katten*.
 - **f** and **s** often become **v** and **z**: *brief → brieven*, *huis → huizen*.
 
@@ -324,6 +331,7 @@ The long-and-short vowel rule applies again:
 | kind | kinderen |
 | ei | eieren |
 | stad | steden |
+| buurman | buren |
 | schip | schepen |
 | dag | dagen (short a becomes long) |
 
@@ -518,6 +526,11 @@ broodje | het | broodjes | bread roll, sandwich | food
 hagelslag | de | - | chocolate sprinkles (on bread) | food
 stroopwafel | de | stroopwafels | syrup waffle | food
 drop | de | - | liquorice | food
+# diminutives
+biertje | het | biertjes | a beer (a glass of) | verkleinwoorden
+kopje | het | kopjes | cup | verkleinwoorden
+ijsje | het | ijsjes | ice cream | verkleinwoorden
+stukje | het | stukjes | piece, bit | verkleinwoorden
 # home
 slaapkamer | de | slaapkamers | bedroom | home
 keuken | de | keukens | kitchen | home
@@ -739,6 +752,47 @@ geen idee | no idea
     ["greetings"],
 )
 
+# The pronouns, negatives and numbers the pronoun, geen-or-niet and numbers
+# pages teach, so each of those Units practises its own page.
+PRONOUNS = phrases(
+    """
+ik | I
+jij | you (informal) | | unstressed: je
+u | you (polite)
+hij | he
+zij | she; they | | unstressed: ze
+wij | we | | unstressed: we
+jullie | you (plural)
+""",
+    ["voornaamwoorden"],
+)
+NEGATIVES = phrases(
+    """
+niet | not
+geen | no, not a, not any
+nooit | never
+niets | nothing
+niemand | nobody
+nog niet | not yet
+""",
+    ["ontkenning"],
+)
+NUMBERS = phrases(
+    """
+één | one
+twee | two
+drie | three
+vier | four
+vijf | five
+zes | six
+zeven | seven
+acht | eight
+negen | nine
+tien | ten
+""",
+    ["getallen"],
+)
+
 CONNECTIVES = connectors(
     "connective",
     """
@@ -759,14 +813,15 @@ dat | that | conj-subordinating | Ik denk dat hij morgen komt. | I think that he
     ["voegwoorden"],
 )
 
-ITEMS = PAGES + interleave(PHRASES, NOUNS, VERBS, ADJECTIVES, CONNECTIVES + CONJUNCTIONS)
+ITEMS = PAGES + interleave(
+    PHRASES, PRONOUNS + NEGATIVES + NUMBERS, NOUNS, VERBS, ADJECTIVES, CONNECTIVES + CONJUNCTIONS
+)
 
-# None of the grammar pages (pronunciation, pronouns, word order, negation,
-# questions, plurals, numbers) tag any vocabulary of their own, so each gets
-# a hand-picked slice: greeting phrases for the ones about speaking and
-# asking, "werken/maken/zitten" (its own page examples) plus kin for the
-# present-tense spelling rule, family for possessives, het-words for
-# diminutives. "Kleuren" pulls the colour adjectives out of the general
+# Each grammar page gets the words that practise it: greetings to read
+# aloud, the pronouns, verbs for the present tense and its spelling, verbs
+# and the sequence words eerst and dan for verb second, the negatives, nouns
+# with every kind of plural, diminutives, the numbers and the close family
+# for possessives. "Kleuren" pulls the colour adjectives out of the general
 # bijvoeglijke-naamwoorden pool, same as fr-foundations's colour split.
 UNITS = [
     {
@@ -777,7 +832,7 @@ UNITS = [
     {
         "title": "Voornaamwoorden",
         "page_id": "nl-pronouns",
-        "word_ids": ["hoi", "dag", "doei", "tot-ziens", "hoe-gaat-het", "spreekt-u-engels"],
+        "word_ids": ["ik", "jij", "u", "hij", "zij", "wij", "jullie"],
     },
     {
         "title": "Zijn en hebben",
@@ -792,12 +847,15 @@ UNITS = [
     {
         "title": "Werkwoord op de tweede plaats",
         "page_id": "nl-word-order",
-        "word_ids": ["lopen", "fietsen", "kopen", "betalen", "zoeken", "vinden"],
+        "word_ids": ["lopen", "fietsen", "kopen", "betalen", "zoeken", "vinden", "eerst", "dan"],
     },
     {
         "title": "Geen of niet",
         "page_id": "nl-negation",
-        "word_ids": ["denken", "geven", "nemen", "beginnen", "blijven", "staan"],
+        "word_ids": [
+            "niet", "geen", "nooit", "niets", "niemand", "nog-niet",
+            "geen-idee", "het-maakt-niet-uit", "ik-weet-het-niet",
+        ],
     },
     {
         "title": "Vraagzinnen",
@@ -807,17 +865,17 @@ UNITS = [
     {
         "title": "Meervoud",
         "page_id": "nl-plurals",
-        "word_ids": ["liggen", "heten", "wachten", "koken", "helpen", "vragen", "begrijpen"],
+        "word_ids": ["jongen", "meisje", "baby", "buurman", "naam", "mens", "ei", "stad"],
     },
     {
         "title": "Verkleinwoorden",
         "page_id": "nl-diminutives",
-        "word_ids": ["hoofd", "oog", "oor", "hart", "bed", "appartement"],
+        "word_ids": ["koekje", "broodje", "biertje", "kopje", "ijsje", "stukje"],
     },
     {
         "title": "Getallen en tijd",
         "page_id": "nl-numbers-time",
-        "word_ids": ["uur", "minuut", "maandag", "dinsdag", "woensdag", "ochtend"],
+        "word_ids": ["een", "twee", "drie", "vier", "vijf", "zes", "zeven", "acht", "negen", "tien"],
     },
     {
         "title": "Mijn, jouw, ons en onze",
@@ -840,7 +898,7 @@ LABELS = {
 
 PACK = pack(
     "nl-foundations-v1",
-    4,
+    5,
     "nl",
     "Nederlands · Basis (A1)",
     ITEMS,

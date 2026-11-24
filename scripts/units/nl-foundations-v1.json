@@ -3,9 +3,9 @@
   "title": "Groeten en bedanken",
   "subtitle": "Hello, please, thank you and sorry"
  },
- "hoi": {
-  "title": "Hoi en doei",
-  "subtitle": "Hi, bye, how are you, do you speak English"
+ "ik": {
+  "title": "Ik, jij en u",
+  "subtitle": "I, you, he, she, we and you all"
  },
  "zijn": {
   "title": "Basiswerkwoorden",
@@ -19,25 +19,25 @@
   "title": "Lopen en kopen",
   "subtitle": "To walk, cycle, buy, pay, seek and find"
  },
- "denken": {
-  "title": "Geven en nemen",
-  "subtitle": "To think, give, take, begin, stay, stand"
+ "niet": {
+  "title": "Geen of niet",
+  "subtitle": "Not, no, never, nothing, nobody, not yet"
  },
  "hoeveel-kost-het": {
   "title": "Vragen stellen",
   "subtitle": "How much, what time, I don't understand"
  },
- "liggen": {
-  "title": "Wachten en helpen",
-  "subtitle": "To wait, help, ask, cook and understand"
+ "jongen": {
+  "title": "Jongens en meisjes",
+  "subtitle": "Boy, girl, baby, neighbour, name, egg and town"
  },
- "hoofd": {
-  "title": "Hoofd en hart",
-  "subtitle": "Head, eyes, ears, heart, a bed and a flat"
+ "koekje": {
+  "title": "Koekje, kopje en ijsje",
+  "subtitle": "Biscuit, roll, a beer, cup, ice cream, a bit"
  },
- "uur": {
-  "title": "Uren en dagen",
-  "subtitle": "Hours, minutes, Monday to Wednesday"
+ "een": {
+  "title": "Van één tot tien",
+  "subtitle": "The numbers one to ten"
  },
  "vader": {
   "title": "Het gezin",
@@ -47,57 +47,61 @@
   "title": "Kleuren",
   "subtitle": "Red, blue, green, yellow, black and white"
  },
+ "hoi": {
+  "title": "Hoi en tot ziens",
+  "subtitle": "Hi, bye, good afternoon, good evening, see you"
+ },
+ "dank-u-wel": {
+  "title": "Ja, nee en graag gedaan",
+  "subtitle": "Thank you, please, yes, no, you're welcome"
+ },
+ "prettig-kennis-te-maken": {
+  "title": "Proost en eet smakelijk",
+  "subtitle": "Nice to meet you, the bill, cheers, enjoy your meal"
+ },
  "zoon": {
   "title": "Familie",
   "subtitle": "Sons, daughters, grandparents and cousins"
  },
- "goedemiddag": {
-  "title": "Beleefd groeten",
-  "subtitle": "Good evening, see you and polite thanks"
+ "hoofd": {
+  "title": "Hoofd en handen",
+  "subtitle": "Head, eyes, mouth, nose, ears, hands and arms"
  },
- "graag-gedaan": {
-  "title": "Ja, nee en graag gedaan",
-  "subtitle": "Yes, no, you're welcome, nice to meet you"
- },
- "er-is-er-zijn": {
-  "title": "Proost en eet smakelijk",
-  "subtitle": "Cheers, enjoy your meal, have a nice day"
- },
- "jongen": {
-  "title": "Mensen",
-  "subtitle": "Boys, girls, babies and the neighbour"
- },
- "mond": {
+ "been": {
   "title": "Het lichaam",
-  "subtitle": "Mouth, nose, hands, legs, back and teeth"
+  "subtitle": "Legs, feet, back, heart, belly, hair and teeth"
  },
  "ontbijt": {
   "title": "Maaltijden",
-  "subtitle": "Breakfast, dinner, cheese, fish and eggs"
+  "subtitle": "Breakfast, lunch, dinner, cheese, fish and milk"
  },
  "koffie": {
   "title": "Drinken, groente en fruit",
   "subtitle": "Coffee, tea, beer, potatoes and fruit"
  },
- "zout": {
+ "suiker": {
   "title": "Hagelslag en stroopwafels",
-  "subtitle": "Rice, butter, cake and Dutch sweet treats"
+  "subtitle": "Sugar, salt, rice, butter, cake and Dutch sweets"
  },
  "slaapkamer": {
   "title": "Kamers in huis",
-  "subtitle": "Bedroom, kitchen, garden, key and sofa"
+  "subtitle": "Rooms, a bed, a flat, the garden and keys"
  },
  "week": {
   "title": "Week, maand en jaar",
-  "subtitle": "Weeks, months, years, Thursday to Sunday"
+  "subtitle": "Weeks, months, years, hours and parts of the day"
  },
- "stad": {
+ "maandag": {
+  "title": "De dagen van de week",
+  "subtitle": "Monday to Sunday"
+ },
+ "straat": {
   "title": "In de stad",
-  "subtitle": "Streets, shops, the market and the station"
+  "subtitle": "Street, shop, market, bakery, station, school, church"
  },
- "kerk": {
+ "ziekenhuis": {
   "title": "Gracht, plein en brug",
-  "subtitle": "Church, hospital, canal, square and bridge"
+  "subtitle": "Hospital, restaurant, canal, square, bridge, work"
  },
  "groot": {
   "title": "Groot en klein",
@@ -105,14 +109,18 @@
  },
  "blij": {
   "title": "Duur en goedkoop",
-  "subtitle": "Tasty, warm, cold, easy, expensive, cheap"
+  "subtitle": "Happy, tasty, cold, easy, cheap; to come and may"
  },
- "ook": {
+ "weten": {
   "title": "Weten en kennen",
-  "subtitle": "To know, see, say, listen, read and come"
+  "subtitle": "To know, see, say, listen, read, write and sleep"
  },
- "schrijven": {
+ "nemen": {
+  "title": "Nemen en blijven",
+  "subtitle": "To take, begin, stay, stand, wait, cook and help"
+ },
+ "begrijpen": {
   "title": "En, of, als en dat",
-  "subtitle": "And, or, if, that, a bike and money"
+  "subtitle": "To understand, also, and, or, if, that, bike, money"
  }
 }

@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "nl-foundations-v1",
-  "version": 4,
+  "version": 5,
   "language": "nl",
   "name": "Nederlands · Basis (A1)",
   "author": "Max Boksem",
@@ -106,7 +106,7 @@
       "kind": "misc",
       "id": "nl-pronunciation",
       "title": "Reading Dutch aloud",
-      "body_md": "Dutch spelling is close to phonetic: once you know the sound of each letter group, you can read almost any word. A few sounds have no English equivalent.\n\n## The sounds English doesn't have\n\n| Spelling | Sound | Example |\n| --- | --- | --- |\n| g, ch | a rasp at the back of the throat, like Scottish *loch* | *[goed](lango:say)*, *[acht](lango:say)* |\n| ui | between \"ow\" and \"oy\", lips rounded | *[huis](lango:say)*, *[uit](lango:say)* |\n| eu | like French *peu*, \"e\" with rounded lips | *[leuk](lango:say)*, *[neus](lango:say)* |\n| ij, ei | \"ay\" as in *day*, a bit wider | *[ijs](lango:say)*, *[klein](lango:say)* |\n| u | like French *tu*: \"ee\" with rounded lips | *[u](lango:say)*, *[nu](lango:say)* |\n| oe | \"oo\" as in *food* | *[boek](lango:say)*, *[goed](lango:say)* |\n| ou, au | \"ow\" as in *how* | *[oud](lango:say)*, *[blauw](lango:say)* |\n| sch | s + the g sound | *[school](lango:say)* (\"s-gohl\", never \"skool\") |\n\nIn the south of the Netherlands and in Flanders, the **g** is soft. In the north it's harsh. Both are correct.\n\n## Long and short vowels\n\nA double vowel is long: *[maan](lango:say)* (moon), *[boom](lango:say)* (tree). A single vowel is long when it ends a syllable (*[ma-ken](lango:say/maken)*) and short when a consonant closes it (*[man](lango:say)*, *[bed](lango:say)*). This one rule explains most Dutch spelling. The next pages use it.\n\n## Endings\n\n- **-en** at the end of a word is usually said as a short \"uh\": *[maken](lango:say)* sounds like \"maakuh\".\n- **-d** at the end of a word is said as **t**: *[hond](lango:say)* sounds like \"hont\".\n- **v** and **z** soften towards f and s at the start of a word in many accents.\n\n## W\n\nThe Dutch **w** is softer than English w, somewhere between v and w, made with the lower lip against the top teeth.",
+      "body_md": "Dutch spelling is close to phonetic: once you know the sound of each letter group, you can read almost any word. A few sounds have no English equivalent.\n\n## The sounds English doesn't have\n\n| Spelling | Sound | Example |\n| --- | --- | --- |\n| g, ch | a rasp at the back of the throat, like Scottish *loch* | *[goed](lango:say)*, *[acht](lango:say)* |\n| ui | between \"ow\" and \"oy\", lips rounded | *[huis](lango:say)*, *[uit](lango:say)* |\n| eu | like French *peu*, \"e\" with rounded lips | *[leuk](lango:say)*, *[neus](lango:say)* |\n| ij, ei | \"ay\" as in *day*, a bit wider | *[ijs](lango:say)*, *[klein](lango:say)* |\n| u | like French *tu*: \"ee\" with rounded lips | *[u](lango:say)*, *[nu](lango:say)* |\n| oe | \"oo\" as in *food* | *[boek](lango:say)*, *[goed](lango:say)* |\n| ou, au | \"ow\" as in *how* | *[oud](lango:say)*, *[blauw](lango:say)* |\n| sch | s + the g sound | *[school](lango:say)* (\"s-gohl\", never \"skool\") |\n\nIn the south of the Netherlands and in Flanders, the **g** is soft. In the north it's harsh. Both are correct.\n\n## Long and short vowels\n\nA double vowel is long: *[maan](lango:say)* (moon), *[boom](lango:say)* (tree). A single vowel is long when it ends a syllable (*[ma-ken](lango:say/maken)*) and short when a consonant closes it (*[man](lango:say)*, *[bed](lango:say)*). This one rule explains most Dutch spelling. The next pages use it.\n\n## Endings\n\n- **-en** at the end of a word is usually said as a short \"uh\": *[maken](lango:say)* sounds like \"maakuh\".\n- **-d** at the end of a word is said as **t**: *[hond](lango:say)* sounds like \"hont\".\n- **v** and **z** soften towards f and s at the start of a word in many accents.\n\n## W\n\nThe Dutch **w** is softer than English w, somewhere between v and w, made with the lower lip against the top teeth.\n\n## This unit's words\n\n- *[goedemorgen](lango:say)*: the g twice and the oe, with the -en said as \"uh\": \"ghoo-duh-mor-ghuh\".\n- *[dank je wel](lango:say)*: the soft w.\n- *[alsjeblieft](lango:say)*: sj is \"sh\" and ie is \"ee\".\n- *[hallo](lango:say)*, *[sorry](lango:say)* and *[pardon](lango:say)*: short vowels, each closed by a consonant. *Pardon* puts the stress on the end: par-DON.",
       "extras": {
         "unlocks": [
           "concept:nl-pronunciation"
@@ -222,7 +222,7 @@
       "kind": "misc",
       "id": "nl-plurals",
       "title": "Plurals: -en or -s",
-      "body_md": "Every plural noun takes **de**, whatever its singular article. *Het huis*, *de huizen*.\n\n## Which ending?\n\n- Most nouns take **-en**: *boek → boeken*, *stoel → stoelen*.\n- Nouns ending in unstressed **-el, -em, -en, -er, -je** take **-s**: *tafel → tafels*, *vader → vaders*, *meisje → meisjes*.\n- Nouns ending in a vowel usually take **'s** or **s**: *auto → auto's*, *foto → foto's*, *zee → zeeën*.\n\nThis is a strong tendency, not a law. Learn the plural with the word; every noun in these packs carries it.\n\n## Spelling changes\n\nThe long-and-short vowel rule applies again:\n\n- A long vowel spelled double in a closed syllable becomes single when the syllable opens: *boom → bomen*, *maan → manen*.\n- A short vowel needs its consonant doubled: *bed → bedden*, *kat → katten*.\n- **f** and **s** often become **v** and **z**: *brief → brieven*, *huis → huizen*.\n\n## Irregular plurals\n\n| Singular | Plural |\n| --- | --- |\n| kind | kinderen |\n| ei | eieren |\n| stad | steden |\n| schip | schepen |\n| dag | dagen (short a becomes long) |\n\n:::examples\n- Ik heb twee katten en drie honden. — I have two cats and three dogs.\n- De kinderen spelen buiten. — The children are playing outside.\n- Waar zijn mijn foto's? — Where are my photos?\n:::",
+      "body_md": "Every plural noun takes **de**, whatever its singular article. *Het huis*, *de huizen*.\n\n## Which ending?\n\n- Most nouns take **-en**: *boek → boeken*, *mens → mensen*.\n- Nouns ending in unstressed **-el, -em, -en, -er, -je** take **-s**: *jongen → jongens*, *vader → vaders*, *meisje → meisjes*.\n- Nouns ending in a vowel usually take **'s** or **s**: *baby → baby's*, *foto → foto's*, *zee → zeeën*.\n\nThis is a strong tendency, not a law. Learn the plural with the word; every noun in these packs carries it.\n\n## Spelling changes\n\nThe long-and-short vowel rule applies again:\n\n- A long vowel spelled double in a closed syllable becomes single when the syllable opens: *naam → namen*, *boom → bomen*.\n- A short vowel needs its consonant doubled: *bed → bedden*, *kat → katten*.\n- **f** and **s** often become **v** and **z**: *brief → brieven*, *huis → huizen*.\n\n## Irregular plurals\n\n| Singular | Plural |\n| --- | --- |\n| kind | kinderen |\n| ei | eieren |\n| stad | steden |\n| buurman | buren |\n| schip | schepen |\n| dag | dagen (short a becomes long) |\n\n:::examples\n- Ik heb twee katten en drie honden. — I have two cats and three dogs.\n- De kinderen spelen buiten. — The children are playing outside.\n- Waar zijn mijn foto's? — Where are my photos?\n:::",
       "extras": {
         "unlocks": [
           "concept:nl-plurals"
@@ -395,6 +395,19 @@
       "tags": [
         "bijvoeglijke-naamwoorden"
       ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ik",
+      "primary_form": "ik",
+      "gloss": "I",
+      "tags": [
+        "voornaamwoorden"
+      ],
+      "extras": {
+        "example": "Ik ben Sanne en ik woon in Utrecht.",
+        "example_en": "I'm Sanne and I live in Utrecht."
+      }
     },
     {
       "kind": "noun",
@@ -591,6 +604,22 @@
       }
     },
     {
+      "kind": "noun",
+      "id": "man",
+      "primary_form": "man",
+      "gloss": "man; husband",
+      "extras": {
+        "article": "de",
+        "plural": "mannen",
+        "example": "Ik ga met mijn man op vakantie.",
+        "example_en": "I'm going on holiday with my husband."
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
       "kind": "phrase",
       "id": "goedemorgen",
       "primary_form": "goedemorgen",
@@ -604,15 +633,29 @@
       }
     },
     {
+      "kind": "phrase",
+      "id": "jij",
+      "primary_form": "jij",
+      "gloss": "you (informal)",
+      "extras": {
+        "note": "unstressed: je",
+        "example": "Ben jij de nieuwe buurman?",
+        "example_en": "Are you the new neighbour?"
+      },
+      "tags": [
+        "voornaamwoorden"
+      ]
+    },
+    {
       "kind": "noun",
-      "id": "man",
-      "primary_form": "man",
-      "gloss": "man; husband",
+      "id": "vrouw",
+      "primary_form": "vrouw",
+      "gloss": "woman; wife",
       "extras": {
         "article": "de",
-        "plural": "mannen",
-        "example": "Ik ga met mijn man op vakantie.",
-        "example_en": "I'm going on holiday with my husband."
+        "plural": "vrouwen",
+        "example": "Die vrouw is mijn lerares.",
+        "example_en": "That woman is my teacher."
       },
       "tags": [
         "family",
@@ -631,22 +674,6 @@
       },
       "tags": [
         "verbindingswoorden"
-      ]
-    },
-    {
-      "kind": "noun",
-      "id": "vrouw",
-      "primary_form": "vrouw",
-      "gloss": "woman; wife",
-      "extras": {
-        "article": "de",
-        "plural": "vrouwen",
-        "example": "Die vrouw is mijn lerares.",
-        "example_en": "That woman is my teacher."
-      },
-      "tags": [
-        "family",
-        "de"
       ]
     },
     {
@@ -778,6 +805,22 @@
       ]
     },
     {
+      "kind": "noun",
+      "id": "oom",
+      "primary_form": "oom",
+      "gloss": "uncle",
+      "extras": {
+        "article": "de",
+        "plural": "ooms",
+        "example": "Mijn oom heeft een boerderij.",
+        "example_en": "My uncle has a farm."
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
       "kind": "verb",
       "id": "willen",
       "primary_form": "willen",
@@ -829,6 +872,19 @@
     },
     {
       "kind": "phrase",
+      "id": "u",
+      "primary_form": "u",
+      "gloss": "you (polite)",
+      "tags": [
+        "voornaamwoorden"
+      ],
+      "extras": {
+        "example": "Kan ik u helpen?",
+        "example_en": "Can I help you?"
+      }
+    },
+    {
+      "kind": "phrase",
       "id": "goedenavond",
       "primary_form": "goedenavond",
       "gloss": "good evening",
@@ -839,22 +895,6 @@
         "example": "Goedenavond, een tafel voor twee, graag.",
         "example_en": "Good evening, a table for two, please."
       }
-    },
-    {
-      "kind": "noun",
-      "id": "oom",
-      "primary_form": "oom",
-      "gloss": "uncle",
-      "extras": {
-        "article": "de",
-        "plural": "ooms",
-        "example": "Mijn oom heeft een boerderij.",
-        "example_en": "My uncle has a farm."
-      },
-      "tags": [
-        "family",
-        "de"
-      ]
     },
     {
       "kind": "noun",
@@ -953,6 +993,22 @@
       ]
     },
     {
+      "kind": "noun",
+      "id": "nicht",
+      "primary_form": "nicht",
+      "gloss": "niece; female cousin",
+      "extras": {
+        "article": "de",
+        "plural": "nichten",
+        "example": "Mijn nicht gaat volgend jaar trouwen.",
+        "example_en": "My niece is getting married next year."
+      },
+      "tags": [
+        "family",
+        "de"
+      ]
+    },
+    {
       "kind": "adjective",
       "id": "slecht",
       "primary_form": "slecht",
@@ -971,22 +1027,6 @@
     },
     {
       "kind": "noun",
-      "id": "nicht",
-      "primary_form": "nicht",
-      "gloss": "niece; female cousin",
-      "extras": {
-        "article": "de",
-        "plural": "nichten",
-        "example": "Mijn nicht gaat volgend jaar trouwen.",
-        "example_en": "My niece is getting married next year."
-      },
-      "tags": [
-        "family",
-        "de"
-      ]
-    },
-    {
-      "kind": "noun",
       "id": "jongen",
       "primary_form": "jongen",
       "gloss": "boy",
@@ -999,6 +1039,35 @@
       "tags": [
         "people",
         "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "hij",
+      "primary_form": "hij",
+      "gloss": "he",
+      "tags": [
+        "voornaamwoorden"
+      ],
+      "extras": {
+        "example": "Hij werkt bij een bank.",
+        "example_en": "He works at a bank."
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "meisje",
+      "primary_form": "meisje",
+      "gloss": "girl",
+      "extras": {
+        "article": "het",
+        "plural": "meisjes",
+        "example": "Hebben ze een jongen of een meisje?",
+        "example_en": "Do they have a boy or a girl?"
+      },
+      "tags": [
+        "people",
+        "het"
       ]
     },
     {
@@ -1067,22 +1136,6 @@
     },
     {
       "kind": "noun",
-      "id": "meisje",
-      "primary_form": "meisje",
-      "gloss": "girl",
-      "extras": {
-        "article": "het",
-        "plural": "meisjes",
-        "example": "Hebben ze een jongen of een meisje?",
-        "example_en": "Do they have a boy or a girl?"
-      },
-      "tags": [
-        "people",
-        "het"
-      ]
-    },
-    {
-      "kind": "noun",
       "id": "baby",
       "primary_form": "baby",
       "gloss": "baby",
@@ -1091,6 +1144,22 @@
         "plural": "baby's",
         "example": "De baby heeft honger.",
         "example_en": "The baby is hungry."
+      },
+      "tags": [
+        "people",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "buurman",
+      "primary_form": "buurman",
+      "gloss": "neighbour",
+      "extras": {
+        "article": "de",
+        "plural": "buren",
+        "example": "De buurman helpt ons met de tuin.",
+        "example_en": "The neighbour is helping us with the garden."
       },
       "tags": [
         "people",
@@ -1112,22 +1181,6 @@
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
-      ]
-    },
-    {
-      "kind": "noun",
-      "id": "buurman",
-      "primary_form": "buurman",
-      "gloss": "neighbour",
-      "extras": {
-        "article": "de",
-        "plural": "buren",
-        "example": "De buurman helpt ons met de tuin.",
-        "example_en": "The neighbour is helping us with the garden."
-      },
-      "tags": [
-        "people",
-        "de"
       ]
     },
     {
@@ -1181,19 +1234,6 @@
       }
     },
     {
-      "kind": "phrase",
-      "id": "doei",
-      "primary_form": "doei",
-      "gloss": "bye (informal)",
-      "tags": [
-        "greetings"
-      ],
-      "extras": {
-        "example": "Doei, ik moet nu weg!",
-        "example_en": "Bye, I have to go now!"
-      }
-    },
-    {
       "kind": "noun",
       "id": "naam",
       "primary_form": "naam",
@@ -1210,6 +1250,19 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "doei",
+      "primary_form": "doei",
+      "gloss": "bye (informal)",
+      "tags": [
+        "greetings"
+      ],
+      "extras": {
+        "example": "Doei, ik moet nu weg!",
+        "example_en": "Bye, I have to go now!"
+      }
+    },
+    {
       "kind": "noun",
       "id": "mens",
       "primary_form": "mens",
@@ -1223,6 +1276,36 @@
       "tags": [
         "people",
         "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "zij",
+      "primary_form": "zij",
+      "gloss": "she; they",
+      "extras": {
+        "note": "unstressed: ze",
+        "example": "Zij is mijn zus.",
+        "example_en": "She's my sister."
+      },
+      "tags": [
+        "voornaamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "hoofd",
+      "primary_form": "hoofd",
+      "gloss": "head",
+      "extras": {
+        "article": "het",
+        "plural": "hoofden",
+        "example": "Hij schudt zijn hoofd.",
+        "example_en": "He shakes his head."
+      },
+      "tags": [
+        "body",
+        "het"
       ]
     },
     {
@@ -1276,22 +1359,6 @@
       }
     },
     {
-      "kind": "noun",
-      "id": "hoofd",
-      "primary_form": "hoofd",
-      "gloss": "head",
-      "extras": {
-        "article": "het",
-        "plural": "hoofden",
-        "example": "Hij schudt zijn hoofd.",
-        "example_en": "He shakes his head."
-      },
-      "tags": [
-        "body",
-        "het"
-      ]
-    },
-    {
       "kind": "phrase",
       "id": "tot-ziens",
       "primary_form": "tot ziens",
@@ -1303,6 +1370,22 @@
       },
       "tags": [
         "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "oog",
+      "primary_form": "oog",
+      "gloss": "eye",
+      "extras": {
+        "article": "het",
+        "plural": "ogen",
+        "example": "Ze heeft groene ogen.",
+        "example_en": "She has green eyes."
+      },
+      "tags": [
+        "body",
+        "het"
       ]
     },
     {
@@ -1334,22 +1417,6 @@
       },
       "tags": [
         "verbindingswoorden"
-      ]
-    },
-    {
-      "kind": "noun",
-      "id": "oog",
-      "primary_form": "oog",
-      "gloss": "eye",
-      "extras": {
-        "article": "het",
-        "plural": "ogen",
-        "example": "Ze heeft groene ogen.",
-        "example_en": "She has green eyes."
-      },
-      "tags": [
-        "body",
-        "het"
       ]
     },
     {
@@ -1419,20 +1486,6 @@
       }
     },
     {
-      "kind": "phrase",
-      "id": "tot-straks",
-      "primary_form": "tot straks",
-      "gloss": "see you later (today)",
-      "extras": {
-        "literal": "until soon",
-        "example": "Ik ga even boodschappen doen, tot straks!",
-        "example_en": "I'm just going shopping, see you later!"
-      },
-      "tags": [
-        "greetings"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "neus",
       "primary_form": "neus",
@@ -1449,6 +1502,20 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "tot-straks",
+      "primary_form": "tot straks",
+      "gloss": "see you later (today)",
+      "extras": {
+        "literal": "until soon",
+        "example": "Ik ga even boodschappen doen, tot straks!",
+        "example_en": "I'm just going shopping, see you later!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "oor",
       "primary_form": "oor",
@@ -1462,6 +1529,36 @@
       "tags": [
         "body",
         "het"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "wij",
+      "primary_form": "wij",
+      "gloss": "we",
+      "extras": {
+        "note": "unstressed: we",
+        "example": "Wij wonen in Gent.",
+        "example_en": "We live in Ghent."
+      },
+      "tags": [
+        "voornaamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "hand",
+      "primary_form": "hand",
+      "gloss": "hand",
+      "extras": {
+        "article": "de",
+        "plural": "handen",
+        "example": "Was je handen voor het eten.",
+        "example_en": "Wash your hands before dinner."
+      },
+      "tags": [
+        "body",
+        "de"
       ]
     },
     {
@@ -1533,14 +1630,14 @@
     },
     {
       "kind": "noun",
-      "id": "hand",
-      "primary_form": "hand",
-      "gloss": "hand",
+      "id": "arm",
+      "primary_form": "arm",
+      "gloss": "arm",
       "extras": {
         "article": "de",
-        "plural": "handen",
-        "example": "Was je handen voor het eten.",
-        "example_en": "Wash your hands before dinner."
+        "plural": "armen",
+        "example": "Hij heeft zijn arm gebroken.",
+        "example_en": "He has broken his arm."
       },
       "tags": [
         "body",
@@ -1562,14 +1659,30 @@
     },
     {
       "kind": "noun",
-      "id": "arm",
-      "primary_form": "arm",
-      "gloss": "arm",
+      "id": "been",
+      "primary_form": "been",
+      "gloss": "leg",
+      "extras": {
+        "article": "het",
+        "plural": "benen",
+        "example": "Mijn benen zijn moe van het fietsen.",
+        "example_en": "My legs are tired from cycling."
+      },
+      "tags": [
+        "body",
+        "het"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "voet",
+      "primary_form": "voet",
+      "gloss": "foot",
       "extras": {
         "article": "de",
-        "plural": "armen",
-        "example": "Hij heeft zijn arm gebroken.",
-        "example_en": "He has broken his arm."
+        "plural": "voeten",
+        "example": "Ik heb koude voeten.",
+        "example_en": "I have cold feet."
       },
       "tags": [
         "body",
@@ -1627,22 +1740,6 @@
       }
     },
     {
-      "kind": "noun",
-      "id": "been",
-      "primary_form": "been",
-      "gloss": "leg",
-      "extras": {
-        "article": "het",
-        "plural": "benen",
-        "example": "Mijn benen zijn moe van het fietsen.",
-        "example_en": "My legs are tired from cycling."
-      },
-      "tags": [
-        "body",
-        "het"
-      ]
-    },
-    {
       "kind": "phrase",
       "id": "dank-je-wel",
       "primary_form": "dank je wel",
@@ -1657,19 +1754,32 @@
     },
     {
       "kind": "noun",
-      "id": "voet",
-      "primary_form": "voet",
-      "gloss": "foot",
+      "id": "rug",
+      "primary_form": "rug",
+      "gloss": "back",
       "extras": {
         "article": "de",
-        "plural": "voeten",
-        "example": "Ik heb koude voeten.",
-        "example_en": "I have cold feet."
+        "plural": "ruggen",
+        "example": "Mijn rug doet pijn.",
+        "example_en": "My back hurts."
       },
       "tags": [
         "body",
         "de"
       ]
+    },
+    {
+      "kind": "phrase",
+      "id": "jullie",
+      "primary_form": "jullie",
+      "gloss": "you (plural)",
+      "tags": [
+        "voornaamwoorden"
+      ],
+      "extras": {
+        "example": "Komen jullie ook?",
+        "example_en": "Are you coming too?"
+      }
     },
     {
       "kind": "adjective",
@@ -1690,18 +1800,18 @@
     },
     {
       "kind": "noun",
-      "id": "rug",
-      "primary_form": "rug",
-      "gloss": "back",
+      "id": "hart",
+      "primary_form": "hart",
+      "gloss": "heart",
       "extras": {
-        "article": "de",
-        "plural": "ruggen",
-        "example": "Mijn rug doet pijn.",
-        "example_en": "My back hurts."
+        "article": "het",
+        "plural": "harten",
+        "example": "Mijn hart klopt snel.",
+        "example_en": "My heart is beating fast."
       },
       "tags": [
         "body",
-        "de"
+        "het"
       ]
     },
     {
@@ -1756,18 +1866,18 @@
     },
     {
       "kind": "noun",
-      "id": "hart",
-      "primary_form": "hart",
-      "gloss": "heart",
+      "id": "buik",
+      "primary_form": "buik",
+      "gloss": "belly, stomach",
       "extras": {
-        "article": "het",
-        "plural": "harten",
-        "example": "Mijn hart klopt snel.",
-        "example_en": "My heart is beating fast."
+        "article": "de",
+        "plural": "buiken",
+        "example": "Ik heb pijn in mijn buik.",
+        "example_en": "I have a pain in my stomach."
       },
       "tags": [
         "body",
-        "het"
+        "de"
       ]
     },
     {
@@ -1785,14 +1895,30 @@
     },
     {
       "kind": "noun",
-      "id": "buik",
-      "primary_form": "buik",
-      "gloss": "belly, stomach",
+      "id": "haar",
+      "primary_form": "haar",
+      "gloss": "hair",
+      "extras": {
+        "article": "het",
+        "plural": "haren",
+        "example": "Ze heeft lang blond haar.",
+        "example_en": "She has long blond hair."
+      },
+      "tags": [
+        "body",
+        "het"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "tand",
+      "primary_form": "tand",
+      "gloss": "tooth",
       "extras": {
         "article": "de",
-        "plural": "buiken",
-        "example": "Ik heb pijn in mijn buik.",
-        "example_en": "I have a pain in my stomach."
+        "plural": "tanden",
+        "example": "Ik poets twee keer per dag mijn tanden.",
+        "example_en": "I brush my teeth twice a day."
       },
       "tags": [
         "body",
@@ -1851,20 +1977,17 @@
       }
     },
     {
-      "kind": "noun",
-      "id": "haar",
-      "primary_form": "haar",
-      "gloss": "hair",
-      "extras": {
-        "article": "het",
-        "plural": "haren",
-        "example": "Ze heeft lang blond haar.",
-        "example_en": "She has long blond hair."
-      },
+      "kind": "phrase",
+      "id": "niet",
+      "primary_form": "niet",
+      "gloss": "not",
       "tags": [
-        "body",
-        "het"
-      ]
+        "ontkenning"
+      ],
+      "extras": {
+        "example": "Ik werk vandaag niet.",
+        "example_en": "I'm not working today."
+      }
     },
     {
       "kind": "adjective",
@@ -1884,6 +2007,22 @@
       ]
     },
     {
+      "kind": "noun",
+      "id": "ontbijt",
+      "primary_form": "ontbijt",
+      "gloss": "breakfast",
+      "extras": {
+        "article": "het",
+        "plural": "ontbijten",
+        "example": "Het ontbijt staat klaar.",
+        "example_en": "Breakfast is ready."
+      },
+      "tags": [
+        "food",
+        "het"
+      ]
+    },
+    {
       "kind": "phrase",
       "id": "bedankt",
       "primary_form": "bedankt",
@@ -1898,34 +2037,18 @@
     },
     {
       "kind": "noun",
-      "id": "tand",
-      "primary_form": "tand",
-      "gloss": "tooth",
+      "id": "lunch",
+      "primary_form": "lunch",
+      "gloss": "lunch",
       "extras": {
         "article": "de",
-        "plural": "tanden",
-        "example": "Ik poets twee keer per dag mijn tanden.",
-        "example_en": "I brush my teeth twice a day."
-      },
-      "tags": [
-        "body",
-        "de"
-      ]
-    },
-    {
-      "kind": "noun",
-      "id": "ontbijt",
-      "primary_form": "ontbijt",
-      "gloss": "breakfast",
-      "extras": {
-        "article": "het",
-        "plural": "ontbijten",
-        "example": "Het ontbijt staat klaar.",
-        "example_en": "Breakfast is ready."
+        "plural": "lunches",
+        "example": "Na de lunch gaan we wandelen.",
+        "example_en": "After lunch we're going for a walk."
       },
       "tags": [
         "food",
-        "het"
+        "de"
       ]
     },
     {
@@ -1980,18 +2103,17 @@
     },
     {
       "kind": "noun",
-      "id": "lunch",
-      "primary_form": "lunch",
-      "gloss": "lunch",
+      "id": "avondeten",
+      "primary_form": "avondeten",
+      "gloss": "dinner",
       "extras": {
-        "article": "de",
-        "plural": "lunches",
-        "example": "Na de lunch gaan we wandelen.",
-        "example_en": "After lunch we're going for a walk."
+        "article": "het",
+        "example": "Het avondeten is om zes uur.",
+        "example_en": "Dinner is at six."
       },
       "tags": [
         "food",
-        "de"
+        "het"
       ]
     },
     {
@@ -2009,6 +2131,22 @@
       ]
     },
     {
+      "kind": "noun",
+      "id": "kaas",
+      "primary_form": "kaas",
+      "gloss": "cheese",
+      "extras": {
+        "article": "de",
+        "plural": "kazen",
+        "example": "Wil je kaas op je brood?",
+        "example_en": "Do you want cheese on your bread?"
+      },
+      "tags": [
+        "food",
+        "de"
+      ]
+    },
+    {
       "kind": "connective",
       "id": "ook",
       "primary_form": "ook",
@@ -2020,21 +2158,6 @@
       },
       "tags": [
         "verbindingswoorden"
-      ]
-    },
-    {
-      "kind": "noun",
-      "id": "avondeten",
-      "primary_form": "avondeten",
-      "gloss": "dinner",
-      "extras": {
-        "article": "het",
-        "example": "Het avondeten is om zes uur.",
-        "example_en": "Dinner is at six."
-      },
-      "tags": [
-        "food",
-        "het"
       ]
     },
     {
@@ -2052,6 +2175,21 @@
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vlees",
+      "primary_form": "vlees",
+      "gloss": "meat",
+      "extras": {
+        "article": "het",
+        "example": "Ik eet geen vlees.",
+        "example_en": "I don't eat meat."
+      },
+      "tags": [
+        "food",
+        "het"
       ]
     },
     {
@@ -2105,15 +2243,28 @@
       }
     },
     {
+      "kind": "phrase",
+      "id": "geen",
+      "primary_form": "geen",
+      "gloss": "no, not a, not any",
+      "tags": [
+        "ontkenning"
+      ],
+      "extras": {
+        "example": "Ik heb geen tijd.",
+        "example_en": "I don't have time."
+      }
+    },
+    {
       "kind": "noun",
-      "id": "kaas",
-      "primary_form": "kaas",
-      "gloss": "cheese",
+      "id": "vis",
+      "primary_form": "vis",
+      "gloss": "fish",
       "extras": {
         "article": "de",
-        "plural": "kazen",
-        "example": "Wil je kaas op je brood?",
-        "example_en": "Do you want cheese on your bread?"
+        "plural": "vissen",
+        "example": "Hij houdt niet van vis.",
+        "example_en": "He doesn't like fish."
       },
       "tags": [
         "food",
@@ -2136,29 +2287,14 @@
     },
     {
       "kind": "noun",
-      "id": "vlees",
-      "primary_form": "vlees",
-      "gloss": "meat",
-      "extras": {
-        "article": "het",
-        "example": "Ik eet geen vlees.",
-        "example_en": "I don't eat meat."
-      },
-      "tags": [
-        "food",
-        "het"
-      ]
-    },
-    {
-      "kind": "noun",
-      "id": "vis",
-      "primary_form": "vis",
-      "gloss": "fish",
+      "id": "kip",
+      "primary_form": "kip",
+      "gloss": "chicken",
       "extras": {
         "article": "de",
-        "plural": "vissen",
-        "example": "Hij houdt niet van vis.",
-        "example_en": "He doesn't like fish."
+        "plural": "kippen",
+        "example": "Ik maak kip met rijst.",
+        "example_en": "I'm making chicken with rice."
       },
       "tags": [
         "food",
@@ -2217,18 +2353,18 @@
     },
     {
       "kind": "noun",
-      "id": "kip",
-      "primary_form": "kip",
-      "gloss": "chicken",
+      "id": "ei",
+      "primary_form": "ei",
+      "gloss": "egg",
       "extras": {
-        "article": "de",
-        "plural": "kippen",
-        "example": "Ik maak kip met rijst.",
-        "example_en": "I'm making chicken with rice."
+        "article": "het",
+        "plural": "eieren",
+        "example": "Ik bak een ei.",
+        "example_en": "I'm frying an egg."
       },
       "tags": [
         "food",
-        "de"
+        "het"
       ]
     },
     {
@@ -2243,6 +2379,21 @@
       },
       "tags": [
         "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "melk",
+      "primary_form": "melk",
+      "gloss": "milk",
+      "extras": {
+        "article": "de",
+        "example": "Er is geen melk meer.",
+        "example_en": "There's no milk left."
+      },
+      "tags": [
+        "food",
+        "de"
       ]
     },
     {
@@ -2264,19 +2415,31 @@
     },
     {
       "kind": "noun",
-      "id": "ei",
-      "primary_form": "ei",
-      "gloss": "egg",
+      "id": "koffie",
+      "primary_form": "koffie",
+      "gloss": "coffee",
       "extras": {
-        "article": "het",
-        "plural": "eieren",
-        "example": "Ik bak een ei.",
-        "example_en": "I'm frying an egg."
+        "article": "de",
+        "example": "Deze koffie is te sterk.",
+        "example_en": "This coffee is too strong."
       },
       "tags": [
         "food",
-        "het"
+        "de"
       ]
+    },
+    {
+      "kind": "phrase",
+      "id": "nooit",
+      "primary_form": "nooit",
+      "gloss": "never",
+      "tags": [
+        "ontkenning"
+      ],
+      "extras": {
+        "example": "Ik drink nooit koffie.",
+        "example_en": "I never drink coffee."
+      }
     },
     {
       "kind": "verb",
@@ -2330,13 +2493,13 @@
     },
     {
       "kind": "noun",
-      "id": "melk",
-      "primary_form": "melk",
-      "gloss": "milk",
+      "id": "thee",
+      "primary_form": "thee",
+      "gloss": "tea",
       "extras": {
         "article": "de",
-        "example": "Er is geen melk meer.",
-        "example_en": "There's no milk left."
+        "example": "Zal ik thee zetten?",
+        "example_en": "Shall I make some tea?"
       },
       "tags": [
         "food",
@@ -2358,13 +2521,14 @@
     },
     {
       "kind": "noun",
-      "id": "koffie",
-      "primary_form": "koffie",
-      "gloss": "coffee",
+      "id": "wijn",
+      "primary_form": "wijn",
+      "gloss": "wine",
       "extras": {
         "article": "de",
-        "example": "Deze koffie is te sterk.",
-        "example_en": "This coffee is too strong."
+        "plural": "wijnen",
+        "example": "We drinken een glas wijn bij het eten.",
+        "example_en": "We drink a glass of wine with dinner."
       },
       "tags": [
         "food",
@@ -2373,17 +2537,18 @@
     },
     {
       "kind": "noun",
-      "id": "thee",
-      "primary_form": "thee",
-      "gloss": "tea",
+      "id": "bier",
+      "primary_form": "bier",
+      "gloss": "beer",
       "extras": {
-        "article": "de",
-        "example": "Zal ik thee zetten?",
-        "example_en": "Shall I make some tea?"
+        "article": "het",
+        "plural": "bieren",
+        "example": "Hij drinkt geen bier.",
+        "example_en": "He doesn't drink beer."
       },
       "tags": [
         "food",
-        "de"
+        "het"
       ]
     },
     {
@@ -2455,14 +2620,14 @@
     },
     {
       "kind": "noun",
-      "id": "wijn",
-      "primary_form": "wijn",
-      "gloss": "wine",
+      "id": "appel",
+      "primary_form": "appel",
+      "gloss": "apple",
       "extras": {
         "article": "de",
-        "plural": "wijnen",
-        "example": "We drinken een glas wijn bij het eten.",
-        "example_en": "We drink a glass of wine with dinner."
+        "plural": "appels",
+        "example": "Deze appels zijn lekker zoet.",
+        "example_en": "These apples are nice and sweet."
       },
       "tags": [
         "food",
@@ -2483,19 +2648,32 @@
       }
     },
     {
-      "kind": "noun",
-      "id": "bier",
-      "primary_form": "bier",
-      "gloss": "beer",
+      "kind": "phrase",
+      "id": "niets",
+      "primary_form": "niets",
+      "gloss": "nothing",
+      "tags": [
+        "ontkenning"
+      ],
       "extras": {
-        "article": "het",
-        "plural": "bieren",
-        "example": "Hij drinkt geen bier.",
-        "example_en": "He doesn't drink beer."
+        "example": "Ik zie niets.",
+        "example_en": "I can't see anything."
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "aardappel",
+      "primary_form": "aardappel",
+      "gloss": "potato",
+      "extras": {
+        "article": "de",
+        "plural": "aardappelen",
+        "example": "We eten vaak aardappelen met groente.",
+        "example_en": "We often eat potatoes with vegetables."
       },
       "tags": [
         "food",
-        "het"
+        "de"
       ]
     },
     {
@@ -2550,14 +2728,14 @@
     },
     {
       "kind": "noun",
-      "id": "appel",
-      "primary_form": "appel",
-      "gloss": "apple",
+      "id": "groente",
+      "primary_form": "groente",
+      "gloss": "vegetable",
       "extras": {
         "article": "de",
-        "plural": "appels",
-        "example": "Deze appels zijn lekker zoet.",
-        "example_en": "These apples are nice and sweet."
+        "plural": "groenten",
+        "example": "Kinderen moeten veel groente eten.",
+        "example_en": "Children should eat lots of vegetables."
       },
       "tags": [
         "food",
@@ -2579,18 +2757,17 @@
     },
     {
       "kind": "noun",
-      "id": "aardappel",
-      "primary_form": "aardappel",
-      "gloss": "potato",
+      "id": "fruit",
+      "primary_form": "fruit",
+      "gloss": "fruit",
       "extras": {
-        "article": "de",
-        "plural": "aardappelen",
-        "example": "We eten vaak aardappelen met groente.",
-        "example_en": "We often eat potatoes with vegetables."
+        "article": "het",
+        "example": "Ik neem fruit mee naar mijn werk.",
+        "example_en": "I take fruit to work."
       },
       "tags": [
         "food",
-        "de"
+        "het"
       ]
     },
     {
@@ -2612,14 +2789,13 @@
     },
     {
       "kind": "noun",
-      "id": "groente",
-      "primary_form": "groente",
-      "gloss": "vegetable",
+      "id": "suiker",
+      "primary_form": "suiker",
+      "gloss": "sugar",
       "extras": {
         "article": "de",
-        "plural": "groenten",
-        "example": "Kinderen moeten veel groente eten.",
-        "example_en": "Children should eat lots of vegetables."
+        "example": "Ik neem geen suiker, dank je.",
+        "example_en": "No sugar for me, thanks."
       },
       "tags": [
         "food",
@@ -2678,13 +2854,13 @@
     },
     {
       "kind": "noun",
-      "id": "fruit",
-      "primary_form": "fruit",
-      "gloss": "fruit",
+      "id": "zout",
+      "primary_form": "zout",
+      "gloss": "salt",
       "extras": {
         "article": "het",
-        "example": "Ik neem fruit mee naar mijn werk.",
-        "example_en": "I take fruit to work."
+        "example": "Er zit te veel zout in de soep.",
+        "example_en": "There's too much salt in the soup."
       },
       "tags": [
         "food",
@@ -2705,6 +2881,19 @@
       }
     },
     {
+      "kind": "phrase",
+      "id": "niemand",
+      "primary_form": "niemand",
+      "gloss": "nobody",
+      "tags": [
+        "ontkenning"
+      ],
+      "extras": {
+        "example": "Er is niemand thuis.",
+        "example_en": "Nobody's home."
+      }
+    },
+    {
       "kind": "conjunction",
       "id": "en",
       "primary_form": "en",
@@ -2720,13 +2909,13 @@
     },
     {
       "kind": "noun",
-      "id": "suiker",
-      "primary_form": "suiker",
-      "gloss": "sugar",
+      "id": "rijst",
+      "primary_form": "rijst",
+      "gloss": "rice",
       "extras": {
         "article": "de",
-        "example": "Ik neem geen suiker, dank je.",
-        "example_en": "No sugar for me, thanks."
+        "example": "Hoe lang moet de rijst koken?",
+        "example_en": "How long does the rice need to cook?"
       },
       "tags": [
         "food",
@@ -2785,17 +2974,17 @@
     },
     {
       "kind": "noun",
-      "id": "zout",
-      "primary_form": "zout",
-      "gloss": "salt",
+      "id": "boter",
+      "primary_form": "boter",
+      "gloss": "butter",
       "extras": {
-        "article": "het",
-        "example": "Er zit te veel zout in de soep.",
-        "example_en": "There's too much salt in the soup."
+        "article": "de",
+        "example": "De boter staat in de koelkast.",
+        "example_en": "The butter is in the fridge."
       },
       "tags": [
         "food",
-        "het"
+        "de"
       ]
     },
     {
@@ -2817,13 +3006,14 @@
     },
     {
       "kind": "noun",
-      "id": "rijst",
-      "primary_form": "rijst",
-      "gloss": "rice",
+      "id": "taart",
+      "primary_form": "taart",
+      "gloss": "cake, tart",
       "extras": {
         "article": "de",
-        "example": "Hoe lang moet de rijst koken?",
-        "example_en": "How long does the rice need to cook?"
+        "plural": "taarten",
+        "example": "Er is taart voor mijn verjaardag!",
+        "example_en": "There's cake for my birthday!"
       },
       "tags": [
         "food",
@@ -2845,17 +3035,18 @@
     },
     {
       "kind": "noun",
-      "id": "boter",
-      "primary_form": "boter",
-      "gloss": "butter",
+      "id": "koekje",
+      "primary_form": "koekje",
+      "gloss": "biscuit, cookie",
       "extras": {
-        "article": "de",
-        "example": "De boter staat in de koelkast.",
-        "example_en": "The butter is in the fridge."
+        "article": "het",
+        "plural": "koekjes",
+        "example": "Mag ik nog een koekje?",
+        "example_en": "May I have another biscuit?"
       },
       "tags": [
         "food",
-        "de"
+        "het"
       ]
     },
     {
@@ -2910,19 +3101,32 @@
     },
     {
       "kind": "noun",
-      "id": "taart",
-      "primary_form": "taart",
-      "gloss": "cake, tart",
+      "id": "broodje",
+      "primary_form": "broodje",
+      "gloss": "bread roll, sandwich",
       "extras": {
-        "article": "de",
-        "plural": "taarten",
-        "example": "Er is taart voor mijn verjaardag!",
-        "example_en": "There's cake for my birthday!"
+        "article": "het",
+        "plural": "broodjes",
+        "example": "Ik neem een broodje kaas.",
+        "example_en": "I'll have a cheese sandwich."
       },
       "tags": [
         "food",
-        "de"
+        "het"
       ]
+    },
+    {
+      "kind": "phrase",
+      "id": "nog-niet",
+      "primary_form": "nog niet",
+      "gloss": "not yet",
+      "tags": [
+        "ontkenning"
+      ],
+      "extras": {
+        "example": "Ik ben nog niet klaar.",
+        "example_en": "I'm not ready yet."
+      }
     },
     {
       "kind": "phrase",
@@ -2940,18 +3144,17 @@
     },
     {
       "kind": "noun",
-      "id": "koekje",
-      "primary_form": "koekje",
-      "gloss": "biscuit, cookie",
+      "id": "hagelslag",
+      "primary_form": "hagelslag",
+      "gloss": "chocolate sprinkles (on bread)",
       "extras": {
-        "article": "het",
-        "plural": "koekjes",
-        "example": "Mag ik nog een koekje?",
-        "example_en": "May I have another biscuit?"
+        "article": "de",
+        "example": "Ik eet graag brood met hagelslag.",
+        "example_en": "I like bread with chocolate sprinkles."
       },
       "tags": [
         "food",
-        "het"
+        "de"
       ]
     },
     {
@@ -3024,29 +3227,29 @@
     },
     {
       "kind": "noun",
-      "id": "broodje",
-      "primary_form": "broodje",
-      "gloss": "bread roll, sandwich",
+      "id": "stroopwafel",
+      "primary_form": "stroopwafel",
+      "gloss": "syrup waffle",
       "extras": {
-        "article": "het",
-        "plural": "broodjes",
-        "example": "Ik neem een broodje kaas.",
-        "example_en": "I'll have a cheese sandwich."
+        "article": "de",
+        "plural": "stroopwafels",
+        "example": "Een stroopwafel is lekker bij de koffie.",
+        "example_en": "A syrup waffle is nice with coffee."
       },
       "tags": [
         "food",
-        "het"
+        "de"
       ]
     },
     {
       "kind": "noun",
-      "id": "hagelslag",
-      "primary_form": "hagelslag",
-      "gloss": "chocolate sprinkles (on bread)",
+      "id": "drop",
+      "primary_form": "drop",
+      "gloss": "liquorice",
       "extras": {
         "article": "de",
-        "example": "Ik eet graag brood met hagelslag.",
-        "example_en": "I like bread with chocolate sprinkles."
+        "example": "Veel Nederlanders eten graag drop.",
+        "example_en": "Lots of Dutch people like liquorice."
       },
       "tags": [
         "food",
@@ -3068,18 +3271,18 @@
     },
     {
       "kind": "noun",
-      "id": "stroopwafel",
-      "primary_form": "stroopwafel",
-      "gloss": "syrup waffle",
+      "id": "biertje",
+      "primary_form": "biertje",
+      "gloss": "a beer (a glass of)",
       "extras": {
-        "article": "de",
-        "plural": "stroopwafels",
-        "example": "Een stroopwafel is lekker bij de koffie.",
-        "example_en": "A syrup waffle is nice with coffee."
+        "article": "het",
+        "plural": "biertjes",
+        "example": "Ik neem een biertje, graag.",
+        "example_en": "I'll have a beer, please."
       },
       "tags": [
-        "food",
-        "de"
+        "verkleinwoorden",
+        "het"
       ]
     },
     {
@@ -3133,18 +3336,32 @@
       }
     },
     {
-      "kind": "noun",
-      "id": "drop",
-      "primary_form": "drop",
-      "gloss": "liquorice",
+      "kind": "phrase",
+      "id": "een",
+      "primary_form": "één",
+      "gloss": "one",
+      "tags": [
+        "getallen"
+      ],
       "extras": {
-        "article": "de",
-        "example": "Veel Nederlanders eten graag drop.",
-        "example_en": "Lots of Dutch people like liquorice."
+        "example": "Ik heb één broer.",
+        "example_en": "I have one brother."
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "kopje",
+      "primary_form": "kopje",
+      "gloss": "cup",
+      "extras": {
+        "article": "het",
+        "plural": "kopjes",
+        "example": "Wil je een kopje thee?",
+        "example_en": "Would you like a cup of tea?"
       },
       "tags": [
-        "food",
-        "de"
+        "verkleinwoorden",
+        "het"
       ]
     },
     {
@@ -3165,6 +3382,22 @@
       ]
     },
     {
+      "kind": "noun",
+      "id": "ijsje",
+      "primary_form": "ijsje",
+      "gloss": "ice cream",
+      "extras": {
+        "article": "het",
+        "plural": "ijsjes",
+        "example": "De kinderen willen een ijsje.",
+        "example_en": "The children want an ice cream."
+      },
+      "tags": [
+        "verkleinwoorden",
+        "het"
+      ]
+    },
+    {
       "kind": "phrase",
       "id": "prettig-kennis-te-maken",
       "primary_form": "prettig kennis te maken",
@@ -3180,18 +3413,18 @@
     },
     {
       "kind": "noun",
-      "id": "slaapkamer",
-      "primary_form": "slaapkamer",
-      "gloss": "bedroom",
+      "id": "stukje",
+      "primary_form": "stukje",
+      "gloss": "piece, bit",
       "extras": {
-        "article": "de",
-        "plural": "slaapkamers",
-        "example": "Het huis heeft drie slaapkamers.",
-        "example_en": "The house has three bedrooms."
+        "article": "het",
+        "plural": "stukjes",
+        "example": "Neem nog een stukje taart.",
+        "example_en": "Have another piece of cake."
       },
       "tags": [
-        "home",
-        "de"
+        "verkleinwoorden",
+        "het"
       ]
     },
     {
@@ -3246,30 +3479,14 @@
     },
     {
       "kind": "noun",
-      "id": "keuken",
-      "primary_form": "keuken",
-      "gloss": "kitchen",
+      "id": "slaapkamer",
+      "primary_form": "slaapkamer",
+      "gloss": "bedroom",
       "extras": {
         "article": "de",
-        "plural": "keukens",
-        "example": "We eten meestal in de keuken.",
-        "example_en": "We usually eat in the kitchen."
-      },
-      "tags": [
-        "home",
-        "de"
-      ]
-    },
-    {
-      "kind": "noun",
-      "id": "badkamer",
-      "primary_form": "badkamer",
-      "gloss": "bathroom",
-      "extras": {
-        "article": "de",
-        "plural": "badkamers",
-        "example": "De badkamer is boven.",
-        "example_en": "The bathroom is upstairs."
+        "plural": "slaapkamers",
+        "example": "Het huis heeft drie slaapkamers.",
+        "example_en": "The house has three bedrooms."
       },
       "tags": [
         "home",
@@ -3291,19 +3508,32 @@
     },
     {
       "kind": "noun",
-      "id": "woonkamer",
-      "primary_form": "woonkamer",
-      "gloss": "living room",
+      "id": "keuken",
+      "primary_form": "keuken",
+      "gloss": "kitchen",
       "extras": {
         "article": "de",
-        "plural": "woonkamers",
-        "example": "We kijken tv in de woonkamer.",
-        "example_en": "We watch TV in the living room."
+        "plural": "keukens",
+        "example": "We eten meestal in de keuken.",
+        "example_en": "We usually eat in the kitchen."
       },
       "tags": [
         "home",
         "de"
       ]
+    },
+    {
+      "kind": "phrase",
+      "id": "twee",
+      "primary_form": "twee",
+      "gloss": "two",
+      "tags": [
+        "getallen"
+      ],
+      "extras": {
+        "example": "Twee koffie, alsjeblieft.",
+        "example_en": "Two coffees, please."
+      }
     },
     {
       "kind": "verb",
@@ -3356,6 +3586,22 @@
       }
     },
     {
+      "kind": "noun",
+      "id": "badkamer",
+      "primary_form": "badkamer",
+      "gloss": "bathroom",
+      "extras": {
+        "article": "de",
+        "plural": "badkamers",
+        "example": "De badkamer is boven.",
+        "example_en": "The bathroom is upstairs."
+      },
+      "tags": [
+        "home",
+        "de"
+      ]
+    },
+    {
       "kind": "adjective",
       "id": "duur",
       "primary_form": "duur",
@@ -3373,22 +3619,6 @@
       ]
     },
     {
-      "kind": "noun",
-      "id": "bed",
-      "primary_form": "bed",
-      "gloss": "bed",
-      "extras": {
-        "article": "het",
-        "plural": "bedden",
-        "example": "Ik ga vroeg naar bed.",
-        "example_en": "I'm going to bed early."
-      },
-      "tags": [
-        "home",
-        "het"
-      ]
-    },
-    {
       "kind": "conjunction",
       "id": "of",
       "primary_form": "of",
@@ -3400,6 +3630,22 @@
       },
       "tags": [
         "voegwoorden"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "woonkamer",
+      "primary_form": "woonkamer",
+      "gloss": "living room",
+      "extras": {
+        "article": "de",
+        "plural": "woonkamers",
+        "example": "We kijken tv in de woonkamer.",
+        "example_en": "We watch TV in the living room."
+      },
+      "tags": [
+        "home",
+        "de"
       ]
     },
     {
@@ -3417,18 +3663,18 @@
     },
     {
       "kind": "noun",
-      "id": "sleutel",
-      "primary_form": "sleutel",
-      "gloss": "key",
+      "id": "bed",
+      "primary_form": "bed",
+      "gloss": "bed",
       "extras": {
-        "article": "de",
-        "plural": "sleutels",
-        "example": "Ik kan mijn sleutel niet vinden.",
-        "example_en": "I can't find my key."
+        "article": "het",
+        "plural": "bedden",
+        "example": "Ik ga vroeg naar bed.",
+        "example_en": "I'm going to bed early."
       },
       "tags": [
         "home",
-        "de"
+        "het"
       ]
     },
     {
@@ -3483,30 +3729,14 @@
     },
     {
       "kind": "noun",
-      "id": "appartement",
-      "primary_form": "appartement",
-      "gloss": "flat, apartment",
-      "extras": {
-        "article": "het",
-        "plural": "appartementen",
-        "example": "Ons appartement heeft een balkon.",
-        "example_en": "Our apartment has a balcony."
-      },
-      "tags": [
-        "home",
-        "het"
-      ]
-    },
-    {
-      "kind": "noun",
-      "id": "tuin",
-      "primary_form": "tuin",
-      "gloss": "garden",
+      "id": "sleutel",
+      "primary_form": "sleutel",
+      "gloss": "key",
       "extras": {
         "article": "de",
-        "plural": "tuinen",
-        "example": "In de zomer zitten we in de tuin.",
-        "example_en": "In summer we sit in the garden."
+        "plural": "sleutels",
+        "example": "Ik kan mijn sleutel niet vinden.",
+        "example_en": "I can't find my key."
       },
       "tags": [
         "home",
@@ -3527,6 +3757,22 @@
       }
     },
     {
+      "kind": "noun",
+      "id": "appartement",
+      "primary_form": "appartement",
+      "gloss": "flat, apartment",
+      "extras": {
+        "article": "het",
+        "plural": "appartementen",
+        "example": "Ons appartement heeft een balkon.",
+        "example_en": "Our apartment has a balcony."
+      },
+      "tags": [
+        "home",
+        "het"
+      ]
+    },
+    {
       "kind": "adjective",
       "id": "goedkoop",
       "primary_form": "goedkoop",
@@ -3544,20 +3790,17 @@
       ]
     },
     {
-      "kind": "noun",
-      "id": "bank",
-      "primary_form": "bank",
-      "gloss": "sofa; bank",
-      "extras": {
-        "article": "de",
-        "plural": "banken",
-        "example": "Na het werk zit ik op de bank.",
-        "example_en": "After work I sit on the sofa."
-      },
+      "kind": "phrase",
+      "id": "drie",
+      "primary_form": "drie",
+      "gloss": "three",
       "tags": [
-        "home",
-        "de"
-      ]
+        "getallen"
+      ],
+      "extras": {
+        "example": "Het is drie uur.",
+        "example_en": "It's three o'clock."
+      }
     },
     {
       "kind": "verb",
@@ -3611,17 +3854,33 @@
     },
     {
       "kind": "noun",
-      "id": "dag",
-      "primary_form": "dag",
-      "gloss": "day",
+      "id": "tuin",
+      "primary_form": "tuin",
+      "gloss": "garden",
       "extras": {
         "article": "de",
-        "plural": "dagen",
-        "example": "Het was een lange dag op het werk.",
-        "example_en": "It was a long day at work."
+        "plural": "tuinen",
+        "example": "In de zomer zitten we in de tuin.",
+        "example_en": "In summer we sit in the garden."
       },
       "tags": [
-        "time",
+        "home",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "bank",
+      "primary_form": "bank",
+      "gloss": "sofa; bank",
+      "extras": {
+        "article": "de",
+        "plural": "banken",
+        "example": "Na het werk zit ik op de bank.",
+        "example_en": "After work I sit on the sofa."
+      },
+      "tags": [
+        "home",
         "de"
       ]
     },
@@ -3640,14 +3899,14 @@
     },
     {
       "kind": "noun",
-      "id": "week",
-      "primary_form": "week",
-      "gloss": "week",
+      "id": "dag",
+      "primary_form": "dag",
+      "gloss": "day",
       "extras": {
         "article": "de",
-        "plural": "weken",
-        "example": "Ik werk vier dagen per week.",
-        "example_en": "I work four days a week."
+        "plural": "dagen",
+        "example": "Het was een lange dag op het werk.",
+        "example_en": "It was a long day at work."
       },
       "tags": [
         "time",
@@ -3706,14 +3965,14 @@
     },
     {
       "kind": "noun",
-      "id": "maand",
-      "primary_form": "maand",
-      "gloss": "month",
+      "id": "week",
+      "primary_form": "week",
+      "gloss": "week",
       "extras": {
         "article": "de",
-        "plural": "maanden",
-        "example": "Deze maand werk ik veel.",
-        "example_en": "I'm working a lot this month."
+        "plural": "weken",
+        "example": "Ik werk vier dagen per week.",
+        "example_en": "I work four days a week."
       },
       "tags": [
         "time",
@@ -3739,19 +3998,32 @@
       ]
     },
     {
-      "kind": "noun",
-      "id": "jaar",
-      "primary_form": "jaar",
-      "gloss": "year",
+      "kind": "phrase",
+      "id": "vier",
+      "primary_form": "vier",
+      "gloss": "four",
+      "tags": [
+        "getallen"
+      ],
       "extras": {
-        "article": "het",
-        "plural": "jaren",
-        "example": "Ik woon hier al drie jaar.",
-        "example_en": "I've lived here for three years."
+        "example": "Ik werk vier dagen per week.",
+        "example_en": "I work four days a week."
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "maand",
+      "primary_form": "maand",
+      "gloss": "month",
+      "extras": {
+        "article": "de",
+        "plural": "maanden",
+        "example": "Deze maand werk ik veel.",
+        "example_en": "I'm working a lot this month."
       },
       "tags": [
         "time",
-        "het"
+        "de"
       ]
     },
     {
@@ -3766,22 +4038,6 @@
         "example": "Mooi boek, hoeveel kost het?",
         "example_en": "Nice book, how much does it cost?"
       }
-    },
-    {
-      "kind": "noun",
-      "id": "uur",
-      "primary_form": "uur",
-      "gloss": "hour; o'clock",
-      "extras": {
-        "article": "het",
-        "plural": "uren",
-        "example": "Ik slaap acht uur per nacht.",
-        "example_en": "I sleep eight hours a night."
-      },
-      "tags": [
-        "time",
-        "het"
-      ]
     },
     {
       "kind": "verb",
@@ -3835,18 +4091,34 @@
     },
     {
       "kind": "noun",
-      "id": "minuut",
-      "primary_form": "minuut",
-      "gloss": "minute",
+      "id": "jaar",
+      "primary_form": "jaar",
+      "gloss": "year",
       "extras": {
-        "article": "de",
-        "plural": "minuten",
-        "example": "De bus komt over vijf minuten.",
-        "example_en": "The bus is coming in five minutes."
+        "article": "het",
+        "plural": "jaren",
+        "example": "Ik woon hier al drie jaar.",
+        "example_en": "I've lived here for three years."
       },
       "tags": [
         "time",
-        "de"
+        "het"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "uur",
+      "primary_form": "uur",
+      "gloss": "hour; o'clock",
+      "extras": {
+        "article": "het",
+        "plural": "uren",
+        "example": "Ik slaap acht uur per nacht.",
+        "example_en": "I sleep eight hours a night."
+      },
+      "tags": [
+        "time",
+        "het"
       ]
     },
     {
@@ -3864,14 +4136,14 @@
     },
     {
       "kind": "noun",
-      "id": "ochtend",
-      "primary_form": "ochtend",
-      "gloss": "morning",
+      "id": "minuut",
+      "primary_form": "minuut",
+      "gloss": "minute",
       "extras": {
         "article": "de",
-        "plural": "ochtenden",
-        "example": "Elke ochtend laat ik de hond uit.",
-        "example_en": "Every morning I walk the dog."
+        "plural": "minuten",
+        "example": "De bus komt over vijf minuten.",
+        "example_en": "The bus is coming in five minutes."
       },
       "tags": [
         "time",
@@ -3948,6 +4220,35 @@
     },
     {
       "kind": "noun",
+      "id": "ochtend",
+      "primary_form": "ochtend",
+      "gloss": "morning",
+      "extras": {
+        "article": "de",
+        "plural": "ochtenden",
+        "example": "Elke ochtend laat ik de hond uit.",
+        "example_en": "Every morning I walk the dog."
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "vijf",
+      "primary_form": "vijf",
+      "gloss": "five",
+      "tags": [
+        "getallen"
+      ],
+      "extras": {
+        "example": "Het kost vijf euro.",
+        "example_en": "It costs five euros."
+      }
+    },
+    {
+      "kind": "noun",
       "id": "middag",
       "primary_form": "middag",
       "gloss": "afternoon",
@@ -3956,22 +4257,6 @@
         "plural": "middagen",
         "example": "Ik werk alleen in de middag.",
         "example_en": "I only work in the afternoon."
-      },
-      "tags": [
-        "time",
-        "de"
-      ]
-    },
-    {
-      "kind": "noun",
-      "id": "avond",
-      "primary_form": "avond",
-      "gloss": "evening",
-      "extras": {
-        "article": "de",
-        "plural": "avonden",
-        "example": "Het was een gezellige avond.",
-        "example_en": "It was a lovely evening."
       },
       "tags": [
         "time",
@@ -3990,6 +4275,22 @@
         "example": "Meneer, waar is de wc?",
         "example_en": "Excuse me, sir, where is the toilet?"
       }
+    },
+    {
+      "kind": "noun",
+      "id": "avond",
+      "primary_form": "avond",
+      "gloss": "evening",
+      "extras": {
+        "article": "de",
+        "plural": "avonden",
+        "example": "Het was een gezellige avond.",
+        "example_en": "It was a lovely evening."
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
     },
     {
       "kind": "verb",
@@ -4058,22 +4359,6 @@
       ]
     },
     {
-      "kind": "noun",
-      "id": "dinsdag",
-      "primary_form": "dinsdag",
-      "gloss": "Tuesday",
-      "extras": {
-        "article": "de",
-        "plural": "dinsdagen",
-        "example": "Op dinsdag ga ik zwemmen.",
-        "example_en": "On Tuesdays I go swimming."
-      },
-      "tags": [
-        "time",
-        "de"
-      ]
-    },
-    {
       "kind": "conjunction",
       "id": "als",
       "primary_form": "als",
@@ -4106,6 +4391,22 @@
       ]
     },
     {
+      "kind": "noun",
+      "id": "dinsdag",
+      "primary_form": "dinsdag",
+      "gloss": "Tuesday",
+      "extras": {
+        "article": "de",
+        "plural": "dinsdagen",
+        "example": "Op dinsdag ga ik zwemmen.",
+        "example_en": "On Tuesdays I go swimming."
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
       "kind": "phrase",
       "id": "er-is-er-zijn",
       "primary_form": "er is, er zijn",
@@ -4117,22 +4418,6 @@
         "example": "Er is koffie en er zijn koekjes.",
         "example_en": "There's coffee and there are biscuits."
       }
-    },
-    {
-      "kind": "noun",
-      "id": "woensdag",
-      "primary_form": "woensdag",
-      "gloss": "Wednesday",
-      "extras": {
-        "article": "de",
-        "plural": "woensdagen",
-        "example": "Woensdag ga ik naar de tandarts.",
-        "example_en": "On Wednesday I'm going to the dentist."
-      },
-      "tags": [
-        "time",
-        "de"
-      ]
     },
     {
       "kind": "verb",
@@ -4186,6 +4471,35 @@
     },
     {
       "kind": "noun",
+      "id": "woensdag",
+      "primary_form": "woensdag",
+      "gloss": "Wednesday",
+      "extras": {
+        "article": "de",
+        "plural": "woensdagen",
+        "example": "Woensdag ga ik naar de tandarts.",
+        "example_en": "On Wednesday I'm going to the dentist."
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "zes",
+      "primary_form": "zes",
+      "gloss": "six",
+      "tags": [
+        "getallen"
+      ],
+      "extras": {
+        "example": "De winkel gaat om zes uur dicht.",
+        "example_en": "The shop closes at six."
+      }
+    },
+    {
+      "kind": "noun",
       "id": "donderdag",
       "primary_form": "donderdag",
       "gloss": "Thursday",
@@ -4194,22 +4508,6 @@
         "plural": "donderdagen",
         "example": "De markt is op donderdag.",
         "example_en": "The market is on Thursday."
-      },
-      "tags": [
-        "time",
-        "de"
-      ]
-    },
-    {
-      "kind": "noun",
-      "id": "vrijdag",
-      "primary_form": "vrijdag",
-      "gloss": "Friday",
-      "extras": {
-        "article": "de",
-        "plural": "vrijdagen",
-        "example": "Vrijdag ga ik met vrienden uit.",
-        "example_en": "On Friday I'm going out with friends."
       },
       "tags": [
         "time",
@@ -4228,6 +4526,22 @@
         "example": "Kijk, wat is dat?",
         "example_en": "Look, what's that?"
       }
+    },
+    {
+      "kind": "noun",
+      "id": "vrijdag",
+      "primary_form": "vrijdag",
+      "gloss": "Friday",
+      "extras": {
+        "article": "de",
+        "plural": "vrijdagen",
+        "example": "Vrijdag ga ik met vrienden uit.",
+        "example_en": "On Friday I'm going out with friends."
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
     },
     {
       "kind": "verb",
@@ -4280,22 +4594,6 @@
       }
     },
     {
-      "kind": "noun",
-      "id": "zaterdag",
-      "primary_form": "zaterdag",
-      "gloss": "Saturday",
-      "extras": {
-        "article": "de",
-        "plural": "zaterdagen",
-        "example": "Op zaterdag slaap ik lekker uit.",
-        "example_en": "On Saturdays I have a nice lie-in."
-      },
-      "tags": [
-        "time",
-        "de"
-      ]
-    },
-    {
       "kind": "adjective",
       "id": "geel",
       "primary_form": "geel",
@@ -4315,6 +4613,22 @@
     },
     {
       "kind": "noun",
+      "id": "zaterdag",
+      "primary_form": "zaterdag",
+      "gloss": "Saturday",
+      "extras": {
+        "article": "de",
+        "plural": "zaterdagen",
+        "example": "Op zaterdag slaap ik lekker uit.",
+        "example_en": "On Saturdays I have a nice lie-in."
+      },
+      "tags": [
+        "time",
+        "de"
+      ]
+    },
+    {
+      "kind": "noun",
       "id": "zondag",
       "primary_form": "zondag",
       "gloss": "Sunday",
@@ -4326,22 +4640,6 @@
       },
       "tags": [
         "time",
-        "de"
-      ]
-    },
-    {
-      "kind": "noun",
-      "id": "stad",
-      "primary_form": "stad",
-      "gloss": "town, city",
-      "extras": {
-        "article": "de",
-        "plural": "steden",
-        "example": "We gaan zaterdag naar de stad.",
-        "example_en": "We're going into town on Saturday."
-      },
-      "tags": [
-        "city",
         "de"
       ]
     },
@@ -4411,6 +4709,35 @@
     },
     {
       "kind": "noun",
+      "id": "stad",
+      "primary_form": "stad",
+      "gloss": "town, city",
+      "extras": {
+        "article": "de",
+        "plural": "steden",
+        "example": "We gaan zaterdag naar de stad.",
+        "example_en": "We're going into town on Saturday."
+      },
+      "tags": [
+        "city",
+        "de"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "zeven",
+      "primary_form": "zeven",
+      "gloss": "seven",
+      "tags": [
+        "getallen"
+      ],
+      "extras": {
+        "example": "Een week heeft zeven dagen.",
+        "example_en": "A week has seven days."
+      }
+    },
+    {
+      "kind": "noun",
       "id": "straat",
       "primary_form": "straat",
       "gloss": "street",
@@ -4419,22 +4746,6 @@
         "plural": "straten",
         "example": "Ik woon in deze straat.",
         "example_en": "I live on this street."
-      },
-      "tags": [
-        "city",
-        "de"
-      ]
-    },
-    {
-      "kind": "noun",
-      "id": "winkel",
-      "primary_form": "winkel",
-      "gloss": "shop",
-      "extras": {
-        "article": "de",
-        "plural": "winkels",
-        "example": "De winkel gaat om zes uur dicht.",
-        "example_en": "The shop closes at six."
       },
       "tags": [
         "city",
@@ -4457,6 +4768,22 @@
       "tags": [
         "bijvoeglijke-naamwoorden",
         "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "winkel",
+      "primary_form": "winkel",
+      "gloss": "shop",
+      "extras": {
+        "article": "de",
+        "plural": "winkels",
+        "example": "De winkel gaat om zes uur dicht.",
+        "example_en": "The shop closes at six."
+      },
+      "tags": [
+        "city",
+        "de"
       ]
     },
     {
@@ -4557,22 +4884,6 @@
       ]
     },
     {
-      "kind": "noun",
-      "id": "station",
-      "primary_form": "station",
-      "gloss": "station",
-      "extras": {
-        "article": "het",
-        "plural": "stations",
-        "example": "Hoe kom ik bij het station?",
-        "example_en": "How do I get to the station?"
-      },
-      "tags": [
-        "city",
-        "het"
-      ]
-    },
-    {
       "kind": "phrase",
       "id": "proost",
       "primary_form": "proost!",
@@ -4583,6 +4894,19 @@
       "extras": {
         "example": "Op ons nieuwe huis, proost!",
         "example_en": "To our new house, cheers!"
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "acht",
+      "primary_form": "acht",
+      "gloss": "eight",
+      "tags": [
+        "getallen"
+      ],
+      "extras": {
+        "example": "Ik slaap acht uur per nacht.",
+        "example_en": "I sleep eight hours a night."
       }
     },
     {
@@ -4634,6 +4958,22 @@
           "3p": "zullen wachten"
         }
       }
+    },
+    {
+      "kind": "noun",
+      "id": "station",
+      "primary_form": "station",
+      "gloss": "station",
+      "extras": {
+        "article": "het",
+        "plural": "stations",
+        "example": "Hoe kom ik bij het station?",
+        "example_en": "How do I get to the station?"
+      },
+      "tags": [
+        "city",
+        "het"
+      ]
     },
     {
       "kind": "noun",
@@ -4766,6 +5106,20 @@
       ]
     },
     {
+      "kind": "conjunction",
+      "id": "dat",
+      "primary_form": "dat",
+      "gloss": "that",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Ik denk dat hij morgen komt.",
+        "example_en": "I think that he's coming tomorrow."
+      },
+      "tags": [
+        "voegwoorden"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "restaurant",
       "primary_form": "restaurant",
@@ -4782,18 +5136,30 @@
       ]
     },
     {
-      "kind": "conjunction",
-      "id": "dat",
-      "primary_form": "dat",
-      "gloss": "that",
-      "extras": {
-        "role": "conj-subordinating",
-        "example": "Ik denk dat hij morgen komt.",
-        "example_en": "I think that he's coming tomorrow."
-      },
+      "kind": "phrase",
+      "id": "negen",
+      "primary_form": "negen",
+      "gloss": "nine",
       "tags": [
-        "voegwoorden"
-      ]
+        "getallen"
+      ],
+      "extras": {
+        "example": "Mijn zoon is negen jaar.",
+        "example_en": "My son is nine."
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "fijn-weekend",
+      "primary_form": "fijn weekend",
+      "gloss": "have a nice weekend",
+      "tags": [
+        "greetings"
+      ],
+      "extras": {
+        "example": "Tot maandag, fijn weekend!",
+        "example_en": "See you on Monday, have a nice weekend!"
+      }
     },
     {
       "kind": "noun",
@@ -4810,19 +5176,6 @@
         "city",
         "de"
       ]
-    },
-    {
-      "kind": "phrase",
-      "id": "fijn-weekend",
-      "primary_form": "fijn weekend",
-      "gloss": "have a nice weekend",
-      "tags": [
-        "greetings"
-      ],
-      "extras": {
-        "example": "Tot maandag, fijn weekend!",
-        "example_en": "See you on Monday, have a nice weekend!"
-      }
     },
     {
       "kind": "verb",
@@ -5020,6 +5373,19 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "tien",
+      "primary_form": "tien",
+      "gloss": "ten",
+      "tags": [
+        "getallen"
+      ],
+      "extras": {
+        "example": "Over tien minuten ben ik thuis.",
+        "example_en": "I'll be home in ten minutes."
+      }
+    },
+    {
       "kind": "adjective",
       "id": "oranje",
       "primary_form": "oranje",
@@ -5147,17 +5513,18 @@
       "subtitle": "Hello, please, thank you and sorry"
     },
     {
-      "title": "Hoi en doei",
+      "title": "Ik, jij en u",
       "word_ids": [
-        "hoi",
-        "dag",
-        "doei",
-        "tot-ziens",
-        "hoe-gaat-het",
-        "spreekt-u-engels"
+        "ik",
+        "jij",
+        "u",
+        "hij",
+        "zij",
+        "wij",
+        "jullie"
       ],
       "page_id": "nl-pronouns",
-      "subtitle": "Hi, bye, how are you, do you speak English"
+      "subtitle": "I, you, he, she, we and you all"
     },
     {
       "title": "Basiswerkwoorden",
@@ -5194,23 +5561,28 @@
         "kopen",
         "betalen",
         "zoeken",
-        "vinden"
+        "vinden",
+        "eerst",
+        "dan"
       ],
       "page_id": "nl-word-order",
       "subtitle": "To walk, cycle, buy, pay, seek and find"
     },
     {
-      "title": "Geven en nemen",
+      "title": "Geen of niet",
       "word_ids": [
-        "denken",
-        "geven",
-        "nemen",
-        "beginnen",
-        "blijven",
-        "staan"
+        "niet",
+        "geen",
+        "nooit",
+        "niets",
+        "niemand",
+        "nog-niet",
+        "geen-idee",
+        "het-maakt-niet-uit",
+        "ik-weet-het-niet"
       ],
       "page_id": "nl-negation",
-      "subtitle": "To think, give, take, begin, stay, stand"
+      "subtitle": "Not, no, never, nothing, nobody, not yet"
     },
     {
       "title": "Vragen stellen",
@@ -5226,44 +5598,49 @@
       "subtitle": "How much, what time, I don't understand"
     },
     {
-      "title": "Wachten en helpen",
+      "title": "Jongens en meisjes",
       "word_ids": [
-        "liggen",
-        "heten",
-        "wachten",
-        "koken",
-        "helpen",
-        "vragen",
-        "begrijpen"
+        "jongen",
+        "meisje",
+        "baby",
+        "buurman",
+        "naam",
+        "mens",
+        "ei",
+        "stad"
       ],
       "page_id": "nl-plurals",
-      "subtitle": "To wait, help, ask, cook and understand"
+      "subtitle": "Boy, girl, baby, neighbour, name, egg and town"
     },
     {
-      "title": "Hoofd en hart",
+      "title": "Koekje, kopje en ijsje",
       "word_ids": [
-        "hoofd",
-        "oog",
-        "oor",
-        "hart",
-        "bed",
-        "appartement"
+        "koekje",
+        "broodje",
+        "biertje",
+        "kopje",
+        "ijsje",
+        "stukje"
       ],
       "page_id": "nl-diminutives",
-      "subtitle": "Head, eyes, ears, heart, a bed and a flat"
+      "subtitle": "Biscuit, roll, a beer, cup, ice cream, a bit"
     },
     {
-      "title": "Uren en dagen",
+      "title": "Van één tot tien",
       "word_ids": [
-        "uur",
-        "minuut",
-        "maandag",
-        "dinsdag",
-        "woensdag",
-        "ochtend"
+        "een",
+        "twee",
+        "drie",
+        "vier",
+        "vijf",
+        "zes",
+        "zeven",
+        "acht",
+        "negen",
+        "tien"
       ],
       "page_id": "nl-numbers-time",
-      "subtitle": "Hours, minutes, Monday to Wednesday"
+      "subtitle": "The numbers one to ten"
     },
     {
       "title": "Het gezin",
@@ -5293,6 +5670,50 @@
       "subtitle": "Red, blue, green, yellow, black and white"
     },
     {
+      "title": "Hoi en tot ziens",
+      "word_ids": [
+        "hoi",
+        "goedemiddag",
+        "goedenavond",
+        "welterusten",
+        "dag",
+        "doei",
+        "tot-ziens",
+        "tot-straks",
+        "tot-morgen"
+      ],
+      "subtitle": "Hi, bye, good afternoon, good evening, see you"
+    },
+    {
+      "title": "Ja, nee en graag gedaan",
+      "word_ids": [
+        "dank-u-wel",
+        "bedankt",
+        "alstublieft",
+        "graag-gedaan",
+        "ja",
+        "nee",
+        "oke",
+        "hoe-gaat-het",
+        "goed-dank-je"
+      ],
+      "subtitle": "Thank you, please, yes, no, you're welcome"
+    },
+    {
+      "title": "Proost en eet smakelijk",
+      "word_ids": [
+        "prettig-kennis-te-maken",
+        "spreekt-u-engels",
+        "mag-ik-de-rekening",
+        "er-is-er-zijn",
+        "eet-smakelijk",
+        "proost",
+        "fijne-dag",
+        "fijn-weekend"
+      ],
+      "subtitle": "Nice to meet you, the bill, cheers, enjoy your meal"
+    },
+    {
       "title": "Familie",
       "word_ids": [
         "zoon",
@@ -5308,73 +5729,30 @@
       "subtitle": "Sons, daughters, grandparents and cousins"
     },
     {
-      "title": "Beleefd groeten",
+      "title": "Hoofd en handen",
       "word_ids": [
-        "goedemiddag",
-        "goedenavond",
-        "welterusten",
-        "tot-straks",
-        "tot-morgen",
-        "dank-u-wel",
-        "bedankt",
-        "alstublieft"
+        "hoofd",
+        "oog",
+        "mond",
+        "neus",
+        "oor",
+        "hand",
+        "arm"
       ],
-      "subtitle": "Good evening, see you and polite thanks"
-    },
-    {
-      "title": "Ja, nee en graag gedaan",
-      "word_ids": [
-        "graag-gedaan",
-        "ja",
-        "nee",
-        "oke",
-        "goed-dank-je",
-        "prettig-kennis-te-maken",
-        "ik-weet-het-niet",
-        "mag-ik-de-rekening"
-      ],
-      "subtitle": "Yes, no, you're welcome, nice to meet you"
-    },
-    {
-      "title": "Proost en eet smakelijk",
-      "word_ids": [
-        "er-is-er-zijn",
-        "eet-smakelijk",
-        "proost",
-        "fijne-dag",
-        "fijn-weekend",
-        "het-maakt-niet-uit",
-        "geen-idee"
-      ],
-      "subtitle": "Cheers, enjoy your meal, have a nice day"
-    },
-    {
-      "title": "Mensen",
-      "word_ids": [
-        "jongen",
-        "meisje",
-        "baby",
-        "buurman",
-        "naam",
-        "mens"
-      ],
-      "subtitle": "Boys, girls, babies and the neighbour"
+      "subtitle": "Head, eyes, mouth, nose, ears, hands and arms"
     },
     {
       "title": "Het lichaam",
       "word_ids": [
-        "mond",
-        "neus",
-        "hand",
-        "arm",
         "been",
         "voet",
         "rug",
+        "hart",
         "buik",
         "haar",
         "tand"
       ],
-      "subtitle": "Mouth, nose, hands, legs, back and teeth"
+      "subtitle": "Legs, feet, back, heart, belly, hair and teeth"
     },
     {
       "title": "Maaltijden",
@@ -5386,10 +5764,9 @@
         "vlees",
         "vis",
         "kip",
-        "ei",
         "melk"
       ],
-      "subtitle": "Breakfast, dinner, cheese, fish and eggs"
+      "subtitle": "Breakfast, lunch, dinner, cheese, fish and milk"
     },
     {
       "title": "Drinken, groente en fruit",
@@ -5401,25 +5778,23 @@
         "appel",
         "aardappel",
         "groente",
-        "fruit",
-        "suiker"
+        "fruit"
       ],
       "subtitle": "Coffee, tea, beer, potatoes and fruit"
     },
     {
       "title": "Hagelslag en stroopwafels",
       "word_ids": [
+        "suiker",
         "zout",
         "rijst",
         "boter",
         "taart",
-        "koekje",
-        "broodje",
         "hagelslag",
         "stroopwafel",
         "drop"
       ],
-      "subtitle": "Rice, butter, cake and Dutch sweet treats"
+      "subtitle": "Sugar, salt, rice, butter, cake and Dutch sweets"
     },
     {
       "title": "Kamers in huis",
@@ -5428,11 +5803,13 @@
         "keuken",
         "badkamer",
         "woonkamer",
+        "bed",
         "sleutel",
+        "appartement",
         "tuin",
         "bank"
       ],
-      "subtitle": "Bedroom, kitchen, garden, key and sofa"
+      "subtitle": "Rooms, a bed, a flat, the garden and keys"
     },
     {
       "title": "Week, maand en jaar",
@@ -5440,32 +5817,43 @@
         "week",
         "maand",
         "jaar",
+        "uur",
+        "minuut",
+        "ochtend",
         "middag",
-        "avond",
+        "avond"
+      ],
+      "subtitle": "Weeks, months, years, hours and parts of the day"
+    },
+    {
+      "title": "De dagen van de week",
+      "word_ids": [
+        "maandag",
+        "dinsdag",
+        "woensdag",
         "donderdag",
         "vrijdag",
         "zaterdag",
         "zondag"
       ],
-      "subtitle": "Weeks, months, years, Thursday to Sunday"
+      "subtitle": "Monday to Sunday"
     },
     {
       "title": "In de stad",
       "word_ids": [
-        "stad",
         "straat",
         "winkel",
         "markt",
         "bakker",
         "station",
-        "school"
+        "school",
+        "kerk"
       ],
-      "subtitle": "Streets, shops, the market and the station"
+      "subtitle": "Street, shop, market, bakery, station, school, church"
     },
     {
       "title": "Gracht, plein en brug",
       "word_ids": [
-        "kerk",
         "ziekenhuis",
         "restaurant",
         "gracht",
@@ -5473,7 +5861,7 @@
         "brug",
         "werk"
       ],
-      "subtitle": "Church, hospital, canal, square and bridge"
+      "subtitle": "Hospital, restaurant, canal, square, bridge, work"
     },
     {
       "title": "Groot en klein",
@@ -5502,31 +5890,48 @@
         "moeilijk",
         "duur",
         "goedkoop",
-        "eerst",
-        "dan"
+        "komen",
+        "mogen"
       ],
-      "subtitle": "Tasty, warm, cold, easy, expensive, cheap"
+      "subtitle": "Happy, tasty, cold, easy, cheap; to come and may"
     },
     {
       "title": "Weten en kennen",
       "word_ids": [
-        "ook",
-        "komen",
-        "mogen",
         "weten",
         "kennen",
         "zien",
         "zeggen",
         "luisteren",
-        "lezen"
+        "lezen",
+        "schrijven",
+        "slapen",
+        "denken",
+        "geven"
       ],
-      "subtitle": "To know, see, say, listen, read and come"
+      "subtitle": "To know, see, say, listen, read, write and sleep"
+    },
+    {
+      "title": "Nemen en blijven",
+      "word_ids": [
+        "nemen",
+        "beginnen",
+        "blijven",
+        "staan",
+        "liggen",
+        "heten",
+        "wachten",
+        "koken",
+        "helpen",
+        "vragen"
+      ],
+      "subtitle": "To take, begin, stay, stand, wait, cook and help"
     },
     {
       "title": "En, of, als en dat",
       "word_ids": [
-        "schrijven",
-        "slapen",
+        "begrijpen",
+        "ook",
         "en",
         "of",
         "als",
@@ -5535,7 +5940,7 @@
         "geld",
         "telefoon"
       ],
-      "subtitle": "And, or, if, that, a bike and money"
+      "subtitle": "To understand, also, and, or, if, that, bike, money"
     }
   ]
 }

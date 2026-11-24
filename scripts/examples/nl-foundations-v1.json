@@ -7,6 +7,10 @@
   "example": "Onze nieuwe buren zijn heel aardig.",
   "example_en": "Our new neighbours are very nice."
  },
+ "acht": {
+  "example": "Ik slaap acht uur per nacht.",
+  "example_en": "I sleep eight hours a night."
+ },
  "alsjeblieft": {
   "example": "Doe het licht uit, alsjeblieft.",
   "example_en": "Turn off the light, please."
@@ -66,6 +70,10 @@
  "bier": {
   "example": "Hij drinkt geen bier.",
   "example_en": "He doesn't drink beer."
+ },
+ "biertje": {
+  "example": "Ik neem een biertje, graag.",
+  "example_en": "I'll have a beer, please."
  },
  "blauw": {
   "example": "Hij heeft een blauwe auto.",
@@ -127,6 +135,10 @@
   "example": "De markt is op donderdag.",
   "example_en": "The market is on Thursday."
  },
+ "drie": {
+  "example": "Het is drie uur.",
+  "example_en": "It's three o'clock."
+ },
  "drop": {
   "example": "Veel Nederlanders eten graag drop.",
   "example_en": "Lots of Dutch people like liquorice."
@@ -134,6 +146,10 @@
  "duur": {
   "example": "Die auto is te duur.",
   "example_en": "That car is too expensive."
+ },
+ "een": {
+  "example": "Ik heb één broer.",
+  "example_en": "I have one brother."
  },
  "eet-smakelijk": {
   "example": "Het eten is klaar, eet smakelijk!",
@@ -166,6 +182,10 @@
  "geel": {
   "example": "Mijn nieuwe jas is geel.",
   "example_en": "My new coat is yellow."
+ },
+ "geen": {
+  "example": "Ik heb geen tijd.",
+  "example_en": "I don't have time."
  },
  "geen-idee": {
   "example": "Geen idee, vraag het aan je moeder.",
@@ -243,6 +263,10 @@
   "example": "Het maakt niet uit, ik vind alles lekker.",
   "example_en": "It doesn't matter, I like everything."
  },
+ "hij": {
+  "example": "Hij werkt bij een bank.",
+  "example_en": "He works at a bank."
+ },
  "hoe-gaat-het": {
   "example": "Hallo, hoe gaat het?",
   "example_en": "Hello, how are you?"
@@ -263,6 +287,14 @@
   "example": "Hij schudt zijn hoofd.",
   "example_en": "He shakes his head."
  },
+ "ijsje": {
+  "example": "De kinderen willen een ijsje.",
+  "example_en": "The children want an ice cream."
+ },
+ "ik": {
+  "example": "Ik ben Sanne en ik woon in Utrecht.",
+  "example_en": "I'm Sanne and I live in Utrecht."
+ },
  "ik-begrijp-het-niet": {
   "example": "Ik begrijp het niet, wat bedoel je?",
   "example_en": "I don't understand, what do you mean?"
@@ -279,6 +311,10 @@
   "example": "Ik woon hier al drie jaar.",
   "example_en": "I've lived here for three years."
  },
+ "jij": {
+  "example": "Ben jij de nieuwe buurman?",
+  "example_en": "Are you the new neighbour?"
+ },
  "jong": {
   "example": "Mijn moeder ziet er jong uit.",
   "example_en": "My mother looks young."
@@ -286,6 +322,10 @@
  "jongen": {
   "example": "Die jongen fietst erg snel.",
   "example_en": "That boy cycles very fast."
+ },
+ "jullie": {
+  "example": "Komen jullie ook?",
+  "example_en": "Are you coming too?"
  },
  "kaas": {
   "example": "Wil je kaas op je brood?",
@@ -314,6 +354,10 @@
  "koffie": {
   "example": "Deze koffie is te sterk.",
   "example_en": "This coffee is too strong."
+ },
+ "kopje": {
+  "example": "Wil je een kopje thee?",
+  "example_en": "Would you like a cup of tea?"
  },
  "koud": {
   "example": "Het water is erg koud.",
@@ -407,6 +451,10 @@
   "example": "Mijn neef en ik zitten in dezelfde klas.",
   "example_en": "My cousin and I are in the same class."
  },
+ "negen": {
+  "example": "Mijn zoon is negen jaar.",
+  "example_en": "My son is nine."
+ },
  "neus": {
   "example": "Ik heb een rode neus van de kou.",
   "example_en": "My nose is red from the cold."
@@ -415,9 +463,29 @@
   "example": "Mijn nicht gaat volgend jaar trouwen.",
   "example_en": "My niece is getting married next year."
  },
+ "niemand": {
+  "example": "Er is niemand thuis.",
+  "example_en": "Nobody's home."
+ },
+ "niet": {
+  "example": "Ik werk vandaag niet.",
+  "example_en": "I'm not working today."
+ },
+ "niets": {
+  "example": "Ik zie niets.",
+  "example_en": "I can't see anything."
+ },
  "nieuw": {
   "example": "Zij heeft een nieuwe baan.",
   "example_en": "She has a new job."
+ },
+ "nog-niet": {
+  "example": "Ik ben nog niet klaar.",
+  "example_en": "I'm not ready yet."
+ },
+ "nooit": {
+  "example": "Ik drink nooit koffie.",
+  "example_en": "I never drink coffee."
  },
  "noun:dag": {
   "example": "Het was een lange dag op het werk.",
@@ -543,6 +611,10 @@
   "example": "Een stroopwafel is lekker bij de koffie.",
   "example_en": "A syrup waffle is nice with coffee."
  },
+ "stukje": {
+  "example": "Neem nog een stukje taart.",
+  "example_en": "Have another piece of cake."
+ },
  "suiker": {
   "example": "Ik neem geen suiker, dank je.",
   "example_en": "No sugar for me, thanks."
@@ -567,6 +639,10 @@
   "example": "Zal ik thee zetten?",
   "example_en": "Shall I make some tea?"
  },
+ "tien": {
+  "example": "Over tien minuten ben ik thuis.",
+  "example_en": "I'll be home in ten minutes."
+ },
  "tot-morgen": {
   "example": "Ik ga naar huis, tot morgen!",
   "example_en": "I'm going home, see you tomorrow!"
@@ -583,6 +659,14 @@
   "example": "In de zomer zitten we in de tuin.",
   "example_en": "In summer we sit in the garden."
  },
+ "twee": {
+  "example": "Twee koffie, alsjeblieft.",
+  "example_en": "Two coffees, please."
+ },
+ "u": {
+  "example": "Kan ik u helpen?",
+  "example_en": "Can I help you?"
+ },
  "uur": {
   "example": "Ik slaap acht uur per nacht.",
   "example_en": "I sleep eight hours a night."
@@ -590,6 +674,14 @@
  "vader": {
   "example": "Mijn vader kookt vanavond.",
   "example_en": "My father is cooking tonight."
+ },
+ "vier": {
+  "example": "Ik werk vier dagen per week.",
+  "example_en": "I work four days a week."
+ },
+ "vijf": {
+  "example": "Het kost vijf euro.",
+  "example_en": "It costs five euros."
  },
  "vis": {
   "example": "Hij houdt niet van vis.",
@@ -635,6 +727,10 @@
   "example": "Hoe was het op je werk?",
   "example_en": "How was work?"
  },
+ "wij": {
+  "example": "Wij wonen in Gent.",
+  "example_en": "We live in Ghent."
+ },
  "wijn": {
   "example": "We drinken een glas wijn bij het eten.",
   "example_en": "We drink a glass of wine with dinner."
@@ -659,9 +755,21 @@
   "example": "Op zaterdag slaap ik lekker uit.",
   "example_en": "On Saturdays I have a nice lie-in."
  },
+ "zes": {
+  "example": "De winkel gaat om zes uur dicht.",
+  "example_en": "The shop closes at six."
+ },
+ "zeven": {
+  "example": "Een week heeft zeven dagen.",
+  "example_en": "A week has seven days."
+ },
  "ziekenhuis": {
   "example": "Hij werkt in het ziekenhuis.",
   "example_en": "He works at the hospital."
+ },
+ "zij": {
+  "example": "Zij is mijn zus.",
+  "example_en": "She's my sister."
  },
  "zondag": {
   "example": "Op zondag zijn veel winkels dicht.",
