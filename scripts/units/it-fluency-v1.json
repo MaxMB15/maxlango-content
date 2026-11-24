@@ -1,0 +1,86 @@
+{
+ "sperare": {
+  "title": "Sperare e temere",
+  "subtitle": "To hope, fear, manage, grow up, lie and need"
+ },
+ "sparire": {
+  "title": "Ridere e sorridere",
+  "subtitle": "To disappear, throw away, follow, laugh, smile, choose"
+ },
+ "riflettere": {
+  "title": "Promettere e permettere",
+  "subtitle": "To reflect, get, allow, promise, build, suggest"
+ },
+ "boh": {
+  "title": "L'italiano parlato",
+  "subtitle": "Dunno, not at all, like, loads, cool, oh well"
+ },
+ "camera": {
+  "title": "Falsi amici",
+  "subtitle": "Room, relative, farm, bookshop, warehouse, library"
+ },
+ "in-bocca-al-lupo": {
+  "title": "In bocca al lupo",
+  "subtitle": "Good luck, broke, pouring, can't wait, teasing"
+ },
+ "passato": {
+  "title": "Storia e cultura",
+  "subtitle": "Past, history, future, war, peace and culture"
+ },
+ "sebbene": {
+  "title": "Benché e purché",
+  "subtitle": "Although, so that, before, unless, as long as"
+ },
+ "ricordarsi": {
+  "title": "Ricordarsi e lamentarsi",
+  "subtitle": "To remember, deal with, be wrong, worry, complain"
+ },
+ "attuale": {
+  "title": "Aggettivi ingannevoli",
+  "subtitle": "Current, possible, sensitive, wide, polite, soft"
+ },
+ "solo": {
+  "title": "Il carattere",
+  "subtitle": "Alone, worried, proud, jealous, generous, crafty"
+ },
+ "importante": {
+  "title": "Importante e necessario",
+  "subtitle": "Important, necessary, possible, sweet, fresh, fake"
+ },
+ "societa": {
+  "title": "Società e politica",
+  "subtitle": "Society, government, law, rights, freedom, elections"
+ },
+ "problema": {
+  "title": "Problemi e soluzioni",
+  "subtitle": "Problem, solution, reason, opinion, idea, choice, luck"
+ },
+ "magari": {
+  "title": "Magari!",
+  "subtitle": "If only, well, don't mention it, yuck, by the way"
+ },
+ "per-carita": {
+  "title": "Per carità",
+  "subtitle": "Heaven forbid, I don't feel like it, never mind"
+ },
+ "acqua-in-bocca": {
+  "title": "Acqua in bocca",
+  "subtitle": "Mum's the word, capable, a chat, taken aback"
+ },
+ "fare-bella-figura": {
+  "title": "Fare bella figura",
+  "subtitle": "Good impressions, slipping away, the early bird"
+ },
+ "stare-con-le-mani-in-mano": {
+  "title": "Un diavolo per capello",
+  "subtitle": "Idle hands, foul moods, the evening stroll, aperitivo"
+ },
+ "gioia": {
+  "title": "Sentimenti",
+  "subtitle": "Joy, anger, shame, memories, dreams, hope and love"
+ },
+ "comunque": {
+  "title": "Comunque, anzi, perciò",
+  "subtitle": "Anyway, on the contrary, actually, so, at last"
+ }
+}

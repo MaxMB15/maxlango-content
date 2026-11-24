@@ -1,0 +1,4545 @@
+{
+  "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
+  "id": "it-fluency-v1",
+  "version": 1,
+  "language": "it",
+  "name": "Italiano · Scioltezza (B1)",
+  "author": "Max Boksem",
+  "license": "CC-BY-SA-4.0",
+  "profile_delta": [
+    {
+      "id": "relativi",
+      "kind": "topic",
+      "label": "Pronomi relativi",
+      "labelGloss": "relative pronouns",
+      "dependsOn": [
+        "pronomi"
+      ]
+    },
+    {
+      "id": "registro",
+      "kind": "topic",
+      "label": "Registro",
+      "labelGloss": "register: formal, spoken, slang",
+      "dependsOn": []
+    },
+    {
+      "id": "falsi-amici",
+      "kind": "topic",
+      "label": "Falsi amici",
+      "labelGloss": "false friends",
+      "dependsOn": []
+    },
+    {
+      "id": "idioms",
+      "kind": "topic",
+      "label": "Modi di dire",
+      "labelGloss": "idioms",
+      "dependsOn": []
+    },
+    {
+      "id": "society",
+      "kind": "topic",
+      "label": "Società",
+      "labelGloss": "society and ideas",
+      "dependsOn": [
+        "articoli"
+      ]
+    },
+    {
+      "id": "si-impersonale",
+      "kind": "topic",
+      "label": "Si impersonale",
+      "labelGloss": "si: one, people, you in general",
+      "dependsOn": [
+        "presente"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "misc",
+      "id": "it-congiuntivo",
+      "title": "The congiuntivo",
+      "body_md": "The **congiuntivo** (subjunctive) is a mood, not a tense. It marks a clause as an opinion, a wish, a fear, a doubt or something not yet real. English has traces of it (*I insist that he **be** there*); Italian uses it every day.\n\nIt appears almost only after **che**, in a clause whose main verb expresses something other than a plain fact.\n\n## Forming it\n\n-are verbs take **-i**; -ere and -ire verbs take **-a**. The three singular forms are the same, so Italians often keep the subject pronoun: *che io parli*, *che tu parli*.\n\n| | parlare | vendere | dormire | finire |\n| --- | --- | --- | --- | --- |\n| che io | parli | venda | dorma | finisca |\n| che tu | parli | venda | dorma | finisca |\n| che lui / lei | parli | venda | dorma | finisca |\n| che noi | parliamo | vendiamo | dormiamo | finiamo |\n| che voi | parliate | vendiate | dormiate | finiate |\n| che loro | parlino | vendano | dormano | finiscano |\n\nMost irregular verbs build it on the io form of the present: *faccio → faccia*, *vado → vada*, *vengo → venga*, *posso → possa*, *voglio → voglia*, *dico → dica*, *esco → esca*. Six are irregular throughout:\n\n| | essere | avere | sapere | dare | stare | dovere |\n| --- | --- | --- | --- | --- | --- | --- |\n| che io, tu, lui | sia | abbia | sappia | dia | stia | debba |\n| che noi | siamo | abbiamo | sappiamo | diamo | stiamo | dobbiamo |\n| che voi | siate | abbiate | sappiate | diate | stiate | dobbiate |\n| che loro | siano | abbiano | sappiano | diano | stiano | debbano |\n\n## What triggers it\n\n| Trigger | Examples |\n| --- | --- |\n| Opinion, belief | penso che, credo che, mi sembra che, immagino che |\n| Wanting, hoping | voglio che, spero che, preferisco che |\n| Feeling | sono contento che, ho paura che, mi dispiace che |\n| Doubt | dubito che, non sono sicuro che |\n| Impersonal phrases | è importante che, bisogna che, è meglio che, è possibile che |\n| Some conjunctions | benché, sebbene, affinché, prima che, a meno che, purché |\n\nUnlike French, Italian uses it after **penso che**, **credo che** and **spero che** even in positive sentences: an opinion is not a fact.\n\n:::examples\n- Penso che Marco abbia ragione. — I think Marco is right.\n- Voglio che tu venga con me. — I want you to come with me.\n- È importante che tutti siano d'accordo. — It's important that everyone agrees.\n- Ho paura che sia troppo tardi. — I'm afraid it's too late.\n:::\n\n## What doesn't trigger it\n\n- Certainty takes the indicative: *So che hai ragione*, *Sono sicuro che viene*, *È vero che è tardi*.\n- If both clauses have the same subject, use **di** and an infinitive: *Penso di avere ragione* (not *penso che io abbia*), *Spero di vederti presto*. *Volere* takes the infinitive directly: *Voglio venire*.\n- In relaxed speech many people use the indicative after *penso che*. The congiuntivo is never wrong there, and in writing it's expected.\n\n:::cloze{sentence=\"Spero che tu ___ bene.\" blank=\"stia\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:it-congiuntivo"
+        ],
+        "explains": [
+          "congiuntivo"
+        ]
+      },
+      "tags": [
+        "congiuntivo"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-condizionale",
+      "title": "The condizionale and se clauses",
+      "body_md": "The **condizionale** is *would*. It uses the same stem as the future, with its own endings: **-ei, -esti, -ebbe, -emmo, -este, -ebbero**.\n\n| | parlare | essere | volere |\n| --- | --- | --- | --- |\n| io | parlerei | sarei | vorrei |\n| tu | parleresti | saresti | vorresti |\n| lui / lei | parlerebbe | sarebbe | vorrebbe |\n| noi | parleremmo | saremmo | vorremmo |\n| voi | parlereste | sareste | vorreste |\n| loro | parlerebbero | sarebbero | vorrebbero |\n\nEvery irregular future stem carries over: *avrei, andrei, potrei, dovrei, saprei, verrei, farei, starei*. Listen for the double **m** in the noi form: *parleremmo* (we would speak) against the future *parleremo* (we will speak).\n\n## Politeness and advice\n\nThe condizionale softens requests and advice, the way *could*, *would* and *should* do in English:\n\n:::examples\n- Vorrei un bicchiere di vino rosso. — I'd like a glass of red wine.\n- Potrebbe aiutarmi? — Could you help me?\n- Dovresti riposarti un po'. — You should rest a bit.\n- Mi piacerebbe vivere al mare. — I'd love to live by the sea.\n:::\n\n## Se clauses\n\nItalian pairs the tenses in *if* sentences, and the rule English speakers break is this: **no condizionale after se**.\n\n| Situation | se + | main clause | Example |\n| --- | --- | --- | --- |\n| Real, likely | presente | presente or futuro | Se piove, resto a casa. |\n| Imagined | congiuntivo imperfetto | condizionale | Se avessi tempo, viaggerei di più. |\n| Too late now | congiuntivo trapassato | condizionale passato | Se l'avessi saputo, sarei venuto. |\n\n*Se sarei ricco* is a famous mistake, even among Italians. It's *se fossi ricco*.\n\nThe **congiuntivo imperfetto** is easy to form: the imperfetto stem plus **-ssi, -ssi, -sse, -ssimo, -ste, -ssero**: *parlassi*, *avessi*, *dormissi*. *Essere* gives *fossi, fosse, fossimo, foste, fossero*; *fare*, *dire*, *stare* and *dare* give *facessi*, *dicessi*, *stessi*, *dessi*.\n\n## Reported news\n\nNewspapers use the condizionale for facts they can't confirm: *Secondo i giornali, il ministro sarebbe in ospedale* (According to the papers, the minister is reportedly in hospital).\n\n:::cloze{sentence=\"Se fossi in te, ___ più attento.\" blank=\"starei\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:it-condizionale"
+        ],
+        "explains": [
+          "condizionale"
+        ]
+      },
+      "tags": [
+        "condizionale"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-relative-pronouns",
+      "title": "Che, cui and il quale",
+      "body_md": "Relative pronouns join two sentences about the same thing. English can often leave them out (*the book I'm reading*); Italian never can: *il libro che sto leggendo*.\n\n| Pronoun | Use | Example |\n| --- | --- | --- |\n| che | the subject or the direct object | La ragazza che parla è mia sorella. |\n| cui | after a preposition | La città in cui abito. L'amico a cui ho scritto. |\n| il cui, la cui | whose | Il ragazzo la cui madre fa il medico. |\n| il quale, la quale, i quali, le quali | a formal che or cui | La signora, la quale mi ha spiegato tutto. |\n| dove | a place | Il paese dove sono nato. |\n\n## Che or cui?\n\n**Che** never follows a preposition. As soon as there's one, it's **cui**: *la persona con cui lavoro* (the person I work with), *il motivo per cui ti chiamo* (the reason I'm calling you). English puts the preposition at the end; Italian puts it first.\n\n## Whose\n\nIn *il cui*, *la cui*, *i cui* and *le cui*, the article agrees with the thing owned, not the owner: *il ragazzo **la** cui madre...* (the boy whose mother...).\n\n## Il quale\n\n**Il quale** agrees with the noun it stands for, and joins prepositions like a noun: *della quale*, *ai quali*. It's formal, and it helps when *che* would be unclear about who is meant.\n\n## Quello che and chi\n\nWithout a noun to refer back to, say **quello che** or **ciò che** (what, the thing that): *Fai quello che vuoi* (Do what you like), *Ciò che conta è la salute* (What matters is your health).\n\n**Chi** means \"whoever, those who\", with a singular verb: *Chi cerca trova* (Seek and you shall find).\n\n## In cui for time\n\n*Il giorno in cui ci siamo conosciuti* (the day we met). English says *when* or nothing; Italian says *in cui*.\n\n:::cloze{sentence=\"Questa è la casa in ___ sono cresciuto.\" blank=\"cui\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:it-relative-pronouns"
+        ],
+        "explains": [
+          "relativi"
+        ]
+      },
+      "tags": [
+        "relativi"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-register",
+      "title": "Tu, Lei and spoken Italian",
+      "body_md": "Italian marks politeness in its grammar, and spoken Italian takes shortcuts the textbook leaves out.\n\n## Tu or Lei?\n\n**Tu** is for friends, family, children, and anyone young enough to be a classmate. **Lei** (she, but here *you*, with a third-person verb) is for strangers, shop staff, older people and colleagues until they suggest otherwise: *Lei è di qui?* (Are you from here?). Written in a letter, it often takes a capital L.\n\nSwitching is a small ritual: *Diamoci del tu!* (Let's say tu to each other). In the plural, **voi** covers both.\n\n## What speech shortens\n\n| Written | Spoken | |\n| --- | --- | --- |\n| Che cosa vuoi? | Cosa vuoi? Che vuoi? | che cosa shrinks |\n| Hai fame? | C'hai fame? | ci + avere, never written formally |\n| Non lo so. | Boh. | with a shrug |\n| Non è difficile. | Non è mica difficile. | mica adds \"you know\" |\n| Mangio una pizza. | Mi mangio una pizza. | an extra pronoun adds relish |\n\n## Everyday informal words\n\n| Informal | Standard | English |\n| --- | --- | --- |\n| un sacco di | molto, tanti | loads of |\n| figo, una figata | bello, una cosa bella | cool |\n| un casino | una gran confusione | a mess; a racket |\n| beccare | trovare, sorprendere | to catch, to bump into |\n| fregarsene | non importare | not to care: chi se ne frega? |\n| mitico | fantastico | legendary, brilliant |\n| sfigato | sfortunato | unlucky; a loser |\n| un tipo, una tipa | un uomo, una donna | a guy, a girl |\n\n## Accents and dialects\n\nEvery region has its own accent and words, and many Italians speak a dialect at home. A Milanese and a Neapolitan may struggle with each other's dialect, but standard Italian, the language of this course, is understood everywhere.\n\nUse the slang with friends, not in a job interview.",
+      "extras": {
+        "unlocks": [
+          "concept:it-register"
+        ],
+        "explains": [
+          "registro"
+        ]
+      },
+      "tags": [
+        "registro"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-false-friends",
+      "title": "False friends",
+      "body_md": "Italian and English share thousands of Latin words, and most mean the same thing. These don't. Each one has tripped up generations of learners.\n\n| Italian | Means | Not |\n| --- | --- | --- |\n| attualmente | currently | actually (*in realtà*) |\n| eventualmente | if need be, possibly | eventually (*alla fine*) |\n| finalmente | at last | finally, in a list (*infine*) |\n| la libreria | bookshop; bookcase | library (*la biblioteca*) |\n| la camera | room, bedroom | camera (*la macchina fotografica*) |\n| il parente | relative | parent (*il genitore*) |\n| la fattoria | farm | factory (*la fabbrica*) |\n| il magazzino | warehouse, storeroom | magazine (*la rivista*) |\n| sensibile | sensitive | sensible (*ragionevole*) |\n| largo | wide; loose | large (*grande*) |\n| educato | polite | educated (*istruito*) |\n| morbido | soft | morbid (*morboso*) |\n| annoiato | bored | annoyed (*seccato*) |\n| fastidioso | annoying | fastidious (*pignolo*) |\n| pretendere | to demand, to expect | to pretend (*fingere*) |\n| il rumore | noise | rumour (*la voce*) |\n| l'argomento | topic | argument (*la lite*) |\n| i confetti | sugared almonds | confetti (*i coriandoli*) |\n| il preservativo | condom | preservative (*il conservante*) |\n\n*Grandi magazzini* are department stores, and *una camera doppia* is a double room in a hotel.",
+      "extras": {
+        "unlocks": [
+          "concept:it-false-friends"
+        ],
+        "explains": [
+          "falsi-amici"
+        ]
+      },
+      "tags": [
+        "falsi-amici"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-idioms",
+      "title": "How Italian idioms work",
+      "body_md": "Idioms are phrases whose meaning isn't the sum of their words. Italian idioms lean on food, animals and the body, and many have an English cousin with a different picture.\n\n| Italian | Literally | Meaning |\n| --- | --- | --- |\n| in bocca al lupo | into the wolf's mouth | good luck |\n| piove a catinelle | it's raining by the basinful | it's pouring |\n| costare un occhio della testa | to cost an eye from your head | to cost an arm and a leg |\n| essere al verde | to be at the green | to be broke |\n| dormire come un ghiro | to sleep like a dormouse | to sleep like a log |\n\n*In bocca al lupo* has a fixed reply: **crepi!** (may it die, meaning the wolf), never *grazie*.\n\nIdioms in this pack are drilled like any other phrase: the card shows the Italian, you recall the meaning. Each one keeps its literal translation, because the picture is usually what makes it stick.\n\nThe verb inside an idiom changes like any verb: *costa un occhio della testa*, *sono al verde*, *ho dormito come un ghiro*.\n\nUse them sparingly at first. One well-placed idiom sounds natural; five in a row sound like a phrasebook.",
+      "extras": {
+        "unlocks": [
+          "concept:it-idioms"
+        ],
+        "explains": [
+          "idioms"
+        ]
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-passato-remoto",
+      "title": "Trapassato prossimo and passato remoto",
+      "body_md": "Two more past tenses complete the picture.\n\n## Trapassato prossimo: had done\n\nThe past before the past. Use the **imperfetto** of avere or essere with the participle, just like English *had* with a participle.\n\n:::examples\n- Avevo già mangiato quando è arrivato Paolo. — I had already eaten when Paolo arrived.\n- Quando siamo arrivati, il treno era già partito. — When we got there, the train had already left.\n:::\n\nThe same verbs take essere as in the passato prossimo, with the same agreement: *Anna era già uscita*.\n\n## Passato remoto: recognise it\n\nThe **passato remoto** is the past of history books, novels and fairy tales. In much of the south people also use it in speech, for events that feel closed and distant. You'll meet it mostly in the third person.\n\n| Infinitive | lui / lei | loro |\n| --- | --- | --- |\n| parlare | parlò | parlarono |\n| vendere | vendé, vendette | venderono, vendettero |\n| dormire | dormì | dormirono |\n| essere | fu | furono |\n| avere | ebbe | ebbero |\n| fare | fece | fecero |\n| dire | disse | dissero |\n| venire | venne | vennero |\n| vedere | vide | videro |\n| nascere | nacque | nacquero |\n| prendere | prese | presero |\n\n*Dante nacque a Firenze nel 1265* (Dante was born in Florence in 1265). In a story, the imperfetto still sets the scene and the passato remoto moves it on: *C'era una volta un re che aveva tre figlie. Un giorno la più giovane partì.*",
+      "extras": {
+        "unlocks": [
+          "concept:it-passato-remoto"
+        ]
+      },
+      "tags": [
+        "passato-prossimo",
+        "registro"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-nuance-conjunctions",
+      "title": "Although, even if, because",
+      "body_md": "Italian has several words where English has one, and each comes with its own grammar.\n\n## Although and even if\n\n- **Benché** and **sebbene** take the congiuntivo: *Benché non abbia fame, mangio qualcosa.*\n- **Anche se** takes the ordinary indicative: *Anche se non ho fame, mangio qualcosa.* Same meaning, simpler grammar, and the everyday choice in speech.\n- **Nonostante** takes the congiuntivo, or simply a noun: *Nonostante la pioggia, siamo usciti.*\n\n## Because\n\n| Word | Use | Example |\n| --- | --- | --- |\n| perché | answers \"why?\", neutral | Resto a casa perché ho la febbre. |\n| siccome | starts the sentence | Siccome è domenica, i negozi sono chiusi. |\n| dato che, visto che | given that, since | Visto che ci sei, apri la finestra. |\n| poiché | written | Poiché il treno era in ritardo, abbiamo preso un taxi. |\n| grazie a | thanks to (a good cause) | Grazie a te, ho trovato lavoro. |\n| a causa di | because of (a bad cause) | A causa dello sciopero, la scuola è chiusa. |\n\n*Perché* with the congiuntivo means \"so that\", like *affinché*: *Te lo ripeto perché tu lo sappia* (I'm telling you again so that you know).\n\n## Before, unless, as long as\n\nAll three take the congiuntivo:\n\n- **prima che**: *Partiamo prima che arrivi il temporale.* With the same subject, say **prima di** and an infinitive: *Mi lavo le mani prima di mangiare.*\n- **a meno che (non)**: *Usciamo, a meno che tu non sia stanco.* The *non* here is no negation; it's just part of the phrase.\n- **purché**: *Va bene, purché sia l'ultima volta.*\n\n## As soon as\n\n**Appena** takes the indicative. For a future event, careful Italian puts both verbs in the future: *Appena avrò i risultati, ti scriverò.* In speech the present is just as common: *Appena ho i risultati, ti scrivo.*\n\n:::cloze{sentence=\"Ti presto la macchina, purché tu ___ attento.\" blank=\"sia\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:it-nuance-conjunctions"
+        ],
+        "explains": [
+          "congiunzioni"
+        ]
+      },
+      "tags": [
+        "congiunzioni",
+        "congiuntivo"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-si-impersonale",
+      "title": "Si: one, people, you",
+      "body_md": "English says *you*, *people*, *they* or *one* when it means people in general. Italian uses **si** with a third-person verb.\n\n:::examples\n- In questo ristorante si mangia benissimo. — You eat really well in this restaurant.\n- Come si dice \"fork\" in italiano? — How do you say \"fork\" in Italian?\n- Qui non si fuma. — No smoking here.\n:::\n\n## Singular or plural?\n\nWith a plural noun, the verb goes plural: *Si vende la casa* (The house is for sale), but *Si vendono case* (Houses for sale). On signs, *si* is often glued to the end: *Affittasi* (To let), *Vendesi* (For sale).\n\n## Some things that look odd\n\n- An adjective after *si è* is plural, because it describes people in general: *Quando si è giovani, si ha tanta energia* (When you're young, you have lots of energy).\n- A reflexive verb can't have two *si* in a row, so the first becomes **ci**: *Ci si alza presto in campagna* (People get up early in the country).\n- In the passato prossimo it takes essere: *Si è mangiato bene* (We ate well).\n- *Si dice che...* means \"they say that...\": *Si dice che il nuovo sindaco sia molto giovane.*\n\nIn Tuscany, *si* even stands in for *noi*: *Noi si va al mare* (We're going to the seaside). You'll hear it in Florence; you don't need to copy it.\n\n:::cloze{sentence=\"In questo negozio si ___ anche libri usati.\" blank=\"vendono\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:it-si-impersonale"
+        ],
+        "explains": [
+          "si-impersonale"
+        ]
+      },
+      "tags": [
+        "si-impersonale"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "societa",
+      "primary_form": "società",
+      "gloss": "society; company",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "società",
+        "example": "La società italiana sta cambiando.",
+        "example_en": "Italian society is changing."
+      },
+      "tags": [
+        "society",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "in-bocca-al-lupo",
+      "primary_form": "in bocca al lupo",
+      "gloss": "good luck!",
+      "extras": {
+        "literal": "into the wolf's mouth",
+        "note": "The reply is crepi! (may it die), never grazie.",
+        "example": "In bocca al lupo per l'esame!",
+        "example_en": "Good luck with the exam!"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "ricordarsi",
+      "primary_form": "ricordarsi",
+      "gloss": "to remember",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "ricordato",
+        "example": "Ti ricordi di me?",
+        "example_en": "Do you remember me?",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "ricordato",
+            "ricordata"
+          ],
+          "passato-prossimo.2s": [
+            "ricordato",
+            "ricordata"
+          ],
+          "passato-prossimo.3s": [
+            "ricordato",
+            "ricordata"
+          ],
+          "passato-prossimo.1p": [
+            "ricordati",
+            "ricordate"
+          ],
+          "passato-prossimo.2p": [
+            "ricordati",
+            "ricordate"
+          ],
+          "passato-prossimo.3p": [
+            "ricordati",
+            "ricordate"
+          ]
+        }
+      },
+      "tags": [
+        "presente",
+        "feelings"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "mi ricordo",
+          "2s": "ti ricordi",
+          "3s": "si ricorda",
+          "1p": "ci ricordiamo",
+          "2p": "vi ricordate",
+          "3p": "si ricordano"
+        },
+        "passato-prossimo": {
+          "1s": "mi sono ricordato/a",
+          "2s": "ti sei ricordato/a",
+          "3s": "si è ricordato/a",
+          "1p": "ci siamo ricordati/e",
+          "2p": "vi siete ricordati/e",
+          "3p": "si sono ricordati/e"
+        },
+        "imperfetto": {
+          "1s": "mi ricordavo",
+          "2s": "ti ricordavi",
+          "3s": "si ricordava",
+          "1p": "ci ricordavamo",
+          "2p": "vi ricordavate",
+          "3p": "si ricordavano"
+        },
+        "futuro-semplice": {
+          "1s": "mi ricorderò",
+          "2s": "ti ricorderai",
+          "3s": "si ricorderà",
+          "1p": "ci ricorderemo",
+          "2p": "vi ricorderete",
+          "3p": "si ricorderanno"
+        },
+        "condizionale": {
+          "1s": "mi ricorderei",
+          "2s": "ti ricorderesti",
+          "3s": "si ricorderebbe",
+          "1p": "ci ricorderemmo",
+          "2p": "vi ricordereste",
+          "3p": "si ricorderebbero"
+        },
+        "congiuntivo": {
+          "1s": "mi ricordi",
+          "2s": "ti ricordi",
+          "3s": "si ricordi",
+          "1p": "ci ricordiamo",
+          "2p": "vi ricordiate",
+          "3p": "si ricordino"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "boh",
+      "primary_form": "boh",
+      "gloss": "dunno (with a shrug)",
+      "extras": {
+        "example": "Dov'è Marco? Boh, non l'ho visto.",
+        "example_en": "Where's Marco? Dunno, I haven't seen him."
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "attuale",
+      "primary_form": "attuale",
+      "gloss": "current, present-day",
+      "extras": {
+        "forms": {
+          "ms": "attuale",
+          "fs": "attuale",
+          "mp": "attuali",
+          "fp": "attuali"
+        },
+        "example": "La situazione attuale è difficile.",
+        "example_en": "The current situation is difficult."
+      },
+      "tags": [
+        "aggettivi",
+        "falsi-amici"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "comunque",
+      "primary_form": "comunque",
+      "gloss": "anyway; all the same",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "Non mi piace molto, comunque lo compro.",
+        "example_en": "I don't like it much; I'll buy it anyway."
+      },
+      "tags": [
+        "connettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "governo",
+      "primary_form": "governo",
+      "gloss": "government",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "governi",
+        "example": "Il governo ha approvato la nuova legge.",
+        "example_en": "The government has passed the new law."
+      },
+      "tags": [
+        "society",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "avere-le-mani-bucate",
+      "primary_form": "avere le mani bucate",
+      "gloss": "to spend money like water",
+      "extras": {
+        "literal": "to have hands with holes in",
+        "example": "Marco ha le mani bucate, non risparmia mai.",
+        "example_en": "Marco spends money like water, he never saves."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "legge",
+      "primary_form": "legge",
+      "gloss": "law",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "leggi",
+        "example": "La legge è uguale per tutti.",
+        "example_en": "The law is the same for everyone."
+      },
+      "tags": [
+        "society",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "occuparsi",
+      "primary_form": "occuparsi",
+      "gloss": "to take care of, to deal with",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "occupato",
+        "example": "Mi occupo io dei bambini.",
+        "example_en": "I'll look after the children.",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "occupato",
+            "occupata"
+          ],
+          "passato-prossimo.2s": [
+            "occupato",
+            "occupata"
+          ],
+          "passato-prossimo.3s": [
+            "occupato",
+            "occupata"
+          ],
+          "passato-prossimo.1p": [
+            "occupati",
+            "occupate"
+          ],
+          "passato-prossimo.2p": [
+            "occupati",
+            "occupate"
+          ],
+          "passato-prossimo.3p": [
+            "occupati",
+            "occupate"
+          ]
+        }
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "mi occupo",
+          "2s": "ti occupi",
+          "3s": "si occupa",
+          "1p": "ci occupiamo",
+          "2p": "vi occupate",
+          "3p": "si occupano"
+        },
+        "passato-prossimo": {
+          "1s": "mi sono occupato/a",
+          "2s": "ti sei occupato/a",
+          "3s": "si è occupato/a",
+          "1p": "ci siamo occupati/e",
+          "2p": "vi siete occupati/e",
+          "3p": "si sono occupati/e"
+        },
+        "imperfetto": {
+          "1s": "mi occupavo",
+          "2s": "ti occupavi",
+          "3s": "si occupava",
+          "1p": "ci occupavamo",
+          "2p": "vi occupavate",
+          "3p": "si occupavano"
+        },
+        "futuro-semplice": {
+          "1s": "mi occuperò",
+          "2s": "ti occuperai",
+          "3s": "si occuperà",
+          "1p": "ci occuperemo",
+          "2p": "vi occuperete",
+          "3p": "si occuperanno"
+        },
+        "condizionale": {
+          "1s": "mi occuperei",
+          "2s": "ti occuperesti",
+          "3s": "si occuperebbe",
+          "1p": "ci occuperemmo",
+          "2p": "vi occupereste",
+          "3p": "si occuperebbero"
+        },
+        "congiuntivo": {
+          "1s": "mi occupi",
+          "2s": "ti occupi",
+          "3s": "si occupi",
+          "1p": "ci occupiamo",
+          "2p": "vi occupiate",
+          "3p": "si occupino"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "mica",
+      "primary_form": "mica",
+      "gloss": "not at all, hardly (with non)",
+      "extras": {
+        "literal": "crumb",
+        "note": "Mica male! means \"not bad at all\".",
+        "example": "Non è mica facile!",
+        "example_en": "It's not that easy, you know!"
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "costare-un-occhio-della-testa",
+      "primary_form": "costare un occhio della testa",
+      "gloss": "to cost an arm and a leg",
+      "extras": {
+        "literal": "to cost an eye from your head",
+        "example": "Quella macchina costa un occhio della testa.",
+        "example_en": "That car costs an arm and a leg."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "eventuale",
+      "primary_form": "eventuale",
+      "gloss": "possible (should it happen)",
+      "extras": {
+        "forms": {
+          "ms": "eventuale",
+          "fs": "eventuale",
+          "mp": "eventuali",
+          "fp": "eventuali"
+        },
+        "example": "Ci scusiamo per eventuali ritardi.",
+        "example_en": "We apologise for any delays."
+      },
+      "tags": [
+        "aggettivi",
+        "falsi-amici"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "diritto",
+      "primary_form": "diritto",
+      "gloss": "right; law (the subject)",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "diritti",
+        "example": "Tutti hanno diritto all'istruzione.",
+        "example_en": "Everyone has the right to an education."
+      },
+      "tags": [
+        "society",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "anzi",
+      "primary_form": "anzi",
+      "gloss": "on the contrary; or rather",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "Non sono stanco, anzi, ho voglia di ballare.",
+        "example_en": "I'm not tired; on the contrary, I feel like dancing."
+      },
+      "tags": [
+        "connettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "liberta",
+      "primary_form": "libertà",
+      "gloss": "freedom",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "libertà",
+        "example": "La libertà di stampa è fondamentale.",
+        "example_en": "Freedom of the press is essential."
+      },
+      "tags": [
+        "society",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "piove-a-catinelle",
+      "primary_form": "piove a catinelle",
+      "gloss": "it's pouring",
+      "extras": {
+        "literal": "it's raining by the basinful",
+        "example": "Prendi l'ombrello, piove a catinelle!",
+        "example_en": "Take an umbrella, it's pouring!"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "sbagliarsi",
+      "primary_form": "sbagliarsi",
+      "gloss": "to be wrong, to make a mistake",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "sbagliato",
+        "example": "Scusi, mi sono sbagliato.",
+        "example_en": "Sorry, my mistake.",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "sbagliato",
+            "sbagliata"
+          ],
+          "passato-prossimo.2s": [
+            "sbagliato",
+            "sbagliata"
+          ],
+          "passato-prossimo.3s": [
+            "sbagliato",
+            "sbagliata"
+          ],
+          "passato-prossimo.1p": [
+            "sbagliati",
+            "sbagliate"
+          ],
+          "passato-prossimo.2p": [
+            "sbagliati",
+            "sbagliate"
+          ],
+          "passato-prossimo.3p": [
+            "sbagliati",
+            "sbagliate"
+          ]
+        }
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "mi sbaglio",
+          "2s": "ti sbagli",
+          "3s": "si sbaglia",
+          "1p": "ci sbagliamo",
+          "2p": "vi sbagliate",
+          "3p": "si sbagliano"
+        },
+        "passato-prossimo": {
+          "1s": "mi sono sbagliato/a",
+          "2s": "ti sei sbagliato/a",
+          "3s": "si è sbagliato/a",
+          "1p": "ci siamo sbagliati/e",
+          "2p": "vi siete sbagliati/e",
+          "3p": "si sono sbagliati/e"
+        },
+        "imperfetto": {
+          "1s": "mi sbagliavo",
+          "2s": "ti sbagliavi",
+          "3s": "si sbagliava",
+          "1p": "ci sbagliavamo",
+          "2p": "vi sbagliavate",
+          "3p": "si sbagliavano"
+        },
+        "futuro-semplice": {
+          "1s": "mi sbaglierò",
+          "2s": "ti sbaglierai",
+          "3s": "si sbaglierà",
+          "1p": "ci sbaglieremo",
+          "2p": "vi sbaglierete",
+          "3p": "si sbaglieranno"
+        },
+        "condizionale": {
+          "1s": "mi sbaglierei",
+          "2s": "ti sbaglieresti",
+          "3s": "si sbaglierebbe",
+          "1p": "ci sbaglieremmo",
+          "2p": "vi sbagliereste",
+          "3p": "si sbaglierebbero"
+        },
+        "congiuntivo": {
+          "1s": "mi sbagli",
+          "2s": "ti sbagli",
+          "3s": "si sbagli",
+          "1p": "ci sbagliamo",
+          "2p": "vi sbagliate",
+          "3p": "si sbaglino"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "magari",
+      "primary_form": "magari",
+      "gloss": "maybe; if only!",
+      "extras": {
+        "example": "Ti piacerebbe vivere a Roma? Magari!",
+        "example_en": "Would you like to live in Rome? If only!"
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "uguaglianza",
+      "primary_form": "uguaglianza",
+      "gloss": "equality",
+      "extras": {
+        "gender": "f",
+        "article": "l'",
+        "plural": "uguaglianze",
+        "example": "Lottiamo per l'uguaglianza tra uomini e donne.",
+        "example_en": "We're fighting for equality between men and women."
+      },
+      "tags": [
+        "society",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "sensibile",
+      "primary_form": "sensibile",
+      "gloss": "sensitive",
+      "extras": {
+        "forms": {
+          "ms": "sensibile",
+          "fs": "sensibile",
+          "mp": "sensibili",
+          "fp": "sensibili"
+        },
+        "example": "È una ragazza molto sensibile.",
+        "example_en": "She's a very sensitive girl."
+      },
+      "tags": [
+        "aggettivi",
+        "falsi-amici"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "non-vedo-l-ora",
+      "primary_form": "non vedo l'ora",
+      "gloss": "I can't wait",
+      "extras": {
+        "literal": "I don't see the hour",
+        "note": "With a verb: non vedo l'ora di + infinitive.",
+        "example": "Non vedo l'ora di partire!",
+        "example_en": "I can't wait to leave!"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "in-realta",
+      "primary_form": "in realtà",
+      "gloss": "actually, in reality",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "Sembra facile, ma in realtà è difficilissimo.",
+        "example_en": "It looks easy, but actually it's really hard."
+      },
+      "tags": [
+        "connettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "elezione",
+      "primary_form": "elezione",
+      "gloss": "election",
+      "extras": {
+        "gender": "f",
+        "article": "l'",
+        "plural": "elezioni",
+        "example": "Le elezioni sono a maggio.",
+        "example_en": "The elections are in May."
+      },
+      "tags": [
+        "society",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "preoccuparsi",
+      "primary_form": "preoccuparsi",
+      "gloss": "to worry",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "preoccupato",
+        "example": "Non preoccuparti, va tutto bene.",
+        "example_en": "Don't worry, everything's fine.",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "preoccupato",
+            "preoccupata"
+          ],
+          "passato-prossimo.2s": [
+            "preoccupato",
+            "preoccupata"
+          ],
+          "passato-prossimo.3s": [
+            "preoccupato",
+            "preoccupata"
+          ],
+          "passato-prossimo.1p": [
+            "preoccupati",
+            "preoccupate"
+          ],
+          "passato-prossimo.2p": [
+            "preoccupati",
+            "preoccupate"
+          ],
+          "passato-prossimo.3p": [
+            "preoccupati",
+            "preoccupate"
+          ]
+        }
+      },
+      "tags": [
+        "presente",
+        "feelings"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "mi preoccupo",
+          "2s": "ti preoccupi",
+          "3s": "si preoccupa",
+          "1p": "ci preoccupiamo",
+          "2p": "vi preoccupate",
+          "3p": "si preoccupano"
+        },
+        "passato-prossimo": {
+          "1s": "mi sono preoccupato/a",
+          "2s": "ti sei preoccupato/a",
+          "3s": "si è preoccupato/a",
+          "1p": "ci siamo preoccupati/e",
+          "2p": "vi siete preoccupati/e",
+          "3p": "si sono preoccupati/e"
+        },
+        "imperfetto": {
+          "1s": "mi preoccupavo",
+          "2s": "ti preoccupavi",
+          "3s": "si preoccupava",
+          "1p": "ci preoccupavamo",
+          "2p": "vi preoccupavate",
+          "3p": "si preoccupavano"
+        },
+        "futuro-semplice": {
+          "1s": "mi preoccuperò",
+          "2s": "ti preoccuperai",
+          "3s": "si preoccuperà",
+          "1p": "ci preoccuperemo",
+          "2p": "vi preoccuperete",
+          "3p": "si preoccuperanno"
+        },
+        "condizionale": {
+          "1s": "mi preoccuperei",
+          "2s": "ti preoccuperesti",
+          "3s": "si preoccuperebbe",
+          "1p": "ci preoccuperemmo",
+          "2p": "vi preoccupereste",
+          "3p": "si preoccuperebbero"
+        },
+        "congiuntivo": {
+          "1s": "mi preoccupi",
+          "2s": "ti preoccupi",
+          "3s": "si preoccupi",
+          "1p": "ci preoccupiamo",
+          "2p": "vi preoccupiate",
+          "3p": "si preoccupino"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "essere-al-verde",
+      "primary_form": "essere al verde",
+      "gloss": "to be broke",
+      "extras": {
+        "literal": "to be at the green",
+        "example": "Non posso uscire, sono al verde.",
+        "example_en": "I can't go out, I'm broke."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "guerra",
+      "primary_form": "guerra",
+      "gloss": "war",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "guerre",
+        "example": "Mio nonno ha fatto la guerra.",
+        "example_en": "My grandfather fought in the war."
+      },
+      "tags": [
+        "society",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "insomma",
+      "primary_form": "insomma",
+      "gloss": "in short; well; so-so",
+      "extras": {
+        "literal": "in sum",
+        "example": "Il film? Insomma, non mi è piaciuto molto.",
+        "example_en": "The film? Well, I didn't like it much."
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "largo",
+      "primary_form": "largo",
+      "gloss": "wide; loose",
+      "extras": {
+        "forms": {
+          "ms": "largo",
+          "fs": "larga",
+          "mp": "larghi",
+          "fp": "larghe"
+        },
+        "example": "Questi pantaloni sono troppo larghi.",
+        "example_en": "These trousers are too loose."
+      },
+      "tags": [
+        "aggettivi",
+        "falsi-amici"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pace",
+      "primary_form": "pace",
+      "gloss": "peace",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "example": "Tutti vogliono vivere in pace.",
+        "example_en": "Everyone wants to live in peace."
+      },
+      "tags": [
+        "society",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "prendere-in-giro",
+      "primary_form": "prendere in giro",
+      "gloss": "to make fun of, to tease",
+      "extras": {
+        "literal": "to take around",
+        "example": "Smettila di prendermi in giro!",
+        "example_en": "Stop making fun of me!"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "del-resto",
+      "primary_form": "del resto",
+      "gloss": "after all, besides",
+      "extras": {
+        "role": "conn-addition",
+        "example": "Non preoccuparti, del resto non è colpa tua.",
+        "example_en": "Don't worry; after all, it's not your fault."
+      },
+      "tags": [
+        "connettivi"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "lamentarsi",
+      "primary_form": "lamentarsi",
+      "gloss": "to complain",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "lamentato",
+        "example": "Si lamenta sempre del tempo.",
+        "example_en": "He's always complaining about the weather.",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "lamentato",
+            "lamentata"
+          ],
+          "passato-prossimo.2s": [
+            "lamentato",
+            "lamentata"
+          ],
+          "passato-prossimo.3s": [
+            "lamentato",
+            "lamentata"
+          ],
+          "passato-prossimo.1p": [
+            "lamentati",
+            "lamentate"
+          ],
+          "passato-prossimo.2p": [
+            "lamentati",
+            "lamentate"
+          ],
+          "passato-prossimo.3p": [
+            "lamentati",
+            "lamentate"
+          ]
+        }
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "mi lamento",
+          "2s": "ti lamenti",
+          "3s": "si lamenta",
+          "1p": "ci lamentiamo",
+          "2p": "vi lamentate",
+          "3p": "si lamentano"
+        },
+        "passato-prossimo": {
+          "1s": "mi sono lamentato/a",
+          "2s": "ti sei lamentato/a",
+          "3s": "si è lamentato/a",
+          "1p": "ci siamo lamentati/e",
+          "2p": "vi siete lamentati/e",
+          "3p": "si sono lamentati/e"
+        },
+        "imperfetto": {
+          "1s": "mi lamentavo",
+          "2s": "ti lamentavi",
+          "3s": "si lamentava",
+          "1p": "ci lamentavamo",
+          "2p": "vi lamentavate",
+          "3p": "si lamentavano"
+        },
+        "futuro-semplice": {
+          "1s": "mi lamenterò",
+          "2s": "ti lamenterai",
+          "3s": "si lamenterà",
+          "1p": "ci lamenteremo",
+          "2p": "vi lamenterete",
+          "3p": "si lamenteranno"
+        },
+        "condizionale": {
+          "1s": "mi lamenterei",
+          "2s": "ti lamenteresti",
+          "3s": "si lamenterebbe",
+          "1p": "ci lamenteremmo",
+          "2p": "vi lamentereste",
+          "3p": "si lamenterebbero"
+        },
+        "congiuntivo": {
+          "1s": "mi lamenti",
+          "2s": "ti lamenti",
+          "3s": "si lamenti",
+          "1p": "ci lamentiamo",
+          "2p": "vi lamentiate",
+          "3p": "si lamentino"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "ambiente",
+      "primary_form": "ambiente",
+      "gloss": "environment; atmosphere",
+      "extras": {
+        "gender": "m",
+        "article": "l'",
+        "plural": "ambienti",
+        "example": "Dobbiamo proteggere l'ambiente.",
+        "example_en": "We have to protect the environment."
+      },
+      "tags": [
+        "society",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tipo",
+      "primary_form": "tipo",
+      "gloss": "like, sort of (filler)",
+      "extras": {
+        "literal": "type",
+        "example": "C'erano tipo cento persone.",
+        "example_en": "There were like a hundred people."
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "acqua-in-bocca",
+      "primary_form": "acqua in bocca",
+      "gloss": "mum's the word",
+      "extras": {
+        "literal": "water in the mouth",
+        "example": "Acqua in bocca, è una sorpresa!",
+        "example_en": "Mum's the word, it's a surprise!"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "educato",
+      "primary_form": "educato",
+      "gloss": "polite, well-mannered",
+      "extras": {
+        "forms": {
+          "ms": "educato",
+          "fs": "educata",
+          "mp": "educati",
+          "fp": "educate"
+        },
+        "example": "Tuo figlio è molto educato.",
+        "example_en": "Your son is very polite."
+      },
+      "tags": [
+        "aggettivi",
+        "falsi-amici"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "inquinamento",
+      "primary_form": "inquinamento",
+      "gloss": "pollution",
+      "extras": {
+        "gender": "m",
+        "article": "l'",
+        "example": "L'inquinamento in città è un problema serio.",
+        "example_en": "Pollution in the city is a serious problem."
+      },
+      "tags": [
+        "society",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "riuscire",
+      "primary_form": "riuscire",
+      "gloss": "to manage, to succeed",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "riuscito",
+        "example": "Non riesco a dormire.",
+        "example_en": "I can't get to sleep.",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "riuscito",
+            "riuscita"
+          ],
+          "passato-prossimo.2s": [
+            "riuscito",
+            "riuscita"
+          ],
+          "passato-prossimo.3s": [
+            "riuscito",
+            "riuscita"
+          ],
+          "passato-prossimo.1p": [
+            "riusciti",
+            "riuscite"
+          ],
+          "passato-prossimo.2p": [
+            "riusciti",
+            "riuscite"
+          ],
+          "passato-prossimo.3p": [
+            "riusciti",
+            "riuscite"
+          ]
+        }
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "riesco",
+          "2s": "riesci",
+          "3s": "riesce",
+          "1p": "riusciamo",
+          "2p": "riuscite",
+          "3p": "riescono"
+        },
+        "passato-prossimo": {
+          "1s": "sono riuscito/a",
+          "2s": "sei riuscito/a",
+          "3s": "è riuscito/a",
+          "1p": "siamo riusciti/e",
+          "2p": "siete riusciti/e",
+          "3p": "sono riusciti/e"
+        },
+        "imperfetto": {
+          "1s": "riuscivo",
+          "2s": "riuscivi",
+          "3s": "riusciva",
+          "1p": "riuscivamo",
+          "2p": "riuscivate",
+          "3p": "riuscivano"
+        },
+        "futuro-semplice": {
+          "1s": "riuscirò",
+          "2s": "riuscirai",
+          "3s": "riuscirà",
+          "1p": "riusciremo",
+          "2p": "riuscirete",
+          "3p": "riusciranno"
+        },
+        "condizionale": {
+          "1s": "riuscirei",
+          "2s": "riusciresti",
+          "3s": "riuscirebbe",
+          "1p": "riusciremmo",
+          "2p": "riuscireste",
+          "3p": "riuscirebbero"
+        },
+        "congiuntivo": {
+          "1s": "riesca",
+          "2s": "riesca",
+          "3s": "riesca",
+          "1p": "riusciamo",
+          "2p": "riusciate",
+          "3p": "riescano"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "essere-in-gamba",
+      "primary_form": "essere in gamba",
+      "gloss": "to be capable, to be on the ball",
+      "extras": {
+        "literal": "to be in leg",
+        "example": "La tua collega è davvero in gamba.",
+        "example_en": "Your colleague is really capable."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "futuro",
+      "primary_form": "futuro",
+      "gloss": "future",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "example": "Nessuno sa che cosa ci riserva il futuro.",
+        "example_en": "Nobody knows what the future holds."
+      },
+      "tags": [
+        "society",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "per-di-piu",
+      "primary_form": "per di più",
+      "gloss": "what's more",
+      "extras": {
+        "role": "conn-addition",
+        "example": "La casa è piccola e per di più è cara.",
+        "example_en": "The house is small, and what's more it's expensive."
+      },
+      "tags": [
+        "connettivi"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "un-sacco",
+      "primary_form": "un sacco",
+      "gloss": "loads, a lot",
+      "extras": {
+        "literal": "a sack",
+        "note": "With a noun: un sacco di soldi (loads of money).",
+        "example": "Mi piace un sacco questa città.",
+        "example_en": "I love this city."
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "passato",
+      "primary_form": "passato",
+      "gloss": "past",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "example": "Non pensare troppo al passato.",
+        "example_en": "Don't dwell on the past."
+      },
+      "tags": [
+        "society",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "morbido",
+      "primary_form": "morbido",
+      "gloss": "soft",
+      "extras": {
+        "forms": {
+          "ms": "morbido",
+          "fs": "morbida",
+          "mp": "morbidi",
+          "fp": "morbide"
+        },
+        "example": "Questo cuscino è morbidissimo.",
+        "example_en": "This pillow is really soft."
+      },
+      "tags": [
+        "aggettivi",
+        "falsi-amici"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "fare-quattro-chiacchiere",
+      "primary_form": "fare quattro chiacchiere",
+      "gloss": "to have a chat",
+      "extras": {
+        "literal": "to make four chats",
+        "example": "Passa da me, facciamo quattro chiacchiere.",
+        "example_en": "Drop by, we'll have a chat."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "riflettere",
+      "primary_form": "riflettere",
+      "gloss": "to think it over, to reflect",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "riflettuto",
+        "example": "Ci devo riflettere un po'.",
+        "example_en": "I need to think it over."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "rifletto",
+          "2s": "rifletti",
+          "3s": "riflette",
+          "1p": "riflettiamo",
+          "2p": "riflettete",
+          "3p": "riflettono"
+        },
+        "passato-prossimo": {
+          "1s": "ho riflettuto",
+          "2s": "hai riflettuto",
+          "3s": "ha riflettuto",
+          "1p": "abbiamo riflettuto",
+          "2p": "avete riflettuto",
+          "3p": "hanno riflettuto"
+        },
+        "imperfetto": {
+          "1s": "riflettevo",
+          "2s": "riflettevi",
+          "3s": "rifletteva",
+          "1p": "riflettevamo",
+          "2p": "riflettevate",
+          "3p": "riflettevano"
+        },
+        "futuro-semplice": {
+          "1s": "rifletterò",
+          "2s": "rifletterai",
+          "3s": "rifletterà",
+          "1p": "rifletteremo",
+          "2p": "rifletterete",
+          "3p": "rifletteranno"
+        },
+        "condizionale": {
+          "1s": "rifletterei",
+          "2s": "rifletteresti",
+          "3s": "rifletterebbe",
+          "1p": "rifletteremmo",
+          "2p": "riflettereste",
+          "3p": "rifletterebbero"
+        },
+        "congiuntivo": {
+          "1s": "rifletta",
+          "2s": "rifletta",
+          "3s": "rifletta",
+          "1p": "riflettiamo",
+          "2p": "riflettiate",
+          "3p": "riflettano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "storia",
+      "primary_form": "storia",
+      "gloss": "history; story",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "storie",
+        "example": "Mi piace molto la storia romana.",
+        "example_en": "I really like Roman history."
+      },
+      "tags": [
+        "society",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "percio",
+      "primary_form": "perciò",
+      "gloss": "so, therefore",
+      "extras": {
+        "role": "conn-consequence",
+        "example": "Ho perso il treno, perciò sono arrivato tardi.",
+        "example_en": "I missed the train, so I arrived late."
+      },
+      "tags": [
+        "connettivi"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "non-avere-peli-sulla-lingua",
+      "primary_form": "non avere peli sulla lingua",
+      "gloss": "to speak your mind",
+      "extras": {
+        "literal": "to have no hairs on your tongue",
+        "example": "Mia nonna non ha peli sulla lingua.",
+        "example_en": "My grandmother doesn't mince her words."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ci-mancherebbe",
+      "primary_form": "ci mancherebbe",
+      "gloss": "of course; don't mention it",
+      "extras": {
+        "literal": "that would be missing",
+        "example": "Grazie dell'aiuto! — Ci mancherebbe!",
+        "example_en": "Thanks for the help! — Don't mention it!"
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cultura",
+      "primary_form": "cultura",
+      "gloss": "culture",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "culture",
+        "example": "La cultura italiana è famosa in tutto il mondo.",
+        "example_en": "Italian culture is famous all over the world."
+      },
+      "tags": [
+        "society",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "solo",
+      "primary_form": "solo",
+      "gloss": "alone; only",
+      "extras": {
+        "forms": {
+          "ms": "solo",
+          "fs": "sola",
+          "mp": "soli",
+          "fp": "sole"
+        },
+        "example": "Vivo da solo da due anni.",
+        "example_en": "I've lived alone for two years."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "crescere",
+      "primary_form": "crescere",
+      "gloss": "to grow, to grow up",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "cresciuto",
+        "example": "Sono cresciuta in un piccolo paese.",
+        "example_en": "I grew up in a small village.",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "cresciuto",
+            "cresciuta"
+          ],
+          "passato-prossimo.2s": [
+            "cresciuto",
+            "cresciuta"
+          ],
+          "passato-prossimo.3s": [
+            "cresciuto",
+            "cresciuta"
+          ],
+          "passato-prossimo.1p": [
+            "cresciuti",
+            "cresciute"
+          ],
+          "passato-prossimo.2p": [
+            "cresciuti",
+            "cresciute"
+          ],
+          "passato-prossimo.3p": [
+            "cresciuti",
+            "cresciute"
+          ]
+        }
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "cresco",
+          "2s": "cresci",
+          "3s": "cresce",
+          "1p": "cresciamo",
+          "2p": "crescete",
+          "3p": "crescono"
+        },
+        "passato-prossimo": {
+          "1s": "sono cresciuto/a",
+          "2s": "sei cresciuto/a",
+          "3s": "è cresciuto/a",
+          "1p": "siamo cresciuti/e",
+          "2p": "siete cresciuti/e",
+          "3p": "sono cresciuti/e"
+        },
+        "imperfetto": {
+          "1s": "crescevo",
+          "2s": "crescevi",
+          "3s": "cresceva",
+          "1p": "crescevamo",
+          "2p": "crescevate",
+          "3p": "crescevano"
+        },
+        "futuro-semplice": {
+          "1s": "crescerò",
+          "2s": "crescerai",
+          "3s": "crescerà",
+          "1p": "cresceremo",
+          "2p": "crescerete",
+          "3p": "cresceranno"
+        },
+        "condizionale": {
+          "1s": "crescerei",
+          "2s": "cresceresti",
+          "3s": "crescerebbe",
+          "1p": "cresceremmo",
+          "2p": "crescereste",
+          "3p": "crescerebbero"
+        },
+        "congiuntivo": {
+          "1s": "cresca",
+          "2s": "cresca",
+          "3s": "cresca",
+          "1p": "cresciamo",
+          "2p": "cresciate",
+          "3p": "crescano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "lingua",
+      "primary_form": "lingua",
+      "gloss": "language; tongue",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "lingue",
+        "example": "Quante lingue parli?",
+        "example_en": "How many languages do you speak?"
+      },
+      "tags": [
+        "society",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "cadere-dalle-nuvole",
+      "primary_form": "cadere dalle nuvole",
+      "gloss": "to be taken aback",
+      "extras": {
+        "literal": "to fall from the clouds",
+        "example": "Quando gliel'ho detto, è caduto dalle nuvole.",
+        "example_en": "When I told him, he was completely taken aback."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "che-figata",
+      "primary_form": "che figata!",
+      "gloss": "how cool!",
+      "extras": {
+        "example": "Hai preso i biglietti? Che figata!",
+        "example_en": "You got the tickets? How cool!"
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "problema",
+      "primary_form": "problema",
+      "gloss": "problem",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "problemi",
+        "example": "Abbiamo un piccolo problema.",
+        "example_en": "We have a small problem."
+      },
+      "tags": [
+        "society",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "cosi",
+      "primary_form": "così",
+      "gloss": "so, that way",
+      "extras": {
+        "role": "conn-consequence",
+        "example": "Parto presto, così evito il traffico.",
+        "example_en": "I'm leaving early; that way I'll avoid the traffic."
+      },
+      "tags": [
+        "connettivi"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "rompere-le-scatole",
+      "primary_form": "rompere le scatole",
+      "gloss": "to get on someone's nerves",
+      "extras": {
+        "literal": "to break the boxes",
+        "note": "A polite stand-in for a much ruder phrase.",
+        "example": "Mio fratello mi rompe sempre le scatole.",
+        "example_en": "My brother is always getting on my nerves."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "ottenere",
+      "primary_form": "ottenere",
+      "gloss": "to get, to obtain",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "ottenuto",
+        "example": "Ha ottenuto il permesso di soggiorno.",
+        "example_en": "He got his residence permit."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "ottengo",
+          "2s": "ottieni",
+          "3s": "ottiene",
+          "1p": "otteniamo",
+          "2p": "ottenete",
+          "3p": "ottengono"
+        },
+        "passato-prossimo": {
+          "1s": "ho ottenuto",
+          "2s": "hai ottenuto",
+          "3s": "ha ottenuto",
+          "1p": "abbiamo ottenuto",
+          "2p": "avete ottenuto",
+          "3p": "hanno ottenuto"
+        },
+        "imperfetto": {
+          "1s": "ottenevo",
+          "2s": "ottenevi",
+          "3s": "otteneva",
+          "1p": "ottenevamo",
+          "2p": "ottenevate",
+          "3p": "ottenevano"
+        },
+        "futuro-semplice": {
+          "1s": "otterrò",
+          "2s": "otterrai",
+          "3s": "otterrà",
+          "1p": "otterremo",
+          "2p": "otterrete",
+          "3p": "otterranno"
+        },
+        "condizionale": {
+          "1s": "otterrei",
+          "2s": "otterresti",
+          "3s": "otterrebbe",
+          "1p": "otterremmo",
+          "2p": "otterreste",
+          "3p": "otterrebbero"
+        },
+        "congiuntivo": {
+          "1s": "ottenga",
+          "2s": "ottenga",
+          "3s": "ottenga",
+          "1p": "otteniamo",
+          "2p": "otteniate",
+          "3p": "ottengano"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "importante",
+      "primary_form": "importante",
+      "gloss": "important",
+      "extras": {
+        "forms": {
+          "ms": "importante",
+          "fs": "importante",
+          "mp": "importanti",
+          "fp": "importanti"
+        },
+        "example": "È importante dormire bene.",
+        "example_en": "It's important to sleep well."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "soluzione",
+      "primary_form": "soluzione",
+      "gloss": "solution",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "soluzioni",
+        "example": "Troveremo una soluzione insieme.",
+        "example_en": "We'll find a solution together."
+      },
+      "tags": [
+        "society",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ogni-morte-di-papa",
+      "primary_form": "ogni morte di papa",
+      "gloss": "once in a blue moon",
+      "extras": {
+        "literal": "every time a pope dies",
+        "example": "Mi telefona ogni morte di papa.",
+        "example_en": "He phones me once in a blue moon."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ragione",
+      "primary_form": "ragione",
+      "gloss": "reason; (avere ragione) to be right",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "ragioni",
+        "example": "Hai ragione tu, scusa.",
+        "example_en": "You're right, sorry."
+      },
+      "tags": [
+        "society",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "non-ci-posso-credere",
+      "primary_form": "non ci posso credere",
+      "gloss": "I can't believe it",
+      "extras": {
+        "example": "Abbiamo vinto? Non ci posso credere!",
+        "example_en": "We won? I can't believe it!"
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "permettere",
+      "primary_form": "permettere",
+      "gloss": "to allow, to let",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "permesso",
+        "example": "I miei genitori non me lo permettono.",
+        "example_en": "My parents won't let me."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "permetto",
+          "2s": "permetti",
+          "3s": "permette",
+          "1p": "permettiamo",
+          "2p": "permettete",
+          "3p": "permettono"
+        },
+        "passato-prossimo": {
+          "1s": "ho permesso",
+          "2s": "hai permesso",
+          "3s": "ha permesso",
+          "1p": "abbiamo permesso",
+          "2p": "avete permesso",
+          "3p": "hanno permesso"
+        },
+        "imperfetto": {
+          "1s": "permettevo",
+          "2s": "permettevi",
+          "3s": "permetteva",
+          "1p": "permettevamo",
+          "2p": "permettevate",
+          "3p": "permettevano"
+        },
+        "futuro-semplice": {
+          "1s": "permetterò",
+          "2s": "permetterai",
+          "3s": "permetterà",
+          "1p": "permetteremo",
+          "2p": "permetterete",
+          "3p": "permetteranno"
+        },
+        "condizionale": {
+          "1s": "permetterei",
+          "2s": "permetteresti",
+          "3s": "permetterebbe",
+          "1p": "permetteremmo",
+          "2p": "permettereste",
+          "3p": "permetterebbero"
+        },
+        "congiuntivo": {
+          "1s": "permetta",
+          "2s": "permetta",
+          "3s": "permetta",
+          "1p": "permettiamo",
+          "2p": "permettiate",
+          "3p": "permettano"
+        }
+      }
+    },
+    {
+      "kind": "connective",
+      "id": "in-effetti",
+      "primary_form": "in effetti",
+      "gloss": "indeed, as a matter of fact",
+      "extras": {
+        "role": "conn-cause",
+        "example": "Sei stanco? In effetti ho dormito poco stanotte.",
+        "example_en": "You're tired? Well, I did sleep badly last night."
+      },
+      "tags": [
+        "connettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "opinione",
+      "primary_form": "opinione",
+      "gloss": "opinion",
+      "extras": {
+        "gender": "f",
+        "article": "l'",
+        "plural": "opinioni",
+        "example": "Rispetto la tua opinione.",
+        "example_en": "I respect your opinion."
+      },
+      "tags": [
+        "society",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "necessario",
+      "primary_form": "necessario",
+      "gloss": "necessary",
+      "extras": {
+        "forms": {
+          "ms": "necessario",
+          "fs": "necessaria",
+          "mp": "necessari",
+          "fp": "necessarie"
+        },
+        "example": "Non è necessario prenotare.",
+        "example_en": "There's no need to book."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "essere-una-buona-forchetta",
+      "primary_form": "essere una buona forchetta",
+      "gloss": "to love your food",
+      "extras": {
+        "literal": "to be a good fork",
+        "example": "Mio zio è una buona forchetta.",
+        "example_en": "My uncle loves his food."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "idea",
+      "primary_form": "idea",
+      "gloss": "idea",
+      "extras": {
+        "gender": "f",
+        "article": "l'",
+        "plural": "idee",
+        "example": "Che bella idea!",
+        "example_en": "What a lovely idea!"
+      },
+      "tags": [
+        "society",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "vabbe",
+      "primary_form": "vabbè",
+      "gloss": "oh well, OK then",
+      "extras": {
+        "note": "Short for va bene.",
+        "example": "Vabbè, non importa.",
+        "example_en": "Oh well, it doesn't matter."
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "andare-a-gonfie-vele",
+      "primary_form": "andare a gonfie vele",
+      "gloss": "to go swimmingly",
+      "extras": {
+        "literal": "to go with swollen sails",
+        "example": "Il nuovo lavoro va a gonfie vele.",
+        "example_en": "The new job is going swimmingly."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "promettere",
+      "primary_form": "promettere",
+      "gloss": "to promise",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "promesso",
+        "example": "Ti prometto che torno presto.",
+        "example_en": "I promise I'll be back soon."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "prometto",
+          "2s": "prometti",
+          "3s": "promette",
+          "1p": "promettiamo",
+          "2p": "promettete",
+          "3p": "promettono"
+        },
+        "passato-prossimo": {
+          "1s": "ho promesso",
+          "2s": "hai promesso",
+          "3s": "ha promesso",
+          "1p": "abbiamo promesso",
+          "2p": "avete promesso",
+          "3p": "hanno promesso"
+        },
+        "imperfetto": {
+          "1s": "promettevo",
+          "2s": "promettevi",
+          "3s": "prometteva",
+          "1p": "promettevamo",
+          "2p": "promettevate",
+          "3p": "promettevano"
+        },
+        "futuro-semplice": {
+          "1s": "prometterò",
+          "2s": "prometterai",
+          "3s": "prometterà",
+          "1p": "prometteremo",
+          "2p": "prometterete",
+          "3p": "prometteranno"
+        },
+        "condizionale": {
+          "1s": "prometterei",
+          "2s": "prometteresti",
+          "3s": "prometterebbe",
+          "1p": "prometteremmo",
+          "2p": "promettereste",
+          "3p": "prometterebbero"
+        },
+        "congiuntivo": {
+          "1s": "prometta",
+          "2s": "prometta",
+          "3s": "prometta",
+          "1p": "promettiamo",
+          "2p": "promettiate",
+          "3p": "promettano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "scelta",
+      "primary_form": "scelta",
+      "gloss": "choice",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "scelte",
+        "example": "È stata una scelta difficile.",
+        "example_en": "It was a difficult choice."
+      },
+      "tags": [
+        "society",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "finalmente",
+      "primary_form": "finalmente",
+      "gloss": "at last",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "Dopo tre ore di viaggio, finalmente siamo arrivati.",
+        "example_en": "After three hours on the road, we're here at last."
+      },
+      "tags": [
+        "connettivi"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "possibile",
+      "primary_form": "possibile",
+      "gloss": "possible",
+      "extras": {
+        "forms": {
+          "ms": "possibile",
+          "fs": "possibile",
+          "mp": "possibili",
+          "fp": "possibili"
+        },
+        "example": "È possibile pagare con la carta?",
+        "example_en": "Can I pay by card?"
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "fare-una-figuraccia",
+      "primary_form": "fare una figuraccia",
+      "gloss": "to make a fool of yourself",
+      "extras": {
+        "literal": "to make an ugly figure",
+        "example": "Ho fatto una figuraccia davanti al capo.",
+        "example_en": "I made a fool of myself in front of the boss."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fortuna",
+      "primary_form": "fortuna",
+      "gloss": "luck; fortune",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "fortune",
+        "example": "Abbiamo avuto fortuna con il tempo.",
+        "example_en": "We were lucky with the weather."
+      },
+      "tags": [
+        "society",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "che-schifo",
+      "primary_form": "che schifo!",
+      "gloss": "yuck!, how disgusting!",
+      "extras": {
+        "example": "Che schifo, questo caffè è freddo!",
+        "example_en": "Yuck, this coffee is cold!"
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "costruire",
+      "primary_form": "costruire",
+      "gloss": "to build",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "costruito",
+        "example": "Hanno costruito un nuovo ponte.",
+        "example_en": "They've built a new bridge."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "costruisco",
+          "2s": "costruisci",
+          "3s": "costruisce",
+          "1p": "costruiamo",
+          "2p": "costruite",
+          "3p": "costruiscono"
+        },
+        "passato-prossimo": {
+          "1s": "ho costruito",
+          "2s": "hai costruito",
+          "3s": "ha costruito",
+          "1p": "abbiamo costruito",
+          "2p": "avete costruito",
+          "3p": "hanno costruito"
+        },
+        "imperfetto": {
+          "1s": "costruivo",
+          "2s": "costruivi",
+          "3s": "costruiva",
+          "1p": "costruivamo",
+          "2p": "costruivate",
+          "3p": "costruivano"
+        },
+        "futuro-semplice": {
+          "1s": "costruirò",
+          "2s": "costruirai",
+          "3s": "costruirà",
+          "1p": "costruiremo",
+          "2p": "costruirete",
+          "3p": "costruiranno"
+        },
+        "condizionale": {
+          "1s": "costruirei",
+          "2s": "costruiresti",
+          "3s": "costruirebbe",
+          "1p": "costruiremmo",
+          "2p": "costruireste",
+          "3p": "costruirebbero"
+        },
+        "congiuntivo": {
+          "1s": "costruisca",
+          "2s": "costruisca",
+          "3s": "costruisca",
+          "1p": "costruiamo",
+          "2p": "costruiate",
+          "3p": "costruiscano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "successo",
+      "primary_form": "successo",
+      "gloss": "success; hit",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "successi",
+        "example": "Il concerto è stato un grande successo.",
+        "example_en": "The concert was a big success."
+      },
+      "tags": [
+        "society",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "fare-bella-figura",
+      "primary_form": "fare bella figura",
+      "gloss": "to make a good impression",
+      "extras": {
+        "literal": "to make a beautiful figure",
+        "note": "Making a good impression, la bella figura, matters a lot in Italy.",
+        "example": "Vuole fare bella figura con i suoceri.",
+        "example_en": "He wants to make a good impression on his in-laws."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "preoccupato",
+      "primary_form": "preoccupato",
+      "gloss": "worried",
+      "extras": {
+        "forms": {
+          "ms": "preoccupato",
+          "fs": "preoccupata",
+          "mp": "preoccupati",
+          "fp": "preoccupate"
+        },
+        "example": "Sono preoccupata per mia madre.",
+        "example_en": "I'm worried about my mother."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "sebbene",
+      "primary_form": "sebbene",
+      "gloss": "although (+ congiuntivo)",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Sebbene sia stanco, continuo a lavorare.",
+        "example_en": "Although I'm tired, I'm carrying on working."
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fallimento",
+      "primary_form": "fallimento",
+      "gloss": "failure; bankruptcy",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "fallimenti",
+        "example": "Il progetto è stato un fallimento.",
+        "example_en": "The project was a failure."
+      },
+      "tags": [
+        "society",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "temere",
+      "primary_form": "temere",
+      "gloss": "to fear, to be afraid",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "temuto",
+        "example": "Temo che sia troppo tardi.",
+        "example_en": "I'm afraid it's too late."
+      },
+      "tags": [
+        "presente",
+        "feelings"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "temo",
+          "2s": "temi",
+          "3s": "teme",
+          "1p": "temiamo",
+          "2p": "temete",
+          "3p": "temono"
+        },
+        "passato-prossimo": {
+          "1s": "ho temuto",
+          "2s": "hai temuto",
+          "3s": "ha temuto",
+          "1p": "abbiamo temuto",
+          "2p": "avete temuto",
+          "3p": "hanno temuto"
+        },
+        "imperfetto": {
+          "1s": "temevo",
+          "2s": "temevi",
+          "3s": "temeva",
+          "1p": "temevamo",
+          "2p": "temevate",
+          "3p": "temevano"
+        },
+        "futuro-semplice": {
+          "1s": "temerò",
+          "2s": "temerai",
+          "3s": "temerà",
+          "1p": "temeremo",
+          "2p": "temerete",
+          "3p": "temeranno"
+        },
+        "condizionale": {
+          "1s": "temerei",
+          "2s": "temeresti",
+          "3s": "temerebbe",
+          "1p": "temeremmo",
+          "2p": "temereste",
+          "3p": "temerebbero"
+        },
+        "congiuntivo": {
+          "1s": "tema",
+          "2s": "tema",
+          "3s": "tema",
+          "1p": "temiamo",
+          "2p": "temiate",
+          "3p": "temano"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "tagliare-la-corda",
+      "primary_form": "tagliare la corda",
+      "gloss": "to make a run for it",
+      "extras": {
+        "literal": "to cut the rope",
+        "example": "Quando è arrivata la polizia, hanno tagliato la corda.",
+        "example_en": "When the police arrived, they made a run for it."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tanto",
+      "primary_form": "tanto",
+      "gloss": "anyway (so it makes no difference)",
+      "extras": {
+        "literal": "so much",
+        "example": "Non preoccuparti, tanto non lo sa nessuno.",
+        "example_en": "Don't worry, nobody knows anyway."
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "paura",
+      "primary_form": "paura",
+      "gloss": "fear",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "paure",
+        "example": "Ho paura dei cani.",
+        "example_en": "I'm scared of dogs."
+      },
+      "tags": [
+        "feelings",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "l-abito-non-fa-il-monaco",
+      "primary_form": "l'abito non fa il monaco",
+      "gloss": "don't judge a book by its cover",
+      "extras": {
+        "literal": "the habit doesn't make the monk",
+        "example": "Sembra severo, ma l'abito non fa il monaco.",
+        "example_en": "He looks strict, but don't judge a book by its cover."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "orgoglioso",
+      "primary_form": "orgoglioso",
+      "gloss": "proud",
+      "extras": {
+        "forms": {
+          "ms": "orgoglioso",
+          "fs": "orgogliosa",
+          "mp": "orgogliosi",
+          "fp": "orgogliose"
+        },
+        "example": "Sono orgoglioso di te.",
+        "example_en": "I'm proud of you."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "gioia",
+      "primary_form": "gioia",
+      "gloss": "joy",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "gioie",
+        "example": "Che gioia rivederti!",
+        "example_en": "What a joy to see you again!"
+      },
+      "tags": [
+        "feelings",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "affinche",
+      "primary_form": "affinché",
+      "gloss": "so that (+ congiuntivo)",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Parlo piano affinché tutti capiscano.",
+        "example_en": "I speak slowly so that everyone understands."
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "ridere",
+      "primary_form": "ridere",
+      "gloss": "to laugh",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "riso",
+        "example": "Mi fai sempre ridere.",
+        "example_en": "You always make me laugh."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "rido",
+          "2s": "ridi",
+          "3s": "ride",
+          "1p": "ridiamo",
+          "2p": "ridete",
+          "3p": "ridono"
+        },
+        "passato-prossimo": {
+          "1s": "ho riso",
+          "2s": "hai riso",
+          "3s": "ha riso",
+          "1p": "abbiamo riso",
+          "2p": "avete riso",
+          "3p": "hanno riso"
+        },
+        "imperfetto": {
+          "1s": "ridevo",
+          "2s": "ridevi",
+          "3s": "rideva",
+          "1p": "ridevamo",
+          "2p": "ridevate",
+          "3p": "ridevano"
+        },
+        "futuro-semplice": {
+          "1s": "riderò",
+          "2s": "riderai",
+          "3s": "riderà",
+          "1p": "rideremo",
+          "2p": "riderete",
+          "3p": "rideranno"
+        },
+        "condizionale": {
+          "1s": "riderei",
+          "2s": "rideresti",
+          "3s": "riderebbe",
+          "1p": "rideremmo",
+          "2p": "ridereste",
+          "3p": "riderebbero"
+        },
+        "congiuntivo": {
+          "1s": "rida",
+          "2s": "rida",
+          "3s": "rida",
+          "1p": "ridiamo",
+          "2p": "ridiate",
+          "3p": "ridano"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "a-proposito",
+      "primary_form": "a proposito",
+      "gloss": "by the way",
+      "extras": {
+        "literal": "to the purpose",
+        "example": "A proposito, hai sentito Giulia?",
+        "example_en": "By the way, have you heard from Giulia?"
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "rabbia",
+      "primary_form": "rabbia",
+      "gloss": "anger",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "example": "Ha urlato per la rabbia.",
+        "example_en": "He shouted in anger."
+      },
+      "tags": [
+        "feelings",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "meglio-tardi-che-mai",
+      "primary_form": "meglio tardi che mai",
+      "gloss": "better late than never",
+      "extras": {
+        "example": "Sei arrivato! Meglio tardi che mai.",
+        "example_en": "You made it! Better late than never."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vergogna",
+      "primary_form": "vergogna",
+      "gloss": "shame; embarrassment",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "example": "Che vergogna, ho dimenticato il suo nome!",
+        "example_en": "How embarrassing, I've forgotten her name!"
+      },
+      "tags": [
+        "feelings",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "geloso",
+      "primary_form": "geloso",
+      "gloss": "jealous",
+      "extras": {
+        "forms": {
+          "ms": "geloso",
+          "fs": "gelosa",
+          "mp": "gelosi",
+          "fp": "gelose"
+        },
+        "example": "Il mio ragazzo è molto geloso.",
+        "example_en": "My boyfriend is very jealous."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "sorridere",
+      "primary_form": "sorridere",
+      "gloss": "to smile",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "sorriso",
+        "example": "Sorride sempre a tutti.",
+        "example_en": "She always smiles at everyone."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "sorrido",
+          "2s": "sorridi",
+          "3s": "sorride",
+          "1p": "sorridiamo",
+          "2p": "sorridete",
+          "3p": "sorridono"
+        },
+        "passato-prossimo": {
+          "1s": "ho sorriso",
+          "2s": "hai sorriso",
+          "3s": "ha sorriso",
+          "1p": "abbiamo sorriso",
+          "2p": "avete sorriso",
+          "3p": "hanno sorriso"
+        },
+        "imperfetto": {
+          "1s": "sorridevo",
+          "2s": "sorridevi",
+          "3s": "sorrideva",
+          "1p": "sorridevamo",
+          "2p": "sorridevate",
+          "3p": "sorridevano"
+        },
+        "futuro-semplice": {
+          "1s": "sorriderò",
+          "2s": "sorriderai",
+          "3s": "sorriderà",
+          "1p": "sorrideremo",
+          "2p": "sorriderete",
+          "3p": "sorrideranno"
+        },
+        "condizionale": {
+          "1s": "sorriderei",
+          "2s": "sorrideresti",
+          "3s": "sorriderebbe",
+          "1p": "sorrideremmo",
+          "2p": "sorridereste",
+          "3p": "sorriderebbero"
+        },
+        "congiuntivo": {
+          "1s": "sorrida",
+          "2s": "sorrida",
+          "3s": "sorrida",
+          "1p": "sorridiamo",
+          "2p": "sorridiate",
+          "3p": "sorridano"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "dormire-come-un-ghiro",
+      "primary_form": "dormire come un ghiro",
+      "gloss": "to sleep like a log",
+      "extras": {
+        "literal": "to sleep like a dormouse",
+        "example": "Stanotte ho dormito come un ghiro.",
+        "example_en": "Last night I slept like a log."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "prima-che",
+      "primary_form": "prima che",
+      "gloss": "before (+ congiuntivo)",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Torniamo a casa prima che faccia buio.",
+        "example_en": "Let's go home before it gets dark."
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ricordo",
+      "primary_form": "ricordo",
+      "gloss": "memory (something remembered)",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "ricordi",
+        "example": "Ho tanti bei ricordi di quell'estate.",
+        "example_en": "I have lots of happy memories of that summer."
+      },
+      "tags": [
+        "feelings",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "per-carita",
+      "primary_form": "per carità",
+      "gloss": "heaven forbid; please, don't",
+      "extras": {
+        "literal": "for charity",
+        "example": "Un altro caffè? Per carità, ne ho già bevuti tre!",
+        "example_en": "Another coffee? Good heavens no, I've already had three!"
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "alzare-il-gomito",
+      "primary_form": "alzare il gomito",
+      "gloss": "to have a drop too much",
+      "extras": {
+        "literal": "to raise the elbow",
+        "example": "Ieri sera Luca ha alzato un po' il gomito.",
+        "example_en": "Luca had a few too many last night."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "memoria",
+      "primary_form": "memoria",
+      "gloss": "memory (the faculty)",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "memorie",
+        "example": "Ho una pessima memoria per i nomi.",
+        "example_en": "I have a terrible memory for names."
+      },
+      "tags": [
+        "feelings",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "mentire",
+      "primary_form": "mentire",
+      "gloss": "to lie (tell lies)",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "mentito",
+        "example": "Non mentire, ti conosco!",
+        "example_en": "Don't lie, I know you!"
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "mento",
+          "2s": "menti",
+          "3s": "mente",
+          "1p": "mentiamo",
+          "2p": "mentite",
+          "3p": "mentono"
+        },
+        "passato-prossimo": {
+          "1s": "ho mentito",
+          "2s": "hai mentito",
+          "3s": "ha mentito",
+          "1p": "abbiamo mentito",
+          "2p": "avete mentito",
+          "3p": "hanno mentito"
+        },
+        "imperfetto": {
+          "1s": "mentivo",
+          "2s": "mentivi",
+          "3s": "mentiva",
+          "1p": "mentivamo",
+          "2p": "mentivate",
+          "3p": "mentivano"
+        },
+        "futuro-semplice": {
+          "1s": "mentirò",
+          "2s": "mentirai",
+          "3s": "mentirà",
+          "1p": "mentiremo",
+          "2p": "mentirete",
+          "3p": "mentiranno"
+        },
+        "condizionale": {
+          "1s": "mentirei",
+          "2s": "mentiresti",
+          "3s": "mentirebbe",
+          "1p": "mentiremmo",
+          "2p": "mentireste",
+          "3p": "mentirebbero"
+        },
+        "congiuntivo": {
+          "1s": "menta",
+          "2s": "menta",
+          "3s": "menta",
+          "1p": "mentiamo",
+          "2p": "mentiate",
+          "3p": "mentano"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "generoso",
+      "primary_form": "generoso",
+      "gloss": "generous",
+      "extras": {
+        "forms": {
+          "ms": "generoso",
+          "fs": "generosa",
+          "mp": "generosi",
+          "fp": "generose"
+        },
+        "example": "Grazie, sei troppo generoso.",
+        "example_en": "Thanks, you're too generous."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "sogno",
+      "primary_form": "sogno",
+      "gloss": "dream",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "sogni",
+        "example": "Il mio sogno è vivere in Toscana.",
+        "example_en": "My dream is to live in Tuscany."
+      },
+      "tags": [
+        "feelings",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "non-mi-va",
+      "primary_form": "non mi va",
+      "gloss": "I don't feel like it",
+      "extras": {
+        "literal": "it doesn't go to me",
+        "example": "Stasera non mi va di uscire.",
+        "example_en": "I don't feel like going out tonight."
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "fare-il-ponte",
+      "primary_form": "fare il ponte",
+      "gloss": "to take the day off between a holiday and the weekend",
+      "extras": {
+        "literal": "to make the bridge",
+        "example": "Giovedì è festa, venerdì facciamo il ponte.",
+        "example_en": "Thursday's a holiday, so we're taking Friday off too."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "a-meno-che",
+      "primary_form": "a meno che",
+      "gloss": "unless (+ congiuntivo)",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Vengo, a meno che non piova.",
+        "example_en": "I'll come, unless it rains."
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "speranza",
+      "primary_form": "speranza",
+      "gloss": "hope",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "speranze",
+        "example": "Non perdere la speranza.",
+        "example_en": "Don't lose hope."
+      },
+      "tags": [
+        "feelings",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "servire",
+      "primary_form": "servire",
+      "gloss": "to serve; (mi serve) to need",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "servito",
+        "example": "Mi serve una mano.",
+        "example_en": "I need a hand."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "servo",
+          "2s": "servi",
+          "3s": "serve",
+          "1p": "serviamo",
+          "2p": "servite",
+          "3p": "servono"
+        },
+        "passato-prossimo": {
+          "1s": "ho servito",
+          "2s": "hai servito",
+          "3s": "ha servito",
+          "1p": "abbiamo servito",
+          "2p": "avete servito",
+          "3p": "hanno servito"
+        },
+        "imperfetto": {
+          "1s": "servivo",
+          "2s": "servivi",
+          "3s": "serviva",
+          "1p": "servivamo",
+          "2p": "servivate",
+          "3p": "servivano"
+        },
+        "futuro-semplice": {
+          "1s": "servirò",
+          "2s": "servirai",
+          "3s": "servirà",
+          "1p": "serviremo",
+          "2p": "servirete",
+          "3p": "serviranno"
+        },
+        "condizionale": {
+          "1s": "servirei",
+          "2s": "serviresti",
+          "3s": "servirebbe",
+          "1p": "serviremmo",
+          "2p": "servireste",
+          "3p": "servirebbero"
+        },
+        "congiuntivo": {
+          "1s": "serva",
+          "2s": "serva",
+          "3s": "serva",
+          "1p": "serviamo",
+          "2p": "serviate",
+          "3p": "servano"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "chi-dorme-non-piglia-pesci",
+      "primary_form": "chi dorme non piglia pesci",
+      "gloss": "the early bird catches the worm",
+      "extras": {
+        "literal": "whoever sleeps catches no fish",
+        "example": "Alzati, chi dorme non piglia pesci!",
+        "example_en": "Get up, the early bird catches the worm!"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "stupido",
+      "primary_form": "stupido",
+      "gloss": "stupid, silly",
+      "extras": {
+        "forms": {
+          "ms": "stupido",
+          "fs": "stupida",
+          "mp": "stupidi",
+          "fp": "stupide"
+        },
+        "example": "Che domanda stupida!",
+        "example_en": "What a stupid question!"
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "amore",
+      "primary_form": "amore",
+      "gloss": "love",
+      "extras": {
+        "gender": "m",
+        "article": "l'",
+        "plural": "amori",
+        "example": "L'amore non ha età.",
+        "example_en": "Love knows no age."
+      },
+      "tags": [
+        "feelings",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "mi-raccomando",
+      "primary_form": "mi raccomando",
+      "gloss": "please make sure; don't forget",
+      "extras": {
+        "literal": "I commend myself",
+        "example": "Chiamami quando arrivi, mi raccomando!",
+        "example_en": "Call me when you get there, won't you!"
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "avere-la-testa-fra-le-nuvole",
+      "primary_form": "avere la testa fra le nuvole",
+      "gloss": "to have your head in the clouds",
+      "extras": {
+        "literal": "to have your head among the clouds",
+        "example": "Scusa, oggi ho la testa fra le nuvole.",
+        "example_en": "Sorry, my head's in the clouds today."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "amicizia",
+      "primary_form": "amicizia",
+      "gloss": "friendship",
+      "extras": {
+        "gender": "f",
+        "article": "l'",
+        "plural": "amicizie",
+        "example": "La nostra amicizia dura da vent'anni.",
+        "example_en": "Our friendship has lasted twenty years."
+      },
+      "tags": [
+        "feelings",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "purche",
+      "primary_form": "purché",
+      "gloss": "as long as (+ congiuntivo)",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Puoi uscire, purché torni entro mezzanotte.",
+        "example_en": "You can go out, as long as you're back by midnight."
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "sparire",
+      "primary_form": "sparire",
+      "gloss": "to disappear",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "sparito",
+        "example": "Dove sono sparite le mie chiavi?",
+        "example_en": "Where have my keys got to?",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "sparito",
+            "sparita"
+          ],
+          "passato-prossimo.2s": [
+            "sparito",
+            "sparita"
+          ],
+          "passato-prossimo.3s": [
+            "sparito",
+            "sparita"
+          ],
+          "passato-prossimo.1p": [
+            "spariti",
+            "sparite"
+          ],
+          "passato-prossimo.2p": [
+            "spariti",
+            "sparite"
+          ],
+          "passato-prossimo.3p": [
+            "spariti",
+            "sparite"
+          ]
+        }
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "sparisco",
+          "2s": "sparisci",
+          "3s": "sparisce",
+          "1p": "spariamo",
+          "2p": "sparite",
+          "3p": "spariscono"
+        },
+        "passato-prossimo": {
+          "1s": "sono sparito/a",
+          "2s": "sei sparito/a",
+          "3s": "è sparito/a",
+          "1p": "siamo spariti/e",
+          "2p": "siete spariti/e",
+          "3p": "sono spariti/e"
+        },
+        "imperfetto": {
+          "1s": "sparivo",
+          "2s": "sparivi",
+          "3s": "spariva",
+          "1p": "sparivamo",
+          "2p": "sparivate",
+          "3p": "sparivano"
+        },
+        "futuro-semplice": {
+          "1s": "sparirò",
+          "2s": "sparirai",
+          "3s": "sparirà",
+          "1p": "spariremo",
+          "2p": "sparirete",
+          "3p": "spariranno"
+        },
+        "condizionale": {
+          "1s": "sparirei",
+          "2s": "spariresti",
+          "3s": "sparirebbe",
+          "1p": "spariremmo",
+          "2p": "sparireste",
+          "3p": "sparirebbero"
+        },
+        "congiuntivo": {
+          "1s": "sparisca",
+          "2s": "sparisca",
+          "3s": "sparisca",
+          "1p": "spariamo",
+          "2p": "spariate",
+          "3p": "spariscano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "nostalgia",
+      "primary_form": "nostalgia",
+      "gloss": "nostalgia; homesickness",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "example": "Ho nostalgia di casa.",
+        "example_en": "I'm homesick."
+      },
+      "tags": [
+        "feelings",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "furbo",
+      "primary_form": "furbo",
+      "gloss": "crafty, cunning; clever",
+      "extras": {
+        "forms": {
+          "ms": "furbo",
+          "fs": "furba",
+          "mp": "furbi",
+          "fp": "furbe"
+        },
+        "example": "Marco è furbo, trova sempre una soluzione.",
+        "example_en": "Marco is crafty, he always finds a way."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "essere-al-settimo-cielo",
+      "primary_form": "essere al settimo cielo",
+      "gloss": "to be over the moon",
+      "extras": {
+        "literal": "to be in the seventh heaven",
+        "example": "Da quando ha trovato lavoro è al settimo cielo.",
+        "example_en": "Since she found a job she's been over the moon."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ci-vediamo",
+      "primary_form": "ci vediamo",
+      "gloss": "see you",
+      "extras": {
+        "literal": "we see each other",
+        "example": "Ci vediamo domani alle otto.",
+        "example_en": "See you tomorrow at eight."
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "campanilismo",
+      "primary_form": "campanilismo",
+      "gloss": "loyalty to your own town above all (from campanile, bell tower)",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "example": "Il campanilismo in Italia è fortissimo.",
+        "example_en": "Local pride is very strong in Italy."
+      },
+      "tags": [
+        "idioms",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "buttare",
+      "primary_form": "buttare",
+      "gloss": "to throw; to throw away",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "buttato",
+        "example": "Non buttare la carta per terra!",
+        "example_en": "Don't throw paper on the ground!"
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "butto",
+          "2s": "butti",
+          "3s": "butta",
+          "1p": "buttiamo",
+          "2p": "buttate",
+          "3p": "buttano"
+        },
+        "passato-prossimo": {
+          "1s": "ho buttato",
+          "2s": "hai buttato",
+          "3s": "ha buttato",
+          "1p": "abbiamo buttato",
+          "2p": "avete buttato",
+          "3p": "hanno buttato"
+        },
+        "imperfetto": {
+          "1s": "buttavo",
+          "2s": "buttavi",
+          "3s": "buttava",
+          "1p": "buttavamo",
+          "2p": "buttavate",
+          "3p": "buttavano"
+        },
+        "futuro-semplice": {
+          "1s": "butterò",
+          "2s": "butterai",
+          "3s": "butterà",
+          "1p": "butteremo",
+          "2p": "butterete",
+          "3p": "butteranno"
+        },
+        "condizionale": {
+          "1s": "butterei",
+          "2s": "butteresti",
+          "3s": "butterebbe",
+          "1p": "butteremmo",
+          "2p": "buttereste",
+          "3p": "butterebbero"
+        },
+        "congiuntivo": {
+          "1s": "butti",
+          "2s": "butti",
+          "3s": "butti",
+          "1p": "buttiamo",
+          "2p": "buttiate",
+          "3p": "buttino"
+        }
+      }
+    },
+    {
+      "kind": "conjunction",
+      "id": "nonostante",
+      "primary_form": "nonostante",
+      "gloss": "although, despite (+ congiuntivo)",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Nonostante piova, andiamo a fare una passeggiata.",
+        "example_en": "Although it's raining, we're going for a walk."
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "stare-con-le-mani-in-mano",
+      "primary_form": "stare con le mani in mano",
+      "gloss": "to sit around doing nothing",
+      "extras": {
+        "literal": "to stay with your hands in your hands",
+        "example": "Non stare con le mani in mano, aiutami!",
+        "example_en": "Don't just sit there, help me!"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "menefreghismo",
+      "primary_form": "menefreghismo",
+      "gloss": "a couldn't-care-less attitude",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "example": "Il suo menefreghismo mi fa arrabbiare.",
+        "example_en": "His couldn't-care-less attitude makes me angry."
+      },
+      "tags": [
+        "idioms",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "dolce",
+      "primary_form": "dolce",
+      "gloss": "sweet; gentle",
+      "extras": {
+        "forms": {
+          "ms": "dolce",
+          "fs": "dolce",
+          "mp": "dolci",
+          "fp": "dolci"
+        },
+        "example": "Questo vino è troppo dolce.",
+        "example_en": "This wine is too sweet."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ecco",
+      "primary_form": "ecco",
+      "gloss": "here it is; there you go",
+      "extras": {
+        "example": "Ecco il tuo caffè.",
+        "example_en": "Here's your coffee."
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "passeggiata",
+      "primary_form": "passeggiata",
+      "gloss": "stroll; the evening walk through town",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "passeggiate",
+        "example": "Dopo cena facciamo una passeggiata in centro.",
+        "example_en": "After dinner we go for a stroll in the centre."
+      },
+      "tags": [
+        "idioms",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "avere-un-diavolo-per-capello",
+      "primary_form": "avere un diavolo per capello",
+      "gloss": "to be in a foul mood",
+      "extras": {
+        "literal": "to have a devil for each hair",
+        "example": "Oggi il capo ha un diavolo per capello.",
+        "example_en": "The boss is in a foul mood today."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "sperare",
+      "primary_form": "sperare",
+      "gloss": "to hope",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "sperato",
+        "example": "Spero di vederti presto.",
+        "example_en": "I hope to see you soon."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "spero",
+          "2s": "speri",
+          "3s": "spera",
+          "1p": "speriamo",
+          "2p": "sperate",
+          "3p": "sperano"
+        },
+        "passato-prossimo": {
+          "1s": "ho sperato",
+          "2s": "hai sperato",
+          "3s": "ha sperato",
+          "1p": "abbiamo sperato",
+          "2p": "avete sperato",
+          "3p": "hanno sperato"
+        },
+        "imperfetto": {
+          "1s": "speravo",
+          "2s": "speravi",
+          "3s": "sperava",
+          "1p": "speravamo",
+          "2p": "speravate",
+          "3p": "speravano"
+        },
+        "futuro-semplice": {
+          "1s": "spererò",
+          "2s": "spererai",
+          "3s": "spererà",
+          "1p": "spereremo",
+          "2p": "spererete",
+          "3p": "spereranno"
+        },
+        "condizionale": {
+          "1s": "spererei",
+          "2s": "spereresti",
+          "3s": "spererebbe",
+          "1p": "spereremmo",
+          "2p": "sperereste",
+          "3p": "spererebbero"
+        },
+        "congiuntivo": {
+          "1s": "speri",
+          "2s": "speri",
+          "3s": "speri",
+          "1p": "speriamo",
+          "2p": "speriate",
+          "3p": "sperino"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "aperitivo",
+      "primary_form": "aperitivo",
+      "gloss": "early-evening drink with snacks",
+      "extras": {
+        "gender": "m",
+        "article": "l'",
+        "plural": "aperitivi",
+        "example": "Ci vediamo per un aperitivo alle sette?",
+        "example_en": "Shall we meet for an aperitivo at seven?"
+      },
+      "tags": [
+        "idioms",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "anche-se",
+      "primary_form": "anche se",
+      "gloss": "even if, even though",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Anche se è tardi, ti aspetto.",
+        "example_en": "Even though it's late, I'll wait for you."
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "non-tutte-le-ciambelle-riescono-col-buco",
+      "primary_form": "non tutte le ciambelle riescono col buco",
+      "gloss": "things don't always turn out as planned",
+      "extras": {
+        "literal": "not every ring doughnut comes out with a hole",
+        "example": "Pazienza, non tutte le ciambelle riescono col buco.",
+        "example_en": "Never mind, you can't win them all."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "fresco",
+      "primary_form": "fresco",
+      "gloss": "fresh; cool",
+      "extras": {
+        "forms": {
+          "ms": "fresco",
+          "fs": "fresca",
+          "mp": "freschi",
+          "fp": "fresche"
+        },
+        "example": "Il pesce oggi è freschissimo.",
+        "example_en": "The fish is really fresh today."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "camera",
+      "primary_form": "camera",
+      "gloss": "room, bedroom",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "camere",
+        "example": "La mia camera è al primo piano.",
+        "example_en": "My bedroom is on the first floor."
+      },
+      "tags": [
+        "falsi-amici",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "beh",
+      "primary_form": "beh",
+      "gloss": "well...",
+      "extras": {
+        "example": "Beh, tu che ne pensi?",
+        "example_en": "Well, what do you think?"
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "proporre",
+      "primary_form": "proporre",
+      "gloss": "to suggest, to propose",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "proposto",
+        "example": "Propongo di andare al mare.",
+        "example_en": "I suggest we go to the seaside."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "propongo",
+          "2s": "proponi",
+          "3s": "propone",
+          "1p": "proponiamo",
+          "2p": "proponete",
+          "3p": "propongono"
+        },
+        "passato-prossimo": {
+          "1s": "ho proposto",
+          "2s": "hai proposto",
+          "3s": "ha proposto",
+          "1p": "abbiamo proposto",
+          "2p": "avete proposto",
+          "3p": "hanno proposto"
+        },
+        "imperfetto": {
+          "1s": "proponevo",
+          "2s": "proponevi",
+          "3s": "proponeva",
+          "1p": "proponevamo",
+          "2p": "proponevate",
+          "3p": "proponevano"
+        },
+        "futuro-semplice": {
+          "1s": "proporrò",
+          "2s": "proporrai",
+          "3s": "proporrà",
+          "1p": "proporremo",
+          "2p": "proporrete",
+          "3p": "proporranno"
+        },
+        "condizionale": {
+          "1s": "proporrei",
+          "2s": "proporresti",
+          "3s": "proporrebbe",
+          "1p": "proporremmo",
+          "2p": "proporreste",
+          "3p": "proporrebbero"
+        },
+        "congiuntivo": {
+          "1s": "proponga",
+          "2s": "proponga",
+          "3s": "proponga",
+          "1p": "proponiamo",
+          "2p": "proponiate",
+          "3p": "propongano"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "avere-la-coda-di-paglia",
+      "primary_form": "avere la coda di paglia",
+      "gloss": "to have a guilty conscience",
+      "extras": {
+        "literal": "to have a straw tail",
+        "note": "A straw tail catches fire easily: whoever has one is quick to feel accused.",
+        "example": "Perché ti arrabbi? Hai la coda di paglia?",
+        "example_en": "Why are you getting angry? Guilty conscience?"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "parente",
+      "primary_form": "parente",
+      "gloss": "relative",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "parenti",
+        "example": "A Natale vengono tutti i parenti.",
+        "example_en": "All the relatives come at Christmas."
+      },
+      "tags": [
+        "falsi-amici",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "dato-che",
+      "primary_form": "dato che",
+      "gloss": "since, given that",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Dato che sei qui, mi aiuti a cucinare?",
+        "example_en": "Since you're here, will you help me cook?"
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fattoria",
+      "primary_form": "fattoria",
+      "gloss": "farm",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "fattorie",
+        "example": "I bambini hanno visitato una fattoria.",
+        "example_en": "The children visited a farm."
+      },
+      "tags": [
+        "falsi-amici",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "falso",
+      "primary_form": "falso",
+      "gloss": "false; fake",
+      "extras": {
+        "forms": {
+          "ms": "falso",
+          "fs": "falsa",
+          "mp": "falsi",
+          "fp": "false"
+        },
+        "example": "Questa borsa è falsa.",
+        "example_en": "This bag is a fake."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "campa-cavallo-che-l-erba-cresce",
+      "primary_form": "campa cavallo che l'erba cresce",
+      "gloss": "don't hold your breath",
+      "extras": {
+        "literal": "live on, horse, the grass is growing",
+        "example": "Riparare la strada? Campa cavallo che l'erba cresce!",
+        "example_en": "Fix the road? Don't hold your breath!"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "non-fa-niente",
+      "primary_form": "non fa niente",
+      "gloss": "never mind, it doesn't matter",
+      "extras": {
+        "literal": "it does nothing",
+        "example": "Ho dimenticato il libro. — Non fa niente.",
+        "example_en": "I've forgotten the book. — Never mind."
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "seguire",
+      "primary_form": "seguire",
+      "gloss": "to follow",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "seguito",
+        "example": "Mi segua, prego.",
+        "example_en": "Follow me, please."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "seguo",
+          "2s": "segui",
+          "3s": "segue",
+          "1p": "seguiamo",
+          "2p": "seguite",
+          "3p": "seguono"
+        },
+        "passato-prossimo": {
+          "1s": "ho seguito",
+          "2s": "hai seguito",
+          "3s": "ha seguito",
+          "1p": "abbiamo seguito",
+          "2p": "avete seguito",
+          "3p": "hanno seguito"
+        },
+        "imperfetto": {
+          "1s": "seguivo",
+          "2s": "seguivi",
+          "3s": "seguiva",
+          "1p": "seguivamo",
+          "2p": "seguivate",
+          "3p": "seguivano"
+        },
+        "futuro-semplice": {
+          "1s": "seguirò",
+          "2s": "seguirai",
+          "3s": "seguirà",
+          "1p": "seguiremo",
+          "2p": "seguirete",
+          "3p": "seguiranno"
+        },
+        "condizionale": {
+          "1s": "seguirei",
+          "2s": "seguiresti",
+          "3s": "seguirebbe",
+          "1p": "seguiremmo",
+          "2p": "seguireste",
+          "3p": "seguirebbero"
+        },
+        "congiuntivo": {
+          "1s": "segua",
+          "2s": "segua",
+          "3s": "segua",
+          "1p": "seguiamo",
+          "2p": "seguiate",
+          "3p": "seguano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "libreria",
+      "primary_form": "libreria",
+      "gloss": "bookshop; bookcase",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "librerie",
+        "example": "Ho comprato questo libro in libreria.",
+        "example_en": "I bought this book at the bookshop."
+      },
+      "tags": [
+        "falsi-amici",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "essere-nato-con-la-camicia",
+      "primary_form": "essere nato con la camicia",
+      "gloss": "to be born lucky",
+      "extras": {
+        "literal": "to be born with a shirt on",
+        "example": "Vince sempre, è nato con la camicia.",
+        "example_en": "He always wins, he was born lucky."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "magazzino",
+      "primary_form": "magazzino",
+      "gloss": "warehouse, storeroom",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "magazzini",
+        "example": "La merce è ancora in magazzino.",
+        "example_en": "The goods are still in the warehouse."
+      },
+      "tags": [
+        "falsi-amici",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "appena",
+      "primary_form": "appena",
+      "gloss": "as soon as",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Ti chiamo appena arrivo.",
+        "example_en": "I'll call you as soon as I arrive."
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "distrutto",
+      "primary_form": "distrutto",
+      "gloss": "shattered, exhausted (informal); destroyed",
+      "extras": {
+        "forms": {
+          "ms": "distrutto",
+          "fs": "distrutta",
+          "mp": "distrutti",
+          "fp": "distrutte"
+        },
+        "example": "Dopo il trasloco ero distrutto.",
+        "example_en": "After the move I was shattered."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "che-ne-so",
+      "primary_form": "che ne so",
+      "gloss": "how should I know?",
+      "extras": {
+        "literal": "what do I know of it",
+        "example": "Dov'è andato? Che ne so io!",
+        "example_en": "Where's he gone? How should I know!"
+      },
+      "tags": [
+        "expressions",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro",
+        "registro"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "scegliere",
+      "primary_form": "scegliere",
+      "gloss": "to choose",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "scelto",
+        "example": "Scegli tu il ristorante.",
+        "example_en": "You choose the restaurant."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "scelgo",
+          "2s": "scegli",
+          "3s": "sceglie",
+          "1p": "scegliamo",
+          "2p": "scegliete",
+          "3p": "scelgono"
+        },
+        "passato-prossimo": {
+          "1s": "ho scelto",
+          "2s": "hai scelto",
+          "3s": "ha scelto",
+          "1p": "abbiamo scelto",
+          "2p": "avete scelto",
+          "3p": "hanno scelto"
+        },
+        "imperfetto": {
+          "1s": "sceglievo",
+          "2s": "sceglievi",
+          "3s": "sceglieva",
+          "1p": "sceglievamo",
+          "2p": "sceglievate",
+          "3p": "sceglievano"
+        },
+        "futuro-semplice": {
+          "1s": "sceglierò",
+          "2s": "sceglierai",
+          "3s": "sceglierà",
+          "1p": "sceglieremo",
+          "2p": "sceglierete",
+          "3p": "sceglieranno"
+        },
+        "condizionale": {
+          "1s": "sceglierei",
+          "2s": "sceglieresti",
+          "3s": "sceglierebbe",
+          "1p": "sceglieremmo",
+          "2p": "scegliereste",
+          "3p": "sceglierebbero"
+        },
+        "congiuntivo": {
+          "1s": "scelga",
+          "2s": "scelga",
+          "3s": "scelga",
+          "1p": "scegliamo",
+          "2p": "scegliate",
+          "3p": "scelgano"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "essere-come-il-prezzemolo",
+      "primary_form": "essere come il prezzemolo",
+      "gloss": "to turn up everywhere",
+      "extras": {
+        "literal": "to be like parsley",
+        "example": "Quel ragazzo è come il prezzemolo, è a ogni festa.",
+        "example_en": "That guy turns up everywhere, he's at every party."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "biblioteca",
+      "primary_form": "biblioteca",
+      "gloss": "library",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "biblioteche",
+        "example": "Studio in biblioteca tutti i pomeriggi.",
+        "example_en": "I study in the library every afternoon."
+      },
+      "tags": [
+        "falsi-amici",
+        "femminile"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "title": "Sperare e temere",
+      "word_ids": [
+        "sperare",
+        "temere",
+        "paura",
+        "riuscire",
+        "crescere",
+        "mentire",
+        "servire"
+      ],
+      "page_id": "it-congiuntivo",
+      "subtitle": "To hope, fear, manage, grow up, lie and need"
+    },
+    {
+      "title": "Ridere e sorridere",
+      "word_ids": [
+        "sparire",
+        "buttare",
+        "seguire",
+        "ridere",
+        "sorridere",
+        "scegliere"
+      ],
+      "page_id": "it-condizionale",
+      "subtitle": "To disappear, throw away, follow, laugh, smile, choose"
+    },
+    {
+      "title": "Promettere e permettere",
+      "word_ids": [
+        "riflettere",
+        "ottenere",
+        "permettere",
+        "promettere",
+        "costruire",
+        "proporre"
+      ],
+      "page_id": "it-relative-pronouns",
+      "subtitle": "To reflect, get, allow, promise, build, suggest"
+    },
+    {
+      "title": "L'italiano parlato",
+      "word_ids": [
+        "boh",
+        "mica",
+        "tipo",
+        "un-sacco",
+        "che-figata",
+        "vabbe",
+        "che-ne-so"
+      ],
+      "page_id": "it-register",
+      "subtitle": "Dunno, not at all, like, loads, cool, oh well"
+    },
+    {
+      "title": "Falsi amici",
+      "word_ids": [
+        "camera",
+        "parente",
+        "fattoria",
+        "libreria",
+        "magazzino",
+        "biblioteca"
+      ],
+      "page_id": "it-false-friends",
+      "subtitle": "Room, relative, farm, bookshop, warehouse, library"
+    },
+    {
+      "title": "In bocca al lupo",
+      "word_ids": [
+        "in-bocca-al-lupo",
+        "avere-le-mani-bucate",
+        "costare-un-occhio-della-testa",
+        "piove-a-catinelle",
+        "non-vedo-l-ora",
+        "essere-al-verde",
+        "prendere-in-giro",
+        "dormire-come-un-ghiro"
+      ],
+      "page_id": "it-idioms",
+      "subtitle": "Good luck, broke, pouring, can't wait, teasing"
+    },
+    {
+      "title": "Storia e cultura",
+      "word_ids": [
+        "passato",
+        "storia",
+        "futuro",
+        "guerra",
+        "pace",
+        "cultura"
+      ],
+      "page_id": "it-passato-remoto",
+      "subtitle": "Past, history, future, war, peace and culture"
+    },
+    {
+      "title": "Benché e purché",
+      "word_ids": [
+        "sebbene",
+        "affinche",
+        "prima-che",
+        "a-meno-che",
+        "purche",
+        "nonostante",
+        "anche-se",
+        "dato-che",
+        "appena"
+      ],
+      "page_id": "it-nuance-conjunctions",
+      "subtitle": "Although, so that, before, unless, as long as"
+    },
+    {
+      "title": "Ricordarsi e lamentarsi",
+      "word_ids": [
+        "ricordarsi",
+        "occuparsi",
+        "sbagliarsi",
+        "preoccuparsi",
+        "lamentarsi",
+        "ci-vediamo"
+      ],
+      "page_id": "it-si-impersonale",
+      "subtitle": "To remember, deal with, be wrong, worry, complain"
+    },
+    {
+      "title": "Aggettivi ingannevoli",
+      "word_ids": [
+        "attuale",
+        "eventuale",
+        "sensibile",
+        "largo",
+        "educato",
+        "morbido"
+      ],
+      "subtitle": "Current, possible, sensitive, wide, polite, soft"
+    },
+    {
+      "title": "Il carattere",
+      "word_ids": [
+        "solo",
+        "preoccupato",
+        "orgoglioso",
+        "geloso",
+        "generoso",
+        "stupido",
+        "furbo"
+      ],
+      "subtitle": "Alone, worried, proud, jealous, generous, crafty"
+    },
+    {
+      "title": "Importante e necessario",
+      "word_ids": [
+        "importante",
+        "necessario",
+        "possibile",
+        "dolce",
+        "fresco",
+        "falso",
+        "distrutto"
+      ],
+      "subtitle": "Important, necessary, possible, sweet, fresh, fake"
+    },
+    {
+      "title": "Società e politica",
+      "word_ids": [
+        "societa",
+        "governo",
+        "legge",
+        "diritto",
+        "liberta",
+        "uguaglianza",
+        "elezione",
+        "ambiente",
+        "inquinamento",
+        "lingua"
+      ],
+      "subtitle": "Society, government, law, rights, freedom, elections"
+    },
+    {
+      "title": "Problemi e soluzioni",
+      "word_ids": [
+        "problema",
+        "soluzione",
+        "ragione",
+        "opinione",
+        "idea",
+        "scelta",
+        "fortuna",
+        "successo",
+        "fallimento"
+      ],
+      "subtitle": "Problem, solution, reason, opinion, idea, choice, luck"
+    },
+    {
+      "title": "Magari!",
+      "word_ids": [
+        "magari",
+        "insomma",
+        "ci-mancherebbe",
+        "non-ci-posso-credere",
+        "che-schifo",
+        "tanto",
+        "a-proposito"
+      ],
+      "subtitle": "If only, well, don't mention it, yuck, by the way"
+    },
+    {
+      "title": "Per carità",
+      "word_ids": [
+        "per-carita",
+        "non-mi-va",
+        "mi-raccomando",
+        "ecco",
+        "beh",
+        "non-fa-niente"
+      ],
+      "subtitle": "Heaven forbid, I don't feel like it, never mind"
+    },
+    {
+      "title": "Acqua in bocca",
+      "word_ids": [
+        "acqua-in-bocca",
+        "essere-in-gamba",
+        "fare-quattro-chiacchiere",
+        "non-avere-peli-sulla-lingua",
+        "cadere-dalle-nuvole",
+        "rompere-le-scatole",
+        "ogni-morte-di-papa",
+        "essere-una-buona-forchetta",
+        "andare-a-gonfie-vele",
+        "fare-una-figuraccia"
+      ],
+      "subtitle": "Mum's the word, capable, a chat, taken aback"
+    },
+    {
+      "title": "Fare bella figura",
+      "word_ids": [
+        "fare-bella-figura",
+        "tagliare-la-corda",
+        "l-abito-non-fa-il-monaco",
+        "meglio-tardi-che-mai",
+        "alzare-il-gomito",
+        "fare-il-ponte",
+        "chi-dorme-non-piglia-pesci",
+        "avere-la-testa-fra-le-nuvole",
+        "essere-al-settimo-cielo",
+        "campanilismo"
+      ],
+      "subtitle": "Good impressions, slipping away, the early bird"
+    },
+    {
+      "title": "Un diavolo per capello",
+      "word_ids": [
+        "stare-con-le-mani-in-mano",
+        "menefreghismo",
+        "passeggiata",
+        "avere-un-diavolo-per-capello",
+        "aperitivo",
+        "non-tutte-le-ciambelle-riescono-col-buco",
+        "avere-la-coda-di-paglia",
+        "campa-cavallo-che-l-erba-cresce",
+        "essere-nato-con-la-camicia",
+        "essere-come-il-prezzemolo"
+      ],
+      "subtitle": "Idle hands, foul moods, the evening stroll, aperitivo"
+    },
+    {
+      "title": "Sentimenti",
+      "word_ids": [
+        "gioia",
+        "rabbia",
+        "vergogna",
+        "ricordo",
+        "memoria",
+        "sogno",
+        "speranza",
+        "amore",
+        "amicizia",
+        "nostalgia"
+      ],
+      "subtitle": "Joy, anger, shame, memories, dreams, hope and love"
+    },
+    {
+      "title": "Comunque, anzi, perciò",
+      "word_ids": [
+        "comunque",
+        "anzi",
+        "in-realta",
+        "del-resto",
+        "per-di-piu",
+        "percio",
+        "cosi",
+        "in-effetti",
+        "finalmente"
+      ],
+      "subtitle": "Anyway, on the contrary, actually, so, at last"
+    }
+  ]
+}

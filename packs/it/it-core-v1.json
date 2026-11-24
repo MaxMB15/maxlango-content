@@ -1,0 +1,907 @@
+{
+  "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
+  "id": "it-core-v1",
+  "version": 1,
+  "language": "it",
+  "name": "Italiano · L'essenziale",
+  "author": "Max Boksem",
+  "license": "CC-BY-SA-4.0",
+  "profile_delta": [
+    {
+      "id": "home",
+      "kind": "topic",
+      "label": "Casa",
+      "labelGloss": "home",
+      "dependsOn": [
+        "genere"
+      ]
+    },
+    {
+      "id": "food",
+      "kind": "topic",
+      "label": "Cibo",
+      "labelGloss": "food",
+      "dependsOn": [
+        "genere"
+      ]
+    },
+    {
+      "id": "connettivi",
+      "kind": "topic",
+      "label": "Connettivi",
+      "labelGloss": "connectives",
+      "dependsOn": [
+        "conn-contrast",
+        "conn-cause",
+        "conn-addition",
+        "conn-sequence"
+      ]
+    },
+    {
+      "id": "congiunzioni",
+      "kind": "topic",
+      "label": "Congiunzioni",
+      "labelGloss": "conjunctions",
+      "dependsOn": [
+        "conj-coordinating",
+        "conj-subordinating"
+      ]
+    },
+    {
+      "id": "animals",
+      "kind": "topic",
+      "label": "Animali",
+      "labelGloss": "animals",
+      "dependsOn": [
+        "genere"
+      ]
+    },
+    {
+      "id": "nature",
+      "kind": "topic",
+      "label": "Natura",
+      "labelGloss": "nature",
+      "dependsOn": [
+        "genere"
+      ]
+    },
+    {
+      "id": "people",
+      "kind": "topic",
+      "label": "Persone",
+      "labelGloss": "people",
+      "dependsOn": [
+        "genere"
+      ]
+    },
+    {
+      "id": "objects",
+      "kind": "topic",
+      "label": "Oggetti",
+      "labelGloss": "objects",
+      "dependsOn": [
+        "genere"
+      ]
+    },
+    {
+      "id": "transport",
+      "kind": "topic",
+      "label": "Trasporti",
+      "labelGloss": "transport",
+      "dependsOn": [
+        "genere"
+      ]
+    },
+    {
+      "id": "time",
+      "kind": "topic",
+      "label": "Tempo",
+      "labelGloss": "time",
+      "dependsOn": [
+        "genere"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "misc",
+      "id": "it-articles-gender",
+      "title": "Il, lo, la and l'",
+      "body_md": "Every Italian noun is **masculine** or **feminine**, and the article shows which. Most masculine nouns end in **-o** and most feminine ones in **-a**. Nouns in **-e** can be either, so learn them with their article.\n\n| | masculine | feminine |\n| --- | --- | --- |\n| the (singular) | il gatto, lo zio, l'albero | la casa, l'amica |\n| the (plural) | i gatti, gli zii, gli alberi | le case, le amiche |\n| a, an | un gatto, uno zio, un albero | una casa, un'amica |\n\nUnlike English, the masculine article changes with the sound that follows it:\n\n- **Il** (plural **i**) is the ordinary one: *il libro*, *i libri*.\n- **Lo** (plural **gli**) goes before **s + consonant**, **z**, **gn**, **ps**, **x** and **y**: *lo studente*, *lo zucchero*, *gli gnocchi*. Its \"a\" is **uno**: *uno studente*.\n- **L'** goes before any vowel, in both genders: *l'albero*, *l'acqua*. In the plural the masculine becomes **gli** (*gli alberi*) and the feminine **le** (*le amiche*).\n- **Un'** with an apostrophe is feminine only: *un'amica* is a female friend, *un amico* a male one.\n\nThe article follows the word right after it, adjective or noun: *gli amici*, but *i vecchi amici*; *lo studente*, but *il bravo studente*.\n\n:::examples\n- Il gatto dorme sulla sedia. — The cat is sleeping on the chair.\n- La finestra è aperta. — The window is open.\n- L'acqua è fresca stamattina. — The water is cool this morning.\n- Ho un cane e una macchina. — I have a dog and a car.\n:::\n\nItalian uses the article far more than English. A general statement takes it, and so do countries: *Mi piace il caffè* (I like coffee), *L'Italia è lunga*.\n\nSo learn every noun with its article: **il gatto**, **la casa**, **lo zio**, never the noun alone. When the article is *l'*, learn the gender too: *l'acqua* is feminine, *l'albero* masculine.",
+      "extras": {
+        "examples": [
+          "Il gatto dorme sulla sedia.",
+          "La finestra è aperta.",
+          "L'acqua è fresca stamattina."
+        ],
+        "cloze": [
+          {
+            "sentence": "___ cane mangia.",
+            "blank": "Il"
+          },
+          {
+            "sentence": "___ zaini sono pesanti.",
+            "blank": "Gli"
+          }
+        ],
+        "unlocks": [
+          "concept:it-articles"
+        ],
+        "explains": [
+          "articoli"
+        ]
+      },
+      "tags": [
+        "articoli",
+        "genere"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "finestra",
+      "primary_form": "finestra",
+      "gloss": "window",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "finestre",
+        "example": "Puoi aprire la finestra?",
+        "example_en": "Can you open the window?"
+      },
+      "tags": [
+        "home",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "gatto",
+      "primary_form": "gatto",
+      "gloss": "cat",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "gatti",
+        "example": "Il gatto dorme sul divano.",
+        "example_en": "The cat is sleeping on the sofa."
+      },
+      "tags": [
+        "animals",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cane",
+      "primary_form": "cane",
+      "gloss": "dog",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "cani",
+        "example": "Il mio cane ama giocare fuori.",
+        "example_en": "My dog loves playing outside."
+      },
+      "tags": [
+        "animals",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "casa",
+      "primary_form": "casa",
+      "gloss": "house; home",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "case",
+        "example": "La loro casa è vicino al mare.",
+        "example_en": "Their house is near the sea."
+      },
+      "tags": [
+        "home",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "libro",
+      "primary_form": "libro",
+      "gloss": "book",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "libri",
+        "example": "Leggo un libro la sera.",
+        "example_en": "I read a book in the evening."
+      },
+      "tags": [
+        "objects",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "acqua",
+      "primary_form": "acqua",
+      "gloss": "water",
+      "extras": {
+        "gender": "f",
+        "article": "l'",
+        "example": "Vorrei un bicchiere d'acqua.",
+        "example_en": "I'd like a glass of water."
+      },
+      "tags": [
+        "food",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pane",
+      "primary_form": "pane",
+      "gloss": "bread",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "example": "Il pane è ancora caldo.",
+        "example_en": "The bread is still warm."
+      },
+      "tags": [
+        "food",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "tavolo",
+      "primary_form": "tavolo",
+      "gloss": "table",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "tavoli",
+        "example": "Le chiavi sono sul tavolo.",
+        "example_en": "The keys are on the table."
+      },
+      "tags": [
+        "home",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "sedia",
+      "primary_form": "sedia",
+      "gloss": "chair",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "sedie",
+        "example": "Prendi una sedia e siediti.",
+        "example_en": "Take a chair and sit down."
+      },
+      "tags": [
+        "home",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "porta",
+      "primary_form": "porta",
+      "gloss": "door",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "porte",
+        "example": "Qualcuno bussa alla porta.",
+        "example_en": "Someone is knocking at the door."
+      },
+      "tags": [
+        "home",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "macchina",
+      "primary_form": "macchina",
+      "gloss": "car",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "macchine",
+        "example": "La mia macchina è dal meccanico.",
+        "example_en": "My car is at the mechanic's."
+      },
+      "tags": [
+        "transport",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "albero",
+      "primary_form": "albero",
+      "gloss": "tree",
+      "extras": {
+        "gender": "m",
+        "article": "l'",
+        "plural": "alberi",
+        "example": "Quest'albero ha cento anni.",
+        "example_en": "This tree is a hundred years old."
+      },
+      "tags": [
+        "nature",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "sole",
+      "primary_form": "sole",
+      "gloss": "sun",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "example": "Oggi c'è il sole.",
+        "example_en": "It's sunny today."
+      },
+      "tags": [
+        "nature",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "notte",
+      "primary_form": "notte",
+      "gloss": "night",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "notti",
+        "example": "Di notte fa freddo.",
+        "example_en": "It's cold at night."
+      },
+      "tags": [
+        "time",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "amico",
+      "primary_form": "amico",
+      "gloss": "friend (male)",
+      "extras": {
+        "gender": "m",
+        "article": "l'",
+        "plural": "amici",
+        "example": "È il mio migliore amico.",
+        "example_en": "He's my best friend."
+      },
+      "tags": [
+        "people",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "bambino",
+      "primary_form": "bambino",
+      "gloss": "child; little boy",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "bambini",
+        "example": "Il bambino gioca con la palla.",
+        "example_en": "The child is playing with the ball."
+      },
+      "tags": [
+        "people",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "mangiare",
+      "primary_form": "mangiare",
+      "gloss": "to eat",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "mangiato",
+        "example": "Mangiamo a mezzogiorno.",
+        "example_en": "We eat at noon."
+      },
+      "tags": [
+        "presente",
+        "food"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "mangio",
+          "2s": "mangi",
+          "3s": "mangia",
+          "1p": "mangiamo",
+          "2p": "mangiate",
+          "3p": "mangiano"
+        },
+        "passato-prossimo": {
+          "1s": "ho mangiato",
+          "2s": "hai mangiato",
+          "3s": "ha mangiato",
+          "1p": "abbiamo mangiato",
+          "2p": "avete mangiato",
+          "3p": "hanno mangiato"
+        },
+        "imperfetto": {
+          "1s": "mangiavo",
+          "2s": "mangiavi",
+          "3s": "mangiava",
+          "1p": "mangiavamo",
+          "2p": "mangiavate",
+          "3p": "mangiavano"
+        },
+        "futuro-semplice": {
+          "1s": "mangerò",
+          "2s": "mangerai",
+          "3s": "mangerà",
+          "1p": "mangeremo",
+          "2p": "mangerete",
+          "3p": "mangeranno"
+        },
+        "condizionale": {
+          "1s": "mangerei",
+          "2s": "mangeresti",
+          "3s": "mangerebbe",
+          "1p": "mangeremmo",
+          "2p": "mangereste",
+          "3p": "mangerebbero"
+        },
+        "congiuntivo": {
+          "1s": "mangi",
+          "2s": "mangi",
+          "3s": "mangi",
+          "1p": "mangiamo",
+          "2p": "mangiate",
+          "3p": "mangino"
+        }
+      }
+    },
+    {
+      "kind": "verb",
+      "id": "bere",
+      "primary_form": "bere",
+      "gloss": "to drink",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "bevuto",
+        "example": "Bevi un caffè la mattina?",
+        "example_en": "Do you have a coffee in the morning?"
+      },
+      "tags": [
+        "presente",
+        "food"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "bevo",
+          "2s": "bevi",
+          "3s": "beve",
+          "1p": "beviamo",
+          "2p": "bevete",
+          "3p": "bevono"
+        },
+        "passato-prossimo": {
+          "1s": "ho bevuto",
+          "2s": "hai bevuto",
+          "3s": "ha bevuto",
+          "1p": "abbiamo bevuto",
+          "2p": "avete bevuto",
+          "3p": "hanno bevuto"
+        },
+        "imperfetto": {
+          "1s": "bevevo",
+          "2s": "bevevi",
+          "3s": "beveva",
+          "1p": "bevevamo",
+          "2p": "bevevate",
+          "3p": "bevevano"
+        },
+        "futuro-semplice": {
+          "1s": "berrò",
+          "2s": "berrai",
+          "3s": "berrà",
+          "1p": "berremo",
+          "2p": "berrete",
+          "3p": "berranno"
+        },
+        "condizionale": {
+          "1s": "berrei",
+          "2s": "berresti",
+          "3s": "berrebbe",
+          "1p": "berremmo",
+          "2p": "berreste",
+          "3p": "berrebbero"
+        },
+        "congiuntivo": {
+          "1s": "beva",
+          "2s": "beva",
+          "3s": "beva",
+          "1p": "beviamo",
+          "2p": "beviate",
+          "3p": "bevano"
+        }
+      }
+    },
+    {
+      "kind": "verb",
+      "id": "parlare",
+      "primary_form": "parlare",
+      "gloss": "to speak, to talk",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "parlato",
+        "example": "Lei parla tre lingue.",
+        "example_en": "She speaks three languages."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "parlo",
+          "2s": "parli",
+          "3s": "parla",
+          "1p": "parliamo",
+          "2p": "parlate",
+          "3p": "parlano"
+        },
+        "passato-prossimo": {
+          "1s": "ho parlato",
+          "2s": "hai parlato",
+          "3s": "ha parlato",
+          "1p": "abbiamo parlato",
+          "2p": "avete parlato",
+          "3p": "hanno parlato"
+        },
+        "imperfetto": {
+          "1s": "parlavo",
+          "2s": "parlavi",
+          "3s": "parlava",
+          "1p": "parlavamo",
+          "2p": "parlavate",
+          "3p": "parlavano"
+        },
+        "futuro-semplice": {
+          "1s": "parlerò",
+          "2s": "parlerai",
+          "3s": "parlerà",
+          "1p": "parleremo",
+          "2p": "parlerete",
+          "3p": "parleranno"
+        },
+        "condizionale": {
+          "1s": "parlerei",
+          "2s": "parleresti",
+          "3s": "parlerebbe",
+          "1p": "parleremmo",
+          "2p": "parlereste",
+          "3p": "parlerebbero"
+        },
+        "congiuntivo": {
+          "1s": "parli",
+          "2s": "parli",
+          "3s": "parli",
+          "1p": "parliamo",
+          "2p": "parliate",
+          "3p": "parlino"
+        }
+      }
+    },
+    {
+      "kind": "verb",
+      "id": "andare",
+      "primary_form": "andare",
+      "gloss": "to go",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "andato",
+        "example": "Domani vado al mare.",
+        "example_en": "Tomorrow I'm going to the seaside.",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "andato",
+            "andata"
+          ],
+          "passato-prossimo.2s": [
+            "andato",
+            "andata"
+          ],
+          "passato-prossimo.3s": [
+            "andato",
+            "andata"
+          ],
+          "passato-prossimo.1p": [
+            "andati",
+            "andate"
+          ],
+          "passato-prossimo.2p": [
+            "andati",
+            "andate"
+          ],
+          "passato-prossimo.3p": [
+            "andati",
+            "andate"
+          ]
+        }
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "vado",
+          "2s": "vai",
+          "3s": "va",
+          "1p": "andiamo",
+          "2p": "andate",
+          "3p": "vanno"
+        },
+        "passato-prossimo": {
+          "1s": "sono andato/a",
+          "2s": "sei andato/a",
+          "3s": "è andato/a",
+          "1p": "siamo andati/e",
+          "2p": "siete andati/e",
+          "3p": "sono andati/e"
+        },
+        "imperfetto": {
+          "1s": "andavo",
+          "2s": "andavi",
+          "3s": "andava",
+          "1p": "andavamo",
+          "2p": "andavate",
+          "3p": "andavano"
+        },
+        "futuro-semplice": {
+          "1s": "andrò",
+          "2s": "andrai",
+          "3s": "andrà",
+          "1p": "andremo",
+          "2p": "andrete",
+          "3p": "andranno"
+        },
+        "condizionale": {
+          "1s": "andrei",
+          "2s": "andresti",
+          "3s": "andrebbe",
+          "1p": "andremmo",
+          "2p": "andreste",
+          "3p": "andrebbero"
+        },
+        "congiuntivo": {
+          "1s": "vada",
+          "2s": "vada",
+          "3s": "vada",
+          "1p": "andiamo",
+          "2p": "andiate",
+          "3p": "vadano"
+        }
+      }
+    },
+    {
+      "kind": "connective",
+      "id": "pero",
+      "primary_form": "però",
+      "gloss": "but, however",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "Piove, però usciamo lo stesso.",
+        "example_en": "It's raining, but we're going out anyway."
+      },
+      "tags": [
+        "connettivi"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "infatti",
+      "primary_form": "infatti",
+      "gloss": "indeed, and in fact",
+      "extras": {
+        "role": "conn-cause",
+        "example": "Sono stanco; infatti stanotte non ho dormito.",
+        "example_en": "I'm tired; in fact, I didn't sleep last night."
+      },
+      "tags": [
+        "connettivi"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "inoltre",
+      "primary_form": "inoltre",
+      "gloss": "moreover, besides",
+      "extras": {
+        "role": "conn-addition",
+        "example": "Il film è lungo, inoltre è noioso.",
+        "example_en": "The film is long; besides, it's boring."
+      },
+      "tags": [
+        "connettivi"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "poi",
+      "primary_form": "poi",
+      "gloss": "then",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "Prima mangiamo, poi usciamo.",
+        "example_en": "First we eat, then we go out."
+      },
+      "tags": [
+        "connettivi"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "ma",
+      "primary_form": "ma",
+      "gloss": "but",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Voglio venire, ma non ho tempo.",
+        "example_en": "I want to come, but I don't have time."
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "quindi",
+      "primary_form": "quindi",
+      "gloss": "so, therefore",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Fa freddo, quindi metto il cappotto.",
+        "example_en": "It's cold, so I'm putting my coat on."
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "perche",
+      "primary_form": "perché",
+      "gloss": "because",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Resto a casa perché sono stanco.",
+        "example_en": "I'm staying home because I'm tired."
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "benche",
+      "primary_form": "benché",
+      "gloss": "although",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Benché sia tardi, resto ancora un po'.",
+        "example_en": "Although it's late, I'm staying a little longer."
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-plural",
+      "title": "Plurals: -i, -e, and the ones that stay",
+      "body_md": "An Italian plural changes the last vowel of the noun, and the article changes with it: *il libro*, *i libri*; *la casa*, *le case*.\n\n| Singular ends in | Plural | Example |\n| --- | --- | --- |\n| -o (mostly masculine) | -i | il libro, i libri |\n| -a (feminine) | -e | la casa, le case |\n| -a (masculine) | -i | il problema, i problemi |\n| -e (either gender) | -i | il cane, i cani; la notte, le notti |\n\n## Nouns that don't change\n\n- Nouns stressed on the last vowel, the ones with a written accent: *la città*, *le città*; *il caffè*, *i caffè*.\n- Nouns that end in a consonant, mostly borrowed: *il film*, *i film*; *lo sport*, *gli sport*; *il bar*, *i bar*.\n- Shortened words: *la foto*, *le foto*; *la moto*, *le moto*; *il cinema*, *i cinema*.\n\nOnly the article tells you these are plural, so listen for it.\n\n## Keeping the hard sound\n\n- **-ca** and **-ga** always keep the hard sound with an h: *l'amica*, *le amiche*; *la banca*, *le banche*.\n- **-co** and **-go** usually do too: *il gioco*, *i giochi*; *il lago*, *i laghi*. Some soften instead, and those you just learn: *l'amico*, *gli amici*; *il medico*, *i medici*.\n- **-cia** and **-gia** drop the i after a consonant (*l'arancia*, *le arance*; *la spiaggia*, *le spiagge*) and keep it after a vowel (*la camicia*, *le camicie*).\n\n## Irregular plurals\n\n- *l'uomo* (man), *gli uomini*\n- *la mano* (hand) is feminine though it ends in -o: *le mani*\n- *il braccio* (arm), *le braccia*; *il dito* (finger), *le dita*; *l'uovo* (egg), *le uova*. These turn feminine in the plural and end in -a.\n\nAdjectives follow the same patterns: *un libro rosso*, *due libri rossi*; *una casa bianca*, *due case bianche*.\n\n:::examples\n- Ho due gatti e un cane. — I have two cats and a dog.\n- Le città italiane sono bellissime. — Italian cities are beautiful.\n- Mi fanno male le braccia. — My arms hurt.\n- Gli uomini aspettano fuori. — The men are waiting outside.\n:::",
+      "extras": {
+        "explains": [
+          "plurale"
+        ]
+      },
+      "tags": [
+        "plurale"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-coordinating-conjunctions",
+      "title": "E, ma, o and quindi",
+      "body_md": "A coordinating conjunction joins two words, or two clauses of the same kind, and leaves both as they are.\n\n| Italian | English |\n| --- | --- |\n| e | and |\n| ma | but |\n| o, oppure | or |\n| quindi | so, therefore |\n| però | but, however |\n| né ... né | neither ... nor |\n| anzi | in fact, or rather |\n\n:::examples\n- Ho un fratello e una sorella. — I have a brother and a sister.\n- Vuoi un tè o un caffè? — Do you want tea or coffee?\n- Voglio venire, ma non ho tempo. — I want to come, but I don't have time.\n- Fa freddo, quindi metto il cappotto. — It's cold, so I'm putting my coat on.\n:::\n\n## E or ed?\n\nBefore a word that starts with **e**, *e* often becomes **ed** so the two vowels don't run together: *io ed Elena*. **A** (to) does the same and becomes **ad**: *ad Anna*. Don't confuse **e** (and) with **è** (is): the accent is the whole difference.\n\n## Né ... né\n\n*Né* usually comes twice. When the verb comes first, it takes **non**: *Non bevo né tè né caffè* (I drink neither tea nor coffee).\n\n## Anzi\n\n*Anzi* corrects what you just said, going one better: *Non è brutto, anzi, è bellissimo* (It isn't ugly; in fact, it's beautiful).",
+      "extras": {
+        "explains": [
+          "conj-coordinating"
+        ]
+      },
+      "tags": [
+        "conj-coordinating"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-subordinating-conjunctions",
+      "title": "Che, quando, se and perché",
+      "body_md": "A subordinating conjunction starts a clause that depends on the main clause: *Resto a casa **perché** sono stanco.* The word order inside that clause stays as it is. What some conjunctions change is the mood of the verb.\n\n| Italian | English |\n| --- | --- |\n| che | that |\n| quando | when |\n| se | if, whether |\n| perché | because |\n| mentre | while |\n| siccome | since, as (at the start of the sentence) |\n| benché, sebbene | although |\n| affinché | so that |\n| prima che | before |\n\n## Che stays\n\nEnglish can leave out *that*. Italian can't leave out *che*: *Dice **che** arriva domani* (He says he's arriving tomorrow).\n\n## Some take the congiuntivo\n\n**Benché**, **sebbene**, **affinché**, **prima che** and **a meno che** always take the congiuntivo (subjunctive): *Benché **sia** tardi, resto ancora un po'.* Most others, *perché*, *quando*, *se* and *mentre* among them, take the ordinary indicative.\n\n## Perché has two jobs\n\n*Perché* means \"why?\" in a question and \"because\" in the answer: *Perché ridi? Perché sei buffo!* With the congiuntivo it can also mean \"so that\".\n\n## Se and quando\n\nAfter *se* and *quando*, careful Italian puts a future time in the future tense, where English uses the present: *Quando **arriverai**, chiamami* (When you arrive, call me). In speech the present is common too.\n\n:::examples\n- Penso che arrivi domani. — I think he's arriving tomorrow.\n- Leggo quando piove. — I read when it rains.\n- Usciamo se vuoi. — We'll go out if you want.\n- Resto a casa perché sono stanco. — I'm staying home because I'm tired.\n:::",
+      "extras": {
+        "explains": [
+          "conj-subordinating"
+        ]
+      },
+      "tags": [
+        "conj-subordinating"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-contrast-connectives",
+      "title": "Però, tuttavia and invece",
+      "body_md": "A contrast connective says that what comes next goes against what came before, or against what you'd expect.\n\n| Italian | English |\n| --- | --- |\n| però | but, however |\n| tuttavia | however, nevertheless |\n| invece | instead, on the other hand |\n| comunque | anyway, all the same |\n| eppure | and yet |\n| al contrario | on the contrary |\n\n## Which one?\n\n- **Però** is the everyday one. Unlike *ma*, it can move into the clause: *È ricco, però non è felice*, or *È ricco, non è però felice*.\n- **Tuttavia** says the same more formally, and suits writing.\n- **Eppure** carries surprise, something true against all expectation: *Ha studiato tanto, eppure non ha passato l'esame.*\n- **Invece** sets two people or facts side by side, often after the subject: *Io bevo vino, mio fratello invece beve birra.* It also means \"instead\": *Volevo uscire, invece sono rimasto a casa.*\n- **Comunque** means \"anyway\": whatever was just said, this still holds.\n\n## Ma and benché\n\n**Ma** (but) is the plain way to set up a contrast, and it always comes first in its clause. **Benché** (although) starts a subordinate clause and takes the congiuntivo: *Benché **sia** ricco, non è felice.*\n\n:::examples\n- Piove, però usciamo lo stesso. — It's raining, but we're going out anyway.\n- È difficile; tuttavia, è possibile. — It's difficult; nevertheless, it's possible.\n- Io bevo vino, mio fratello invece beve birra. — I drink wine; my brother, on the other hand, drinks beer.\n:::",
+      "extras": {
+        "explains": [
+          "conn-contrast"
+        ]
+      },
+      "tags": [
+        "conn-contrast"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-cause-connectives",
+      "title": "Infatti and in effetti",
+      "body_md": "A cause connective backs up what was just said: it gives the reason, or the proof.\n\n| Italian | English |\n| --- | --- |\n| infatti | indeed, and in fact |\n| in effetti | actually, it's true that |\n| in realtà | actually, in reality |\n\n**Infatti** confirms what came before with a fact that proves it: *Sono stanco; infatti stanotte non ho dormito.* In a conversation it agrees: *Sembrava nervoso. — Infatti!* (He seemed nervous. — He was, wasn't he!) It doesn't correct anything, which is where English speakers go wrong.\n\n**In effetti** admits that something is true, often a point the other person made: *In effetti hai ragione.* **In realtà** is the one that corrects: *Sembra facile, ma in realtà è difficile.*\n\n## Perché, siccome and dato che\n\n- **Perché** is the everyday \"because\": *Resto a casa perché sono stanco.*\n- **Siccome** puts the reason first, at the start of the sentence: *Siccome piove, restiamo a casa.*\n- **Dato che** and **visto che** give a reason both sides already know: *Visto che sei qui, aiutami.*\n- **Poiché** says the same in formal writing.\n\n:::examples\n- Sono stanco; infatti stanotte non ho dormito. — I'm tired; in fact, I didn't sleep last night.\n- In effetti hai ragione tu. — Actually, you're right.\n- Siccome piove, restiamo a casa. — Since it's raining, we're staying home.\n:::",
+      "extras": {
+        "explains": [
+          "conn-cause"
+        ]
+      },
+      "tags": [
+        "conn-cause"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-addition-connectives",
+      "title": "Anche, inoltre and in più",
+      "body_md": "An addition connective adds one more point to what was said.\n\n| Italian | English |\n| --- | --- |\n| anche | also, too |\n| inoltre | moreover, besides |\n| in più | on top of that |\n| per di più | what's more |\n| oltretutto | on top of everything |\n| del resto | besides, after all |\n\n*In più* is the everyday one, *inoltre* suits writing, and *per di più* usually adds something worse.\n\nAt the start of a clause they change nothing else: *Inoltre, è troppo caro.*\n\n## Anche\n\n**Anche** goes right before the word it adds to, and moving it changes the meaning:\n\n- *Anche Marco parla francese.* (Marco speaks French too, as well as someone else.)\n- *Marco parla anche francese.* (Marco speaks French too, as well as other languages.)\n\n\"Me too\" is *anch'io*. The negative is **neanche** or **nemmeno**: *Non lo so neanch'io* (I don't know either).\n\n:::examples\n- Mi piace il tè, ma mi piace anche il caffè. — I like tea, but I like coffee too.\n- Il film è lungo, inoltre è noioso. — The film is long; besides, it's boring.\n- È in ritardo, e in più ha dimenticato le chiavi. — He's late, and on top of that he forgot the keys.\n:::",
+      "extras": {
+        "explains": [
+          "conn-addition"
+        ]
+      },
+      "tags": [
+        "conn-addition"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-sequence-connectives",
+      "title": "Prima, poi and infine",
+      "body_md": "Sequence connectives put events in order: first this, then that, and finally the last thing.\n\n| Italian | English |\n| --- | --- |\n| prima | first, before |\n| poi | then |\n| dopo | afterwards, later |\n| in seguito | subsequently |\n| infine | finally, lastly |\n| alla fine | in the end |\n| finalmente | at last |\n\nA story often runs *prima*, then *poi*, then *infine*: *Prima mangiamo, poi andiamo al cinema, infine torniamo a casa.*\n\n## Infine, alla fine or finalmente?\n\n- **Infine** brings in the last step of a list.\n- **Alla fine** says how things turned out, often not as planned: *Abbiamo discusso a lungo, e alla fine siamo rimasti a casa.*\n- **Finalmente** means \"at last\", after a wait: *Finalmente siamo arrivati!* It never introduces the last point of a list. That's the classic mistake.\n\n## Prima di, dopo\n\n*Prima* and *dopo* also work as prepositions. Before a noun or a verb, *prima* takes **di**: *prima di cena*, *prima di uscire*. *Dopo* usually takes nothing: *dopo cena*, *dopo la lezione*.\n\n:::examples\n- Prima mangiamo, poi usciamo. — First we eat, then we go out.\n- Apre la porta, poi entra. — He opens the door, then he goes in.\n- Finalmente siamo arrivati! — At last, we're here!\n:::",
+      "extras": {
+        "explains": [
+          "conn-sequence"
+        ]
+      },
+      "tags": [
+        "conn-sequence"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6199 @@
+{
+  "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
+  "id": "it-foundations-v1",
+  "version": 1,
+  "language": "it",
+  "name": "Italiano · Fondamenta (A1)",
+  "author": "Max Boksem",
+  "license": "CC-BY-SA-4.0",
+  "profile_delta": [
+    {
+      "id": "pronuncia",
+      "kind": "topic",
+      "label": "Pronuncia",
+      "labelGloss": "pronunciation",
+      "dependsOn": []
+    },
+    {
+      "id": "pronomi",
+      "kind": "topic",
+      "label": "Pronomi",
+      "labelGloss": "pronouns",
+      "dependsOn": [
+        "presente"
+      ]
+    },
+    {
+      "id": "domande",
+      "kind": "topic",
+      "label": "Domande",
+      "labelGloss": "asking questions",
+      "dependsOn": [
+        "presente"
+      ]
+    },
+    {
+      "id": "preposizioni",
+      "kind": "topic",
+      "label": "Preposizioni articolate",
+      "labelGloss": "prepositions joined to the article",
+      "dependsOn": [
+        "articoli"
+      ]
+    },
+    {
+      "id": "numeri",
+      "kind": "topic",
+      "label": "Numeri",
+      "labelGloss": "numbers",
+      "dependsOn": []
+    },
+    {
+      "id": "family",
+      "kind": "topic",
+      "label": "Famiglia",
+      "labelGloss": "family",
+      "dependsOn": [
+        "articoli"
+      ]
+    },
+    {
+      "id": "body",
+      "kind": "topic",
+      "label": "Corpo",
+      "labelGloss": "body",
+      "dependsOn": [
+        "articoli"
+      ]
+    },
+    {
+      "id": "city",
+      "kind": "topic",
+      "label": "Città",
+      "labelGloss": "city and places",
+      "dependsOn": [
+        "articoli"
+      ]
+    },
+    {
+      "id": "greetings",
+      "kind": "topic",
+      "label": "Saluti",
+      "labelGloss": "greetings and politeness",
+      "dependsOn": []
+    },
+    {
+      "id": "colors",
+      "kind": "topic",
+      "label": "Colori",
+      "labelGloss": "colours",
+      "dependsOn": [
+        "aggettivi"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "misc",
+      "id": "it-pronunciation",
+      "title": "Reading Italian aloud",
+      "body_md": "Italian is spelled almost exactly as it sounds. Learn a handful of rules and you can read any word aloud. The vowels are always pure: *a, e, i, o, u* never glide the way English vowels do, and a final vowel is always pronounced.\n\n## Double consonants\n\nA double consonant is held longer, with a tiny pause before it, and it changes the meaning: *[pala](lango:say)* (shovel) and *[palla](lango:say)* (ball), *[caro](lango:say)* (dear) and *[carro](lango:say)* (cart), *[sete](lango:say)* (thirst) and *[sette](lango:say)* (seven), *[nono](lango:say)* (ninth) and *[nonno](lango:say)* (grandfather). English speakers tend to skip the difference. Italians hear it at once.\n\n## C and g\n\n| Spelling | Sound | Example |\n| --- | --- | --- |\n| ca, co, cu, chi, che | \"k\" | *[casa](lango:say)*, *[chi](lango:say)* |\n| ci, ce, cia, cio, ciu | \"ch\" as in church | *[cena](lango:say)*, *[ciao](lango:say)* |\n| ga, go, gu, ghi, ghe | \"g\" as in go | *[gatto](lango:say)*, *[spaghetti](lango:say)* |\n| gi, ge, gia, gio, giu | \"j\" as in jam | *[gelato](lango:say)*, *[giorno](lango:say)* |\n\nThe **h** is what keeps c and g hard before i and e: *[chiave](lango:say)*, *[funghi](lango:say)*. The i in *cia*, *cio* and *giu* is usually silent, just a sign that the c or g is soft: *[ciao](lango:say)* sounds like \"chow\".\n\n## Gli, gn and sc\n\n- **gli** is like the \"lli\" in \"million\": *[figlio](lango:say)*, *[famiglia](lango:say)*, *[aglio](lango:say)*.\n- **gn** is like the \"ny\" in \"canyon\": *[bagno](lango:say)*, *[signora](lango:say)*, *[gnocchi](lango:say)*.\n- **sc** before i or e is \"sh\": *[pesce](lango:say)*, *[uscire](lango:say)*. Before a, o, u, or with an h, it is \"sk\": *[scuola](lango:say)*, *[schiena](lango:say)*.\n\n## Stress\n\nMost words are stressed on the second-to-last syllable: *[amico](lango:say)*, *[parlare](lango:say)*. A written accent marks a stressed final vowel: *[città](lango:say)*, *[perché](lango:say)*, *[caffè](lango:say)*. Many words put the stress further back with nothing to warn you: *[macchina](lango:say)*, *[telefono](lango:say)*. The -ano of a verb is never stressed: *[parlano](lango:say)*, *[lavorano](lango:say)*.\n\nAccents also tell short words apart: *[e](lango:say)* (and) and *[è](lango:say)* (is), *[si](lango:say)* (oneself) and *[sì](lango:say)* (yes), *[la](lango:say)* (the) and *[là](lango:say)* (there).\n\n## H and r\n\n**H** is always silent: *[ho](lango:say)* sounds like *o*. The **r** is a quick tap of the tongue, rolled longer when it's double: *[Roma](lango:say)*, *[birra](lango:say)*.\n\n:::examples\n- Ciao, come ti chiami? — Hi, what's your name?\n- Mio figlio ha sette anni. — My son is seven.\n- Il bagno è in fondo a destra. — The bathroom is at the end on the right.\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:it-pronunciation"
+        ],
+        "explains": [
+          "pronuncia"
+        ]
+      },
+      "tags": [
+        "pronuncia"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-subject-pronouns",
+      "title": "Io, tu and Lei",
+      "body_md": "An Italian verb ending already says who is doing the action, so the subject pronoun is usually left out: *Parlo italiano* (I speak Italian), *Siamo stanchi* (We're tired).\n\n| Person | Pronoun | English |\n| --- | --- | --- |\n| 1st singular | io | I |\n| 2nd singular | tu | you (one person, familiar) |\n| 3rd singular | lui / lei | he / she |\n| polite | Lei | you (one person, formal) |\n| 1st plural | noi | we |\n| 2nd plural | voi | you (several people) |\n| 3rd plural | loro | they |\n\n## When to say it\n\nAdd the pronoun only for emphasis or contrast: *Io lavoro e tu dormi!* (I'm working and you're asleep!), *Paga lui* (He's paying). Saying *io* in every sentence sounds pushy, and it's one of the surest signs of a beginner.\n\n## Tu or Lei?\n\nUse **tu** with friends, family, children and people your own age in relaxed settings. Use **Lei** with strangers, shop staff, colleagues you don't know well, and anyone older or senior. When in doubt, say *Lei*.\n\n**Lei** is the word for \"she\", used as a polite \"you\", and it takes the same verb form: *Come sta?* (How are you? to someone you call Lei) against *Come stai?* (to a friend). Moving to *tu* is usually offered: *Possiamo darci del tu?* (Shall we say tu?)\n\nTo several people, say **voi**, friends or not: *Voi di dove siete?* (Where are you all from?)\n\n## Loro and \"it\"\n\n*Loro* is the same for men, women and mixed groups. There's no everyday word for \"it\" as a subject; it's simply left out: *È bello* (It's beautiful), *Piove* (It's raining).\n\n:::examples\n- Tu parli italiano? — Do you speak Italian? (to a friend)\n- Lei parla italiano? — Do you speak Italian? (polite)\n- Voi siete pronti? — Are you all ready?\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:it-subject-pronouns"
+        ],
+        "explains": [
+          "pronomi"
+        ]
+      },
+      "tags": [
+        "pronomi"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-essere-avere",
+      "title": "Essere, avere and c'è",
+      "body_md": "**Essere** (to be) and **avere** (to have) are the two most important verbs in Italian. Both are irregular, and both are also the helper verbs of the past tense, so you'll use them constantly.\n\n| | essere | avere |\n| --- | --- | --- |\n| io | sono | ho |\n| tu | sei | hai |\n| lui / lei / Lei | è | ha |\n| noi | siamo | abbiamo |\n| voi | siete | avete |\n| loro | sono | hanno |\n\nThe h of *ho*, *hai*, *ha* and *hanno* is silent. It's only there to tell *ho* (I have) from *o* (or), and *ha* (has) from *a* (to).\n\n## Where Italian says \"have\" and English says \"be\"\n\n| Italian | Literally | English |\n| --- | --- | --- |\n| ho fame | I have hunger | I'm hungry |\n| ho sete | I have thirst | I'm thirsty |\n| ho caldo / freddo | I have heat / cold | I'm hot / cold |\n| ho sonno | I have sleep | I'm sleepy |\n| ho paura | I have fear | I'm scared |\n| ho ragione / torto | I have reason / wrong | I'm right / wrong |\n| ho vent'anni | I have twenty years | I'm twenty |\n| ho bisogno di... | I have need of | I need... |\n\nSaying *sono vent'anni* for your age is the classic beginner mistake. It means nothing.\n\n## C'è and ci sono\n\n\"There is\" is **c'è** and \"there are\" is **ci sono**: *C'è un bar qui vicino?* (Is there a café near here?), *In frigo ci sono le uova* (There are eggs in the fridge).\n\nDon't drop the *ci*. *È un problema* means \"It's a problem\"; *C'è un problema* means \"There's a problem\".\n\n:::examples\n- Sono di Milano, e tu? — I'm from Milan, and you?\n- Abbiamo una casa al mare. — We have a house by the sea.\n- Ci sono due bagni nell'appartamento. — There are two bathrooms in the flat.\n:::\n\n:::cloze{sentence=\"Ho ___, mangiamo?\" blank=\"fame\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:it-essere-avere"
+        ]
+      },
+      "tags": [
+        "presente"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-present-tense",
+      "title": "The present tense: -are, -ere, -ire",
+      "body_md": "Italian verbs fall into three groups by the ending of the infinitive. Learn the regular patterns and you can conjugate thousands of verbs.\n\n| | parlare | vendere | dormire | finire |\n| --- | --- | --- | --- | --- |\n| io | parlo | vendo | dormo | finisco |\n| tu | parli | vendi | dormi | finisci |\n| lui / lei | parla | vende | dorme | finisce |\n| noi | parliamo | vendiamo | dormiamo | finiamo |\n| voi | parlate | vendete | dormite | finite |\n| loro | parlano | vendono | dormono | finiscono |\n\n## -are verbs (parlare)\n\nThe biggest group, and nearly every new verb joins it. Remove **-are** and add **-o, -i, -a, -iamo, -ate, -ano**.\n\n## -ere verbs (vendere)\n\nRemove **-ere** and add **-o, -i, -e, -iamo, -ete, -ono**.\n\n## -ire verbs (dormire and finire)\n\nTwo kinds. A few, like *dormire*, *partire* and *aprire*, take **-o, -i, -e, -iamo, -ite, -ono**. Most, like *finire*, *capire* and *preferire*, slip **-isc-** in front of the ending in every form except noi and voi: *capisco*, *capisci*, but *capiamo*. Learn which kind each -ire verb is.\n\nWhatever the group, the noi form ends in **-iamo** and the io form in **-o**.\n\n:::examples\n- Parlo italiano e inglese. — I speak Italian and English.\n- Finiamo alle sei. — We finish at six.\n- Vende la sua macchina. — He's selling his car.\n- Mangi con noi stasera? — Are you eating with us tonight?\n:::\n\n## Spelling changes that keep the sound\n\n- Verbs in **-care** and **-gare** add an h before an i, so the c and g stay hard: *cercare*, *tu cerchi*, *noi cerchiamo*; *pagare*, *tu paghi*.\n- Verbs in **-ciare**, **-giare** and **-iare** never write two i's: *mangiare*, *tu mangi*, *noi mangiamo*; *studiare*, *tu studi*.\n\n## One tense for three English ones\n\n*Mangio* is \"I eat\", \"I'm eating\" and \"I do eat\". It also covers plans: *Domani parto* (I'm leaving tomorrow). To stress that something is going on at this very moment, Italian uses *stare* and the gerund: *Sto mangiando* (I'm eating right now).\n\n:::predict{prompt=\"tu (giocare)\" answer=\"giochi\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:it-present-tense"
+        ],
+        "explains": [
+          "presente"
+        ]
+      },
+      "tags": [
+        "presente"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-negation",
+      "title": "Saying no: non",
+      "body_md": "Italian negation is simple: put **non** right before the verb.\n\n:::examples\n- Non parlo tedesco. — I don't speak German.\n- Marco non è qui. — Marco isn't here.\n- Non mangiamo carne. — We don't eat meat.\n:::\n\nThere's no \"do\" to add. Small object pronouns stay glued to the verb, so *non* goes in front of them: *Non lo so* (I don't know it), *Non mi piace* (I don't like it).\n\n## Double negatives are correct\n\nThe other negative words go after the verb, and **non** stays before it. Two negatives make a negative, not a positive.\n\n| Negation | Meaning | Example |\n| --- | --- | --- |\n| non ... mai | never | Non bevo mai il caffè. |\n| non ... più | no longer, not any more | Non abita più qui. |\n| non ... niente | nothing | Non vedo niente. |\n| non ... nessuno | nobody | Non conosco nessuno. |\n| non ... ancora | not yet | Non è ancora pronto. |\n| non ... neanche | not even | Non ho neanche un euro. |\n\nWhen the negative word comes first, there's no *non*: *Nessuno lo sa* (Nobody knows), *Niente è impossibile* (Nothing is impossible).\n\n## No or non?\n\n**No** is the answer to a question: *Vieni? — No.* **Non** negates a verb. *No, non vengo* uses both.\n\n## Nessun before a noun\n\nBefore a noun, *nessuno* changes like *uno* and stays singular: *nessun problema* (no problem), *nessuna idea* (no idea).\n\n:::cloze{sentence=\"Non vado ___ in palestra.\" blank=\"mai\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:it-negation"
+        ],
+        "explains": [
+          "negazione"
+        ]
+      },
+      "tags": [
+        "negazione"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-questions",
+      "title": "Asking questions",
+      "body_md": "An Italian yes/no question uses exactly the same words as the statement. Only your voice changes: it rises at the end.\n\n- *Parli italiano.* (You speak Italian.)\n- *Parli italiano?* (Do you speak Italian?)\n\nThere's no \"do\", and no swapping of subject and verb. If you name the subject, it often goes to the end: *È arrivato Marco?* (Has Marco arrived?)\n\n## Question words\n\n| Word | Meaning |\n| --- | --- |\n| chi | who |\n| che cosa, cosa, che | what |\n| dove | where |\n| quando | when |\n| come | how |\n| perché | why |\n| quanto, quanta, quanti, quante | how much, how many |\n| quale, quali | which, what |\n\nAfter a question word the verb comes next, and the subject after it: *Dove abita tua sorella?* (Where does your sister live?) *Dove* and *come* lose their final vowel before *è*: *Dov'è?*, *Com'è?*\n\n## Quanto and quale agree\n\n*Quanto* agrees with the noun it counts: *quanto tempo*, *quanta pasta*, *quanti anni*, *quante persone*. *Quale* has one form for both genders, *quali* in the plural, and before *è* it shortens to **qual** with no apostrophe: *Qual è il tuo numero?* Writing *qual'è* is a mistake even Italians make.\n\n## Prepositions come first\n\nA preposition can't be left at the end as in English. It goes before the question word: *Di dove sei?* (Where are you from?), *Con chi esci?* (Who are you going out with?)\n\n:::examples\n- Dove abiti? — Where do you live?\n- Come ti chiami? — What's your name?\n- Che ore sono? — What time is it?\n- Perché piangi? — Why are you crying?\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:it-questions"
+        ],
+        "explains": [
+          "domande"
+        ]
+      },
+      "tags": [
+        "domande"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-articulated-prepositions",
+      "title": "Al, del, nel, sul, dal",
+      "body_md": "Five everyday prepositions merge with the definite article that follows them: **a** (to, at), **di** (of), **da** (from, at someone's place), **in** (in, into) and **su** (on).\n\n| | il | lo | l' | la | i | gli | le |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| a | al | allo | all' | alla | ai | agli | alle |\n| di | del | dello | dell' | della | dei | degli | delle |\n| da | dal | dallo | dall' | dalla | dai | dagli | dalle |\n| in | nel | nello | nell' | nella | nei | negli | nelle |\n| su | sul | sullo | sull' | sulla | sui | sugli | sulle |\n\nThe pattern is regular once you see it: *di* turns into **de-** and *in* into **ne-**, and the forms with lo, la, l', gli and le double the l.\n\n:::examples\n- Vado al cinema stasera. — I'm going to the cinema tonight.\n- Il libro è sul tavolo. — The book is on the table.\n- Le chiavi sono nella borsa. — The keys are in the bag.\n- Torno dall'ufficio alle sei. — I get back from the office at six.\n- È la macchina dei vicini. — It's the neighbours' car.\n:::\n\n## A or in?\n\nCities take **a**: *a Roma*, *a Milano*. Countries, regions and large islands take **in**, without an article: *in Italia*, *in Toscana*, *in Sicilia*. Many places around town also take a bare *in*: *in banca*, *in ufficio*, *in centro*, *in piazza*, *in cucina*. Others take *al*: *al bar*, *al mare*, *al ristorante*. Learn them in pairs, as Italians do.\n\n## Da: from, and at someone's place\n\n*Da* means \"from\": *Vengo da Napoli*. With a person it means \"at the home or shop of\": *Vado da Maria* (I'm going to Maria's), *dal medico* (to the doctor's).\n\n## Del: \"some\"\n\n*Di* plus the article also means \"some\": *del pane* (some bread), *dell'acqua* (some water), *degli amici* (some friends). It's optional, and Italians often leave it out: *Compro pane e latte.*\n\n:::cloze{sentence=\"Domani vado ___ stazione in autobus.\" blank=\"alla\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:it-articulated-prepositions"
+        ],
+        "explains": [
+          "preposizioni"
+        ]
+      },
+      "tags": [
+        "preposizioni"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-adjectives",
+      "title": "Adjectives: agreement and position",
+      "body_md": "Italian adjectives agree with their noun in gender and number, and most go **after** the noun.\n\n## Two families\n\n| | singular | plural |\n| --- | --- | --- |\n| -o adjectives, masculine | rosso | rossi |\n| -o adjectives, feminine | rossa | rosse |\n| -e adjectives, both genders | grande | grandi |\n\n*Un libro rosso, una casa rossa, due libri rossi, due case rosse.* An adjective in -e has only two forms: *un cane grande*, *una casa grande*, *due case grandi*.\n\nA few never change, mostly colours named after things: *blu*, *rosa*, *viola*. *Una macchina blu*, *due macchine blu*.\n\nA group of masculine and feminine nouns together takes the masculine plural: *Marco e Anna sono stanchi.*\n\nAdjectives in -co and -go keep the hard sound in the feminine plural, *bianche*, *lunghe*, and usually in the masculine too, *bianchi*, *lunghi*. Some soften instead, like the nouns: *simpatico*, *simpatici*.\n\n## Position\n\nMost adjectives follow the noun, always so for colours, nationalities and shapes: *una macchina rossa*, *un ragazzo italiano*. A few short, common ones usually go before it: *bello*, *buono*, *brutto*, *piccolo*, *grande*, *nuovo*, *vecchio*. *Una bella giornata*, *un piccolo problema*.\n\n## Bello and buono\n\nBefore a noun, **bello** changes the way the article does: *un bel ragazzo* (like *il*), *un bello zaino* (like *lo*), *un bell'albero* (like *l'*), *dei bei fiori* (like *i*). **Buono** shortens to **buon** before most masculine nouns, the way *uno* becomes *un*: *un buon amico*, *buon viaggio*.\n\n:::examples\n- Ho comprato una macchina rossa. — I bought a red car.\n- È un piccolo paese di montagna. — It's a small mountain village.\n- Queste scarpe sono troppo care. — These shoes are too expensive.\n- Abbiamo visto una bella casa antica. — We saw a beautiful old house.\n:::\n\n## Meaning changes with position\n\nA few adjectives mean something different before and after the noun:\n\n- *un caro amico* (a dear friend) / *un ristorante caro* (an expensive restaurant)\n- *un grande uomo* (a great man) / *un uomo grande* (a big man)\n- *un vecchio amico* (a friend of many years) / *un amico vecchio* (an elderly friend)\n- *diversi libri* (several books) / *libri diversi* (different books)",
+      "extras": {
+        "unlocks": [
+          "concept:it-adjectives"
+        ],
+        "explains": [
+          "aggettivi"
+        ]
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-numbers",
+      "title": "Numbers and the time",
+      "body_md": "| | | | |\n| --- | --- | --- | --- |\n| 1 uno | 6 sei | 11 undici | 16 sedici |\n| 2 due | 7 sette | 12 dodici | 17 diciassette |\n| 3 tre | 8 otto | 13 tredici | 18 diciotto |\n| 4 quattro | 9 nove | 14 quattordici | 19 diciannove |\n| 5 cinque | 10 dieci | 15 quindici | 20 venti |\n\nTens: 30 trenta, 40 quaranta, 50 cinquanta, 60 sessanta, 70 settanta, 80 ottanta, 90 novanta. 100 is *cento*.\n\n## Joining tens and units\n\nEach number is written as one word: 23 *ventitré*, 45 *quarantacinque*, 67 *sessantasette*. Two small rules:\n\n- A ten drops its last vowel before *uno* and *otto*, the two that start with a vowel: 21 *ventuno*, 28 *ventotto*, 31 *trentuno*, 48 *quarantotto*.\n- *Tre* at the end of a longer number takes an accent: *ventitré*, *trentatré*.\n\n1000 is *mille*, but 2000 is *duemila*, and the year 2026 is *duemilaventisei*. A million is *un milione*.\n\n## Telling the time\n\nAsk *Che ore sono?* or *Che ora è?* Hours are plural, so the answer is **sono le** and the hour: *Sono le tre* (It's three o'clock). One o'clock, noon and midnight are singular: *È l'una*, *È mezzogiorno*, *È mezzanotte*.\n\nMinutes follow with **e** (past) or **meno** (to): *le tre e dieci* (ten past three), *le quattro meno un quarto* (a quarter to four), *le sette e mezza* (half past seven). \"At\" a time is **alle**: *alle otto*, but *all'una*. Timetables use the 24-hour clock: *alle diciotto*.\n\n:::examples\n- Ho ventotto anni. — I'm twenty-eight.\n- Sono le sette e mezza. — It's half past seven.\n- Il treno parte all'una. — The train leaves at one.\n- Costa trentatré euro. — It costs thirty-three euros.\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:it-numbers"
+        ],
+        "explains": [
+          "numeri"
+        ]
+      },
+      "tags": [
+        "numeri"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-possessives",
+      "title": "La mia casa, but mia madre",
+      "body_md": "An Italian possessive agrees with the **thing owned**, not with the owner, and it usually comes with the article: *la mia casa*, *il mio libro*. *Suo* and *sua* both mean \"his\", \"her\" and the polite \"your\". The noun that follows decides which one.\n\n| Owner | masc. sg | fem. sg | masc. pl | fem. pl |\n| --- | --- | --- | --- | --- |\n| io | il mio | la mia | i miei | le mie |\n| tu | il tuo | la tua | i tuoi | le tue |\n| lui / lei / Lei | il suo | la sua | i suoi | le sue |\n| noi | il nostro | la nostra | i nostri | le nostre |\n| voi | il vostro | la vostra | i vostri | le vostre |\n| loro | il loro | la loro | i loro | le loro |\n\n*Loro* never changes.\n\n:::examples\n- Marco ama sua madre. — Marco loves his mother.\n- Anna ama suo padre. — Anna loves her father.\n- È la loro casa. — It's their house.\n:::\n\n## No article with family\n\nWith a singular family noun on its own, the article disappears: *mia madre*, *tuo fratello*, *suo marito*. It comes back:\n\n- in the plural: *i miei fratelli*, *le mie zie*;\n- with *loro*: *la loro madre*;\n- when an adjective or an ending is added: *la mia sorella maggiore*, *il mio fratellino*;\n- usually with the pet names *mamma* and *papà*: *la mia mamma*.\n\n## I miei\n\n*I miei* on its own means \"my parents\": *Vado dai miei a Natale* (I'm going to my parents' for Christmas).\n\n:::cloze{sentence=\"___ sorella abita a Milano.\" blank=\"Mia\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:it-possessives"
+        ]
+      },
+      "tags": [
+        "pronomi"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-piacere",
+      "title": "Mi piace: liking things",
+      "body_md": "Italian has no verb that works like \"to like\". It says that something **pleases** someone: *Mi piace il caffè* is literally \"coffee pleases me\". The thing you like is the subject of the verb, and the person who likes it comes first as a small pronoun.\n\n| Italian | Literally | English |\n| --- | --- | --- |\n| mi piace | pleases me | I like |\n| ti piace | pleases you | you like |\n| gli piace | pleases him | he likes |\n| le piace | pleases her | she likes |\n| Le piace | pleases you (polite) | you like |\n| ci piace | pleases us | we like |\n| vi piace | pleases you all | you like |\n| gli piace | pleases them | they like |\n\n## Piace or piacciono?\n\nThe verb agrees with the thing liked, not with the person who likes it. One thing, or any activity, takes **piace**. Several things take **piacciono**.\n\n- *Mi piace la pizza.* (I like pizza.)\n- *Mi piacciono le fragole.* (I like strawberries.)\n- *Mi piace leggere.* (I like reading.)\n\n## With a name\n\nWith a name or a noun, use **a**: *A Marco piace il calcio* (Marco likes football). For emphasis there are stressed forms with *a* too: *A me piace, e a te?* \"Me too\" is **anche a me**, and \"me neither\" **neanche a me**. Answering *anch'io* here is the classic mistake.\n\n## Mi dispiace\n\n*Non mi piace* means \"I don't like it\". *Mi dispiace* is something else: it means \"I'm sorry\".\n\n:::examples\n- Mi piace molto questa città. — I really like this city.\n- Ci piacciono i film italiani. — We like Italian films.\n- A mia madre piace cucinare. — My mother likes cooking.\n:::\n\n:::cloze{sentence=\"Ti ___ i gatti?\" blank=\"piacciono\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:it-piacere"
+        ]
+      },
+      "tags": [
+        "presente"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "padre",
+      "primary_form": "padre",
+      "gloss": "father",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "padri",
+        "example": "Mio padre lavora in banca.",
+        "example_en": "My father works at a bank."
+      },
+      "tags": [
+        "family",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "buongiorno",
+      "primary_form": "buongiorno",
+      "gloss": "hello, good morning",
+      "extras": {
+        "literal": "good day",
+        "example": "Buongiorno, un caffè per favore.",
+        "example_en": "Good morning, a coffee please."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "essere",
+      "primary_form": "essere",
+      "gloss": "to be",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "stato",
+        "example": "Sono di Milano, e tu?",
+        "example_en": "I'm from Milan, and you?",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "stato",
+            "stata"
+          ],
+          "passato-prossimo.2s": [
+            "stato",
+            "stata"
+          ],
+          "passato-prossimo.3s": [
+            "stato",
+            "stata"
+          ],
+          "passato-prossimo.1p": [
+            "stati",
+            "state"
+          ],
+          "passato-prossimo.2p": [
+            "stati",
+            "state"
+          ],
+          "passato-prossimo.3p": [
+            "stati",
+            "state"
+          ]
+        }
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "sono",
+          "2s": "sei",
+          "3s": "è",
+          "1p": "siamo",
+          "2p": "siete",
+          "3p": "sono"
+        },
+        "passato-prossimo": {
+          "1s": "sono stato/a",
+          "2s": "sei stato/a",
+          "3s": "è stato/a",
+          "1p": "siamo stati/e",
+          "2p": "siete stati/e",
+          "3p": "sono stati/e"
+        },
+        "imperfetto": {
+          "1s": "ero",
+          "2s": "eri",
+          "3s": "era",
+          "1p": "eravamo",
+          "2p": "eravate",
+          "3p": "erano"
+        },
+        "futuro-semplice": {
+          "1s": "sarò",
+          "2s": "sarai",
+          "3s": "sarà",
+          "1p": "saremo",
+          "2p": "sarete",
+          "3p": "saranno"
+        },
+        "condizionale": {
+          "1s": "sarei",
+          "2s": "saresti",
+          "3s": "sarebbe",
+          "1p": "saremmo",
+          "2p": "sareste",
+          "3p": "sarebbero"
+        },
+        "congiuntivo": {
+          "1s": "sia",
+          "2s": "sia",
+          "3s": "sia",
+          "1p": "siamo",
+          "2p": "siate",
+          "3p": "siano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "madre",
+      "primary_form": "madre",
+      "gloss": "mother",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "madri",
+        "example": "Mia madre fa il medico.",
+        "example_en": "My mother is a doctor."
+      },
+      "tags": [
+        "family",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "grande",
+      "primary_form": "grande",
+      "gloss": "big, large; great",
+      "extras": {
+        "forms": {
+          "ms": "grande",
+          "fs": "grande",
+          "mp": "grandi",
+          "fp": "grandi"
+        },
+        "example": "Abitano in una casa grande.",
+        "example_en": "They live in a big house."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fratello",
+      "primary_form": "fratello",
+      "gloss": "brother",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "fratelli",
+        "example": "Ho un fratello più grande.",
+        "example_en": "I have an older brother."
+      },
+      "tags": [
+        "family",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "sorella",
+      "primary_form": "sorella",
+      "gloss": "sister",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "sorelle",
+        "example": "Mia sorella studia a Bologna.",
+        "example_en": "My sister studies in Bologna."
+      },
+      "tags": [
+        "family",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "buonasera",
+      "primary_form": "buonasera",
+      "gloss": "good evening",
+      "extras": {
+        "literal": "good evening",
+        "note": "Used from mid-afternoon on.",
+        "example": "Buonasera, avete un tavolo per due?",
+        "example_en": "Good evening, do you have a table for two?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "avere",
+      "primary_form": "avere",
+      "gloss": "to have",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "avuto",
+        "example": "Quanti anni hai?",
+        "example_en": "How old are you?"
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "ho",
+          "2s": "hai",
+          "3s": "ha",
+          "1p": "abbiamo",
+          "2p": "avete",
+          "3p": "hanno"
+        },
+        "passato-prossimo": {
+          "1s": "ho avuto",
+          "2s": "hai avuto",
+          "3s": "ha avuto",
+          "1p": "abbiamo avuto",
+          "2p": "avete avuto",
+          "3p": "hanno avuto"
+        },
+        "imperfetto": {
+          "1s": "avevo",
+          "2s": "avevi",
+          "3s": "aveva",
+          "1p": "avevamo",
+          "2p": "avevate",
+          "3p": "avevano"
+        },
+        "futuro-semplice": {
+          "1s": "avrò",
+          "2s": "avrai",
+          "3s": "avrà",
+          "1p": "avremo",
+          "2p": "avrete",
+          "3p": "avranno"
+        },
+        "condizionale": {
+          "1s": "avrei",
+          "2s": "avresti",
+          "3s": "avrebbe",
+          "1p": "avremmo",
+          "2p": "avreste",
+          "3p": "avrebbero"
+        },
+        "congiuntivo": {
+          "1s": "abbia",
+          "2s": "abbia",
+          "3s": "abbia",
+          "1p": "abbiamo",
+          "2p": "abbiate",
+          "3p": "abbiano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "figlio",
+      "primary_form": "figlio",
+      "gloss": "son",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "figli",
+        "example": "Hanno un figlio di tre anni.",
+        "example_en": "They have a three-year-old son."
+      },
+      "tags": [
+        "family",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "figlia",
+      "primary_form": "figlia",
+      "gloss": "daughter",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "figlie",
+        "example": "La loro figlia vive a Londra.",
+        "example_en": "Their daughter lives in London."
+      },
+      "tags": [
+        "family",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "piccolo",
+      "primary_form": "piccolo",
+      "gloss": "small, little",
+      "extras": {
+        "forms": {
+          "ms": "piccolo",
+          "fs": "piccola",
+          "mp": "piccoli",
+          "fp": "piccole"
+        },
+        "position": "usually before the noun",
+        "example": "È un piccolo paese di montagna.",
+        "example_en": "It's a small mountain village."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ciao",
+      "primary_form": "ciao",
+      "gloss": "hi; bye (informal)",
+      "extras": {
+        "example": "Ciao Marco, come va?",
+        "example_en": "Hi Marco, how's it going?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "fare",
+      "primary_form": "fare",
+      "gloss": "to do, to make",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "fatto",
+        "example": "Che tempo fa oggi?",
+        "example_en": "What's the weather like today?"
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "faccio",
+          "2s": "fai",
+          "3s": "fa",
+          "1p": "facciamo",
+          "2p": "fate",
+          "3p": "fanno"
+        },
+        "passato-prossimo": {
+          "1s": "ho fatto",
+          "2s": "hai fatto",
+          "3s": "ha fatto",
+          "1p": "abbiamo fatto",
+          "2p": "avete fatto",
+          "3p": "hanno fatto"
+        },
+        "imperfetto": {
+          "1s": "facevo",
+          "2s": "facevi",
+          "3s": "faceva",
+          "1p": "facevamo",
+          "2p": "facevate",
+          "3p": "facevano"
+        },
+        "futuro-semplice": {
+          "1s": "farò",
+          "2s": "farai",
+          "3s": "farà",
+          "1p": "faremo",
+          "2p": "farete",
+          "3p": "faranno"
+        },
+        "condizionale": {
+          "1s": "farei",
+          "2s": "faresti",
+          "3s": "farebbe",
+          "1p": "faremmo",
+          "2p": "fareste",
+          "3p": "farebbero"
+        },
+        "congiuntivo": {
+          "1s": "faccia",
+          "2s": "faccia",
+          "3s": "faccia",
+          "1p": "facciamo",
+          "2p": "facciate",
+          "3p": "facciano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "marito",
+      "primary_form": "marito",
+      "gloss": "husband",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "mariti",
+        "example": "Suo marito cucina molto bene.",
+        "example_en": "Her husband cooks very well."
+      },
+      "tags": [
+        "family",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "prima",
+      "primary_form": "prima",
+      "gloss": "first",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "Prima studio, dopo guardo la TV.",
+        "example_en": "First I study, then I watch TV."
+      },
+      "tags": [
+        "connettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "moglie",
+      "primary_form": "moglie",
+      "gloss": "wife",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "mogli",
+        "example": "Ti presento mia moglie, Giulia.",
+        "example_en": "This is my wife, Giulia."
+      },
+      "tags": [
+        "family",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "genitore",
+      "primary_form": "genitore",
+      "gloss": "parent",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "genitori",
+        "example": "I miei genitori abitano in campagna.",
+        "example_en": "My parents live in the country."
+      },
+      "tags": [
+        "family",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "salve",
+      "primary_form": "salve",
+      "gloss": "hello (neutral)",
+      "extras": {
+        "note": "Polite but not stiff, handy when you can't decide between ciao and buongiorno.",
+        "example": "Salve, posso fare una domanda?",
+        "example_en": "Hello, can I ask a question?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "stare",
+      "primary_form": "stare",
+      "gloss": "to stay; to be (how you feel)",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "stato",
+        "example": "Oggi sto molto meglio.",
+        "example_en": "I'm much better today.",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "stato",
+            "stata"
+          ],
+          "passato-prossimo.2s": [
+            "stato",
+            "stata"
+          ],
+          "passato-prossimo.3s": [
+            "stato",
+            "stata"
+          ],
+          "passato-prossimo.1p": [
+            "stati",
+            "state"
+          ],
+          "passato-prossimo.2p": [
+            "stati",
+            "state"
+          ],
+          "passato-prossimo.3p": [
+            "stati",
+            "state"
+          ]
+        }
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "sto",
+          "2s": "stai",
+          "3s": "sta",
+          "1p": "stiamo",
+          "2p": "state",
+          "3p": "stanno"
+        },
+        "passato-prossimo": {
+          "1s": "sono stato/a",
+          "2s": "sei stato/a",
+          "3s": "è stato/a",
+          "1p": "siamo stati/e",
+          "2p": "siete stati/e",
+          "3p": "sono stati/e"
+        },
+        "imperfetto": {
+          "1s": "stavo",
+          "2s": "stavi",
+          "3s": "stava",
+          "1p": "stavamo",
+          "2p": "stavate",
+          "3p": "stavano"
+        },
+        "futuro-semplice": {
+          "1s": "starò",
+          "2s": "starai",
+          "3s": "starà",
+          "1p": "staremo",
+          "2p": "starete",
+          "3p": "staranno"
+        },
+        "condizionale": {
+          "1s": "starei",
+          "2s": "staresti",
+          "3s": "starebbe",
+          "1p": "staremmo",
+          "2p": "stareste",
+          "3p": "starebbero"
+        },
+        "congiuntivo": {
+          "1s": "stia",
+          "2s": "stia",
+          "3s": "stia",
+          "1p": "stiamo",
+          "2p": "stiate",
+          "3p": "stiano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "nonno",
+      "primary_form": "nonno",
+      "gloss": "grandfather",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "nonni",
+        "example": "Il nonno racconta sempre storie.",
+        "example_en": "Grandpa is always telling stories."
+      },
+      "tags": [
+        "family",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "buono",
+      "primary_form": "buono",
+      "gloss": "good; tasty",
+      "extras": {
+        "forms": {
+          "ms": "buono",
+          "fs": "buona",
+          "mp": "buoni",
+          "fp": "buone"
+        },
+        "position": "usually before the noun",
+        "example": "Che buono questo gelato!",
+        "example_en": "This ice cream is so good!"
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "nonna",
+      "primary_form": "nonna",
+      "gloss": "grandmother",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "nonne",
+        "example": "La nonna prepara il ragù la domenica.",
+        "example_en": "Grandma makes ragù on Sundays."
+      },
+      "tags": [
+        "family",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "arrivederci",
+      "primary_form": "arrivederci",
+      "gloss": "goodbye",
+      "extras": {
+        "literal": "until we see each other again",
+        "example": "Arrivederci e grazie di tutto!",
+        "example_en": "Goodbye, and thanks for everything!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "venire",
+      "primary_form": "venire",
+      "gloss": "to come",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "venuto",
+        "example": "Vieni con noi stasera?",
+        "example_en": "Are you coming with us tonight?",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "venuto",
+            "venuta"
+          ],
+          "passato-prossimo.2s": [
+            "venuto",
+            "venuta"
+          ],
+          "passato-prossimo.3s": [
+            "venuto",
+            "venuta"
+          ],
+          "passato-prossimo.1p": [
+            "venuti",
+            "venute"
+          ],
+          "passato-prossimo.2p": [
+            "venuti",
+            "venute"
+          ],
+          "passato-prossimo.3p": [
+            "venuti",
+            "venute"
+          ]
+        }
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "vengo",
+          "2s": "vieni",
+          "3s": "viene",
+          "1p": "veniamo",
+          "2p": "venite",
+          "3p": "vengono"
+        },
+        "passato-prossimo": {
+          "1s": "sono venuto/a",
+          "2s": "sei venuto/a",
+          "3s": "è venuto/a",
+          "1p": "siamo venuti/e",
+          "2p": "siete venuti/e",
+          "3p": "sono venuti/e"
+        },
+        "imperfetto": {
+          "1s": "venivo",
+          "2s": "venivi",
+          "3s": "veniva",
+          "1p": "venivamo",
+          "2p": "venivate",
+          "3p": "venivano"
+        },
+        "futuro-semplice": {
+          "1s": "verrò",
+          "2s": "verrai",
+          "3s": "verrà",
+          "1p": "verremo",
+          "2p": "verrete",
+          "3p": "verranno"
+        },
+        "condizionale": {
+          "1s": "verrei",
+          "2s": "verresti",
+          "3s": "verrebbe",
+          "1p": "verremmo",
+          "2p": "verreste",
+          "3p": "verrebbero"
+        },
+        "congiuntivo": {
+          "1s": "venga",
+          "2s": "venga",
+          "3s": "venga",
+          "1p": "veniamo",
+          "2p": "veniate",
+          "3p": "vengano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "zio",
+      "primary_form": "zio",
+      "gloss": "uncle",
+      "extras": {
+        "gender": "m",
+        "article": "lo",
+        "plural": "zii",
+        "example": "Mio zio abita in Sicilia.",
+        "example_en": "My uncle lives in Sicily."
+      },
+      "tags": [
+        "family",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "zia",
+      "primary_form": "zia",
+      "gloss": "aunt",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "zie",
+        "example": "Domenica pranziamo dalla zia.",
+        "example_en": "On Sunday we're having lunch at our aunt's."
+      },
+      "tags": [
+        "family",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cugino",
+      "primary_form": "cugino",
+      "gloss": "cousin (male)",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "cugini",
+        "example": "Mio cugino ha la mia età.",
+        "example_en": "My cousin is my age."
+      },
+      "tags": [
+        "family",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "cattivo",
+      "primary_form": "cattivo",
+      "gloss": "bad; nasty, naughty",
+      "extras": {
+        "forms": {
+          "ms": "cattivo",
+          "fs": "cattiva",
+          "mp": "cattivi",
+          "fp": "cattive"
+        },
+        "example": "Il nostro cane non è cattivo.",
+        "example_en": "Our dog isn't nasty."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "a-presto",
+      "primary_form": "a presto",
+      "gloss": "see you soon",
+      "extras": {
+        "literal": "until soon",
+        "example": "Ciao, a presto!",
+        "example_en": "Bye, see you soon!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "volere",
+      "primary_form": "volere",
+      "gloss": "to want",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "voluto",
+        "example": "Vuoi qualcosa da bere?",
+        "example_en": "Do you want something to drink?"
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "voglio",
+          "2s": "vuoi",
+          "3s": "vuole",
+          "1p": "vogliamo",
+          "2p": "volete",
+          "3p": "vogliono"
+        },
+        "passato-prossimo": {
+          "1s": "ho voluto",
+          "2s": "hai voluto",
+          "3s": "ha voluto",
+          "1p": "abbiamo voluto",
+          "2p": "avete voluto",
+          "3p": "hanno voluto"
+        },
+        "imperfetto": {
+          "1s": "volevo",
+          "2s": "volevi",
+          "3s": "voleva",
+          "1p": "volevamo",
+          "2p": "volevate",
+          "3p": "volevano"
+        },
+        "futuro-semplice": {
+          "1s": "vorrò",
+          "2s": "vorrai",
+          "3s": "vorrà",
+          "1p": "vorremo",
+          "2p": "vorrete",
+          "3p": "vorranno"
+        },
+        "condizionale": {
+          "1s": "vorrei",
+          "2s": "vorresti",
+          "3s": "vorrebbe",
+          "1p": "vorremmo",
+          "2p": "vorreste",
+          "3p": "vorrebbero"
+        },
+        "congiuntivo": {
+          "1s": "voglia",
+          "2s": "voglia",
+          "3s": "voglia",
+          "1p": "vogliamo",
+          "2p": "vogliate",
+          "3p": "vogliano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "cugina",
+      "primary_form": "cugina",
+      "gloss": "cousin (female)",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "cugine",
+        "example": "Mia cugina si sposa a giugno.",
+        "example_en": "My cousin is getting married in June."
+      },
+      "tags": [
+        "family",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "uomo",
+      "primary_form": "uomo",
+      "gloss": "man",
+      "extras": {
+        "gender": "m",
+        "article": "l'",
+        "plural": "uomini",
+        "example": "Quell'uomo è il mio vicino.",
+        "example_en": "That man is my neighbour."
+      },
+      "tags": [
+        "people",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "a-domani",
+      "primary_form": "a domani",
+      "gloss": "see you tomorrow",
+      "extras": {
+        "literal": "until tomorrow",
+        "example": "Allora a domani, alle nove.",
+        "example_en": "See you tomorrow then, at nine."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "donna",
+      "primary_form": "donna",
+      "gloss": "woman",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "donne",
+        "example": "Chi è quella donna?",
+        "example_en": "Who is that woman?"
+      },
+      "tags": [
+        "people",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "potere",
+      "primary_form": "potere",
+      "gloss": "can, to be able to",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "potuto",
+        "example": "Posso aprire la finestra?",
+        "example_en": "May I open the window?"
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "posso",
+          "2s": "puoi",
+          "3s": "può",
+          "1p": "possiamo",
+          "2p": "potete",
+          "3p": "possono"
+        },
+        "passato-prossimo": {
+          "1s": "ho potuto",
+          "2s": "hai potuto",
+          "3s": "ha potuto",
+          "1p": "abbiamo potuto",
+          "2p": "avete potuto",
+          "3p": "hanno potuto"
+        },
+        "imperfetto": {
+          "1s": "potevo",
+          "2s": "potevi",
+          "3s": "poteva",
+          "1p": "potevamo",
+          "2p": "potevate",
+          "3p": "potevano"
+        },
+        "futuro-semplice": {
+          "1s": "potrò",
+          "2s": "potrai",
+          "3s": "potrà",
+          "1p": "potremo",
+          "2p": "potrete",
+          "3p": "potranno"
+        },
+        "condizionale": {
+          "1s": "potrei",
+          "2s": "potresti",
+          "3s": "potrebbe",
+          "1p": "potremmo",
+          "2p": "potreste",
+          "3p": "potrebbero"
+        },
+        "congiuntivo": {
+          "1s": "possa",
+          "2s": "possa",
+          "3s": "possa",
+          "1p": "possiamo",
+          "2p": "possiate",
+          "3p": "possano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "ragazzo",
+      "primary_form": "ragazzo",
+      "gloss": "boy, young man; boyfriend",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "ragazzi",
+        "example": "Il ragazzo di Sara è simpatico.",
+        "example_en": "Sara's boyfriend is nice."
+      },
+      "tags": [
+        "people",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "bello",
+      "primary_form": "bello",
+      "gloss": "beautiful, lovely",
+      "extras": {
+        "forms": {
+          "ms": "bello",
+          "fs": "bella",
+          "mp": "belli",
+          "fp": "belle"
+        },
+        "position": "usually before the noun",
+        "example": "Che bella giornata!",
+        "example_en": "What a lovely day!"
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ragazza",
+      "primary_form": "ragazza",
+      "gloss": "girl, young woman; girlfriend",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "ragazze",
+        "example": "Le ragazze giocano a pallavolo.",
+        "example_en": "The girls are playing volleyball."
+      },
+      "tags": [
+        "people",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "buonanotte",
+      "primary_form": "buonanotte",
+      "gloss": "good night",
+      "extras": {
+        "example": "Buonanotte, dormi bene.",
+        "example_en": "Good night, sleep well."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "dovere",
+      "primary_form": "dovere",
+      "gloss": "to have to, must; to owe",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "dovuto",
+        "example": "Devo partire domani.",
+        "example_en": "I have to leave tomorrow."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "devo",
+          "2s": "devi",
+          "3s": "deve",
+          "1p": "dobbiamo",
+          "2p": "dovete",
+          "3p": "devono"
+        },
+        "passato-prossimo": {
+          "1s": "ho dovuto",
+          "2s": "hai dovuto",
+          "3s": "ha dovuto",
+          "1p": "abbiamo dovuto",
+          "2p": "avete dovuto",
+          "3p": "hanno dovuto"
+        },
+        "imperfetto": {
+          "1s": "dovevo",
+          "2s": "dovevi",
+          "3s": "doveva",
+          "1p": "dovevamo",
+          "2p": "dovevate",
+          "3p": "dovevano"
+        },
+        "futuro-semplice": {
+          "1s": "dovrò",
+          "2s": "dovrai",
+          "3s": "dovrà",
+          "1p": "dovremo",
+          "2p": "dovrete",
+          "3p": "dovranno"
+        },
+        "condizionale": {
+          "1s": "dovrei",
+          "2s": "dovresti",
+          "3s": "dovrebbe",
+          "1p": "dovremmo",
+          "2p": "dovreste",
+          "3p": "dovrebbero"
+        },
+        "congiuntivo": {
+          "1s": "debba",
+          "2s": "debba",
+          "3s": "debba",
+          "1p": "dobbiamo",
+          "2p": "dobbiate",
+          "3p": "debbano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "signora",
+      "primary_form": "signora",
+      "gloss": "lady; Mrs",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "signore",
+        "example": "Buongiorno, signora Rossi!",
+        "example_en": "Good morning, Mrs Rossi!"
+      },
+      "tags": [
+        "people",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "nome",
+      "primary_form": "nome",
+      "gloss": "name, first name",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "nomi",
+        "example": "Qual è il tuo nome?",
+        "example_en": "What's your name?"
+      },
+      "tags": [
+        "people",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "dopo",
+      "primary_form": "dopo",
+      "gloss": "afterwards, later",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "Adesso lavoro, ci vediamo dopo.",
+        "example_en": "I'm working now, see you later."
+      },
+      "tags": [
+        "connettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cognome",
+      "primary_form": "cognome",
+      "gloss": "surname",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "cognomi",
+        "example": "Scriva qui il suo cognome.",
+        "example_en": "Write your surname here."
+      },
+      "tags": [
+        "people",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "grazie",
+      "primary_form": "grazie",
+      "gloss": "thank you",
+      "extras": {
+        "example": "Grazie per l'aiuto.",
+        "example_en": "Thanks for the help."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "sapere",
+      "primary_form": "sapere",
+      "gloss": "to know (a fact, how to)",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "saputo",
+        "example": "Non so dove abita.",
+        "example_en": "I don't know where he lives."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "so",
+          "2s": "sai",
+          "3s": "sa",
+          "1p": "sappiamo",
+          "2p": "sapete",
+          "3p": "sanno"
+        },
+        "passato-prossimo": {
+          "1s": "ho saputo",
+          "2s": "hai saputo",
+          "3s": "ha saputo",
+          "1p": "abbiamo saputo",
+          "2p": "avete saputo",
+          "3p": "hanno saputo"
+        },
+        "imperfetto": {
+          "1s": "sapevo",
+          "2s": "sapevi",
+          "3s": "sapeva",
+          "1p": "sapevamo",
+          "2p": "sapevate",
+          "3p": "sapevano"
+        },
+        "futuro-semplice": {
+          "1s": "saprò",
+          "2s": "saprai",
+          "3s": "saprà",
+          "1p": "sapremo",
+          "2p": "saprete",
+          "3p": "sapranno"
+        },
+        "condizionale": {
+          "1s": "saprei",
+          "2s": "sapresti",
+          "3s": "saprebbe",
+          "1p": "sapremmo",
+          "2p": "sapreste",
+          "3p": "saprebbero"
+        },
+        "congiuntivo": {
+          "1s": "sappia",
+          "2s": "sappia",
+          "3s": "sappia",
+          "1p": "sappiamo",
+          "2p": "sappiate",
+          "3p": "sappiano"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "carino",
+      "primary_form": "carino",
+      "gloss": "pretty, cute; kind",
+      "extras": {
+        "forms": {
+          "ms": "carino",
+          "fs": "carina",
+          "mp": "carini",
+          "fp": "carine"
+        },
+        "example": "Che carina la tua casa!",
+        "example_en": "What a sweet house you have!"
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "testa",
+      "primary_form": "testa",
+      "gloss": "head",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "teste",
+        "example": "Mi gira la testa.",
+        "example_en": "My head is spinning."
+      },
+      "tags": [
+        "body",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "occhio",
+      "primary_form": "occhio",
+      "gloss": "eye",
+      "extras": {
+        "gender": "m",
+        "article": "l'",
+        "plural": "occhi",
+        "example": "Ha gli occhi azzurri.",
+        "example_en": "She has blue eyes."
+      },
+      "tags": [
+        "body",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "grazie-mille",
+      "primary_form": "grazie mille",
+      "gloss": "thanks a lot",
+      "extras": {
+        "literal": "a thousand thanks",
+        "example": "Grazie mille, sei gentilissimo.",
+        "example_en": "Thanks a lot, you're very kind."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "dire",
+      "primary_form": "dire",
+      "gloss": "to say, to tell",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "detto",
+        "example": "Come si dice in italiano?",
+        "example_en": "How do you say it in Italian?"
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "dico",
+          "2s": "dici",
+          "3s": "dice",
+          "1p": "diciamo",
+          "2p": "dite",
+          "3p": "dicono"
+        },
+        "passato-prossimo": {
+          "1s": "ho detto",
+          "2s": "hai detto",
+          "3s": "ha detto",
+          "1p": "abbiamo detto",
+          "2p": "avete detto",
+          "3p": "hanno detto"
+        },
+        "imperfetto": {
+          "1s": "dicevo",
+          "2s": "dicevi",
+          "3s": "diceva",
+          "1p": "dicevamo",
+          "2p": "dicevate",
+          "3p": "dicevano"
+        },
+        "futuro-semplice": {
+          "1s": "dirò",
+          "2s": "dirai",
+          "3s": "dirà",
+          "1p": "diremo",
+          "2p": "direte",
+          "3p": "diranno"
+        },
+        "condizionale": {
+          "1s": "direi",
+          "2s": "diresti",
+          "3s": "direbbe",
+          "1p": "diremmo",
+          "2p": "direste",
+          "3p": "direbbero"
+        },
+        "congiuntivo": {
+          "1s": "dica",
+          "2s": "dica",
+          "3s": "dica",
+          "1p": "diciamo",
+          "2p": "diciate",
+          "3p": "dicano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "bocca",
+      "primary_form": "bocca",
+      "gloss": "mouth",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "bocche",
+        "example": "Non parlare con la bocca piena!",
+        "example_en": "Don't talk with your mouth full!"
+      },
+      "tags": [
+        "body",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "naso",
+      "primary_form": "naso",
+      "gloss": "nose",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "nasi",
+        "example": "Ho il naso chiuso.",
+        "example_en": "My nose is blocked."
+      },
+      "tags": [
+        "body",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "giovane",
+      "primary_form": "giovane",
+      "gloss": "young",
+      "extras": {
+        "forms": {
+          "ms": "giovane",
+          "fs": "giovane",
+          "mp": "giovani",
+          "fp": "giovani"
+        },
+        "example": "Mia madre è ancora giovane.",
+        "example_en": "My mother is still young."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "orecchio",
+      "primary_form": "orecchio",
+      "gloss": "ear",
+      "extras": {
+        "gender": "m",
+        "article": "l'",
+        "plural": "orecchie",
+        "example": "Mi fa male l'orecchio.",
+        "example_en": "My ear hurts."
+      },
+      "tags": [
+        "body",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "prego",
+      "primary_form": "prego",
+      "gloss": "you're welcome; please, go ahead",
+      "extras": {
+        "literal": "I pray",
+        "note": "The answer to grazie, and the word that waves someone in or offers them something.",
+        "example": "Prego, si accomodi.",
+        "example_en": "Please, take a seat."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "dare",
+      "primary_form": "dare",
+      "gloss": "to give",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "dato",
+        "example": "Mi dai il tuo numero?",
+        "example_en": "Will you give me your number?"
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "do",
+          "2s": "dai",
+          "3s": "dà",
+          "1p": "diamo",
+          "2p": "date",
+          "3p": "danno"
+        },
+        "passato-prossimo": {
+          "1s": "ho dato",
+          "2s": "hai dato",
+          "3s": "ha dato",
+          "1p": "abbiamo dato",
+          "2p": "avete dato",
+          "3p": "hanno dato"
+        },
+        "imperfetto": {
+          "1s": "davo",
+          "2s": "davi",
+          "3s": "dava",
+          "1p": "davamo",
+          "2p": "davate",
+          "3p": "davano"
+        },
+        "futuro-semplice": {
+          "1s": "darò",
+          "2s": "darai",
+          "3s": "darà",
+          "1p": "daremo",
+          "2p": "darete",
+          "3p": "daranno"
+        },
+        "condizionale": {
+          "1s": "darei",
+          "2s": "daresti",
+          "3s": "darebbe",
+          "1p": "daremmo",
+          "2p": "dareste",
+          "3p": "darebbero"
+        },
+        "congiuntivo": {
+          "1s": "dia",
+          "2s": "dia",
+          "3s": "dia",
+          "1p": "diamo",
+          "2p": "diate",
+          "3p": "diano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "mano",
+      "primary_form": "mano",
+      "gloss": "hand",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "mani",
+        "example": "Lavati le mani prima di mangiare.",
+        "example_en": "Wash your hands before eating."
+      },
+      "tags": [
+        "body",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "braccio",
+      "primary_form": "braccio",
+      "gloss": "arm",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "braccia",
+        "example": "Porta la borsa sotto il braccio.",
+        "example_en": "She carries her bag under her arm."
+      },
+      "tags": [
+        "body",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "per-favore",
+      "primary_form": "per favore",
+      "gloss": "please",
+      "extras": {
+        "literal": "for favour",
+        "example": "Un caffè, per favore.",
+        "example_en": "A coffee, please."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "uscire",
+      "primary_form": "uscire",
+      "gloss": "to go out",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "uscito",
+        "example": "Stasera usciamo con gli amici.",
+        "example_en": "Tonight we're going out with friends.",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "uscito",
+            "uscita"
+          ],
+          "passato-prossimo.2s": [
+            "uscito",
+            "uscita"
+          ],
+          "passato-prossimo.3s": [
+            "uscito",
+            "uscita"
+          ],
+          "passato-prossimo.1p": [
+            "usciti",
+            "uscite"
+          ],
+          "passato-prossimo.2p": [
+            "usciti",
+            "uscite"
+          ],
+          "passato-prossimo.3p": [
+            "usciti",
+            "uscite"
+          ]
+        }
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "esco",
+          "2s": "esci",
+          "3s": "esce",
+          "1p": "usciamo",
+          "2p": "uscite",
+          "3p": "escono"
+        },
+        "passato-prossimo": {
+          "1s": "sono uscito/a",
+          "2s": "sei uscito/a",
+          "3s": "è uscito/a",
+          "1p": "siamo usciti/e",
+          "2p": "siete usciti/e",
+          "3p": "sono usciti/e"
+        },
+        "imperfetto": {
+          "1s": "uscivo",
+          "2s": "uscivi",
+          "3s": "usciva",
+          "1p": "uscivamo",
+          "2p": "uscivate",
+          "3p": "uscivano"
+        },
+        "futuro-semplice": {
+          "1s": "uscirò",
+          "2s": "uscirai",
+          "3s": "uscirà",
+          "1p": "usciremo",
+          "2p": "uscirete",
+          "3p": "usciranno"
+        },
+        "condizionale": {
+          "1s": "uscirei",
+          "2s": "usciresti",
+          "3s": "uscirebbe",
+          "1p": "usciremmo",
+          "2p": "uscireste",
+          "3p": "uscirebbero"
+        },
+        "congiuntivo": {
+          "1s": "esca",
+          "2s": "esca",
+          "3s": "esca",
+          "1p": "usciamo",
+          "2p": "usciate",
+          "3p": "escano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "gamba",
+      "primary_form": "gamba",
+      "gloss": "leg",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "gambe",
+        "example": "Mi fanno male le gambe.",
+        "example_en": "My legs hurt."
+      },
+      "tags": [
+        "body",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "vecchio",
+      "primary_form": "vecchio",
+      "gloss": "old",
+      "extras": {
+        "forms": {
+          "ms": "vecchio",
+          "fs": "vecchia",
+          "mp": "vecchi",
+          "fp": "vecchie"
+        },
+        "example": "Abitiamo in un palazzo vecchio.",
+        "example_en": "We live in an old building."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "piede",
+      "primary_form": "piede",
+      "gloss": "foot",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "piedi",
+        "example": "Andiamo a piedi?",
+        "example_en": "Shall we walk?"
+      },
+      "tags": [
+        "body",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "dito",
+      "primary_form": "dito",
+      "gloss": "finger",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "dita",
+        "example": "Il bambino conta con le dita.",
+        "example_en": "The child counts on his fingers."
+      },
+      "tags": [
+        "body",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "scusa",
+      "primary_form": "scusa",
+      "gloss": "sorry; excuse me (informal)",
+      "extras": {
+        "example": "Scusa, sono in ritardo.",
+        "example_en": "Sorry, I'm late."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "prendere",
+      "primary_form": "prendere",
+      "gloss": "to take; to have (food, drink)",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "preso",
+        "example": "Prendo il treno delle otto.",
+        "example_en": "I'm taking the eight o'clock train."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "prendo",
+          "2s": "prendi",
+          "3s": "prende",
+          "1p": "prendiamo",
+          "2p": "prendete",
+          "3p": "prendono"
+        },
+        "passato-prossimo": {
+          "1s": "ho preso",
+          "2s": "hai preso",
+          "3s": "ha preso",
+          "1p": "abbiamo preso",
+          "2p": "avete preso",
+          "3p": "hanno preso"
+        },
+        "imperfetto": {
+          "1s": "prendevo",
+          "2s": "prendevi",
+          "3s": "prendeva",
+          "1p": "prendevamo",
+          "2p": "prendevate",
+          "3p": "prendevano"
+        },
+        "futuro-semplice": {
+          "1s": "prenderò",
+          "2s": "prenderai",
+          "3s": "prenderà",
+          "1p": "prenderemo",
+          "2p": "prenderete",
+          "3p": "prenderanno"
+        },
+        "condizionale": {
+          "1s": "prenderei",
+          "2s": "prenderesti",
+          "3s": "prenderebbe",
+          "1p": "prenderemmo",
+          "2p": "prendereste",
+          "3p": "prenderebbero"
+        },
+        "congiuntivo": {
+          "1s": "prenda",
+          "2s": "prenda",
+          "3s": "prenda",
+          "1p": "prendiamo",
+          "2p": "prendiate",
+          "3p": "prendano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "schiena",
+      "primary_form": "schiena",
+      "gloss": "back",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "schiene",
+        "example": "Ho mal di schiena.",
+        "example_en": "I've got backache."
+      },
+      "tags": [
+        "body",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cuore",
+      "primary_form": "cuore",
+      "gloss": "heart",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "cuori",
+        "example": "Ha un cuore d'oro.",
+        "example_en": "He has a heart of gold."
+      },
+      "tags": [
+        "body",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "nuovo",
+      "primary_form": "nuovo",
+      "gloss": "new",
+      "extras": {
+        "forms": {
+          "ms": "nuovo",
+          "fs": "nuova",
+          "mp": "nuovi",
+          "fp": "nuove"
+        },
+        "example": "Ho un telefono nuovo.",
+        "example_en": "I've got a new phone."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "scusi",
+      "primary_form": "scusi",
+      "gloss": "excuse me (polite)",
+      "extras": {
+        "example": "Scusi, che ore sono?",
+        "example_en": "Excuse me, what time is it?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "mettere",
+      "primary_form": "mettere",
+      "gloss": "to put; to put on",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "messo",
+        "example": "Metti il latte in frigo.",
+        "example_en": "Put the milk in the fridge."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "metto",
+          "2s": "metti",
+          "3s": "mette",
+          "1p": "mettiamo",
+          "2p": "mettete",
+          "3p": "mettono"
+        },
+        "passato-prossimo": {
+          "1s": "ho messo",
+          "2s": "hai messo",
+          "3s": "ha messo",
+          "1p": "abbiamo messo",
+          "2p": "avete messo",
+          "3p": "hanno messo"
+        },
+        "imperfetto": {
+          "1s": "mettevo",
+          "2s": "mettevi",
+          "3s": "metteva",
+          "1p": "mettevamo",
+          "2p": "mettevate",
+          "3p": "mettevano"
+        },
+        "futuro-semplice": {
+          "1s": "metterò",
+          "2s": "metterai",
+          "3s": "metterà",
+          "1p": "metteremo",
+          "2p": "metterete",
+          "3p": "metteranno"
+        },
+        "condizionale": {
+          "1s": "metterei",
+          "2s": "metteresti",
+          "3s": "metterebbe",
+          "1p": "metteremmo",
+          "2p": "mettereste",
+          "3p": "metterebbero"
+        },
+        "congiuntivo": {
+          "1s": "metta",
+          "2s": "metta",
+          "3s": "metta",
+          "1p": "mettiamo",
+          "2p": "mettiate",
+          "3p": "mettano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "pancia",
+      "primary_form": "pancia",
+      "gloss": "belly, tummy",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "pance",
+        "example": "Il bambino ha mal di pancia.",
+        "example_en": "The child has a tummy ache."
+      },
+      "tags": [
+        "body",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "anche",
+      "primary_form": "anche",
+      "gloss": "also, too",
+      "extras": {
+        "role": "conn-addition",
+        "example": "Parlo inglese e anche un po' di francese.",
+        "example_en": "I speak English and a bit of French too."
+      },
+      "tags": [
+        "connettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "dente",
+      "primary_form": "dente",
+      "gloss": "tooth",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "denti",
+        "example": "Mi lavo i denti dopo cena.",
+        "example_en": "I brush my teeth after dinner."
+      },
+      "tags": [
+        "body",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "colazione",
+      "primary_form": "colazione",
+      "gloss": "breakfast",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "colazioni",
+        "example": "Faccio colazione alle sette.",
+        "example_en": "I have breakfast at seven."
+      },
+      "tags": [
+        "food",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "mi-dispiace",
+      "primary_form": "mi dispiace",
+      "gloss": "I'm sorry",
+      "extras": {
+        "literal": "it displeases me",
+        "example": "Mi dispiace, non posso venire.",
+        "example_en": "I'm sorry, I can't come."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "vedere",
+      "primary_form": "vedere",
+      "gloss": "to see",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "visto",
+        "example": "Ci vediamo domani!",
+        "example_en": "See you tomorrow!"
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "vedo",
+          "2s": "vedi",
+          "3s": "vede",
+          "1p": "vediamo",
+          "2p": "vedete",
+          "3p": "vedono"
+        },
+        "passato-prossimo": {
+          "1s": "ho visto",
+          "2s": "hai visto",
+          "3s": "ha visto",
+          "1p": "abbiamo visto",
+          "2p": "avete visto",
+          "3p": "hanno visto"
+        },
+        "imperfetto": {
+          "1s": "vedevo",
+          "2s": "vedevi",
+          "3s": "vedeva",
+          "1p": "vedevamo",
+          "2p": "vedevate",
+          "3p": "vedevano"
+        },
+        "futuro-semplice": {
+          "1s": "vedrò",
+          "2s": "vedrai",
+          "3s": "vedrà",
+          "1p": "vedremo",
+          "2p": "vedrete",
+          "3p": "vedranno"
+        },
+        "condizionale": {
+          "1s": "vedrei",
+          "2s": "vedresti",
+          "3s": "vedrebbe",
+          "1p": "vedremmo",
+          "2p": "vedreste",
+          "3p": "vedrebbero"
+        },
+        "congiuntivo": {
+          "1s": "veda",
+          "2s": "veda",
+          "3s": "veda",
+          "1p": "vediamo",
+          "2p": "vediate",
+          "3p": "vedano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "pranzo",
+      "primary_form": "pranzo",
+      "gloss": "lunch",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "pranzi",
+        "example": "Il pranzo è pronto!",
+        "example_en": "Lunch is ready!"
+      },
+      "tags": [
+        "food",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "gentile",
+      "primary_form": "gentile",
+      "gloss": "kind",
+      "extras": {
+        "forms": {
+          "ms": "gentile",
+          "fs": "gentile",
+          "mp": "gentili",
+          "fp": "gentili"
+        },
+        "example": "Grazie, sei molto gentile.",
+        "example_en": "Thanks, you're very kind."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cena",
+      "primary_form": "cena",
+      "gloss": "dinner",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "cene",
+        "example": "A che ora è la cena?",
+        "example_en": "What time is dinner?"
+      },
+      "tags": [
+        "food",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "si",
+      "primary_form": "sì",
+      "gloss": "yes",
+      "extras": {
+        "example": "Sì, mi piace molto.",
+        "example_en": "Yes, I like it a lot."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "abitare",
+      "primary_form": "abitare",
+      "gloss": "to live (somewhere)",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "abitato",
+        "example": "Abito a Torino.",
+        "example_en": "I live in Turin."
+      },
+      "tags": [
+        "presente",
+        "home"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "abito",
+          "2s": "abiti",
+          "3s": "abita",
+          "1p": "abitiamo",
+          "2p": "abitate",
+          "3p": "abitano"
+        },
+        "passato-prossimo": {
+          "1s": "ho abitato",
+          "2s": "hai abitato",
+          "3s": "ha abitato",
+          "1p": "abbiamo abitato",
+          "2p": "avete abitato",
+          "3p": "hanno abitato"
+        },
+        "imperfetto": {
+          "1s": "abitavo",
+          "2s": "abitavi",
+          "3s": "abitava",
+          "1p": "abitavamo",
+          "2p": "abitavate",
+          "3p": "abitavano"
+        },
+        "futuro-semplice": {
+          "1s": "abiterò",
+          "2s": "abiterai",
+          "3s": "abiterà",
+          "1p": "abiteremo",
+          "2p": "abiterete",
+          "3p": "abiteranno"
+        },
+        "condizionale": {
+          "1s": "abiterei",
+          "2s": "abiteresti",
+          "3s": "abiterebbe",
+          "1p": "abiteremmo",
+          "2p": "abitereste",
+          "3p": "abiterebbero"
+        },
+        "congiuntivo": {
+          "1s": "abiti",
+          "2s": "abiti",
+          "3s": "abiti",
+          "1p": "abitiamo",
+          "2p": "abitiate",
+          "3p": "abitino"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "formaggio",
+      "primary_form": "formaggio",
+      "gloss": "cheese",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "formaggi",
+        "example": "Questo formaggio è molto buono.",
+        "example_en": "This cheese is very good."
+      },
+      "tags": [
+        "food",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "carne",
+      "primary_form": "carne",
+      "gloss": "meat",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "example": "Non mangio carne.",
+        "example_en": "I don't eat meat."
+      },
+      "tags": [
+        "food",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pesce",
+      "primary_form": "pesce",
+      "gloss": "fish",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "pesci",
+        "example": "Il venerdì mangiamo pesce.",
+        "example_en": "On Fridays we eat fish."
+      },
+      "tags": [
+        "food",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "contento",
+      "primary_form": "contento",
+      "gloss": "happy, pleased",
+      "extras": {
+        "forms": {
+          "ms": "contento",
+          "fs": "contenta",
+          "mp": "contenti",
+          "fp": "contente"
+        },
+        "example": "Sono contento di vederti.",
+        "example_en": "I'm happy to see you."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "no",
+      "primary_form": "no",
+      "gloss": "no",
+      "extras": {
+        "example": "No, grazie, sono a posto.",
+        "example_en": "No thanks, I'm fine."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "lavorare",
+      "primary_form": "lavorare",
+      "gloss": "to work",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "lavorato",
+        "example": "Lavora in un ospedale.",
+        "example_en": "She works in a hospital."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "lavoro",
+          "2s": "lavori",
+          "3s": "lavora",
+          "1p": "lavoriamo",
+          "2p": "lavorate",
+          "3p": "lavorano"
+        },
+        "passato-prossimo": {
+          "1s": "ho lavorato",
+          "2s": "hai lavorato",
+          "3s": "ha lavorato",
+          "1p": "abbiamo lavorato",
+          "2p": "avete lavorato",
+          "3p": "hanno lavorato"
+        },
+        "imperfetto": {
+          "1s": "lavoravo",
+          "2s": "lavoravi",
+          "3s": "lavorava",
+          "1p": "lavoravamo",
+          "2p": "lavoravate",
+          "3p": "lavoravano"
+        },
+        "futuro-semplice": {
+          "1s": "lavorerò",
+          "2s": "lavorerai",
+          "3s": "lavorerà",
+          "1p": "lavoreremo",
+          "2p": "lavorerete",
+          "3p": "lavoreranno"
+        },
+        "condizionale": {
+          "1s": "lavorerei",
+          "2s": "lavoreresti",
+          "3s": "lavorerebbe",
+          "1p": "lavoreremmo",
+          "2p": "lavorereste",
+          "3p": "lavorerebbero"
+        },
+        "congiuntivo": {
+          "1s": "lavori",
+          "2s": "lavori",
+          "3s": "lavori",
+          "1p": "lavoriamo",
+          "2p": "lavoriate",
+          "3p": "lavorino"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "pollo",
+      "primary_form": "pollo",
+      "gloss": "chicken",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "polli",
+        "example": "Stasera c'è pollo arrosto.",
+        "example_en": "Tonight there's roast chicken."
+      },
+      "tags": [
+        "food",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "uovo",
+      "primary_form": "uovo",
+      "gloss": "egg",
+      "extras": {
+        "gender": "m",
+        "article": "l'",
+        "plural": "uova",
+        "example": "Vorrei due uova, per favore.",
+        "example_en": "I'd like two eggs, please."
+      },
+      "tags": [
+        "food",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "va-bene",
+      "primary_form": "va bene",
+      "gloss": "OK, fine",
+      "extras": {
+        "literal": "it goes well",
+        "example": "Alle otto va bene?",
+        "example_en": "Is eight OK?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "guardare",
+      "primary_form": "guardare",
+      "gloss": "to watch, to look at",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "guardato",
+        "example": "Guardiamo un film stasera?",
+        "example_en": "Shall we watch a film tonight?"
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "guardo",
+          "2s": "guardi",
+          "3s": "guarda",
+          "1p": "guardiamo",
+          "2p": "guardate",
+          "3p": "guardano"
+        },
+        "passato-prossimo": {
+          "1s": "ho guardato",
+          "2s": "hai guardato",
+          "3s": "ha guardato",
+          "1p": "abbiamo guardato",
+          "2p": "avete guardato",
+          "3p": "hanno guardato"
+        },
+        "imperfetto": {
+          "1s": "guardavo",
+          "2s": "guardavi",
+          "3s": "guardava",
+          "1p": "guardavamo",
+          "2p": "guardavate",
+          "3p": "guardavano"
+        },
+        "futuro-semplice": {
+          "1s": "guarderò",
+          "2s": "guarderai",
+          "3s": "guarderà",
+          "1p": "guarderemo",
+          "2p": "guarderete",
+          "3p": "guarderanno"
+        },
+        "condizionale": {
+          "1s": "guarderei",
+          "2s": "guarderesti",
+          "3s": "guarderebbe",
+          "1p": "guarderemmo",
+          "2p": "guardereste",
+          "3p": "guarderebbero"
+        },
+        "congiuntivo": {
+          "1s": "guardi",
+          "2s": "guardi",
+          "3s": "guardi",
+          "1p": "guardiamo",
+          "2p": "guardiate",
+          "3p": "guardino"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "latte",
+      "primary_form": "latte",
+      "gloss": "milk",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "example": "Prendo il caffè con il latte.",
+        "example_en": "I have my coffee with milk."
+      },
+      "tags": [
+        "food",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "caffe",
+      "primary_form": "caffè",
+      "gloss": "coffee; café",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "caffè",
+        "example": "Prendiamo un caffè?",
+        "example_en": "Shall we get a coffee?"
+      },
+      "tags": [
+        "food",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "stanco",
+      "primary_form": "stanco",
+      "gloss": "tired",
+      "extras": {
+        "forms": {
+          "ms": "stanco",
+          "fs": "stanca",
+          "mp": "stanchi",
+          "fp": "stanche"
+        },
+        "example": "Stasera sono troppo stanca.",
+        "example_en": "I'm too tired tonight."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "te",
+      "primary_form": "tè",
+      "gloss": "tea",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "tè",
+        "example": "Bevo il tè con il limone.",
+        "example_en": "I drink tea with lemon."
+      },
+      "tags": [
+        "food",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "come-stai",
+      "primary_form": "come stai?",
+      "gloss": "how are you? (informal)",
+      "extras": {
+        "literal": "how do you stay?",
+        "example": "Ciao Anna, come stai?",
+        "example_en": "Hi Anna, how are you?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "ascoltare",
+      "primary_form": "ascoltare",
+      "gloss": "to listen (to)",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "ascoltato",
+        "example": "Ascolto la radio in macchina.",
+        "example_en": "I listen to the radio in the car."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "ascolto",
+          "2s": "ascolti",
+          "3s": "ascolta",
+          "1p": "ascoltiamo",
+          "2p": "ascoltate",
+          "3p": "ascoltano"
+        },
+        "passato-prossimo": {
+          "1s": "ho ascoltato",
+          "2s": "hai ascoltato",
+          "3s": "ha ascoltato",
+          "1p": "abbiamo ascoltato",
+          "2p": "avete ascoltato",
+          "3p": "hanno ascoltato"
+        },
+        "imperfetto": {
+          "1s": "ascoltavo",
+          "2s": "ascoltavi",
+          "3s": "ascoltava",
+          "1p": "ascoltavamo",
+          "2p": "ascoltavate",
+          "3p": "ascoltavano"
+        },
+        "futuro-semplice": {
+          "1s": "ascolterò",
+          "2s": "ascolterai",
+          "3s": "ascolterà",
+          "1p": "ascolteremo",
+          "2p": "ascolterete",
+          "3p": "ascolteranno"
+        },
+        "condizionale": {
+          "1s": "ascolterei",
+          "2s": "ascolteresti",
+          "3s": "ascolterebbe",
+          "1p": "ascolteremmo",
+          "2p": "ascoltereste",
+          "3p": "ascolterebbero"
+        },
+        "congiuntivo": {
+          "1s": "ascolti",
+          "2s": "ascolti",
+          "3s": "ascolti",
+          "1p": "ascoltiamo",
+          "2p": "ascoltiate",
+          "3p": "ascoltino"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "vino",
+      "primary_form": "vino",
+      "gloss": "wine",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "vini",
+        "example": "Un bicchiere di vino rosso, per favore.",
+        "example_en": "A glass of red wine, please."
+      },
+      "tags": [
+        "food",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "birra",
+      "primary_form": "birra",
+      "gloss": "beer",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "birre",
+        "example": "Due birre piccole, per favore.",
+        "example_en": "Two small beers, please."
+      },
+      "tags": [
+        "food",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "come-sta",
+      "primary_form": "come sta?",
+      "gloss": "how are you? (polite)",
+      "extras": {
+        "example": "Buongiorno, dottore, come sta?",
+        "example_en": "Good morning, doctor, how are you?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mela",
+      "primary_form": "mela",
+      "gloss": "apple",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "mele",
+        "example": "Mangio una mela al giorno.",
+        "example_en": "I eat an apple a day."
+      },
+      "tags": [
+        "food",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "giocare",
+      "primary_form": "giocare",
+      "gloss": "to play",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "giocato",
+        "example": "I bambini giocano in cortile.",
+        "example_en": "The children are playing in the courtyard."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "gioco",
+          "2s": "giochi",
+          "3s": "gioca",
+          "1p": "giochiamo",
+          "2p": "giocate",
+          "3p": "giocano"
+        },
+        "passato-prossimo": {
+          "1s": "ho giocato",
+          "2s": "hai giocato",
+          "3s": "ha giocato",
+          "1p": "abbiamo giocato",
+          "2p": "avete giocato",
+          "3p": "hanno giocato"
+        },
+        "imperfetto": {
+          "1s": "giocavo",
+          "2s": "giocavi",
+          "3s": "giocava",
+          "1p": "giocavamo",
+          "2p": "giocavate",
+          "3p": "giocavano"
+        },
+        "futuro-semplice": {
+          "1s": "giocherò",
+          "2s": "giocherai",
+          "3s": "giocherà",
+          "1p": "giocheremo",
+          "2p": "giocherete",
+          "3p": "giocheranno"
+        },
+        "condizionale": {
+          "1s": "giocherei",
+          "2s": "giocheresti",
+          "3s": "giocherebbe",
+          "1p": "giocheremmo",
+          "2p": "giochereste",
+          "3p": "giocherebbero"
+        },
+        "congiuntivo": {
+          "1s": "giochi",
+          "2s": "giochi",
+          "3s": "giochi",
+          "1p": "giochiamo",
+          "2p": "giochiate",
+          "3p": "giochino"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "caldo",
+      "primary_form": "caldo",
+      "gloss": "hot, warm",
+      "extras": {
+        "forms": {
+          "ms": "caldo",
+          "fs": "calda",
+          "mp": "caldi",
+          "fp": "calde"
+        },
+        "example": "Vorrei un tè caldo.",
+        "example_en": "I'd like a hot tea."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "e",
+      "primary_form": "e",
+      "gloss": "and",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Ho un fratello e una sorella.",
+        "example_en": "I have a brother and a sister."
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "patata",
+      "primary_form": "patata",
+      "gloss": "potato",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "patate",
+        "example": "Le patate sono nel forno.",
+        "example_en": "The potatoes are in the oven."
+      },
+      "tags": [
+        "food",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "verdura",
+      "primary_form": "verdura",
+      "gloss": "vegetables",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "verdure",
+        "example": "Compro la verdura al mercato.",
+        "example_en": "I buy vegetables at the market."
+      },
+      "tags": [
+        "food",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "sto-bene-grazie",
+      "primary_form": "sto bene, grazie",
+      "gloss": "I'm fine, thanks",
+      "extras": {
+        "literal": "I stay well",
+        "example": "Sto bene, grazie, e tu?",
+        "example_en": "I'm fine, thanks, and you?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "cercare",
+      "primary_form": "cercare",
+      "gloss": "to look for",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "cercato",
+        "example": "Cerco la fermata dell'autobus.",
+        "example_en": "I'm looking for the bus stop."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "cerco",
+          "2s": "cerchi",
+          "3s": "cerca",
+          "1p": "cerchiamo",
+          "2p": "cercate",
+          "3p": "cercano"
+        },
+        "passato-prossimo": {
+          "1s": "ho cercato",
+          "2s": "hai cercato",
+          "3s": "ha cercato",
+          "1p": "abbiamo cercato",
+          "2p": "avete cercato",
+          "3p": "hanno cercato"
+        },
+        "imperfetto": {
+          "1s": "cercavo",
+          "2s": "cercavi",
+          "3s": "cercava",
+          "1p": "cercavamo",
+          "2p": "cercavate",
+          "3p": "cercavano"
+        },
+        "futuro-semplice": {
+          "1s": "cercherò",
+          "2s": "cercherai",
+          "3s": "cercherà",
+          "1p": "cercheremo",
+          "2p": "cercherete",
+          "3p": "cercheranno"
+        },
+        "condizionale": {
+          "1s": "cercherei",
+          "2s": "cercheresti",
+          "3s": "cercherebbe",
+          "1p": "cercheremmo",
+          "2p": "cerchereste",
+          "3p": "cercherebbero"
+        },
+        "congiuntivo": {
+          "1s": "cerchi",
+          "2s": "cerchi",
+          "3s": "cerchi",
+          "1p": "cerchiamo",
+          "2p": "cerchiate",
+          "3p": "cerchino"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "frutta",
+      "primary_form": "frutta",
+      "gloss": "fruit",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "example": "La frutta è fresca oggi.",
+        "example_en": "The fruit is fresh today."
+      },
+      "tags": [
+        "food",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "freddo",
+      "primary_form": "freddo",
+      "gloss": "cold",
+      "extras": {
+        "forms": {
+          "ms": "freddo",
+          "fs": "fredda",
+          "mp": "freddi",
+          "fp": "fredde"
+        },
+        "example": "L'acqua del mare è fredda.",
+        "example_en": "The sea water is cold."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "zucchero",
+      "primary_form": "zucchero",
+      "gloss": "sugar",
+      "extras": {
+        "gender": "m",
+        "article": "lo",
+        "example": "Il caffè senza zucchero, grazie.",
+        "example_en": "Coffee without sugar, thanks."
+      },
+      "tags": [
+        "food",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "sale",
+      "primary_form": "sale",
+      "gloss": "salt",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "example": "Mi passi il sale?",
+        "example_en": "Can you pass me the salt?"
+      },
+      "tags": [
+        "food",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "piacere-di-conoscerti",
+      "primary_form": "piacere di conoscerti",
+      "gloss": "nice to meet you",
+      "extras": {
+        "literal": "pleasure of knowing you",
+        "note": "Often just Piacere! To someone you call Lei: piacere di conoscerLa.",
+        "example": "Io sono Luca. Piacere di conoscerti!",
+        "example_en": "I'm Luca. Nice to meet you!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "trovare",
+      "primary_form": "trovare",
+      "gloss": "to find",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "trovato",
+        "example": "Non trovo il telefono.",
+        "example_en": "I can't find my phone."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "trovo",
+          "2s": "trovi",
+          "3s": "trova",
+          "1p": "troviamo",
+          "2p": "trovate",
+          "3p": "trovano"
+        },
+        "passato-prossimo": {
+          "1s": "ho trovato",
+          "2s": "hai trovato",
+          "3s": "ha trovato",
+          "1p": "abbiamo trovato",
+          "2p": "avete trovato",
+          "3p": "hanno trovato"
+        },
+        "imperfetto": {
+          "1s": "trovavo",
+          "2s": "trovavi",
+          "3s": "trovava",
+          "1p": "trovavamo",
+          "2p": "trovavate",
+          "3p": "trovavano"
+        },
+        "futuro-semplice": {
+          "1s": "troverò",
+          "2s": "troverai",
+          "3s": "troverà",
+          "1p": "troveremo",
+          "2p": "troverete",
+          "3p": "troveranno"
+        },
+        "condizionale": {
+          "1s": "troverei",
+          "2s": "troveresti",
+          "3s": "troverebbe",
+          "1p": "troveremmo",
+          "2p": "trovereste",
+          "3p": "troverebbero"
+        },
+        "congiuntivo": {
+          "1s": "trovi",
+          "2s": "trovi",
+          "3s": "trovi",
+          "1p": "troviamo",
+          "2p": "troviate",
+          "3p": "trovino"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "riso",
+      "primary_form": "riso",
+      "gloss": "rice",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "example": "Stasera faccio il riso con le verdure.",
+        "example_en": "Tonight I'm making rice with vegetables."
+      },
+      "tags": [
+        "food",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "marmellata",
+      "primary_form": "marmellata",
+      "gloss": "jam",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "marmellate",
+        "example": "Mangio pane e marmellata a colazione.",
+        "example_en": "I have bread and jam for breakfast."
+      },
+      "tags": [
+        "food",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "non-capisco",
+      "primary_form": "non capisco",
+      "gloss": "I don't understand",
+      "extras": {
+        "example": "Scusi, non capisco bene.",
+        "example_en": "Sorry, I don't really understand."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "pensare",
+      "primary_form": "pensare",
+      "gloss": "to think",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "pensato",
+        "example": "Penso di sì.",
+        "example_en": "I think so."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "penso",
+          "2s": "pensi",
+          "3s": "pensa",
+          "1p": "pensiamo",
+          "2p": "pensate",
+          "3p": "pensano"
+        },
+        "passato-prossimo": {
+          "1s": "ho pensato",
+          "2s": "hai pensato",
+          "3s": "ha pensato",
+          "1p": "abbiamo pensato",
+          "2p": "avete pensato",
+          "3p": "hanno pensato"
+        },
+        "imperfetto": {
+          "1s": "pensavo",
+          "2s": "pensavi",
+          "3s": "pensava",
+          "1p": "pensavamo",
+          "2p": "pensavate",
+          "3p": "pensavano"
+        },
+        "futuro-semplice": {
+          "1s": "penserò",
+          "2s": "penserai",
+          "3s": "penserà",
+          "1p": "penseremo",
+          "2p": "penserete",
+          "3p": "penseranno"
+        },
+        "condizionale": {
+          "1s": "penserei",
+          "2s": "penseresti",
+          "3s": "penserebbe",
+          "1p": "penseremmo",
+          "2p": "pensereste",
+          "3p": "penserebbero"
+        },
+        "congiuntivo": {
+          "1s": "pensi",
+          "2s": "pensi",
+          "3s": "pensi",
+          "1p": "pensiamo",
+          "2p": "pensiate",
+          "3p": "pensino"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "facile",
+      "primary_form": "facile",
+      "gloss": "easy",
+      "extras": {
+        "forms": {
+          "ms": "facile",
+          "fs": "facile",
+          "mp": "facili",
+          "fp": "facili"
+        },
+        "example": "L'esercizio è facile.",
+        "example_en": "The exercise is easy."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "torta",
+      "primary_form": "torta",
+      "gloss": "cake",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "torte",
+        "example": "La torta della nonna è buonissima.",
+        "example_en": "Grandma's cake is delicious."
+      },
+      "tags": [
+        "food",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pasta",
+      "primary_form": "pasta",
+      "gloss": "pasta",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "example": "La pasta è pronta, a tavola!",
+        "example_en": "The pasta's ready, come and eat!"
+      },
+      "tags": [
+        "food",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "gelato",
+      "primary_form": "gelato",
+      "gloss": "ice cream",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "gelati",
+        "example": "Un gelato al cioccolato, per favore.",
+        "example_en": "A chocolate ice cream, please."
+      },
+      "tags": [
+        "food",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "puo-ripetere",
+      "primary_form": "può ripetere?",
+      "gloss": "could you repeat that? (polite)",
+      "extras": {
+        "example": "Scusi, può ripetere più lentamente?",
+        "example_en": "Sorry, could you repeat that more slowly?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "arrivare",
+      "primary_form": "arrivare",
+      "gloss": "to arrive",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "arrivato",
+        "example": "Il treno arriva a mezzogiorno.",
+        "example_en": "The train arrives at noon.",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "arrivato",
+            "arrivata"
+          ],
+          "passato-prossimo.2s": [
+            "arrivato",
+            "arrivata"
+          ],
+          "passato-prossimo.3s": [
+            "arrivato",
+            "arrivata"
+          ],
+          "passato-prossimo.1p": [
+            "arrivati",
+            "arrivate"
+          ],
+          "passato-prossimo.2p": [
+            "arrivati",
+            "arrivate"
+          ],
+          "passato-prossimo.3p": [
+            "arrivati",
+            "arrivate"
+          ]
+        }
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "arrivo",
+          "2s": "arrivi",
+          "3s": "arriva",
+          "1p": "arriviamo",
+          "2p": "arrivate",
+          "3p": "arrivano"
+        },
+        "passato-prossimo": {
+          "1s": "sono arrivato/a",
+          "2s": "sei arrivato/a",
+          "3s": "è arrivato/a",
+          "1p": "siamo arrivati/e",
+          "2p": "siete arrivati/e",
+          "3p": "sono arrivati/e"
+        },
+        "imperfetto": {
+          "1s": "arrivavo",
+          "2s": "arrivavi",
+          "3s": "arrivava",
+          "1p": "arrivavamo",
+          "2p": "arrivavate",
+          "3p": "arrivavano"
+        },
+        "futuro-semplice": {
+          "1s": "arriverò",
+          "2s": "arriverai",
+          "3s": "arriverà",
+          "1p": "arriveremo",
+          "2p": "arriverete",
+          "3p": "arriveranno"
+        },
+        "condizionale": {
+          "1s": "arriverei",
+          "2s": "arriveresti",
+          "3s": "arriverebbe",
+          "1p": "arriveremmo",
+          "2p": "arrivereste",
+          "3p": "arriverebbero"
+        },
+        "congiuntivo": {
+          "1s": "arrivi",
+          "2s": "arrivi",
+          "3s": "arrivi",
+          "1p": "arriviamo",
+          "2p": "arriviate",
+          "3p": "arrivino"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "giorno",
+      "primary_form": "giorno",
+      "gloss": "day",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "giorni",
+        "example": "Lavoro cinque giorni alla settimana.",
+        "example_en": "I work five days a week."
+      },
+      "tags": [
+        "time",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "difficile",
+      "primary_form": "difficile",
+      "gloss": "difficult, hard",
+      "extras": {
+        "forms": {
+          "ms": "difficile",
+          "fs": "difficile",
+          "mp": "difficili",
+          "fp": "difficili"
+        },
+        "example": "L'italiano non è difficile.",
+        "example_en": "Italian isn't difficult."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "settimana",
+      "primary_form": "settimana",
+      "gloss": "week",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "settimane",
+        "example": "La prossima settimana vado a Roma.",
+        "example_en": "Next week I'm going to Rome."
+      },
+      "tags": [
+        "time",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "piu-piano-per-favore",
+      "primary_form": "più piano, per favore",
+      "gloss": "slower, please",
+      "extras": {
+        "literal": "more softly",
+        "example": "Più piano, per favore, sono straniero.",
+        "example_en": "Slower, please, I'm a foreigner."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "cominciare",
+      "primary_form": "cominciare",
+      "gloss": "to begin, to start",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "cominciato",
+        "example": "Il film comincia alle nove.",
+        "example_en": "The film starts at nine."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "comincio",
+          "2s": "cominci",
+          "3s": "comincia",
+          "1p": "cominciamo",
+          "2p": "cominciate",
+          "3p": "cominciano"
+        },
+        "passato-prossimo": {
+          "1s": "ho cominciato",
+          "2s": "hai cominciato",
+          "3s": "ha cominciato",
+          "1p": "abbiamo cominciato",
+          "2p": "avete cominciato",
+          "3p": "hanno cominciato"
+        },
+        "imperfetto": {
+          "1s": "cominciavo",
+          "2s": "cominciavi",
+          "3s": "cominciava",
+          "1p": "cominciavamo",
+          "2p": "cominciavate",
+          "3p": "cominciavano"
+        },
+        "futuro-semplice": {
+          "1s": "comincerò",
+          "2s": "comincerai",
+          "3s": "comincerà",
+          "1p": "cominceremo",
+          "2p": "comincerete",
+          "3p": "cominceranno"
+        },
+        "condizionale": {
+          "1s": "comincerei",
+          "2s": "cominceresti",
+          "3s": "comincerebbe",
+          "1p": "cominceremmo",
+          "2p": "comincereste",
+          "3p": "comincerebbero"
+        },
+        "congiuntivo": {
+          "1s": "cominci",
+          "2s": "cominci",
+          "3s": "cominci",
+          "1p": "cominciamo",
+          "2p": "cominciate",
+          "3p": "comincino"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "mese",
+      "primary_form": "mese",
+      "gloss": "month",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "mesi",
+        "example": "Ci vediamo il mese prossimo.",
+        "example_en": "See you next month."
+      },
+      "tags": [
+        "time",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "anno",
+      "primary_form": "anno",
+      "gloss": "year",
+      "extras": {
+        "gender": "m",
+        "article": "l'",
+        "plural": "anni",
+        "example": "Abito qui da un anno.",
+        "example_en": "I've lived here for a year."
+      },
+      "tags": [
+        "time",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "o",
+      "primary_form": "o",
+      "gloss": "or",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Vuoi un tè o un caffè?",
+        "example_en": "Do you want tea or coffee?"
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ora",
+      "primary_form": "ora",
+      "gloss": "hour",
+      "extras": {
+        "gender": "f",
+        "article": "l'",
+        "plural": "ore",
+        "example": "Il viaggio dura un'ora.",
+        "example_en": "The trip takes an hour."
+      },
+      "tags": [
+        "time",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "non-lo-so",
+      "primary_form": "non lo so",
+      "gloss": "I don't know",
+      "extras": {
+        "literal": "I don't know it",
+        "example": "Non lo so, chiedi a Marco.",
+        "example_en": "I don't know, ask Marco."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "comprare",
+      "primary_form": "comprare",
+      "gloss": "to buy",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "comprato",
+        "example": "Compro il pane ogni mattina.",
+        "example_en": "I buy bread every morning."
+      },
+      "tags": [
+        "presente",
+        "food"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "compro",
+          "2s": "compri",
+          "3s": "compra",
+          "1p": "compriamo",
+          "2p": "comprate",
+          "3p": "comprano"
+        },
+        "passato-prossimo": {
+          "1s": "ho comprato",
+          "2s": "hai comprato",
+          "3s": "ha comprato",
+          "1p": "abbiamo comprato",
+          "2p": "avete comprato",
+          "3p": "hanno comprato"
+        },
+        "imperfetto": {
+          "1s": "compravo",
+          "2s": "compravi",
+          "3s": "comprava",
+          "1p": "compravamo",
+          "2p": "compravate",
+          "3p": "compravano"
+        },
+        "futuro-semplice": {
+          "1s": "comprerò",
+          "2s": "comprerai",
+          "3s": "comprerà",
+          "1p": "compreremo",
+          "2p": "comprerete",
+          "3p": "compreranno"
+        },
+        "condizionale": {
+          "1s": "comprerei",
+          "2s": "compreresti",
+          "3s": "comprerebbe",
+          "1p": "compreremmo",
+          "2p": "comprereste",
+          "3p": "comprerebbero"
+        },
+        "congiuntivo": {
+          "1s": "compri",
+          "2s": "compri",
+          "3s": "compri",
+          "1p": "compriamo",
+          "2p": "compriate",
+          "3p": "comprino"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "caro",
+      "primary_form": "caro",
+      "gloss": "expensive; dear",
+      "extras": {
+        "forms": {
+          "ms": "caro",
+          "fs": "cara",
+          "mp": "cari",
+          "fp": "care"
+        },
+        "example": "Questo ristorante è caro.",
+        "example_en": "This restaurant is expensive."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "minuto",
+      "primary_form": "minuto",
+      "gloss": "minute",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "minuti",
+        "example": "Arrivo tra cinque minuti.",
+        "example_en": "I'll be there in five minutes."
+      },
+      "tags": [
+        "time",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mattina",
+      "primary_form": "mattina",
+      "gloss": "morning",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "mattine",
+        "example": "Esco presto la mattina.",
+        "example_en": "I go out early in the morning."
+      },
+      "tags": [
+        "time",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "quanto-costa",
+      "primary_form": "quanto costa?",
+      "gloss": "how much is it?",
+      "extras": {
+        "literal": "how much does it cost?",
+        "example": "Quanto costa questa borsa?",
+        "example_en": "How much is this bag?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "finire",
+      "primary_form": "finire",
+      "gloss": "to finish",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "finito",
+        "example": "Finisco di lavorare alle sei.",
+        "example_en": "I finish work at six."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "finisco",
+          "2s": "finisci",
+          "3s": "finisce",
+          "1p": "finiamo",
+          "2p": "finite",
+          "3p": "finiscono"
+        },
+        "passato-prossimo": {
+          "1s": "ho finito",
+          "2s": "hai finito",
+          "3s": "ha finito",
+          "1p": "abbiamo finito",
+          "2p": "avete finito",
+          "3p": "hanno finito"
+        },
+        "imperfetto": {
+          "1s": "finivo",
+          "2s": "finivi",
+          "3s": "finiva",
+          "1p": "finivamo",
+          "2p": "finivate",
+          "3p": "finivano"
+        },
+        "futuro-semplice": {
+          "1s": "finirò",
+          "2s": "finirai",
+          "3s": "finirà",
+          "1p": "finiremo",
+          "2p": "finirete",
+          "3p": "finiranno"
+        },
+        "condizionale": {
+          "1s": "finirei",
+          "2s": "finiresti",
+          "3s": "finirebbe",
+          "1p": "finiremmo",
+          "2p": "finireste",
+          "3p": "finirebbero"
+        },
+        "congiuntivo": {
+          "1s": "finisca",
+          "2s": "finisca",
+          "3s": "finisca",
+          "1p": "finiamo",
+          "2p": "finiate",
+          "3p": "finiscano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "pomeriggio",
+      "primary_form": "pomeriggio",
+      "gloss": "afternoon",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "pomeriggi",
+        "example": "Ci vediamo oggi pomeriggio?",
+        "example_en": "Shall we meet this afternoon?"
+      },
+      "tags": [
+        "time",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "sera",
+      "primary_form": "sera",
+      "gloss": "evening",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "sere",
+        "example": "La sera guardo la TV.",
+        "example_en": "In the evening I watch TV."
+      },
+      "tags": [
+        "time",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "simpatico",
+      "primary_form": "simpatico",
+      "gloss": "nice, likeable",
+      "extras": {
+        "forms": {
+          "ms": "simpatico",
+          "fs": "simpatica",
+          "mp": "simpatici",
+          "fp": "simpatiche"
+        },
+        "example": "I tuoi amici sono molto simpatici.",
+        "example_en": "Your friends are really nice."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "lunedi",
+      "primary_form": "lunedì",
+      "gloss": "Monday",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "lunedì",
+        "example": "Il lunedì vado in palestra.",
+        "example_en": "On Mondays I go to the gym."
+      },
+      "tags": [
+        "time",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "il-conto-per-favore",
+      "primary_form": "il conto, per favore",
+      "gloss": "the bill, please",
+      "extras": {
+        "example": "Scusi, il conto, per favore.",
+        "example_en": "Excuse me, the bill, please."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "capire",
+      "primary_form": "capire",
+      "gloss": "to understand",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "capito",
+        "example": "Capisci quando parlo veloce?",
+        "example_en": "Do you understand when I speak fast?"
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "capisco",
+          "2s": "capisci",
+          "3s": "capisce",
+          "1p": "capiamo",
+          "2p": "capite",
+          "3p": "capiscono"
+        },
+        "passato-prossimo": {
+          "1s": "ho capito",
+          "2s": "hai capito",
+          "3s": "ha capito",
+          "1p": "abbiamo capito",
+          "2p": "avete capito",
+          "3p": "hanno capito"
+        },
+        "imperfetto": {
+          "1s": "capivo",
+          "2s": "capivi",
+          "3s": "capiva",
+          "1p": "capivamo",
+          "2p": "capivate",
+          "3p": "capivano"
+        },
+        "futuro-semplice": {
+          "1s": "capirò",
+          "2s": "capirai",
+          "3s": "capirà",
+          "1p": "capiremo",
+          "2p": "capirete",
+          "3p": "capiranno"
+        },
+        "condizionale": {
+          "1s": "capirei",
+          "2s": "capiresti",
+          "3s": "capirebbe",
+          "1p": "capiremmo",
+          "2p": "capireste",
+          "3p": "capirebbero"
+        },
+        "congiuntivo": {
+          "1s": "capisca",
+          "2s": "capisca",
+          "3s": "capisca",
+          "1p": "capiamo",
+          "2p": "capiate",
+          "3p": "capiscano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "martedi",
+      "primary_form": "martedì",
+      "gloss": "Tuesday",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "martedì",
+        "example": "Martedì ho un esame.",
+        "example_en": "I have an exam on Tuesday."
+      },
+      "tags": [
+        "time",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mercoledi",
+      "primary_form": "mercoledì",
+      "gloss": "Wednesday",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "mercoledì",
+        "example": "Il negozio è chiuso il mercoledì.",
+        "example_en": "The shop is closed on Wednesdays."
+      },
+      "tags": [
+        "time",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "dov-e-il-bagno",
+      "primary_form": "dov'è il bagno?",
+      "gloss": "where's the toilet?",
+      "extras": {
+        "example": "Scusi, sa dov'è il bagno?",
+        "example_en": "Excuse me, do you know where the toilet is?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "preferire",
+      "primary_form": "preferire",
+      "gloss": "to prefer",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "preferito",
+        "example": "Preferisco il tè al caffè.",
+        "example_en": "I prefer tea to coffee."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "preferisco",
+          "2s": "preferisci",
+          "3s": "preferisce",
+          "1p": "preferiamo",
+          "2p": "preferite",
+          "3p": "preferiscono"
+        },
+        "passato-prossimo": {
+          "1s": "ho preferito",
+          "2s": "hai preferito",
+          "3s": "ha preferito",
+          "1p": "abbiamo preferito",
+          "2p": "avete preferito",
+          "3p": "hanno preferito"
+        },
+        "imperfetto": {
+          "1s": "preferivo",
+          "2s": "preferivi",
+          "3s": "preferiva",
+          "1p": "preferivamo",
+          "2p": "preferivate",
+          "3p": "preferivano"
+        },
+        "futuro-semplice": {
+          "1s": "preferirò",
+          "2s": "preferirai",
+          "3s": "preferirà",
+          "1p": "preferiremo",
+          "2p": "preferirete",
+          "3p": "preferiranno"
+        },
+        "condizionale": {
+          "1s": "preferirei",
+          "2s": "preferiresti",
+          "3s": "preferirebbe",
+          "1p": "preferiremmo",
+          "2p": "preferireste",
+          "3p": "preferirebbero"
+        },
+        "congiuntivo": {
+          "1s": "preferisca",
+          "2s": "preferisca",
+          "3s": "preferisca",
+          "1p": "preferiamo",
+          "2p": "preferiate",
+          "3p": "preferiscano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "giovedi",
+      "primary_form": "giovedì",
+      "gloss": "Thursday",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "giovedì",
+        "example": "Giovedì sera ceniamo fuori.",
+        "example_en": "On Thursday evening we're eating out."
+      },
+      "tags": [
+        "time",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "rosso",
+      "primary_form": "rosso",
+      "gloss": "red",
+      "extras": {
+        "forms": {
+          "ms": "rosso",
+          "fs": "rossa",
+          "mp": "rossi",
+          "fp": "rosse"
+        },
+        "example": "Preferisco il vino rosso.",
+        "example_en": "I prefer red wine."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "venerdi",
+      "primary_form": "venerdì",
+      "gloss": "Friday",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "venerdì",
+        "example": "Finalmente è venerdì!",
+        "example_en": "At last it's Friday!"
+      },
+      "tags": [
+        "time",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "sabato",
+      "primary_form": "sabato",
+      "gloss": "Saturday",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "sabati",
+        "example": "Sabato andiamo al mare.",
+        "example_en": "On Saturday we're going to the seaside."
+      },
+      "tags": [
+        "time",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "c-e",
+      "primary_form": "c'è",
+      "gloss": "there is",
+      "extras": {
+        "literal": "there is",
+        "example": "C'è una farmacia qui vicino?",
+        "example_en": "Is there a chemist's near here?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "vendere",
+      "primary_form": "vendere",
+      "gloss": "to sell",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "venduto",
+        "example": "Vendono frutta al mercato.",
+        "example_en": "They sell fruit at the market."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "vendo",
+          "2s": "vendi",
+          "3s": "vende",
+          "1p": "vendiamo",
+          "2p": "vendete",
+          "3p": "vendono"
+        },
+        "passato-prossimo": {
+          "1s": "ho venduto",
+          "2s": "hai venduto",
+          "3s": "ha venduto",
+          "1p": "abbiamo venduto",
+          "2p": "avete venduto",
+          "3p": "hanno venduto"
+        },
+        "imperfetto": {
+          "1s": "vendevo",
+          "2s": "vendevi",
+          "3s": "vendeva",
+          "1p": "vendevamo",
+          "2p": "vendevate",
+          "3p": "vendevano"
+        },
+        "futuro-semplice": {
+          "1s": "venderò",
+          "2s": "venderai",
+          "3s": "venderà",
+          "1p": "venderemo",
+          "2p": "venderete",
+          "3p": "venderanno"
+        },
+        "condizionale": {
+          "1s": "venderei",
+          "2s": "venderesti",
+          "3s": "venderebbe",
+          "1p": "venderemmo",
+          "2p": "vendereste",
+          "3p": "venderebbero"
+        },
+        "congiuntivo": {
+          "1s": "venda",
+          "2s": "venda",
+          "3s": "venda",
+          "1p": "vendiamo",
+          "2p": "vendiate",
+          "3p": "vendano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "domenica",
+      "primary_form": "domenica",
+      "gloss": "Sunday",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "domeniche",
+        "example": "La domenica pranziamo dai nonni.",
+        "example_en": "On Sundays we have lunch at our grandparents'."
+      },
+      "tags": [
+        "time",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "citta",
+      "primary_form": "città",
+      "gloss": "city, town",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "città",
+        "example": "Roma è una città bellissima.",
+        "example_en": "Rome is a beautiful city."
+      },
+      "tags": [
+        "city",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "blu",
+      "primary_form": "blu",
+      "gloss": "(dark) blue",
+      "extras": {
+        "forms": {
+          "ms": "blu",
+          "fs": "blu",
+          "mp": "blu",
+          "fp": "blu"
+        },
+        "example": "Ha una macchina blu.",
+        "example_en": "He has a blue car."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ci-sono",
+      "primary_form": "ci sono",
+      "gloss": "there are",
+      "extras": {
+        "literal": "there are",
+        "example": "Ci sono molti turisti in centro.",
+        "example_en": "There are lots of tourists in the centre."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "aspettare",
+      "primary_form": "aspettare",
+      "gloss": "to wait (for)",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "aspettato",
+        "example": "Aspetto l'autobus alla fermata.",
+        "example_en": "I'm waiting for the bus at the stop."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "aspetto",
+          "2s": "aspetti",
+          "3s": "aspetta",
+          "1p": "aspettiamo",
+          "2p": "aspettate",
+          "3p": "aspettano"
+        },
+        "passato-prossimo": {
+          "1s": "ho aspettato",
+          "2s": "hai aspettato",
+          "3s": "ha aspettato",
+          "1p": "abbiamo aspettato",
+          "2p": "avete aspettato",
+          "3p": "hanno aspettato"
+        },
+        "imperfetto": {
+          "1s": "aspettavo",
+          "2s": "aspettavi",
+          "3s": "aspettava",
+          "1p": "aspettavamo",
+          "2p": "aspettavate",
+          "3p": "aspettavano"
+        },
+        "futuro-semplice": {
+          "1s": "aspetterò",
+          "2s": "aspetterai",
+          "3s": "aspetterà",
+          "1p": "aspetteremo",
+          "2p": "aspetterete",
+          "3p": "aspetteranno"
+        },
+        "condizionale": {
+          "1s": "aspetterei",
+          "2s": "aspetteresti",
+          "3s": "aspetterebbe",
+          "1p": "aspetteremmo",
+          "2p": "aspettereste",
+          "3p": "aspetterebbero"
+        },
+        "congiuntivo": {
+          "1s": "aspetti",
+          "2s": "aspetti",
+          "3s": "aspetti",
+          "1p": "aspettiamo",
+          "2p": "aspettiate",
+          "3p": "aspettino"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "strada",
+      "primary_form": "strada",
+      "gloss": "street, road",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "strade",
+        "example": "Attento quando attraversi la strada!",
+        "example_en": "Careful when you cross the road!"
+      },
+      "tags": [
+        "city",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "quando",
+      "primary_form": "quando",
+      "gloss": "when",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Leggo quando piove.",
+        "example_en": "I read when it rains."
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "piazza",
+      "primary_form": "piazza",
+      "gloss": "square",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "piazze",
+        "example": "Ci vediamo in piazza alle otto.",
+        "example_en": "See you in the square at eight."
+      },
+      "tags": [
+        "city",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "negozio",
+      "primary_form": "negozio",
+      "gloss": "shop",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "negozi",
+        "example": "Il negozio apre alle nove.",
+        "example_en": "The shop opens at nine."
+      },
+      "tags": [
+        "city",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "che-cos-e",
+      "primary_form": "che cos'è?",
+      "gloss": "what is it?",
+      "extras": {
+        "literal": "what thing is it?",
+        "example": "Che cos'è questo?",
+        "example_en": "What's this?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "imparare",
+      "primary_form": "imparare",
+      "gloss": "to learn",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "imparato",
+        "example": "Imparo l'italiano per lavoro.",
+        "example_en": "I'm learning Italian for work."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "imparo",
+          "2s": "impari",
+          "3s": "impara",
+          "1p": "impariamo",
+          "2p": "imparate",
+          "3p": "imparano"
+        },
+        "passato-prossimo": {
+          "1s": "ho imparato",
+          "2s": "hai imparato",
+          "3s": "ha imparato",
+          "1p": "abbiamo imparato",
+          "2p": "avete imparato",
+          "3p": "hanno imparato"
+        },
+        "imperfetto": {
+          "1s": "imparavo",
+          "2s": "imparavi",
+          "3s": "imparava",
+          "1p": "imparavamo",
+          "2p": "imparavate",
+          "3p": "imparavano"
+        },
+        "futuro-semplice": {
+          "1s": "imparerò",
+          "2s": "imparerai",
+          "3s": "imparerà",
+          "1p": "impareremo",
+          "2p": "imparerete",
+          "3p": "impareranno"
+        },
+        "condizionale": {
+          "1s": "imparerei",
+          "2s": "impareresti",
+          "3s": "imparerebbe",
+          "1p": "impareremmo",
+          "2p": "imparereste",
+          "3p": "imparerebbero"
+        },
+        "congiuntivo": {
+          "1s": "impari",
+          "2s": "impari",
+          "3s": "impari",
+          "1p": "impariamo",
+          "2p": "impariate",
+          "3p": "imparino"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "mercato",
+      "primary_form": "mercato",
+      "gloss": "market",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "mercati",
+        "example": "Il sabato c'è il mercato.",
+        "example_en": "On Saturdays there's a market."
+      },
+      "tags": [
+        "city",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "verde",
+      "primary_form": "verde",
+      "gloss": "green",
+      "extras": {
+        "forms": {
+          "ms": "verde",
+          "fs": "verde",
+          "mp": "verdi",
+          "fp": "verdi"
+        },
+        "example": "Ha gli occhi verdi.",
+        "example_en": "She has green eyes."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "stazione",
+      "primary_form": "stazione",
+      "gloss": "station",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "stazioni",
+        "example": "Scusi, dov'è la stazione?",
+        "example_en": "Excuse me, where's the station?"
+      },
+      "tags": [
+        "city",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "a-che-ora",
+      "primary_form": "a che ora?",
+      "gloss": "at what time?",
+      "extras": {
+        "example": "A che ora parte il treno?",
+        "example_en": "What time does the train leave?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "scuola",
+      "primary_form": "scuola",
+      "gloss": "school",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "scuole",
+        "example": "I bambini vanno a scuola a piedi.",
+        "example_en": "The children walk to school."
+      },
+      "tags": [
+        "city",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "partire",
+      "primary_form": "partire",
+      "gloss": "to leave",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "partito",
+        "example": "Partiamo domani mattina.",
+        "example_en": "We're leaving tomorrow morning.",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "partito",
+            "partita"
+          ],
+          "passato-prossimo.2s": [
+            "partito",
+            "partita"
+          ],
+          "passato-prossimo.3s": [
+            "partito",
+            "partita"
+          ],
+          "passato-prossimo.1p": [
+            "partiti",
+            "partite"
+          ],
+          "passato-prossimo.2p": [
+            "partiti",
+            "partite"
+          ],
+          "passato-prossimo.3p": [
+            "partiti",
+            "partite"
+          ]
+        }
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "parto",
+          "2s": "parti",
+          "3s": "parte",
+          "1p": "partiamo",
+          "2p": "partite",
+          "3p": "partono"
+        },
+        "passato-prossimo": {
+          "1s": "sono partito/a",
+          "2s": "sei partito/a",
+          "3s": "è partito/a",
+          "1p": "siamo partiti/e",
+          "2p": "siete partiti/e",
+          "3p": "sono partiti/e"
+        },
+        "imperfetto": {
+          "1s": "partivo",
+          "2s": "partivi",
+          "3s": "partiva",
+          "1p": "partivamo",
+          "2p": "partivate",
+          "3p": "partivano"
+        },
+        "futuro-semplice": {
+          "1s": "partirò",
+          "2s": "partirai",
+          "3s": "partirà",
+          "1p": "partiremo",
+          "2p": "partirete",
+          "3p": "partiranno"
+        },
+        "condizionale": {
+          "1s": "partirei",
+          "2s": "partiresti",
+          "3s": "partirebbe",
+          "1p": "partiremmo",
+          "2p": "partireste",
+          "3p": "partirebbero"
+        },
+        "congiuntivo": {
+          "1s": "parta",
+          "2s": "parta",
+          "3s": "parta",
+          "1p": "partiamo",
+          "2p": "partiate",
+          "3p": "partano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "chiesa",
+      "primary_form": "chiesa",
+      "gloss": "church",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "chiese",
+        "example": "La chiesa è in centro.",
+        "example_en": "The church is in the centre."
+      },
+      "tags": [
+        "city",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "banca",
+      "primary_form": "banca",
+      "gloss": "bank",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "banche",
+        "example": "La banca chiude alle quattro.",
+        "example_en": "The bank closes at four."
+      },
+      "tags": [
+        "city",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "buon-appetito",
+      "primary_form": "buon appetito",
+      "gloss": "enjoy your meal",
+      "extras": {
+        "literal": "good appetite",
+        "example": "Buon appetito a tutti!",
+        "example_en": "Enjoy your meal, everyone!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "dormire",
+      "primary_form": "dormire",
+      "gloss": "to sleep",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "dormito",
+        "example": "Il bambino dorme ancora.",
+        "example_en": "The baby is still asleep."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "dormo",
+          "2s": "dormi",
+          "3s": "dorme",
+          "1p": "dormiamo",
+          "2p": "dormite",
+          "3p": "dormono"
+        },
+        "passato-prossimo": {
+          "1s": "ho dormito",
+          "2s": "hai dormito",
+          "3s": "ha dormito",
+          "1p": "abbiamo dormito",
+          "2p": "avete dormito",
+          "3p": "hanno dormito"
+        },
+        "imperfetto": {
+          "1s": "dormivo",
+          "2s": "dormivi",
+          "3s": "dormiva",
+          "1p": "dormivamo",
+          "2p": "dormivate",
+          "3p": "dormivano"
+        },
+        "futuro-semplice": {
+          "1s": "dormirò",
+          "2s": "dormirai",
+          "3s": "dormirà",
+          "1p": "dormiremo",
+          "2p": "dormirete",
+          "3p": "dormiranno"
+        },
+        "condizionale": {
+          "1s": "dormirei",
+          "2s": "dormiresti",
+          "3s": "dormirebbe",
+          "1p": "dormiremmo",
+          "2p": "dormireste",
+          "3p": "dormirebbero"
+        },
+        "congiuntivo": {
+          "1s": "dorma",
+          "2s": "dorma",
+          "3s": "dorma",
+          "1p": "dormiamo",
+          "2p": "dormiate",
+          "3p": "dormano"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "giallo",
+      "primary_form": "giallo",
+      "gloss": "yellow",
+      "extras": {
+        "forms": {
+          "ms": "giallo",
+          "fs": "gialla",
+          "mp": "gialli",
+          "fp": "gialle"
+        },
+        "example": "Le banane sono gialle.",
+        "example_en": "Bananas are yellow."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ospedale",
+      "primary_form": "ospedale",
+      "gloss": "hospital",
+      "extras": {
+        "gender": "m",
+        "article": "l'",
+        "plural": "ospedali",
+        "example": "L'ospedale è qui vicino.",
+        "example_en": "The hospital is near here."
+      },
+      "tags": [
+        "city",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ristorante",
+      "primary_form": "ristorante",
+      "gloss": "restaurant",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "ristoranti",
+        "example": "Conosco un buon ristorante.",
+        "example_en": "I know a good restaurant."
+      },
+      "tags": [
+        "city",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "bar",
+      "primary_form": "bar",
+      "gloss": "café, bar",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "bar",
+        "example": "Il bar sotto casa fa un ottimo caffè.",
+        "example_en": "The café downstairs makes excellent coffee."
+      },
+      "tags": [
+        "city",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "cin-cin",
+      "primary_form": "cin cin!",
+      "gloss": "cheers!",
+      "extras": {
+        "note": "Said as the glasses touch.",
+        "example": "Cin cin, alla salute!",
+        "example_en": "Cheers, to your health!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "leggere",
+      "primary_form": "leggere",
+      "gloss": "to read",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "letto",
+        "example": "Leggo il giornale ogni mattina.",
+        "example_en": "I read the paper every morning."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "leggo",
+          "2s": "leggi",
+          "3s": "legge",
+          "1p": "leggiamo",
+          "2p": "leggete",
+          "3p": "leggono"
+        },
+        "passato-prossimo": {
+          "1s": "ho letto",
+          "2s": "hai letto",
+          "3s": "ha letto",
+          "1p": "abbiamo letto",
+          "2p": "avete letto",
+          "3p": "hanno letto"
+        },
+        "imperfetto": {
+          "1s": "leggevo",
+          "2s": "leggevi",
+          "3s": "leggeva",
+          "1p": "leggevamo",
+          "2p": "leggevate",
+          "3p": "leggevano"
+        },
+        "futuro-semplice": {
+          "1s": "leggerò",
+          "2s": "leggerai",
+          "3s": "leggerà",
+          "1p": "leggeremo",
+          "2p": "leggerete",
+          "3p": "leggeranno"
+        },
+        "condizionale": {
+          "1s": "leggerei",
+          "2s": "leggeresti",
+          "3s": "leggerebbe",
+          "1p": "leggeremmo",
+          "2p": "leggereste",
+          "3p": "leggerebbero"
+        },
+        "congiuntivo": {
+          "1s": "legga",
+          "2s": "legga",
+          "3s": "legga",
+          "1p": "leggiamo",
+          "2p": "leggiate",
+          "3p": "leggano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "museo",
+      "primary_form": "museo",
+      "gloss": "museum",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "musei",
+        "example": "Il museo è chiuso il lunedì.",
+        "example_en": "The museum is closed on Mondays."
+      },
+      "tags": [
+        "city",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "nero",
+      "primary_form": "nero",
+      "gloss": "black",
+      "extras": {
+        "forms": {
+          "ms": "nero",
+          "fs": "nera",
+          "mp": "neri",
+          "fp": "nere"
+        },
+        "example": "Ho un gatto nero.",
+        "example_en": "I have a black cat."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "stanza",
+      "primary_form": "stanza",
+      "gloss": "room",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "stanze",
+        "example": "La casa ha quattro stanze.",
+        "example_en": "The house has four rooms."
+      },
+      "tags": [
+        "home",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "buona-giornata",
+      "primary_form": "buona giornata",
+      "gloss": "have a good day",
+      "extras": {
+        "literal": "good day",
+        "example": "Grazie e buona giornata!",
+        "example_en": "Thanks, and have a good day!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "scrivere",
+      "primary_form": "scrivere",
+      "gloss": "to write",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "scritto",
+        "example": "Scrivo una mail a mia madre.",
+        "example_en": "I'm writing an email to my mother."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "scrivo",
+          "2s": "scrivi",
+          "3s": "scrive",
+          "1p": "scriviamo",
+          "2p": "scrivete",
+          "3p": "scrivono"
+        },
+        "passato-prossimo": {
+          "1s": "ho scritto",
+          "2s": "hai scritto",
+          "3s": "ha scritto",
+          "1p": "abbiamo scritto",
+          "2p": "avete scritto",
+          "3p": "hanno scritto"
+        },
+        "imperfetto": {
+          "1s": "scrivevo",
+          "2s": "scrivevi",
+          "3s": "scriveva",
+          "1p": "scrivevamo",
+          "2p": "scrivevate",
+          "3p": "scrivevano"
+        },
+        "futuro-semplice": {
+          "1s": "scriverò",
+          "2s": "scriverai",
+          "3s": "scriverà",
+          "1p": "scriveremo",
+          "2p": "scriverete",
+          "3p": "scriveranno"
+        },
+        "condizionale": {
+          "1s": "scriverei",
+          "2s": "scriveresti",
+          "3s": "scriverebbe",
+          "1p": "scriveremmo",
+          "2p": "scrivereste",
+          "3p": "scriverebbero"
+        },
+        "congiuntivo": {
+          "1s": "scriva",
+          "2s": "scriva",
+          "3s": "scriva",
+          "1p": "scriviamo",
+          "2p": "scriviate",
+          "3p": "scrivano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "cucina",
+      "primary_form": "cucina",
+      "gloss": "kitchen; cooking",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "cucine",
+        "example": "Siamo tutti in cucina.",
+        "example_en": "We're all in the kitchen."
+      },
+      "tags": [
+        "home",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "bagno",
+      "primary_form": "bagno",
+      "gloss": "bathroom",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "bagni",
+        "example": "Il bagno è in fondo al corridoio.",
+        "example_en": "The bathroom is at the end of the corridor."
+      },
+      "tags": [
+        "home",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "se",
+      "primary_form": "se",
+      "gloss": "if",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Usciamo se vuoi.",
+        "example_en": "We'll go out if you want."
+      },
+      "tags": [
+        "congiunzioni"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "soggiorno",
+      "primary_form": "soggiorno",
+      "gloss": "living room",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "soggiorni",
+        "example": "Guardiamo la TV in soggiorno.",
+        "example_en": "We watch TV in the living room."
+      },
+      "tags": [
+        "home",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "buon-fine-settimana",
+      "primary_form": "buon fine settimana",
+      "gloss": "have a good weekend",
+      "extras": {
+        "literal": "good end of the week",
+        "example": "Ciao a tutti, buon fine settimana!",
+        "example_en": "Bye everyone, have a good weekend!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "studiare",
+      "primary_form": "studiare",
+      "gloss": "to study",
+      "extras": {
+        "auxiliary": "avere",
+        "participle": "studiato",
+        "example": "Studio medicina a Padova.",
+        "example_en": "I study medicine in Padua."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "studio",
+          "2s": "studi",
+          "3s": "studia",
+          "1p": "studiamo",
+          "2p": "studiate",
+          "3p": "studiano"
+        },
+        "passato-prossimo": {
+          "1s": "ho studiato",
+          "2s": "hai studiato",
+          "3s": "ha studiato",
+          "1p": "abbiamo studiato",
+          "2p": "avete studiato",
+          "3p": "hanno studiato"
+        },
+        "imperfetto": {
+          "1s": "studiavo",
+          "2s": "studiavi",
+          "3s": "studiava",
+          "1p": "studiavamo",
+          "2p": "studiavate",
+          "3p": "studiavano"
+        },
+        "futuro-semplice": {
+          "1s": "studierò",
+          "2s": "studierai",
+          "3s": "studierà",
+          "1p": "studieremo",
+          "2p": "studierete",
+          "3p": "studieranno"
+        },
+        "condizionale": {
+          "1s": "studierei",
+          "2s": "studieresti",
+          "3s": "studierebbe",
+          "1p": "studieremmo",
+          "2p": "studiereste",
+          "3p": "studierebbero"
+        },
+        "congiuntivo": {
+          "1s": "studi",
+          "2s": "studi",
+          "3s": "studi",
+          "1p": "studiamo",
+          "2p": "studiate",
+          "3p": "studino"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "bianco",
+      "primary_form": "bianco",
+      "gloss": "white",
+      "extras": {
+        "forms": {
+          "ms": "bianco",
+          "fs": "bianca",
+          "mp": "bianchi",
+          "fp": "bianche"
+        },
+        "example": "Il nonno ha i capelli bianchi.",
+        "example_en": "Grandpa has white hair."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "letto",
+      "primary_form": "letto",
+      "gloss": "bed",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "letti",
+        "example": "Stasera vado a letto presto.",
+        "example_en": "Tonight I'm going to bed early."
+      },
+      "tags": [
+        "home",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "chiave",
+      "primary_form": "chiave",
+      "gloss": "key",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "chiavi",
+        "example": "Hai le chiavi di casa?",
+        "example_en": "Have you got the house keys?"
+      },
+      "tags": [
+        "home",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "d-accordo",
+      "primary_form": "d'accordo",
+      "gloss": "agreed, OK",
+      "extras": {
+        "literal": "of agreement",
+        "example": "D'accordo, ci vediamo alle sette.",
+        "example_en": "OK, see you at seven."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "chiamarsi",
+      "primary_form": "chiamarsi",
+      "gloss": "to be called (name)",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "chiamato",
+        "example": "Mi chiamo Giulia.",
+        "example_en": "My name is Giulia.",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "chiamato",
+            "chiamata"
+          ],
+          "passato-prossimo.2s": [
+            "chiamato",
+            "chiamata"
+          ],
+          "passato-prossimo.3s": [
+            "chiamato",
+            "chiamata"
+          ],
+          "passato-prossimo.1p": [
+            "chiamati",
+            "chiamate"
+          ],
+          "passato-prossimo.2p": [
+            "chiamati",
+            "chiamate"
+          ],
+          "passato-prossimo.3p": [
+            "chiamati",
+            "chiamate"
+          ]
+        }
+      },
+      "tags": [
+        "presente",
+        "people"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "mi chiamo",
+          "2s": "ti chiami",
+          "3s": "si chiama",
+          "1p": "ci chiamiamo",
+          "2p": "vi chiamate",
+          "3p": "si chiamano"
+        },
+        "passato-prossimo": {
+          "1s": "mi sono chiamato/a",
+          "2s": "ti sei chiamato/a",
+          "3s": "si è chiamato/a",
+          "1p": "ci siamo chiamati/e",
+          "2p": "vi siete chiamati/e",
+          "3p": "si sono chiamati/e"
+        },
+        "imperfetto": {
+          "1s": "mi chiamavo",
+          "2s": "ti chiamavi",
+          "3s": "si chiamava",
+          "1p": "ci chiamavamo",
+          "2p": "vi chiamavate",
+          "3p": "si chiamavano"
+        },
+        "futuro-semplice": {
+          "1s": "mi chiamerò",
+          "2s": "ti chiamerai",
+          "3s": "si chiamerà",
+          "1p": "ci chiameremo",
+          "2p": "vi chiamerete",
+          "3p": "si chiameranno"
+        },
+        "condizionale": {
+          "1s": "mi chiamerei",
+          "2s": "ti chiameresti",
+          "3s": "si chiamerebbe",
+          "1p": "ci chiameremmo",
+          "2p": "vi chiamereste",
+          "3p": "si chiamerebbero"
+        },
+        "congiuntivo": {
+          "1s": "mi chiami",
+          "2s": "ti chiami",
+          "3s": "si chiami",
+          "1p": "ci chiamiamo",
+          "2p": "vi chiamiate",
+          "3p": "si chiamino"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "appartamento",
+      "primary_form": "appartamento",
+      "gloss": "flat, apartment",
+      "extras": {
+        "gender": "m",
+        "article": "l'",
+        "plural": "appartamenti",
+        "example": "Il nostro appartamento è al terzo piano.",
+        "example_en": "Our flat is on the third floor."
+      },
+      "tags": [
+        "home",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "giardino",
+      "primary_form": "giardino",
+      "gloss": "garden",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "giardini",
+        "example": "I bambini giocano in giardino.",
+        "example_en": "The children are playing in the garden."
+      },
+      "tags": [
+        "home",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "grigio",
+      "primary_form": "grigio",
+      "gloss": "grey",
+      "extras": {
+        "forms": {
+          "ms": "grigio",
+          "fs": "grigia",
+          "mp": "grigi",
+          "fp": "grigie"
+        },
+        "example": "Oggi il cielo è grigio.",
+        "example_en": "The sky is grey today."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "telefono",
+      "primary_form": "telefono",
+      "gloss": "telephone",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "telefoni",
+        "example": "Il telefono squilla.",
+        "example_en": "The phone is ringing."
+      },
+      "tags": [
+        "objects",
+        "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "benvenuto",
+      "primary_form": "benvenuto",
+      "gloss": "welcome",
+      "extras": {
+        "note": "It agrees with who you welcome: benvenuta, benvenuti, benvenute.",
+        "example": "Benvenuti in Italia!",
+        "example_en": "Welcome to Italy!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "piacere",
+      "primary_form": "piacere",
+      "gloss": "to please; mi piace, I like",
+      "extras": {
+        "auxiliary": "essere",
+        "participle": "piaciuto",
+        "example": "Ti piace la pizza?",
+        "example_en": "Do you like pizza?",
+        "agreement": {
+          "passato-prossimo.1s": [
+            "piaciuto",
+            "piaciuta"
+          ],
+          "passato-prossimo.2s": [
+            "piaciuto",
+            "piaciuta"
+          ],
+          "passato-prossimo.3s": [
+            "piaciuto",
+            "piaciuta"
+          ],
+          "passato-prossimo.1p": [
+            "piaciuti",
+            "piaciute"
+          ],
+          "passato-prossimo.2p": [
+            "piaciuti",
+            "piaciute"
+          ],
+          "passato-prossimo.3p": [
+            "piaciuti",
+            "piaciute"
+          ]
+        }
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "piaccio",
+          "2s": "piaci",
+          "3s": "piace",
+          "1p": "piacciamo",
+          "2p": "piacete",
+          "3p": "piacciono"
+        },
+        "passato-prossimo": {
+          "1s": "sono piaciuto/a",
+          "2s": "sei piaciuto/a",
+          "3s": "è piaciuto/a",
+          "1p": "siamo piaciuti/e",
+          "2p": "siete piaciuti/e",
+          "3p": "sono piaciuti/e"
+        },
+        "imperfetto": {
+          "1s": "piacevo",
+          "2s": "piacevi",
+          "3s": "piaceva",
+          "1p": "piacevamo",
+          "2p": "piacevate",
+          "3p": "piacevano"
+        },
+        "futuro-semplice": {
+          "1s": "piacerò",
+          "2s": "piacerai",
+          "3s": "piacerà",
+          "1p": "piaceremo",
+          "2p": "piacerete",
+          "3p": "piaceranno"
+        },
+        "condizionale": {
+          "1s": "piacerei",
+          "2s": "piaceresti",
+          "3s": "piacerebbe",
+          "1p": "piaceremmo",
+          "2p": "piacereste",
+          "3p": "piacerebbero"
+        },
+        "congiuntivo": {
+          "1s": "piaccia",
+          "2s": "piaccia",
+          "3s": "piaccia",
+          "1p": "piacciamo",
+          "2p": "piacciate",
+          "3p": "piacciano"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "portafoglio",
+      "primary_form": "portafoglio",
+      "gloss": "wallet",
+      "extras": {
+        "gender": "m",
+        "article": "il",
+        "plural": "portafogli",
+        "example": "Il portafoglio è nella borsa.",
+        "example_en": "The wallet is in the bag."
+      },
+      "tags": [
+        "objects",
+        "maschile"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "title": "Buongiorno e grazie",
+      "word_ids": [
+        "buongiorno",
+        "ciao",
+        "grazie",
+        "arrivederci",
+        "buonanotte",
+        "piacere-di-conoscerti"
+      ],
+      "page_id": "it-pronunciation",
+      "subtitle": "Hello, hi, thanks, goodbye and good night"
+    },
+    {
+      "title": "Come stai?",
+      "word_ids": [
+        "come-stai",
+        "come-sta",
+        "scusa",
+        "scusi",
+        "sto-bene-grazie",
+        "salve"
+      ],
+      "page_id": "it-subject-pronouns",
+      "subtitle": "How are you, sorry, excuse me and hello"
+    },
+    {
+      "title": "Verbi essenziali",
+      "word_ids": [
+        "essere",
+        "avere",
+        "c-e",
+        "ci-sono",
+        "fare",
+        "stare"
+      ],
+      "page_id": "it-essere-avere",
+      "subtitle": "To be, have, do and stay; there is, there are"
+    },
+    {
+      "title": "Verbi regolari",
+      "word_ids": [
+        "abitare",
+        "lavorare",
+        "studiare",
+        "finire",
+        "capire",
+        "vendere",
+        "dormire"
+      ],
+      "page_id": "it-present-tense",
+      "subtitle": "To live, work, study, finish, understand, sell"
+    },
+    {
+      "title": "Non capisco",
+      "word_ids": [
+        "non-capisco",
+        "non-lo-so",
+        "mi-dispiace",
+        "no",
+        "prendere",
+        "mettere",
+        "vedere"
+      ],
+      "page_id": "it-negation",
+      "subtitle": "I don't understand, I'm sorry, to take, put, see"
+    },
+    {
+      "title": "Domande utili",
+      "word_ids": [
+        "quanto-costa",
+        "dov-e-il-bagno",
+        "che-cos-e",
+        "a-che-ora",
+        "puo-ripetere",
+        "piu-piano-per-favore",
+        "il-conto-per-favore"
+      ],
+      "page_id": "it-questions",
+      "subtitle": "How much, where, what, what time, slower please"
+    },
+    {
+      "title": "I luoghi pubblici",
+      "word_ids": [
+        "banca",
+        "scuola",
+        "stazione",
+        "ospedale",
+        "ristorante",
+        "mercato",
+        "bar"
+      ],
+      "page_id": "it-articulated-prepositions",
+      "subtitle": "Bank, school, station, hospital, market, café"
+    },
+    {
+      "title": "Aggettivi di base",
+      "word_ids": [
+        "grande",
+        "piccolo",
+        "buono",
+        "bello",
+        "vecchio",
+        "nuovo",
+        "giovane"
+      ],
+      "page_id": "it-adjectives",
+      "subtitle": "Big, small, good, beautiful, old, new and young"
+    },
+    {
+      "title": "I colori",
+      "word_ids": [
+        "rosso",
+        "blu",
+        "verde",
+        "giallo",
+        "nero",
+        "bianco",
+        "grigio"
+      ],
+      "subtitle": "Red, blue, green, yellow, black, white and grey"
+    },
+    {
+      "title": "Ore e giorni",
+      "word_ids": [
+        "ora",
+        "minuto",
+        "giorno",
+        "lunedi",
+        "martedi",
+        "mercoledi"
+      ],
+      "page_id": "it-numbers",
+      "subtitle": "Hours, minutes, days, Monday to Wednesday"
+    },
+    {
+      "title": "La famiglia stretta",
+      "word_ids": [
+        "padre",
+        "madre",
+        "fratello",
+        "sorella",
+        "marito",
+        "moglie"
+      ],
+      "page_id": "it-possessives",
+      "subtitle": "Father, mother, brother, sister, husband, wife"
+    },
+    {
+      "title": "Mi piace",
+      "word_ids": [
+        "piacere",
+        "preferire",
+        "gelato",
+        "pasta",
+        "formaggio",
+        "vino"
+      ],
+      "page_id": "it-piacere",
+      "subtitle": "To like and prefer; ice cream, pasta, cheese, wine"
+    },
+    {
+      "title": "A presto!",
+      "word_ids": [
+        "buonasera",
+        "a-presto",
+        "a-domani",
+        "grazie-mille",
+        "prego",
+        "per-favore",
+        "si"
+      ],
+      "subtitle": "Good evening, see you soon, please, you're welcome"
+    },
+    {
+      "title": "Buon appetito!",
+      "word_ids": [
+        "va-bene",
+        "buon-appetito",
+        "cin-cin",
+        "buona-giornata",
+        "buon-fine-settimana",
+        "d-accordo",
+        "benvenuto"
+      ],
+      "subtitle": "OK, enjoy your meal, cheers, have a good day"
+    },
+    {
+      "title": "La famiglia allargata",
+      "word_ids": [
+        "figlio",
+        "figlia",
+        "genitore",
+        "nonno",
+        "nonna",
+        "zio",
+        "zia",
+        "cugino",
+        "cugina"
+      ],
+      "subtitle": "Son, daughter, grandparents, uncle, aunt, cousins"
+    },
+    {
+      "title": "Le persone",
+      "word_ids": [
+        "uomo",
+        "donna",
+        "ragazzo",
+        "ragazza",
+        "signora",
+        "nome",
+        "cognome"
+      ],
+      "subtitle": "Man, woman, boy, girl, lady, names and surnames"
+    },
+    {
+      "title": "La testa e le braccia",
+      "word_ids": [
+        "testa",
+        "occhio",
+        "bocca",
+        "naso",
+        "orecchio",
+        "mano",
+        "braccio"
+      ],
+      "subtitle": "Head, eyes, mouth, nose, ears, hands and arms"
+    },
+    {
+      "title": "Il corpo",
+      "word_ids": [
+        "gamba",
+        "piede",
+        "dito",
+        "schiena",
+        "cuore",
+        "pancia",
+        "dente"
+      ],
+      "subtitle": "Legs, feet, fingers, back, heart, belly and teeth"
+    },
+    {
+      "title": "I pasti",
+      "word_ids": [
+        "colazione",
+        "pranzo",
+        "cena",
+        "carne",
+        "pesce",
+        "pollo",
+        "uovo",
+        "latte",
+        "caffe",
+        "te"
+      ],
+      "subtitle": "Breakfast, lunch, dinner, meat, fish, coffee, tea"
+    },
+    {
+      "title": "Frutta e verdura",
+      "word_ids": [
+        "birra",
+        "mela",
+        "patata",
+        "verdura",
+        "frutta",
+        "zucchero",
+        "sale",
+        "riso",
+        "marmellata",
+        "torta"
+      ],
+      "subtitle": "Beer, apples, potatoes, vegetables, rice, cake"
+    },
+    {
+      "title": "La settimana e l'anno",
+      "word_ids": [
+        "settimana",
+        "mese",
+        "anno",
+        "mattina",
+        "pomeriggio",
+        "sera",
+        "giovedi",
+        "venerdi",
+        "sabato",
+        "domenica"
+      ],
+      "subtitle": "Weeks, months, years, Thursday to Sunday"
+    },
+    {
+      "title": "In città",
+      "word_ids": [
+        "citta",
+        "strada",
+        "piazza",
+        "negozio",
+        "chiesa",
+        "museo"
+      ],
+      "subtitle": "Town, street, square, shop, church and museum"
+    },
+    {
+      "title": "La casa",
+      "word_ids": [
+        "stanza",
+        "cucina",
+        "bagno",
+        "soggiorno",
+        "letto",
+        "chiave",
+        "appartamento",
+        "giardino"
+      ],
+      "subtitle": "Rooms, kitchen, bathroom, bed, keys and garden"
+    },
+    {
+      "title": "Prima e dopo",
+      "word_ids": [
+        "prima",
+        "dopo",
+        "anche",
+        "venire",
+        "volere",
+        "potere",
+        "dovere",
+        "sapere",
+        "dire"
+      ],
+      "subtitle": "First, then, also; to come, want, can, must, know"
+    },
+    {
+      "title": "Verbi quotidiani",
+      "word_ids": [
+        "dare",
+        "uscire",
+        "guardare",
+        "ascoltare",
+        "giocare",
+        "cercare",
+        "trovare",
+        "pensare",
+        "arrivare"
+      ],
+      "subtitle": "To give, go out, watch, listen, play, look for, find"
+    },
+    {
+      "title": "Imparare e leggere",
+      "word_ids": [
+        "cominciare",
+        "comprare",
+        "aspettare",
+        "imparare",
+        "partire",
+        "leggere",
+        "scrivere",
+        "chiamarsi",
+        "cattivo"
+      ],
+      "subtitle": "To start, buy, wait, learn, leave, read, write"
+    },
+    {
+      "title": "Aggettivi utili",
+      "word_ids": [
+        "carino",
+        "gentile",
+        "contento",
+        "stanco",
+        "caldo",
+        "freddo",
+        "facile",
+        "difficile"
+      ],
+      "subtitle": "Pretty, kind, happy, tired, hot, cold, easy, hard"
+    },
+    {
+      "title": "E, o, quando, se",
+      "word_ids": [
+        "caro",
+        "simpatico",
+        "e",
+        "o",
+        "quando",
+        "se",
+        "telefono",
+        "portafoglio"
+      ],
+      "subtitle": "Dear, nice, and, or, when, if, phone and wallet"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+ "buongiorno": {
+  "title": "Buongiorno e grazie",
+  "subtitle": "Hello, hi, thanks, goodbye and good night"
+ },
+ "come-stai": {
+  "title": "Come stai?",
+  "subtitle": "How are you, sorry, excuse me and hello"
+ },
+ "essere": {
+  "title": "Verbi essenziali",
+  "subtitle": "To be, have, do and stay; there is, there are"
+ },
+ "abitare": {
+  "title": "Verbi regolari",
+  "subtitle": "To live, work, study, finish, understand, sell"
+ },
+ "non-capisco": {
+  "title": "Non capisco",
+  "subtitle": "I don't understand, I'm sorry, to take, put, see"
+ },
+ "quanto-costa": {
+  "title": "Domande utili",
+  "subtitle": "How much, where, what, what time, slower please"
+ },
+ "banca": {
+  "title": "I luoghi pubblici",
+  "subtitle": "Bank, school, station, hospital, market, café"
+ },
+ "grande": {
+  "title": "Aggettivi di base",
+  "subtitle": "Big, small, good, beautiful, old, new and young"
+ },
+ "rosso": {
+  "title": "I colori",
+  "subtitle": "Red, blue, green, yellow, black, white and grey"
+ },
+ "ora": {
+  "title": "Ore e giorni",
+  "subtitle": "Hours, minutes, days, Monday to Wednesday"
+ },
+ "padre": {
+  "title": "La famiglia stretta",
+  "subtitle": "Father, mother, brother, sister, husband, wife"
+ },
+ "piacere": {
+  "title": "Mi piace",
+  "subtitle": "To like and prefer; ice cream, pasta, cheese, wine"
+ },
+ "buonasera": {
+  "title": "A presto!",
+  "subtitle": "Good evening, see you soon, please, you're welcome"
+ },
+ "va-bene": {
+  "title": "Buon appetito!",
+  "subtitle": "OK, enjoy your meal, cheers, have a good day"
+ },
+ "figlio": {
+  "title": "La famiglia allargata",
+  "subtitle": "Son, daughter, grandparents, uncle, aunt, cousins"
+ },
+ "uomo": {
+  "title": "Le persone",
+  "subtitle": "Man, woman, boy, girl, lady, names and surnames"
+ },
+ "testa": {
+  "title": "La testa e le braccia",
+  "subtitle": "Head, eyes, mouth, nose, ears, hands and arms"
+ },
+ "gamba": {
+  "title": "Il corpo",
+  "subtitle": "Legs, feet, fingers, back, heart, belly and teeth"
+ },
+ "colazione": {
+  "title": "I pasti",
+  "subtitle": "Breakfast, lunch, dinner, meat, fish, coffee, tea"
+ },
+ "birra": {
+  "title": "Frutta e verdura",
+  "subtitle": "Beer, apples, potatoes, vegetables, rice, cake"
+ },
+ "settimana": {
+  "title": "La settimana e l'anno",
+  "subtitle": "Weeks, months, years, Thursday to Sunday"
+ },
+ "citta": {
+  "title": "In città",
+  "subtitle": "Town, street, square, shop, church and museum"
+ },
+ "stanza": {
+  "title": "La casa",
+  "subtitle": "Rooms, kitchen, bathroom, bed, keys and garden"
+ },
+ "prima": {
+  "title": "Prima e dopo",
+  "subtitle": "First, then, also; to come, want, can, must, know"
+ },
+ "dare": {
+  "title": "Verbi quotidiani",
+  "subtitle": "To give, go out, watch, listen, play, look for, find"
+ },
+ "cominciare": {
+  "title": "Imparare e leggere",
+  "subtitle": "To start, buy, wait, learn, leave, read, write"
+ },
+ "carino": {
+  "title": "Aggettivi utili",
+  "subtitle": "Pretty, kind, happy, tired, hot, cold, easy, hard"
+ },
+ "caro": {
+  "title": "E, o, quando, se",
+  "subtitle": "Dear, nice, and, or, when, if, phone and wallet"
+ }
+}

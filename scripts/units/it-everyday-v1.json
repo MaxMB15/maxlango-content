@@ -1,0 +1,114 @@
+{
+ "aprire": {
+  "title": "Aprire e chiudere",
+  "subtitle": "To open, close, ask, answer, lose, cry and run"
+ },
+ "tornare": {
+  "title": "Verbi con essere",
+  "subtitle": "To return, enter, fall, become, be born, die, stay"
+ },
+ "credere": {
+  "title": "Credere e conoscere",
+  "subtitle": "To believe, know, live; rain, fine weather, cold"
+ },
+ "alzarsi": {
+  "title": "La mattina",
+  "subtitle": "To get up, wake up, dress, wash, feel, sit down"
+ },
+ "ti-va": {
+  "title": "Ti va?",
+  "subtitle": "Fancy it, I love you, I'll take it, tell me"
+ },
+ "ci-vuole": {
+  "title": "Ci penso io",
+  "subtitle": "It takes, I'll handle it, no idea, I'm off, I'm in"
+ },
+ "ricevere": {
+  "title": "Ricevere e mandare",
+  "subtitle": "To receive, send, pay, forget, keep and clean"
+ },
+ "lungo": {
+  "title": "Lungo e corto",
+  "subtitle": "Long, short, tall, heavy, light, fast and slow"
+ },
+ "esame": {
+  "title": "Esami e appuntamenti",
+  "subtitle": "Exams, lessons, meetings, appointments, in the end"
+ },
+ "cinema": {
+  "title": "Il cinema e la foto",
+  "subtitle": "Cinema, photo, sport, bus, computer, student, teacher"
+ },
+ "sto-per": {
+  "title": "Guidare e viaggiare",
+  "subtitle": "About to; to drive, travel, bring, try and leave"
+ },
+ "felice": {
+  "title": "Carattere e umore",
+  "subtitle": "Happy, sad, angry, funny, serious, shy and lazy"
+ },
+ "malato": {
+  "title": "Pieno o vuoto",
+  "subtitle": "Ill, busy, free, ready, full, empty, clean, dirty"
+ },
+ "fiore": {
+  "title": "In campagna",
+  "subtitle": "Flowers, woods, rivers, lakes, birds, horses, cows"
+ },
+ "vestito": {
+  "title": "I vestiti",
+  "subtitle": "Dress, shirt, skirt, coat, jacket and jumper"
+ },
+ "maglietta": {
+  "title": "Gli accessori",
+  "subtitle": "T-shirt, shoes, hat, scarf, bag and umbrella"
+ },
+ "tempo": {
+  "title": "Che tempo fa?",
+  "subtitle": "Weather, rain, snow, wind, clouds and sky"
+ },
+ "temporale": {
+  "title": "Le stagioni",
+  "subtitle": "Storms, summer, winter, spring, autumn, seasons"
+ },
+ "viaggio": {
+  "title": "In vacanza",
+  "subtitle": "Trip, ticket, suitcase, passport, hotel, beach, sea"
+ },
+ "aereo": {
+  "title": "I trasporti",
+  "subtitle": "Plane, train, bike, metro, ship, airport and stop"
+ },
+ "lavoro": {
+  "title": "Il lavoro",
+  "subtitle": "Work, office, company, boss, salary and trade"
+ },
+ "salute": {
+  "title": "Dal medico",
+  "subtitle": "Health, doctor, chemist's, medicine, cold, fever, pain"
+ },
+ "vorrei": {
+  "title": "Vorrei...",
+  "subtitle": "I'd like, it depends, no problem, maybe, gladly"
+ },
+ "meno-male": {
+  "title": "Meno male",
+  "subtitle": "Thank goodness, to need, feel like, queue, come on"
+ },
+ "film": {
+  "title": "Tempo libero",
+  "subtitle": "Films, music, songs, matches, parties and gifts"
+ },
+ "prezzo": {
+  "title": "Al supermercato",
+  "subtitle": "Price, change, credit card, till, receipt"
+ },
+ "forchetta": {
+  "title": "A tavola",
+  "subtitle": "Fork, knife, spoon, plate, glass, bottle, light"
+ },
+ "allora": {
+  "title": "Allora, invece, mentre",
+  "subtitle": "So, however, instead, what's more, while, until"
+ }
+}

@@ -1,0 +1,214 @@
+{
+  "$schema": "https://maxlango/schemas/profile-v1.json",
+  "code": "it",
+  "name": "Italian",
+  "version": 1,
+  "capitalizeNouns": false,
+  "pronouns": {
+    "1s": "io",
+    "2s": "tu",
+    "3s": "lui/lei",
+    "1p": "noi",
+    "2p": "voi",
+    "3p": "loro"
+  },
+  "auxiliaries": ["avere", "essere"],
+  "adjectiveForms": [
+    { "key": "ms", "label": "masculine sg" },
+    { "key": "fs", "label": "feminine sg" },
+    { "key": "mp", "label": "masculine pl" },
+    { "key": "fp", "label": "feminine pl" }
+  ],
+  "concepts": [
+    {
+      "id": "genere",
+      "kind": "topic",
+      "label": "Genere",
+      "labelGloss": "gender",
+      "order": 0,
+      "dependsOn": []
+    },
+    {
+      "id": "maschile",
+      "kind": "noun-class",
+      "label": "maschile",
+      "labelGloss": "masculine",
+      "article": "il",
+      "appliesTo": { "kind": "noun", "gender": "m" },
+      "dependsOn": ["genere"]
+    },
+    {
+      "id": "femminile",
+      "kind": "noun-class",
+      "label": "femminile",
+      "labelGloss": "feminine",
+      "article": "la",
+      "appliesTo": { "kind": "noun", "gender": "f" },
+      "dependsOn": ["genere"]
+    },
+    {
+      "id": "articoli",
+      "kind": "topic",
+      "label": "Articoli",
+      "labelGloss": "articles",
+      "dependsOn": ["genere"]
+    },
+    {
+      "id": "plurale",
+      "kind": "topic",
+      "label": "Plurale",
+      "labelGloss": "plural",
+      "dependsOn": ["articoli"]
+    },
+    {
+      "id": "aggettivi",
+      "kind": "adjective-class",
+      "label": "Aggettivi",
+      "labelGloss": "adjectives",
+      "forms": ["ms", "fs", "mp", "fp"],
+      "appliesTo": { "kind": "adjective" },
+      "dependsOn": ["genere"]
+    },
+    {
+      "id": "presente",
+      "kind": "tense",
+      "label": "Presente",
+      "labelGloss": "present tense",
+      "order": 0,
+      "role": "base-tense",
+      "appliesTo": { "kind": "verb" },
+      "dependsOn": [],
+      "patterns": [
+        {
+          "matchSuffix": "are",
+          "stemStrip": 3,
+          "rule": "Remove **-are** from the infinitive to get the stem. Add the endings for each person.",
+          "subtitle": "The biggest verb group in Italian: learn this pattern once, use it for thousands of verbs.",
+          "endings": ["-o", "-i", "-a", "-iamo", "-ate", "-ano"]
+        },
+        {
+          "matchSuffix": "ere",
+          "stemStrip": 3,
+          "rule": "Remove **-ere** from the infinitive to get the stem. Add the endings for each person.",
+          "subtitle": "Second-group -ERE verbs: the same endings as -are except in lui/lei, voi and loro.",
+          "endings": ["-o", "-i", "-e", "-iamo", "-ete", "-ono"]
+        },
+        {
+          "matchSuffix": "ire",
+          "stemStrip": 3,
+          "rule": "Remove **-ire** from the infinitive to get the stem. Add the endings for each person.",
+          "subtitle": "Third-group -IRE verbs like dormire: only the voi form differs from -ere.",
+          "endings": ["-o", "-i", "-e", "-iamo", "-ite", "-ono"]
+        },
+        {
+          "matchSuffix": "ire",
+          "stemStrip": 3,
+          "rule": "Remove **-ire** to get the stem, then add **-isc-** before the ending in io, tu, lui/lei and loro.",
+          "subtitle": "The -isc- group (finire, capire, preferire): noi and voi stay plain.",
+          "endings": ["-isco", "-isci", "-isce", "-iamo", "-ite", "-iscono"]
+        }
+      ]
+    },
+    {
+      "id": "passato-prossimo",
+      "kind": "tense",
+      "label": "Passato prossimo",
+      "labelGloss": "present perfect",
+      "order": 1,
+      "dependsOn": ["presente"]
+    },
+    {
+      "id": "imperfetto",
+      "kind": "tense",
+      "label": "Imperfetto",
+      "labelGloss": "imperfect",
+      "order": 2,
+      "dependsOn": ["presente"]
+    },
+    {
+      "id": "futuro-semplice",
+      "kind": "tense",
+      "label": "Futuro semplice",
+      "labelGloss": "simple future",
+      "order": 3,
+      "dependsOn": ["presente"]
+    },
+    {
+      "id": "condizionale",
+      "kind": "tense",
+      "label": "Condizionale",
+      "labelGloss": "conditional",
+      "order": 4,
+      "dependsOn": ["presente"]
+    },
+    {
+      "id": "congiuntivo",
+      "kind": "tense",
+      "label": "Congiuntivo",
+      "labelGloss": "present subjunctive",
+      "order": 5,
+      "dependsOn": ["presente"]
+    },
+    {
+      "id": "negazione",
+      "kind": "topic",
+      "label": "Negazione",
+      "labelGloss": "negation",
+      "dependsOn": ["presente"]
+    },
+    {
+      "id": "conj-coordinating",
+      "kind": "conjunction-class",
+      "label": "Coordinazione",
+      "labelGloss": "joins two clauses of equal weight without changing word order (e, ma, o, quindi)",
+      "order": 0,
+      "appliesTo": { "kind": "conjunction" },
+      "dependsOn": []
+    },
+    {
+      "id": "conj-subordinating",
+      "kind": "conjunction-class",
+      "label": "Subordinazione",
+      "labelGloss": "introduces a dependent clause (perché, quando, benché)",
+      "order": 1,
+      "appliesTo": { "kind": "conjunction" },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-contrast",
+      "kind": "connective-class",
+      "label": "Contrasto",
+      "labelGloss": "the next statement pushes against the last one (però, tuttavia)",
+      "order": 0,
+      "appliesTo": { "kind": "connective" },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-cause",
+      "kind": "connective-class",
+      "label": "Causa",
+      "labelGloss": "the next statement explains why (infatti, perché)",
+      "order": 1,
+      "appliesTo": { "kind": "connective" },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-addition",
+      "kind": "connective-class",
+      "label": "Aggiunta",
+      "labelGloss": "the next statement adds to the last one (inoltre, anche)",
+      "order": 2,
+      "appliesTo": { "kind": "connective" },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-sequence",
+      "kind": "connective-class",
+      "label": "Sequenza",
+      "labelGloss": "ordering in time or argument (prima, poi, infine)",
+      "order": 3,
+      "appliesTo": { "kind": "connective" },
+      "dependsOn": []
+    }
+  ]
+}
