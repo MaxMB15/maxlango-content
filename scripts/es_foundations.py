@@ -78,6 +78,15 @@ Question words always take one: *qué*, *cómo*, *dónde*, *cuándo*.
 ## Upside-down marks
 
 A question opens with **¿** and an exclamation with **¡**, so you know the tone before you read it: *¿Hablas español?* *¡Qué bonito!*
+
+## This unit's words
+
+- *[hola](lango:say)*: the **h** is silent, so the word starts on the **o**: "OH-lah".
+- *[buenos días](lango:say)*: **ue** glides like the *we* in *wet*, and the accent keeps the **í** and the **a** apart: "BWEH-nohs DEE-ahs".
+- *[gracias](lango:say)*: a tapped **r**, and **c** before **i** is the *th* of *think* in Spain, an s in Latin America: "GRAH-thyahs" or "GRAH-syahs".
+- *[por favor](lango:say)*: *favor* ends in a consonant, so the stress goes on its last syllable, and the **v** is a soft b: "por fah-BOR".
+- *[perdón](lango:say)*: the written accent moves the stress to the end: "pair-DOHN".
+- *[encantado](lango:say)*: four clear vowels, and the **d** between vowels is soft, like the *th* in *this*: "en-kahn-TAH-doh".
 """,
         ["pronunciación"],
         "es-pronunciation",
@@ -292,6 +301,7 @@ If the verb has object pronouns in front of it, *no* goes before them: *No lo s�
 | nada | nothing | No veo nada. |
 | nadie | nobody | No viene nadie. |
 | tampoco | not ... either | Yo tampoco. |
+| todavía no | not yet | Todavía no tengo coche. |
 | ningún, ninguna | no, not a single | No tengo ningún problema. |
 | ni ... ni | neither ... nor | No como ni carne ni pescado. |
 
@@ -458,6 +468,52 @@ A few short, common adjectives can come before the noun, and some change there:
         ["adjetivos"],
         "es-adjectives",
         explains=["adjetivos"],
+    ),
+    page(
+        "es-colors",
+        "Colours: which ones agree",
+        r"""
+Colours are adjectives, so they follow the adjectives page: they go after the noun and agree with it. *Un coche rojo*, *una casa roja*, *unos zapatos rojos*.
+
+## Colours ending in -o have four forms
+
+| masculine | feminine | masculine plural | feminine plural |
+| --- | --- | --- | --- |
+| rojo | roja | rojos | rojas |
+| amarillo | amarilla | amarillos | amarillas |
+| negro | negra | negros | negras |
+| blanco | blanca | blancos | blancas |
+| morado | morada | morados | moradas |
+
+## The others only change for the plural
+
+A colour ending in **-e** or a consonant is the same for masculine and feminine. In the plural it adds **-s** after a vowel and **-es** after a consonant.
+
+| singular | plural |
+| --- | --- |
+| verde | verdes |
+| azul | azules |
+| gris | grises |
+| marrón | marrones |
+
+*Marrón* loses its accent in the plural, because *marrones* already stresses the right syllable.
+
+## Rosa and naranja
+
+*Rosa* (a rose) and *naranja* (an orange) are named after things, so they don't change for gender: *un jersey rosa*, *una camiseta naranja*. In the plural you'll hear both *unas flores rosa* and *unas flores rosas*, and both are correct.
+
+A colour of two words never changes: *unos ojos azul claro*, *una falda verde oscuro*.
+
+:::examples
+- Mi hermana tiene los ojos verdes. — My sister has green eyes.
+- Quiero las zapatillas negras. — I want the black trainers.
+- Las paredes de mi cuarto son azules. — My bedroom walls are blue.
+- Lleva una camiseta rosa. — She's wearing a pink T-shirt.
+:::
+""",
+        ["colors"],
+        "es-colors",
+        explains=["colors"],
     ),
     page(
         "es-numbers",
@@ -955,8 +1011,54 @@ amarillo, amarilla, amarillos, amarillas | yellow | Me gustan las flores amarill
 negro, negra, negros, negras | black | Tengo un gato negro. | I have a black cat.
 blanco, blanca, blancos, blancas | white | En Andalucía hay muchos pueblos blancos. | There are lots of white villages in Andalusia. | Vino blanco is white wine.
 gris, gris, grises, grises | grey | Hoy el cielo está gris. | The sky is grey today.
+marrón, marrón, marrones, marrones | brown | Tengo los ojos marrones. | I have brown eyes. | For hair, castaño is more usual: pelo castaño.
+morado, morada, morados, moradas | purple | Las berenjenas son moradas. | Aubergines are purple.
 """,
     ["colors"],
+)
+
+PRONOUNS = phrases(
+    """
+yo | I | Yo trabajo y mi hermano estudia. | I work and my brother studies. | | Usually left out, since the verb already says who: hablo español. Put it in to stress or contrast.
+tú | you (one person, familiar) | ¿Tú también eres de Madrid? | Are you from Madrid too? | | Without the accent, tu means your.
+usted | you (one person, polite) | ¿Usted es la doctora Ruiz? | Are you Dr Ruiz? | | Takes the él form of the verb. Written Ud. for short.
+él | he | Él es mi hermano. | He's my brother. | | Without the accent, el means the.
+ella | she | Ella vive en Bilbao. | She lives in Bilbao.
+nosotros | we | Nosotros comemos a las dos. | We have lunch at two. | | Nosotras for a group of women only.
+vosotros | you (several, familiar; Spain) | ¿Vosotros habláis inglés? | Do you all speak English? | | Vosotras for women only. Latin America says ustedes instead.
+ellos | they (men, or a mixed group) | Ellos viven en el centro. | They live in the centre. | | A group with even one man in it is ellos.
+ellas | they (women only) | Ellas son mis primas. | They're my cousins.
+ustedes | you (several, polite; any group in Latin America) | ¿Ustedes son de aquí? | Are you from here? | | Takes the ellos form of the verb.
+""",
+    ["pronombres"],
+)
+
+NEGATIVES = phrases(
+    """
+no | no; not | Mi hermano no come carne. | My brother doesn't eat meat. | | Goes straight before the verb, with no helper like "don't".
+nunca | never | Nunca veo la tele por la mañana. | I never watch TV in the morning. | | After the verb it needs no in front: no veo nunca la tele.
+nada | nothing, not anything | No quiero nada, gracias. | I don't want anything, thanks. | | After the verb it needs no in front, so two negatives are correct.
+nadie | nobody, no one | Nadie sabe dónde está Pedro. | Nobody knows where Pedro is. | | After the verb: no viene nadie.
+tampoco | not ... either, neither | Ana no viene y yo tampoco. | Ana isn't coming, and neither am I. | | The negative of también: yo también, yo tampoco.
+todavía no | not yet | Todavía no tengo coche. | I don't have a car yet.
+""",
+    ["negación"],
+)
+
+NUMBERS = phrases(
+    """
+uno | one | Solo tengo uno. | I only have one. | | Before a masculine noun it's un, before a feminine one una: un libro, una casa.
+dos | two | Tengo dos gatos. | I have two cats.
+tres | three | Somos tres. | There are three of us.
+cuatro | four | La clase empieza a las cuatro. | The class starts at four.
+cinco | five | Mi hija tiene cinco años. | My daughter is five.
+seis | six | Hay seis huevos en la nevera. | There are six eggs in the fridge.
+siete | seven | La semana tiene siete días. | A week has seven days.
+ocho | eight | Trabajo ocho horas al día. | I work eight hours a day.
+nueve | nine | El museo abre a las nueve. | The museum opens at nine.
+diez | ten | Son diez euros, por favor. | That's ten euros, please.
+""",
+    ["números"],
 )
 
 CONNECTIVES = connectors(
@@ -979,12 +1081,16 @@ si | if | conj-subordinating | Salimos si quieres. | We'll go out if you want. |
     ["conjunciones"],
 )
 
-ITEMS = PAGES + interleave(PHRASES, NOUNS, VERBS, ADJECTIVES, CONNECTIVES + CONJUNCTIONS)
+ITEMS = PAGES + interleave(
+    PHRASES, PRONOUNS + NEGATIVES + NUMBERS, NOUNS, VERBS, ADJECTIVES, CONNECTIVES + CONJUNCTIONS
+)
 
-# Each grammar page's Unit carries the words that use or illustrate it. The
-# pronunciation, pronoun and question Units draw on the greetings phrases
-# without overlap; numbers pairs with the time words; possessives with the
-# family; the personal a with the verbs that most often take a person.
+# Each grammar page's Unit practises the words its page explains: the
+# pronunciation page ends on how each greeting in its unit sounds, the
+# pronouns, negation and numbers pages get their own pronouns, negative
+# words and numbers, and colours get a page on which ones agree.
+# Possessives pairs with the family, the personal a with the verbs that
+# most often take a person.
 UNITS = [
     {
         "title": "La pronunciación",
@@ -994,7 +1100,7 @@ UNITS = [
     {
         "title": "Tú o usted",
         "page_id": "es-subject-pronouns",
-        "word_ids": ["que-tal", "como-estas", "como-esta-usted", "perdona", "disculpe", "vale"],
+        "word_ids": ["yo", "tu", "usted", "el", "ella", "nosotros", "vosotros", "ellos", "ellas", "ustedes"],
     },
     {
         "title": "Ser y estar",
@@ -1009,7 +1115,7 @@ UNITS = [
     {
         "title": "La negación",
         "page_id": "es-negation",
-        "word_ids": ["poder", "saber", "decir", "venir", "poner", "salir", "dar"],
+        "word_ids": ["no", "nunca", "nada", "nadie", "tampoco", "todavia-no", "no-entiendo", "no-se"],
     },
     {
         "title": "Las preguntas",
@@ -1036,7 +1142,8 @@ UNITS = [
     },
     {
         "title": "Los colores",
-        "word_ids": ["rojo", "azul", "verde", "amarillo", "negro", "blanco", "gris"],
+        "page_id": "es-colors",
+        "word_ids": ["rojo", "azul", "verde", "amarillo", "negro", "blanco", "gris", "marron", "morado"],
     },
     {
         "title": "Cómo es la gente",
@@ -1049,7 +1156,7 @@ UNITS = [
     {
         "title": "Los números",
         "page_id": "es-numbers",
-        "word_ids": ["hora", "minuto", "dia", "lunes", "martes", "miercoles", "jueves"],
+        "word_ids": ["uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve", "diez"],
     },
     {
         "title": "Ir a",

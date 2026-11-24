@@ -88,7 +88,7 @@
       "kind": "misc",
       "id": "es-pronunciation",
       "title": "Reading Spanish aloud",
-      "body_md": "Spanish is spelled the way it sounds. Learn a handful of rules and you can read any word aloud, even one you've never seen.\n\n## Five pure vowels\n\nSpanish has five vowel sounds, always short and clear. They never glide the way English \"o\" does in \"go\", and an unstressed vowel keeps its full sound.\n\n| Letter | Sound | Example |\n| --- | --- | --- |\n| a | \"ah\", as in *father* | *[casa](lango:say)* |\n| e | \"eh\", as in *bed* | *[mesa](lango:say)* |\n| i | \"ee\", as in *see* | *[libro](lango:say)* |\n| o | \"oh\", short | *[ojo](lango:say)* |\n| u | \"oo\", as in *food* | *[uno](lango:say)* |\n\n*[Chocolate](lango:say)* has four clear vowels: cho-co-la-te.\n\n## Consonants that differ from English\n\n- **h** is always silent: *[hola](lango:say)*, *[hermano](lango:say)*, *[ahora](lango:say)*.\n- **j**, and **g** before e or i, is a rasp in the throat, like the *ch* in Scottish *loch*: *[rojo](lango:say)*, *[gente](lango:say)*.\n- **g** before a, o or u is hard, as in *go*: *[gato](lango:say)*. To keep it hard before e or i, Spanish writes **gu**, and the u is silent: *[guitarra](lango:say)*.\n- **c** before a, o or u, and **qu** before e or i, is a plain k: *[casa](lango:say)*, *[queso](lango:say)*, *[aquí](lango:say)*.\n- **c** before e or i, and **z** everywhere, is the *th* of *think* in most of Spain: *[cerveza](lango:say)*, *[cine](lango:say)*. In Latin America, the Canary Islands and much of Andalusia it's an s. Both are correct.\n- **ll** and **y** sound like the *y* in *yes* for most speakers: *[llave](lango:say)*, *[calle](lango:say)*, *[yo](lango:say)*. In Argentina and Uruguay they sound closer to *sh*.\n- **ñ** is the *ny* in *canyon*: *[España](lango:say)*, *[mañana](lango:say)*.\n- **r** between vowels is one quick tap of the tongue, like the *tt* in American *butter*. **rr**, and an r at the start of a word, is rolled: *[pero](lango:say)* (but) and *[perro](lango:say)* (dog) are different words.\n- **b** and **v** are the same sound: *[vino](lango:say)* and *[bien](lango:say)* start alike.\n- **d** between vowels is soft, like the *th* in *this*, and almost disappears at the end of a word: *[nada](lango:say)*, *[Madrid](lango:say)*.\n\n## Which syllable is stressed\n\nThree rules cover every word:\n\n1. A word ending in a vowel, **-n** or **-s** stresses the second-to-last syllable: *[casa](lango:say)*, *[hablan](lango:say)*, *[lunes](lango:say)*.\n2. A word ending in any other consonant stresses the last syllable: *[hablar](lango:say)*, *[ciudad](lango:say)*, *[español](lango:say)*.\n3. A written accent breaks the rules and marks the stress: *[café](lango:say)*, *[árbol](lango:say)*, *[música](lango:say)*, *[canción](lango:say)*.\n\nSo a written accent is never decoration. *[Papá](lango:say)* (dad) and *[papa](lango:say)* (potato) differ only in their stress.\n\n## Accents that tell twins apart\n\nA few short words carry an accent only to tell them from a twin that sounds the same:\n\n| With an accent | Without |\n| --- | --- |\n| tú (you) | tu (your) |\n| él (he) | el (the) |\n| sí (yes) | si (if) |\n| mí (me) | mi (my) |\n| sé (I know) | se (oneself) |\n| té (tea) | te (you, to you) |\n\nQuestion words always take one: *qué*, *cómo*, *dónde*, *cuándo*.\n\n## Upside-down marks\n\nA question opens with **¿** and an exclamation with **¡**, so you know the tone before you read it: *¿Hablas español?* *¡Qué bonito!*",
+      "body_md": "Spanish is spelled the way it sounds. Learn a handful of rules and you can read any word aloud, even one you've never seen.\n\n## Five pure vowels\n\nSpanish has five vowel sounds, always short and clear. They never glide the way English \"o\" does in \"go\", and an unstressed vowel keeps its full sound.\n\n| Letter | Sound | Example |\n| --- | --- | --- |\n| a | \"ah\", as in *father* | *[casa](lango:say)* |\n| e | \"eh\", as in *bed* | *[mesa](lango:say)* |\n| i | \"ee\", as in *see* | *[libro](lango:say)* |\n| o | \"oh\", short | *[ojo](lango:say)* |\n| u | \"oo\", as in *food* | *[uno](lango:say)* |\n\n*[Chocolate](lango:say)* has four clear vowels: cho-co-la-te.\n\n## Consonants that differ from English\n\n- **h** is always silent: *[hola](lango:say)*, *[hermano](lango:say)*, *[ahora](lango:say)*.\n- **j**, and **g** before e or i, is a rasp in the throat, like the *ch* in Scottish *loch*: *[rojo](lango:say)*, *[gente](lango:say)*.\n- **g** before a, o or u is hard, as in *go*: *[gato](lango:say)*. To keep it hard before e or i, Spanish writes **gu**, and the u is silent: *[guitarra](lango:say)*.\n- **c** before a, o or u, and **qu** before e or i, is a plain k: *[casa](lango:say)*, *[queso](lango:say)*, *[aquí](lango:say)*.\n- **c** before e or i, and **z** everywhere, is the *th* of *think* in most of Spain: *[cerveza](lango:say)*, *[cine](lango:say)*. In Latin America, the Canary Islands and much of Andalusia it's an s. Both are correct.\n- **ll** and **y** sound like the *y* in *yes* for most speakers: *[llave](lango:say)*, *[calle](lango:say)*, *[yo](lango:say)*. In Argentina and Uruguay they sound closer to *sh*.\n- **ñ** is the *ny* in *canyon*: *[España](lango:say)*, *[mañana](lango:say)*.\n- **r** between vowels is one quick tap of the tongue, like the *tt* in American *butter*. **rr**, and an r at the start of a word, is rolled: *[pero](lango:say)* (but) and *[perro](lango:say)* (dog) are different words.\n- **b** and **v** are the same sound: *[vino](lango:say)* and *[bien](lango:say)* start alike.\n- **d** between vowels is soft, like the *th* in *this*, and almost disappears at the end of a word: *[nada](lango:say)*, *[Madrid](lango:say)*.\n\n## Which syllable is stressed\n\nThree rules cover every word:\n\n1. A word ending in a vowel, **-n** or **-s** stresses the second-to-last syllable: *[casa](lango:say)*, *[hablan](lango:say)*, *[lunes](lango:say)*.\n2. A word ending in any other consonant stresses the last syllable: *[hablar](lango:say)*, *[ciudad](lango:say)*, *[español](lango:say)*.\n3. A written accent breaks the rules and marks the stress: *[café](lango:say)*, *[árbol](lango:say)*, *[música](lango:say)*, *[canción](lango:say)*.\n\nSo a written accent is never decoration. *[Papá](lango:say)* (dad) and *[papa](lango:say)* (potato) differ only in their stress.\n\n## Accents that tell twins apart\n\nA few short words carry an accent only to tell them from a twin that sounds the same:\n\n| With an accent | Without |\n| --- | --- |\n| tú (you) | tu (your) |\n| él (he) | el (the) |\n| sí (yes) | si (if) |\n| mí (me) | mi (my) |\n| sé (I know) | se (oneself) |\n| té (tea) | te (you, to you) |\n\nQuestion words always take one: *qué*, *cómo*, *dónde*, *cuándo*.\n\n## Upside-down marks\n\nA question opens with **¿** and an exclamation with **¡**, so you know the tone before you read it: *¿Hablas español?* *¡Qué bonito!*\n\n## This unit's words\n\n- *[hola](lango:say)*: the **h** is silent, so the word starts on the **o**: \"OH-lah\".\n- *[buenos días](lango:say)*: **ue** glides like the *we* in *wet*, and the accent keeps the **í** and the **a** apart: \"BWEH-nohs DEE-ahs\".\n- *[gracias](lango:say)*: a tapped **r**, and **c** before **i** is the *th* of *think* in Spain, an s in Latin America: \"GRAH-thyahs\" or \"GRAH-syahs\".\n- *[por favor](lango:say)*: *favor* ends in a consonant, so the stress goes on its last syllable, and the **v** is a soft b: \"por fah-BOR\".\n- *[perdón](lango:say)*: the written accent moves the stress to the end: \"pair-DOHN\".\n- *[encantado](lango:say)*: four clear vowels, and the **d** between vowels is soft, like the *th* in *this*: \"en-kahn-TAH-doh\".",
       "extras": {
         "unlocks": [
           "concept:es-pronunciation"
@@ -153,7 +153,7 @@
       "kind": "misc",
       "id": "es-negation",
       "title": "Saying no: no, nunca and nada",
-      "body_md": "To make a sentence negative, put **no** straight before the verb. There's no helper verb like English \"don't\".\n\n:::examples\n- No hablo alemán. — I don't speak German.\n- No tengo nada en la nevera. — There's nothing in my fridge.\n- Nunca comemos en casa los domingos. — We never eat at home on Sundays.\n- Aquí no hay nadie. — There's nobody here.\n:::\n\nIf the verb has object pronouns in front of it, *no* goes before them: *No lo sé* (I don't know).\n\n## Other negative words\n\n| Spanish | English | Example |\n| --- | --- | --- |\n| nunca | never | Nunca bebo café. |\n| nada | nothing | No veo nada. |\n| nadie | nobody | No viene nadie. |\n| tampoco | not ... either | Yo tampoco. |\n| ningún, ninguna | no, not a single | No tengo ningún problema. |\n| ni ... ni | neither ... nor | No como ni carne ni pescado. |\n\n## Double negatives are correct\n\nIn Spanish, two negatives don't cancel out. When the negative word comes after the verb, *no* must still come before it: *No veo nada* (literally \"I don't see nothing\"). When the negative word comes first, drop the *no*: *Nadie viene*, *Nunca bebo café*.\n\n## Answering a question\n\nA short answer often says *no* twice. The first answers the question; the second negates the verb: *—¿Tienes coche? —No, no tengo.* To refuse politely, say *No, gracias*.\n\n:::cloze{sentence=\"No conozco a ___ en esta ciudad.\" blank=\"nadie\"}\n:::",
+      "body_md": "To make a sentence negative, put **no** straight before the verb. There's no helper verb like English \"don't\".\n\n:::examples\n- No hablo alemán. — I don't speak German.\n- No tengo nada en la nevera. — There's nothing in my fridge.\n- Nunca comemos en casa los domingos. — We never eat at home on Sundays.\n- Aquí no hay nadie. — There's nobody here.\n:::\n\nIf the verb has object pronouns in front of it, *no* goes before them: *No lo sé* (I don't know).\n\n## Other negative words\n\n| Spanish | English | Example |\n| --- | --- | --- |\n| nunca | never | Nunca bebo café. |\n| nada | nothing | No veo nada. |\n| nadie | nobody | No viene nadie. |\n| tampoco | not ... either | Yo tampoco. |\n| todavía no | not yet | Todavía no tengo coche. |\n| ningún, ninguna | no, not a single | No tengo ningún problema. |\n| ni ... ni | neither ... nor | No como ni carne ni pescado. |\n\n## Double negatives are correct\n\nIn Spanish, two negatives don't cancel out. When the negative word comes after the verb, *no* must still come before it: *No veo nada* (literally \"I don't see nothing\"). When the negative word comes first, drop the *no*: *Nadie viene*, *Nunca bebo café*.\n\n## Answering a question\n\nA short answer often says *no* twice. The first answers the question; the second negates the verb: *—¿Tienes coche? —No, no tengo.* To refuse politely, say *No, gracias*.\n\n:::cloze{sentence=\"No conozco a ___ en esta ciudad.\" blank=\"nadie\"}\n:::",
       "extras": {
         "unlocks": [
           "concept:es-negation"
@@ -212,6 +212,23 @@
       },
       "tags": [
         "adjetivos"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-colors",
+      "title": "Colours: which ones agree",
+      "body_md": "Colours are adjectives, so they follow the adjectives page: they go after the noun and agree with it. *Un coche rojo*, *una casa roja*, *unos zapatos rojos*.\n\n## Colours ending in -o have four forms\n\n| masculine | feminine | masculine plural | feminine plural |\n| --- | --- | --- | --- |\n| rojo | roja | rojos | rojas |\n| amarillo | amarilla | amarillos | amarillas |\n| negro | negra | negros | negras |\n| blanco | blanca | blancos | blancas |\n| morado | morada | morados | moradas |\n\n## The others only change for the plural\n\nA colour ending in **-e** or a consonant is the same for masculine and feminine. In the plural it adds **-s** after a vowel and **-es** after a consonant.\n\n| singular | plural |\n| --- | --- |\n| verde | verdes |\n| azul | azules |\n| gris | grises |\n| marrón | marrones |\n\n*Marrón* loses its accent in the plural, because *marrones* already stresses the right syllable.\n\n## Rosa and naranja\n\n*Rosa* (a rose) and *naranja* (an orange) are named after things, so they don't change for gender: *un jersey rosa*, *una camiseta naranja*. In the plural you'll hear both *unas flores rosa* and *unas flores rosas*, and both are correct.\n\nA colour of two words never changes: *unos ojos azul claro*, *una falda verde oscuro*.\n\n:::examples\n- Mi hermana tiene los ojos verdes. — My sister has green eyes.\n- Quiero las zapatillas negras. — I want the black trainers.\n- Las paredes de mi cuarto son azules. — My bedroom walls are blue.\n- Lleva una camiseta rosa. — She's wearing a pink T-shirt.\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-colors"
+        ],
+        "explains": [
+          "colors"
+        ]
+      },
+      "tags": [
+        "colors"
       ]
     },
     {
@@ -416,6 +433,20 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "yo",
+      "primary_form": "yo",
+      "gloss": "I",
+      "extras": {
+        "note": "Usually left out, since the verb already says who: hablo español. Put it in to stress or contrast.",
+        "example": "Yo trabajo y mi hermano estudia.",
+        "example_en": "I work and my brother studies."
+      },
+      "tags": [
+        "pronombres"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "hermano",
       "primary_form": "hermano",
@@ -574,6 +605,20 @@
       },
       "tags": [
         "adjetivos"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tu",
+      "primary_form": "tú",
+      "gloss": "you (one person, familiar)",
+      "extras": {
+        "note": "Without the accent, tu means your.",
+        "example": "¿Tú también eres de Madrid?",
+        "example_en": "Are you from Madrid too?"
+      },
+      "tags": [
+        "pronombres"
       ]
     },
     {
@@ -860,6 +905,20 @@
       }
     },
     {
+      "kind": "phrase",
+      "id": "usted",
+      "primary_form": "usted",
+      "gloss": "you (one person, polite)",
+      "extras": {
+        "note": "Takes the él form of the verb. Written Ud. for short.",
+        "example": "¿Usted es la doctora Ruiz?",
+        "example_en": "Are you Dr Ruiz?"
+      },
+      "tags": [
+        "pronombres"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "abuela",
       "primary_form": "abuela",
@@ -906,6 +965,26 @@
       },
       "tags": [
         "greetings"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "malo",
+      "primary_form": "malo",
+      "gloss": "bad",
+      "extras": {
+        "forms": {
+          "ms": "malo",
+          "fs": "mala",
+          "mp": "malos",
+          "fp": "malas"
+        },
+        "example": "Es una mala idea.",
+        "example_en": "It's a bad idea.",
+        "note": "Before a masculine singular noun: mal. Un mal día."
+      },
+      "tags": [
+        "adjetivos"
       ]
     },
     {
@@ -999,26 +1078,6 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "malo",
-      "primary_form": "malo",
-      "gloss": "bad",
-      "extras": {
-        "forms": {
-          "ms": "malo",
-          "fs": "mala",
-          "mp": "malos",
-          "fp": "malas"
-        },
-        "example": "Es una mala idea.",
-        "example_en": "It's a bad idea.",
-        "note": "Before a masculine singular noun: mal. Un mal día."
-      },
-      "tags": [
-        "adjetivos"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "primo",
       "primary_form": "primo",
@@ -1033,6 +1092,20 @@
       "tags": [
         "family",
         "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "el",
+      "primary_form": "él",
+      "gloss": "he",
+      "extras": {
+        "note": "Without the accent, el means the.",
+        "example": "Él es mi hermano.",
+        "example_en": "He's my brother."
+      },
+      "tags": [
+        "pronombres"
       ]
     },
     {
@@ -1142,24 +1215,6 @@
       }
     },
     {
-      "kind": "noun",
-      "id": "novio",
-      "primary_form": "novio",
-      "gloss": "boyfriend; groom",
-      "extras": {
-        "gender": "m",
-        "article": "el",
-        "plural": "novios",
-        "example": "Lucía tiene un novio nuevo.",
-        "example_en": "Lucía has a new boyfriend.",
-        "note": "Los novios are also the bride and groom."
-      },
-      "tags": [
-        "family",
-        "masculino"
-      ]
-    },
-    {
       "kind": "adjective",
       "id": "bonito",
       "primary_form": "bonito",
@@ -1176,6 +1231,24 @@
       },
       "tags": [
         "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "novio",
+      "primary_form": "novio",
+      "gloss": "boyfriend; groom",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "novios",
+        "example": "Lucía tiene un novio nuevo.",
+        "example_en": "Lucía has a new boyfriend.",
+        "note": "Los novios are also the bride and groom."
+      },
+      "tags": [
+        "family",
+        "masculino"
       ]
     },
     {
@@ -1283,6 +1356,19 @@
       }
     },
     {
+      "kind": "phrase",
+      "id": "ella",
+      "primary_form": "ella",
+      "gloss": "she",
+      "extras": {
+        "example": "Ella vive en Bilbao.",
+        "example_en": "She lives in Bilbao."
+      },
+      "tags": [
+        "pronombres"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "familia",
       "primary_form": "familia",
@@ -1297,6 +1383,26 @@
       "tags": [
         "family",
         "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "guapo",
+      "primary_form": "guapo",
+      "gloss": "good-looking",
+      "extras": {
+        "forms": {
+          "ms": "guapo",
+          "fs": "guapa",
+          "mp": "guapos",
+          "fp": "guapas"
+        },
+        "example": "Tu hermano es muy guapo.",
+        "example_en": "Your brother is very good-looking.",
+        "note": "In Spain also \"dressed up, smart\": ¡Qué guapa vas!"
+      },
+      "tags": [
+        "adjetivos"
       ]
     },
     {
@@ -1344,26 +1450,6 @@
       "tags": [
         "people",
         "masculino"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "guapo",
-      "primary_form": "guapo",
-      "gloss": "good-looking",
-      "extras": {
-        "forms": {
-          "ms": "guapo",
-          "fs": "guapa",
-          "mp": "guapos",
-          "fp": "guapas"
-        },
-        "example": "Tu hermano es muy guapo.",
-        "example_en": "Your brother is very good-looking.",
-        "note": "In Spain also \"dressed up, smart\": ¡Qué guapa vas!"
-      },
-      "tags": [
-        "adjetivos"
       ]
     },
     {
@@ -1457,6 +1543,20 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "nosotros",
+      "primary_form": "nosotros",
+      "gloss": "we",
+      "extras": {
+        "note": "Nosotras for a group of women only.",
+        "example": "Nosotros comemos a las dos.",
+        "example_en": "We have lunch at two."
+      },
+      "tags": [
+        "pronombres"
+      ]
+    },
+    {
       "kind": "connective",
       "id": "despues",
       "primary_form": "después",
@@ -1486,6 +1586,25 @@
       "tags": [
         "people",
         "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "alto",
+      "primary_form": "alto",
+      "gloss": "tall; high",
+      "extras": {
+        "forms": {
+          "ms": "alto",
+          "fs": "alta",
+          "mp": "altos",
+          "fp": "altas"
+        },
+        "example": "Mi padre es muy alto.",
+        "example_en": "My father is very tall."
+      },
+      "tags": [
+        "adjetivos"
       ]
     },
     {
@@ -1595,25 +1714,6 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "alto",
-      "primary_form": "alto",
-      "gloss": "tall; high",
-      "extras": {
-        "forms": {
-          "ms": "alto",
-          "fs": "alta",
-          "mp": "altos",
-          "fp": "altas"
-        },
-        "example": "Mi padre es muy alto.",
-        "example_en": "My father is very tall."
-      },
-      "tags": [
-        "adjetivos"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "nombre",
       "primary_form": "nombre",
@@ -1659,6 +1759,20 @@
       "tags": [
         "body",
         "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "vosotros",
+      "primary_form": "vosotros",
+      "gloss": "you (several, familiar; Spain)",
+      "extras": {
+        "note": "Vosotras for women only. Latin America says ustedes instead.",
+        "example": "¿Vosotros habláis inglés?",
+        "example_en": "Do you all speak English?"
+      },
+      "tags": [
+        "pronombres"
       ]
     },
     {
@@ -1736,23 +1850,6 @@
       }
     },
     {
-      "kind": "noun",
-      "id": "cara",
-      "primary_form": "cara",
-      "gloss": "face",
-      "extras": {
-        "gender": "f",
-        "article": "la",
-        "plural": "caras",
-        "example": "Tiene una cara muy simpática.",
-        "example_en": "She has a very friendly face."
-      },
-      "tags": [
-        "body",
-        "femenino"
-      ]
-    },
-    {
       "kind": "adjective",
       "id": "bajo",
       "primary_form": "bajo",
@@ -1769,6 +1866,23 @@
       },
       "tags": [
         "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cara",
+      "primary_form": "cara",
+      "gloss": "face",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "caras",
+        "example": "Tiene una cara muy simpática.",
+        "example_en": "She has a very friendly face."
+      },
+      "tags": [
+        "body",
+        "femenino"
       ]
     },
     {
@@ -1892,6 +2006,39 @@
       ]
     },
     {
+      "kind": "adjective",
+      "id": "joven",
+      "primary_form": "joven",
+      "gloss": "young",
+      "extras": {
+        "forms": {
+          "ms": "joven",
+          "fs": "joven",
+          "mp": "jóvenes",
+          "fp": "jóvenes"
+        },
+        "example": "Su madre es muy joven.",
+        "example_en": "His mother is very young."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ellos",
+      "primary_form": "ellos",
+      "gloss": "they (men, or a mixed group)",
+      "extras": {
+        "note": "A group with even one man in it is ellos.",
+        "example": "Ellos viven en el centro.",
+        "example_en": "They live in the centre."
+      },
+      "tags": [
+        "pronombres"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "boca",
       "primary_form": "boca",
@@ -2012,25 +2159,6 @@
       }
     },
     {
-      "kind": "adjective",
-      "id": "joven",
-      "primary_form": "joven",
-      "gloss": "young",
-      "extras": {
-        "forms": {
-          "ms": "joven",
-          "fs": "joven",
-          "mp": "jóvenes",
-          "fp": "jóvenes"
-        },
-        "example": "Su madre es muy joven.",
-        "example_en": "His mother is very young."
-      },
-      "tags": [
-        "adjetivos"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "oreja",
       "primary_form": "oreja",
@@ -2046,6 +2174,26 @@
       "tags": [
         "body",
         "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "viejo",
+      "primary_form": "viejo",
+      "gloss": "old",
+      "extras": {
+        "forms": {
+          "ms": "viejo",
+          "fs": "vieja",
+          "mp": "viejos",
+          "fp": "viejas"
+        },
+        "example": "Este coche ya es muy viejo.",
+        "example_en": "This car is very old now.",
+        "note": "For people, mayor is politer: una señora mayor."
+      },
+      "tags": [
+        "adjetivos"
       ]
     },
     {
@@ -2077,6 +2225,19 @@
       "tags": [
         "body",
         "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ellas",
+      "primary_form": "ellas",
+      "gloss": "they (women only)",
+      "extras": {
+        "example": "Ellas son mis primas.",
+        "example_en": "They're my cousins."
+      },
+      "tags": [
+        "pronombres"
       ]
     },
     {
@@ -2171,26 +2332,6 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "viejo",
-      "primary_form": "viejo",
-      "gloss": "old",
-      "extras": {
-        "forms": {
-          "ms": "viejo",
-          "fs": "vieja",
-          "mp": "viejos",
-          "fp": "viejas"
-        },
-        "example": "Este coche ya es muy viejo.",
-        "example_en": "This car is very old now.",
-        "note": "For people, mayor is politer: una señora mayor."
-      },
-      "tags": [
-        "adjetivos"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "brazo",
       "primary_form": "brazo",
@@ -2219,6 +2360,25 @@
       },
       "tags": [
         "greetings"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "nuevo",
+      "primary_form": "nuevo",
+      "gloss": "new",
+      "extras": {
+        "forms": {
+          "ms": "nuevo",
+          "fs": "nueva",
+          "mp": "nuevos",
+          "fp": "nuevas"
+        },
+        "example": "Tengo un móvil nuevo.",
+        "example_en": "I have a new phone."
+      },
+      "tags": [
+        "adjetivos"
       ]
     },
     {
@@ -2349,6 +2509,20 @@
     },
     {
       "kind": "phrase",
+      "id": "ustedes",
+      "primary_form": "ustedes",
+      "gloss": "you (several, polite; any group in Latin America)",
+      "extras": {
+        "note": "Takes the ellos form of the verb.",
+        "example": "¿Ustedes son de aquí?",
+        "example_en": "Are you from here?"
+      },
+      "tags": [
+        "pronombres"
+      ]
+    },
+    {
+      "kind": "phrase",
       "id": "lo-siento",
       "primary_form": "lo siento",
       "gloss": "I'm sorry",
@@ -2377,25 +2551,6 @@
       "tags": [
         "food",
         "masculino"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "nuevo",
-      "primary_form": "nuevo",
-      "gloss": "new",
-      "extras": {
-        "forms": {
-          "ms": "nuevo",
-          "fs": "nueva",
-          "mp": "nuevos",
-          "fp": "nuevas"
-        },
-        "example": "Tengo un móvil nuevo.",
-        "example_en": "I have a new phone."
-      },
-      "tags": [
-        "adjetivos"
       ]
     },
     {
@@ -2473,6 +2628,26 @@
       }
     },
     {
+      "kind": "adjective",
+      "id": "simpatico",
+      "primary_form": "simpático",
+      "gloss": "nice, friendly",
+      "extras": {
+        "forms": {
+          "ms": "simpático",
+          "fs": "simpática",
+          "mp": "simpáticos",
+          "fp": "simpáticas"
+        },
+        "example": "Tus amigos son muy simpáticos.",
+        "example_en": "Your friends are very nice.",
+        "note": "Not \"sympathetic\", which is comprensivo."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "te",
       "primary_form": "té",
@@ -2517,6 +2692,20 @@
       },
       "tags": [
         "greetings"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "no",
+      "primary_form": "no",
+      "gloss": "no; not",
+      "extras": {
+        "note": "Goes straight before the verb, with no helper like \"don't\".",
+        "example": "Mi hermano no come carne.",
+        "example_en": "My brother doesn't eat meat."
+      },
+      "tags": [
+        "negación"
       ]
     },
     {
@@ -2611,26 +2800,6 @@
       }
     },
     {
-      "kind": "adjective",
-      "id": "simpatico",
-      "primary_form": "simpático",
-      "gloss": "nice, friendly",
-      "extras": {
-        "forms": {
-          "ms": "simpático",
-          "fs": "simpática",
-          "mp": "simpáticos",
-          "fp": "simpáticas"
-        },
-        "example": "Tus amigos son muy simpáticos.",
-        "example_en": "Your friends are very nice.",
-        "note": "Not \"sympathetic\", which is comprensivo."
-      },
-      "tags": [
-        "adjetivos"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "cerveza",
       "primary_form": "cerveza",
@@ -2646,6 +2815,26 @@
       "tags": [
         "food",
         "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "contento",
+      "primary_form": "contento",
+      "gloss": "happy, pleased",
+      "extras": {
+        "forms": {
+          "ms": "contento",
+          "fs": "contenta",
+          "mp": "contentos",
+          "fp": "contentas"
+        },
+        "example": "Estoy muy contenta con mi trabajo.",
+        "example_en": "I'm very happy with my job.",
+        "note": "Used with estar."
+      },
+      "tags": [
+        "adjetivos"
       ]
     },
     {
@@ -2771,23 +2960,17 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "contento",
-      "primary_form": "contento",
-      "gloss": "happy, pleased",
+      "kind": "phrase",
+      "id": "nunca",
+      "primary_form": "nunca",
+      "gloss": "never",
       "extras": {
-        "forms": {
-          "ms": "contento",
-          "fs": "contenta",
-          "mp": "contentos",
-          "fp": "contentas"
-        },
-        "example": "Estoy muy contenta con mi trabajo.",
-        "example_en": "I'm very happy with my job.",
-        "note": "Used with estar."
+        "note": "After the verb it needs no in front: no veo nunca la tele.",
+        "example": "Nunca veo la tele por la mañana.",
+        "example_en": "I never watch TV in the morning."
       },
       "tags": [
-        "adjetivos"
+        "negación"
       ]
     },
     {
@@ -2819,6 +3002,25 @@
       },
       "tags": [
         "greetings"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "cansado",
+      "primary_form": "cansado",
+      "gloss": "tired",
+      "extras": {
+        "forms": {
+          "ms": "cansado",
+          "fs": "cansada",
+          "mp": "cansados",
+          "fp": "cansadas"
+        },
+        "example": "Estamos cansados del viaje.",
+        "example_en": "We're tired after the journey."
+      },
+      "tags": [
+        "adjetivos"
       ]
     },
     {
@@ -2960,19 +3162,34 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "nada",
+      "primary_form": "nada",
+      "gloss": "nothing, not anything",
+      "extras": {
+        "note": "After the verb it needs no in front, so two negatives are correct.",
+        "example": "No quiero nada, gracias.",
+        "example_en": "I don't want anything, thanks."
+      },
+      "tags": [
+        "negación"
+      ]
+    },
+    {
       "kind": "adjective",
-      "id": "cansado",
-      "primary_form": "cansado",
-      "gloss": "tired",
+      "id": "caliente",
+      "primary_form": "caliente",
+      "gloss": "hot (to the touch)",
       "extras": {
         "forms": {
-          "ms": "cansado",
-          "fs": "cansada",
-          "mp": "cansados",
-          "fp": "cansadas"
+          "ms": "caliente",
+          "fs": "caliente",
+          "mp": "calientes",
+          "fp": "calientes"
         },
-        "example": "Estamos cansados del viaje.",
-        "example_en": "We're tired after the journey."
+        "example": "Cuidado, la sopa está muy caliente.",
+        "example_en": "Careful, the soup is very hot.",
+        "note": "Hot weather is hace calor; spicy food is picante."
       },
       "tags": [
         "adjetivos"
@@ -3205,22 +3422,35 @@
     },
     {
       "kind": "adjective",
-      "id": "caliente",
-      "primary_form": "caliente",
-      "gloss": "hot (to the touch)",
+      "id": "frio",
+      "primary_form": "frío",
+      "gloss": "cold",
       "extras": {
         "forms": {
-          "ms": "caliente",
-          "fs": "caliente",
-          "mp": "calientes",
-          "fp": "calientes"
+          "ms": "frío",
+          "fs": "fría",
+          "mp": "fríos",
+          "fp": "frías"
         },
-        "example": "Cuidado, la sopa está muy caliente.",
-        "example_en": "Careful, the soup is very hot.",
-        "note": "Hot weather is hace calor; spicy food is picante."
+        "example": "Quiero una cerveza bien fría.",
+        "example_en": "I want a nice cold beer."
       },
       "tags": [
         "adjetivos"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "nadie",
+      "primary_form": "nadie",
+      "gloss": "nobody, no one",
+      "extras": {
+        "note": "After the verb: no viene nadie.",
+        "example": "Nadie sabe dónde está Pedro.",
+        "example_en": "Nobody knows where Pedro is."
+      },
+      "tags": [
+        "negación"
       ]
     },
     {
@@ -3362,6 +3592,25 @@
       ]
     },
     {
+      "kind": "adjective",
+      "id": "facil",
+      "primary_form": "fácil",
+      "gloss": "easy",
+      "extras": {
+        "forms": {
+          "ms": "fácil",
+          "fs": "fácil",
+          "mp": "fáciles",
+          "fp": "fáciles"
+        },
+        "example": "El examen es muy fácil.",
+        "example_en": "The exam is very easy."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
       "kind": "phrase",
       "id": "mucho-gusto",
       "primary_form": "mucho gusto",
@@ -3393,22 +3642,17 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "frio",
-      "primary_form": "frío",
-      "gloss": "cold",
+      "kind": "phrase",
+      "id": "tampoco",
+      "primary_form": "tampoco",
+      "gloss": "not ... either, neither",
       "extras": {
-        "forms": {
-          "ms": "frío",
-          "fs": "fría",
-          "mp": "fríos",
-          "fp": "frías"
-        },
-        "example": "Quiero una cerveza bien fría.",
-        "example_en": "I want a nice cold beer."
+        "note": "The negative of también: yo también, yo tampoco.",
+        "example": "Ana no viene y yo tampoco.",
+        "example_en": "Ana isn't coming, and neither am I."
       },
       "tags": [
-        "adjetivos"
+        "negación"
       ]
     },
     {
@@ -3534,6 +3778,25 @@
       ]
     },
     {
+      "kind": "adjective",
+      "id": "dificil",
+      "primary_form": "difícil",
+      "gloss": "difficult, hard",
+      "extras": {
+        "forms": {
+          "ms": "difícil",
+          "fs": "difícil",
+          "mp": "difíciles",
+          "fp": "difíciles"
+        },
+        "example": "El español no es tan difícil.",
+        "example_en": "Spanish isn't that hard."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "plaza",
       "primary_form": "plaza",
@@ -3548,25 +3811,6 @@
       "tags": [
         "city",
         "femenino"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "facil",
-      "primary_form": "fácil",
-      "gloss": "easy",
-      "extras": {
-        "forms": {
-          "ms": "fácil",
-          "fs": "fácil",
-          "mp": "fáciles",
-          "fp": "fáciles"
-        },
-        "example": "El examen es muy fácil.",
-        "example_en": "The exam is very easy."
-      },
-      "tags": [
-        "adjetivos"
       ]
     },
     {
@@ -3661,6 +3905,19 @@
     },
     {
       "kind": "phrase",
+      "id": "todavia-no",
+      "primary_form": "todavía no",
+      "gloss": "not yet",
+      "extras": {
+        "example": "Todavía no tengo coche.",
+        "example_en": "I don't have a car yet."
+      },
+      "tags": [
+        "negación"
+      ]
+    },
+    {
+      "kind": "phrase",
       "id": "de-donde-eres",
       "primary_form": "¿de dónde eres?",
       "gloss": "where are you from?",
@@ -3707,6 +3964,25 @@
       "tags": [
         "city",
         "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "caro",
+      "primary_form": "caro",
+      "gloss": "expensive",
+      "extras": {
+        "forms": {
+          "ms": "caro",
+          "fs": "cara",
+          "mp": "caros",
+          "fp": "caras"
+        },
+        "example": "Los restaurantes del centro son muy caros.",
+        "example_en": "The restaurants in the centre are very expensive."
+      },
+      "tags": [
+        "adjetivos"
       ]
     },
     {
@@ -3784,25 +4060,6 @@
       }
     },
     {
-      "kind": "adjective",
-      "id": "dificil",
-      "primary_form": "difícil",
-      "gloss": "difficult, hard",
-      "extras": {
-        "forms": {
-          "ms": "difícil",
-          "fs": "difícil",
-          "mp": "difíciles",
-          "fp": "difíciles"
-        },
-        "example": "El español no es tan difícil.",
-        "example_en": "Spanish isn't that hard."
-      },
-      "tags": [
-        "adjetivos"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "hospital",
       "primary_form": "hospital",
@@ -3830,6 +4087,20 @@
       },
       "tags": [
         "greetings"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "uno",
+      "primary_form": "uno",
+      "gloss": "one",
+      "extras": {
+        "note": "Before a masculine noun it's un, before a feminine one una: un libro, una casa.",
+        "example": "Solo tengo uno.",
+        "example_en": "I only have one."
+      },
+      "tags": [
+        "números"
       ]
     },
     {
@@ -3954,6 +4225,25 @@
       ]
     },
     {
+      "kind": "adjective",
+      "id": "barato",
+      "primary_form": "barato",
+      "gloss": "cheap",
+      "extras": {
+        "forms": {
+          "ms": "barato",
+          "fs": "barata",
+          "mp": "baratos",
+          "fp": "baratas"
+        },
+        "example": "La fruta es barata en el mercado.",
+        "example_en": "Fruit is cheap at the market."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
       "kind": "phrase",
       "id": "puede-repetir",
       "primary_form": "¿puede repetir?",
@@ -3983,25 +4273,6 @@
       "tags": [
         "city",
         "masculino"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "caro",
-      "primary_form": "caro",
-      "gloss": "expensive",
-      "extras": {
-        "forms": {
-          "ms": "caro",
-          "fs": "cara",
-          "mp": "caros",
-          "fp": "caras"
-        },
-        "example": "Los restaurantes del centro son muy caros.",
-        "example_en": "The restaurants in the centre are very expensive."
-      },
-      "tags": [
-        "adjetivos"
       ]
     },
     {
@@ -4095,6 +4366,19 @@
       }
     },
     {
+      "kind": "phrase",
+      "id": "dos",
+      "primary_form": "dos",
+      "gloss": "two",
+      "extras": {
+        "example": "Tengo dos gatos.",
+        "example_en": "I have two cats."
+      },
+      "tags": [
+        "números"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "museo",
       "primary_form": "museo",
@@ -4126,6 +4410,26 @@
       ]
     },
     {
+      "kind": "adjective",
+      "id": "espanol",
+      "primary_form": "español",
+      "gloss": "Spanish",
+      "extras": {
+        "forms": {
+          "ms": "español",
+          "fs": "española",
+          "mp": "españoles",
+          "fp": "españolas"
+        },
+        "example": "Mi mujer es española.",
+        "example_en": "My wife is Spanish.",
+        "note": "No capital letter. The language is el español, or el castellano."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "parque",
       "primary_form": "parque",
@@ -4140,25 +4444,6 @@
       "tags": [
         "city",
         "masculino"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "barato",
-      "primary_form": "barato",
-      "gloss": "cheap",
-      "extras": {
-        "forms": {
-          "ms": "barato",
-          "fs": "barata",
-          "mp": "baratos",
-          "fp": "baratas"
-        },
-        "example": "La fruta es barata en el mercado.",
-        "example_en": "Fruit is cheap at the market."
-      },
-      "tags": [
-        "adjetivos"
       ]
     },
     {
@@ -4279,6 +4564,39 @@
       "tags": [
         "city",
         "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tres",
+      "primary_form": "tres",
+      "gloss": "three",
+      "extras": {
+        "example": "Somos tres.",
+        "example_en": "There are three of us."
+      },
+      "tags": [
+        "números"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "rojo",
+      "primary_form": "rojo",
+      "gloss": "red",
+      "extras": {
+        "forms": {
+          "ms": "rojo",
+          "fs": "roja",
+          "mp": "rojos",
+          "fp": "rojas"
+        },
+        "example": "Tengo un coche rojo.",
+        "example_en": "I have a red car."
+      },
+      "tags": [
+        "adjetivos",
+        "colors"
       ]
     },
     {
@@ -4405,26 +4723,6 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "espanol",
-      "primary_form": "español",
-      "gloss": "Spanish",
-      "extras": {
-        "forms": {
-          "ms": "español",
-          "fs": "española",
-          "mp": "españoles",
-          "fp": "españolas"
-        },
-        "example": "Mi mujer es española.",
-        "example_en": "My wife is Spanish.",
-        "note": "No capital letter. The language is el español, or el castellano."
-      },
-      "tags": [
-        "adjetivos"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "mes",
       "primary_form": "mes",
@@ -4439,6 +4737,19 @@
       "tags": [
         "time",
         "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "cuatro",
+      "primary_form": "cuatro",
+      "gloss": "four",
+      "extras": {
+        "example": "La clase empieza a las cuatro.",
+        "example_en": "The class starts at four."
+      },
+      "tags": [
+        "números"
       ]
     },
     {
@@ -4515,6 +4826,26 @@
       }
     },
     {
+      "kind": "adjective",
+      "id": "azul",
+      "primary_form": "azul",
+      "gloss": "blue",
+      "extras": {
+        "forms": {
+          "ms": "azul",
+          "fs": "azul",
+          "mp": "azules",
+          "fp": "azules"
+        },
+        "example": "Tienes unos ojos azules preciosos.",
+        "example_en": "You have beautiful blue eyes."
+      },
+      "tags": [
+        "adjetivos",
+        "colors"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "ano",
       "primary_form": "año",
@@ -4561,26 +4892,6 @@
       "tags": [
         "time",
         "femenino"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "rojo",
-      "primary_form": "rojo",
-      "gloss": "red",
-      "extras": {
-        "forms": {
-          "ms": "rojo",
-          "fs": "roja",
-          "mp": "rojos",
-          "fp": "rojas"
-        },
-        "example": "Tengo un coche rojo.",
-        "example_en": "I have a red car."
-      },
-      "tags": [
-        "adjetivos",
-        "colors"
       ]
     },
     {
@@ -4689,6 +5000,26 @@
       ]
     },
     {
+      "kind": "adjective",
+      "id": "verde",
+      "primary_form": "verde",
+      "gloss": "green",
+      "extras": {
+        "forms": {
+          "ms": "verde",
+          "fs": "verde",
+          "mp": "verdes",
+          "fp": "verdes"
+        },
+        "example": "Las manzanas verdes son mis favoritas.",
+        "example_en": "Green apples are my favourites."
+      },
+      "tags": [
+        "adjetivos",
+        "colors"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "manana",
       "primary_form": "mañana",
@@ -4721,6 +5052,19 @@
       },
       "tags": [
         "conjunciones"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "cinco",
+      "primary_form": "cinco",
+      "gloss": "five",
+      "extras": {
+        "example": "Mi hija tiene cinco años.",
+        "example_en": "My daughter is five."
+      },
+      "tags": [
+        "números"
       ]
     },
     {
@@ -4816,26 +5160,6 @@
       }
     },
     {
-      "kind": "adjective",
-      "id": "azul",
-      "primary_form": "azul",
-      "gloss": "blue",
-      "extras": {
-        "forms": {
-          "ms": "azul",
-          "fs": "azul",
-          "mp": "azules",
-          "fp": "azules"
-        },
-        "example": "Tienes unos ojos azules preciosos.",
-        "example_en": "You have beautiful blue eyes."
-      },
-      "tags": [
-        "adjetivos",
-        "colors"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "lunes",
       "primary_form": "lunes",
@@ -4884,6 +5208,26 @@
       ]
     },
     {
+      "kind": "adjective",
+      "id": "amarillo",
+      "primary_form": "amarillo",
+      "gloss": "yellow",
+      "extras": {
+        "forms": {
+          "ms": "amarillo",
+          "fs": "amarilla",
+          "mp": "amarillos",
+          "fp": "amarillas"
+        },
+        "example": "Me gustan las flores amarillas.",
+        "example_en": "I like yellow flowers."
+      },
+      "tags": [
+        "adjetivos",
+        "colors"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "miercoles",
       "primary_form": "miércoles",
@@ -4898,6 +5242,19 @@
       "tags": [
         "time",
         "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "seis",
+      "primary_form": "seis",
+      "gloss": "six",
+      "extras": {
+        "example": "Hay seis huevos en la nevera.",
+        "example_en": "There are six eggs in the fridge."
+      },
+      "tags": [
+        "números"
       ]
     },
     {
@@ -5004,26 +5361,6 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "verde",
-      "primary_form": "verde",
-      "gloss": "green",
-      "extras": {
-        "forms": {
-          "ms": "verde",
-          "fs": "verde",
-          "mp": "verdes",
-          "fp": "verdes"
-        },
-        "example": "Las manzanas verdes son mis favoritas.",
-        "example_en": "Green apples are my favourites."
-      },
-      "tags": [
-        "adjetivos",
-        "colors"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "viernes",
       "primary_form": "viernes",
@@ -5038,6 +5375,26 @@
       "tags": [
         "time",
         "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "negro",
+      "primary_form": "negro",
+      "gloss": "black",
+      "extras": {
+        "forms": {
+          "ms": "negro",
+          "fs": "negra",
+          "mp": "negros",
+          "fp": "negras"
+        },
+        "example": "Tengo un gato negro.",
+        "example_en": "I have a black cat."
+      },
+      "tags": [
+        "adjetivos",
+        "colors"
       ]
     },
     {
@@ -5147,6 +5504,19 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "siete",
+      "primary_form": "siete",
+      "gloss": "seven",
+      "extras": {
+        "example": "La semana tiene siete días.",
+        "example_en": "A week has seven days."
+      },
+      "tags": [
+        "números"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "domingo",
       "primary_form": "domingo",
@@ -5161,26 +5531,6 @@
       "tags": [
         "time",
         "masculino"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "amarillo",
-      "primary_form": "amarillo",
-      "gloss": "yellow",
-      "extras": {
-        "forms": {
-          "ms": "amarillo",
-          "fs": "amarilla",
-          "mp": "amarillos",
-          "fp": "amarillas"
-        },
-        "example": "Me gustan las flores amarillas.",
-        "example_en": "I like yellow flowers."
-      },
-      "tags": [
-        "adjetivos",
-        "colors"
       ]
     },
     {
@@ -5275,6 +5625,27 @@
       }
     },
     {
+      "kind": "adjective",
+      "id": "blanco",
+      "primary_form": "blanco",
+      "gloss": "white",
+      "extras": {
+        "forms": {
+          "ms": "blanco",
+          "fs": "blanca",
+          "mp": "blancos",
+          "fp": "blancas"
+        },
+        "example": "En Andalucía hay muchos pueblos blancos.",
+        "example_en": "There are lots of white villages in Andalusia.",
+        "note": "Vino blanco is white wine."
+      },
+      "tags": [
+        "adjetivos",
+        "colors"
+      ]
+    },
+    {
       "kind": "phrase",
       "id": "salud",
       "primary_form": "¡salud!",
@@ -5321,6 +5692,19 @@
       "tags": [
         "home",
         "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ocho",
+      "primary_form": "ocho",
+      "gloss": "eight",
+      "extras": {
+        "example": "Trabajo ocho horas al día.",
+        "example_en": "I work eight hours a day."
+      },
+      "tags": [
+        "números"
       ]
     },
     {
@@ -5431,18 +5815,18 @@
     },
     {
       "kind": "adjective",
-      "id": "negro",
-      "primary_form": "negro",
-      "gloss": "black",
+      "id": "gris",
+      "primary_form": "gris",
+      "gloss": "grey",
       "extras": {
         "forms": {
-          "ms": "negro",
-          "fs": "negra",
-          "mp": "negros",
-          "fp": "negras"
+          "ms": "gris",
+          "fs": "gris",
+          "mp": "grises",
+          "fp": "grises"
         },
-        "example": "Tengo un gato negro.",
-        "example_en": "I have a black cat."
+        "example": "Hoy el cielo está gris.",
+        "example_en": "The sky is grey today."
       },
       "tags": [
         "adjetivos",
@@ -5605,20 +5989,33 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "nueve",
+      "primary_form": "nueve",
+      "gloss": "nine",
+      "extras": {
+        "example": "El museo abre a las nueve.",
+        "example_en": "The museum opens at nine."
+      },
+      "tags": [
+        "números"
+      ]
+    },
+    {
       "kind": "adjective",
-      "id": "blanco",
-      "primary_form": "blanco",
-      "gloss": "white",
+      "id": "marron",
+      "primary_form": "marrón",
+      "gloss": "brown",
       "extras": {
         "forms": {
-          "ms": "blanco",
-          "fs": "blanca",
-          "mp": "blancos",
-          "fp": "blancas"
+          "ms": "marrón",
+          "fs": "marrón",
+          "mp": "marrones",
+          "fp": "marrones"
         },
-        "example": "En Andalucía hay muchos pueblos blancos.",
-        "example_en": "There are lots of white villages in Andalusia.",
-        "note": "Vino blanco is white wine."
+        "example": "Tengo los ojos marrones.",
+        "example_en": "I have brown eyes.",
+        "note": "For hair, castaño is more usual: pelo castaño."
       },
       "tags": [
         "adjetivos",
@@ -5765,19 +6162,32 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "diez",
+      "primary_form": "diez",
+      "gloss": "ten",
+      "extras": {
+        "example": "Son diez euros, por favor.",
+        "example_en": "That's ten euros, please."
+      },
+      "tags": [
+        "números"
+      ]
+    },
+    {
       "kind": "adjective",
-      "id": "gris",
-      "primary_form": "gris",
-      "gloss": "grey",
+      "id": "morado",
+      "primary_form": "morado",
+      "gloss": "purple",
       "extras": {
         "forms": {
-          "ms": "gris",
-          "fs": "gris",
-          "mp": "grises",
-          "fp": "grises"
+          "ms": "morado",
+          "fs": "morada",
+          "mp": "morados",
+          "fp": "moradas"
         },
-        "example": "Hoy el cielo está gris.",
-        "example_en": "The sky is grey today."
+        "example": "Las berenjenas son moradas.",
+        "example_en": "Aubergines are purple."
       },
       "tags": [
         "adjetivos",
@@ -5923,17 +6333,21 @@
       "subtitle": "Hello, good morning, thanks, please, sorry"
     },
     {
-      "title": "¿Qué tal?",
+      "title": "Yo, tú y usted",
       "word_ids": [
-        "que-tal",
-        "como-estas",
-        "como-esta-usted",
-        "perdona",
-        "disculpe",
-        "vale"
+        "yo",
+        "tu",
+        "usted",
+        "el",
+        "ella",
+        "nosotros",
+        "vosotros",
+        "ellos",
+        "ellas",
+        "ustedes"
       ],
       "page_id": "es-subject-pronouns",
-      "subtitle": "How are you, excuse me and OK"
+      "subtitle": "I, you, he, she, we, you all and they"
     },
     {
       "title": "Verbos esenciales",
@@ -5964,18 +6378,19 @@
       "subtitle": "To understand, think, start, return, sleep, play"
     },
     {
-      "title": "Poder, decir y salir",
+      "title": "No, nunca y nada",
       "word_ids": [
-        "poder",
-        "saber",
-        "decir",
-        "venir",
-        "poner",
-        "salir",
-        "dar"
+        "no",
+        "nunca",
+        "nada",
+        "nadie",
+        "tampoco",
+        "todavia-no",
+        "no-entiendo",
+        "no-se"
       ],
       "page_id": "es-negation",
-      "subtitle": "Can, know, say, come, put, go out, give"
+      "subtitle": "No, never, nothing, nobody, not yet, I don't know"
     },
     {
       "title": "Preguntas útiles",
@@ -6028,9 +6443,12 @@
         "amarillo",
         "negro",
         "blanco",
-        "gris"
+        "gris",
+        "marron",
+        "morado"
       ],
-      "subtitle": "Red, blue, green, yellow, black, white, grey"
+      "page_id": "es-colors",
+      "subtitle": "Red, blue, green, yellow, black, brown, purple"
     },
     {
       "title": "Cómo es la gente",
@@ -6059,18 +6477,21 @@
       "subtitle": "Hot, cold, easy, hard, expensive and cheap"
     },
     {
-      "title": "La hora y los días",
+      "title": "Del uno al diez",
       "word_ids": [
-        "hora",
-        "minuto",
-        "dia",
-        "lunes",
-        "martes",
-        "miercoles",
-        "jueves"
+        "uno",
+        "dos",
+        "tres",
+        "cuatro",
+        "cinco",
+        "seis",
+        "siete",
+        "ocho",
+        "nueve",
+        "diez"
       ],
       "page_id": "es-numbers",
-      "subtitle": "Hours, minutes, days, Monday to Thursday"
+      "subtitle": "The numbers one to ten"
     },
     {
       "title": "Trabajar y estudiar",
@@ -6137,18 +6558,28 @@
         "hasta-manana",
         "muchas-gracias",
         "de-nada",
-        "lo-siento",
-        "de-acuerdo",
-        "mucho-gusto"
+        "perdona"
       ],
       "subtitle": "Good evening, goodbye, see you, you're welcome"
     },
     {
-      "title": "Frases para salir del paso",
+      "title": "¿Qué tal?",
       "word_ids": [
-        "no-entiendo",
+        "disculpe",
+        "lo-siento",
+        "vale",
+        "de-acuerdo",
+        "que-tal",
+        "como-estas",
+        "como-esta-usted",
+        "mucho-gusto"
+      ],
+      "subtitle": "Excuse me, sorry, OK, how are you, nice to meet you"
+    },
+    {
+      "title": "En el bar",
+      "word_ids": [
         "mas-despacio-por-favor",
-        "no-se",
         "la-cuenta-por-favor",
         "que-aproveche",
         "salud",
@@ -6156,7 +6587,7 @@
         "claro",
         "un-momento"
       ],
-      "subtitle": "I don't understand, slower, the bill, cheers"
+      "subtitle": "Slower please, the bill, cheers, enjoy your meal"
     },
     {
       "title": "Abuelos y primos",
@@ -6264,18 +6695,31 @@
       "subtitle": "Station, market, church, museum, park, hotel"
     },
     {
-      "title": "La semana",
+      "title": "Días, semanas y horas",
       "word_ids": [
+        "dia",
         "semana",
         "mes",
         "ano",
+        "hora",
+        "minuto",
         "manana",
-        "tarde",
+        "tarde"
+      ],
+      "subtitle": "Day, week, month, year, hour, morning, afternoon"
+    },
+    {
+      "title": "Los días de la semana",
+      "word_ids": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
         "viernes",
         "sabado",
         "domingo"
       ],
-      "subtitle": "Week, month, year, morning, Friday to Sunday"
+      "subtitle": "Monday to Sunday"
     },
     {
       "title": "La casa",
@@ -6288,6 +6732,19 @@
         "jardin"
       ],
       "subtitle": "Flat, kitchen, bathroom, room, bed and garden"
+    },
+    {
+      "title": "Poder, decir y salir",
+      "word_ids": [
+        "poder",
+        "decir",
+        "venir",
+        "saber",
+        "poner",
+        "salir",
+        "dar"
+      ],
+      "subtitle": "Can, know, say, come, put, go out, give"
     },
     {
       "title": "Vivir y necesitar",

@@ -3,10 +3,6 @@
   "title": "Hola y gracias",
   "subtitle": "Hello, good morning, thanks, please, sorry"
  },
- "que-tal": {
-  "title": "¿Qué tal?",
-  "subtitle": "How are you, excuse me and OK"
- },
  "ser": {
   "title": "Verbos esenciales",
   "subtitle": "To be, there is, have, do and want"
@@ -33,7 +29,7 @@
  },
  "rojo": {
   "title": "Los colores",
-  "subtitle": "Red, blue, green, yellow, black, white, grey"
+  "subtitle": "Red, blue, green, yellow, black, brown, purple"
  },
  "guapo": {
   "title": "Cómo es la gente",
@@ -42,10 +38,6 @@
  "caliente": {
   "title": "Cómo son las cosas",
   "subtitle": "Hot, cold, easy, hard, expensive and cheap"
- },
- "hora": {
-  "title": "La hora y los días",
-  "subtitle": "Hours, minutes, days, Monday to Thursday"
  },
  "trabajar": {
   "title": "Trabajar y estudiar",
@@ -66,10 +58,6 @@
  "buenas-tardes": {
   "title": "Saludos y despedidas",
   "subtitle": "Good evening, goodbye, see you, you're welcome"
- },
- "no-entiendo": {
-  "title": "Frases para salir del paso",
-  "subtitle": "I don't understand, slower, the bill, cheers"
  },
  "abuelo": {
   "title": "Abuelos y primos",
@@ -103,10 +91,6 @@
   "title": "Lugares públicos",
   "subtitle": "Station, market, church, museum, park, hotel"
  },
- "semana": {
-  "title": "La semana",
-  "subtitle": "Week, month, year, morning, Friday to Sunday"
- },
  "piso": {
   "title": "La casa",
   "subtitle": "Flat, kitchen, bathroom, room, bed and garden"
@@ -114,5 +98,33 @@
  "vivir": {
   "title": "Vivir y necesitar",
   "subtitle": "To live, take, need, open, money, phone, key"
+ },
+ "yo": {
+  "title": "Yo, tú y usted",
+  "subtitle": "I, you, he, she, we, you all and they"
+ },
+ "no": {
+  "title": "No, nunca y nada",
+  "subtitle": "No, never, nothing, nobody, not yet, I don't know"
+ },
+ "uno": {
+  "title": "Del uno al diez",
+  "subtitle": "The numbers one to ten"
+ },
+ "disculpe": {
+  "title": "¿Qué tal?",
+  "subtitle": "Excuse me, sorry, OK, how are you, nice to meet you"
+ },
+ "mas-despacio-por-favor": {
+  "title": "En el bar",
+  "subtitle": "Slower please, the bill, cheers, enjoy your meal"
+ },
+ "dia": {
+  "title": "Días, semanas y horas",
+  "subtitle": "Day, week, month, year, hour, morning, afternoon"
+ },
+ "lunes": {
+  "title": "Los días de la semana",
+  "subtitle": "Monday to Sunday"
  }
 }
