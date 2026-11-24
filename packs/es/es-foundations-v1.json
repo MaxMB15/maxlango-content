@@ -1,0 +1,6306 @@
+{
+  "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
+  "id": "es-foundations-v1",
+  "version": 1,
+  "language": "es",
+  "name": "Español · Fundamentos (A1)",
+  "author": "Max Boksem",
+  "license": "CC-BY-SA-4.0",
+  "profile_delta": [
+    {
+      "id": "pronunciación",
+      "kind": "topic",
+      "label": "Pronunciación",
+      "labelGloss": "pronunciation",
+      "dependsOn": []
+    },
+    {
+      "id": "pronombres",
+      "kind": "topic",
+      "label": "Pronombres",
+      "labelGloss": "pronouns",
+      "dependsOn": [
+        "presente"
+      ]
+    },
+    {
+      "id": "preguntas",
+      "kind": "topic",
+      "label": "Preguntas",
+      "labelGloss": "asking questions",
+      "dependsOn": [
+        "presente"
+      ]
+    },
+    {
+      "id": "números",
+      "kind": "topic",
+      "label": "Números",
+      "labelGloss": "numbers",
+      "dependsOn": []
+    },
+    {
+      "id": "family",
+      "kind": "topic",
+      "label": "Familia",
+      "labelGloss": "family",
+      "dependsOn": [
+        "género"
+      ]
+    },
+    {
+      "id": "body",
+      "kind": "topic",
+      "label": "Cuerpo",
+      "labelGloss": "body",
+      "dependsOn": [
+        "género"
+      ]
+    },
+    {
+      "id": "city",
+      "kind": "topic",
+      "label": "Ciudad",
+      "labelGloss": "city and places",
+      "dependsOn": [
+        "género"
+      ]
+    },
+    {
+      "id": "greetings",
+      "kind": "topic",
+      "label": "Saludos",
+      "labelGloss": "greetings and politeness",
+      "dependsOn": []
+    },
+    {
+      "id": "colors",
+      "kind": "topic",
+      "label": "Colores",
+      "labelGloss": "colours",
+      "dependsOn": [
+        "adjetivos"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "misc",
+      "id": "es-pronunciation",
+      "title": "Reading Spanish aloud",
+      "body_md": "Spanish is spelled the way it sounds. Learn a handful of rules and you can read any word aloud, even one you've never seen.\n\n## Five pure vowels\n\nSpanish has five vowel sounds, always short and clear. They never glide the way English \"o\" does in \"go\", and an unstressed vowel keeps its full sound.\n\n| Letter | Sound | Example |\n| --- | --- | --- |\n| a | \"ah\", as in *father* | *[casa](lango:say)* |\n| e | \"eh\", as in *bed* | *[mesa](lango:say)* |\n| i | \"ee\", as in *see* | *[libro](lango:say)* |\n| o | \"oh\", short | *[ojo](lango:say)* |\n| u | \"oo\", as in *food* | *[uno](lango:say)* |\n\n*[Chocolate](lango:say)* has four clear vowels: cho-co-la-te.\n\n## Consonants that differ from English\n\n- **h** is always silent: *[hola](lango:say)*, *[hermano](lango:say)*, *[ahora](lango:say)*.\n- **j**, and **g** before e or i, is a rasp in the throat, like the *ch* in Scottish *loch*: *[rojo](lango:say)*, *[gente](lango:say)*.\n- **g** before a, o or u is hard, as in *go*: *[gato](lango:say)*. To keep it hard before e or i, Spanish writes **gu**, and the u is silent: *[guitarra](lango:say)*.\n- **c** before a, o or u, and **qu** before e or i, is a plain k: *[casa](lango:say)*, *[queso](lango:say)*, *[aquí](lango:say)*.\n- **c** before e or i, and **z** everywhere, is the *th* of *think* in most of Spain: *[cerveza](lango:say)*, *[cine](lango:say)*. In Latin America, the Canary Islands and much of Andalusia it's an s. Both are correct.\n- **ll** and **y** sound like the *y* in *yes* for most speakers: *[llave](lango:say)*, *[calle](lango:say)*, *[yo](lango:say)*. In Argentina and Uruguay they sound closer to *sh*.\n- **ñ** is the *ny* in *canyon*: *[España](lango:say)*, *[mañana](lango:say)*.\n- **r** between vowels is one quick tap of the tongue, like the *tt* in American *butter*. **rr**, and an r at the start of a word, is rolled: *[pero](lango:say)* (but) and *[perro](lango:say)* (dog) are different words.\n- **b** and **v** are the same sound: *[vino](lango:say)* and *[bien](lango:say)* start alike.\n- **d** between vowels is soft, like the *th* in *this*, and almost disappears at the end of a word: *[nada](lango:say)*, *[Madrid](lango:say)*.\n\n## Which syllable is stressed\n\nThree rules cover every word:\n\n1. A word ending in a vowel, **-n** or **-s** stresses the second-to-last syllable: *[casa](lango:say)*, *[hablan](lango:say)*, *[lunes](lango:say)*.\n2. A word ending in any other consonant stresses the last syllable: *[hablar](lango:say)*, *[ciudad](lango:say)*, *[español](lango:say)*.\n3. A written accent breaks the rules and marks the stress: *[café](lango:say)*, *[árbol](lango:say)*, *[música](lango:say)*, *[canción](lango:say)*.\n\nSo a written accent is never decoration. *[Papá](lango:say)* (dad) and *[papa](lango:say)* (potato) differ only in their stress.\n\n## Accents that tell twins apart\n\nA few short words carry an accent only to tell them from a twin that sounds the same:\n\n| With an accent | Without |\n| --- | --- |\n| tú (you) | tu (your) |\n| él (he) | el (the) |\n| sí (yes) | si (if) |\n| mí (me) | mi (my) |\n| sé (I know) | se (oneself) |\n| té (tea) | te (you, to you) |\n\nQuestion words always take one: *qué*, *cómo*, *dónde*, *cuándo*.\n\n## Upside-down marks\n\nA question opens with **¿** and an exclamation with **¡**, so you know the tone before you read it: *¿Hablas español?* *¡Qué bonito!*",
+      "extras": {
+        "unlocks": [
+          "concept:es-pronunciation"
+        ],
+        "explains": [
+          "pronunciación"
+        ]
+      },
+      "tags": [
+        "pronunciación"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-subject-pronouns",
+      "title": "Yo, tú, usted and vosotros",
+      "body_md": "Spanish has four words for \"you\". Which one you pick depends on how many people you're talking to, how well you know them, and which side of the Atlantic you're on.\n\n| Person | Pronoun | English |\n| --- | --- | --- |\n| 1st singular | yo | I |\n| 2nd singular | tú | you (one person, familiar) |\n| | usted | you (one person, polite) |\n| 3rd singular | él / ella | he / she |\n| 1st plural | nosotros / nosotras | we |\n| 2nd plural | vosotros / vosotras | you (several, familiar, Spain only) |\n| | ustedes | you (several, polite; any group in Latin America) |\n| 3rd plural | ellos / ellas | they |\n\n## Usually left out\n\nThe verb ending already says who is doing it, so Spanish drops the pronoun most of the time: *Hablo español*, not *yo hablo español*. Put it in to stress or contrast: *Yo trabajo y tú descansas.* (I work and you rest.)\n\n\"It\" as a subject has no word at all: *Es tarde* (It's late), *Llueve* (It's raining).\n\n## Tú or usted?\n\n**Usted** takes the verb form of *él* and *ella*: *¿Cómo está usted?* It comes from an old title, *vuestra merced* (your grace), which is why it's written *Ud.* in short.\n\nSpain uses *tú* widely: with friends, colleagues, people of your own age and often shop staff. Keep *usted* for older people, officials and formal settings. When in doubt, start with *usted* and let the other person offer *tú*: *Puedes tutearme* (You can call me tú).\n\n## Vosotros or ustedes?\n\nIn Spain, **vosotros** is a group of people you'd each call *tú*, and **ustedes** a group you'd each call *usted*. In Latin America *vosotros* isn't used: *ustedes* is for any group, friends and children included. *Ustedes* takes the verb form of *ellos*: *¿Ustedes son de aquí?*\n\n## Vos\n\nIn Argentina, Uruguay and much of Central America, **vos** replaces *tú* and has its own verb forms: *vos hablás*, *vos tenés*, *vos sos*. You'll hear it in films and songs. This course teaches the *tú* forms of Spain, which every Spanish speaker understands.\n\n## Women only\n\n*Nosotras*, *vosotras* and *ellas* are for groups made up only of women. A group with even one man in it takes the masculine: Ana and Pedro are *ellos*.\n\n:::examples\n- Somos de Valencia. — We're from Valencia.\n- ¿Usted es el señor García? — Are you Mr García?\n- ¿Vosotros venís a la fiesta? — Are you all coming to the party?\n- Ellas viven en Bilbao. — They live in Bilbao.\n:::\n\n:::sort{groups=\"Tú (a friend): perdona, ¿cómo estás?, ¿de dónde eres? | Usted (a stranger): disculpe, ¿cómo está usted?, ¿puede repetir?\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-subject-pronouns"
+        ],
+        "explains": [
+          "pronombres"
+        ]
+      },
+      "tags": [
+        "pronombres"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-ser-estar",
+      "title": "Ser, estar and hay",
+      "body_md": "English has one verb \"to be\". Spanish has two, **ser** and **estar**, and choosing between them is the first big decision a learner makes.\n\n| | ser | estar |\n| --- | --- | --- |\n| yo | soy | estoy |\n| tú | eres | estás |\n| él, ella, usted | es | está |\n| nosotros | somos | estamos |\n| vosotros | sois | estáis |\n| ellos, ellas, ustedes | son | están |\n\n## Ser: what something is\n\nUse **ser** for identity, origin, jobs, nationality, character, what something is made of, the time and the date:\n\n- *Soy Ana. Soy de Sevilla.* (I'm Ana. I'm from Seville.)\n- *Es enfermera.* (She's a nurse.) No *una* before the job.\n- *Mi hermano es muy simpático.* (My brother is very nice.)\n- *Son las tres. Hoy es lunes.* (It's three o'clock. Today is Monday.)\n\n## Estar: where and how something is\n\nUse **estar** for where people and things are, and for states that can change, such as moods, health and how food tastes today:\n\n- *Madrid está en el centro de España.* (Madrid is in the centre of Spain.)\n- *Estoy cansado. ¿Cómo estás?* (I'm tired. How are you?)\n- *La sopa está fría.* (The soup is cold.)\n\nPlace always takes *estar*, even for a city that won't move. The one exception is an event: *La fiesta es en mi casa* (The party is at my place), because an event \"takes place\".\n\n## One adjective, two meanings\n\nThe verb can change what an adjective means: *Juan es aburrido* (Juan is boring), but *Juan está aburrido* (Juan is bored). The B1 pack has more of these pairs.\n\n## Hay: there is, there are\n\n**Hay**, a form of *haber*, says that something exists. It has one form for singular and plural:\n\n- *Hay un banco en la plaza.* (There's a bank in the square.)\n- *Hay dos hoteles cerca.* (There are two hotels nearby.)\n\n*Hay* goes with *un*, *una*, a number or no article. Once you say *el* or *la*, you're asking where a known thing is, and that takes *estar*: *¿Hay una farmacia por aquí?* (Is there a pharmacy around here?), but *¿Dónde está la farmacia?* (Where's the pharmacy?)\n\n## Tener where English says \"be\"\n\nAge, hunger, thirst, heat and cold take **tener** (to have): *Tengo veinte años* (I'm twenty), *Tengo hambre* (I'm hungry), *Tengo frío* (I'm cold).\n\n:::examples\n- Soy de Valencia, pero vivo en Madrid. — I'm from Valencia, but I live in Madrid.\n- La farmacia está al lado del banco. — The pharmacy is next to the bank.\n- Hay dos camas en la habitación. — There are two beds in the room.\n- Estamos muy contentos con el piso. — We're very happy with the flat.\n:::\n\n:::cloze{sentence=\"Mis padres ___ en Málaga de vacaciones.\" blank=\"están\"}\n:::\n\n:::cloze{sentence=\"Mi madre ___ profesora de inglés.\" blank=\"es\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-ser-estar"
+        ]
+      },
+      "tags": [
+        "presente"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-present-tense",
+      "title": "The present: -ar, -er and -ir",
+      "body_md": "Every Spanish infinitive ends in **-ar**, **-er** or **-ir**. Take off those two letters and add the ending for the person.\n\n| | hablar | comer | vivir |\n| --- | --- | --- | --- |\n| yo | hablo | como | vivo |\n| tú | hablas | comes | vives |\n| él, ella, usted | habla | come | vive |\n| nosotros | hablamos | comemos | vivimos |\n| vosotros | habláis | coméis | vivís |\n| ellos, ellas, ustedes | hablan | comen | viven |\n\n*-Er* and *-ir* verbs share every ending except the nosotros and vosotros forms.\n\n:::examples\n- Vivo en un piso pequeño en el centro. — I live in a small flat in the centre.\n- ¿Trabajas los sábados? — Do you work on Saturdays?\n- Mis hijos juegan en el parque. — My children are playing in the park.\n- Empezamos a las nueve. — We start at nine.\n:::\n\n## Stem-changing verbs\n\nIn many common verbs the last vowel of the stem changes when the stress falls on it. That's every form except nosotros and vosotros, so the verb makes a \"boot\" shape in the table.\n\n| Change | Verb | Forms |\n| --- | --- | --- |\n| e → ie | querer | quiero, quieres, quiere, queremos, queréis, quieren |\n| o → ue | poder | puedo, puedes, puede, podemos, podéis, pueden |\n| e → i | pedir | pido, pides, pide, pedimos, pedís, piden |\n| u → ue | jugar | juego, juegas, juega, jugamos, jugáis, juegan |\n\nYou can't tell from the infinitive. Dictionaries mark these verbs: *pensar (ie)*, *empezar (ie)*, *entender (ie)*, *volver (ue)*, *dormir (ue)*, *pedir (i)*. *Jugar* is the only u → ue verb.\n\n## Irregular yo forms\n\nSome verbs are regular except in the yo form:\n\n| Verb | yo | Verb | yo |\n| --- | --- | --- | --- |\n| hacer | hago | poner | pongo |\n| salir | salgo | conocer | conozco |\n| saber | sé | dar | doy |\n| ver | veo | traer | traigo |\n\n*Tener*, *venir* and *decir* add a stem change on top: *tengo, tienes*; *vengo, vienes*; *digo, dices*.\n\n## One tense for three English ones\n\n*Como* is \"I eat\", \"I'm eating\" and \"I do eat\". Spanish also uses the present for plans: *Mañana trabajo* (I'm working tomorrow). And where English asks \"Shall I...?\", Spanish asks in the present: *¿Abro la ventana?* (Shall I open the window?)\n\n:::predict{prompt=\"nosotros (escribir)\" answer=\"escribimos\"}\n:::\n\n:::predict{prompt=\"ellos (dormir)\" answer=\"duermen\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-present-tense"
+        ],
+        "explains": [
+          "presente"
+        ]
+      },
+      "tags": [
+        "presente"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-negation",
+      "title": "Saying no: no, nunca and nada",
+      "body_md": "To make a sentence negative, put **no** straight before the verb. There's no helper verb like English \"don't\".\n\n:::examples\n- No hablo alemán. — I don't speak German.\n- No tengo nada en la nevera. — There's nothing in my fridge.\n- Nunca comemos en casa los domingos. — We never eat at home on Sundays.\n- Aquí no hay nadie. — There's nobody here.\n:::\n\nIf the verb has object pronouns in front of it, *no* goes before them: *No lo sé* (I don't know).\n\n## Other negative words\n\n| Spanish | English | Example |\n| --- | --- | --- |\n| nunca | never | Nunca bebo café. |\n| nada | nothing | No veo nada. |\n| nadie | nobody | No viene nadie. |\n| tampoco | not ... either | Yo tampoco. |\n| ningún, ninguna | no, not a single | No tengo ningún problema. |\n| ni ... ni | neither ... nor | No como ni carne ni pescado. |\n\n## Double negatives are correct\n\nIn Spanish, two negatives don't cancel out. When the negative word comes after the verb, *no* must still come before it: *No veo nada* (literally \"I don't see nothing\"). When the negative word comes first, drop the *no*: *Nadie viene*, *Nunca bebo café*.\n\n## Answering a question\n\nA short answer often says *no* twice. The first answers the question; the second negates the verb: *—¿Tienes coche? —No, no tengo.* To refuse politely, say *No, gracias*.\n\n:::cloze{sentence=\"No conozco a ___ en esta ciudad.\" blank=\"nadie\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-negation"
+        ],
+        "explains": [
+          "negación"
+        ]
+      },
+      "tags": [
+        "negación"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-questions",
+      "title": "Asking questions",
+      "body_md": "A written question opens with **¿** and closes with **?**. The marks sit around the question itself, which may be only part of the sentence: *Y tú, ¿de dónde eres?*\n\n## Yes-or-no questions\n\nThe easiest way is to say a statement with your voice rising at the end: *¿Hablas inglés?* (Do you speak English?) You can also put the subject after the verb: *¿Habla usted inglés?*, *¿Viene tu hermano?* Spanish has no helper like English \"do\".\n\n## Question words\n\nEvery question word carries a written accent.\n\n| Spanish | English |\n| --- | --- |\n| qué | what |\n| quién, quiénes | who |\n| dónde | where |\n| adónde | where to |\n| cuándo | when |\n| cómo | how |\n| cuánto, cuánta | how much |\n| cuántos, cuántas | how many |\n| cuál, cuáles | which, what |\n| por qué | why |\n\nThe question word comes first, then the verb, then the subject: *¿Dónde vive tu hermana?* (Where does your sister live?)\n\nA preposition goes before the question word, never at the end as in English: *¿Con quién vives?* (Who do you live with?), *¿De dónde eres?* (Where are you from?)\n\n*Cuánto* agrees with the noun it counts: *¿Cuántas hermanas tienes?*\n\n## Qué or cuál?\n\nBoth can mean \"what\". Before a noun, use **qué**: *¿Qué libro lees?* Before *ser*, **cuál** asks you to pick one answer from many: *¿Cuál es tu número de teléfono?* *¿Qué es...?* asks for a definition: *¿Qué es el gazpacho?* (What is gazpacho?)\n\n## The accent stays in a hidden question\n\nA question inside a statement keeps its accent: *No sé dónde vive* (I don't know where she lives). Without the accent the same words are connectors: *donde* (where, in a place), *cuando* (when), *como* (as, like), *que* (that), *porque* (because).\n\n:::examples\n- ¿Dónde está la estación? — Where's the station?\n- ¿Cuántos años tienes? — How old are you?\n- ¿Con quién vives? — Who do you live with?\n- ¿Cuál es tu película favorita? — What's your favourite film?\n:::\n\n:::cloze{sentence=\"¿___ es tu cumpleaños? —El 3 de mayo.\" blank=\"Cuándo\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-questions"
+        ],
+        "explains": [
+          "preguntas"
+        ]
+      },
+      "tags": [
+        "preguntas"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-gustar",
+      "title": "Me gusta: liking things",
+      "body_md": "Spanish doesn't say \"I like coffee\". It says \"coffee pleases me\": *Me gusta el café*. The thing you like is the subject of the verb, and the person who likes it is an indirect object pronoun.\n\n| Spanish | English |\n| --- | --- |\n| me gusta | I like |\n| te gusta | you like |\n| le gusta | he, she likes; you (usted) like |\n| nos gusta | we like |\n| os gusta | you (vosotros) like |\n| les gusta | they like; you (ustedes) like |\n\n## Gusta or gustan?\n\nThe verb agrees with the thing liked, not with the person:\n\n- *Me gusta el chocolate.* One thing: *gusta*.\n- *Me gustan las fresas.* Several things: *gustan*.\n- *Me gusta bailar.* An activity is always singular, even two of them: *Me gusta leer y cocinar.*\n\nThe thing liked takes an article where English has none: *Me gusta el café*, never *me gusta café*.\n\n## A mí, a ti, a Juan\n\nTo stress the person, or to say who *le* and *les* are, add *a* + a pronoun or a name: *A mí me gusta, ¿y a ti?* With a name the *le* stays: *A Juan le gusta el fútbol.* That's how you agree or disagree in a reply: *—Me gusta el jazz. —A mí también.* or *—A mí no.*\n\n## Other verbs that work the same way\n\n- **encantar**, to love (a thing): *Me encanta Madrid.*\n- **interesar**, to interest: *¿Te interesa la historia?*\n- **doler**, to hurt: *Me duelen los pies.* (My feet hurt.)\n- **apetecer**, to feel like (Spain): *¿Te apetece un café?*\n\n## Careful with people\n\n*Me gustas* means \"I fancy you\". For family and friends, say *te quiero* (I love you) or *me cae bien* (I like him, her).\n\n:::examples\n- Me gusta mucho el pescado. — I really like fish.\n- ¿Te gustan los perros? — Do you like dogs?\n- A mi madre le encanta bailar. — My mother loves dancing.\n:::\n\n:::cloze{sentence=\"A mis hijos no les ___ las verduras.\" blank=\"gustan\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-gustar"
+        ]
+      },
+      "tags": [
+        "presente"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-adjectives",
+      "title": "Adjectives agree",
+      "body_md": "A Spanish adjective matches its noun in gender and number, and it usually comes after the noun: *un coche rojo*, *una casa blanca*, *unos zapatos negros*.\n\n| Ending | masculine | feminine |\n| --- | --- | --- |\n| -o | alto, altos | alta, altas |\n| -e | grande, grandes | grande, grandes |\n| consonant | azul, azules; fácil, fáciles | the same |\n| nationality | español, españoles | española, españolas |\n\nNationality adjectives that end in a consonant add **-a** for the feminine: *inglés, inglesa*; *alemán, alemana*. Like days and months, they take no capital letter.\n\nA group of mixed gender takes the masculine plural: *Juan y María son altos.*\n\n## Before the noun\n\nA few short, common adjectives can come before the noun, and some change there:\n\n- **bueno** and **malo** drop their -o before a masculine singular noun: *un buen día*, *un mal momento*, but *una buena idea*.\n- **grande** becomes **gran** before any singular noun and then means \"great\": *un gran amigo*, *una gran ciudad*. After the noun it means \"big\": *una ciudad grande*.\n\n## Muy and mucho\n\n**Muy** (very) goes before an adjective and never changes: *muy alta*, *muy caros*. **Mucho** (a lot of, many) goes with a noun and agrees: *mucha gente*, *muchos libros*.\n\n:::examples\n- Tengo un perro negro y una gata blanca. — I have a black dog and a white cat.\n- Las manzanas son muy baratas aquí. — Apples are very cheap here.\n- Es un buen restaurante. — It's a good restaurant.\n- Mis abuelos son muy simpáticos. — My grandparents are very nice.\n:::\n\n:::cloze{sentence=\"Mis hermanas son muy ___.\" blank=\"altas\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-adjectives"
+        ],
+        "explains": [
+          "adjetivos"
+        ]
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-numbers",
+      "title": "Numbers, the time and the date",
+      "body_md": "## 0 to 29\n\n| | | | |\n| --- | --- | --- | --- |\n| 0 cero | 1 uno | 2 dos | 3 tres |\n| 4 cuatro | 5 cinco | 6 seis | 7 siete |\n| 8 ocho | 9 nueve | 10 diez | 11 once |\n| 12 doce | 13 trece | 14 catorce | 15 quince |\n| 16 dieciséis | 17 diecisiete | 18 dieciocho | 19 diecinueve |\n| 20 veinte | 21 veintiuno | 22 veintidós | 26 veintiséis |\n\nFrom 16 to 29 the numbers are written as one word.\n\n## 30 and up\n\nFrom 31, tens and units are joined by **y**: *treinta y uno*, *cuarenta y dos*, *noventa y nueve*. The tens are *treinta*, *cuarenta*, *cincuenta*, *sesenta*, *setenta*, *ochenta*, *noventa*.\n\n**Cien** is exactly 100; above it, **ciento**: *ciento veinte*. The hundreds agree with the noun: *doscientos euros*, *doscientas personas*. Three are irregular: *quinientos* (500), *setecientos* (700), *novecientos* (900). **Mil** is 1,000 and never takes *un*: *mil euros*, *dos mil*.\n\n**Uno** becomes **un** before a masculine noun and **una** before a feminine one: *un libro*, *veintiún años*, *una casa*.\n\nSpain writes a decimal comma and a thousands point: *3,5* is three and a half, *1.500* is fifteen hundred.\n\n## Telling the time\n\n*¿Qué hora es?* (What time is it?) One o'clock is singular, every other hour plural:\n\n- *Es la una.* (It's one o'clock.)\n- *Son las dos.* (It's two o'clock.)\n- *Son las tres y cuarto.* (It's quarter past three.)\n- *Son las cinco menos cuarto.* (It's quarter to five.)\n- *Son las siete y veinte.* (It's twenty past seven.)\n\n\"At\" is **a**: *a las nueve*. Add *de la mañana*, *de la tarde* or *de la noche* for a.m. and p.m. Timetables use the 24-hour clock: *a las 21:15*.\n\n## Days, months and dates\n\nDays and months take no capital letter. Before a day, use *el* instead of \"on\": *el lunes* (on Monday), *los lunes* (on Mondays).\n\nThe months are *enero*, *febrero*, *marzo*, *abril*, *mayo*, *junio*, *julio*, *agosto*, *septiembre*, *octubre*, *noviembre* and *diciembre*. A date is *el* + number + *de* + month: *el 5 de mayo*. For the first of the month, Spain says *el uno*, and Latin America *el primero*.\n\n:::examples\n- Tengo veintiún años. — I'm twenty-one.\n- El tren sale a las nueve y media. — The train leaves at half past nine.\n- Mi cumpleaños es el 12 de octubre. — My birthday is on the 12th of October.\n:::\n\n:::cloze{sentence=\"La película empieza a las diez y ___, a las 22:30.\" blank=\"media\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-numbers"
+        ],
+        "explains": [
+          "números"
+        ]
+      },
+      "tags": [
+        "números"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-ir-a",
+      "title": "Ir a: the near future",
+      "body_md": "The easiest way to talk about the future is **ir a** + infinitive, just like English \"going to\".\n\n| | ir | + a + infinitive |\n| --- | --- | --- |\n| yo | voy | a comer |\n| tú | vas | a salir |\n| él, ella, usted | va | a llover |\n| nosotros | vamos | a ver |\n| vosotros | vais | a jugar |\n| ellos, ellas, ustedes | van | a estudiar |\n\n*Voy a estudiar* (I'm going to study) is the everyday future in speech, on both sides of the Atlantic. The future tense proper comes in the A2 pack.\n\n*Vamos a* also means \"let's\": *¡Vamos a comer!* (Let's eat!)\n\n## More verbs that take an infinitive\n\n| Spanish | English | Example |\n| --- | --- | --- |\n| tener que | to have to | Tengo que trabajar mañana. |\n| hay que | one has to, you need to | Hay que comprar pan. |\n| querer | to want to | Quiero aprender a nadar. |\n| poder | can | ¿Puedes venir? |\n| acabar de | to have just | Acabo de llegar. |\n| empezar a | to start to | Empieza a llover. |\n| volver a | to do again | Vuelvo a llamar. |\n\n*Hay que* has no person: it says what needs doing, by anyone.\n\n## Time words for the future\n\n*Mañana* (tomorrow), *pasado mañana* (the day after tomorrow), *esta tarde* (this afternoon), *esta noche* (tonight), *el lunes* (on Monday), *la semana que viene* (next week), *el año que viene* (next year).\n\n:::examples\n- Voy a llamar a mi madre esta tarde. — I'm going to call my mother this afternoon.\n- ¿Qué vais a hacer el sábado? — What are you all going to do on Saturday?\n- Tengo que trabajar mañana. — I have to work tomorrow.\n- Acabo de llegar a casa. — I've just got home.\n:::\n\n:::cloze{sentence=\"Esta noche ___ a cenar en casa de mis abuelos.\" blank=\"vamos\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-ir-a"
+        ]
+      },
+      "tags": [
+        "presente"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-possessives",
+      "title": "Mi, tu, su; este, ese, aquel",
+      "body_md": "## Possessives\n\n| Owner | one thing | several things |\n| --- | --- | --- |\n| yo | mi | mis |\n| tú | tu | tus |\n| él, ella, usted | su | sus |\n| nosotros | nuestro, nuestra | nuestros, nuestras |\n| vosotros | vuestro, vuestra | vuestros, vuestras |\n| ellos, ellas, ustedes | su | sus |\n\nA possessive agrees with the thing owned, never with the owner: a woman's son is *su hijo*, and a man's house is *su casa*. Only *nuestro* and *vuestro* have a feminine form: *nuestra casa*, *nuestros hijos*.\n\n**Su** can mean his, her, its, your (usted) or their. When that's unclear, say *de* + the person: *la casa de ella*, *el coche de usted*.\n\nSpanish has no 's. Use *de*: *el coche de Pedro* (Pedro's car), *la madre de mi novio* (my boyfriend's mother).\n\nAfter *ser*, or after a noun, the long forms take over: *mío*, *tuyo*, *suyo*, *nuestro*, *vuestro*, *suyo*, each with -a, -os and -as. *¿Es tuyo?* (Is it yours?), *un amigo mío* (a friend of mine).\n\nFor parts of the body and clothes, Spanish uses *el* or *la* where English says \"my\": *Abre los ojos* (Open your eyes).\n\n## This, that and that over there\n\nSpanish has three distances: near me, near you, and away from both of us.\n\n| | near me | near you | over there |\n| --- | --- | --- | --- |\n| masculine | este | ese | aquel |\n| feminine | esta | esa | aquella |\n| masculine plural | estos | esos | aquellos |\n| feminine plural | estas | esas | aquellas |\n\nFor something unknown, or an idea, use the neuter forms **esto**, **eso** and **aquello**: *¿Qué es esto?* (What's this?), *Eso es verdad* (That's true).\n\n:::examples\n- Mi hermana vive con su novio. — My sister lives with her boyfriend.\n- ¿Es este tu móvil? — Is this your phone?\n- Aquella casa es de mis tíos. — That house over there belongs to my aunt and uncle.\n:::\n\n:::cloze{sentence=\"Nosotros vivimos con ___ abuela.\" blank=\"nuestra\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-possessives"
+        ]
+      },
+      "tags": [
+        "artículos"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-personal-a",
+      "title": "The personal a",
+      "body_md": "When the direct object of a verb is a particular person, Spanish puts **a** in front of it. English has nothing like it, so it's easy to forget.\n\n- *Veo a María.* (I see María.) But *Veo la casa.* (I see the house.)\n- *Busco a mi hermano.* (I'm looking for my brother.) But *Busco mi móvil.*\n- *Quiero mucho a mi perro.* Pets count as people.\n\nThere is no personal *a* when the person isn't anyone in particular, or after *tener*: *Necesito un médico* (I need a doctor, any doctor), *Tengo dos hermanos*.\n\n*Nadie* and *alguien* take it too: *¿Conoces a alguien aquí?* (Do you know anyone here?)\n\n## Al and del\n\n**A** + **el** becomes **al**, and **de** + **el** becomes **del**: *Llamo al médico* (I'm calling the doctor), *Vengo del mercado* (I'm coming from the market).\n\n## Conocer or saber?\n\nBoth mean \"to know\", and both are common.\n\n- **Conocer** is knowing a person or a place, being familiar with it: *Conozco a Juan*, *¿Conoces Sevilla?* It takes the personal *a* before a person.\n- **Saber** is knowing a fact, or knowing how to do something: *Sé dónde vive*, *¿Sabes nadar?* (Can you swim?)\n\n:::examples\n- Llamo a mi madre todos los domingos. — I call my mother every Sunday.\n- ¿Conoces a mis padres? — Have you met my parents?\n- No sé dónde están las llaves. — I don't know where the keys are.\n:::\n\n:::cloze{sentence=\"Esta tarde visito ___ mis abuelos.\" blank=\"a\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-personal-a"
+        ]
+      },
+      "tags": [
+        "artículos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "padre",
+      "primary_form": "padre",
+      "gloss": "father",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "padres",
+        "example": "Mi padre trabaja en un banco.",
+        "example_en": "My father works in a bank.",
+        "note": "Los padres means \"the parents\"."
+      },
+      "tags": [
+        "family",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "hola",
+      "primary_form": "hola",
+      "gloss": "hello, hi",
+      "extras": {
+        "example": "¡Hola, Marta! ¿Qué tal todo?",
+        "example_en": "Hi, Marta! How's everything?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "ser",
+      "primary_form": "ser",
+      "gloss": "to be (what something is)",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "sido",
+        "example": "Soy de Madrid, pero vivo en Londres.",
+        "example_en": "I'm from Madrid, but I live in London.",
+        "note": "For identity, origin, jobs, character and the time."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "soy",
+          "2s": "eres",
+          "3s": "es",
+          "1p": "somos",
+          "2p": "sois",
+          "3p": "son"
+        },
+        "pretérito-perfecto": {
+          "1s": "he sido",
+          "2s": "has sido",
+          "3s": "ha sido",
+          "1p": "hemos sido",
+          "2p": "habéis sido",
+          "3p": "han sido"
+        },
+        "pretérito-indefinido": {
+          "1s": "fui",
+          "2s": "fuiste",
+          "3s": "fue",
+          "1p": "fuimos",
+          "2p": "fuisteis",
+          "3p": "fueron"
+        },
+        "imperfecto": {
+          "1s": "era",
+          "2s": "eras",
+          "3s": "era",
+          "1p": "éramos",
+          "2p": "erais",
+          "3p": "eran"
+        },
+        "futuro": {
+          "1s": "seré",
+          "2s": "serás",
+          "3s": "será",
+          "1p": "seremos",
+          "2p": "seréis",
+          "3p": "serán"
+        },
+        "condicional": {
+          "1s": "sería",
+          "2s": "serías",
+          "3s": "sería",
+          "1p": "seríamos",
+          "2p": "seríais",
+          "3p": "serían"
+        },
+        "subjuntivo": {
+          "1s": "sea",
+          "2s": "seas",
+          "3s": "sea",
+          "1p": "seamos",
+          "2p": "seáis",
+          "3p": "sean"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "madre",
+      "primary_form": "madre",
+      "gloss": "mother",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "madres",
+        "example": "Mi madre cocina muy bien.",
+        "example_en": "My mother is a very good cook."
+      },
+      "tags": [
+        "family",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "grande",
+      "primary_form": "grande",
+      "gloss": "big, large; great",
+      "extras": {
+        "forms": {
+          "ms": "grande",
+          "fs": "grande",
+          "mp": "grandes",
+          "fp": "grandes"
+        },
+        "example": "Viven en una casa muy grande.",
+        "example_en": "They live in a very big house.",
+        "note": "Before a singular noun it becomes gran and means \"great\": un gran amigo."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "hermano",
+      "primary_form": "hermano",
+      "gloss": "brother",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "hermanos",
+        "example": "Mi hermano tiene diez años.",
+        "example_en": "My brother is ten.",
+        "note": "Los hermanos can mean brothers and sisters."
+      },
+      "tags": [
+        "family",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "hermana",
+      "primary_form": "hermana",
+      "gloss": "sister",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "hermanas",
+        "example": "Mi hermana vive en Barcelona.",
+        "example_en": "My sister lives in Barcelona."
+      },
+      "tags": [
+        "family",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "buenos-dias",
+      "primary_form": "buenos días",
+      "gloss": "good morning",
+      "extras": {
+        "literal": "good days",
+        "note": "Used until lunch, which in Spain is around two.",
+        "example": "Buenos días, ¿tiene pan de hoy?",
+        "example_en": "Good morning, do you have today's bread?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "estar",
+      "primary_form": "estar",
+      "gloss": "to be (where or how something is)",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "estado",
+        "example": "¿Dónde estás? Estoy en casa.",
+        "example_en": "Where are you? I'm at home.",
+        "note": "For place, and for states that can change."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "estoy",
+          "2s": "estás",
+          "3s": "está",
+          "1p": "estamos",
+          "2p": "estáis",
+          "3p": "están"
+        },
+        "pretérito-perfecto": {
+          "1s": "he estado",
+          "2s": "has estado",
+          "3s": "ha estado",
+          "1p": "hemos estado",
+          "2p": "habéis estado",
+          "3p": "han estado"
+        },
+        "pretérito-indefinido": {
+          "1s": "estuve",
+          "2s": "estuviste",
+          "3s": "estuvo",
+          "1p": "estuvimos",
+          "2p": "estuvisteis",
+          "3p": "estuvieron"
+        },
+        "imperfecto": {
+          "1s": "estaba",
+          "2s": "estabas",
+          "3s": "estaba",
+          "1p": "estábamos",
+          "2p": "estabais",
+          "3p": "estaban"
+        },
+        "futuro": {
+          "1s": "estaré",
+          "2s": "estarás",
+          "3s": "estará",
+          "1p": "estaremos",
+          "2p": "estaréis",
+          "3p": "estarán"
+        },
+        "condicional": {
+          "1s": "estaría",
+          "2s": "estarías",
+          "3s": "estaría",
+          "1p": "estaríamos",
+          "2p": "estaríais",
+          "3p": "estarían"
+        },
+        "subjuntivo": {
+          "1s": "esté",
+          "2s": "estés",
+          "3s": "esté",
+          "1p": "estemos",
+          "2p": "estéis",
+          "3p": "estén"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "hijo",
+      "primary_form": "hijo",
+      "gloss": "son",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "hijos",
+        "example": "Su hijo estudia en Granada.",
+        "example_en": "Her son is a student in Granada.",
+        "note": "Los hijos also means children, sons and daughters."
+      },
+      "tags": [
+        "family",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "pequeno",
+      "primary_form": "pequeño",
+      "gloss": "small, little",
+      "extras": {
+        "forms": {
+          "ms": "pequeño",
+          "fs": "pequeña",
+          "mp": "pequeños",
+          "fp": "pequeñas"
+        },
+        "example": "Tengo un piso pequeño en el centro.",
+        "example_en": "I have a small flat in the centre."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "hija",
+      "primary_form": "hija",
+      "gloss": "daughter",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "hijas",
+        "example": "Tienen una hija de seis años.",
+        "example_en": "They have a six-year-old daughter."
+      },
+      "tags": [
+        "family",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "buenas-tardes",
+      "primary_form": "buenas tardes",
+      "gloss": "good afternoon, good evening",
+      "extras": {
+        "literal": "good afternoons",
+        "note": "From lunch until it gets dark.",
+        "example": "Buenas tardes, una mesa para dos, por favor.",
+        "example_en": "Good evening, a table for two, please."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "tener",
+      "primary_form": "tener",
+      "gloss": "to have",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "tenido",
+        "example": "Tengo dos hermanos y una hermana.",
+        "example_en": "I have two brothers and a sister.",
+        "note": "Also age (tengo veinte años) and tener que + infinitive, \"to have to\"."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "tengo",
+          "2s": "tienes",
+          "3s": "tiene",
+          "1p": "tenemos",
+          "2p": "tenéis",
+          "3p": "tienen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he tenido",
+          "2s": "has tenido",
+          "3s": "ha tenido",
+          "1p": "hemos tenido",
+          "2p": "habéis tenido",
+          "3p": "han tenido"
+        },
+        "pretérito-indefinido": {
+          "1s": "tuve",
+          "2s": "tuviste",
+          "3s": "tuvo",
+          "1p": "tuvimos",
+          "2p": "tuvisteis",
+          "3p": "tuvieron"
+        },
+        "imperfecto": {
+          "1s": "tenía",
+          "2s": "tenías",
+          "3s": "tenía",
+          "1p": "teníamos",
+          "2p": "teníais",
+          "3p": "tenían"
+        },
+        "futuro": {
+          "1s": "tendré",
+          "2s": "tendrás",
+          "3s": "tendrá",
+          "1p": "tendremos",
+          "2p": "tendréis",
+          "3p": "tendrán"
+        },
+        "condicional": {
+          "1s": "tendría",
+          "2s": "tendrías",
+          "3s": "tendría",
+          "1p": "tendríamos",
+          "2p": "tendríais",
+          "3p": "tendrían"
+        },
+        "subjuntivo": {
+          "1s": "tenga",
+          "2s": "tengas",
+          "3s": "tenga",
+          "1p": "tengamos",
+          "2p": "tengáis",
+          "3p": "tengan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "marido",
+      "primary_form": "marido",
+      "gloss": "husband",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "maridos",
+        "example": "Mi marido es de Toledo.",
+        "example_en": "My husband is from Toledo.",
+        "note": "Also el esposo, a little more formal."
+      },
+      "tags": [
+        "family",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "primero",
+      "primary_form": "primero",
+      "gloss": "first",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "Primero comemos y después vamos al cine.",
+        "example_en": "First we'll eat and then we'll go to the cinema."
+      },
+      "tags": [
+        "conectores"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mujer",
+      "primary_form": "mujer",
+      "gloss": "woman; wife",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "mujeres",
+        "example": "Te presento a mi mujer, Carmen.",
+        "example_en": "This is my wife, Carmen.",
+        "note": "Also la esposa, a little more formal."
+      },
+      "tags": [
+        "family",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "bueno",
+      "primary_form": "bueno",
+      "gloss": "good",
+      "extras": {
+        "forms": {
+          "ms": "bueno",
+          "fs": "buena",
+          "mp": "buenos",
+          "fp": "buenas"
+        },
+        "example": "Este pan está muy bueno.",
+        "example_en": "This bread is really good.",
+        "note": "Before a masculine singular noun: buen. Un buen libro."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "abuelo",
+      "primary_form": "abuelo",
+      "gloss": "grandfather",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "abuelos",
+        "example": "Mi abuelo tiene ochenta años.",
+        "example_en": "My grandfather is eighty.",
+        "note": "Los abuelos are grandparents."
+      },
+      "tags": [
+        "family",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "buenas-noches",
+      "primary_form": "buenas noches",
+      "gloss": "good evening; good night",
+      "extras": {
+        "literal": "good nights",
+        "note": "A greeting after dark, and a goodbye before bed.",
+        "example": "Buenas noches, hasta mañana.",
+        "example_en": "Good night, see you tomorrow."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "hacer",
+      "primary_form": "hacer",
+      "gloss": "to do; to make",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "hecho",
+        "example": "¿Qué haces el fin de semana?",
+        "example_en": "What are you doing at the weekend?",
+        "note": "Also the weather: hace frío, hace sol."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "hago",
+          "2s": "haces",
+          "3s": "hace",
+          "1p": "hacemos",
+          "2p": "hacéis",
+          "3p": "hacen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he hecho",
+          "2s": "has hecho",
+          "3s": "ha hecho",
+          "1p": "hemos hecho",
+          "2p": "habéis hecho",
+          "3p": "han hecho"
+        },
+        "pretérito-indefinido": {
+          "1s": "hice",
+          "2s": "hiciste",
+          "3s": "hizo",
+          "1p": "hicimos",
+          "2p": "hicisteis",
+          "3p": "hicieron"
+        },
+        "imperfecto": {
+          "1s": "hacía",
+          "2s": "hacías",
+          "3s": "hacía",
+          "1p": "hacíamos",
+          "2p": "hacíais",
+          "3p": "hacían"
+        },
+        "futuro": {
+          "1s": "haré",
+          "2s": "harás",
+          "3s": "hará",
+          "1p": "haremos",
+          "2p": "haréis",
+          "3p": "harán"
+        },
+        "condicional": {
+          "1s": "haría",
+          "2s": "harías",
+          "3s": "haría",
+          "1p": "haríamos",
+          "2p": "haríais",
+          "3p": "harían"
+        },
+        "subjuntivo": {
+          "1s": "haga",
+          "2s": "hagas",
+          "3s": "haga",
+          "1p": "hagamos",
+          "2p": "hagáis",
+          "3p": "hagan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "abuela",
+      "primary_form": "abuela",
+      "gloss": "grandmother",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "abuelas",
+        "example": "Los domingos comemos en casa de la abuela.",
+        "example_en": "On Sundays we have lunch at Grandma's."
+      },
+      "tags": [
+        "family",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "tio",
+      "primary_form": "tío",
+      "gloss": "uncle",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "tíos",
+        "example": "Mi tío vive en Argentina.",
+        "example_en": "My uncle lives in Argentina.",
+        "note": "In Spain, tío is also slang for \"mate, guy\"."
+      },
+      "tags": [
+        "family",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "adios",
+      "primary_form": "adiós",
+      "gloss": "goodbye",
+      "extras": {
+        "note": "Also a quick hello in passing, when you won't stop to talk.",
+        "example": "Adiós, hasta el lunes.",
+        "example_en": "Goodbye, see you on Monday."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "poder",
+      "primary_form": "poder",
+      "gloss": "can, to be able to",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "podido",
+        "example": "¿Puedes cerrar la ventana?",
+        "example_en": "Can you close the window?"
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "puedo",
+          "2s": "puedes",
+          "3s": "puede",
+          "1p": "podemos",
+          "2p": "podéis",
+          "3p": "pueden"
+        },
+        "pretérito-perfecto": {
+          "1s": "he podido",
+          "2s": "has podido",
+          "3s": "ha podido",
+          "1p": "hemos podido",
+          "2p": "habéis podido",
+          "3p": "han podido"
+        },
+        "pretérito-indefinido": {
+          "1s": "pude",
+          "2s": "pudiste",
+          "3s": "pudo",
+          "1p": "pudimos",
+          "2p": "pudisteis",
+          "3p": "pudieron"
+        },
+        "imperfecto": {
+          "1s": "podía",
+          "2s": "podías",
+          "3s": "podía",
+          "1p": "podíamos",
+          "2p": "podíais",
+          "3p": "podían"
+        },
+        "futuro": {
+          "1s": "podré",
+          "2s": "podrás",
+          "3s": "podrá",
+          "1p": "podremos",
+          "2p": "podréis",
+          "3p": "podrán"
+        },
+        "condicional": {
+          "1s": "podría",
+          "2s": "podrías",
+          "3s": "podría",
+          "1p": "podríamos",
+          "2p": "podríais",
+          "3p": "podrían"
+        },
+        "subjuntivo": {
+          "1s": "pueda",
+          "2s": "puedas",
+          "3s": "pueda",
+          "1p": "podamos",
+          "2p": "podáis",
+          "3p": "puedan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "tia",
+      "primary_form": "tía",
+      "gloss": "aunt",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "tías",
+        "example": "Mi tía tiene una tienda de ropa.",
+        "example_en": "My aunt has a clothes shop."
+      },
+      "tags": [
+        "family",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "malo",
+      "primary_form": "malo",
+      "gloss": "bad",
+      "extras": {
+        "forms": {
+          "ms": "malo",
+          "fs": "mala",
+          "mp": "malos",
+          "fp": "malas"
+        },
+        "example": "Es una mala idea.",
+        "example_en": "It's a bad idea.",
+        "note": "Before a masculine singular noun: mal. Un mal día."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "primo",
+      "primary_form": "primo",
+      "gloss": "cousin (male)",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "primos",
+        "example": "Mi primo y yo tenemos la misma edad.",
+        "example_en": "My cousin and I are the same age."
+      },
+      "tags": [
+        "family",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "hasta-luego",
+      "primary_form": "hasta luego",
+      "gloss": "see you later; bye",
+      "extras": {
+        "literal": "until later",
+        "note": "Spaniards say it even when they won't see you again for weeks.",
+        "example": "Me voy a casa. ¡Hasta luego!",
+        "example_en": "I'm going home. See you later!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "prima",
+      "primary_form": "prima",
+      "gloss": "cousin (female)",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "primas",
+        "example": "Mi prima es profesora de música.",
+        "example_en": "My cousin is a music teacher."
+      },
+      "tags": [
+        "family",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "querer",
+      "primary_form": "querer",
+      "gloss": "to want; to love",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "querido",
+        "example": "Quiero un café con leche.",
+        "example_en": "I'd like a white coffee.",
+        "note": "Te quiero: I love you."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "quiero",
+          "2s": "quieres",
+          "3s": "quiere",
+          "1p": "queremos",
+          "2p": "queréis",
+          "3p": "quieren"
+        },
+        "pretérito-perfecto": {
+          "1s": "he querido",
+          "2s": "has querido",
+          "3s": "ha querido",
+          "1p": "hemos querido",
+          "2p": "habéis querido",
+          "3p": "han querido"
+        },
+        "pretérito-indefinido": {
+          "1s": "quise",
+          "2s": "quisiste",
+          "3s": "quiso",
+          "1p": "quisimos",
+          "2p": "quisisteis",
+          "3p": "quisieron"
+        },
+        "imperfecto": {
+          "1s": "quería",
+          "2s": "querías",
+          "3s": "quería",
+          "1p": "queríamos",
+          "2p": "queríais",
+          "3p": "querían"
+        },
+        "futuro": {
+          "1s": "querré",
+          "2s": "querrás",
+          "3s": "querrá",
+          "1p": "querremos",
+          "2p": "querréis",
+          "3p": "querrán"
+        },
+        "condicional": {
+          "1s": "querría",
+          "2s": "querrías",
+          "3s": "querría",
+          "1p": "querríamos",
+          "2p": "querríais",
+          "3p": "querrían"
+        },
+        "subjuntivo": {
+          "1s": "quiera",
+          "2s": "quieras",
+          "3s": "quiera",
+          "1p": "queramos",
+          "2p": "queráis",
+          "3p": "quieran"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "novio",
+      "primary_form": "novio",
+      "gloss": "boyfriend; groom",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "novios",
+        "example": "Lucía tiene un novio nuevo.",
+        "example_en": "Lucía has a new boyfriend.",
+        "note": "Los novios are also the bride and groom."
+      },
+      "tags": [
+        "family",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "bonito",
+      "primary_form": "bonito",
+      "gloss": "pretty, nice",
+      "extras": {
+        "forms": {
+          "ms": "bonito",
+          "fs": "bonita",
+          "mp": "bonitos",
+          "fp": "bonitas"
+        },
+        "example": "Tienes una casa muy bonita.",
+        "example_en": "You have a lovely house."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "novia",
+      "primary_form": "novia",
+      "gloss": "girlfriend; bride",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "novias",
+        "example": "Su novia es italiana.",
+        "example_en": "His girlfriend is Italian."
+      },
+      "tags": [
+        "family",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "hasta-manana",
+      "primary_form": "hasta mañana",
+      "gloss": "see you tomorrow",
+      "extras": {
+        "literal": "until tomorrow",
+        "example": "Buenas noches, papá. Hasta mañana.",
+        "example_en": "Good night, Dad. See you tomorrow."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "decir",
+      "primary_form": "decir",
+      "gloss": "to say, to tell",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "dicho",
+        "example": "¿Qué dice el profesor?",
+        "example_en": "What's the teacher saying?"
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "digo",
+          "2s": "dices",
+          "3s": "dice",
+          "1p": "decimos",
+          "2p": "decís",
+          "3p": "dicen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he dicho",
+          "2s": "has dicho",
+          "3s": "ha dicho",
+          "1p": "hemos dicho",
+          "2p": "habéis dicho",
+          "3p": "han dicho"
+        },
+        "pretérito-indefinido": {
+          "1s": "dije",
+          "2s": "dijiste",
+          "3s": "dijo",
+          "1p": "dijimos",
+          "2p": "dijisteis",
+          "3p": "dijeron"
+        },
+        "imperfecto": {
+          "1s": "decía",
+          "2s": "decías",
+          "3s": "decía",
+          "1p": "decíamos",
+          "2p": "decíais",
+          "3p": "decían"
+        },
+        "futuro": {
+          "1s": "diré",
+          "2s": "dirás",
+          "3s": "dirá",
+          "1p": "diremos",
+          "2p": "diréis",
+          "3p": "dirán"
+        },
+        "condicional": {
+          "1s": "diría",
+          "2s": "dirías",
+          "3s": "diría",
+          "1p": "diríamos",
+          "2p": "diríais",
+          "3p": "dirían"
+        },
+        "subjuntivo": {
+          "1s": "diga",
+          "2s": "digas",
+          "3s": "diga",
+          "1p": "digamos",
+          "2p": "digáis",
+          "3p": "digan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "familia",
+      "primary_form": "familia",
+      "gloss": "family",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "familias",
+        "example": "Mi familia es muy grande.",
+        "example_en": "My family is very big."
+      },
+      "tags": [
+        "family",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "hombre",
+      "primary_form": "hombre",
+      "gloss": "man",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "hombres",
+        "example": "Ese hombre es mi vecino.",
+        "example_en": "That man is my neighbour."
+      },
+      "tags": [
+        "people",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "gracias",
+      "primary_form": "gracias",
+      "gloss": "thank you, thanks",
+      "extras": {
+        "example": "Gracias por el café.",
+        "example_en": "Thanks for the coffee."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "chico",
+      "primary_form": "chico",
+      "gloss": "boy, young man",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "chicos",
+        "example": "El chico de la tienda es muy simpático.",
+        "example_en": "The guy in the shop is very nice."
+      },
+      "tags": [
+        "people",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "guapo",
+      "primary_form": "guapo",
+      "gloss": "good-looking",
+      "extras": {
+        "forms": {
+          "ms": "guapo",
+          "fs": "guapa",
+          "mp": "guapos",
+          "fp": "guapas"
+        },
+        "example": "Tu hermano es muy guapo.",
+        "example_en": "Your brother is very good-looking.",
+        "note": "In Spain also \"dressed up, smart\": ¡Qué guapa vas!"
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "venir",
+      "primary_form": "venir",
+      "gloss": "to come",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "venido",
+        "example": "¿Vienes a la fiesta el sábado?",
+        "example_en": "Are you coming to the party on Saturday?"
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "vengo",
+          "2s": "vienes",
+          "3s": "viene",
+          "1p": "venimos",
+          "2p": "venís",
+          "3p": "vienen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he venido",
+          "2s": "has venido",
+          "3s": "ha venido",
+          "1p": "hemos venido",
+          "2p": "habéis venido",
+          "3p": "han venido"
+        },
+        "pretérito-indefinido": {
+          "1s": "vine",
+          "2s": "viniste",
+          "3s": "vino",
+          "1p": "vinimos",
+          "2p": "vinisteis",
+          "3p": "vinieron"
+        },
+        "imperfecto": {
+          "1s": "venía",
+          "2s": "venías",
+          "3s": "venía",
+          "1p": "veníamos",
+          "2p": "veníais",
+          "3p": "venían"
+        },
+        "futuro": {
+          "1s": "vendré",
+          "2s": "vendrás",
+          "3s": "vendrá",
+          "1p": "vendremos",
+          "2p": "vendréis",
+          "3p": "vendrán"
+        },
+        "condicional": {
+          "1s": "vendría",
+          "2s": "vendrías",
+          "3s": "vendría",
+          "1p": "vendríamos",
+          "2p": "vendríais",
+          "3p": "vendrían"
+        },
+        "subjuntivo": {
+          "1s": "venga",
+          "2s": "vengas",
+          "3s": "venga",
+          "1p": "vengamos",
+          "2p": "vengáis",
+          "3p": "vengan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "chica",
+      "primary_form": "chica",
+      "gloss": "girl, young woman",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "chicas",
+        "example": "Hay dos chicas nuevas en clase.",
+        "example_en": "There are two new girls in the class."
+      },
+      "tags": [
+        "people",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "despues",
+      "primary_form": "después",
+      "gloss": "afterwards, then",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "Ceno y después veo la tele.",
+        "example_en": "I have dinner and then I watch TV."
+      },
+      "tags": [
+        "conectores"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "persona",
+      "primary_form": "persona",
+      "gloss": "person",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "personas",
+        "example": "Tu padre es una persona muy simpática.",
+        "example_en": "Your father is a very nice person.",
+        "note": "Always feminine, even for a man."
+      },
+      "tags": [
+        "people",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "muchas-gracias",
+      "primary_form": "muchas gracias",
+      "gloss": "thank you very much",
+      "extras": {
+        "literal": "many thanks",
+        "example": "Muchas gracias por la ayuda.",
+        "example_en": "Thank you very much for your help."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "saber",
+      "primary_form": "saber",
+      "gloss": "to know (a fact); to know how to",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "sabido",
+        "example": "No sé dónde está la estación.",
+        "example_en": "I don't know where the station is.",
+        "note": "Sé nadar: I can swim."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "sé",
+          "2s": "sabes",
+          "3s": "sabe",
+          "1p": "sabemos",
+          "2p": "sabéis",
+          "3p": "saben"
+        },
+        "pretérito-perfecto": {
+          "1s": "he sabido",
+          "2s": "has sabido",
+          "3s": "ha sabido",
+          "1p": "hemos sabido",
+          "2p": "habéis sabido",
+          "3p": "han sabido"
+        },
+        "pretérito-indefinido": {
+          "1s": "supe",
+          "2s": "supiste",
+          "3s": "supo",
+          "1p": "supimos",
+          "2p": "supisteis",
+          "3p": "supieron"
+        },
+        "imperfecto": {
+          "1s": "sabía",
+          "2s": "sabías",
+          "3s": "sabía",
+          "1p": "sabíamos",
+          "2p": "sabíais",
+          "3p": "sabían"
+        },
+        "futuro": {
+          "1s": "sabré",
+          "2s": "sabrás",
+          "3s": "sabrá",
+          "1p": "sabremos",
+          "2p": "sabréis",
+          "3p": "sabrán"
+        },
+        "condicional": {
+          "1s": "sabría",
+          "2s": "sabrías",
+          "3s": "sabría",
+          "1p": "sabríamos",
+          "2p": "sabríais",
+          "3p": "sabrían"
+        },
+        "subjuntivo": {
+          "1s": "sepa",
+          "2s": "sepas",
+          "3s": "sepa",
+          "1p": "sepamos",
+          "2p": "sepáis",
+          "3p": "sepan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "senor",
+      "primary_form": "señor",
+      "gloss": "man, gentleman; Mr",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "señores",
+        "example": "Un señor pregunta por ti.",
+        "example_en": "A man is asking for you.",
+        "note": "La señora is a lady, or Mrs."
+      },
+      "tags": [
+        "people",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "alto",
+      "primary_form": "alto",
+      "gloss": "tall; high",
+      "extras": {
+        "forms": {
+          "ms": "alto",
+          "fs": "alta",
+          "mp": "altos",
+          "fp": "altas"
+        },
+        "example": "Mi padre es muy alto.",
+        "example_en": "My father is very tall."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "nombre",
+      "primary_form": "nombre",
+      "gloss": "name",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "nombres",
+        "example": "Mi nombre es Laura, pero todos me llaman Lau.",
+        "example_en": "My name is Laura, but everyone calls me Lau."
+      },
+      "tags": [
+        "people",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "de-nada",
+      "primary_form": "de nada",
+      "gloss": "you're welcome",
+      "extras": {
+        "literal": "of nothing",
+        "example": "—Gracias. —De nada.",
+        "example_en": "\"Thanks.\" \"You're welcome.\""
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cabeza",
+      "primary_form": "cabeza",
+      "gloss": "head",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "cabezas",
+        "example": "Me duele mucho la cabeza.",
+        "example_en": "I've got a bad headache."
+      },
+      "tags": [
+        "body",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "poner",
+      "primary_form": "poner",
+      "gloss": "to put; to turn on",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "puesto",
+        "example": "¿Dónde pongo las llaves?",
+        "example_en": "Where shall I put the keys?",
+        "note": "Also poner la tele, to turn on the TV."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "pongo",
+          "2s": "pones",
+          "3s": "pone",
+          "1p": "ponemos",
+          "2p": "ponéis",
+          "3p": "ponen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he puesto",
+          "2s": "has puesto",
+          "3s": "ha puesto",
+          "1p": "hemos puesto",
+          "2p": "habéis puesto",
+          "3p": "han puesto"
+        },
+        "pretérito-indefinido": {
+          "1s": "puse",
+          "2s": "pusiste",
+          "3s": "puso",
+          "1p": "pusimos",
+          "2p": "pusisteis",
+          "3p": "pusieron"
+        },
+        "imperfecto": {
+          "1s": "ponía",
+          "2s": "ponías",
+          "3s": "ponía",
+          "1p": "poníamos",
+          "2p": "poníais",
+          "3p": "ponían"
+        },
+        "futuro": {
+          "1s": "pondré",
+          "2s": "pondrás",
+          "3s": "pondrá",
+          "1p": "pondremos",
+          "2p": "pondréis",
+          "3p": "pondrán"
+        },
+        "condicional": {
+          "1s": "pondría",
+          "2s": "pondrías",
+          "3s": "pondría",
+          "1p": "pondríamos",
+          "2p": "pondríais",
+          "3p": "pondrían"
+        },
+        "subjuntivo": {
+          "1s": "ponga",
+          "2s": "pongas",
+          "3s": "ponga",
+          "1p": "pongamos",
+          "2p": "pongáis",
+          "3p": "pongan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "cara",
+      "primary_form": "cara",
+      "gloss": "face",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "caras",
+        "example": "Tiene una cara muy simpática.",
+        "example_en": "She has a very friendly face."
+      },
+      "tags": [
+        "body",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "bajo",
+      "primary_form": "bajo",
+      "gloss": "short; low",
+      "extras": {
+        "forms": {
+          "ms": "bajo",
+          "fs": "baja",
+          "mp": "bajos",
+          "fp": "bajas"
+        },
+        "example": "Mi abuela es baja y muy delgada.",
+        "example_en": "My grandmother is short and very thin."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ojo",
+      "primary_form": "ojo",
+      "gloss": "eye",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "ojos",
+        "example": "Mi hija tiene los ojos azules.",
+        "example_en": "My daughter has blue eyes."
+      },
+      "tags": [
+        "body",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "por-favor",
+      "primary_form": "por favor",
+      "gloss": "please",
+      "extras": {
+        "example": "Un café con leche, por favor.",
+        "example_en": "A white coffee, please."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "salir",
+      "primary_form": "salir",
+      "gloss": "to go out, to leave",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "salido",
+        "example": "Salgo de casa a las ocho.",
+        "example_en": "I leave home at eight."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "salgo",
+          "2s": "sales",
+          "3s": "sale",
+          "1p": "salimos",
+          "2p": "salís",
+          "3p": "salen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he salido",
+          "2s": "has salido",
+          "3s": "ha salido",
+          "1p": "hemos salido",
+          "2p": "habéis salido",
+          "3p": "han salido"
+        },
+        "pretérito-indefinido": {
+          "1s": "salí",
+          "2s": "saliste",
+          "3s": "salió",
+          "1p": "salimos",
+          "2p": "salisteis",
+          "3p": "salieron"
+        },
+        "imperfecto": {
+          "1s": "salía",
+          "2s": "salías",
+          "3s": "salía",
+          "1p": "salíamos",
+          "2p": "salíais",
+          "3p": "salían"
+        },
+        "futuro": {
+          "1s": "saldré",
+          "2s": "saldrás",
+          "3s": "saldrá",
+          "1p": "saldremos",
+          "2p": "saldréis",
+          "3p": "saldrán"
+        },
+        "condicional": {
+          "1s": "saldría",
+          "2s": "saldrías",
+          "3s": "saldría",
+          "1p": "saldríamos",
+          "2p": "saldríais",
+          "3p": "saldrían"
+        },
+        "subjuntivo": {
+          "1s": "salga",
+          "2s": "salgas",
+          "3s": "salga",
+          "1p": "salgamos",
+          "2p": "salgáis",
+          "3p": "salgan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "nariz",
+      "primary_form": "nariz",
+      "gloss": "nose",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "narices",
+        "example": "Tengo la nariz roja por el frío.",
+        "example_en": "My nose is red from the cold."
+      },
+      "tags": [
+        "body",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "boca",
+      "primary_form": "boca",
+      "gloss": "mouth",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "bocas",
+        "example": "No hables con la boca llena.",
+        "example_en": "Don't talk with your mouth full."
+      },
+      "tags": [
+        "body",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "perdon",
+      "primary_form": "perdón",
+      "gloss": "sorry; excuse me",
+      "extras": {
+        "example": "Perdón, ¿está libre esta silla?",
+        "example_en": "Excuse me, is this chair free?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "diente",
+      "primary_form": "diente",
+      "gloss": "tooth",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "dientes",
+        "example": "Me lavo los dientes después de comer.",
+        "example_en": "I brush my teeth after lunch."
+      },
+      "tags": [
+        "body",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "dar",
+      "primary_form": "dar",
+      "gloss": "to give",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "dado",
+        "example": "Te doy mi número de teléfono.",
+        "example_en": "I'll give you my phone number."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "doy",
+          "2s": "das",
+          "3s": "da",
+          "1p": "damos",
+          "2p": "dais",
+          "3p": "dan"
+        },
+        "pretérito-perfecto": {
+          "1s": "he dado",
+          "2s": "has dado",
+          "3s": "ha dado",
+          "1p": "hemos dado",
+          "2p": "habéis dado",
+          "3p": "han dado"
+        },
+        "pretérito-indefinido": {
+          "1s": "di",
+          "2s": "diste",
+          "3s": "dio",
+          "1p": "dimos",
+          "2p": "disteis",
+          "3p": "dieron"
+        },
+        "imperfecto": {
+          "1s": "daba",
+          "2s": "dabas",
+          "3s": "daba",
+          "1p": "dábamos",
+          "2p": "dabais",
+          "3p": "daban"
+        },
+        "futuro": {
+          "1s": "daré",
+          "2s": "darás",
+          "3s": "dará",
+          "1p": "daremos",
+          "2p": "daréis",
+          "3p": "darán"
+        },
+        "condicional": {
+          "1s": "daría",
+          "2s": "darías",
+          "3s": "daría",
+          "1p": "daríamos",
+          "2p": "daríais",
+          "3p": "darían"
+        },
+        "subjuntivo": {
+          "1s": "dé",
+          "2s": "des",
+          "3s": "dé",
+          "1p": "demos",
+          "2p": "deis",
+          "3p": "den"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "joven",
+      "primary_form": "joven",
+      "gloss": "young",
+      "extras": {
+        "forms": {
+          "ms": "joven",
+          "fs": "joven",
+          "mp": "jóvenes",
+          "fp": "jóvenes"
+        },
+        "example": "Su madre es muy joven.",
+        "example_en": "His mother is very young."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "oreja",
+      "primary_form": "oreja",
+      "gloss": "ear",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "orejas",
+        "example": "El perro tiene las orejas muy grandes.",
+        "example_en": "The dog has very big ears.",
+        "note": "The inner ear, and hearing, is el oído."
+      },
+      "tags": [
+        "body",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "perdona",
+      "primary_form": "perdona",
+      "gloss": "excuse me (to someone you call tú)",
+      "extras": {
+        "note": "Perdone to someone you call usted.",
+        "example": "Perdona, ¿sabes dónde está la estación?",
+        "example_en": "Excuse me, do you know where the station is?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pelo",
+      "primary_form": "pelo",
+      "gloss": "hair",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "pelos",
+        "example": "Tiene el pelo largo y negro.",
+        "example_en": "She has long black hair."
+      },
+      "tags": [
+        "body",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "ver",
+      "primary_form": "ver",
+      "gloss": "to see; to watch",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "visto",
+        "example": "Vemos la tele después de cenar.",
+        "example_en": "We watch TV after dinner."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "veo",
+          "2s": "ves",
+          "3s": "ve",
+          "1p": "vemos",
+          "2p": "veis",
+          "3p": "ven"
+        },
+        "pretérito-perfecto": {
+          "1s": "he visto",
+          "2s": "has visto",
+          "3s": "ha visto",
+          "1p": "hemos visto",
+          "2p": "habéis visto",
+          "3p": "han visto"
+        },
+        "pretérito-indefinido": {
+          "1s": "vi",
+          "2s": "viste",
+          "3s": "vio",
+          "1p": "vimos",
+          "2p": "visteis",
+          "3p": "vieron"
+        },
+        "imperfecto": {
+          "1s": "veía",
+          "2s": "veías",
+          "3s": "veía",
+          "1p": "veíamos",
+          "2p": "veíais",
+          "3p": "veían"
+        },
+        "futuro": {
+          "1s": "veré",
+          "2s": "verás",
+          "3s": "verá",
+          "1p": "veremos",
+          "2p": "veréis",
+          "3p": "verán"
+        },
+        "condicional": {
+          "1s": "vería",
+          "2s": "verías",
+          "3s": "vería",
+          "1p": "veríamos",
+          "2p": "veríais",
+          "3p": "verían"
+        },
+        "subjuntivo": {
+          "1s": "vea",
+          "2s": "veas",
+          "3s": "vea",
+          "1p": "veamos",
+          "2p": "veáis",
+          "3p": "vean"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "mano",
+      "primary_form": "mano",
+      "gloss": "hand",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "manos",
+        "example": "Lávate las manos antes de comer.",
+        "example_en": "Wash your hands before you eat.",
+        "note": "Feminine, though it ends in -o."
+      },
+      "tags": [
+        "body",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "viejo",
+      "primary_form": "viejo",
+      "gloss": "old",
+      "extras": {
+        "forms": {
+          "ms": "viejo",
+          "fs": "vieja",
+          "mp": "viejos",
+          "fp": "viejas"
+        },
+        "example": "Este coche ya es muy viejo.",
+        "example_en": "This car is very old now.",
+        "note": "For people, mayor is politer: una señora mayor."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "brazo",
+      "primary_form": "brazo",
+      "gloss": "arm",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "brazos",
+        "example": "Me duele el brazo derecho.",
+        "example_en": "My right arm hurts."
+      },
+      "tags": [
+        "body",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "disculpe",
+      "primary_form": "disculpe",
+      "gloss": "excuse me (polite)",
+      "extras": {
+        "note": "The usted form; to a friend, disculpa.",
+        "example": "Disculpe, ¿dónde está la parada del autobús?",
+        "example_en": "Excuse me, where's the bus stop?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pierna",
+      "primary_form": "pierna",
+      "gloss": "leg",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "piernas",
+        "example": "Tiene las piernas muy largas.",
+        "example_en": "He has very long legs."
+      },
+      "tags": [
+        "body",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "haber",
+      "primary_form": "haber",
+      "gloss": "to have (forming the perfect); there is (hay)",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "habido",
+        "example": "Hay mucha gente en la plaza.",
+        "example_en": "There are a lot of people in the square.",
+        "note": "Its forms build the perfect tenses (he comido). Hay, había, hubo and habrá mean there is, there was and there will be."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "he",
+          "2s": "has",
+          "3s": "ha",
+          "1p": "hemos",
+          "2p": "habéis",
+          "3p": "han"
+        },
+        "pretérito-perfecto": {
+          "1s": "he habido",
+          "2s": "has habido",
+          "3s": "ha habido",
+          "1p": "hemos habido",
+          "2p": "habéis habido",
+          "3p": "han habido"
+        },
+        "pretérito-indefinido": {
+          "1s": "hube",
+          "2s": "hubiste",
+          "3s": "hubo",
+          "1p": "hubimos",
+          "2p": "hubisteis",
+          "3p": "hubieron"
+        },
+        "imperfecto": {
+          "1s": "había",
+          "2s": "habías",
+          "3s": "había",
+          "1p": "habíamos",
+          "2p": "habíais",
+          "3p": "habían"
+        },
+        "futuro": {
+          "1s": "habré",
+          "2s": "habrás",
+          "3s": "habrá",
+          "1p": "habremos",
+          "2p": "habréis",
+          "3p": "habrán"
+        },
+        "condicional": {
+          "1s": "habría",
+          "2s": "habrías",
+          "3s": "habría",
+          "1p": "habríamos",
+          "2p": "habríais",
+          "3p": "habrían"
+        },
+        "subjuntivo": {
+          "1s": "haya",
+          "2s": "hayas",
+          "3s": "haya",
+          "1p": "hayamos",
+          "2p": "hayáis",
+          "3p": "hayan"
+        }
+      }
+    },
+    {
+      "kind": "connective",
+      "id": "tambien",
+      "primary_form": "también",
+      "gloss": "also, too",
+      "extras": {
+        "role": "conn-addition",
+        "example": "Me gusta el té. También me gusta el café.",
+        "example_en": "I like tea. I like coffee too.",
+        "example_alternatives": [
+          "Me gusta el té. Me gusta también el café."
+        ]
+      },
+      "tags": [
+        "conectores"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pie",
+      "primary_form": "pie",
+      "gloss": "foot",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "pies",
+        "example": "Vamos a pie, está muy cerca.",
+        "example_en": "Let's walk, it's very close.",
+        "note": "A pie means \"on foot\"."
+      },
+      "tags": [
+        "body",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "lo-siento",
+      "primary_form": "lo siento",
+      "gloss": "I'm sorry",
+      "extras": {
+        "literal": "I feel it",
+        "example": "Lo siento, no tengo cambio.",
+        "example_en": "I'm sorry, I don't have any change."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cafe",
+      "primary_form": "café",
+      "gloss": "coffee; café",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "cafés",
+        "example": "¿Tomamos un café?",
+        "example_en": "Shall we have a coffee?",
+        "note": "Café con leche is coffee with milk; un cortado has just a dash."
+      },
+      "tags": [
+        "food",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "nuevo",
+      "primary_form": "nuevo",
+      "gloss": "new",
+      "extras": {
+        "forms": {
+          "ms": "nuevo",
+          "fs": "nueva",
+          "mp": "nuevos",
+          "fp": "nuevas"
+        },
+        "example": "Tengo un móvil nuevo.",
+        "example_en": "I have a new phone."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "conocer",
+      "primary_form": "conocer",
+      "gloss": "to know (a person or place); to meet",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "conocido",
+        "example": "¿Conoces Barcelona?",
+        "example_en": "Have you been to Barcelona?",
+        "note": "Conocer a alguien is also \"to meet someone\" for the first time."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "conozco",
+          "2s": "conoces",
+          "3s": "conoce",
+          "1p": "conocemos",
+          "2p": "conocéis",
+          "3p": "conocen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he conocido",
+          "2s": "has conocido",
+          "3s": "ha conocido",
+          "1p": "hemos conocido",
+          "2p": "habéis conocido",
+          "3p": "han conocido"
+        },
+        "pretérito-indefinido": {
+          "1s": "conocí",
+          "2s": "conociste",
+          "3s": "conoció",
+          "1p": "conocimos",
+          "2p": "conocisteis",
+          "3p": "conocieron"
+        },
+        "imperfecto": {
+          "1s": "conocía",
+          "2s": "conocías",
+          "3s": "conocía",
+          "1p": "conocíamos",
+          "2p": "conocíais",
+          "3p": "conocían"
+        },
+        "futuro": {
+          "1s": "conoceré",
+          "2s": "conocerás",
+          "3s": "conocerá",
+          "1p": "conoceremos",
+          "2p": "conoceréis",
+          "3p": "conocerán"
+        },
+        "condicional": {
+          "1s": "conocería",
+          "2s": "conocerías",
+          "3s": "conocería",
+          "1p": "conoceríamos",
+          "2p": "conoceríais",
+          "3p": "conocerían"
+        },
+        "subjuntivo": {
+          "1s": "conozca",
+          "2s": "conozcas",
+          "3s": "conozca",
+          "1p": "conozcamos",
+          "2p": "conozcáis",
+          "3p": "conozcan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "te",
+      "primary_form": "té",
+      "gloss": "tea",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "tés",
+        "example": "Por la tarde tomo un té con limón.",
+        "example_en": "In the afternoon I have a tea with lemon."
+      },
+      "tags": [
+        "food",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "leche",
+      "primary_form": "leche",
+      "gloss": "milk",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "example": "¿Hay leche en la nevera?",
+        "example_en": "Is there any milk in the fridge?"
+      },
+      "tags": [
+        "food",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "vale",
+      "primary_form": "vale",
+      "gloss": "OK, fine",
+      "extras": {
+        "note": "Heard all the time in Spain. Latin America says está bien, bueno or dale.",
+        "example": "—¿Nos vemos a las ocho? —Vale.",
+        "example_en": "\"Shall we meet at eight?\" \"OK.\""
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vino",
+      "primary_form": "vino",
+      "gloss": "wine",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "vinos",
+        "example": "Un vino tinto, por favor.",
+        "example_en": "A red wine, please.",
+        "note": "Red wine is vino tinto, never vino rojo."
+      },
+      "tags": [
+        "food",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "vivir",
+      "primary_form": "vivir",
+      "gloss": "to live",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "vivido",
+        "example": "Vivimos en un pueblo cerca de Sevilla.",
+        "example_en": "We live in a village near Seville."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "vivo",
+          "2s": "vives",
+          "3s": "vive",
+          "1p": "vivimos",
+          "2p": "vivís",
+          "3p": "viven"
+        },
+        "pretérito-perfecto": {
+          "1s": "he vivido",
+          "2s": "has vivido",
+          "3s": "ha vivido",
+          "1p": "hemos vivido",
+          "2p": "habéis vivido",
+          "3p": "han vivido"
+        },
+        "pretérito-indefinido": {
+          "1s": "viví",
+          "2s": "viviste",
+          "3s": "vivió",
+          "1p": "vivimos",
+          "2p": "vivisteis",
+          "3p": "vivieron"
+        },
+        "imperfecto": {
+          "1s": "vivía",
+          "2s": "vivías",
+          "3s": "vivía",
+          "1p": "vivíamos",
+          "2p": "vivíais",
+          "3p": "vivían"
+        },
+        "futuro": {
+          "1s": "viviré",
+          "2s": "vivirás",
+          "3s": "vivirá",
+          "1p": "viviremos",
+          "2p": "viviréis",
+          "3p": "vivirán"
+        },
+        "condicional": {
+          "1s": "viviría",
+          "2s": "vivirías",
+          "3s": "viviría",
+          "1p": "viviríamos",
+          "2p": "viviríais",
+          "3p": "vivirían"
+        },
+        "subjuntivo": {
+          "1s": "viva",
+          "2s": "vivas",
+          "3s": "viva",
+          "1p": "vivamos",
+          "2p": "viváis",
+          "3p": "vivan"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "simpatico",
+      "primary_form": "simpático",
+      "gloss": "nice, friendly",
+      "extras": {
+        "forms": {
+          "ms": "simpático",
+          "fs": "simpática",
+          "mp": "simpáticos",
+          "fp": "simpáticas"
+        },
+        "example": "Tus amigos son muy simpáticos.",
+        "example_en": "Your friends are very nice.",
+        "note": "Not \"sympathetic\", which is comprensivo."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cerveza",
+      "primary_form": "cerveza",
+      "gloss": "beer",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "cervezas",
+        "example": "Dos cervezas, por favor.",
+        "example_en": "Two beers, please.",
+        "note": "Una caña is a small glass of draught beer."
+      },
+      "tags": [
+        "food",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "de-acuerdo",
+      "primary_form": "de acuerdo",
+      "gloss": "all right, agreed",
+      "extras": {
+        "literal": "in agreement",
+        "example": "De acuerdo, mañana te llamo.",
+        "example_en": "All right, I'll call you tomorrow."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "zumo",
+      "primary_form": "zumo",
+      "gloss": "juice",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "zumos",
+        "example": "Un zumo de naranja, por favor.",
+        "example_en": "An orange juice, please.",
+        "note": "Latin America: el jugo."
+      },
+      "tags": [
+        "food",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "trabajar",
+      "primary_form": "trabajar",
+      "gloss": "to work",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "trabajado",
+        "example": "Trabajo en un hospital.",
+        "example_en": "I work in a hospital."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "trabajo",
+          "2s": "trabajas",
+          "3s": "trabaja",
+          "1p": "trabajamos",
+          "2p": "trabajáis",
+          "3p": "trabajan"
+        },
+        "pretérito-perfecto": {
+          "1s": "he trabajado",
+          "2s": "has trabajado",
+          "3s": "ha trabajado",
+          "1p": "hemos trabajado",
+          "2p": "habéis trabajado",
+          "3p": "han trabajado"
+        },
+        "pretérito-indefinido": {
+          "1s": "trabajé",
+          "2s": "trabajaste",
+          "3s": "trabajó",
+          "1p": "trabajamos",
+          "2p": "trabajasteis",
+          "3p": "trabajaron"
+        },
+        "imperfecto": {
+          "1s": "trabajaba",
+          "2s": "trabajabas",
+          "3s": "trabajaba",
+          "1p": "trabajábamos",
+          "2p": "trabajabais",
+          "3p": "trabajaban"
+        },
+        "futuro": {
+          "1s": "trabajaré",
+          "2s": "trabajarás",
+          "3s": "trabajará",
+          "1p": "trabajaremos",
+          "2p": "trabajaréis",
+          "3p": "trabajarán"
+        },
+        "condicional": {
+          "1s": "trabajaría",
+          "2s": "trabajarías",
+          "3s": "trabajaría",
+          "1p": "trabajaríamos",
+          "2p": "trabajaríais",
+          "3p": "trabajarían"
+        },
+        "subjuntivo": {
+          "1s": "trabaje",
+          "2s": "trabajes",
+          "3s": "trabaje",
+          "1p": "trabajemos",
+          "2p": "trabajéis",
+          "3p": "trabajen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "azucar",
+      "primary_form": "azúcar",
+      "gloss": "sugar",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "example": "¿Tomas el café con azúcar?",
+        "example_en": "Do you take sugar in your coffee?",
+        "note": "Usually masculine, though you'll also hear la azúcar."
+      },
+      "tags": [
+        "food",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "contento",
+      "primary_form": "contento",
+      "gloss": "happy, pleased",
+      "extras": {
+        "forms": {
+          "ms": "contento",
+          "fs": "contenta",
+          "mp": "contentos",
+          "fp": "contentas"
+        },
+        "example": "Estoy muy contenta con mi trabajo.",
+        "example_en": "I'm very happy with my job.",
+        "note": "Used with estar."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "sal",
+      "primary_form": "sal",
+      "gloss": "salt",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "example": "¿Me pasas la sal?",
+        "example_en": "Can you pass me the salt?"
+      },
+      "tags": [
+        "food",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "que-tal",
+      "primary_form": "¿qué tal?",
+      "gloss": "how are you?, how's it going?",
+      "extras": {
+        "literal": "what such?",
+        "note": "Also asks about a thing: ¿Qué tal el viaje? (How was the trip?)",
+        "example": "Hola, Pedro, ¿qué tal?",
+        "example_en": "Hi, Pedro, how's it going?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "carne",
+      "primary_form": "carne",
+      "gloss": "meat",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "carnes",
+        "example": "No como carne.",
+        "example_en": "I don't eat meat."
+      },
+      "tags": [
+        "food",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "estudiar",
+      "primary_form": "estudiar",
+      "gloss": "to study",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "estudiado",
+        "example": "Mi hermana estudia Medicina.",
+        "example_en": "My sister is studying medicine."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "estudio",
+          "2s": "estudias",
+          "3s": "estudia",
+          "1p": "estudiamos",
+          "2p": "estudiáis",
+          "3p": "estudian"
+        },
+        "pretérito-perfecto": {
+          "1s": "he estudiado",
+          "2s": "has estudiado",
+          "3s": "ha estudiado",
+          "1p": "hemos estudiado",
+          "2p": "habéis estudiado",
+          "3p": "han estudiado"
+        },
+        "pretérito-indefinido": {
+          "1s": "estudié",
+          "2s": "estudiaste",
+          "3s": "estudió",
+          "1p": "estudiamos",
+          "2p": "estudiasteis",
+          "3p": "estudiaron"
+        },
+        "imperfecto": {
+          "1s": "estudiaba",
+          "2s": "estudiabas",
+          "3s": "estudiaba",
+          "1p": "estudiábamos",
+          "2p": "estudiabais",
+          "3p": "estudiaban"
+        },
+        "futuro": {
+          "1s": "estudiaré",
+          "2s": "estudiarás",
+          "3s": "estudiará",
+          "1p": "estudiaremos",
+          "2p": "estudiaréis",
+          "3p": "estudiarán"
+        },
+        "condicional": {
+          "1s": "estudiaría",
+          "2s": "estudiarías",
+          "3s": "estudiaría",
+          "1p": "estudiaríamos",
+          "2p": "estudiaríais",
+          "3p": "estudiarían"
+        },
+        "subjuntivo": {
+          "1s": "estudie",
+          "2s": "estudies",
+          "3s": "estudie",
+          "1p": "estudiemos",
+          "2p": "estudiéis",
+          "3p": "estudien"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "pescado",
+      "primary_form": "pescado",
+      "gloss": "fish (as food)",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "pescados",
+        "example": "Los viernes comemos pescado.",
+        "example_en": "On Fridays we eat fish.",
+        "note": "A live fish is un pez."
+      },
+      "tags": [
+        "food",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "como-estas",
+      "primary_form": "¿cómo estás?",
+      "gloss": "how are you? (to a friend)",
+      "extras": {
+        "example": "¿Cómo estás? Hace mucho que no te veo.",
+        "example_en": "How are you? I haven't seen you for ages."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pollo",
+      "primary_form": "pollo",
+      "gloss": "chicken",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "pollos",
+        "example": "Hoy hay pollo con patatas.",
+        "example_en": "There's chicken and potatoes today."
+      },
+      "tags": [
+        "food",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "cansado",
+      "primary_form": "cansado",
+      "gloss": "tired",
+      "extras": {
+        "forms": {
+          "ms": "cansado",
+          "fs": "cansada",
+          "mp": "cansados",
+          "fp": "cansadas"
+        },
+        "example": "Estamos cansados del viaje.",
+        "example_en": "We're tired after the journey."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "comprar",
+      "primary_form": "comprar",
+      "gloss": "to buy",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "comprado",
+        "example": "Compro el pan todas las mañanas.",
+        "example_en": "I buy bread every morning."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "compro",
+          "2s": "compras",
+          "3s": "compra",
+          "1p": "compramos",
+          "2p": "compráis",
+          "3p": "compran"
+        },
+        "pretérito-perfecto": {
+          "1s": "he comprado",
+          "2s": "has comprado",
+          "3s": "ha comprado",
+          "1p": "hemos comprado",
+          "2p": "habéis comprado",
+          "3p": "han comprado"
+        },
+        "pretérito-indefinido": {
+          "1s": "compré",
+          "2s": "compraste",
+          "3s": "compró",
+          "1p": "compramos",
+          "2p": "comprasteis",
+          "3p": "compraron"
+        },
+        "imperfecto": {
+          "1s": "compraba",
+          "2s": "comprabas",
+          "3s": "compraba",
+          "1p": "comprábamos",
+          "2p": "comprabais",
+          "3p": "compraban"
+        },
+        "futuro": {
+          "1s": "compraré",
+          "2s": "comprarás",
+          "3s": "comprará",
+          "1p": "compraremos",
+          "2p": "compraréis",
+          "3p": "comprarán"
+        },
+        "condicional": {
+          "1s": "compraría",
+          "2s": "comprarías",
+          "3s": "compraría",
+          "1p": "compraríamos",
+          "2p": "compraríais",
+          "3p": "comprarían"
+        },
+        "subjuntivo": {
+          "1s": "compre",
+          "2s": "compres",
+          "3s": "compre",
+          "1p": "compremos",
+          "2p": "compréis",
+          "3p": "compren"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "huevo",
+      "primary_form": "huevo",
+      "gloss": "egg",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "huevos",
+        "example": "Desayuno dos huevos fritos.",
+        "example_en": "I have two fried eggs for breakfast."
+      },
+      "tags": [
+        "food",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "como-esta-usted",
+      "primary_form": "¿cómo está usted?",
+      "gloss": "how are you? (polite)",
+      "extras": {
+        "example": "Buenos días, señora López, ¿cómo está usted?",
+        "example_en": "Good morning, Mrs López, how are you?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "queso",
+      "primary_form": "queso",
+      "gloss": "cheese",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "quesos",
+        "example": "Este queso es de La Mancha.",
+        "example_en": "This cheese is from La Mancha."
+      },
+      "tags": [
+        "food",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "y",
+      "primary_form": "y",
+      "gloss": "and",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Tengo un hermano y una hermana.",
+        "example_en": "I have a brother and a sister."
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fruta",
+      "primary_form": "fruta",
+      "gloss": "fruit",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "frutas",
+        "example": "En verano como mucha fruta.",
+        "example_en": "I eat a lot of fruit in summer."
+      },
+      "tags": [
+        "food",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "tomar",
+      "primary_form": "tomar",
+      "gloss": "to take; to have (food, drink)",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "tomado",
+        "example": "¿Qué vas a tomar?",
+        "example_en": "What are you having?",
+        "note": "Tomar el autobús works everywhere. Coger el autobús is everyday Spain but vulgar in much of Latin America."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "tomo",
+          "2s": "tomas",
+          "3s": "toma",
+          "1p": "tomamos",
+          "2p": "tomáis",
+          "3p": "toman"
+        },
+        "pretérito-perfecto": {
+          "1s": "he tomado",
+          "2s": "has tomado",
+          "3s": "ha tomado",
+          "1p": "hemos tomado",
+          "2p": "habéis tomado",
+          "3p": "han tomado"
+        },
+        "pretérito-indefinido": {
+          "1s": "tomé",
+          "2s": "tomaste",
+          "3s": "tomó",
+          "1p": "tomamos",
+          "2p": "tomasteis",
+          "3p": "tomaron"
+        },
+        "imperfecto": {
+          "1s": "tomaba",
+          "2s": "tomabas",
+          "3s": "tomaba",
+          "1p": "tomábamos",
+          "2p": "tomabais",
+          "3p": "tomaban"
+        },
+        "futuro": {
+          "1s": "tomaré",
+          "2s": "tomarás",
+          "3s": "tomará",
+          "1p": "tomaremos",
+          "2p": "tomaréis",
+          "3p": "tomarán"
+        },
+        "condicional": {
+          "1s": "tomaría",
+          "2s": "tomarías",
+          "3s": "tomaría",
+          "1p": "tomaríamos",
+          "2p": "tomaríais",
+          "3p": "tomarían"
+        },
+        "subjuntivo": {
+          "1s": "tome",
+          "2s": "tomes",
+          "3s": "tome",
+          "1p": "tomemos",
+          "2p": "toméis",
+          "3p": "tomen"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "caliente",
+      "primary_form": "caliente",
+      "gloss": "hot (to the touch)",
+      "extras": {
+        "forms": {
+          "ms": "caliente",
+          "fs": "caliente",
+          "mp": "calientes",
+          "fp": "calientes"
+        },
+        "example": "Cuidado, la sopa está muy caliente.",
+        "example_en": "Careful, the soup is very hot.",
+        "note": "Hot weather is hace calor; spicy food is picante."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "manzana",
+      "primary_form": "manzana",
+      "gloss": "apple",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "manzanas",
+        "example": "Siempre llevo una manzana en el bolso.",
+        "example_en": "I always carry an apple in my bag."
+      },
+      "tags": [
+        "food",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "encantado",
+      "primary_form": "encantado",
+      "gloss": "pleased to meet you",
+      "extras": {
+        "literal": "delighted",
+        "note": "A woman says encantada.",
+        "example": "—Te presento a mi hermana. —Encantado.",
+        "example_en": "\"This is my sister.\" \"Pleased to meet you.\""
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "arroz",
+      "primary_form": "arroz",
+      "gloss": "rice",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "example": "La paella se hace con arroz.",
+        "example_en": "Paella is made with rice."
+      },
+      "tags": [
+        "food",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "necesitar",
+      "primary_form": "necesitar",
+      "gloss": "to need",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "necesitado",
+        "example": "Necesito un taxi para ir al aeropuerto.",
+        "example_en": "I need a taxi to get to the airport."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "necesito",
+          "2s": "necesitas",
+          "3s": "necesita",
+          "1p": "necesitamos",
+          "2p": "necesitáis",
+          "3p": "necesitan"
+        },
+        "pretérito-perfecto": {
+          "1s": "he necesitado",
+          "2s": "has necesitado",
+          "3s": "ha necesitado",
+          "1p": "hemos necesitado",
+          "2p": "habéis necesitado",
+          "3p": "han necesitado"
+        },
+        "pretérito-indefinido": {
+          "1s": "necesité",
+          "2s": "necesitaste",
+          "3s": "necesitó",
+          "1p": "necesitamos",
+          "2p": "necesitasteis",
+          "3p": "necesitaron"
+        },
+        "imperfecto": {
+          "1s": "necesitaba",
+          "2s": "necesitabas",
+          "3s": "necesitaba",
+          "1p": "necesitábamos",
+          "2p": "necesitabais",
+          "3p": "necesitaban"
+        },
+        "futuro": {
+          "1s": "necesitaré",
+          "2s": "necesitarás",
+          "3s": "necesitará",
+          "1p": "necesitaremos",
+          "2p": "necesitaréis",
+          "3p": "necesitarán"
+        },
+        "condicional": {
+          "1s": "necesitaría",
+          "2s": "necesitarías",
+          "3s": "necesitaría",
+          "1p": "necesitaríamos",
+          "2p": "necesitaríais",
+          "3p": "necesitarían"
+        },
+        "subjuntivo": {
+          "1s": "necesite",
+          "2s": "necesites",
+          "3s": "necesite",
+          "1p": "necesitemos",
+          "2p": "necesitéis",
+          "3p": "necesiten"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "desayuno",
+      "primary_form": "desayuno",
+      "gloss": "breakfast",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "desayunos",
+        "example": "El desayuno está en la mesa.",
+        "example_en": "Breakfast is on the table."
+      },
+      "tags": [
+        "food",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "mucho-gusto",
+      "primary_form": "mucho gusto",
+      "gloss": "nice to meet you",
+      "extras": {
+        "literal": "much pleasure",
+        "example": "Mucho gusto, me llamo Andrés.",
+        "example_en": "Nice to meet you, my name's Andrés."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cena",
+      "primary_form": "cena",
+      "gloss": "dinner, supper",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "cenas",
+        "example": "En España la cena es tarde, a las diez.",
+        "example_en": "In Spain dinner is late, at ten."
+      },
+      "tags": [
+        "food",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "frio",
+      "primary_form": "frío",
+      "gloss": "cold",
+      "extras": {
+        "forms": {
+          "ms": "frío",
+          "fs": "fría",
+          "mp": "fríos",
+          "fp": "frías"
+        },
+        "example": "Quiero una cerveza bien fría.",
+        "example_en": "I want a nice cold beer."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "calle",
+      "primary_form": "calle",
+      "gloss": "street",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "calles",
+        "example": "Vivo en la calle Mayor.",
+        "example_en": "I live on Calle Mayor."
+      },
+      "tags": [
+        "city",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "escuchar",
+      "primary_form": "escuchar",
+      "gloss": "to listen to",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "escuchado",
+        "example": "Escucho la radio en el coche.",
+        "example_en": "I listen to the radio in the car."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "escucho",
+          "2s": "escuchas",
+          "3s": "escucha",
+          "1p": "escuchamos",
+          "2p": "escucháis",
+          "3p": "escuchan"
+        },
+        "pretérito-perfecto": {
+          "1s": "he escuchado",
+          "2s": "has escuchado",
+          "3s": "ha escuchado",
+          "1p": "hemos escuchado",
+          "2p": "habéis escuchado",
+          "3p": "han escuchado"
+        },
+        "pretérito-indefinido": {
+          "1s": "escuché",
+          "2s": "escuchaste",
+          "3s": "escuchó",
+          "1p": "escuchamos",
+          "2p": "escuchasteis",
+          "3p": "escucharon"
+        },
+        "imperfecto": {
+          "1s": "escuchaba",
+          "2s": "escuchabas",
+          "3s": "escuchaba",
+          "1p": "escuchábamos",
+          "2p": "escuchabais",
+          "3p": "escuchaban"
+        },
+        "futuro": {
+          "1s": "escucharé",
+          "2s": "escucharás",
+          "3s": "escuchará",
+          "1p": "escucharemos",
+          "2p": "escucharéis",
+          "3p": "escucharán"
+        },
+        "condicional": {
+          "1s": "escucharía",
+          "2s": "escucharías",
+          "3s": "escucharía",
+          "1p": "escucharíamos",
+          "2p": "escucharíais",
+          "3p": "escucharían"
+        },
+        "subjuntivo": {
+          "1s": "escuche",
+          "2s": "escuches",
+          "3s": "escuche",
+          "1p": "escuchemos",
+          "2p": "escuchéis",
+          "3p": "escuchen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "ciudad",
+      "primary_form": "ciudad",
+      "gloss": "city, town",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "ciudades",
+        "example": "Sevilla es una ciudad preciosa.",
+        "example_en": "Seville is a beautiful city."
+      },
+      "tags": [
+        "city",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "como-te-llamas",
+      "primary_form": "¿cómo te llamas?",
+      "gloss": "what's your name?",
+      "extras": {
+        "literal": "how do you call yourself?",
+        "note": "To someone you call usted: ¿cómo se llama?",
+        "example": "Hola, me llamo Lucía. ¿Cómo te llamas?",
+        "example_en": "Hi, I'm Lucía. What's your name?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "plaza",
+      "primary_form": "plaza",
+      "gloss": "square",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "plazas",
+        "example": "Nos vemos en la plaza a las seis.",
+        "example_en": "See you in the square at six."
+      },
+      "tags": [
+        "city",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "facil",
+      "primary_form": "fácil",
+      "gloss": "easy",
+      "extras": {
+        "forms": {
+          "ms": "fácil",
+          "fs": "fácil",
+          "mp": "fáciles",
+          "fp": "fáciles"
+        },
+        "example": "El examen es muy fácil.",
+        "example_en": "The exam is very easy."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "mirar",
+      "primary_form": "mirar",
+      "gloss": "to look at, to watch",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "mirado",
+        "example": "Mira, ahí está el museo.",
+        "example_en": "Look, there's the museum."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "miro",
+          "2s": "miras",
+          "3s": "mira",
+          "1p": "miramos",
+          "2p": "miráis",
+          "3p": "miran"
+        },
+        "pretérito-perfecto": {
+          "1s": "he mirado",
+          "2s": "has mirado",
+          "3s": "ha mirado",
+          "1p": "hemos mirado",
+          "2p": "habéis mirado",
+          "3p": "han mirado"
+        },
+        "pretérito-indefinido": {
+          "1s": "miré",
+          "2s": "miraste",
+          "3s": "miró",
+          "1p": "miramos",
+          "2p": "mirasteis",
+          "3p": "miraron"
+        },
+        "imperfecto": {
+          "1s": "miraba",
+          "2s": "mirabas",
+          "3s": "miraba",
+          "1p": "mirábamos",
+          "2p": "mirabais",
+          "3p": "miraban"
+        },
+        "futuro": {
+          "1s": "miraré",
+          "2s": "mirarás",
+          "3s": "mirará",
+          "1p": "miraremos",
+          "2p": "miraréis",
+          "3p": "mirarán"
+        },
+        "condicional": {
+          "1s": "miraría",
+          "2s": "mirarías",
+          "3s": "miraría",
+          "1p": "miraríamos",
+          "2p": "miraríais",
+          "3p": "mirarían"
+        },
+        "subjuntivo": {
+          "1s": "mire",
+          "2s": "mires",
+          "3s": "mire",
+          "1p": "miremos",
+          "2p": "miréis",
+          "3p": "miren"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "tienda",
+      "primary_form": "tienda",
+      "gloss": "shop",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "tiendas",
+        "example": "La tienda abre a las diez.",
+        "example_en": "The shop opens at ten."
+      },
+      "tags": [
+        "city",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "de-donde-eres",
+      "primary_form": "¿de dónde eres?",
+      "gloss": "where are you from?",
+      "extras": {
+        "literal": "from where are you?",
+        "example": "Hablas muy bien español. ¿De dónde eres?",
+        "example_en": "You speak Spanish very well. Where are you from?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "banco",
+      "primary_form": "banco",
+      "gloss": "bank; bench",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "bancos",
+        "example": "El banco cierra a las dos.",
+        "example_en": "The bank closes at two.",
+        "note": "Also a bench in a park."
+      },
+      "tags": [
+        "city",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "colegio",
+      "primary_form": "colegio",
+      "gloss": "school",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "colegios",
+        "example": "Los niños van al colegio a pie.",
+        "example_en": "The children walk to school.",
+        "note": "For children; a secondary school is un instituto."
+      },
+      "tags": [
+        "city",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "buscar",
+      "primary_form": "buscar",
+      "gloss": "to look for",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "buscado",
+        "example": "Busco un piso en el centro.",
+        "example_en": "I'm looking for a flat in the centre.",
+        "note": "No word for \"for\": busco las llaves."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "busco",
+          "2s": "buscas",
+          "3s": "busca",
+          "1p": "buscamos",
+          "2p": "buscáis",
+          "3p": "buscan"
+        },
+        "pretérito-perfecto": {
+          "1s": "he buscado",
+          "2s": "has buscado",
+          "3s": "ha buscado",
+          "1p": "hemos buscado",
+          "2p": "habéis buscado",
+          "3p": "han buscado"
+        },
+        "pretérito-indefinido": {
+          "1s": "busqué",
+          "2s": "buscaste",
+          "3s": "buscó",
+          "1p": "buscamos",
+          "2p": "buscasteis",
+          "3p": "buscaron"
+        },
+        "imperfecto": {
+          "1s": "buscaba",
+          "2s": "buscabas",
+          "3s": "buscaba",
+          "1p": "buscábamos",
+          "2p": "buscabais",
+          "3p": "buscaban"
+        },
+        "futuro": {
+          "1s": "buscaré",
+          "2s": "buscarás",
+          "3s": "buscará",
+          "1p": "buscaremos",
+          "2p": "buscaréis",
+          "3p": "buscarán"
+        },
+        "condicional": {
+          "1s": "buscaría",
+          "2s": "buscarías",
+          "3s": "buscaría",
+          "1p": "buscaríamos",
+          "2p": "buscaríais",
+          "3p": "buscarían"
+        },
+        "subjuntivo": {
+          "1s": "busque",
+          "2s": "busques",
+          "3s": "busque",
+          "1p": "busquemos",
+          "2p": "busquéis",
+          "3p": "busquen"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "dificil",
+      "primary_form": "difícil",
+      "gloss": "difficult, hard",
+      "extras": {
+        "forms": {
+          "ms": "difícil",
+          "fs": "difícil",
+          "mp": "difíciles",
+          "fp": "difíciles"
+        },
+        "example": "El español no es tan difícil.",
+        "example_en": "Spanish isn't that hard."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "hospital",
+      "primary_form": "hospital",
+      "gloss": "hospital",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "hospitales",
+        "example": "El hospital está al final de la calle.",
+        "example_en": "The hospital is at the end of the street."
+      },
+      "tags": [
+        "city",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "no-entiendo",
+      "primary_form": "no entiendo",
+      "gloss": "I don't understand",
+      "extras": {
+        "example": "Perdona, no entiendo. ¿Hablas inglés?",
+        "example_en": "Sorry, I don't understand. Do you speak English?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "restaurante",
+      "primary_form": "restaurante",
+      "gloss": "restaurant",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "restaurantes",
+        "example": "Conozco un restaurante muy bueno.",
+        "example_en": "I know a very good restaurant."
+      },
+      "tags": [
+        "city",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "o",
+      "primary_form": "o",
+      "gloss": "or",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "¿Quieres té o café?",
+        "example_en": "Do you want tea or coffee?"
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "llegar",
+      "primary_form": "llegar",
+      "gloss": "to arrive",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "llegado",
+        "example": "El tren llega a las tres.",
+        "example_en": "The train arrives at three."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "llego",
+          "2s": "llegas",
+          "3s": "llega",
+          "1p": "llegamos",
+          "2p": "llegáis",
+          "3p": "llegan"
+        },
+        "pretérito-perfecto": {
+          "1s": "he llegado",
+          "2s": "has llegado",
+          "3s": "ha llegado",
+          "1p": "hemos llegado",
+          "2p": "habéis llegado",
+          "3p": "han llegado"
+        },
+        "pretérito-indefinido": {
+          "1s": "llegué",
+          "2s": "llegaste",
+          "3s": "llegó",
+          "1p": "llegamos",
+          "2p": "llegasteis",
+          "3p": "llegaron"
+        },
+        "imperfecto": {
+          "1s": "llegaba",
+          "2s": "llegabas",
+          "3s": "llegaba",
+          "1p": "llegábamos",
+          "2p": "llegabais",
+          "3p": "llegaban"
+        },
+        "futuro": {
+          "1s": "llegaré",
+          "2s": "llegarás",
+          "3s": "llegará",
+          "1p": "llegaremos",
+          "2p": "llegaréis",
+          "3p": "llegarán"
+        },
+        "condicional": {
+          "1s": "llegaría",
+          "2s": "llegarías",
+          "3s": "llegaría",
+          "1p": "llegaríamos",
+          "2p": "llegaríais",
+          "3p": "llegarían"
+        },
+        "subjuntivo": {
+          "1s": "llegue",
+          "2s": "llegues",
+          "3s": "llegue",
+          "1p": "lleguemos",
+          "2p": "lleguéis",
+          "3p": "lleguen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "estacion",
+      "primary_form": "estación",
+      "gloss": "station",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "estaciones",
+        "example": "¿Dónde está la estación de tren?",
+        "example_en": "Where's the train station?"
+      },
+      "tags": [
+        "city",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "puede-repetir",
+      "primary_form": "¿puede repetir?",
+      "gloss": "could you say that again?",
+      "extras": {
+        "literal": "can you repeat?",
+        "note": "To a friend: ¿puedes repetir?",
+        "example": "Perdone, ¿puede repetir el número?",
+        "example_en": "Sorry, could you repeat the number?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mercado",
+      "primary_form": "mercado",
+      "gloss": "market",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "mercados",
+        "example": "Compro la fruta en el mercado.",
+        "example_en": "I buy my fruit at the market."
+      },
+      "tags": [
+        "city",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "caro",
+      "primary_form": "caro",
+      "gloss": "expensive",
+      "extras": {
+        "forms": {
+          "ms": "caro",
+          "fs": "cara",
+          "mp": "caros",
+          "fp": "caras"
+        },
+        "example": "Los restaurantes del centro son muy caros.",
+        "example_en": "The restaurants in the centre are very expensive."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "iglesia",
+      "primary_form": "iglesia",
+      "gloss": "church",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "iglesias",
+        "example": "La iglesia es del siglo XII.",
+        "example_en": "The church dates from the 12th century."
+      },
+      "tags": [
+        "city",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "abrir",
+      "primary_form": "abrir",
+      "gloss": "to open",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "abierto",
+        "example": "¿A qué hora abre el banco?",
+        "example_en": "What time does the bank open?"
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "abro",
+          "2s": "abres",
+          "3s": "abre",
+          "1p": "abrimos",
+          "2p": "abrís",
+          "3p": "abren"
+        },
+        "pretérito-perfecto": {
+          "1s": "he abierto",
+          "2s": "has abierto",
+          "3s": "ha abierto",
+          "1p": "hemos abierto",
+          "2p": "habéis abierto",
+          "3p": "han abierto"
+        },
+        "pretérito-indefinido": {
+          "1s": "abrí",
+          "2s": "abriste",
+          "3s": "abrió",
+          "1p": "abrimos",
+          "2p": "abristeis",
+          "3p": "abrieron"
+        },
+        "imperfecto": {
+          "1s": "abría",
+          "2s": "abrías",
+          "3s": "abría",
+          "1p": "abríamos",
+          "2p": "abríais",
+          "3p": "abrían"
+        },
+        "futuro": {
+          "1s": "abriré",
+          "2s": "abrirás",
+          "3s": "abrirá",
+          "1p": "abriremos",
+          "2p": "abriréis",
+          "3p": "abrirán"
+        },
+        "condicional": {
+          "1s": "abriría",
+          "2s": "abrirías",
+          "3s": "abriría",
+          "1p": "abriríamos",
+          "2p": "abriríais",
+          "3p": "abrirían"
+        },
+        "subjuntivo": {
+          "1s": "abra",
+          "2s": "abras",
+          "3s": "abra",
+          "1p": "abramos",
+          "2p": "abráis",
+          "3p": "abran"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "museo",
+      "primary_form": "museo",
+      "gloss": "museum",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "museos",
+        "example": "El museo del Prado está en Madrid.",
+        "example_en": "The Prado museum is in Madrid."
+      },
+      "tags": [
+        "city",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "mas-despacio-por-favor",
+      "primary_form": "más despacio, por favor",
+      "gloss": "slower, please",
+      "extras": {
+        "literal": "more slowly, please",
+        "example": "Más despacio, por favor; estoy aprendiendo español.",
+        "example_en": "Slower, please; I'm learning Spanish."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "parque",
+      "primary_form": "parque",
+      "gloss": "park",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "parques",
+        "example": "Los niños juegan en el parque.",
+        "example_en": "The children are playing in the park."
+      },
+      "tags": [
+        "city",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "barato",
+      "primary_form": "barato",
+      "gloss": "cheap",
+      "extras": {
+        "forms": {
+          "ms": "barato",
+          "fs": "barata",
+          "mp": "baratos",
+          "fp": "baratas"
+        },
+        "example": "La fruta es barata en el mercado.",
+        "example_en": "Fruit is cheap at the market."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "escribir",
+      "primary_form": "escribir",
+      "gloss": "to write",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "escrito",
+        "example": "Escribo un correo a mi jefe.",
+        "example_en": "I'm writing an email to my boss."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "escribo",
+          "2s": "escribes",
+          "3s": "escribe",
+          "1p": "escribimos",
+          "2p": "escribís",
+          "3p": "escriben"
+        },
+        "pretérito-perfecto": {
+          "1s": "he escrito",
+          "2s": "has escrito",
+          "3s": "ha escrito",
+          "1p": "hemos escrito",
+          "2p": "habéis escrito",
+          "3p": "han escrito"
+        },
+        "pretérito-indefinido": {
+          "1s": "escribí",
+          "2s": "escribiste",
+          "3s": "escribió",
+          "1p": "escribimos",
+          "2p": "escribisteis",
+          "3p": "escribieron"
+        },
+        "imperfecto": {
+          "1s": "escribía",
+          "2s": "escribías",
+          "3s": "escribía",
+          "1p": "escribíamos",
+          "2p": "escribíais",
+          "3p": "escribían"
+        },
+        "futuro": {
+          "1s": "escribiré",
+          "2s": "escribirás",
+          "3s": "escribirá",
+          "1p": "escribiremos",
+          "2p": "escribiréis",
+          "3p": "escribirán"
+        },
+        "condicional": {
+          "1s": "escribiría",
+          "2s": "escribirías",
+          "3s": "escribiría",
+          "1p": "escribiríamos",
+          "2p": "escribiríais",
+          "3p": "escribirían"
+        },
+        "subjuntivo": {
+          "1s": "escriba",
+          "2s": "escribas",
+          "3s": "escriba",
+          "1p": "escribamos",
+          "2p": "escribáis",
+          "3p": "escriban"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "farmacia",
+      "primary_form": "farmacia",
+      "gloss": "pharmacy, chemist's",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "farmacias",
+        "example": "¿Hay una farmacia cerca de aquí?",
+        "example_en": "Is there a pharmacy near here?"
+      },
+      "tags": [
+        "city",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "no-se",
+      "primary_form": "no sé",
+      "gloss": "I don't know",
+      "extras": {
+        "example": "—¿A qué hora abre el museo? —No sé.",
+        "example_en": "\"What time does the museum open?\" \"I don't know.\""
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "hotel",
+      "primary_form": "hotel",
+      "gloss": "hotel",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "hoteles",
+        "example": "El hotel está cerca de la playa.",
+        "example_en": "The hotel is near the beach."
+      },
+      "tags": [
+        "city",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "dia",
+      "primary_form": "día",
+      "gloss": "day",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "días",
+        "example": "Hoy es un día precioso.",
+        "example_en": "It's a beautiful day today.",
+        "note": "Masculine, though it ends in -a: buenos días."
+      },
+      "tags": [
+        "time",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "leer",
+      "primary_form": "leer",
+      "gloss": "to read",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "leído",
+        "example": "Leo el periódico en el tren.",
+        "example_en": "I read the newspaper on the train."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "leo",
+          "2s": "lees",
+          "3s": "lee",
+          "1p": "leemos",
+          "2p": "leéis",
+          "3p": "leen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he leído",
+          "2s": "has leído",
+          "3s": "ha leído",
+          "1p": "hemos leído",
+          "2p": "habéis leído",
+          "3p": "han leído"
+        },
+        "pretérito-indefinido": {
+          "1s": "leí",
+          "2s": "leíste",
+          "3s": "leyó",
+          "1p": "leímos",
+          "2p": "leísteis",
+          "3p": "leyeron"
+        },
+        "imperfecto": {
+          "1s": "leía",
+          "2s": "leías",
+          "3s": "leía",
+          "1p": "leíamos",
+          "2p": "leíais",
+          "3p": "leían"
+        },
+        "futuro": {
+          "1s": "leeré",
+          "2s": "leerás",
+          "3s": "leerá",
+          "1p": "leeremos",
+          "2p": "leeréis",
+          "3p": "leerán"
+        },
+        "condicional": {
+          "1s": "leería",
+          "2s": "leerías",
+          "3s": "leería",
+          "1p": "leeríamos",
+          "2p": "leeríais",
+          "3p": "leerían"
+        },
+        "subjuntivo": {
+          "1s": "lea",
+          "2s": "leas",
+          "3s": "lea",
+          "1p": "leamos",
+          "2p": "leáis",
+          "3p": "lean"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "cuanto-cuesta",
+      "primary_form": "¿cuánto cuesta?",
+      "gloss": "how much is it?",
+      "extras": {
+        "literal": "how much does it cost?",
+        "note": "For several things: ¿cuánto cuestan?",
+        "example": "¿Cuánto cuesta este libro?",
+        "example_en": "How much is this book?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "semana",
+      "primary_form": "semana",
+      "gloss": "week",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "semanas",
+        "example": "Trabajo cinco días a la semana.",
+        "example_en": "I work five days a week."
+      },
+      "tags": [
+        "time",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "espanol",
+      "primary_form": "español",
+      "gloss": "Spanish",
+      "extras": {
+        "forms": {
+          "ms": "español",
+          "fs": "española",
+          "mp": "españoles",
+          "fp": "españolas"
+        },
+        "example": "Mi mujer es española.",
+        "example_en": "My wife is Spanish.",
+        "note": "No capital letter. The language is el español, or el castellano."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mes",
+      "primary_form": "mes",
+      "gloss": "month",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "meses",
+        "example": "El mes que viene voy a Lisboa.",
+        "example_en": "Next month I'm going to Lisbon."
+      },
+      "tags": [
+        "time",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "aprender",
+      "primary_form": "aprender",
+      "gloss": "to learn",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "aprendido",
+        "example": "Aprendo español en una academia.",
+        "example_en": "I'm learning Spanish at a language school."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "aprendo",
+          "2s": "aprendes",
+          "3s": "aprende",
+          "1p": "aprendemos",
+          "2p": "aprendéis",
+          "3p": "aprenden"
+        },
+        "pretérito-perfecto": {
+          "1s": "he aprendido",
+          "2s": "has aprendido",
+          "3s": "ha aprendido",
+          "1p": "hemos aprendido",
+          "2p": "habéis aprendido",
+          "3p": "han aprendido"
+        },
+        "pretérito-indefinido": {
+          "1s": "aprendí",
+          "2s": "aprendiste",
+          "3s": "aprendió",
+          "1p": "aprendimos",
+          "2p": "aprendisteis",
+          "3p": "aprendieron"
+        },
+        "imperfecto": {
+          "1s": "aprendía",
+          "2s": "aprendías",
+          "3s": "aprendía",
+          "1p": "aprendíamos",
+          "2p": "aprendíais",
+          "3p": "aprendían"
+        },
+        "futuro": {
+          "1s": "aprenderé",
+          "2s": "aprenderás",
+          "3s": "aprenderá",
+          "1p": "aprenderemos",
+          "2p": "aprenderéis",
+          "3p": "aprenderán"
+        },
+        "condicional": {
+          "1s": "aprendería",
+          "2s": "aprenderías",
+          "3s": "aprendería",
+          "1p": "aprenderíamos",
+          "2p": "aprenderíais",
+          "3p": "aprenderían"
+        },
+        "subjuntivo": {
+          "1s": "aprenda",
+          "2s": "aprendas",
+          "3s": "aprenda",
+          "1p": "aprendamos",
+          "2p": "aprendáis",
+          "3p": "aprendan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "ano",
+      "primary_form": "año",
+      "gloss": "year",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "años",
+        "example": "Tengo treinta años.",
+        "example_en": "I'm thirty.",
+        "note": "Age goes with tener: tengo treinta años."
+      },
+      "tags": [
+        "time",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "la-cuenta-por-favor",
+      "primary_form": "la cuenta, por favor",
+      "gloss": "the bill, please",
+      "extras": {
+        "note": "In Spain the bill rarely comes until you ask for it.",
+        "example": "Camarero, la cuenta, por favor.",
+        "example_en": "Waiter, the bill, please."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "hora",
+      "primary_form": "hora",
+      "gloss": "hour; time",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "horas",
+        "example": "¿Qué hora es?",
+        "example_en": "What time is it?"
+      },
+      "tags": [
+        "time",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "rojo",
+      "primary_form": "rojo",
+      "gloss": "red",
+      "extras": {
+        "forms": {
+          "ms": "rojo",
+          "fs": "roja",
+          "mp": "rojos",
+          "fp": "rojas"
+        },
+        "example": "Tengo un coche rojo.",
+        "example_en": "I have a red car."
+      },
+      "tags": [
+        "adjetivos",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "minuto",
+      "primary_form": "minuto",
+      "gloss": "minute",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "minutos",
+        "example": "El autobús llega en cinco minutos.",
+        "example_en": "The bus arrives in five minutes."
+      },
+      "tags": [
+        "time",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "entender",
+      "primary_form": "entender",
+      "gloss": "to understand",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "entendido",
+        "example": "No entiendo esta palabra.",
+        "example_en": "I don't understand this word."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "entiendo",
+          "2s": "entiendes",
+          "3s": "entiende",
+          "1p": "entendemos",
+          "2p": "entendéis",
+          "3p": "entienden"
+        },
+        "pretérito-perfecto": {
+          "1s": "he entendido",
+          "2s": "has entendido",
+          "3s": "ha entendido",
+          "1p": "hemos entendido",
+          "2p": "habéis entendido",
+          "3p": "han entendido"
+        },
+        "pretérito-indefinido": {
+          "1s": "entendí",
+          "2s": "entendiste",
+          "3s": "entendió",
+          "1p": "entendimos",
+          "2p": "entendisteis",
+          "3p": "entendieron"
+        },
+        "imperfecto": {
+          "1s": "entendía",
+          "2s": "entendías",
+          "3s": "entendía",
+          "1p": "entendíamos",
+          "2p": "entendíais",
+          "3p": "entendían"
+        },
+        "futuro": {
+          "1s": "entenderé",
+          "2s": "entenderás",
+          "3s": "entenderá",
+          "1p": "entenderemos",
+          "2p": "entenderéis",
+          "3p": "entenderán"
+        },
+        "condicional": {
+          "1s": "entendería",
+          "2s": "entenderías",
+          "3s": "entendería",
+          "1p": "entenderíamos",
+          "2p": "entenderíais",
+          "3p": "entenderían"
+        },
+        "subjuntivo": {
+          "1s": "entienda",
+          "2s": "entiendas",
+          "3s": "entienda",
+          "1p": "entendamos",
+          "2p": "entendáis",
+          "3p": "entiendan"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "donde-esta-el-bano",
+      "primary_form": "¿dónde está el baño?",
+      "gloss": "where's the toilet?",
+      "extras": {
+        "literal": "where is the bathroom?",
+        "note": "In bars and restaurants you'll also see los servicios or los aseos.",
+        "example": "Perdone, ¿dónde está el baño?",
+        "example_en": "Excuse me, where's the toilet?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "manana",
+      "primary_form": "mañana",
+      "gloss": "morning",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "mañanas",
+        "example": "Trabajo por la mañana.",
+        "example_en": "I work in the morning.",
+        "note": "Without an article, mañana means \"tomorrow\"."
+      },
+      "tags": [
+        "time",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "cuando",
+      "primary_form": "cuando",
+      "gloss": "when",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Leo cuando llueve.",
+        "example_en": "I read when it rains.",
+        "example_alternatives": [
+          "Cuando llueve, leo."
+        ]
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "tarde",
+      "primary_form": "tarde",
+      "gloss": "afternoon, evening",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "tardes",
+        "example": "Por la tarde voy al gimnasio.",
+        "example_en": "In the afternoon I go to the gym.",
+        "note": "As an adverb, tarde means \"late\": llego tarde."
+      },
+      "tags": [
+        "time",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "pensar",
+      "primary_form": "pensar",
+      "gloss": "to think",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "pensado",
+        "example": "¿Qué piensas de mi idea?",
+        "example_en": "What do you think of my idea?",
+        "note": "Pensar en: to think about."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "pienso",
+          "2s": "piensas",
+          "3s": "piensa",
+          "1p": "pensamos",
+          "2p": "pensáis",
+          "3p": "piensan"
+        },
+        "pretérito-perfecto": {
+          "1s": "he pensado",
+          "2s": "has pensado",
+          "3s": "ha pensado",
+          "1p": "hemos pensado",
+          "2p": "habéis pensado",
+          "3p": "han pensado"
+        },
+        "pretérito-indefinido": {
+          "1s": "pensé",
+          "2s": "pensaste",
+          "3s": "pensó",
+          "1p": "pensamos",
+          "2p": "pensasteis",
+          "3p": "pensaron"
+        },
+        "imperfecto": {
+          "1s": "pensaba",
+          "2s": "pensabas",
+          "3s": "pensaba",
+          "1p": "pensábamos",
+          "2p": "pensabais",
+          "3p": "pensaban"
+        },
+        "futuro": {
+          "1s": "pensaré",
+          "2s": "pensarás",
+          "3s": "pensará",
+          "1p": "pensaremos",
+          "2p": "pensaréis",
+          "3p": "pensarán"
+        },
+        "condicional": {
+          "1s": "pensaría",
+          "2s": "pensarías",
+          "3s": "pensaría",
+          "1p": "pensaríamos",
+          "2p": "pensaríais",
+          "3p": "pensarían"
+        },
+        "subjuntivo": {
+          "1s": "piense",
+          "2s": "pienses",
+          "3s": "piense",
+          "1p": "pensemos",
+          "2p": "penséis",
+          "3p": "piensen"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "azul",
+      "primary_form": "azul",
+      "gloss": "blue",
+      "extras": {
+        "forms": {
+          "ms": "azul",
+          "fs": "azul",
+          "mp": "azules",
+          "fp": "azules"
+        },
+        "example": "Tienes unos ojos azules preciosos.",
+        "example_en": "You have beautiful blue eyes."
+      },
+      "tags": [
+        "adjetivos",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "lunes",
+      "primary_form": "lunes",
+      "gloss": "Monday",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "lunes",
+        "example": "El lunes empiezo un trabajo nuevo.",
+        "example_en": "I start a new job on Monday.",
+        "note": "No capital letter, and no word for \"on\": el lunes."
+      },
+      "tags": [
+        "time",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "que-es-esto",
+      "primary_form": "¿qué es esto?",
+      "gloss": "what's this?",
+      "extras": {
+        "example": "¿Qué es esto? ¿Es pescado o carne?",
+        "example_en": "What's this? Is it fish or meat?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "martes",
+      "primary_form": "martes",
+      "gloss": "Tuesday",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "martes",
+        "example": "Los martes tengo clase de inglés.",
+        "example_en": "I have English class on Tuesdays."
+      },
+      "tags": [
+        "time",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "miercoles",
+      "primary_form": "miércoles",
+      "gloss": "Wednesday",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "miércoles",
+        "example": "El miércoles es el cumpleaños de mi madre.",
+        "example_en": "Wednesday is my mother's birthday."
+      },
+      "tags": [
+        "time",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "empezar",
+      "primary_form": "empezar",
+      "gloss": "to begin, to start",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "empezado",
+        "example": "La clase empieza a las nueve.",
+        "example_en": "The class starts at nine."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "empiezo",
+          "2s": "empiezas",
+          "3s": "empieza",
+          "1p": "empezamos",
+          "2p": "empezáis",
+          "3p": "empiezan"
+        },
+        "pretérito-perfecto": {
+          "1s": "he empezado",
+          "2s": "has empezado",
+          "3s": "ha empezado",
+          "1p": "hemos empezado",
+          "2p": "habéis empezado",
+          "3p": "han empezado"
+        },
+        "pretérito-indefinido": {
+          "1s": "empecé",
+          "2s": "empezaste",
+          "3s": "empezó",
+          "1p": "empezamos",
+          "2p": "empezasteis",
+          "3p": "empezaron"
+        },
+        "imperfecto": {
+          "1s": "empezaba",
+          "2s": "empezabas",
+          "3s": "empezaba",
+          "1p": "empezábamos",
+          "2p": "empezabais",
+          "3p": "empezaban"
+        },
+        "futuro": {
+          "1s": "empezaré",
+          "2s": "empezarás",
+          "3s": "empezará",
+          "1p": "empezaremos",
+          "2p": "empezaréis",
+          "3p": "empezarán"
+        },
+        "condicional": {
+          "1s": "empezaría",
+          "2s": "empezarías",
+          "3s": "empezaría",
+          "1p": "empezaríamos",
+          "2p": "empezaríais",
+          "3p": "empezarían"
+        },
+        "subjuntivo": {
+          "1s": "empiece",
+          "2s": "empieces",
+          "3s": "empiece",
+          "1p": "empecemos",
+          "2p": "empecéis",
+          "3p": "empiecen"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "a-que-hora",
+      "primary_form": "¿a qué hora?",
+      "gloss": "at what time?",
+      "extras": {
+        "example": "¿A qué hora empieza la película?",
+        "example_en": "What time does the film start?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "jueves",
+      "primary_form": "jueves",
+      "gloss": "Thursday",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "jueves",
+        "example": "Los jueves salimos a cenar.",
+        "example_en": "On Thursdays we go out for dinner."
+      },
+      "tags": [
+        "time",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "verde",
+      "primary_form": "verde",
+      "gloss": "green",
+      "extras": {
+        "forms": {
+          "ms": "verde",
+          "fs": "verde",
+          "mp": "verdes",
+          "fp": "verdes"
+        },
+        "example": "Las manzanas verdes son mis favoritas.",
+        "example_en": "Green apples are my favourites."
+      },
+      "tags": [
+        "adjetivos",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "viernes",
+      "primary_form": "viernes",
+      "gloss": "Friday",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "viernes",
+        "example": "El viernes por la noche hay un concierto.",
+        "example_en": "There's a concert on Friday night."
+      },
+      "tags": [
+        "time",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "volver",
+      "primary_form": "volver",
+      "gloss": "to come back, to return",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "vuelto",
+        "example": "Vuelvo a casa a las siete.",
+        "example_en": "I get back home at seven.",
+        "note": "Volver a + infinitive means doing something again: vuelvo a llamar."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "vuelvo",
+          "2s": "vuelves",
+          "3s": "vuelve",
+          "1p": "volvemos",
+          "2p": "volvéis",
+          "3p": "vuelven"
+        },
+        "pretérito-perfecto": {
+          "1s": "he vuelto",
+          "2s": "has vuelto",
+          "3s": "ha vuelto",
+          "1p": "hemos vuelto",
+          "2p": "habéis vuelto",
+          "3p": "han vuelto"
+        },
+        "pretérito-indefinido": {
+          "1s": "volví",
+          "2s": "volviste",
+          "3s": "volvió",
+          "1p": "volvimos",
+          "2p": "volvisteis",
+          "3p": "volvieron"
+        },
+        "imperfecto": {
+          "1s": "volvía",
+          "2s": "volvías",
+          "3s": "volvía",
+          "1p": "volvíamos",
+          "2p": "volvíais",
+          "3p": "volvían"
+        },
+        "futuro": {
+          "1s": "volveré",
+          "2s": "volverás",
+          "3s": "volverá",
+          "1p": "volveremos",
+          "2p": "volveréis",
+          "3p": "volverán"
+        },
+        "condicional": {
+          "1s": "volvería",
+          "2s": "volverías",
+          "3s": "volvería",
+          "1p": "volveríamos",
+          "2p": "volveríais",
+          "3p": "volverían"
+        },
+        "subjuntivo": {
+          "1s": "vuelva",
+          "2s": "vuelvas",
+          "3s": "vuelva",
+          "1p": "volvamos",
+          "2p": "volváis",
+          "3p": "vuelvan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "sabado",
+      "primary_form": "sábado",
+      "gloss": "Saturday",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "sábados",
+        "example": "El sábado vamos a la playa.",
+        "example_en": "On Saturday we're going to the beach."
+      },
+      "tags": [
+        "time",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "que-aproveche",
+      "primary_form": "¡que aproveche!",
+      "gloss": "enjoy your meal",
+      "extras": {
+        "literal": "may it do you good",
+        "note": "Said to anyone you see eating, even strangers. Also ¡buen provecho!",
+        "example": "Aquí tenéis la paella. ¡Que aproveche!",
+        "example_en": "Here's your paella. Enjoy your meal!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "domingo",
+      "primary_form": "domingo",
+      "gloss": "Sunday",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "domingos",
+        "example": "Los domingos como con mi familia.",
+        "example_en": "On Sundays I have lunch with my family."
+      },
+      "tags": [
+        "time",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "amarillo",
+      "primary_form": "amarillo",
+      "gloss": "yellow",
+      "extras": {
+        "forms": {
+          "ms": "amarillo",
+          "fs": "amarilla",
+          "mp": "amarillos",
+          "fp": "amarillas"
+        },
+        "example": "Me gustan las flores amarillas.",
+        "example_en": "I like yellow flowers."
+      },
+      "tags": [
+        "adjetivos",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "piso",
+      "primary_form": "piso",
+      "gloss": "flat, apartment; floor",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "pisos",
+        "example": "Vivimos en un piso del centro.",
+        "example_en": "We live in a flat in the centre.",
+        "note": "Latin America: el departamento or el apartamento."
+      },
+      "tags": [
+        "home",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "dormir",
+      "primary_form": "dormir",
+      "gloss": "to sleep",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "dormido",
+        "example": "Duermo muy mal en verano.",
+        "example_en": "I sleep very badly in summer."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "duermo",
+          "2s": "duermes",
+          "3s": "duerme",
+          "1p": "dormimos",
+          "2p": "dormís",
+          "3p": "duermen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he dormido",
+          "2s": "has dormido",
+          "3s": "ha dormido",
+          "1p": "hemos dormido",
+          "2p": "habéis dormido",
+          "3p": "han dormido"
+        },
+        "pretérito-indefinido": {
+          "1s": "dormí",
+          "2s": "dormiste",
+          "3s": "durmió",
+          "1p": "dormimos",
+          "2p": "dormisteis",
+          "3p": "durmieron"
+        },
+        "imperfecto": {
+          "1s": "dormía",
+          "2s": "dormías",
+          "3s": "dormía",
+          "1p": "dormíamos",
+          "2p": "dormíais",
+          "3p": "dormían"
+        },
+        "futuro": {
+          "1s": "dormiré",
+          "2s": "dormirás",
+          "3s": "dormirá",
+          "1p": "dormiremos",
+          "2p": "dormiréis",
+          "3p": "dormirán"
+        },
+        "condicional": {
+          "1s": "dormiría",
+          "2s": "dormirías",
+          "3s": "dormiría",
+          "1p": "dormiríamos",
+          "2p": "dormiríais",
+          "3p": "dormirían"
+        },
+        "subjuntivo": {
+          "1s": "duerma",
+          "2s": "duermas",
+          "3s": "duerma",
+          "1p": "durmamos",
+          "2p": "durmáis",
+          "3p": "duerman"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "salud",
+      "primary_form": "¡salud!",
+      "gloss": "cheers!; bless you!",
+      "extras": {
+        "literal": "health!",
+        "note": "Also what you say when someone sneezes.",
+        "example": "¡Salud! Por los novios.",
+        "example_en": "Cheers! To the bride and groom."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cocina",
+      "primary_form": "cocina",
+      "gloss": "kitchen; cooking",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "cocinas",
+        "example": "La cocina es pequeña pero muy bonita.",
+        "example_en": "The kitchen is small but very pretty."
+      },
+      "tags": [
+        "home",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "bano",
+      "primary_form": "baño",
+      "gloss": "bathroom, toilet",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "baños",
+        "example": "El piso tiene dos baños.",
+        "example_en": "The flat has two bathrooms."
+      },
+      "tags": [
+        "home",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "pedir",
+      "primary_form": "pedir",
+      "gloss": "to ask for; to order",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "pedido",
+        "example": "Voy a pedir una paella.",
+        "example_en": "I'm going to order a paella.",
+        "note": "Pedir asks for a thing; preguntar asks a question."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "pido",
+          "2s": "pides",
+          "3s": "pide",
+          "1p": "pedimos",
+          "2p": "pedís",
+          "3p": "piden"
+        },
+        "pretérito-perfecto": {
+          "1s": "he pedido",
+          "2s": "has pedido",
+          "3s": "ha pedido",
+          "1p": "hemos pedido",
+          "2p": "habéis pedido",
+          "3p": "han pedido"
+        },
+        "pretérito-indefinido": {
+          "1s": "pedí",
+          "2s": "pediste",
+          "3s": "pidió",
+          "1p": "pedimos",
+          "2p": "pedisteis",
+          "3p": "pidieron"
+        },
+        "imperfecto": {
+          "1s": "pedía",
+          "2s": "pedías",
+          "3s": "pedía",
+          "1p": "pedíamos",
+          "2p": "pedíais",
+          "3p": "pedían"
+        },
+        "futuro": {
+          "1s": "pediré",
+          "2s": "pedirás",
+          "3s": "pedirá",
+          "1p": "pediremos",
+          "2p": "pediréis",
+          "3p": "pedirán"
+        },
+        "condicional": {
+          "1s": "pediría",
+          "2s": "pedirías",
+          "3s": "pediría",
+          "1p": "pediríamos",
+          "2p": "pediríais",
+          "3p": "pedirían"
+        },
+        "subjuntivo": {
+          "1s": "pida",
+          "2s": "pidas",
+          "3s": "pida",
+          "1p": "pidamos",
+          "2p": "pidáis",
+          "3p": "pidan"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "bienvenido",
+      "primary_form": "bienvenido",
+      "gloss": "welcome",
+      "extras": {
+        "literal": "well come",
+        "note": "To a woman, bienvenida; to a group, bienvenidos.",
+        "example": "Bienvenido a Madrid.",
+        "example_en": "Welcome to Madrid."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "habitacion",
+      "primary_form": "habitación",
+      "gloss": "room; bedroom",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "habitaciones",
+        "example": "Mi habitación da a la calle.",
+        "example_en": "My bedroom looks onto the street."
+      },
+      "tags": [
+        "home",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "negro",
+      "primary_form": "negro",
+      "gloss": "black",
+      "extras": {
+        "forms": {
+          "ms": "negro",
+          "fs": "negra",
+          "mp": "negros",
+          "fp": "negras"
+        },
+        "example": "Tengo un gato negro.",
+        "example_en": "I have a black cat."
+      },
+      "tags": [
+        "adjetivos",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cama",
+      "primary_form": "cama",
+      "gloss": "bed",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "camas",
+        "example": "Me voy a la cama, estoy cansada.",
+        "example_en": "I'm off to bed, I'm tired."
+      },
+      "tags": [
+        "home",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "si",
+      "primary_form": "si",
+      "gloss": "if",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Salimos si quieres.",
+        "example_en": "We'll go out if you want.",
+        "example_alternatives": [
+          "Si quieres, salimos."
+        ]
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "jardin",
+      "primary_form": "jardín",
+      "gloss": "garden",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "jardines",
+        "example": "Mis abuelos tienen un jardín con flores.",
+        "example_en": "My grandparents have a garden with flowers."
+      },
+      "tags": [
+        "home",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "jugar",
+      "primary_form": "jugar",
+      "gloss": "to play (a game, a sport)",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "jugado",
+        "example": "Los sábados juego al fútbol.",
+        "example_en": "On Saturdays I play football.",
+        "note": "An instrument takes tocar: toco la guitarra."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "juego",
+          "2s": "juegas",
+          "3s": "juega",
+          "1p": "jugamos",
+          "2p": "jugáis",
+          "3p": "juegan"
+        },
+        "pretérito-perfecto": {
+          "1s": "he jugado",
+          "2s": "has jugado",
+          "3s": "ha jugado",
+          "1p": "hemos jugado",
+          "2p": "habéis jugado",
+          "3p": "han jugado"
+        },
+        "pretérito-indefinido": {
+          "1s": "jugué",
+          "2s": "jugaste",
+          "3s": "jugó",
+          "1p": "jugamos",
+          "2p": "jugasteis",
+          "3p": "jugaron"
+        },
+        "imperfecto": {
+          "1s": "jugaba",
+          "2s": "jugabas",
+          "3s": "jugaba",
+          "1p": "jugábamos",
+          "2p": "jugabais",
+          "3p": "jugaban"
+        },
+        "futuro": {
+          "1s": "jugaré",
+          "2s": "jugarás",
+          "3s": "jugará",
+          "1p": "jugaremos",
+          "2p": "jugaréis",
+          "3p": "jugarán"
+        },
+        "condicional": {
+          "1s": "jugaría",
+          "2s": "jugarías",
+          "3s": "jugaría",
+          "1p": "jugaríamos",
+          "2p": "jugaríais",
+          "3p": "jugarían"
+        },
+        "subjuntivo": {
+          "1s": "juegue",
+          "2s": "juegues",
+          "3s": "juegue",
+          "1p": "juguemos",
+          "2p": "juguéis",
+          "3p": "jueguen"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "claro",
+      "primary_form": "claro",
+      "gloss": "of course, sure",
+      "extras": {
+        "literal": "clear",
+        "example": "—¿Me ayudas? —Claro.",
+        "example_en": "\"Will you help me?\" \"Sure.\""
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "dinero",
+      "primary_form": "dinero",
+      "gloss": "money",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "example": "No tengo dinero en efectivo.",
+        "example_en": "I don't have any cash."
+      },
+      "tags": [
+        "objects",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "blanco",
+      "primary_form": "blanco",
+      "gloss": "white",
+      "extras": {
+        "forms": {
+          "ms": "blanco",
+          "fs": "blanca",
+          "mp": "blancos",
+          "fp": "blancas"
+        },
+        "example": "En Andalucía hay muchos pueblos blancos.",
+        "example_en": "There are lots of white villages in Andalusia.",
+        "note": "Vino blanco is white wine."
+      },
+      "tags": [
+        "adjetivos",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "movil",
+      "primary_form": "móvil",
+      "gloss": "mobile phone",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "móviles",
+        "example": "¿Me das tu número de móvil?",
+        "example_en": "Can I have your mobile number?",
+        "note": "Latin America: el celular."
+      },
+      "tags": [
+        "objects",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "gustar",
+      "primary_form": "gustar",
+      "gloss": "to please (to like)",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "gustado",
+        "example": "Me gusta mucho tu casa.",
+        "example_en": "I really like your house.",
+        "note": "The thing liked is the subject: me gustan los gatos."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "gusto",
+          "2s": "gustas",
+          "3s": "gusta",
+          "1p": "gustamos",
+          "2p": "gustáis",
+          "3p": "gustan"
+        },
+        "pretérito-perfecto": {
+          "1s": "he gustado",
+          "2s": "has gustado",
+          "3s": "ha gustado",
+          "1p": "hemos gustado",
+          "2p": "habéis gustado",
+          "3p": "han gustado"
+        },
+        "pretérito-indefinido": {
+          "1s": "gusté",
+          "2s": "gustaste",
+          "3s": "gustó",
+          "1p": "gustamos",
+          "2p": "gustasteis",
+          "3p": "gustaron"
+        },
+        "imperfecto": {
+          "1s": "gustaba",
+          "2s": "gustabas",
+          "3s": "gustaba",
+          "1p": "gustábamos",
+          "2p": "gustabais",
+          "3p": "gustaban"
+        },
+        "futuro": {
+          "1s": "gustaré",
+          "2s": "gustarás",
+          "3s": "gustará",
+          "1p": "gustaremos",
+          "2p": "gustaréis",
+          "3p": "gustarán"
+        },
+        "condicional": {
+          "1s": "gustaría",
+          "2s": "gustarías",
+          "3s": "gustaría",
+          "1p": "gustaríamos",
+          "2p": "gustaríais",
+          "3p": "gustarían"
+        },
+        "subjuntivo": {
+          "1s": "guste",
+          "2s": "gustes",
+          "3s": "guste",
+          "1p": "gustemos",
+          "2p": "gustéis",
+          "3p": "gusten"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "un-momento",
+      "primary_form": "un momento",
+      "gloss": "just a moment",
+      "extras": {
+        "example": "Un momento, por favor, ahora vuelvo.",
+        "example_en": "Just a moment, please, I'll be right back."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "llave",
+      "primary_form": "llave",
+      "gloss": "key",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "llaves",
+        "example": "¿Dónde están las llaves del coche?",
+        "example_en": "Where are the car keys?"
+      },
+      "tags": [
+        "objects",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "trabajo",
+      "primary_form": "trabajo",
+      "gloss": "work; job",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "trabajos",
+        "example": "Mi trabajo está muy cerca de casa.",
+        "example_en": "My work is very close to home."
+      },
+      "tags": [
+        "city",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "gris",
+      "primary_form": "gris",
+      "gloss": "grey",
+      "extras": {
+        "forms": {
+          "ms": "gris",
+          "fs": "gris",
+          "mp": "grises",
+          "fp": "grises"
+        },
+        "example": "Hoy el cielo está gris.",
+        "example_en": "The sky is grey today."
+      },
+      "tags": [
+        "adjetivos",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "idioma",
+      "primary_form": "idioma",
+      "gloss": "language",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "idiomas",
+        "example": "¿Cuántos idiomas hablas?",
+        "example_en": "How many languages do you speak?",
+        "note": "Masculine, though it ends in -a."
+      },
+      "tags": [
+        "people",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "llamar",
+      "primary_form": "llamar",
+      "gloss": "to call",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "llamado",
+        "example": "Te llamo esta noche.",
+        "example_en": "I'll call you tonight.",
+        "note": "Llamar a la puerta: to knock at the door."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "llamo",
+          "2s": "llamas",
+          "3s": "llama",
+          "1p": "llamamos",
+          "2p": "llamáis",
+          "3p": "llaman"
+        },
+        "pretérito-perfecto": {
+          "1s": "he llamado",
+          "2s": "has llamado",
+          "3s": "ha llamado",
+          "1p": "hemos llamado",
+          "2p": "habéis llamado",
+          "3p": "han llamado"
+        },
+        "pretérito-indefinido": {
+          "1s": "llamé",
+          "2s": "llamaste",
+          "3s": "llamó",
+          "1p": "llamamos",
+          "2p": "llamasteis",
+          "3p": "llamaron"
+        },
+        "imperfecto": {
+          "1s": "llamaba",
+          "2s": "llamabas",
+          "3s": "llamaba",
+          "1p": "llamábamos",
+          "2p": "llamabais",
+          "3p": "llamaban"
+        },
+        "futuro": {
+          "1s": "llamaré",
+          "2s": "llamarás",
+          "3s": "llamará",
+          "1p": "llamaremos",
+          "2p": "llamaréis",
+          "3p": "llamarán"
+        },
+        "condicional": {
+          "1s": "llamaría",
+          "2s": "llamarías",
+          "3s": "llamaría",
+          "1p": "llamaríamos",
+          "2p": "llamaríais",
+          "3p": "llamarían"
+        },
+        "subjuntivo": {
+          "1s": "llame",
+          "2s": "llames",
+          "3s": "llame",
+          "1p": "llamemos",
+          "2p": "llaméis",
+          "3p": "llamen"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "hay",
+      "primary_form": "hay",
+      "gloss": "there is, there are",
+      "extras": {
+        "note": "One form for singular and plural: hay dos bancos.",
+        "example": "Hay un supermercado en esta calle.",
+        "example_en": "There's a supermarket on this street."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pais",
+      "primary_form": "país",
+      "gloss": "country",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "países",
+        "example": "España es un país muy diverso.",
+        "example_en": "Spain is a very varied country."
+      },
+      "tags": [
+        "people",
+        "masculino"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "title": "Hola y gracias",
+      "word_ids": [
+        "hola",
+        "buenos-dias",
+        "gracias",
+        "por-favor",
+        "perdon",
+        "encantado"
+      ],
+      "page_id": "es-pronunciation",
+      "subtitle": "Hello, good morning, thanks, please, sorry"
+    },
+    {
+      "title": "¿Qué tal?",
+      "word_ids": [
+        "que-tal",
+        "como-estas",
+        "como-esta-usted",
+        "perdona",
+        "disculpe",
+        "vale"
+      ],
+      "page_id": "es-subject-pronouns",
+      "subtitle": "How are you, excuse me and OK"
+    },
+    {
+      "title": "Verbos esenciales",
+      "word_ids": [
+        "ser",
+        "estar",
+        "haber",
+        "hay",
+        "tener",
+        "hacer",
+        "querer"
+      ],
+      "page_id": "es-ser-estar",
+      "subtitle": "To be, there is, have, do and want"
+    },
+    {
+      "title": "Verbos que cambian",
+      "word_ids": [
+        "entender",
+        "pensar",
+        "empezar",
+        "volver",
+        "dormir",
+        "pedir",
+        "jugar"
+      ],
+      "page_id": "es-present-tense",
+      "subtitle": "To understand, think, start, return, sleep, play"
+    },
+    {
+      "title": "Poder, decir y salir",
+      "word_ids": [
+        "poder",
+        "saber",
+        "decir",
+        "venir",
+        "poner",
+        "salir",
+        "dar"
+      ],
+      "page_id": "es-negation",
+      "subtitle": "Can, know, say, come, put, go out, give"
+    },
+    {
+      "title": "Preguntas útiles",
+      "word_ids": [
+        "cuanto-cuesta",
+        "donde-esta-el-bano",
+        "que-es-esto",
+        "a-que-hora",
+        "de-donde-eres",
+        "como-te-llamas",
+        "puede-repetir"
+      ],
+      "page_id": "es-questions",
+      "subtitle": "How much, where, what time, what's your name"
+    },
+    {
+      "title": "Las bebidas",
+      "word_ids": [
+        "gustar",
+        "cafe",
+        "te",
+        "leche",
+        "vino",
+        "cerveza",
+        "zumo"
+      ],
+      "page_id": "es-gustar",
+      "subtitle": "To like, coffee, tea, milk, wine, beer, juice"
+    },
+    {
+      "title": "Adjetivos básicos",
+      "word_ids": [
+        "grande",
+        "pequeno",
+        "bueno",
+        "malo",
+        "bonito",
+        "nuevo",
+        "viejo"
+      ],
+      "page_id": "es-adjectives",
+      "subtitle": "Big, small, good, bad, pretty, new and old"
+    },
+    {
+      "title": "Los colores",
+      "word_ids": [
+        "rojo",
+        "azul",
+        "verde",
+        "amarillo",
+        "negro",
+        "blanco",
+        "gris"
+      ],
+      "subtitle": "Red, blue, green, yellow, black, white, grey"
+    },
+    {
+      "title": "Cómo es la gente",
+      "word_ids": [
+        "guapo",
+        "alto",
+        "bajo",
+        "joven",
+        "simpatico",
+        "contento",
+        "cansado"
+      ],
+      "subtitle": "Good-looking, tall, short, young, nice, tired"
+    },
+    {
+      "title": "Cómo son las cosas",
+      "word_ids": [
+        "caliente",
+        "frio",
+        "facil",
+        "dificil",
+        "caro",
+        "barato",
+        "espanol"
+      ],
+      "subtitle": "Hot, cold, easy, hard, expensive and cheap"
+    },
+    {
+      "title": "La hora y los días",
+      "word_ids": [
+        "hora",
+        "minuto",
+        "dia",
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves"
+      ],
+      "page_id": "es-numbers",
+      "subtitle": "Hours, minutes, days, Monday to Thursday"
+    },
+    {
+      "title": "Trabajar y estudiar",
+      "word_ids": [
+        "trabajar",
+        "estudiar",
+        "llegar",
+        "aprender",
+        "escribir",
+        "leer",
+        "comprar"
+      ],
+      "page_id": "es-ir-a",
+      "subtitle": "To work, study, arrive, learn, write, read, buy"
+    },
+    {
+      "title": "La familia cercana",
+      "word_ids": [
+        "padre",
+        "madre",
+        "hermano",
+        "hermana",
+        "hijo",
+        "hija",
+        "marido",
+        "mujer"
+      ],
+      "page_id": "es-possessives",
+      "subtitle": "Father, mother, brother, sister, son, daughter"
+    },
+    {
+      "title": "Conocer y buscar",
+      "word_ids": [
+        "conocer",
+        "buscar",
+        "llamar",
+        "mirar",
+        "escuchar",
+        "ver"
+      ],
+      "page_id": "es-personal-a",
+      "subtitle": "To know, look for, call, watch, listen, see"
+    },
+    {
+      "title": "Y, o, cuando, si",
+      "word_ids": [
+        "primero",
+        "despues",
+        "tambien",
+        "y",
+        "o",
+        "cuando",
+        "si"
+      ],
+      "subtitle": "First, then, also, and, or, when, if"
+    },
+    {
+      "title": "Saludos y despedidas",
+      "word_ids": [
+        "buenas-tardes",
+        "buenas-noches",
+        "adios",
+        "hasta-luego",
+        "hasta-manana",
+        "muchas-gracias",
+        "de-nada",
+        "lo-siento",
+        "de-acuerdo",
+        "mucho-gusto"
+      ],
+      "subtitle": "Good evening, goodbye, see you, you're welcome"
+    },
+    {
+      "title": "Frases para salir del paso",
+      "word_ids": [
+        "no-entiendo",
+        "mas-despacio-por-favor",
+        "no-se",
+        "la-cuenta-por-favor",
+        "que-aproveche",
+        "salud",
+        "bienvenido",
+        "claro",
+        "un-momento"
+      ],
+      "subtitle": "I don't understand, slower, the bill, cheers"
+    },
+    {
+      "title": "Abuelos y primos",
+      "word_ids": [
+        "abuelo",
+        "abuela",
+        "tio",
+        "tia",
+        "primo",
+        "prima",
+        "novio",
+        "novia",
+        "familia"
+      ],
+      "subtitle": "Grandparents, uncles, aunts, cousins, partners"
+    },
+    {
+      "title": "La gente",
+      "word_ids": [
+        "hombre",
+        "chico",
+        "chica",
+        "persona",
+        "senor",
+        "nombre",
+        "idioma",
+        "pais"
+      ],
+      "subtitle": "Man, boy, girl, person, name, language, country"
+    },
+    {
+      "title": "La cara",
+      "word_ids": [
+        "cabeza",
+        "cara",
+        "ojo",
+        "nariz",
+        "boca",
+        "diente"
+      ],
+      "subtitle": "Head, face, eye, nose, mouth and tooth"
+    },
+    {
+      "title": "El cuerpo",
+      "word_ids": [
+        "oreja",
+        "pelo",
+        "mano",
+        "brazo",
+        "pierna",
+        "pie"
+      ],
+      "subtitle": "Ear, hair, hand, arm, leg and foot"
+    },
+    {
+      "title": "Carne y pescado",
+      "word_ids": [
+        "azucar",
+        "sal",
+        "carne",
+        "pescado",
+        "pollo",
+        "huevo"
+      ],
+      "subtitle": "Sugar, salt, meat, fish, chicken and egg"
+    },
+    {
+      "title": "Desayuno y cena",
+      "word_ids": [
+        "queso",
+        "fruta",
+        "manzana",
+        "arroz",
+        "desayuno",
+        "cena"
+      ],
+      "subtitle": "Cheese, fruit, apple, rice, breakfast, dinner"
+    },
+    {
+      "title": "En la ciudad",
+      "word_ids": [
+        "calle",
+        "ciudad",
+        "plaza",
+        "tienda",
+        "banco",
+        "colegio",
+        "hospital",
+        "restaurante"
+      ],
+      "subtitle": "Street, city, square, shop, bank, school"
+    },
+    {
+      "title": "Lugares públicos",
+      "word_ids": [
+        "estacion",
+        "mercado",
+        "iglesia",
+        "museo",
+        "parque",
+        "farmacia",
+        "hotel",
+        "trabajo"
+      ],
+      "subtitle": "Station, market, church, museum, park, hotel"
+    },
+    {
+      "title": "La semana",
+      "word_ids": [
+        "semana",
+        "mes",
+        "ano",
+        "manana",
+        "tarde",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "subtitle": "Week, month, year, morning, Friday to Sunday"
+    },
+    {
+      "title": "La casa",
+      "word_ids": [
+        "piso",
+        "cocina",
+        "bano",
+        "habitacion",
+        "cama",
+        "jardin"
+      ],
+      "subtitle": "Flat, kitchen, bathroom, room, bed and garden"
+    },
+    {
+      "title": "Vivir y necesitar",
+      "word_ids": [
+        "vivir",
+        "tomar",
+        "necesitar",
+        "abrir",
+        "dinero",
+        "movil",
+        "llave"
+      ],
+      "subtitle": "To live, take, need, open, money, phone, key"
+    }
+  ]
+}

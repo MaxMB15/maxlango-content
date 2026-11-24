@@ -1,0 +1,926 @@
+{
+  "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
+  "id": "es-core-v1",
+  "version": 1,
+  "language": "es",
+  "name": "Español · Lo esencial",
+  "author": "Max Boksem",
+  "license": "CC-BY-SA-4.0",
+  "profile_delta": [
+    {
+      "id": "home",
+      "kind": "topic",
+      "label": "Casa",
+      "labelGloss": "home",
+      "dependsOn": [
+        "género"
+      ]
+    },
+    {
+      "id": "food",
+      "kind": "topic",
+      "label": "Comida",
+      "labelGloss": "food",
+      "dependsOn": [
+        "género"
+      ]
+    },
+    {
+      "id": "conectores",
+      "kind": "topic",
+      "label": "Conectores",
+      "labelGloss": "connectives",
+      "dependsOn": [
+        "conn-contrast",
+        "conn-cause",
+        "conn-addition",
+        "conn-sequence"
+      ]
+    },
+    {
+      "id": "conjunciones",
+      "kind": "topic",
+      "label": "Conjunciones",
+      "labelGloss": "conjunctions",
+      "dependsOn": [
+        "conj-coordinating",
+        "conj-subordinating"
+      ]
+    },
+    {
+      "id": "animals",
+      "kind": "topic",
+      "label": "Animales",
+      "labelGloss": "animals",
+      "dependsOn": [
+        "género"
+      ]
+    },
+    {
+      "id": "nature",
+      "kind": "topic",
+      "label": "Naturaleza",
+      "labelGloss": "nature",
+      "dependsOn": [
+        "género"
+      ]
+    },
+    {
+      "id": "people",
+      "kind": "topic",
+      "label": "Personas",
+      "labelGloss": "people",
+      "dependsOn": [
+        "género"
+      ]
+    },
+    {
+      "id": "objects",
+      "kind": "topic",
+      "label": "Objetos",
+      "labelGloss": "objects",
+      "dependsOn": [
+        "género"
+      ]
+    },
+    {
+      "id": "transport",
+      "kind": "topic",
+      "label": "Transporte",
+      "labelGloss": "transport",
+      "dependsOn": [
+        "género"
+      ]
+    },
+    {
+      "id": "time",
+      "kind": "topic",
+      "label": "Tiempo",
+      "labelGloss": "time",
+      "dependsOn": [
+        "género"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "misc",
+      "id": "es-articles-gender",
+      "title": "El, la, un and una",
+      "body_md": "Every Spanish noun is **masculine** or **feminine**, and the article shows which.\n\n| | masculine | feminine |\n| --- | --- | --- |\n| the | el gato | la casa |\n| the (plural) | los gatos | las casas |\n| a, an | un gato | una casa |\n| some, a few | unos gatos | unas casas |\n\n- Most nouns in **-o** are masculine and most in **-a** are feminine. The exceptions start on day one: *el día* (the day) is masculine and *la mano* (the hand) feminine.\n- The plural articles keep the gender too, so *los* and *las* tell you as much as *el* and *la*.\n- Spanish says \"the\" where English says nothing. A general statement takes *el*, *la*, *los* or *las*: *Me gusta el café* (I like coffee), *Los perros son leales* (Dogs are loyal).\n- After *ser*, a job or nationality takes no *un* or *una*: *Soy profesor* (I'm a teacher).\n\n## El agua\n\nA few feminine nouns start with a stressed **a-** or **ha-**. They take **el** and **un** in the singular so that two a sounds don't run together, but they stay feminine: *el agua fría* (the cold water), *las aguas*. *El hambre* (hunger) works the same way.\n\n## Al and del\n\n**A** + **el** becomes **al**, and **de** + **el** becomes **del**: *Voy al parque*, *la puerta del coche*. These are the only two contractions in Spanish. *La*, *los* and *las* never merge.\n\n:::examples\n- El gato duerme en la silla. — The cat is sleeping on the chair.\n- La ventana está abierta. — The window is open.\n- Tengo un perro y una bicicleta. — I have a dog and a bike.\n- El agua está fría. — The water is cold.\n:::\n\nSo learn every noun with its article: **el libro**, **la mesa**, never the noun alone.",
+      "extras": {
+        "examples": [
+          "El gato duerme en la silla.",
+          "La ventana está abierta.",
+          "El agua está fría."
+        ],
+        "cloze": [
+          {
+            "sentence": "___ perro come.",
+            "blank": "El"
+          },
+          {
+            "sentence": "___ casas son grandes.",
+            "blank": "Las"
+          }
+        ],
+        "unlocks": [
+          "concept:es-articles"
+        ],
+        "explains": [
+          "artículos"
+        ]
+      },
+      "tags": [
+        "artículos",
+        "género"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-plural",
+      "title": "Plurals: -s and -es",
+      "body_md": "The Spanish plural is easy to hear, because the final -s is always pronounced. The article changes too: *el gato*, *los gatos*; *la casa*, *las casas*.\n\n## The endings\n\n| Singular ends in | Plural | Example |\n| --- | --- | --- |\n| a vowel | add **-s** | el libro, los libros; la mesa, las mesas |\n| a consonant | add **-es** | la ciudad, las ciudades; el árbol, los árboles |\n| -z | **-ces** | el lápiz, los lápices; la vez, las veces |\n| an unstressed vowel + s | no change | el lunes, los lunes; la crisis, las crisis |\n\nA stressed **-á**, **-é** or **-ó** just adds -s: *el sofá, los sofás*; *el café, los cafés*.\n\n## Written accents come and go\n\nThe stress stays on the same syllable, so the written accent sometimes has to move:\n\n- It disappears when -es adds a syllable after it: *la canción, las canciones*; *el autobús, los autobuses*; *inglés, ingleses*.\n- It appears when -es pushes the stress further from the end: *el joven, los jóvenes*; *el examen, los exámenes*.\n\n## A masculine plural can mean both\n\nA mixed group takes the masculine plural. *Los padres* are \"the parents\", *los hermanos* \"brothers and sisters\", *los hijos* \"the children\" (sons and daughters) and *los reyes* \"the king and queen\". So *Tengo dos hermanos* can mean two brothers, or a brother and a sister.\n\nAdjectives follow the same rules: *un coche rojo, dos coches rojos*; *una persona feliz, dos personas felices*.\n\n:::examples\n- Tengo dos gatos y un perro. — I have two cats and a dog.\n- Los árboles del parque son muy altos. — The trees in the park are very tall.\n- ¿Cuántos hermanos tienes? — How many brothers and sisters do you have?\n- Las canciones de este disco son preciosas. — The songs on this album are beautiful.\n:::",
+      "extras": {
+        "explains": [
+          "plural"
+        ]
+      },
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-coordinating-conjunctions",
+      "title": "Y, o, pero and sino",
+      "body_md": "The coordinating conjunctions join two words, or two clauses of the same kind, and leave both as they are.\n\n| Spanish | English |\n| --- | --- |\n| y | and |\n| o | or |\n| pero | but |\n| sino | but, rather (after a negative) |\n| ni | nor; ni ... ni, neither ... nor |\n\n:::examples\n- Tengo un hermano y una hermana. — I have a brother and a sister.\n- ¿Quieres té o café? — Do you want tea or coffee?\n- Quiero ir, pero no tengo tiempo. — I want to go, but I don't have time.\n- No es mi hermano, sino mi primo. — He isn't my brother, he's my cousin.\n:::\n\n## Y becomes e, o becomes u\n\nBefore a word that starts with the sound **i**, *y* becomes **e**: *padre e hijo* (father and son), *español e inglés*. Before the sound **o**, *o* becomes **u**: *siete u ocho* (seven or eight). It goes by sound, not spelling, so *agua y hielo* keeps *y*, because *hielo* starts with a \"y\" sound.\n\n## Pero or sino?\n\nBoth translate as \"but\".\n\n- **Pero** adds something that limits or goes against what came before: *Es caro, pero es muy bueno.*\n- **Sino** corrects a negative. The first part says what something isn't, and *sino* says what it is: *No vivo en Madrid, sino en Sevilla.* (I don't live in Madrid but in Seville.)\n\nBefore a whole clause with its own verb, *sino* becomes **sino que**: *No solo canta, sino que también baila.*\n\n## Ni\n\n**Ni** joins two negatives. With the verb first, *no* goes before it: *No bebo ni té ni café.* (I drink neither tea nor coffee.) Put before the verb, *ni* needs no *no*: *Ni Juan ni Ana lo saben.*",
+      "extras": {
+        "explains": [
+          "conj-coordinating"
+        ]
+      },
+      "tags": [
+        "conj-coordinating"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-subordinating-conjunctions",
+      "title": "Que, cuando, si and porque",
+      "body_md": "A subordinating conjunction starts a clause that depends on the main one: *Me quedo en casa **porque** estoy cansado.* The word order inside that clause stays normal. What some conjunctions change is the mood of the verb.\n\n| Spanish | English |\n| --- | --- |\n| que | that |\n| cuando | when |\n| si | if, whether |\n| porque | because |\n| como | as, since (at the start of the sentence) |\n| aunque | although, even if |\n| mientras | while |\n| para que | so that |\n\n## Que stays\n\nEnglish can drop \"that\". Spanish can't drop *que*: *Creo **que** viene.* (I think he's coming.)\n\n## Porque, por qué and el porqué\n\nThree spellings, one sound:\n\n- **¿Por qué?** asks why: *¿Por qué no vienes?*\n- **Porque** answers: *Porque estoy cansado.*\n- **El porqué** is a noun, \"the reason\": *No entiendo el porqué.*\n\n## Some take the subjunctive\n\nA few conjunctions always take the subjunctive, *para que* and *antes de que* among them. Others take it when the clause talks about something that hasn't happened yet. After **cuando**, a future event takes the subjunctive where English uses the present: *Cuando llegues, llámame.* (When you arrive, call me.) The subjunctive comes in the B1 pack; until then, learn these as set lines.\n\n## Si\n\nAfter **si** meaning \"if\", Spanish never uses the future or the present subjunctive. Use the present: *Si llueve, nos quedamos en casa.* (If it rains, we'll stay at home.)\n\n:::examples\n- Creo que va a llover. — I think it's going to rain.\n- Leo cuando llueve. — I read when it rains.\n- Salimos si quieres. — We'll go out if you want.\n- Me quedo en casa porque estoy cansado. — I'm staying at home because I'm tired.\n:::",
+      "extras": {
+        "explains": [
+          "conj-subordinating"
+        ]
+      },
+      "tags": [
+        "conj-subordinating"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-contrast-connectives",
+      "title": "Sin embargo and en cambio",
+      "body_md": "A contrast connective says that what comes next goes against what came before, or against what you'd expect.\n\n| Spanish | English |\n| --- | --- |\n| sin embargo | however |\n| en cambio | on the other hand, whereas |\n| no obstante | nevertheless (formal) |\n| aun así | even so |\n| de todas formas | anyway, in any case |\n| al contrario | on the contrary |\n\nAt the start of a clause they take a comma, and nothing else changes: *Sin embargo, no es feliz.* Most can also sit later in the sentence, between commas: *No es, sin embargo, feliz.*\n\n## Which one?\n\n- **Sin embargo** is the all-purpose \"however\", in speech and in writing.\n- **En cambio** sets two different facts side by side: *Mi hermano es muy alto; yo, en cambio, soy bajito.*\n- **Aun así** means \"even so\": *Estaba cansado y, aun así, fue a trabajar.*\n- **Al contrario** follows a negative and says the opposite is true: *No es tímido; al contrario, habla con todo el mundo.*\n\n## Pero and aunque\n\n**Pero** (but) is the everyday way to set up a contrast: *Quiero ir, pero no puedo.* **Aunque** (although) starts a subordinate clause: *Aunque es rico, no es feliz.*\n\n:::examples\n- Llueve; sin embargo, salimos a pasear. — It's raining; however, we're going out for a walk.\n- El piso es pequeño; en cambio, el barrio es precioso. — The flat is small; the neighbourhood, on the other hand, is lovely.\n- Es difícil; aun así, es posible. — It's difficult; even so, it's possible.\n:::",
+      "extras": {
+        "explains": [
+          "conn-contrast"
+        ]
+      },
+      "tags": [
+        "conn-contrast"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-cause-connectives",
+      "title": "Es que, como and ya que",
+      "body_md": "A cause connective gives the reason for what was just said.\n\n**Es que** is the everyday one. It starts a sentence that explains or excuses: *No puedo ir. Es que tengo que trabajar.* (I can't go. The thing is, I have to work.) It softens a refusal, so you'll hear it many times a day. In a question it sounds annoyed: *¿Es que no me escuchas?* (Aren't you listening to me?)\n\n**De hecho** (in fact) backs up what you just said with a fact: *Es muy buen cocinero; de hecho, trabajó en un restaurante.*\n\n## Porque, como, ya que and puesto que\n\nThese four start a clause that gives a cause.\n\n| Spanish | Use | Example |\n| --- | --- | --- |\n| porque | the everyday \"because\", after the main clause | Me voy porque es tarde. |\n| como | \"as\", always at the start of the sentence | Como es tarde, me voy. |\n| ya que | \"since\", a reason the listener will accept | Ya que estás aquí, ayúdame. |\n| puesto que | \"since\", formal and written | Puesto que nadie contesta, me voy. |\n\n*Porque* starts a sentence only when it answers *¿por qué?*. To put the reason first, use *como*: *Como llueve, nos quedamos en casa*, not *Porque llueve, nos quedamos*.\n\n:::examples\n- No puedo ir; es que tengo que trabajar. — I can't go; the thing is, I have to work.\n- Como llueve, nos quedamos en casa. — As it's raining, we're staying at home.\n- Ya que estás aquí, ayúdame con esto. — Since you're here, help me with this.\n:::",
+      "extras": {
+        "explains": [
+          "conn-cause"
+        ]
+      },
+      "tags": [
+        "conn-cause"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-addition-connectives",
+      "title": "Además and también",
+      "body_md": "An addition connective adds one more point to what was said.\n\n| Spanish | English |\n| --- | --- |\n| también | also, too |\n| además | besides, on top of that |\n| incluso | even |\n| encima | on top of that (spoken, annoyed) |\n| es más | what's more |\n| asimismo | likewise (formal) |\n\n**Además** is the everyday one, in speech and in writing: *El piso es bonito y, además, es barato.* At the start of a sentence it takes a comma.\n\n**También** goes next to the verb, before or after it: *También hablo francés* or *Hablo también francés.* Its negative partner is **tampoco** (not ... either): *Yo tampoco hablo alemán.* In a reply, they agree with what was said: *—Me gusta el jazz. —A mí también.* *—No me gusta el jazz. —A mí tampoco.*\n\n**Encima** piles a complaint on a complaint: *Llegó tarde y, encima, sin las llaves.*\n\n**Incluso** means \"even\": *Trabaja todos los días, incluso los domingos.*\n\n:::examples\n- Me gusta el té. También me gusta el café. — I like tea. I like coffee too.\n- La película es larga y, además, es aburrida. — The film is long, and on top of that it's boring.\n- Llegó tarde y, encima, sin las llaves. — He turned up late, and without the keys on top of that.\n:::",
+      "extras": {
+        "explains": [
+          "conn-addition"
+        ]
+      },
+      "tags": [
+        "conn-addition"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-sequence-connectives",
+      "title": "Primero, luego and al final",
+      "body_md": "Sequence connectives put events in order: first this, then that, and in the end the last thing.\n\n| Spanish | English |\n| --- | --- |\n| primero | first |\n| luego | then, later |\n| después | afterwards, then |\n| entonces | then, at that moment; so |\n| por último | lastly |\n| al final | in the end |\n| por fin | at last |\n\nA story often runs *primero*, then *luego* or *después*, then *al final*: *Primero cenamos, luego fuimos al cine y al final tomamos algo en un bar.*\n\n## Después or luego?\n\nIn a sequence they mean the same and swap freely. **Después de** with an infinitive or a noun means \"after\": *después de comer*, *después de la clase*. **Luego** on its own also means \"later\": *¡Hasta luego!* (See you later!)\n\n## Por último, al final and por fin\n\n- **Por último** brings in the last item of a list: *Por último, quiero dar las gracias a todos.*\n- **Al final** says how things turned out, often not as planned: *Al final no fuimos.*\n- **Por fin** says \"at last\" after a wait: *¡Por fin es viernes!*\n\n:::examples\n- Primero desayuno y después me ducho. — First I have breakfast and then I have a shower.\n- Comemos y luego vamos al cine. — We'll eat and then go to the cinema.\n- Al final no fuimos a la playa. — In the end we didn't go to the beach.\n- ¡Por fin has llegado! — You're here at last!\n:::",
+      "extras": {
+        "explains": [
+          "conn-sequence"
+        ]
+      },
+      "tags": [
+        "conn-sequence"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ventana",
+      "primary_form": "ventana",
+      "gloss": "window",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "ventanas",
+        "example": "¿Puedes abrir la ventana?",
+        "example_en": "Can you open the window?"
+      },
+      "tags": [
+        "home",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "sin-embargo",
+      "primary_form": "sin embargo",
+      "gloss": "however",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "Llueve; sin embargo, salimos a pasear.",
+        "example_en": "It's raining; however, we're going out for a walk."
+      },
+      "tags": [
+        "conectores"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "gato",
+      "primary_form": "gato",
+      "gloss": "cat",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "gatos",
+        "example": "El gato duerme en el sofá.",
+        "example_en": "The cat is sleeping on the sofa."
+      },
+      "tags": [
+        "animals",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "comer",
+      "primary_form": "comer",
+      "gloss": "to eat; to have lunch",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "comido",
+        "example": "Comemos a las dos.",
+        "example_en": "We have lunch at two.",
+        "note": "In Spain la comida, the main meal, is eaten around two."
+      },
+      "tags": [
+        "presente",
+        "food"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "como",
+          "2s": "comes",
+          "3s": "come",
+          "1p": "comemos",
+          "2p": "coméis",
+          "3p": "comen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he comido",
+          "2s": "has comido",
+          "3s": "ha comido",
+          "1p": "hemos comido",
+          "2p": "habéis comido",
+          "3p": "han comido"
+        },
+        "pretérito-indefinido": {
+          "1s": "comí",
+          "2s": "comiste",
+          "3s": "comió",
+          "1p": "comimos",
+          "2p": "comisteis",
+          "3p": "comieron"
+        },
+        "imperfecto": {
+          "1s": "comía",
+          "2s": "comías",
+          "3s": "comía",
+          "1p": "comíamos",
+          "2p": "comíais",
+          "3p": "comían"
+        },
+        "futuro": {
+          "1s": "comeré",
+          "2s": "comerás",
+          "3s": "comerá",
+          "1p": "comeremos",
+          "2p": "comeréis",
+          "3p": "comerán"
+        },
+        "condicional": {
+          "1s": "comería",
+          "2s": "comerías",
+          "3s": "comería",
+          "1p": "comeríamos",
+          "2p": "comeríais",
+          "3p": "comerían"
+        },
+        "subjuntivo": {
+          "1s": "coma",
+          "2s": "comas",
+          "3s": "coma",
+          "1p": "comamos",
+          "2p": "comáis",
+          "3p": "coman"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "perro",
+      "primary_form": "perro",
+      "gloss": "dog",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "perros",
+        "example": "Mi perro juega en el parque.",
+        "example_en": "My dog plays in the park."
+      },
+      "tags": [
+        "animals",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "es-que",
+      "primary_form": "es que",
+      "gloss": "the thing is, it's just that",
+      "extras": {
+        "role": "conn-cause",
+        "example": "No puedo ir; es que tengo que trabajar.",
+        "example_en": "I can't go; the thing is, I have to work."
+      },
+      "tags": [
+        "conectores"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "casa",
+      "primary_form": "casa",
+      "gloss": "house; home",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "casas",
+        "example": "Su casa está cerca del mar.",
+        "example_en": "Their house is near the sea.",
+        "note": "En casa means \"at home\"."
+      },
+      "tags": [
+        "home",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "libro",
+      "primary_form": "libro",
+      "gloss": "book",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "libros",
+        "example": "Leo un libro antes de dormir.",
+        "example_en": "I read a book before I go to sleep."
+      },
+      "tags": [
+        "objects",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "ademas",
+      "primary_form": "además",
+      "gloss": "besides, on top of that",
+      "extras": {
+        "role": "conn-addition",
+        "example": "La película es larga y, además, es aburrida.",
+        "example_en": "The film is long, and on top of that it's boring."
+      },
+      "tags": [
+        "conectores"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "agua",
+      "primary_form": "agua",
+      "gloss": "water",
+      "extras": {
+        "gender": "f",
+        "article": "el",
+        "plural": "aguas",
+        "example": "El agua del mar está fría.",
+        "example_en": "The sea water is cold.",
+        "note": "Feminine, but el agua in the singular; las aguas in the plural."
+      },
+      "tags": [
+        "food",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "beber",
+      "primary_form": "beber",
+      "gloss": "to drink",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "bebido",
+        "example": "¿Bebes café por la mañana?",
+        "example_en": "Do you drink coffee in the morning?",
+        "note": "Latin America often says tomar for drinks."
+      },
+      "tags": [
+        "presente",
+        "food"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "bebo",
+          "2s": "bebes",
+          "3s": "bebe",
+          "1p": "bebemos",
+          "2p": "bebéis",
+          "3p": "beben"
+        },
+        "pretérito-perfecto": {
+          "1s": "he bebido",
+          "2s": "has bebido",
+          "3s": "ha bebido",
+          "1p": "hemos bebido",
+          "2p": "habéis bebido",
+          "3p": "han bebido"
+        },
+        "pretérito-indefinido": {
+          "1s": "bebí",
+          "2s": "bebiste",
+          "3s": "bebió",
+          "1p": "bebimos",
+          "2p": "bebisteis",
+          "3p": "bebieron"
+        },
+        "imperfecto": {
+          "1s": "bebía",
+          "2s": "bebías",
+          "3s": "bebía",
+          "1p": "bebíamos",
+          "2p": "bebíais",
+          "3p": "bebían"
+        },
+        "futuro": {
+          "1s": "beberé",
+          "2s": "beberás",
+          "3s": "beberá",
+          "1p": "beberemos",
+          "2p": "beberéis",
+          "3p": "beberán"
+        },
+        "condicional": {
+          "1s": "bebería",
+          "2s": "beberías",
+          "3s": "bebería",
+          "1p": "beberíamos",
+          "2p": "beberíais",
+          "3p": "beberían"
+        },
+        "subjuntivo": {
+          "1s": "beba",
+          "2s": "bebas",
+          "3s": "beba",
+          "1p": "bebamos",
+          "2p": "bebáis",
+          "3p": "beban"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "pan",
+      "primary_form": "pan",
+      "gloss": "bread",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "panes",
+        "example": "El pan todavía está caliente.",
+        "example_en": "The bread is still warm."
+      },
+      "tags": [
+        "food",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "luego",
+      "primary_form": "luego",
+      "gloss": "then, later",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "Comemos y luego vamos al cine.",
+        "example_en": "We'll eat and then go to the cinema."
+      },
+      "tags": [
+        "conectores"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mesa",
+      "primary_form": "mesa",
+      "gloss": "table",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "mesas",
+        "example": "Las llaves están en la mesa.",
+        "example_en": "The keys are on the table."
+      },
+      "tags": [
+        "home",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "silla",
+      "primary_form": "silla",
+      "gloss": "chair",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "sillas",
+        "example": "Hay una silla libre al lado de la ventana.",
+        "example_en": "There's a free chair by the window."
+      },
+      "tags": [
+        "home",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "pero",
+      "primary_form": "pero",
+      "gloss": "but",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Quiero ir, pero no tengo tiempo.",
+        "example_en": "I want to go, but I don't have time."
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "puerta",
+      "primary_form": "puerta",
+      "gloss": "door",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "puertas",
+        "example": "Alguien llama a la puerta.",
+        "example_en": "Someone's knocking at the door."
+      },
+      "tags": [
+        "home",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "hablar",
+      "primary_form": "hablar",
+      "gloss": "to speak, to talk",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "hablado",
+        "example": "Habla tres idiomas.",
+        "example_en": "She speaks three languages."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "hablo",
+          "2s": "hablas",
+          "3s": "habla",
+          "1p": "hablamos",
+          "2p": "habláis",
+          "3p": "hablan"
+        },
+        "pretérito-perfecto": {
+          "1s": "he hablado",
+          "2s": "has hablado",
+          "3s": "ha hablado",
+          "1p": "hemos hablado",
+          "2p": "habéis hablado",
+          "3p": "han hablado"
+        },
+        "pretérito-indefinido": {
+          "1s": "hablé",
+          "2s": "hablaste",
+          "3s": "habló",
+          "1p": "hablamos",
+          "2p": "hablasteis",
+          "3p": "hablaron"
+        },
+        "imperfecto": {
+          "1s": "hablaba",
+          "2s": "hablabas",
+          "3s": "hablaba",
+          "1p": "hablábamos",
+          "2p": "hablabais",
+          "3p": "hablaban"
+        },
+        "futuro": {
+          "1s": "hablaré",
+          "2s": "hablarás",
+          "3s": "hablará",
+          "1p": "hablaremos",
+          "2p": "hablaréis",
+          "3p": "hablarán"
+        },
+        "condicional": {
+          "1s": "hablaría",
+          "2s": "hablarías",
+          "3s": "hablaría",
+          "1p": "hablaríamos",
+          "2p": "hablaríais",
+          "3p": "hablarían"
+        },
+        "subjuntivo": {
+          "1s": "hable",
+          "2s": "hables",
+          "3s": "hable",
+          "1p": "hablemos",
+          "2p": "habléis",
+          "3p": "hablen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "coche",
+      "primary_form": "coche",
+      "gloss": "car",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "coches",
+        "example": "Mi coche está en el taller.",
+        "example_en": "My car is at the garage.",
+        "note": "Latin America: el carro or el auto."
+      },
+      "tags": [
+        "transport",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "sino",
+      "primary_form": "sino",
+      "gloss": "but, rather (after a negative)",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "No es mi hermano, sino mi primo.",
+        "example_en": "He isn't my brother, he's my cousin."
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "arbol",
+      "primary_form": "árbol",
+      "gloss": "tree",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "árboles",
+        "example": "Este árbol tiene cien años.",
+        "example_en": "This tree is a hundred years old."
+      },
+      "tags": [
+        "nature",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "sol",
+      "primary_form": "sol",
+      "gloss": "sun",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "soles",
+        "example": "Hoy hace mucho sol.",
+        "example_en": "It's very sunny today."
+      },
+      "tags": [
+        "nature",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "porque",
+      "primary_form": "porque",
+      "gloss": "because",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Me quedo en casa porque estoy cansado.",
+        "example_en": "I'm staying at home because I'm tired."
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "noche",
+      "primary_form": "noche",
+      "gloss": "night",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "noches",
+        "example": "Por la noche hace frío.",
+        "example_en": "It's cold at night."
+      },
+      "tags": [
+        "time",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "ir",
+      "primary_form": "ir",
+      "gloss": "to go",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "ido",
+        "example": "Mañana voy a la playa.",
+        "example_en": "I'm going to the beach tomorrow."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "voy",
+          "2s": "vas",
+          "3s": "va",
+          "1p": "vamos",
+          "2p": "vais",
+          "3p": "van"
+        },
+        "pretérito-perfecto": {
+          "1s": "he ido",
+          "2s": "has ido",
+          "3s": "ha ido",
+          "1p": "hemos ido",
+          "2p": "habéis ido",
+          "3p": "han ido"
+        },
+        "pretérito-indefinido": {
+          "1s": "fui",
+          "2s": "fuiste",
+          "3s": "fue",
+          "1p": "fuimos",
+          "2p": "fuisteis",
+          "3p": "fueron"
+        },
+        "imperfecto": {
+          "1s": "iba",
+          "2s": "ibas",
+          "3s": "iba",
+          "1p": "íbamos",
+          "2p": "ibais",
+          "3p": "iban"
+        },
+        "futuro": {
+          "1s": "iré",
+          "2s": "irás",
+          "3s": "irá",
+          "1p": "iremos",
+          "2p": "iréis",
+          "3p": "irán"
+        },
+        "condicional": {
+          "1s": "iría",
+          "2s": "irías",
+          "3s": "iría",
+          "1p": "iríamos",
+          "2p": "iríais",
+          "3p": "irían"
+        },
+        "subjuntivo": {
+          "1s": "vaya",
+          "2s": "vayas",
+          "3s": "vaya",
+          "1p": "vayamos",
+          "2p": "vayáis",
+          "3p": "vayan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "amigo",
+      "primary_form": "amigo",
+      "gloss": "friend",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "amigos",
+        "example": "Es mi mejor amigo.",
+        "example_en": "He's my best friend.",
+        "note": "A female friend is una amiga."
+      },
+      "tags": [
+        "people",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "aunque",
+      "primary_form": "aunque",
+      "gloss": "although, even though",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Aunque llueve, vamos a la playa.",
+        "example_en": "Although it's raining, we're going to the beach.",
+        "example_alternatives": [
+          "Vamos a la playa aunque llueve."
+        ]
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "nino",
+      "primary_form": "niño",
+      "gloss": "child, boy",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "niños",
+        "example": "El niño juega con su pelota.",
+        "example_en": "The boy is playing with his ball.",
+        "note": "A girl is una niña; los niños also means children in general."
+      },
+      "tags": [
+        "people",
+        "masculino"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4487 @@
+{
+  "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
+  "id": "es-fluency-v1",
+  "version": 1,
+  "language": "es",
+  "name": "Español · Soltura (B1)",
+  "author": "Max Boksem",
+  "license": "CC-BY-SA-4.0",
+  "profile_delta": [
+    {
+      "id": "relativos",
+      "kind": "topic",
+      "label": "Pronombres relativos",
+      "labelGloss": "relative pronouns",
+      "dependsOn": [
+        "presente"
+      ]
+    },
+    {
+      "id": "se-impersonal",
+      "kind": "topic",
+      "label": "Se impersonal",
+      "labelGloss": "se for people in general, and for accidents",
+      "dependsOn": [
+        "presente"
+      ]
+    },
+    {
+      "id": "registro",
+      "kind": "topic",
+      "label": "Registro",
+      "labelGloss": "register: formal, spoken, slang",
+      "dependsOn": []
+    },
+    {
+      "id": "falsos-amigos",
+      "kind": "topic",
+      "label": "Falsos amigos",
+      "labelGloss": "false friends",
+      "dependsOn": []
+    },
+    {
+      "id": "idioms",
+      "kind": "topic",
+      "label": "Modismos",
+      "labelGloss": "idioms",
+      "dependsOn": []
+    },
+    {
+      "id": "society",
+      "kind": "topic",
+      "label": "Sociedad",
+      "labelGloss": "society and ideas",
+      "dependsOn": [
+        "género"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "misc",
+      "id": "es-subjunctive",
+      "title": "Quiero que vengas: the subjunctive",
+      "body_md": "The **subjuntivo** is a mood, not a tense. It marks what is wanted, felt, needed, doubted or not yet real. Spanish uses it every day, nearly always after **que**.\n\n## Forming it\n\nTake the yo form of the present, drop the **-o** and swap the vowel of the ending: -ar verbs take **e**, and -er and -ir verbs take **a**.\n\n| | hablar (hablo) | comer (como) | vivir (vivo) |\n| --- | --- | --- | --- |\n| yo | hable | coma | viva |\n| tú | hables | comas | vivas |\n| él, ella, usted | hable | coma | viva |\n| nosotros | hablemos | comamos | vivamos |\n| vosotros | habléis | comáis | viváis |\n| ellos, ellas, ustedes | hablen | coman | vivan |\n\nBecause it starts from the yo form, an irregular yo carries over: *hago*, *haga*; *digo*, *diga*; *pongo*, *ponga*; *conozco*, *conozca*. Stem changes stay as well (*quiera*, *pueda*, *duerma*), and -car, -gar and -zar verbs change their spelling: *busque*, *pague*, *empiece*.\n\nSix verbs don't follow the rule:\n\n| Verb | Subjunctive |\n| --- | --- |\n| ser | sea |\n| estar | esté |\n| ir | vaya |\n| haber | haya |\n| saber | sepa |\n| dar | dé |\n\n## What triggers it\n\nThe subjunctive goes after *que* when the first half of the sentence does one of these:\n\n| The first half... | For example |\n| --- | --- |\n| wants something | quiero que, espero que, prefiero que, te pido que |\n| reacts with a feeling | me alegra que, me molesta que, siento que |\n| says it's needed or matters | es importante que, es necesario que, hace falta que |\n| doubts or denies | no creo que, dudo que, no es verdad que |\n\n*Quiero que vengas* (I want you to come). *Es importante que lo sepas* (It's important for you to know). *Dudo que llueva* (I doubt it'll rain).\n\nWith one subject there's no *que* and no subjunctive: *Quiero ir* (I want to go), but *Quiero que vayas* (I want you to go).\n\n*Creo que* states what you hold to be true, so it takes the indicative: *Creo que tienes razón.* With *no* in front it takes the subjunctive: *No creo que sea verdad.*\n\n## Ojalá\n\n**Ojalá** (I hope, if only) always takes the subjunctive, with or without *que*: *¡Ojalá no llueva el sábado!* The word comes from Arabic and once meant \"if God wills\".\n\n## Cuando about the future\n\nWhen *cuando* looks ahead, the verb after it goes into the subjunctive, where English uses the present: *Cuando llegues, llámame* (Call me when you arrive). *Cuando sea mayor, viviré en el campo* (When I grow up, I'll live in the country).\n\nAbout the past or a habit it takes the indicative: *Cuando llegué, estabas dormido.* *En cuanto* (as soon as) and *hasta que* (until) follow the same rule.\n\n## Commands\n\nNegative commands and usted commands are subjunctive forms: *No te preocupes* (Don't worry), *No me digas* (You don't say), *Pase, por favor* (Come in, please).\n\n:::examples\n- Espero que te guste el regalo. — I hope you like the present.\n- Es importante que bebas mucha agua. — It's important to drink plenty of water.\n- No creo que venga hoy. — I don't think he'll come today.\n- Cuando tengas tiempo, llámame. — Call me when you have time.\n:::\n\n:::predict{prompt=\"que tú (tener)\" answer=\"tengas\"}\n:::\n\n:::cloze{sentence=\"Ojalá ___ buen tiempo el fin de semana.\" blank=\"haga\"}\n:::\n\n:::cloze{sentence=\"Cuando ___ a casa, te mando un mensaje.\" blank=\"llegue\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-subjunctive"
+        ],
+        "explains": [
+          "subjuntivo"
+        ]
+      },
+      "tags": [
+        "subjuntivo"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-conditional",
+      "title": "Comería: the conditional",
+      "body_md": "The **condicional** is English \"would\": *comería* (I would eat). Like the future, it adds its endings to the whole infinitive, and the endings are those of the -er imperfect.\n\n| | hablar | comer | vivir |\n| --- | --- | --- | --- |\n| yo | hablaría | comería | viviría |\n| tú | hablarías | comerías | vivirías |\n| él, ella, usted | hablaría | comería | viviría |\n| nosotros | hablaríamos | comeríamos | viviríamos |\n| vosotros | hablaríais | comeríais | viviríais |\n| ellos, ellas, ustedes | hablarían | comerían | vivirían |\n\nThe irregular stems are the future's: *tendría*, *pondría*, *saldría*, *vendría*, *sabría*, *querría*, *habría*, *haría*, *diría*.\n\n## When to use it\n\n- **Polite requests and wishes**: *¿Podrías cerrar la ventana?* *Me gustaría un café.*\n- **Advice**: *Deberías dormir más.* *Yo que tú, no lo compraría* (If I were you, I wouldn't buy it).\n- **Imagining**: *Con más dinero, viviría en la playa.*\n- **What someone said would happen**: *Dijo que vendría a las ocho.* (He said he'd come at eight.)\n- **Guessing about the past**, the way the future guesses about now: *—¿A qué hora llegó? —Serían las tres.* (It must have been about three.)\n\n## If I had...\n\nFor an \"if\" that isn't real, Spanish puts a past subjunctive after *si* and the conditional in the other half: *Si tuviera tiempo, te ayudaría* (If I had time, I'd help you).\n\nThe past subjunctive is a B2 topic. For now, learn the commonest forms as set pieces: *si tuviera* (if I had), *si fuera* (if I were), *si pudiera* (if I could), *si supiera* (if I knew).\n\nThe conditional itself never goes straight after *si*. Spaniards do say *si tendría* in some regions, but it counts as a mistake.\n\n:::examples\n- ¿Podría hablar con el director? — Could I speak to the manager?\n- Me encantaría ir a Cuba. — I'd love to go to Cuba.\n- Yo que tú, hablaría con ella. — If I were you, I'd talk to her.\n- Si fuera rico, no trabajaría. — If I were rich, I wouldn't work.\n:::\n\n:::predict{prompt=\"nosotros (poder)\" answer=\"podríamos\"}\n:::\n\n:::cloze{sentence=\"Mi madre me prometió que ___ pronto.\" blank=\"volvería\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-conditional"
+        ],
+        "explains": [
+          "condicional"
+        ]
+      },
+      "tags": [
+        "condicional"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-relative-pronouns",
+      "title": "La casa en la que vivo",
+      "body_md": "**Que** is the everyday word for \"who\", \"which\" and \"that\". English often drops \"that\"; Spanish never drops *que*: *la película que vimos ayer* is \"the film we saw yesterday\".\n\n| Word | Use | Example |\n| --- | --- | --- |\n| que | people and things, most of the time | La chica que vive arriba es médica. |\n| quien, quienes | people, after a preposition | El amigo con quien viajé es de Lima. |\n| el que, la que, los que, las que | after a preposition | La casa en la que vivo es pequeña. |\n| lo que | what, the thing that | No entiendo lo que dices. |\n| donde | where | Es el bar donde nos conocimos. |\n| cuyo, cuya | whose (formal) | Es una autora cuyas novelas me encantan. |\n\n## The preposition goes first\n\nEnglish can end a sentence with a preposition: \"the flat I live in\". Spanish can't, so the preposition goes before the relative: *el piso en el que vivo*, *la persona con la que hablé*.\n\nThe article agrees with the noun it refers back to: *el chico con el que*, *la chica con la que*, *los amigos con los que*.\n\n## Lo que\n\n*Lo que* is \"what\" inside a sentence, and it can open one: *Lo que necesito es dormir* (What I need is sleep). A direct question uses *qué*: *¿Qué necesitas?*\n\n## Cuyo\n\n*Cuyo* agrees with the thing owned, not the owner: *el vecino cuya hija es actriz* (the neighbour whose daughter is an actress). It's mostly written; in speech people rephrase.\n\n:::examples\n- El hombre que habla con mi padre es mi profesor. — The man talking to my father is my teacher.\n- Esa es la razón por la que me fui. — That's the reason I left.\n- Haz lo que quieras. — Do whatever you like.\n- Es el pueblo donde nació mi abuela. — It's the village where my grandmother was born.\n:::\n\n:::cloze{sentence=\"El autobús ___ va al aeropuerto sale cada hora.\" blank=\"que\"}\n:::\n\n:::cloze{sentence=\"Te voy a contar ___ pasó ayer.\" blank=\"lo que\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-relative-pronouns"
+        ],
+        "explains": [
+          "relativos"
+        ]
+      },
+      "tags": [
+        "relativos"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-register",
+      "title": "Tío, qué guay: register",
+      "body_md": "Spanish changes a lot between a chat with friends and a letter to the bank, and between Spain and Latin America.\n\n## Tú, usted and vos\n\nIn Spain **tú** is normal with almost everyone, including shop staff and colleagues. **Usted** is for older people, officials, and anyone you want to keep at a polite distance. Much of Latin America uses *usted* more, and in Colombia and Costa Rica some families use it even with their children.\n\n**Ustedes** is the only plural \"you\" in Latin America and the Canary Islands, friendly or formal. Most of Spain uses *vosotros* with friends.\n\nArgentina, Uruguay, Paraguay and much of Central America use **vos** in place of *tú*, with present forms of its own: *vos tenés*, *vos sos*, *vos hablás*.\n\n## Spoken Spain\n\n| Word | Meaning |\n| --- | --- |\n| tío, tía | mate, guy (literally uncle, aunt) |\n| guay | cool |\n| mola | it's cool, I like it |\n| currar, el curro | to work, a job |\n| la pasta | money |\n| majo | nice, friendly |\n| flipar | to be amazed |\n| en plan | like, kind of |\n\n## Spoken Latin America\n\n| Word | Where | Meaning |\n| --- | --- | --- |\n| chévere | Venezuela, Colombia, the Caribbean | great |\n| padre, chido | Mexico | cool |\n| bacán | Chile, Peru | great |\n| che | Argentina, Uruguay | hey, mate |\n| la plata | most of the region | money |\n| ¿mande? | Mexico | pardon?, yes? |\n\nSome words are harmless in one country and rude in another. *Coger* (to take, to catch) is everyday Spanish in Spain but vulgar in Mexico and Argentina, where people *toman* the bus.\n\n## Writing\n\nA formal letter or email opens with *Estimado señor* or *Estimada señora* and closes with *Atentamente* or *Un saludo*. To a friend, open with *Hola* and close with *Un abrazo* or *Besos*.\n\n:::examples\n- Tío, ¿vienes o qué? — Mate, are you coming or not?\n- Me mola mucho tu chaqueta. — I really like your jacket.\n- ¿Vos sos de Buenos Aires? — Are you from Buenos Aires?\n:::\n\n:::sort{groups=\"España (Spain): guay, mola, majo | Latinoamérica (Latin America): chévere, chido, bacán\"}\n:::\n\n:::cloze{sentence=\"Con mis amigos de Madrid uso vosotros, pero en Lima uso ___.\" blank=\"ustedes\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-register"
+        ],
+        "explains": [
+          "registro"
+        ]
+      },
+      "tags": [
+        "registro"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-false-friends",
+      "title": "Embarazada is not embarrassed",
+      "body_md": "Some Spanish words look like English ones and mean something else. These cause the most trouble.\n\n| Spanish | Means | Not | Which is |\n| --- | --- | --- | --- |\n| embarazada | pregnant | embarrassed | avergonzado |\n| constipado | having a cold | constipated | estreñido |\n| actual | current | actual | real, verdadero |\n| éxito | success | exit | salida |\n| carpeta | folder | carpet | alfombra |\n| librería | bookshop | library | biblioteca |\n| discusión | argument, row | discussion | conversación |\n| sensible | sensitive | sensible | sensato |\n| educado | polite | educated | culto |\n| suceso | event, incident | success | éxito |\n| pariente | relative | parent | padre, madre |\n| fábrica | factory | fabric | tela |\n| molestar | to bother | to molest | abusar de |\n| realizar | to carry out | to realise | darse cuenta |\n| asistir | to attend | to assist | ayudar |\n\n## The classic mistakes\n\n*Está embarazada* means \"she's pregnant\". Someone who's embarrassed *tiene vergüenza*, or in Latin America *está apenado*.\n\nA Spaniard who's *constipado* has a cold and wants tissues, not a laxative.\n\n*Actual* means \"current\": *el presidente actual* is the current president, and *actualmente* is \"nowadays\". \"Actually\" is *en realidad* or *de hecho*.\n\n*Un éxito* is a success. The way out of a building is *la salida*.\n\n:::examples\n- La película fue un gran éxito. — The film was a big hit.\n- Tengo un catarro: estoy constipada. — I've got a cold.\n- Compré el libro en la librería de la esquina. — I bought the book at the bookshop on the corner.\n:::\n\n:::cloze{sentence=\"Mi mujer está ___: el bebé nace en mayo.\" blank=\"embarazada\"}\n:::\n\n:::cloze{sentence=\"Ese chico es muy ___: siempre da las gracias.\" blank=\"educado\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-false-friends"
+        ],
+        "explains": [
+          "falsos-amigos"
+        ]
+      },
+      "tags": [
+        "falsos-amigos"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-idioms",
+      "title": "Modismos",
+      "body_md": "Idioms rarely translate word for word. Spanish ones lean on the body, food and animals: you *take someone's hair* where English pulls their leg, and an easy task is *eaten bread*. The literal meaning on each card helps it stick.\n\nAn idiom's verb conjugates as normal, and its possessive changes with the person: *tomar el pelo* becomes *me estás tomando el pelo*; *estar en su salsa* becomes *estoy en mi salsa*.\n\nSome are Spain-only. *Estar sin blanca* (to be broke) and *pasarlo bomba* (to have a great time) will puzzle a Mexican, who might say *estar quebrado* and *pasarla padre*.\n\n:::examples\n- ¡No me tomes el pelo! — Stop pulling my leg!\n- Mi hermano siempre mete la pata. — My brother always puts his foot in it.\n- Este móvil me ha costado un ojo de la cara. — This phone cost me an arm and a leg.\n- ¿Me echas una mano con las bolsas? — Can you give me a hand with the bags?\n:::\n\n:::cloze{sentence=\"No te preocupes, este examen es pan ___.\" blank=\"comido\"}\n:::\n\n:::cloze{sentence=\"Con tanto ruido no he pegado ___ en toda la noche.\" blank=\"ojo\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-idioms"
+        ],
+        "explains": [
+          "idioms"
+        ]
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-se",
+      "title": "Se habla español: impersonal se",
+      "body_md": "## People in general\n\n**Se** + a third-person verb says what people in general do, with nobody in particular as the subject: *Aquí se come muy bien* (You eat very well here). *¿Cómo se dice \"window\" en español?* (How do you say \"window\" in Spanish?)\n\n## Signs and adverts\n\nWith a noun, the verb agrees with it: *Se vende piso* (Flat for sale), but *Se venden pisos*. This is the se of signs: *Se alquila* (To let), *Se habla inglés* (English spoken), *Se prohíbe fumar* (No smoking).\n\n## Accidents\n\nWhen something happens that nobody meant, Spanish makes the thing the subject and adds the person as an indirect pronoun: *Se me ha roto el móvil* (My phone's broken; I broke it, but not on purpose). *Se nos ha acabado la leche* (We've run out of milk). *Se le cayeron las llaves* (She dropped her keys).\n\nThe verb agrees with the thing: *se me ha olvidado el nombre*, but *se me han olvidado los nombres*.\n\n## Other ways to say \"they\" and \"you\"\n\nA third-person plural verb with no subject also works: *Dicen que va a llover* (They say it's going to rain). *Me han robado la cartera* (Someone's stolen my wallet). And **uno** speaks for anyone: *Uno nunca sabe* (You never know).\n\n:::examples\n- En España se cena muy tarde. — In Spain people have dinner very late.\n- Se busca camarero. — Waiter wanted.\n- Se me ha olvidado la contraseña. — I've forgotten the password.\n:::\n\n:::cloze{sentence=\"En esta tienda ___ habla inglés y francés.\" blank=\"se\"}\n:::\n\n:::cloze{sentence=\"A Luis se le ___ las gafas en el tren.\" blank=\"olvidaron\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-se"
+        ],
+        "explains": [
+          "se-impersonal"
+        ]
+      },
+      "tags": [
+        "se-impersonal"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-ser-estar-adjectives",
+      "title": "Ser listo, estar listo",
+      "body_md": "The A1 pack split *ser* (what something is) from *estar* (how it is now, and where it is). With some adjectives the choice changes the meaning completely.\n\n| Adjective | With ser | With estar |\n| --- | --- | --- |\n| listo | clever | ready |\n| rico | rich | tasty |\n| malo | bad | ill |\n| aburrido | boring | bored |\n| despierto | sharp | awake |\n| vivo | lively | alive |\n| seguro | safe | sure |\n| verde | green | unripe |\n| orgulloso | arrogant | proud |\n\n*Es muy listo* (He's very clever), but *¿Estás listo?* (Are you ready?).\n\n## Food, looks and change\n\nWith food, *estar* says how it tastes: *La sopa está muy rica.* *Ser rico* is about money.\n\n*Estar* also marks a change or a first impression: *¡Qué guapa estás!* (You look lovely), *El café está frío*. *Ser* gives the usual state: *Es guapa*, *El café de aquí es bueno*.\n\n## Results\n\n*Muerto* and *casado* take *estar*, though they rarely change: they're the result of something that happened. *Está muerto*, *Estoy casada*.\n\n:::examples\n- La paella está buenísima. — The paella is delicious.\n- Su familia es muy rica. — Her family is very rich.\n- ¿Estáis listos? Nos vamos. — Are you ready? We're off.\n- Mi hijo es muy despierto para su edad. — My son is very sharp for his age.\n:::\n\n:::cloze{sentence=\"Hoy no voy a trabajar porque ___ malo.\" blank=\"estoy\"}\n:::\n\n:::cloze{sentence=\"Mi profesor ___ muy aburrido: siempre habla de lo mismo.\" blank=\"es\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-ser-estar-adjectives"
+        ]
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "es-nuance-connectives",
+      "title": "Aunque, para que, en cuanto",
+      "body_md": "Many Spanish conjunctions decide the mood of the verb after them. Some always take the subjunctive; others take it only when the event hasn't happened yet.\n\n## Always the subjunctive\n\n| Conjunction | Meaning | Example |\n| --- | --- | --- |\n| para que | so that | Te lo explico para que lo entiendas. |\n| antes de que | before | Vámonos antes de que llueva. |\n| sin que | without | Lo preparo sin que se entere mi madre. |\n| a menos que | unless | Comemos fuera, a menos que prefieras cocinar. |\n\nWhen both halves have the same subject, use the infinitive: *Estudio para aprobar*, but *Estudio para que mis padres estén contentos*. *Antes de salir*, but *antes de que salgas*.\n\n## The future or a fact\n\n*Cuando*, **en cuanto** (as soon as), *hasta que* (until) and *mientras* (as long as) take the subjunctive about the future and the indicative about the past or a habit:\n\n- *En cuanto llegue, te aviso.* (I'll let you know as soon as I arrive.)\n- *En cuanto llegué, me fui a dormir.* (As soon as I arrived, I went to bed.)\n\n## Aunque\n\n**Aunque** with the indicative states a fact: *Aunque llueve, voy a salir* (Even though it's raining, I'm going out). With the subjunctive it leaves it open: *Aunque llueva, voy a salir* (Even if it rains, I'm going out). **A pesar de que** works the same way and sounds more formal.\n\n## Because and since\n\n| Word | Use | Example |\n| --- | --- | --- |\n| porque | answers \"why?\" | No voy porque estoy cansado. |\n| como | starts the sentence | Como no contestas, te escribo. |\n| ya que, puesto que | the reason is known; puesto que is formal | Puesto que nadie pregunta, terminamos. |\n| gracias a | thanks to | Gracias a ti, he aprobado. |\n| por culpa de | because of (a bad cause) | Llegamos tarde por culpa del tráfico. |\n\n## So\n\n*Así que* is what people say. *De modo que* is a little more careful, and *por lo tanto* belongs in writing.\n\n:::examples\n- Te dejo mi coche para que vayas al médico. — I'll lend you my car so you can go to the doctor.\n- Aunque no me guste, lo voy a hacer. — Even if I don't like it, I'm going to do it.\n- Llámame en cuanto sepas algo. — Call me as soon as you hear anything.\n:::\n\n:::sort{groups=\"Subjuntivo (always): para que, antes de que, sin que | Indicativo (a reason): porque, ya que, puesto que\"}\n:::\n\n:::cloze{sentence=\"Habla más alto para que te ___ todos.\" blank=\"oigan\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:es-nuance-connectives"
+        ],
+        "explains": [
+          "conjunciones"
+        ]
+      },
+      "tags": [
+        "conjunciones",
+        "subjuntivo"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "sociedad",
+      "primary_form": "sociedad",
+      "gloss": "society",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "sociedades",
+        "example": "Vivimos en una sociedad muy diversa.",
+        "example_en": "We live in a very diverse society."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tomar-el-pelo",
+      "primary_form": "tomar el pelo",
+      "gloss": "to pull someone's leg",
+      "extras": {
+        "literal": "to take the hair",
+        "example": "¿Me estás tomando el pelo?",
+        "example_en": "Are you pulling my leg?"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "deber",
+      "primary_form": "deber",
+      "gloss": "must, should; to owe",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "debido",
+        "example": "Debes descansar más.",
+        "example_en": "You should rest more.",
+        "note": "Deberías is softer advice. Deber dinero: to owe money."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "debo",
+          "2s": "debes",
+          "3s": "debe",
+          "1p": "debemos",
+          "2p": "debéis",
+          "3p": "deben"
+        },
+        "pretérito-perfecto": {
+          "1s": "he debido",
+          "2s": "has debido",
+          "3s": "ha debido",
+          "1p": "hemos debido",
+          "2p": "habéis debido",
+          "3p": "han debido"
+        },
+        "pretérito-indefinido": {
+          "1s": "debí",
+          "2s": "debiste",
+          "3s": "debió",
+          "1p": "debimos",
+          "2p": "debisteis",
+          "3p": "debieron"
+        },
+        "imperfecto": {
+          "1s": "debía",
+          "2s": "debías",
+          "3s": "debía",
+          "1p": "debíamos",
+          "2p": "debíais",
+          "3p": "debían"
+        },
+        "futuro": {
+          "1s": "deberé",
+          "2s": "deberás",
+          "3s": "deberá",
+          "1p": "deberemos",
+          "2p": "deberéis",
+          "3p": "deberán"
+        },
+        "condicional": {
+          "1s": "debería",
+          "2s": "deberías",
+          "3s": "debería",
+          "1p": "deberíamos",
+          "2p": "deberíais",
+          "3p": "deberían"
+        },
+        "subjuntivo": {
+          "1s": "deba",
+          "2s": "debas",
+          "3s": "deba",
+          "1p": "debamos",
+          "2p": "debáis",
+          "3p": "deban"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "vale-la-pena",
+      "primary_form": "vale la pena",
+      "gloss": "it's worth it",
+      "extras": {
+        "literal": "it's worth the pain",
+        "note": "Spain also says merece la pena.",
+        "example": "Si vas a Granada, la Alhambra vale la pena.",
+        "example_en": "If you go to Granada, the Alhambra is worth it."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "actual",
+      "primary_form": "actual",
+      "gloss": "current, present-day",
+      "extras": {
+        "forms": {
+          "ms": "actual",
+          "fs": "actual",
+          "mp": "actuales",
+          "fp": "actuales"
+        },
+        "example": "La situación actual es complicada.",
+        "example_en": "The current situation is complicated.",
+        "note": "Not \"actual\": that's real. Actualmente means nowadays."
+      },
+      "tags": [
+        "adjetivos",
+        "falsos-amigos"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "no-obstante",
+      "primary_form": "no obstante",
+      "gloss": "nevertheless",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "El hotel era caro; no obstante, mereció la pena.",
+        "example_en": "The hotel was expensive; nevertheless, it was worth it."
+      },
+      "tags": [
+        "conectores"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "gobierno",
+      "primary_form": "gobierno",
+      "gloss": "government",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "gobiernos",
+        "example": "El gobierno ha subido los impuestos.",
+        "example_en": "The government has raised taxes."
+      },
+      "tags": [
+        "society",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "estar-en-las-nubes",
+      "primary_form": "estar en las nubes",
+      "gloss": "to be miles away",
+      "extras": {
+        "literal": "to be in the clouds",
+        "example": "Perdona, estaba en las nubes.",
+        "example_en": "Sorry, I was miles away."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ley",
+      "primary_form": "ley",
+      "gloss": "law",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "leyes",
+        "example": "Es una ley muy polémica.",
+        "example_en": "It's a very controversial law."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "creer",
+      "primary_form": "creer",
+      "gloss": "to believe, to think",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "creído",
+        "example": "Creo que va a llover.",
+        "example_en": "I think it's going to rain."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "creo",
+          "2s": "crees",
+          "3s": "cree",
+          "1p": "creemos",
+          "2p": "creéis",
+          "3p": "creen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he creído",
+          "2s": "has creído",
+          "3s": "ha creído",
+          "1p": "hemos creído",
+          "2p": "habéis creído",
+          "3p": "han creído"
+        },
+        "pretérito-indefinido": {
+          "1s": "creí",
+          "2s": "creíste",
+          "3s": "creyó",
+          "1p": "creímos",
+          "2p": "creísteis",
+          "3p": "creyeron"
+        },
+        "imperfecto": {
+          "1s": "creía",
+          "2s": "creías",
+          "3s": "creía",
+          "1p": "creíamos",
+          "2p": "creíais",
+          "3p": "creían"
+        },
+        "futuro": {
+          "1s": "creeré",
+          "2s": "creerás",
+          "3s": "creerá",
+          "1p": "creeremos",
+          "2p": "creeréis",
+          "3p": "creerán"
+        },
+        "condicional": {
+          "1s": "creería",
+          "2s": "creerías",
+          "3s": "creería",
+          "1p": "creeríamos",
+          "2p": "creeríais",
+          "3p": "creerían"
+        },
+        "subjuntivo": {
+          "1s": "crea",
+          "2s": "creas",
+          "3s": "crea",
+          "1p": "creamos",
+          "2p": "creáis",
+          "3p": "crean"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "darse-cuenta",
+      "primary_form": "darse cuenta",
+      "gloss": "to realise",
+      "extras": {
+        "literal": "to give yourself account",
+        "note": "Realizar is not \"to realise\".",
+        "example": "No me di cuenta de la hora.",
+        "example_en": "I didn't notice the time."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "costar-un-ojo-de-la-cara",
+      "primary_form": "costar un ojo de la cara",
+      "gloss": "to cost an arm and a leg",
+      "extras": {
+        "literal": "to cost an eye from the face",
+        "example": "El piso nos costó un ojo de la cara.",
+        "example_en": "The flat cost us an arm and a leg."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "sensible",
+      "primary_form": "sensible",
+      "gloss": "sensitive",
+      "extras": {
+        "forms": {
+          "ms": "sensible",
+          "fs": "sensible",
+          "mp": "sensibles",
+          "fp": "sensibles"
+        },
+        "example": "Tengo la piel muy sensible.",
+        "example_en": "I have very sensitive skin.",
+        "note": "Not \"sensible\": that's sensato."
+      },
+      "tags": [
+        "adjetivos",
+        "falsos-amigos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "derecho",
+      "primary_form": "derecho",
+      "gloss": "right; law (the subject)",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "derechos",
+        "example": "Todos tenemos derecho a una vivienda digna.",
+        "example_en": "Everyone has the right to a decent home.",
+        "note": "Estudiar Derecho: to study law."
+      },
+      "tags": [
+        "society",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "en-cualquier-caso",
+      "primary_form": "en cualquier caso",
+      "gloss": "in any case",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "No sé si iré; en cualquier caso, te aviso.",
+        "example_en": "I don't know if I'll go; in any case, I'll let you know."
+      },
+      "tags": [
+        "conectores"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ser-pan-comido",
+      "primary_form": "ser pan comido",
+      "gloss": "to be a piece of cake",
+      "extras": {
+        "literal": "to be eaten bread",
+        "example": "El examen fue pan comido.",
+        "example_en": "The exam was a piece of cake."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "dudar",
+      "primary_form": "dudar",
+      "gloss": "to doubt",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "dudado",
+        "example": "Dudo que tenga tiempo.",
+        "example_en": "I doubt he'll have time."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "dudo",
+          "2s": "dudas",
+          "3s": "duda",
+          "1p": "dudamos",
+          "2p": "dudáis",
+          "3p": "dudan"
+        },
+        "pretérito-perfecto": {
+          "1s": "he dudado",
+          "2s": "has dudado",
+          "3s": "ha dudado",
+          "1p": "hemos dudado",
+          "2p": "habéis dudado",
+          "3p": "han dudado"
+        },
+        "pretérito-indefinido": {
+          "1s": "dudé",
+          "2s": "dudaste",
+          "3s": "dudó",
+          "1p": "dudamos",
+          "2p": "dudasteis",
+          "3p": "dudaron"
+        },
+        "imperfecto": {
+          "1s": "dudaba",
+          "2s": "dudabas",
+          "3s": "dudaba",
+          "1p": "dudábamos",
+          "2p": "dudabais",
+          "3p": "dudaban"
+        },
+        "futuro": {
+          "1s": "dudaré",
+          "2s": "dudarás",
+          "3s": "dudará",
+          "1p": "dudaremos",
+          "2p": "dudaréis",
+          "3p": "dudarán"
+        },
+        "condicional": {
+          "1s": "dudaría",
+          "2s": "dudarías",
+          "3s": "dudaría",
+          "1p": "dudaríamos",
+          "2p": "dudaríais",
+          "3p": "dudarían"
+        },
+        "subjuntivo": {
+          "1s": "dude",
+          "2s": "dudes",
+          "3s": "dude",
+          "1p": "dudemos",
+          "2p": "dudéis",
+          "3p": "duden"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "politica",
+      "primary_form": "política",
+      "gloss": "politics; policy",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "example": "No me gusta hablar de política.",
+        "example_en": "I don't like talking about politics.",
+        "note": "A politician is un político or una política."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "estar-embarazada",
+      "primary_form": "estar embarazada",
+      "gloss": "to be pregnant",
+      "extras": {
+        "note": "Not \"embarrassed\": that's tener vergüenza.",
+        "example": "Mi hermana está embarazada de cinco meses.",
+        "example_en": "My sister is five months pregnant."
+      },
+      "tags": [
+        "expressions",
+        "falsos-amigos"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "meter-la-pata",
+      "primary_form": "meter la pata",
+      "gloss": "to put your foot in it",
+      "extras": {
+        "literal": "to put the paw in",
+        "example": "Le pregunté por su novia y metí la pata.",
+        "example_en": "I asked him about his girlfriend and put my foot in it."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "constipado",
+      "primary_form": "constipado",
+      "gloss": "having a cold",
+      "extras": {
+        "forms": {
+          "ms": "constipado",
+          "fs": "constipada",
+          "mp": "constipados",
+          "fp": "constipadas"
+        },
+        "example": "Estoy constipado y no puedo respirar.",
+        "example_en": "I've got a cold and can't breathe.",
+        "note": "Not \"constipated\": that's estreñido. Latin America prefers resfriado."
+      },
+      "tags": [
+        "adjetivos",
+        "falsos-amigos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "eleccion",
+      "primary_form": "elección",
+      "gloss": "election; choice",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "elecciones",
+        "example": "Las elecciones son en mayo.",
+        "example_en": "The elections are in May."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "alegrarse",
+      "primary_form": "alegrarse",
+      "gloss": "to be glad",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "alegrado",
+        "example": "Me alegro mucho de verte.",
+        "example_en": "I'm really glad to see you.",
+        "note": "Me alegro on its own: I'm glad to hear it."
+      },
+      "tags": [
+        "presente",
+        "reflexivos"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "me alegro",
+          "2s": "te alegras",
+          "3s": "se alegra",
+          "1p": "nos alegramos",
+          "2p": "os alegráis",
+          "3p": "se alegran"
+        },
+        "pretérito-perfecto": {
+          "1s": "me he alegrado",
+          "2s": "te has alegrado",
+          "3s": "se ha alegrado",
+          "1p": "nos hemos alegrado",
+          "2p": "os habéis alegrado",
+          "3p": "se han alegrado"
+        },
+        "pretérito-indefinido": {
+          "1s": "me alegré",
+          "2s": "te alegraste",
+          "3s": "se alegró",
+          "1p": "nos alegramos",
+          "2p": "os alegrasteis",
+          "3p": "se alegraron"
+        },
+        "imperfecto": {
+          "1s": "me alegraba",
+          "2s": "te alegrabas",
+          "3s": "se alegraba",
+          "1p": "nos alegrábamos",
+          "2p": "os alegrabais",
+          "3p": "se alegraban"
+        },
+        "futuro": {
+          "1s": "me alegraré",
+          "2s": "te alegrarás",
+          "3s": "se alegrará",
+          "1p": "nos alegraremos",
+          "2p": "os alegraréis",
+          "3p": "se alegrarán"
+        },
+        "condicional": {
+          "1s": "me alegraría",
+          "2s": "te alegrarías",
+          "3s": "se alegraría",
+          "1p": "nos alegraríamos",
+          "2p": "os alegraríais",
+          "3p": "se alegrarían"
+        },
+        "subjuntivo": {
+          "1s": "me alegre",
+          "2s": "te alegres",
+          "3s": "se alegre",
+          "1p": "nos alegremos",
+          "2p": "os alegréis",
+          "3p": "se alegren"
+        }
+      }
+    },
+    {
+      "kind": "connective",
+      "id": "por-lo-tanto",
+      "primary_form": "por lo tanto",
+      "gloss": "therefore",
+      "extras": {
+        "role": "conn-consequence",
+        "example": "No hay mayoría; por lo tanto, habrá nuevas elecciones.",
+        "example_en": "There's no majority; therefore, there'll be fresh elections."
+      },
+      "tags": [
+        "conectores"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "no-tener-pelos-en-la-lengua",
+      "primary_form": "no tener pelos en la lengua",
+      "gloss": "to not mince your words",
+      "extras": {
+        "literal": "to have no hairs on your tongue",
+        "example": "Mi abuela no tiene pelos en la lengua.",
+        "example_en": "My grandmother doesn't mince her words."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "contaminacion",
+      "primary_form": "contaminación",
+      "gloss": "pollution",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "example": "La contaminación es un problema en las grandes ciudades.",
+        "example_en": "Pollution is a problem in big cities."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tener-que-ver-con",
+      "primary_form": "tener que ver con",
+      "gloss": "to have to do with",
+      "extras": {
+        "literal": "to have to see with",
+        "example": "Eso no tiene nada que ver con nosotros.",
+        "example_en": "That's got nothing to do with us."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "educado",
+      "primary_form": "educado",
+      "gloss": "polite, well-mannered",
+      "extras": {
+        "forms": {
+          "ms": "educado",
+          "fs": "educada",
+          "mp": "educados",
+          "fp": "educadas"
+        },
+        "example": "Tus hijos son muy educados.",
+        "example_en": "Your children are very polite.",
+        "note": "Educated is culto, or con estudios."
+      },
+      "tags": [
+        "adjetivos",
+        "falsos-amigos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "medio-ambiente",
+      "primary_form": "medio ambiente",
+      "gloss": "environment",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "example": "Hay que proteger el medio ambiente.",
+        "example_en": "We have to protect the environment."
+      },
+      "tags": [
+        "society",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "estar-como-una-cabra",
+      "primary_form": "estar como una cabra",
+      "gloss": "to be off your head",
+      "extras": {
+        "literal": "to be like a goat",
+        "example": "Tu primo está como una cabra.",
+        "example_en": "Your cousin is completely bonkers."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "molestar",
+      "primary_form": "molestar",
+      "gloss": "to bother",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "molestado",
+        "example": "¿Te molesta la música?",
+        "example_en": "Does the music bother you?",
+        "note": "Not \"to molest\". Works like gustar: me molesta el ruido."
+      },
+      "tags": [
+        "presente",
+        "falsos-amigos"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "molesto",
+          "2s": "molestas",
+          "3s": "molesta",
+          "1p": "molestamos",
+          "2p": "molestáis",
+          "3p": "molestan"
+        },
+        "pretérito-perfecto": {
+          "1s": "he molestado",
+          "2s": "has molestado",
+          "3s": "ha molestado",
+          "1p": "hemos molestado",
+          "2p": "habéis molestado",
+          "3p": "han molestado"
+        },
+        "pretérito-indefinido": {
+          "1s": "molesté",
+          "2s": "molestaste",
+          "3s": "molestó",
+          "1p": "molestamos",
+          "2p": "molestasteis",
+          "3p": "molestaron"
+        },
+        "imperfecto": {
+          "1s": "molestaba",
+          "2s": "molestabas",
+          "3s": "molestaba",
+          "1p": "molestábamos",
+          "2p": "molestabais",
+          "3p": "molestaban"
+        },
+        "futuro": {
+          "1s": "molestaré",
+          "2s": "molestarás",
+          "3s": "molestará",
+          "1p": "molestaremos",
+          "2p": "molestaréis",
+          "3p": "molestarán"
+        },
+        "condicional": {
+          "1s": "molestaría",
+          "2s": "molestarías",
+          "3s": "molestaría",
+          "1p": "molestaríamos",
+          "2p": "molestaríais",
+          "3p": "molestarían"
+        },
+        "subjuntivo": {
+          "1s": "moleste",
+          "2s": "molestes",
+          "3s": "moleste",
+          "1p": "molestemos",
+          "2p": "molestéis",
+          "3p": "molesten"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "paro",
+      "primary_form": "paro",
+      "gloss": "unemployment",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "example": "Mi hermano está en el paro.",
+        "example_en": "My brother is out of work.",
+        "note": "Spain. Latin America says el desempleo."
+      },
+      "tags": [
+        "society",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "en-absoluto",
+      "primary_form": "en absoluto",
+      "gloss": "not at all",
+      "extras": {
+        "note": "Not \"absolutely\": that's totalmente.",
+        "example": "—¿Te molesta? —En absoluto.",
+        "example_en": "\"Does it bother you?\" \"Not at all.\""
+      },
+      "tags": [
+        "expressions",
+        "falsos-amigos"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "de-hecho",
+      "primary_form": "de hecho",
+      "gloss": "in fact, actually",
+      "extras": {
+        "role": "conn-cause",
+        "example": "No está enfadado; de hecho, está muy contento.",
+        "example_en": "He isn't angry; in fact, he's very happy."
+      },
+      "tags": [
+        "conectores"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "echar-una-mano",
+      "primary_form": "echar una mano",
+      "gloss": "to give a hand",
+      "extras": {
+        "literal": "to throw a hand",
+        "example": "¿Me echas una mano con la mudanza?",
+        "example_en": "Will you give me a hand with the move?"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "raro",
+      "primary_form": "raro",
+      "gloss": "strange, odd",
+      "extras": {
+        "forms": {
+          "ms": "raro",
+          "fs": "rara",
+          "mp": "raros",
+          "fp": "raras"
+        },
+        "example": "¡Qué raro! No contesta.",
+        "example_en": "How odd! She isn't answering.",
+        "note": "It can mean rare, but strange is the usual sense."
+      },
+      "tags": [
+        "adjetivos",
+        "falsos-amigos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "huelga",
+      "primary_form": "huelga",
+      "gloss": "strike",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "huelgas",
+        "example": "Mañana hay huelga de metro.",
+        "example_en": "There's a metro strike tomorrow."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "realizar",
+      "primary_form": "realizar",
+      "gloss": "to carry out, to do",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "realizado",
+        "example": "Realizamos una encuesta a mil personas.",
+        "example_en": "We carried out a survey of a thousand people.",
+        "note": "Not \"to realise\": that's darse cuenta."
+      },
+      "tags": [
+        "presente",
+        "falsos-amigos"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "realizo",
+          "2s": "realizas",
+          "3s": "realiza",
+          "1p": "realizamos",
+          "2p": "realizáis",
+          "3p": "realizan"
+        },
+        "pretérito-perfecto": {
+          "1s": "he realizado",
+          "2s": "has realizado",
+          "3s": "ha realizado",
+          "1p": "hemos realizado",
+          "2p": "habéis realizado",
+          "3p": "han realizado"
+        },
+        "pretérito-indefinido": {
+          "1s": "realicé",
+          "2s": "realizaste",
+          "3s": "realizó",
+          "1p": "realizamos",
+          "2p": "realizasteis",
+          "3p": "realizaron"
+        },
+        "imperfecto": {
+          "1s": "realizaba",
+          "2s": "realizabas",
+          "3s": "realizaba",
+          "1p": "realizábamos",
+          "2p": "realizabais",
+          "3p": "realizaban"
+        },
+        "futuro": {
+          "1s": "realizaré",
+          "2s": "realizarás",
+          "3s": "realizará",
+          "1p": "realizaremos",
+          "2p": "realizaréis",
+          "3p": "realizarán"
+        },
+        "condicional": {
+          "1s": "realizaría",
+          "2s": "realizarías",
+          "3s": "realizaría",
+          "1p": "realizaríamos",
+          "2p": "realizaríais",
+          "3p": "realizarían"
+        },
+        "subjuntivo": {
+          "1s": "realice",
+          "2s": "realices",
+          "3s": "realice",
+          "1p": "realicemos",
+          "2p": "realicéis",
+          "3p": "realicen"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "ponerse-las-pilas",
+      "primary_form": "ponerse las pilas",
+      "gloss": "to get your act together",
+      "extras": {
+        "literal": "to put your batteries in",
+        "example": "Si quieres aprobar, ponte las pilas.",
+        "example_en": "If you want to pass, get your act together."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ojala",
+      "primary_form": "ojalá",
+      "gloss": "I hope, if only",
+      "extras": {
+        "note": "From Arabic, \"if God wills\". Takes the subjunctive.",
+        "example": "¡Ojalá aprobemos el examen!",
+        "example_en": "I hope we pass the exam!"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "sueldo",
+      "primary_form": "sueldo",
+      "gloss": "salary, wages",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "sueldos",
+        "example": "Con este sueldo no llego a fin de mes.",
+        "example_en": "On this salary I can't make it to the end of the month."
+      },
+      "tags": [
+        "society",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "llover-a-cantaros",
+      "primary_form": "llover a cántaros",
+      "gloss": "to pour with rain",
+      "extras": {
+        "literal": "to rain in jugs",
+        "example": "Está lloviendo a cántaros.",
+        "example_en": "It's pouring down."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "encima",
+      "primary_form": "encima",
+      "gloss": "on top of that",
+      "extras": {
+        "role": "conn-addition",
+        "example": "Llegó tarde y encima sin regalo.",
+        "example_en": "He was late, and on top of that he didn't bring a present."
+      },
+      "tags": [
+        "conectores"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "asistir",
+      "primary_form": "asistir",
+      "gloss": "to attend",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "asistido",
+        "example": "Más de mil personas asistieron al concierto.",
+        "example_en": "Over a thousand people attended the concert.",
+        "note": "Asistir a: to attend. To assist is ayudar."
+      },
+      "tags": [
+        "presente",
+        "falsos-amigos"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "asisto",
+          "2s": "asistes",
+          "3s": "asiste",
+          "1p": "asistimos",
+          "2p": "asistís",
+          "3p": "asisten"
+        },
+        "pretérito-perfecto": {
+          "1s": "he asistido",
+          "2s": "has asistido",
+          "3s": "ha asistido",
+          "1p": "hemos asistido",
+          "2p": "habéis asistido",
+          "3p": "han asistido"
+        },
+        "pretérito-indefinido": {
+          "1s": "asistí",
+          "2s": "asististe",
+          "3s": "asistió",
+          "1p": "asistimos",
+          "2p": "asististeis",
+          "3p": "asistieron"
+        },
+        "imperfecto": {
+          "1s": "asistía",
+          "2s": "asistías",
+          "3s": "asistía",
+          "1p": "asistíamos",
+          "2p": "asistíais",
+          "3p": "asistían"
+        },
+        "futuro": {
+          "1s": "asistiré",
+          "2s": "asistirás",
+          "3s": "asistirá",
+          "1p": "asistiremos",
+          "2p": "asistiréis",
+          "3p": "asistirán"
+        },
+        "condicional": {
+          "1s": "asistiría",
+          "2s": "asistirías",
+          "3s": "asistiría",
+          "1p": "asistiríamos",
+          "2p": "asistiríais",
+          "3p": "asistirían"
+        },
+        "subjuntivo": {
+          "1s": "asista",
+          "2s": "asistas",
+          "3s": "asista",
+          "1p": "asistamos",
+          "2p": "asistáis",
+          "3p": "asistan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "alquiler",
+      "primary_form": "alquiler",
+      "gloss": "rent; renting",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "alquileres",
+        "example": "El alquiler en Madrid es carísimo.",
+        "example_en": "Rent in Madrid is very expensive."
+      },
+      "tags": [
+        "society",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "listo",
+      "primary_form": "listo",
+      "gloss": "clever; ready",
+      "extras": {
+        "forms": {
+          "ms": "listo",
+          "fs": "lista",
+          "mp": "listos",
+          "fp": "listas"
+        },
+        "example": "Tu hija es muy lista.",
+        "example_en": "Your daughter is very clever.",
+        "note": "Ser listo: clever. Estar listo: ready."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "quedarse-de-piedra",
+      "primary_form": "quedarse de piedra",
+      "gloss": "to be stunned",
+      "extras": {
+        "literal": "to be turned to stone",
+        "example": "Cuando me lo contó, me quedé de piedra.",
+        "example_en": "When she told me, I was stunned."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "hace-falta",
+      "primary_form": "hace falta",
+      "gloss": "it's needed, you need",
+      "extras": {
+        "literal": "it makes lack",
+        "example": "Hace falta mucha paciencia con los niños.",
+        "example_en": "You need a lot of patience with children."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vivienda",
+      "primary_form": "vivienda",
+      "gloss": "housing; home",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "viviendas",
+        "example": "El precio de la vivienda no para de subir.",
+        "example_en": "House prices keep going up."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "aprobar",
+      "primary_form": "aprobar",
+      "gloss": "to pass (an exam); to approve",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "aprobado",
+        "example": "¡He aprobado el examen de conducir!",
+        "example_en": "I've passed my driving test!"
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "apruebo",
+          "2s": "apruebas",
+          "3s": "aprueba",
+          "1p": "aprobamos",
+          "2p": "aprobáis",
+          "3p": "aprueban"
+        },
+        "pretérito-perfecto": {
+          "1s": "he aprobado",
+          "2s": "has aprobado",
+          "3s": "ha aprobado",
+          "1p": "hemos aprobado",
+          "2p": "habéis aprobado",
+          "3p": "han aprobado"
+        },
+        "pretérito-indefinido": {
+          "1s": "aprobé",
+          "2s": "aprobaste",
+          "3s": "aprobó",
+          "1p": "aprobamos",
+          "2p": "aprobasteis",
+          "3p": "aprobaron"
+        },
+        "imperfecto": {
+          "1s": "aprobaba",
+          "2s": "aprobabas",
+          "3s": "aprobaba",
+          "1p": "aprobábamos",
+          "2p": "aprobabais",
+          "3p": "aprobaban"
+        },
+        "futuro": {
+          "1s": "aprobaré",
+          "2s": "aprobarás",
+          "3s": "aprobará",
+          "1p": "aprobaremos",
+          "2p": "aprobaréis",
+          "3p": "aprobarán"
+        },
+        "condicional": {
+          "1s": "aprobaría",
+          "2s": "aprobarías",
+          "3s": "aprobaría",
+          "1p": "aprobaríamos",
+          "2p": "aprobaríais",
+          "3p": "aprobarían"
+        },
+        "subjuntivo": {
+          "1s": "apruebe",
+          "2s": "apruebes",
+          "3s": "apruebe",
+          "1p": "aprobemos",
+          "2p": "aprobéis",
+          "3p": "aprueben"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "dar-en-el-clavo",
+      "primary_form": "dar en el clavo",
+      "gloss": "to hit the nail on the head",
+      "extras": {
+        "literal": "to hit on the nail",
+        "example": "Has dado en el clavo.",
+        "example_en": "You've hit the nail on the head."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "impuesto",
+      "primary_form": "impuesto",
+      "gloss": "tax",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "impuestos",
+        "example": "Pagamos muchos impuestos.",
+        "example_en": "We pay a lot of tax."
+      },
+      "tags": [
+        "society",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "es-decir",
+      "primary_form": "es decir",
+      "gloss": "that is, in other words",
+      "extras": {
+        "role": "conn-addition",
+        "example": "Vuelvo dentro de quince días, es decir, el día diez.",
+        "example_en": "I'm back in a fortnight, that is, on the tenth."
+      },
+      "tags": [
+        "conectores"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "rico",
+      "primary_form": "rico",
+      "gloss": "rich; tasty",
+      "extras": {
+        "forms": {
+          "ms": "rico",
+          "fs": "rica",
+          "mp": "ricos",
+          "fp": "ricas"
+        },
+        "example": "Este gazpacho está muy rico.",
+        "example_en": "This gazpacho is delicious.",
+        "note": "Ser rico: rich. Estar rico: tasty."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "no-me-digas",
+      "primary_form": "¡no me digas!",
+      "gloss": "you don't say!",
+      "extras": {
+        "literal": "don't tell me",
+        "example": "—Ana y Luis se han separado. —¡No me digas!",
+        "example_en": "\"Ana and Luis have split up.\" \"You don't say!\""
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ciudadano",
+      "primary_form": "ciudadano",
+      "gloss": "citizen",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "ciudadanos",
+        "example": "Es un derecho de todos los ciudadanos.",
+        "example_en": "It's a right of every citizen.",
+        "note": "A woman is la ciudadana."
+      },
+      "tags": [
+        "society",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "no-pegar-ojo",
+      "primary_form": "no pegar ojo",
+      "gloss": "to not sleep a wink",
+      "extras": {
+        "literal": "to not stick an eye",
+        "example": "Con este calor no pego ojo.",
+        "example_en": "I can't sleep a wink in this heat."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "suspender",
+      "primary_form": "suspender",
+      "gloss": "to fail (an exam); to call off",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "suspendido",
+        "example": "Suspendí matemáticas en junio.",
+        "example_en": "I failed maths in June.",
+        "note": "Spain. Mexico says reprobar."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "suspendo",
+          "2s": "suspendes",
+          "3s": "suspende",
+          "1p": "suspendemos",
+          "2p": "suspendéis",
+          "3p": "suspenden"
+        },
+        "pretérito-perfecto": {
+          "1s": "he suspendido",
+          "2s": "has suspendido",
+          "3s": "ha suspendido",
+          "1p": "hemos suspendido",
+          "2p": "habéis suspendido",
+          "3p": "han suspendido"
+        },
+        "pretérito-indefinido": {
+          "1s": "suspendí",
+          "2s": "suspendiste",
+          "3s": "suspendió",
+          "1p": "suspendimos",
+          "2p": "suspendisteis",
+          "3p": "suspendieron"
+        },
+        "imperfecto": {
+          "1s": "suspendía",
+          "2s": "suspendías",
+          "3s": "suspendía",
+          "1p": "suspendíamos",
+          "2p": "suspendíais",
+          "3p": "suspendían"
+        },
+        "futuro": {
+          "1s": "suspenderé",
+          "2s": "suspenderás",
+          "3s": "suspenderá",
+          "1p": "suspenderemos",
+          "2p": "suspenderéis",
+          "3p": "suspenderán"
+        },
+        "condicional": {
+          "1s": "suspendería",
+          "2s": "suspenderías",
+          "3s": "suspendería",
+          "1p": "suspenderíamos",
+          "2p": "suspenderíais",
+          "3p": "suspenderían"
+        },
+        "subjuntivo": {
+          "1s": "suspenda",
+          "2s": "suspendas",
+          "3s": "suspenda",
+          "1p": "suspendamos",
+          "2p": "suspendáis",
+          "3p": "suspendan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "guerra",
+      "primary_form": "guerra",
+      "gloss": "war",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "guerras",
+        "example": "Mi abuelo vivió la guerra.",
+        "example_en": "My grandfather lived through the war."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "irse-por-las-ramas",
+      "primary_form": "irse por las ramas",
+      "gloss": "to beat about the bush",
+      "extras": {
+        "literal": "to go off along the branches",
+        "example": "No te vayas por las ramas y dime la verdad.",
+        "example_en": "Stop beating about the bush and tell me the truth."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "seguro",
+      "primary_form": "seguro",
+      "gloss": "safe; sure",
+      "extras": {
+        "forms": {
+          "ms": "seguro",
+          "fs": "segura",
+          "mp": "seguros",
+          "fp": "seguras"
+        },
+        "example": "¿Estás seguro?",
+        "example_en": "Are you sure?",
+        "note": "Ser seguro: safe. Estar seguro: sure."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "mientras-tanto",
+      "primary_form": "mientras tanto",
+      "gloss": "meanwhile",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "Yo hago la cena; mientras tanto, tú pones la mesa.",
+        "example_en": "I'll make dinner; meanwhile, you lay the table."
+      },
+      "tags": [
+        "conectores"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ni-idea",
+      "primary_form": "¡ni idea!",
+      "gloss": "no idea!",
+      "extras": {
+        "literal": "not an idea",
+        "example": "—¿Dónde está Pepe? —¡Ni idea!",
+        "example_en": "\"Where's Pepe?\" \"No idea!\""
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "paz",
+      "primary_form": "paz",
+      "gloss": "peace",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "example": "Todos queremos vivir en paz.",
+        "example_en": "We all want to live in peace."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "convencer",
+      "primary_form": "convencer",
+      "gloss": "to convince",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "convencido",
+        "example": "Me has convencido.",
+        "example_en": "You've convinced me."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "convenzo",
+          "2s": "convences",
+          "3s": "convence",
+          "1p": "convencemos",
+          "2p": "convencéis",
+          "3p": "convencen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he convencido",
+          "2s": "has convencido",
+          "3s": "ha convencido",
+          "1p": "hemos convencido",
+          "2p": "habéis convencido",
+          "3p": "han convencido"
+        },
+        "pretérito-indefinido": {
+          "1s": "convencí",
+          "2s": "convenciste",
+          "3s": "convenció",
+          "1p": "convencimos",
+          "2p": "convencisteis",
+          "3p": "convencieron"
+        },
+        "imperfecto": {
+          "1s": "convencía",
+          "2s": "convencías",
+          "3s": "convencía",
+          "1p": "convencíamos",
+          "2p": "convencíais",
+          "3p": "convencían"
+        },
+        "futuro": {
+          "1s": "convenceré",
+          "2s": "convencerás",
+          "3s": "convencerá",
+          "1p": "convenceremos",
+          "2p": "convenceréis",
+          "3p": "convencerán"
+        },
+        "condicional": {
+          "1s": "convencería",
+          "2s": "convencerías",
+          "3s": "convencería",
+          "1p": "convenceríamos",
+          "2p": "convenceríais",
+          "3p": "convencerían"
+        },
+        "subjuntivo": {
+          "1s": "convenza",
+          "2s": "convenzas",
+          "3s": "convenza",
+          "1p": "convenzamos",
+          "2p": "convenzáis",
+          "3p": "convenzan"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "hablar-por-los-codos",
+      "primary_form": "hablar por los codos",
+      "gloss": "to never stop talking",
+      "extras": {
+        "literal": "to talk through your elbows",
+        "example": "Mi vecina habla por los codos.",
+        "example_en": "My neighbour never stops talking."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "igualdad",
+      "primary_form": "igualdad",
+      "gloss": "equality",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "example": "Luchan por la igualdad entre hombres y mujeres.",
+        "example_en": "They're fighting for equality between men and women."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "despierto",
+      "primary_form": "despierto",
+      "gloss": "awake; sharp",
+      "extras": {
+        "forms": {
+          "ms": "despierto",
+          "fs": "despierta",
+          "mp": "despiertos",
+          "fp": "despiertas"
+        },
+        "example": "¿Todavía estás despierto?",
+        "example_en": "Are you still awake?",
+        "note": "Ser despierto: quick-witted."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "estar-sin-blanca",
+      "primary_form": "estar sin blanca",
+      "gloss": "to be broke",
+      "extras": {
+        "literal": "to be without a blanca (an old coin)",
+        "note": "Spain.",
+        "example": "Este mes estoy sin blanca.",
+        "example_en": "I'm broke this month."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "sin-querer",
+      "primary_form": "sin querer",
+      "gloss": "by accident",
+      "extras": {
+        "literal": "without wanting",
+        "example": "Perdona, lo he hecho sin querer.",
+        "example_en": "Sorry, I didn't mean to."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "conseguir",
+      "primary_form": "conseguir",
+      "gloss": "to get, to manage to",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "conseguido",
+        "example": "Por fin he conseguido entradas.",
+        "example_en": "I've finally got tickets."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "consigo",
+          "2s": "consigues",
+          "3s": "consigue",
+          "1p": "conseguimos",
+          "2p": "conseguís",
+          "3p": "consiguen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he conseguido",
+          "2s": "has conseguido",
+          "3s": "ha conseguido",
+          "1p": "hemos conseguido",
+          "2p": "habéis conseguido",
+          "3p": "han conseguido"
+        },
+        "pretérito-indefinido": {
+          "1s": "conseguí",
+          "2s": "conseguiste",
+          "3s": "consiguió",
+          "1p": "conseguimos",
+          "2p": "conseguisteis",
+          "3p": "consiguieron"
+        },
+        "imperfecto": {
+          "1s": "conseguía",
+          "2s": "conseguías",
+          "3s": "conseguía",
+          "1p": "conseguíamos",
+          "2p": "conseguíais",
+          "3p": "conseguían"
+        },
+        "futuro": {
+          "1s": "conseguiré",
+          "2s": "conseguirás",
+          "3s": "conseguirá",
+          "1p": "conseguiremos",
+          "2p": "conseguiréis",
+          "3p": "conseguirán"
+        },
+        "condicional": {
+          "1s": "conseguiría",
+          "2s": "conseguirías",
+          "3s": "conseguiría",
+          "1p": "conseguiríamos",
+          "2p": "conseguiríais",
+          "3p": "conseguirían"
+        },
+        "subjuntivo": {
+          "1s": "consiga",
+          "2s": "consigas",
+          "3s": "consiga",
+          "1p": "consigamos",
+          "2p": "consigáis",
+          "3p": "consigan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "crisis",
+      "primary_form": "crisis",
+      "gloss": "crisis",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "crisis",
+        "example": "La crisis de 2008 fue muy dura en España.",
+        "example_en": "The 2008 crisis hit Spain very hard.",
+        "note": "The plural is the same: las crisis."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "finalmente",
+      "primary_form": "finalmente",
+      "gloss": "finally, in the end",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "Lo pensó mucho y finalmente aceptó el trabajo.",
+        "example_en": "She thought about it for a long time and finally took the job."
+      },
+      "tags": [
+        "conectores"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "dormir-como-un-tronco",
+      "primary_form": "dormir como un tronco",
+      "gloss": "to sleep like a log",
+      "extras": {
+        "literal": "to sleep like a trunk",
+        "example": "Después de la excursión dormí como un tronco.",
+        "example_en": "After the hike I slept like a log."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "noticia",
+      "primary_form": "noticia",
+      "gloss": "piece of news",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "noticias",
+        "example": "¿Has visto las noticias?",
+        "example_en": "Have you seen the news?",
+        "note": "The TV news is las noticias, or in Spain el telediario."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "vivo",
+      "primary_form": "vivo",
+      "gloss": "alive; lively",
+      "extras": {
+        "forms": {
+          "ms": "vivo",
+          "fs": "viva",
+          "mp": "vivos",
+          "fp": "vivas"
+        },
+        "example": "Es un niño muy vivo.",
+        "example_en": "He's a very lively child.",
+        "note": "Estar vivo: alive. Ser vivo: lively, sharp."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "por-si-acaso",
+      "primary_form": "por si acaso",
+      "gloss": "just in case",
+      "extras": {
+        "literal": "for if by chance",
+        "example": "Llévate un paraguas, por si acaso.",
+        "example_en": "Take an umbrella, just in case."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "sugerir",
+      "primary_form": "sugerir",
+      "gloss": "to suggest",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "sugerido",
+        "example": "Te sugiero que pruebes el pulpo.",
+        "example_en": "I suggest you try the octopus."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "sugiero",
+          "2s": "sugieres",
+          "3s": "sugiere",
+          "1p": "sugerimos",
+          "2p": "sugerís",
+          "3p": "sugieren"
+        },
+        "pretérito-perfecto": {
+          "1s": "he sugerido",
+          "2s": "has sugerido",
+          "3s": "ha sugerido",
+          "1p": "hemos sugerido",
+          "2p": "habéis sugerido",
+          "3p": "han sugerido"
+        },
+        "pretérito-indefinido": {
+          "1s": "sugerí",
+          "2s": "sugeriste",
+          "3s": "sugirió",
+          "1p": "sugerimos",
+          "2p": "sugeristeis",
+          "3p": "sugirieron"
+        },
+        "imperfecto": {
+          "1s": "sugería",
+          "2s": "sugerías",
+          "3s": "sugería",
+          "1p": "sugeríamos",
+          "2p": "sugeríais",
+          "3p": "sugerían"
+        },
+        "futuro": {
+          "1s": "sugeriré",
+          "2s": "sugerirás",
+          "3s": "sugerirá",
+          "1p": "sugeriremos",
+          "2p": "sugeriréis",
+          "3p": "sugerirán"
+        },
+        "condicional": {
+          "1s": "sugeriría",
+          "2s": "sugerirías",
+          "3s": "sugeriría",
+          "1p": "sugeriríamos",
+          "2p": "sugeriríais",
+          "3p": "sugerirían"
+        },
+        "subjuntivo": {
+          "1s": "sugiera",
+          "2s": "sugieras",
+          "3s": "sugiera",
+          "1p": "sugiramos",
+          "2p": "sugiráis",
+          "3p": "sugieran"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "tener-mala-pata",
+      "primary_form": "tener mala pata",
+      "gloss": "to be unlucky",
+      "extras": {
+        "literal": "to have a bad paw",
+        "example": "Tengo muy mala pata con los coches.",
+        "example_en": "I have really bad luck with cars."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "periodico",
+      "primary_form": "periódico",
+      "gloss": "newspaper",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "periódicos",
+        "example": "Leo el periódico en el móvil.",
+        "example_en": "I read the paper on my phone."
+      },
+      "tags": [
+        "society",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "para-que",
+      "primary_form": "para que",
+      "gloss": "so that (+ subjunctive)",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Te lo repito para que no lo olvides.",
+        "example_en": "I'll say it again so that you don't forget it."
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "red-social",
+      "primary_form": "red social",
+      "gloss": "social network",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "redes sociales",
+        "example": "Paso demasiado tiempo en las redes sociales.",
+        "example_en": "I spend too much time on social media."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "dar-planton",
+      "primary_form": "dar plantón",
+      "gloss": "to stand someone up",
+      "extras": {
+        "literal": "to give a long wait",
+        "example": "Me dio plantón y esperé una hora.",
+        "example_en": "He stood me up and I waited for an hour."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "prohibir",
+      "primary_form": "prohibir",
+      "gloss": "to forbid, to ban",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "prohibido",
+        "example": "Mis padres me prohíben salir entre semana.",
+        "example_en": "My parents don't let me go out on weekdays."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "prohíbo",
+          "2s": "prohíbes",
+          "3s": "prohíbe",
+          "1p": "prohibimos",
+          "2p": "prohibís",
+          "3p": "prohíben"
+        },
+        "pretérito-perfecto": {
+          "1s": "he prohibido",
+          "2s": "has prohibido",
+          "3s": "ha prohibido",
+          "1p": "hemos prohibido",
+          "2p": "habéis prohibido",
+          "3p": "han prohibido"
+        },
+        "pretérito-indefinido": {
+          "1s": "prohibí",
+          "2s": "prohibiste",
+          "3s": "prohibió",
+          "1p": "prohibimos",
+          "2p": "prohibisteis",
+          "3p": "prohibieron"
+        },
+        "imperfecto": {
+          "1s": "prohibía",
+          "2s": "prohibías",
+          "3s": "prohibía",
+          "1p": "prohibíamos",
+          "2p": "prohibíais",
+          "3p": "prohibían"
+        },
+        "futuro": {
+          "1s": "prohibiré",
+          "2s": "prohibirás",
+          "3s": "prohibirá",
+          "1p": "prohibiremos",
+          "2p": "prohibiréis",
+          "3p": "prohibirán"
+        },
+        "condicional": {
+          "1s": "prohibiría",
+          "2s": "prohibirías",
+          "3s": "prohibiría",
+          "1p": "prohibiríamos",
+          "2p": "prohibiríais",
+          "3p": "prohibirían"
+        },
+        "subjuntivo": {
+          "1s": "prohíba",
+          "2s": "prohíbas",
+          "3s": "prohíba",
+          "1p": "prohibamos",
+          "2p": "prohibáis",
+          "3p": "prohíban"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "se-me-ha-olvidado",
+      "primary_form": "se me ha olvidado",
+      "gloss": "I've forgotten",
+      "extras": {
+        "literal": "it has forgotten itself on me",
+        "example": "Lo siento, se me ha olvidado tu cumpleaños.",
+        "example_en": "Sorry, I forgot your birthday."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "pesado",
+      "primary_form": "pesado",
+      "gloss": "heavy; annoying",
+      "extras": {
+        "forms": {
+          "ms": "pesado",
+          "fs": "pesada",
+          "mp": "pesados",
+          "fp": "pesadas"
+        },
+        "example": "¡Qué pesado eres!",
+        "example_en": "You're such a pain!",
+        "note": "Also heavy: una maleta pesada."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "arma",
+      "primary_form": "arma",
+      "gloss": "weapon",
+      "extras": {
+        "gender": "f",
+        "article": "el",
+        "plural": "armas",
+        "example": "Está prohibido llevar armas.",
+        "example_en": "Carrying weapons is against the law.",
+        "note": "Feminine, but el arma, like el agua."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ser-una-y-carne",
+      "primary_form": "ser uña y carne",
+      "gloss": "to be inseparable",
+      "extras": {
+        "literal": "to be nail and flesh",
+        "example": "Ana y Lucía son uña y carne.",
+        "example_en": "Ana and Lucía are inseparable."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "antes-de-que",
+      "primary_form": "antes de que",
+      "gloss": "before (+ subjunctive)",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Vuelve antes de que anochezca.",
+        "example_en": "Come back before it gets dark.",
+        "example_alternatives": [
+          "Antes de que anochezca, vuelve."
+        ]
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "area",
+      "primary_form": "área",
+      "gloss": "area",
+      "extras": {
+        "gender": "f",
+        "article": "el",
+        "plural": "áreas",
+        "example": "Esta es un área peatonal.",
+        "example_en": "This is a pedestrian area.",
+        "note": "Feminine, but el área, like el agua; las áreas."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "caer",
+      "primary_form": "caer",
+      "gloss": "to fall",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "caído",
+        "example": "Cuidado, que te vas a caer.",
+        "example_en": "Careful, you're going to fall.",
+        "note": "Caer bien: me cae bien, I like him."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "caigo",
+          "2s": "caes",
+          "3s": "cae",
+          "1p": "caemos",
+          "2p": "caéis",
+          "3p": "caen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he caído",
+          "2s": "has caído",
+          "3s": "ha caído",
+          "1p": "hemos caído",
+          "2p": "habéis caído",
+          "3p": "han caído"
+        },
+        "pretérito-indefinido": {
+          "1s": "caí",
+          "2s": "caíste",
+          "3s": "cayó",
+          "1p": "caímos",
+          "2p": "caísteis",
+          "3p": "cayeron"
+        },
+        "imperfecto": {
+          "1s": "caía",
+          "2s": "caías",
+          "3s": "caía",
+          "1p": "caíamos",
+          "2p": "caíais",
+          "3p": "caían"
+        },
+        "futuro": {
+          "1s": "caeré",
+          "2s": "caerás",
+          "3s": "caerá",
+          "1p": "caeremos",
+          "2p": "caeréis",
+          "3p": "caerán"
+        },
+        "condicional": {
+          "1s": "caería",
+          "2s": "caerías",
+          "3s": "caería",
+          "1p": "caeríamos",
+          "2p": "caeríais",
+          "3p": "caerían"
+        },
+        "subjuntivo": {
+          "1s": "caiga",
+          "2s": "caigas",
+          "3s": "caiga",
+          "1p": "caigamos",
+          "2p": "caigáis",
+          "3p": "caigan"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "en-plan",
+      "primary_form": "en plan",
+      "gloss": "like, sort of",
+      "extras": {
+        "literal": "in plan",
+        "note": "Spain, young people.",
+        "example": "Estaba en plan \"no me hables\".",
+        "example_en": "She was like, \"don't talk to me\"."
+      },
+      "tags": [
+        "expressions",
+        "registro"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tirar-la-casa-por-la-ventana",
+      "primary_form": "tirar la casa por la ventana",
+      "gloss": "to splash out",
+      "extras": {
+        "literal": "to throw the house out of the window",
+        "example": "Para la boda tiraron la casa por la ventana.",
+        "example_en": "They pushed the boat out for the wedding."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "orgulloso",
+      "primary_form": "orgulloso",
+      "gloss": "proud",
+      "extras": {
+        "forms": {
+          "ms": "orgulloso",
+          "fs": "orgullosa",
+          "mp": "orgullosos",
+          "fp": "orgullosas"
+        },
+        "example": "Estoy muy orgullosa de ti.",
+        "example_en": "I'm very proud of you.",
+        "note": "Ser orgulloso can mean arrogant."
+      },
+      "tags": [
+        "adjetivos",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "costumbre",
+      "primary_form": "costumbre",
+      "gloss": "custom, habit",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "costumbres",
+        "example": "En España es costumbre dar dos besos.",
+        "example_en": "In Spain it's the custom to greet people with two kisses."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "estar-hasta-las-narices",
+      "primary_form": "estar hasta las narices",
+      "gloss": "to be fed up",
+      "extras": {
+        "literal": "to be up to your nostrils",
+        "example": "Estoy hasta las narices del ruido.",
+        "example_en": "I'm sick to death of the noise."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "acabar",
+      "primary_form": "acabar",
+      "gloss": "to finish; to run out",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "acabado",
+        "example": "Se nos ha acabado el café.",
+        "example_en": "We've run out of coffee.",
+        "note": "Acabar de + infinitive: to have just. Acabo de llegar: I've just arrived."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "acabo",
+          "2s": "acabas",
+          "3s": "acaba",
+          "1p": "acabamos",
+          "2p": "acabáis",
+          "3p": "acaban"
+        },
+        "pretérito-perfecto": {
+          "1s": "he acabado",
+          "2s": "has acabado",
+          "3s": "ha acabado",
+          "1p": "hemos acabado",
+          "2p": "habéis acabado",
+          "3p": "han acabado"
+        },
+        "pretérito-indefinido": {
+          "1s": "acabé",
+          "2s": "acabaste",
+          "3s": "acabó",
+          "1p": "acabamos",
+          "2p": "acabasteis",
+          "3p": "acabaron"
+        },
+        "imperfecto": {
+          "1s": "acababa",
+          "2s": "acababas",
+          "3s": "acababa",
+          "1p": "acabábamos",
+          "2p": "acababais",
+          "3p": "acababan"
+        },
+        "futuro": {
+          "1s": "acabaré",
+          "2s": "acabarás",
+          "3s": "acabará",
+          "1p": "acabaremos",
+          "2p": "acabaréis",
+          "3p": "acabarán"
+        },
+        "condicional": {
+          "1s": "acabaría",
+          "2s": "acabarías",
+          "3s": "acabaría",
+          "1p": "acabaríamos",
+          "2p": "acabaríais",
+          "3p": "acabarían"
+        },
+        "subjuntivo": {
+          "1s": "acabe",
+          "2s": "acabes",
+          "3s": "acabe",
+          "1p": "acabemos",
+          "2p": "acabéis",
+          "3p": "acaben"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "verdad",
+      "primary_form": "verdad",
+      "gloss": "truth",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "verdades",
+        "example": "Dime la verdad.",
+        "example_en": "Tell me the truth.",
+        "note": "¿Verdad? at the end of a sentence: right?"
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "que-guay",
+      "primary_form": "¡qué guay!",
+      "gloss": "how cool!",
+      "extras": {
+        "note": "Spain.",
+        "example": "¿Tienes entradas para el concierto? ¡Qué guay!",
+        "example_en": "You've got tickets for the concert? How cool!"
+      },
+      "tags": [
+        "expressions",
+        "registro"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "en-cuanto",
+      "primary_form": "en cuanto",
+      "gloss": "as soon as",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Te llamo en cuanto llegue.",
+        "example_en": "I'll call you as soon as I arrive.",
+        "example_alternatives": [
+          "En cuanto llegue, te llamo."
+        ]
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "en-un-abrir-y-cerrar-de-ojos",
+      "primary_form": "en un abrir y cerrar de ojos",
+      "gloss": "in the blink of an eye",
+      "extras": {
+        "literal": "in an opening and closing of eyes",
+        "example": "Se comió el bocadillo en un abrir y cerrar de ojos.",
+        "example_en": "He ate the sandwich in the blink of an eye."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "celoso",
+      "primary_form": "celoso",
+      "gloss": "jealous",
+      "extras": {
+        "forms": {
+          "ms": "celoso",
+          "fs": "celosa",
+          "mp": "celosos",
+          "fp": "celosas"
+        },
+        "example": "Mi novio es un poco celoso.",
+        "example_en": "My boyfriend is a bit jealous."
+      },
+      "tags": [
+        "adjetivos",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mentira",
+      "primary_form": "mentira",
+      "gloss": "lie",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "mentiras",
+        "example": "Eso es mentira.",
+        "example_en": "That's a lie."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "alquilar",
+      "primary_form": "alquilar",
+      "gloss": "to rent, to let",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "alquilado",
+        "example": "Alquilamos un piso cerca de la playa.",
+        "example_en": "We rented a flat near the beach."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "alquilo",
+          "2s": "alquilas",
+          "3s": "alquila",
+          "1p": "alquilamos",
+          "2p": "alquiláis",
+          "3p": "alquilan"
+        },
+        "pretérito-perfecto": {
+          "1s": "he alquilado",
+          "2s": "has alquilado",
+          "3s": "ha alquilado",
+          "1p": "hemos alquilado",
+          "2p": "habéis alquilado",
+          "3p": "han alquilado"
+        },
+        "pretérito-indefinido": {
+          "1s": "alquilé",
+          "2s": "alquilaste",
+          "3s": "alquiló",
+          "1p": "alquilamos",
+          "2p": "alquilasteis",
+          "3p": "alquilaron"
+        },
+        "imperfecto": {
+          "1s": "alquilaba",
+          "2s": "alquilabas",
+          "3s": "alquilaba",
+          "1p": "alquilábamos",
+          "2p": "alquilabais",
+          "3p": "alquilaban"
+        },
+        "futuro": {
+          "1s": "alquilaré",
+          "2s": "alquilarás",
+          "3s": "alquilará",
+          "1p": "alquilaremos",
+          "2p": "alquilaréis",
+          "3p": "alquilarán"
+        },
+        "condicional": {
+          "1s": "alquilaría",
+          "2s": "alquilarías",
+          "3s": "alquilaría",
+          "1p": "alquilaríamos",
+          "2p": "alquilaríais",
+          "3p": "alquilarían"
+        },
+        "subjuntivo": {
+          "1s": "alquile",
+          "2s": "alquiles",
+          "3s": "alquile",
+          "1p": "alquilemos",
+          "2p": "alquiléis",
+          "3p": "alquilen"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "buscarle-tres-pies-al-gato",
+      "primary_form": "buscarle tres pies al gato",
+      "gloss": "to overcomplicate things",
+      "extras": {
+        "literal": "to look for three feet on the cat",
+        "example": "No le busques tres pies al gato: es muy sencillo.",
+        "example_en": "Don't overcomplicate it: it's very simple."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "consejo",
+      "primary_form": "consejo",
+      "gloss": "piece of advice",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "consejos",
+        "example": "Te voy a dar un consejo.",
+        "example_en": "I'm going to give you some advice.",
+        "note": "Also a council: el consejo de ministros."
+      },
+      "tags": [
+        "society",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "venga",
+      "primary_form": "¡venga!",
+      "gloss": "come on!; OK then",
+      "extras": {
+        "literal": "come",
+        "note": "Spain. Also a goodbye: ¡venga, hasta luego!",
+        "example": "¡Venga, que llegamos tarde!",
+        "example_en": "Come on, we'll be late!"
+      },
+      "tags": [
+        "expressions",
+        "registro"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "generoso",
+      "primary_form": "generoso",
+      "gloss": "generous",
+      "extras": {
+        "forms": {
+          "ms": "generoso",
+          "fs": "generosa",
+          "mp": "generosos",
+          "fp": "generosas"
+        },
+        "example": "Mi abuelo era muy generoso.",
+        "example_en": "My grandfather was very generous."
+      },
+      "tags": [
+        "adjetivos",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "a-menos-que",
+      "primary_form": "a menos que",
+      "gloss": "unless (+ subjunctive)",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Iremos andando, a menos que llueva.",
+        "example_en": "We'll walk, unless it rains."
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cita",
+      "primary_form": "cita",
+      "gloss": "appointment; date",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "citas",
+        "example": "Tengo cita con el dentista a las cinco.",
+        "example_en": "I have a dentist's appointment at five.",
+        "note": "Also a romantic date."
+      },
+      "tags": [
+        "society",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ser-un-cero-a-la-izquierda",
+      "primary_form": "ser un cero a la izquierda",
+      "gloss": "to count for nothing",
+      "extras": {
+        "literal": "to be a zero on the left",
+        "example": "En la oficina soy un cero a la izquierda.",
+        "example_en": "At the office I count for nothing."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "mentir",
+      "primary_form": "mentir",
+      "gloss": "to lie",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "mentido",
+        "example": "Sé que me mientes.",
+        "example_en": "I know you're lying to me."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "miento",
+          "2s": "mientes",
+          "3s": "miente",
+          "1p": "mentimos",
+          "2p": "mentís",
+          "3p": "mienten"
+        },
+        "pretérito-perfecto": {
+          "1s": "he mentido",
+          "2s": "has mentido",
+          "3s": "ha mentido",
+          "1p": "hemos mentido",
+          "2p": "habéis mentido",
+          "3p": "han mentido"
+        },
+        "pretérito-indefinido": {
+          "1s": "mentí",
+          "2s": "mentiste",
+          "3s": "mintió",
+          "1p": "mentimos",
+          "2p": "mentisteis",
+          "3p": "mintieron"
+        },
+        "imperfecto": {
+          "1s": "mentía",
+          "2s": "mentías",
+          "3s": "mentía",
+          "1p": "mentíamos",
+          "2p": "mentíais",
+          "3p": "mentían"
+        },
+        "futuro": {
+          "1s": "mentiré",
+          "2s": "mentirás",
+          "3s": "mentirá",
+          "1p": "mentiremos",
+          "2p": "mentiréis",
+          "3p": "mentirán"
+        },
+        "condicional": {
+          "1s": "mentiría",
+          "2s": "mentirías",
+          "3s": "mentiría",
+          "1p": "mentiríamos",
+          "2p": "mentiríais",
+          "3p": "mentirían"
+        },
+        "subjuntivo": {
+          "1s": "mienta",
+          "2s": "mientas",
+          "3s": "mienta",
+          "1p": "mintamos",
+          "2p": "mintáis",
+          "3p": "mientan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "fracaso",
+      "primary_form": "fracaso",
+      "gloss": "failure",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "fracasos",
+        "example": "La fiesta fue un fracaso.",
+        "example_en": "The party was a flop."
+      },
+      "tags": [
+        "society",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "o-sea",
+      "primary_form": "o sea",
+      "gloss": "I mean; so",
+      "extras": {
+        "literal": "or be it",
+        "example": "O sea, que no vienes.",
+        "example_en": "So you're not coming, then."
+      },
+      "tags": [
+        "expressions",
+        "registro"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "dar-la-lata",
+      "primary_form": "dar la lata",
+      "gloss": "to pester",
+      "extras": {
+        "literal": "to give the tin can",
+        "example": "Los niños me han dado la lata toda la tarde.",
+        "example_en": "The kids have been pestering me all afternoon."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "sincero",
+      "primary_form": "sincero",
+      "gloss": "honest, sincere",
+      "extras": {
+        "forms": {
+          "ms": "sincero",
+          "fs": "sincera",
+          "mp": "sinceros",
+          "fp": "sinceras"
+        },
+        "example": "Para ser sincero, no me gusta.",
+        "example_en": "To be honest, I don't like it."
+      },
+      "tags": [
+        "adjetivos",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "tema",
+      "primary_form": "tema",
+      "gloss": "subject, topic",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "temas",
+        "example": "Cambiemos de tema.",
+        "example_en": "Let's change the subject.",
+        "note": "Masculine, though it ends in -a."
+      },
+      "tags": [
+        "society",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "elegir",
+      "primary_form": "elegir",
+      "gloss": "to choose",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "elegido",
+        "example": "Siempre elijo la mesa de la ventana.",
+        "example_en": "I always choose the table by the window."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "elijo",
+          "2s": "eliges",
+          "3s": "elige",
+          "1p": "elegimos",
+          "2p": "elegís",
+          "3p": "eligen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he elegido",
+          "2s": "has elegido",
+          "3s": "ha elegido",
+          "1p": "hemos elegido",
+          "2p": "habéis elegido",
+          "3p": "han elegido"
+        },
+        "pretérito-indefinido": {
+          "1s": "elegí",
+          "2s": "elegiste",
+          "3s": "eligió",
+          "1p": "elegimos",
+          "2p": "elegisteis",
+          "3p": "eligieron"
+        },
+        "imperfecto": {
+          "1s": "elegía",
+          "2s": "elegías",
+          "3s": "elegía",
+          "1p": "elegíamos",
+          "2p": "elegíais",
+          "3p": "elegían"
+        },
+        "futuro": {
+          "1s": "elegiré",
+          "2s": "elegirás",
+          "3s": "elegirá",
+          "1p": "elegiremos",
+          "2p": "elegiréis",
+          "3p": "elegirán"
+        },
+        "condicional": {
+          "1s": "elegiría",
+          "2s": "elegirías",
+          "3s": "elegiría",
+          "1p": "elegiríamos",
+          "2p": "elegiríais",
+          "3p": "elegirían"
+        },
+        "subjuntivo": {
+          "1s": "elija",
+          "2s": "elijas",
+          "3s": "elija",
+          "1p": "elijamos",
+          "2p": "elijáis",
+          "3p": "elijan"
+        }
+      }
+    },
+    {
+      "kind": "conjunction",
+      "id": "sin-que",
+      "primary_form": "sin que",
+      "gloss": "without (+ subjunctive)",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Lo arreglo sin que lo sepa tu padre.",
+        "example_en": "I'll sort it out without your father knowing."
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "echar-de-menos",
+      "primary_form": "echar de menos",
+      "gloss": "to miss",
+      "extras": {
+        "literal": "to throw as less",
+        "note": "Latin America says extrañar.",
+        "example": "Echo de menos a mi familia.",
+        "example_en": "I miss my family."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "que-fuerte",
+      "primary_form": "¡qué fuerte!",
+      "gloss": "wow!, that's outrageous!",
+      "extras": {
+        "literal": "how strong",
+        "note": "Spain.",
+        "example": "¿Se ha ido sin pagar? ¡Qué fuerte!",
+        "example_en": "He left without paying? That's outrageous!"
+      },
+      "tags": [
+        "expressions",
+        "registro"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "recuerdo",
+      "primary_form": "recuerdo",
+      "gloss": "memory; souvenir",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "recuerdos",
+        "example": "Tengo muy buenos recuerdos de ese verano.",
+        "example_en": "I have very fond memories of that summer.",
+        "note": "Also a souvenir: un recuerdo de Sevilla."
+      },
+      "tags": [
+        "feelings",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tener-buena-pinta",
+      "primary_form": "tener buena pinta",
+      "gloss": "to look good",
+      "extras": {
+        "literal": "to have a good look",
+        "example": "Esta tarta tiene muy buena pinta.",
+        "example_en": "This cake looks great."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "construir",
+      "primary_form": "construir",
+      "gloss": "to build",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "construido",
+        "example": "Están construyendo un hospital nuevo.",
+        "example_en": "They're building a new hospital."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "construyo",
+          "2s": "construyes",
+          "3s": "construye",
+          "1p": "construimos",
+          "2p": "construís",
+          "3p": "construyen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he construido",
+          "2s": "has construido",
+          "3s": "ha construido",
+          "1p": "hemos construido",
+          "2p": "habéis construido",
+          "3p": "han construido"
+        },
+        "pretérito-indefinido": {
+          "1s": "construí",
+          "2s": "construiste",
+          "3s": "construyó",
+          "1p": "construimos",
+          "2p": "construisteis",
+          "3p": "construyeron"
+        },
+        "imperfecto": {
+          "1s": "construía",
+          "2s": "construías",
+          "3s": "construía",
+          "1p": "construíamos",
+          "2p": "construíais",
+          "3p": "construían"
+        },
+        "futuro": {
+          "1s": "construiré",
+          "2s": "construirás",
+          "3s": "construirá",
+          "1p": "construiremos",
+          "2p": "construiréis",
+          "3p": "construirán"
+        },
+        "condicional": {
+          "1s": "construiría",
+          "2s": "construirías",
+          "3s": "construiría",
+          "1p": "construiríamos",
+          "2p": "construiríais",
+          "3p": "construirían"
+        },
+        "subjuntivo": {
+          "1s": "construya",
+          "2s": "construyas",
+          "3s": "construya",
+          "1p": "construyamos",
+          "2p": "construyáis",
+          "3p": "construyan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "alma",
+      "primary_form": "alma",
+      "gloss": "soul",
+      "extras": {
+        "gender": "f",
+        "article": "el",
+        "plural": "almas",
+        "example": "Tiene un alma muy generosa.",
+        "example_en": "She has a very generous soul.",
+        "note": "Feminine, but el alma and un alma, like el agua: el alma buena, las almas."
+      },
+      "tags": [
+        "feelings",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "harto",
+      "primary_form": "harto",
+      "gloss": "fed up",
+      "extras": {
+        "forms": {
+          "ms": "harto",
+          "fs": "harta",
+          "mp": "hartos",
+          "fp": "hartas"
+        },
+        "example": "Estoy harta de este trabajo.",
+        "example_en": "I'm fed up with this job."
+      },
+      "tags": [
+        "adjetivos",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "no-hay-mal-que-por-bien-no-venga",
+      "primary_form": "no hay mal que por bien no venga",
+      "gloss": "every cloud has a silver lining",
+      "extras": {
+        "literal": "there's no bad that doesn't come for some good",
+        "note": "Venga is a subjunctive.",
+        "example": "Perdí el tren, pero conocí a Marta: no hay mal que por bien no venga.",
+        "example_en": "I missed the train but met Marta: every cloud has a silver lining."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "puesto-que",
+      "primary_form": "puesto que",
+      "gloss": "since (formal)",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Puesto que no hay más preguntas, terminamos aquí.",
+        "example_en": "Since there are no more questions, we'll finish here.",
+        "example_alternatives": [
+          "Terminamos aquí, puesto que no hay más preguntas."
+        ]
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "me-mola",
+      "primary_form": "me mola",
+      "gloss": "I love it, it's cool",
+      "extras": {
+        "note": "Spain, informal. Works like gustar: me molan tus zapatos.",
+        "example": "Me mola esta canción.",
+        "example_en": "I love this song."
+      },
+      "tags": [
+        "expressions",
+        "registro"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "aguila",
+      "primary_form": "águila",
+      "gloss": "eagle",
+      "extras": {
+        "gender": "f",
+        "article": "el",
+        "plural": "águilas",
+        "example": "Vimos un águila en la montaña.",
+        "example_en": "We saw an eagle in the mountains.",
+        "note": "Feminine, but el águila and un águila, like el agua."
+      },
+      "tags": [
+        "animals",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "producir",
+      "primary_form": "producir",
+      "gloss": "to produce",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "producido",
+        "example": "España produce mucho aceite de oliva.",
+        "example_en": "Spain produces a lot of olive oil."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "produzco",
+          "2s": "produces",
+          "3s": "produce",
+          "1p": "producimos",
+          "2p": "producís",
+          "3p": "producen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he producido",
+          "2s": "has producido",
+          "3s": "ha producido",
+          "1p": "hemos producido",
+          "2p": "habéis producido",
+          "3p": "han producido"
+        },
+        "pretérito-indefinido": {
+          "1s": "produje",
+          "2s": "produjiste",
+          "3s": "produjo",
+          "1p": "produjimos",
+          "2p": "produjisteis",
+          "3p": "produjeron"
+        },
+        "imperfecto": {
+          "1s": "producía",
+          "2s": "producías",
+          "3s": "producía",
+          "1p": "producíamos",
+          "2p": "producíais",
+          "3p": "producían"
+        },
+        "futuro": {
+          "1s": "produciré",
+          "2s": "producirás",
+          "3s": "producirá",
+          "1p": "produciremos",
+          "2p": "produciréis",
+          "3p": "producirán"
+        },
+        "condicional": {
+          "1s": "produciría",
+          "2s": "producirías",
+          "3s": "produciría",
+          "1p": "produciríamos",
+          "2p": "produciríais",
+          "3p": "producirían"
+        },
+        "subjuntivo": {
+          "1s": "produzca",
+          "2s": "produzcas",
+          "3s": "produzca",
+          "1p": "produzcamos",
+          "2p": "produzcáis",
+          "3p": "produzcan"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "mas-vale-tarde-que-nunca",
+      "primary_form": "más vale tarde que nunca",
+      "gloss": "better late than never",
+      "extras": {
+        "literal": "late is worth more than never",
+        "example": "Ya has llegado: más vale tarde que nunca.",
+        "example_en": "You made it: better late than never."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "exito",
+      "primary_form": "éxito",
+      "gloss": "success",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "éxitos",
+        "example": "La obra ha sido un éxito.",
+        "example_en": "The play has been a success.",
+        "note": "Not \"exit\": that's la salida."
+      },
+      "tags": [
+        "falsos-amigos",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "agotado",
+      "primary_form": "agotado",
+      "gloss": "exhausted; sold out",
+      "extras": {
+        "forms": {
+          "ms": "agotado",
+          "fs": "agotada",
+          "mp": "agotados",
+          "fp": "agotadas"
+        },
+        "example": "Después del viaje estoy agotado.",
+        "example_en": "I'm exhausted after the journey.",
+        "note": "Also sold out: las entradas están agotadas."
+      },
+      "tags": [
+        "adjetivos",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "estoy-flipando",
+      "primary_form": "estoy flipando",
+      "gloss": "I can't believe it",
+      "extras": {
+        "note": "Spain, informal.",
+        "example": "Estoy flipando con este paisaje.",
+        "example_en": "I'm blown away by this landscape."
+      },
+      "tags": [
+        "expressions",
+        "registro"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "carpeta",
+      "primary_form": "carpeta",
+      "gloss": "folder",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "carpetas",
+        "example": "Guarda los documentos en esta carpeta.",
+        "example_en": "Keep the documents in this folder.",
+        "note": "Not \"carpet\": that's la alfombra."
+      },
+      "tags": [
+        "falsos-amigos",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "a-otra-cosa-mariposa",
+      "primary_form": "a otra cosa, mariposa",
+      "gloss": "let's move on",
+      "extras": {
+        "literal": "to another thing, butterfly",
+        "example": "Bueno, eso ya está. ¡A otra cosa, mariposa!",
+        "example_en": "Right, that's done. On to the next thing!"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "mientras-que",
+      "primary_form": "mientras que",
+      "gloss": "whereas",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Yo prefiero el mar, mientras que mi pareja prefiere la montaña.",
+        "example_en": "I prefer the sea, whereas my partner prefers the mountains."
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "proponer",
+      "primary_form": "proponer",
+      "gloss": "to propose, to suggest",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "propuesto",
+        "example": "Os propongo un plan para el sábado.",
+        "example_en": "I've got a plan for Saturday for you all."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "propongo",
+          "2s": "propones",
+          "3s": "propone",
+          "1p": "proponemos",
+          "2p": "proponéis",
+          "3p": "proponen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he propuesto",
+          "2s": "has propuesto",
+          "3s": "ha propuesto",
+          "1p": "hemos propuesto",
+          "2p": "habéis propuesto",
+          "3p": "han propuesto"
+        },
+        "pretérito-indefinido": {
+          "1s": "propuse",
+          "2s": "propusiste",
+          "3s": "propuso",
+          "1p": "propusimos",
+          "2p": "propusisteis",
+          "3p": "propusieron"
+        },
+        "imperfecto": {
+          "1s": "proponía",
+          "2s": "proponías",
+          "3s": "proponía",
+          "1p": "proponíamos",
+          "2p": "proponíais",
+          "3p": "proponían"
+        },
+        "futuro": {
+          "1s": "propondré",
+          "2s": "propondrás",
+          "3s": "propondrá",
+          "1p": "propondremos",
+          "2p": "propondréis",
+          "3p": "propondrán"
+        },
+        "condicional": {
+          "1s": "propondría",
+          "2s": "propondrías",
+          "3s": "propondría",
+          "1p": "propondríamos",
+          "2p": "propondríais",
+          "3p": "propondrían"
+        },
+        "subjuntivo": {
+          "1s": "proponga",
+          "2s": "propongas",
+          "3s": "proponga",
+          "1p": "propongamos",
+          "2p": "propongáis",
+          "3p": "propongan"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "libreria",
+      "primary_form": "librería",
+      "gloss": "bookshop",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "librerías",
+        "example": "Hay una librería muy buena en mi calle.",
+        "example_en": "There's a very good bookshop on my street.",
+        "note": "Not \"library\": that's la biblioteca."
+      },
+      "tags": [
+        "falsos-amigos",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "estar-en-su-salsa",
+      "primary_form": "estar en su salsa",
+      "gloss": "to be in your element",
+      "extras": {
+        "literal": "to be in your sauce",
+        "example": "En la cocina, mi padre está en su salsa.",
+        "example_en": "In the kitchen my father is in his element."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "majo",
+      "primary_form": "majo",
+      "gloss": "nice, friendly",
+      "extras": {
+        "forms": {
+          "ms": "majo",
+          "fs": "maja",
+          "mp": "majos",
+          "fp": "majas"
+        },
+        "example": "Tu novia es muy maja.",
+        "example_en": "Your girlfriend's really nice.",
+        "note": "Spain, informal."
+      },
+      "tags": [
+        "adjetivos",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "que-chevere",
+      "primary_form": "¡qué chévere!",
+      "gloss": "how great!",
+      "extras": {
+        "note": "Venezuela, Colombia and the Caribbean.",
+        "example": "¡Qué chévere tu casa!",
+        "example_en": "Your house is great!"
+      },
+      "tags": [
+        "expressions",
+        "registro"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "discusion",
+      "primary_form": "discusión",
+      "gloss": "argument, row",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "discusiones",
+        "example": "Tuvieron una discusión por el dinero.",
+        "example_en": "They had a row about money.",
+        "note": "Usually an argument, not a calm discussion."
+      },
+      "tags": [
+        "falsos-amigos",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "mantener",
+      "primary_form": "mantener",
+      "gloss": "to keep; to support",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "mantenido",
+        "example": "Es difícil mantener la calma.",
+        "example_en": "It's hard to keep calm."
+      },
+      "tags": [
+        "presente"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "mantengo",
+          "2s": "mantienes",
+          "3s": "mantiene",
+          "1p": "mantenemos",
+          "2p": "mantenéis",
+          "3p": "mantienen"
+        },
+        "pretérito-perfecto": {
+          "1s": "he mantenido",
+          "2s": "has mantenido",
+          "3s": "ha mantenido",
+          "1p": "hemos mantenido",
+          "2p": "habéis mantenido",
+          "3p": "han mantenido"
+        },
+        "pretérito-indefinido": {
+          "1s": "mantuve",
+          "2s": "mantuviste",
+          "3s": "mantuvo",
+          "1p": "mantuvimos",
+          "2p": "mantuvisteis",
+          "3p": "mantuvieron"
+        },
+        "imperfecto": {
+          "1s": "mantenía",
+          "2s": "mantenías",
+          "3s": "mantenía",
+          "1p": "manteníamos",
+          "2p": "manteníais",
+          "3p": "mantenían"
+        },
+        "futuro": {
+          "1s": "mantendré",
+          "2s": "mantendrás",
+          "3s": "mantendrá",
+          "1p": "mantendremos",
+          "2p": "mantendréis",
+          "3p": "mantendrán"
+        },
+        "condicional": {
+          "1s": "mantendría",
+          "2s": "mantendrías",
+          "3s": "mantendría",
+          "1p": "mantendríamos",
+          "2p": "mantendríais",
+          "3p": "mantendrían"
+        },
+        "subjuntivo": {
+          "1s": "mantenga",
+          "2s": "mantengas",
+          "3s": "mantenga",
+          "1p": "mantengamos",
+          "2p": "mantengáis",
+          "3p": "mantengan"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "ponerse-rojo-como-un-tomate",
+      "primary_form": "ponerse rojo como un tomate",
+      "gloss": "to go as red as a beetroot",
+      "extras": {
+        "literal": "to go as red as a tomato",
+        "example": "Cuando la vio, se puso rojo como un tomate.",
+        "example_en": "When he saw her, he went as red as a beetroot."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "de-modo-que",
+      "primary_form": "de modo que",
+      "gloss": "so",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "No me contestaba, de modo que me fui.",
+        "example_en": "She wasn't answering, so I left."
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "suceso",
+      "primary_form": "suceso",
+      "gloss": "event, incident",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "sucesos",
+        "example": "El periódico habla del suceso.",
+        "example_en": "The paper reports on the incident.",
+        "note": "Not \"success\": that's el éxito."
+      },
+      "tags": [
+        "falsos-amigos",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "necesario",
+      "primary_form": "necesario",
+      "gloss": "necessary",
+      "extras": {
+        "forms": {
+          "ms": "necesario",
+          "fs": "necesaria",
+          "mp": "necesarios",
+          "fp": "necesarias"
+        },
+        "example": "No es necesario reservar.",
+        "example_en": "You don't need to book."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "hacer-la-vista-gorda",
+      "primary_form": "hacer la vista gorda",
+      "gloss": "to turn a blind eye",
+      "extras": {
+        "literal": "to make the sight fat",
+        "example": "El profesor hizo la vista gorda.",
+        "example_en": "The teacher turned a blind eye."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "que-padre",
+      "primary_form": "¡qué padre!",
+      "gloss": "how cool!",
+      "extras": {
+        "literal": "how father",
+        "note": "Mexico.",
+        "example": "¡Qué padre tu carro!",
+        "example_en": "Your car's so cool!"
+      },
+      "tags": [
+        "expressions",
+        "registro"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "quejarse",
+      "primary_form": "quejarse",
+      "gloss": "to complain",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "quejado",
+        "example": "Mi vecino siempre se queja del ruido.",
+        "example_en": "My neighbour is always complaining about the noise."
+      },
+      "tags": [
+        "presente",
+        "reflexivos"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "me quejo",
+          "2s": "te quejas",
+          "3s": "se queja",
+          "1p": "nos quejamos",
+          "2p": "os quejáis",
+          "3p": "se quejan"
+        },
+        "pretérito-perfecto": {
+          "1s": "me he quejado",
+          "2s": "te has quejado",
+          "3s": "se ha quejado",
+          "1p": "nos hemos quejado",
+          "2p": "os habéis quejado",
+          "3p": "se han quejado"
+        },
+        "pretérito-indefinido": {
+          "1s": "me quejé",
+          "2s": "te quejaste",
+          "3s": "se quejó",
+          "1p": "nos quejamos",
+          "2p": "os quejasteis",
+          "3p": "se quejaron"
+        },
+        "imperfecto": {
+          "1s": "me quejaba",
+          "2s": "te quejabas",
+          "3s": "se quejaba",
+          "1p": "nos quejábamos",
+          "2p": "os quejabais",
+          "3p": "se quejaban"
+        },
+        "futuro": {
+          "1s": "me quejaré",
+          "2s": "te quejarás",
+          "3s": "se quejará",
+          "1p": "nos quejaremos",
+          "2p": "os quejaréis",
+          "3p": "se quejarán"
+        },
+        "condicional": {
+          "1s": "me quejaría",
+          "2s": "te quejarías",
+          "3s": "se quejaría",
+          "1p": "nos quejaríamos",
+          "2p": "os quejaríais",
+          "3p": "se quejarían"
+        },
+        "subjuntivo": {
+          "1s": "me queje",
+          "2s": "te quejes",
+          "3s": "se queje",
+          "1p": "nos quejemos",
+          "2p": "os quejéis",
+          "3p": "se quejen"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "pariente",
+      "primary_form": "pariente",
+      "gloss": "relative",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "parientes",
+        "example": "Tengo parientes en Argentina.",
+        "example_en": "I have relatives in Argentina.",
+        "note": "Not \"parent\": parents are los padres."
+      },
+      "tags": [
+        "falsos-amigos",
+        "masculino"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "pasarlo-bomba",
+      "primary_form": "pasarlo bomba",
+      "gloss": "to have a great time",
+      "extras": {
+        "literal": "to spend it bomb",
+        "note": "Spain.",
+        "example": "Lo pasamos bomba en la fiesta.",
+        "example_en": "We had a great time at the party."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fabrica",
+      "primary_form": "fábrica",
+      "gloss": "factory",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "fábricas",
+        "example": "Mi padre trabajaba en una fábrica de coches.",
+        "example_en": "My father worked in a car factory.",
+        "note": "Not \"fabric\": that's la tela."
+      },
+      "tags": [
+        "falsos-amigos",
+        "femenino"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "a-pesar-de-que",
+      "primary_form": "a pesar de que",
+      "gloss": "even though",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Salimos a pesar de que hacía frío.",
+        "example_en": "We went out even though it was cold.",
+        "example_alternatives": [
+          "A pesar de que hacía frío, salimos."
+        ]
+      },
+      "tags": [
+        "conjunciones"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "imposible",
+      "primary_form": "imposible",
+      "gloss": "impossible",
+      "extras": {
+        "forms": {
+          "ms": "imposible",
+          "fs": "imposible",
+          "mp": "imposibles",
+          "fp": "imposibles"
+        },
+        "example": "Es imposible aparcar en el centro.",
+        "example_en": "It's impossible to park in the centre."
+      },
+      "tags": [
+        "adjetivos"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "mande",
+      "primary_form": "¿mande?",
+      "gloss": "pardon?, yes?",
+      "extras": {
+        "literal": "at your command",
+        "note": "Mexico: a polite answer when someone calls you or you didn't hear.",
+        "example": "—Pedro, ven aquí. —¿Mande?",
+        "example_en": "\"Pedro, come here.\" \"Yes?\""
+      },
+      "tags": [
+        "expressions",
+        "registro"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "casarse",
+      "primary_form": "casarse",
+      "gloss": "to get married",
+      "extras": {
+        "auxiliary": "haber",
+        "participle": "casado",
+        "example": "Se casaron en Sevilla en 2015.",
+        "example_en": "They got married in Seville in 2015.",
+        "note": "Casarse con: to marry someone."
+      },
+      "tags": [
+        "presente",
+        "reflexivos"
+      ],
+      "conjugations": {
+        "presente": {
+          "1s": "me caso",
+          "2s": "te casas",
+          "3s": "se casa",
+          "1p": "nos casamos",
+          "2p": "os casáis",
+          "3p": "se casan"
+        },
+        "pretérito-perfecto": {
+          "1s": "me he casado",
+          "2s": "te has casado",
+          "3s": "se ha casado",
+          "1p": "nos hemos casado",
+          "2p": "os habéis casado",
+          "3p": "se han casado"
+        },
+        "pretérito-indefinido": {
+          "1s": "me casé",
+          "2s": "te casaste",
+          "3s": "se casó",
+          "1p": "nos casamos",
+          "2p": "os casasteis",
+          "3p": "se casaron"
+        },
+        "imperfecto": {
+          "1s": "me casaba",
+          "2s": "te casabas",
+          "3s": "se casaba",
+          "1p": "nos casábamos",
+          "2p": "os casabais",
+          "3p": "se casaban"
+        },
+        "futuro": {
+          "1s": "me casaré",
+          "2s": "te casarás",
+          "3s": "se casará",
+          "1p": "nos casaremos",
+          "2p": "os casaréis",
+          "3p": "se casarán"
+        },
+        "condicional": {
+          "1s": "me casaría",
+          "2s": "te casarías",
+          "3s": "se casaría",
+          "1p": "nos casaríamos",
+          "2p": "os casaríais",
+          "3p": "se casarían"
+        },
+        "subjuntivo": {
+          "1s": "me case",
+          "2s": "te cases",
+          "3s": "se case",
+          "1p": "nos casemos",
+          "2p": "os caséis",
+          "3p": "se casen"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "cada-loco-con-su-tema",
+      "primary_form": "cada loco con su tema",
+      "gloss": "each to their own",
+      "extras": {
+        "literal": "every madman with his subject",
+        "example": "Él colecciona piedras. Cada loco con su tema.",
+        "example_en": "He collects stones. Each to their own."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "compromiso",
+      "primary_form": "compromiso",
+      "gloss": "commitment; engagement",
+      "extras": {
+        "gender": "m",
+        "article": "el",
+        "plural": "compromisos",
+        "example": "Tengo un compromiso esta noche.",
+        "example_en": "I've got something on tonight.",
+        "note": "A compromise is usually un acuerdo or un término medio."
+      },
+      "tags": [
+        "falsos-amigos",
+        "masculino"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "title": "Ojalá",
+      "word_ids": [
+        "dudar",
+        "alegrarse",
+        "sugerir",
+        "prohibir",
+        "ojala",
+        "hace-falta",
+        "no-me-digas"
+      ],
+      "page_id": "es-subjunctive",
+      "subtitle": "To doubt, be glad, suggest, forbid, if only"
+    },
+    {
+      "title": "Deber y conseguir",
+      "word_ids": [
+        "deber",
+        "convencer",
+        "conseguir",
+        "proponer",
+        "mantener",
+        "elegir"
+      ],
+      "page_id": "es-conditional",
+      "subtitle": "Should, convince, manage, propose, keep, choose"
+    },
+    {
+      "title": "Creer y mentir",
+      "word_ids": [
+        "creer",
+        "mentir",
+        "construir",
+        "producir",
+        "casarse",
+        "quejarse"
+      ],
+      "page_id": "es-relative-pronouns",
+      "subtitle": "To believe, lie, build, produce, marry, complain"
+    },
+    {
+      "title": "El español de la calle",
+      "word_ids": [
+        "en-plan",
+        "que-guay",
+        "venga",
+        "o-sea",
+        "que-fuerte",
+        "me-mola",
+        "estoy-flipando",
+        "que-chevere",
+        "que-padre",
+        "mande"
+      ],
+      "page_id": "es-register",
+      "subtitle": "Slang from Spain and Latin America: cool, wow, pardon?"
+    },
+    {
+      "title": "Falsos amigos",
+      "word_ids": [
+        "exito",
+        "carpeta",
+        "libreria",
+        "discusion",
+        "suceso",
+        "pariente",
+        "fabrica",
+        "compromiso",
+        "estar-embarazada",
+        "en-absoluto"
+      ],
+      "page_id": "es-false-friends",
+      "subtitle": "Success, folder, bookshop, row, factory, pregnant"
+    },
+    {
+      "title": "Más falsos amigos",
+      "word_ids": [
+        "actual",
+        "sensible",
+        "constipado",
+        "educado",
+        "raro",
+        "molestar",
+        "realizar",
+        "asistir"
+      ],
+      "subtitle": "Current, sensitive, having a cold, polite, to attend"
+    },
+    {
+      "title": "Tomar el pelo",
+      "word_ids": [
+        "tomar-el-pelo",
+        "estar-en-las-nubes",
+        "costar-un-ojo-de-la-cara",
+        "ser-pan-comido",
+        "meter-la-pata",
+        "no-tener-pelos-en-la-lengua",
+        "estar-como-una-cabra",
+        "echar-una-mano",
+        "ponerse-las-pilas",
+        "no-pegar-ojo"
+      ],
+      "page_id": "es-idioms",
+      "subtitle": "Pull a leg, miles away, piece of cake, foot in it"
+    },
+    {
+      "title": "Se me ha olvidado",
+      "word_ids": [
+        "se-me-ha-olvidado",
+        "sin-querer",
+        "caer",
+        "acabar",
+        "alquilar",
+        "alquiler",
+        "vivienda"
+      ],
+      "page_id": "es-se",
+      "subtitle": "I forgot, by accident, fall, run out, rent, housing"
+    },
+    {
+      "title": "Listo y rico",
+      "word_ids": [
+        "listo",
+        "rico",
+        "seguro",
+        "despierto",
+        "vivo",
+        "pesado"
+      ],
+      "page_id": "es-ser-estar-adjectives",
+      "subtitle": "Clever or ready, rich or tasty, safe or sure"
+    },
+    {
+      "title": "Para que, antes de que",
+      "word_ids": [
+        "para-que",
+        "antes-de-que",
+        "en-cuanto",
+        "a-menos-que",
+        "sin-que",
+        "puesto-que",
+        "mientras-que",
+        "de-modo-que",
+        "a-pesar-de-que"
+      ],
+      "page_id": "es-nuance-connectives",
+      "subtitle": "So that, before, as soon as, unless, even though"
+    },
+    {
+      "title": "El carácter",
+      "word_ids": [
+        "orgulloso",
+        "celoso",
+        "generoso",
+        "sincero",
+        "harto",
+        "agotado",
+        "majo"
+      ],
+      "subtitle": "Proud, jealous, generous, honest, fed up, exhausted"
+    },
+    {
+      "title": "La política",
+      "word_ids": [
+        "sociedad",
+        "gobierno",
+        "ley",
+        "derecho",
+        "politica",
+        "eleccion",
+        "contaminacion",
+        "medio-ambiente",
+        "paro",
+        "huelga"
+      ],
+      "subtitle": "Society, government, law, elections, pollution, strikes"
+    },
+    {
+      "title": "Dinero y derechos",
+      "word_ids": [
+        "sueldo",
+        "impuesto",
+        "ciudadano",
+        "guerra",
+        "paz",
+        "igualdad",
+        "crisis",
+        "noticia",
+        "periodico",
+        "red-social"
+      ],
+      "subtitle": "Salary, tax, citizen, war, peace, equality, news"
+    },
+    {
+      "title": "Verdad y mentira",
+      "word_ids": [
+        "arma",
+        "area",
+        "costumbre",
+        "verdad",
+        "mentira",
+        "consejo",
+        "cita",
+        "fracaso",
+        "tema"
+      ],
+      "subtitle": "Weapon, area, custom, truth, lie, advice, failure"
+    },
+    {
+      "title": "Llover a cántaros",
+      "word_ids": [
+        "llover-a-cantaros",
+        "quedarse-de-piedra",
+        "dar-en-el-clavo",
+        "irse-por-las-ramas",
+        "hablar-por-los-codos",
+        "estar-sin-blanca",
+        "dormir-como-un-tronco",
+        "tener-mala-pata",
+        "dar-planton"
+      ],
+      "subtitle": "Pouring rain, stunned, nail on the head, broke"
+    },
+    {
+      "title": "Echar de menos",
+      "word_ids": [
+        "ser-una-y-carne",
+        "tirar-la-casa-por-la-ventana",
+        "estar-hasta-las-narices",
+        "en-un-abrir-y-cerrar-de-ojos",
+        "buscarle-tres-pies-al-gato",
+        "ser-un-cero-a-la-izquierda",
+        "dar-la-lata",
+        "echar-de-menos",
+        "tener-buena-pinta"
+      ],
+      "subtitle": "Inseparable, splash out, fed up, pester, miss"
+    },
+    {
+      "title": "Refranes y modismos",
+      "word_ids": [
+        "no-hay-mal-que-por-bien-no-venga",
+        "mas-vale-tarde-que-nunca",
+        "a-otra-cosa-mariposa",
+        "estar-en-su-salsa",
+        "ponerse-rojo-como-un-tomate",
+        "hacer-la-vista-gorda",
+        "pasarlo-bomba",
+        "cada-loco-con-su-tema"
+      ],
+      "subtitle": "Silver linings, better late, move on, a great time"
+    },
+    {
+      "title": "Vale la pena",
+      "word_ids": [
+        "vale-la-pena",
+        "darse-cuenta",
+        "tener-que-ver-con",
+        "ni-idea",
+        "por-si-acaso",
+        "no-obstante",
+        "en-cualquier-caso",
+        "por-lo-tanto",
+        "de-hecho",
+        "encima"
+      ],
+      "subtitle": "Worth it, realise, just in case, therefore, in fact"
+    },
+    {
+      "title": "Es decir",
+      "word_ids": [
+        "es-decir",
+        "mientras-tanto",
+        "finalmente",
+        "aprobar",
+        "suspender",
+        "recuerdo",
+        "alma",
+        "aguila",
+        "necesario",
+        "imposible"
+      ],
+      "subtitle": "That is, meanwhile, to pass, to fail, soul, eagle"
+    }
+  ]
+}

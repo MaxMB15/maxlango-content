@@ -1,0 +1,106 @@
+{
+ "romper": {
+  "title": "Romper y perder",
+  "subtitle": "To break, forget, lose, find, leave, change"
+ },
+ "conducir": {
+  "title": "Conducir y viajar",
+  "subtitle": "To drive, bring, hear, pay, travel, win"
+ },
+ "nadar": {
+  "title": "Nadar y bailar",
+  "subtitle": "To swim, dance, sing, remember, help, cook"
+ },
+ "levantarse": {
+  "title": "La rutina diaria",
+  "subtitle": "To get up, wake up, shower, dress, go to bed"
+ },
+ "ya-lo-se": {
+  "title": "Ya lo sé",
+  "subtitle": "I know, I can't believe it, I'll take it"
+ },
+ "devolver": {
+  "title": "Devolver y llevar",
+  "subtitle": "To give back, ask, close, carry, clean, wait"
+ },
+ "mejor": {
+  "title": "Mejor y peor",
+  "subtitle": "Better, worse, older, younger, long, fast, slow"
+ },
+ "viaje": {
+  "title": "El transporte",
+  "subtitle": "Trip, ticket, train, plane, bus and metro"
+ },
+ "tiempo": {
+  "title": "El tiempo y las estaciones",
+  "subtitle": "Weather, heat, rain, snow, wind, the seasons"
+ },
+ "problema": {
+  "title": "¿El o la?",
+  "subtitle": "Problem, climate, classroom, photo, hunger, map"
+ },
+ "seguir": {
+  "title": "Seguir y terminar",
+  "subtitle": "To follow, rest, finish, explain, what are you doing"
+ },
+ "feliz": {
+  "title": "Cómo te sientes",
+  "subtitle": "Happy, sad, angry, nervous, worried, bored"
+ },
+ "serio": {
+  "title": "Cómo eres",
+  "subtitle": "Serious, shy, lazy, kind, clean, full, ill"
+ },
+ "ropa": {
+  "title": "La ropa",
+  "subtitle": "Clothes, shirt, trousers, skirt, dress, coat"
+ },
+ "que-bien": {
+  "title": "¡Qué bien!",
+  "subtitle": "Great, what a shame, really, I don't mind"
+ },
+ "menos-mal": {
+  "title": "Menos mal",
+  "subtitle": "Thank goodness, congratulations, get well soon"
+ },
+ "maleta": {
+  "title": "De viaje",
+  "subtitle": "Suitcase, passport, airport, beach, mountain"
+ },
+ "oficina": {
+  "title": "En la oficina",
+  "subtitle": "Office, company, boss, meeting, computer, email"
+ },
+ "medico": {
+  "title": "En el médico",
+  "subtitle": "Doctor, health, pain, fever, medicine, back"
+ },
+ "pelicula": {
+  "title": "El ocio",
+  "subtitle": "Film, cinema, music, football, party, song"
+ },
+ "precio": {
+  "title": "De compras",
+  "subtitle": "Price, euro, card, size, supermarket, bag"
+ },
+ "salon": {
+  "title": "Las habitaciones",
+  "subtitle": "Living room, bedroom, shower, fridge, sofa"
+ },
+ "comida": {
+  "title": "La comida",
+  "subtitle": "Food, potato, tomato, vegetables, orange, soup"
+ },
+ "por-eso": {
+  "title": "Por eso, así que",
+  "subtitle": "That's why, so, on the other hand, in the end"
+ },
+ "doler": {
+  "title": "Miedo y alegría",
+  "subtitle": "To hurt, while, since, nor, fear, joy, dream"
+ },
+ "prisa": {
+  "title": "Pájaros y flores",
+  "subtitle": "Hurry, luck, bird, horse, flower, river, sea"
+ }
+}

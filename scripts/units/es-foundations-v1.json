@@ -1,0 +1,118 @@
+{
+ "hola": {
+  "title": "Hola y gracias",
+  "subtitle": "Hello, good morning, thanks, please, sorry"
+ },
+ "que-tal": {
+  "title": "¿Qué tal?",
+  "subtitle": "How are you, excuse me and OK"
+ },
+ "ser": {
+  "title": "Verbos esenciales",
+  "subtitle": "To be, there is, have, do and want"
+ },
+ "entender": {
+  "title": "Verbos que cambian",
+  "subtitle": "To understand, think, start, return, sleep, play"
+ },
+ "poder": {
+  "title": "Poder, decir y salir",
+  "subtitle": "Can, know, say, come, put, go out, give"
+ },
+ "cuanto-cuesta": {
+  "title": "Preguntas útiles",
+  "subtitle": "How much, where, what time, what's your name"
+ },
+ "gustar": {
+  "title": "Las bebidas",
+  "subtitle": "To like, coffee, tea, milk, wine, beer, juice"
+ },
+ "grande": {
+  "title": "Adjetivos básicos",
+  "subtitle": "Big, small, good, bad, pretty, new and old"
+ },
+ "rojo": {
+  "title": "Los colores",
+  "subtitle": "Red, blue, green, yellow, black, white, grey"
+ },
+ "guapo": {
+  "title": "Cómo es la gente",
+  "subtitle": "Good-looking, tall, short, young, nice, tired"
+ },
+ "caliente": {
+  "title": "Cómo son las cosas",
+  "subtitle": "Hot, cold, easy, hard, expensive and cheap"
+ },
+ "hora": {
+  "title": "La hora y los días",
+  "subtitle": "Hours, minutes, days, Monday to Thursday"
+ },
+ "trabajar": {
+  "title": "Trabajar y estudiar",
+  "subtitle": "To work, study, arrive, learn, write, read, buy"
+ },
+ "padre": {
+  "title": "La familia cercana",
+  "subtitle": "Father, mother, brother, sister, son, daughter"
+ },
+ "conocer": {
+  "title": "Conocer y buscar",
+  "subtitle": "To know, look for, call, watch, listen, see"
+ },
+ "primero": {
+  "title": "Y, o, cuando, si",
+  "subtitle": "First, then, also, and, or, when, if"
+ },
+ "buenas-tardes": {
+  "title": "Saludos y despedidas",
+  "subtitle": "Good evening, goodbye, see you, you're welcome"
+ },
+ "no-entiendo": {
+  "title": "Frases para salir del paso",
+  "subtitle": "I don't understand, slower, the bill, cheers"
+ },
+ "abuelo": {
+  "title": "Abuelos y primos",
+  "subtitle": "Grandparents, uncles, aunts, cousins, partners"
+ },
+ "hombre": {
+  "title": "La gente",
+  "subtitle": "Man, boy, girl, person, name, language, country"
+ },
+ "cabeza": {
+  "title": "La cara",
+  "subtitle": "Head, face, eye, nose, mouth and tooth"
+ },
+ "oreja": {
+  "title": "El cuerpo",
+  "subtitle": "Ear, hair, hand, arm, leg and foot"
+ },
+ "azucar": {
+  "title": "Carne y pescado",
+  "subtitle": "Sugar, salt, meat, fish, chicken and egg"
+ },
+ "queso": {
+  "title": "Desayuno y cena",
+  "subtitle": "Cheese, fruit, apple, rice, breakfast, dinner"
+ },
+ "calle": {
+  "title": "En la ciudad",
+  "subtitle": "Street, city, square, shop, bank, school"
+ },
+ "estacion": {
+  "title": "Lugares públicos",
+  "subtitle": "Station, market, church, museum, park, hotel"
+ },
+ "semana": {
+  "title": "La semana",
+  "subtitle": "Week, month, year, morning, Friday to Sunday"
+ },
+ "piso": {
+  "title": "La casa",
+  "subtitle": "Flat, kitchen, bathroom, room, bed and garden"
+ },
+ "vivir": {
+  "title": "Vivir y necesitar",
+  "subtitle": "To live, take, need, open, money, phone, key"
+ }
+}

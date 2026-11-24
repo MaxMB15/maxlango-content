@@ -1,0 +1,215 @@
+{
+  "$schema": "https://maxlango/schemas/profile-v1.json",
+  "code": "es",
+  "name": "Spanish",
+  "version": 1,
+  "capitalizeNouns": false,
+  "pronouns": {
+    "1s": "yo",
+    "2s": "tú",
+    "3s": "él/ella",
+    "1p": "nosotros",
+    "2p": "vosotros",
+    "3p": "ellos/ellas"
+  },
+  "auxiliaries": ["haber"],
+  "adjectiveForms": [
+    { "key": "ms", "label": "masculine sg" },
+    { "key": "fs", "label": "feminine sg" },
+    { "key": "mp", "label": "masculine pl" },
+    { "key": "fp", "label": "feminine pl" }
+  ],
+  "concepts": [
+    {
+      "id": "género",
+      "kind": "topic",
+      "label": "Género",
+      "labelGloss": "gender",
+      "order": 0,
+      "dependsOn": []
+    },
+    {
+      "id": "masculino",
+      "kind": "noun-class",
+      "label": "masculino",
+      "labelGloss": "masculine",
+      "article": "el",
+      "appliesTo": { "kind": "noun", "gender": "m" },
+      "dependsOn": ["género"]
+    },
+    {
+      "id": "femenino",
+      "kind": "noun-class",
+      "label": "femenino",
+      "labelGloss": "feminine",
+      "article": "la",
+      "appliesTo": { "kind": "noun", "gender": "f" },
+      "dependsOn": ["género"]
+    },
+    {
+      "id": "artículos",
+      "kind": "topic",
+      "label": "Artículos",
+      "labelGloss": "articles",
+      "dependsOn": ["género"]
+    },
+    {
+      "id": "plural",
+      "kind": "topic",
+      "label": "Plural",
+      "labelGloss": "plural",
+      "dependsOn": ["artículos"]
+    },
+    {
+      "id": "adjetivos",
+      "kind": "adjective-class",
+      "label": "Adjetivos",
+      "labelGloss": "adjectives",
+      "forms": ["ms", "fs", "mp", "fp"],
+      "appliesTo": { "kind": "adjective" },
+      "dependsOn": ["género"]
+    },
+    {
+      "id": "presente",
+      "kind": "tense",
+      "label": "Presente",
+      "labelGloss": "present tense",
+      "order": 0,
+      "role": "base-tense",
+      "appliesTo": { "kind": "verb" },
+      "dependsOn": [],
+      "patterns": [
+        {
+          "matchSuffix": "ar",
+          "stemStrip": 2,
+          "rule": "Remove **-ar** from the infinitive to get the stem. Add the endings for each person.",
+          "subtitle": "The biggest verb group in Spanish: learn this pattern once and use it for hundreds of verbs.",
+          "endings": ["-o", "-as", "-a", "-amos", "-áis", "-an"]
+        },
+        {
+          "matchSuffix": "er",
+          "stemStrip": 2,
+          "rule": "Remove **-er** to get the stem. The endings are the -ar ones with **e** where -ar has **a**.",
+          "subtitle": "-ER verbs such as comer and beber: the yo form still ends in -o.",
+          "endings": ["-o", "-es", "-e", "-emos", "-éis", "-en"]
+        },
+        {
+          "matchSuffix": "ir",
+          "stemStrip": 2,
+          "rule": "Remove **-ir** to get the stem. Only the nosotros and vosotros endings differ from -er verbs.",
+          "subtitle": "-IR verbs such as vivir and escribir: -imos and -ís are the only new endings.",
+          "endings": ["-o", "-es", "-e", "-imos", "-ís", "-en"]
+        }
+      ]
+    },
+    {
+      "id": "pretérito-perfecto",
+      "kind": "tense",
+      "label": "Pretérito perfecto",
+      "labelGloss": "present perfect",
+      "order": 1,
+      "dependsOn": ["presente"]
+    },
+    {
+      "id": "pretérito-indefinido",
+      "kind": "tense",
+      "label": "Pretérito indefinido",
+      "labelGloss": "simple past (preterite)",
+      "order": 2,
+      "dependsOn": ["presente"]
+    },
+    {
+      "id": "imperfecto",
+      "kind": "tense",
+      "label": "Imperfecto",
+      "labelGloss": "imperfect",
+      "order": 3,
+      "dependsOn": ["presente"]
+    },
+    {
+      "id": "futuro",
+      "kind": "tense",
+      "label": "Futuro",
+      "labelGloss": "simple future",
+      "order": 4,
+      "dependsOn": ["presente"]
+    },
+    {
+      "id": "condicional",
+      "kind": "tense",
+      "label": "Condicional",
+      "labelGloss": "conditional",
+      "order": 5,
+      "dependsOn": ["presente"]
+    },
+    {
+      "id": "subjuntivo",
+      "kind": "tense",
+      "label": "Subjuntivo",
+      "labelGloss": "present subjunctive",
+      "order": 6,
+      "dependsOn": ["presente"]
+    },
+    {
+      "id": "negación",
+      "kind": "topic",
+      "label": "Negación",
+      "labelGloss": "negation",
+      "dependsOn": ["presente"]
+    },
+    {
+      "id": "conj-coordinating",
+      "kind": "conjunction-class",
+      "label": "Coordinación",
+      "labelGloss": "joins two clauses of equal weight without changing word order (y, o, pero, sino)",
+      "order": 0,
+      "appliesTo": { "kind": "conjunction" },
+      "dependsOn": []
+    },
+    {
+      "id": "conj-subordinating",
+      "kind": "conjunction-class",
+      "label": "Subordinación",
+      "labelGloss": "introduces a dependent clause (porque, aunque, cuando)",
+      "order": 1,
+      "appliesTo": { "kind": "conjunction" },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-contrast",
+      "kind": "connective-class",
+      "label": "Contraste",
+      "labelGloss": "the next statement pushes against the last one (sin embargo, en cambio)",
+      "order": 0,
+      "appliesTo": { "kind": "connective" },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-cause",
+      "kind": "connective-class",
+      "label": "Causa",
+      "labelGloss": "the next statement explains why (es que, de hecho)",
+      "order": 1,
+      "appliesTo": { "kind": "connective" },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-addition",
+      "kind": "connective-class",
+      "label": "Adición",
+      "labelGloss": "the next statement adds to the last one (además, también)",
+      "order": 2,
+      "appliesTo": { "kind": "connective" },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-sequence",
+      "kind": "connective-class",
+      "label": "Secuencia",
+      "labelGloss": "ordering in time or argument (primero, luego, al final)",
+      "order": 3,
+      "appliesTo": { "kind": "connective" },
+      "dependsOn": []
+    }
+  ]
+}
