@@ -1,0 +1,223 @@
+{
+  "$schema": "https://maxlango/schemas/profile-v1.json",
+  "code": "sv",
+  "name": "Swedish",
+  "version": 1,
+  "capitalizeNouns": false,
+  "pronouns": {
+    "1s": "jag",
+    "2s": "du",
+    "3s": "han/hon",
+    "1p": "vi",
+    "2p": "ni",
+    "3p": "de"
+  },
+  "auxiliaries": ["ha"],
+  "adjectiveForms": [
+    {
+      "key": "en",
+      "label": "en-word (base)"
+    },
+    {
+      "key": "ett",
+      "label": "ett-word (+t)"
+    },
+    {
+      "key": "pl",
+      "label": "plural / definite (+a)"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "artiklar",
+      "kind": "topic",
+      "label": "Artiklar",
+      "labelGloss": "articles",
+      "order": 0,
+      "dependsOn": []
+    },
+    {
+      "id": "en",
+      "kind": "noun-class",
+      "label": "en-ord",
+      "labelGloss": "common gender",
+      "article": "en",
+      "appliesTo": {
+        "kind": "noun",
+        "gender": "en"
+      },
+      "dependsOn": ["artiklar"]
+    },
+    {
+      "id": "ett",
+      "kind": "noun-class",
+      "label": "ett-ord",
+      "labelGloss": "neuter gender",
+      "article": "ett",
+      "appliesTo": {
+        "kind": "noun",
+        "gender": "ett"
+      },
+      "dependsOn": ["artiklar"]
+    },
+    {
+      "id": "bestamd-form",
+      "kind": "topic",
+      "label": "Bestämd form",
+      "labelGloss": "definite form",
+      "dependsOn": ["artiklar"]
+    },
+    {
+      "id": "plural",
+      "kind": "topic",
+      "label": "Plural",
+      "labelGloss": "plural",
+      "dependsOn": ["artiklar"]
+    },
+    {
+      "id": "adjektiv",
+      "kind": "adjective-class",
+      "label": "Adjektiv",
+      "labelGloss": "adjectives",
+      "forms": ["en", "ett", "pl"],
+      "appliesTo": {
+        "kind": "adjective"
+      },
+      "dependsOn": ["artiklar"]
+    },
+    {
+      "id": "presens",
+      "kind": "tense",
+      "label": "Presens",
+      "labelGloss": "present tense",
+      "order": 0,
+      "role": "base-tense",
+      "appliesTo": {
+        "kind": "verb"
+      },
+      "dependsOn": [],
+      "patterns": [
+        {
+          "matchSuffix": "a",
+          "stemStrip": 1,
+          "rule": "Drop the **-a** and add **-ar** (tala → talar) or **-er** (läsa → läser). A stem that already ends in **-r** adds nothing (höra → hör). Every person takes the same form.",
+          "subtitle": "Swedish verbs in -a: one form for all six persons, ending in -r.",
+          "endings": ["-ar / -er", "-ar / -er", "-ar / -er", "-ar / -er", "-ar / -er", "-ar / -er"]
+        },
+        {
+          "matchSuffix": "o",
+          "stemStrip": 0,
+          "rule": "Verbs that end in a long vowel just add **-r** (bo → bor, tro → tror). Every person takes the same form.",
+          "subtitle": "Short Swedish verbs in a vowel: add -r.",
+          "endings": ["-r", "-r", "-r", "-r", "-r", "-r"]
+        },
+        {
+          "matchSuffix": "å",
+          "stemStrip": 0,
+          "rule": "Verbs that end in **-å** just add **-r** (gå → går, stå → står). Every person takes the same form.",
+          "subtitle": "Short Swedish verbs in -å: add -r.",
+          "endings": ["-r", "-r", "-r", "-r", "-r", "-r"]
+        }
+      ]
+    },
+    {
+      "id": "perfekt",
+      "kind": "tense",
+      "label": "Perfekt",
+      "labelGloss": "present perfect",
+      "order": 1,
+      "dependsOn": ["presens"]
+    },
+    {
+      "id": "preteritum",
+      "kind": "tense",
+      "label": "Preteritum",
+      "labelGloss": "simple past",
+      "order": 2,
+      "dependsOn": ["presens"]
+    },
+    {
+      "id": "futurum",
+      "kind": "tense",
+      "label": "Futurum",
+      "labelGloss": "future",
+      "order": 3,
+      "dependsOn": ["presens"]
+    },
+    {
+      "id": "negation",
+      "kind": "topic",
+      "label": "Negation",
+      "labelGloss": "negation",
+      "dependsOn": ["presens"]
+    },
+    {
+      "id": "conj-coordinating",
+      "kind": "conjunction-class",
+      "label": "Samordnande",
+      "labelGloss": "joins two main clauses; both keep normal word order (och, men, eller, för, så, utan)",
+      "order": 0,
+      "appliesTo": {
+        "kind": "conjunction"
+      },
+      "dependsOn": [],
+      "explainer": "A **samordnande konjunktion** joins two main clauses, each of which could stand alone. After it, the second clause keeps **normal word order**: the subject first, then the verb.\n\nThere are only six. Learn them by heart, because every other conjunction works differently:\n\n**och · men · eller · för · så · utan**\n\n| Clause 1 | | Clause 2, normal order |\n| --- | --- | --- |\n| Jag är hungrig, | **och** | jag **vill** äta nu. |\n| Det regnar, | **men** | vi **går** ut ändå. |\n| Hon är inte trött, | **utan** | hon **är** hungrig. |\n\n> The conjunction stands *outside* the clause. Read what follows it as a sentence of its own: *vi går ut ändå*.\n\n**För** means *because* and always comes second, after a comma: *Jag stannar hemma, för jag är sjuk.* **Så** (so) can be a conjunction, *så vi tog bussen*, or an adverb that pulls the verb forward, *så tog vi bussen*. Both are correct.\n\n**Utan** is the *but* that follows a **negative**: *inte i dag, utan i morgon* (not today but tomorrow).\n\n:::order{sentence=\"Jag tar en taxi, för bussen har redan gått.\" after=\"för\" en=\"I'm taking a taxi, because the bus has already left.\"}\n:::"
+    },
+    {
+      "id": "conj-subordinating",
+      "kind": "conjunction-class",
+      "label": "Underordnande",
+      "labelGloss": "starts a bisats; inte goes before the verb (att, när, om, eftersom, fastän)",
+      "order": 1,
+      "appliesTo": {
+        "kind": "conjunction"
+      },
+      "dependsOn": [],
+      "explainer": "An **underordnande konjunktion** starts a **bisats**, a clause that can't stand on its own. Inside it the verb stays right after the subject, as in English. But **inte**, **aldrig**, **alltid** and other short adverbs move *in front of* the verb.\n\n**att · när · om** *(if, whether)* **· eftersom · fastän · medan · innan · tills · därför att · så att**\n\n| Main clause | | Bisats |\n| --- | --- | --- |\n| Jag är trött | **eftersom** | jag **inte** sov i natt. |\n| Jag vet | **att** | han **alltid** kommer sent. |\n| Vi går ut | **om** | det **inte** regnar. |\n\nIn a main clause, *inte* comes after the verb: *jag sov inte*. In a bisats it comes before it: *eftersom jag inte sov*. Swedish teachers call this **BIFF**: *i **b**isats **i**nte **f**öre **f**initum*, \"in a subordinate clause, inte before the finite verb\".\n\nWhen the bisats comes first, it takes the first place of the sentence, so the main clause starts with its verb:\n\n***Eftersom** det är sent **går** vi hem.*\n\n> **För or eftersom?** Both mean *because*. **För** joins two main clauses: *för jag är trött*. **Eftersom** starts a bisats and can open the sentence: *Eftersom jag är trött...*\n\n:::order{sentence=\"Vi stannar inne eftersom det inte slutar regna.\" after=\"eftersom\" en=\"We're staying in because it won't stop raining.\"}\n:::"
+    },
+    {
+      "id": "conn-contrast",
+      "kind": "connective-class",
+      "label": "Motsats",
+      "labelGloss": "the next statement pushes against the last one (dock, ändå)",
+      "order": 0,
+      "appliesTo": {
+        "kind": "connective"
+      },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-cause",
+      "kind": "connective-class",
+      "label": "Orsak",
+      "labelGloss": "the next statement explains why (nämligen, ju)",
+      "order": 1,
+      "appliesTo": {
+        "kind": "connective"
+      },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-addition",
+      "kind": "connective-class",
+      "label": "Tillägg",
+      "labelGloss": "the next statement adds to the last one (dessutom, också)",
+      "order": 2,
+      "appliesTo": {
+        "kind": "connective"
+      },
+      "dependsOn": []
+    },
+    {
+      "id": "conn-sequence",
+      "kind": "connective-class",
+      "label": "Ordningsföljd",
+      "labelGloss": "ordering in time or argument (först, sedan, till sist)",
+      "order": 3,
+      "appliesTo": {
+        "kind": "connective"
+      },
+      "dependsOn": []
+    }
+  ]
+}

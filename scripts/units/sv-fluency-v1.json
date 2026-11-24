@@ -1,0 +1,86 @@
+{
+ "tro": {
+  "title": "Tror du att...?",
+  "subtitle": "To think, consider, wonder, claim and decide"
+ },
+ "handa": {
+  "title": "Vad har hänt?",
+  "subtitle": "To happen, try, promise, compare and earn"
+ },
+ "samhalle": {
+  "title": "Val och beslut",
+  "subtitle": "Society, government, elections and taxes"
+ },
+ "onska": {
+  "title": "Om jag vore du",
+  "subtitle": "To wish, dream, choose, imagine and save"
+ },
+ "det-vet-du-ju": {
+  "title": "Det vet du ju",
+  "subtitle": "You know, surely, probably, come on then"
+ },
+ "eller-hur": {
+  "title": "Eller hur?",
+  "subtitle": "Right?, exactly, oh really, like, well..."
+ },
+ "lagom": {
+  "title": "Lagom",
+  "subtitle": "Just right, the right to roam, Friday nights in"
+ },
+ "glass": {
+  "title": "Falska vänner",
+  "subtitle": "Ice cream, glass, speed, short story, married"
+ },
+ "det-ar-ingen-ko-pa-isen": {
+  "title": "Ingen ko på isen",
+  "subtitle": "No rush, smell a rat, two birds, all thumbs"
+ },
+ "rolig": {
+  "title": "Hur känns det?",
+  "subtitle": "Fun, stressed, surprised, jealous and brave"
+ },
+ "daremot": {
+  "title": "Däremot",
+  "subtitle": "On the other hand, after all, so, in short"
+ },
+ "politik": {
+  "title": "Samhället",
+  "subtitle": "Politics, citizens, rights, freedom, welfare"
+ },
+ "historia": {
+  "title": "Historia",
+  "subtitle": "History, war, peace, kings, queens, Vikings"
+ },
+ "asikt": {
+  "title": "För- och nackdelar",
+  "subtitle": "Opinions, arguments, pros and cons, news"
+ },
+ "lagga-rabarber-pa-nagot": {
+  "title": "Köpa grisen i säcken",
+  "subtitle": "A pig in a poke, molehills and sly foxes"
+ },
+ "lova-guld-och-grona-skogar": {
+  "title": "Borta bra men hemma bäst",
+  "subtitle": "Promising the earth, keeping cool, home"
+ },
+ "enligt-mig": {
+  "title": "Vad tycker du?",
+  "subtitle": "In my opinion, that's right, I'm not sure"
+ },
+ "jag-har-andrat-mig": {
+  "title": "Hur som helst",
+  "subtitle": "Changing your mind, doubt, anyway, for real"
+ },
+ "utan": {
+  "title": "Konjunktioner",
+  "subtitle": "But rather, so that, even though, as if"
+ },
+ "viktig": {
+  "title": "Viktigt och möjligt",
+  "subtitle": "Important, possible, necessary, fair, odd"
+ },
+ "klaga": {
+  "title": "Klaga och rösta",
+  "subtitle": "To complain, be ashamed, worry, care, vote"
+ }
+}

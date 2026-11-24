@@ -1,0 +1,5739 @@
+{
+  "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
+  "id": "sv-foundations-v1",
+  "version": 1,
+  "language": "sv",
+  "name": "Svenska · Grunder (A1)",
+  "author": "Max Boksem",
+  "license": "CC-BY-SA-4.0",
+  "profile_delta": [
+    {
+      "id": "uttal",
+      "kind": "topic",
+      "label": "Uttal",
+      "labelGloss": "pronunciation",
+      "dependsOn": []
+    },
+    {
+      "id": "pronomen",
+      "kind": "topic",
+      "label": "Pronomen",
+      "labelGloss": "pronouns",
+      "dependsOn": [
+        "presens"
+      ]
+    },
+    {
+      "id": "ordfoljd",
+      "kind": "topic",
+      "label": "Ordföljd",
+      "labelGloss": "word order",
+      "dependsOn": [
+        "presens"
+      ]
+    },
+    {
+      "id": "fragor",
+      "kind": "topic",
+      "label": "Frågor",
+      "labelGloss": "asking questions",
+      "dependsOn": [
+        "ordfoljd"
+      ]
+    },
+    {
+      "id": "tal",
+      "kind": "topic",
+      "label": "Tal och klockan",
+      "labelGloss": "numbers and time",
+      "dependsOn": []
+    },
+    {
+      "id": "family",
+      "kind": "topic",
+      "label": "Familj",
+      "labelGloss": "family",
+      "dependsOn": [
+        "artiklar"
+      ]
+    },
+    {
+      "id": "body",
+      "kind": "topic",
+      "label": "Kroppen",
+      "labelGloss": "body",
+      "dependsOn": [
+        "artiklar"
+      ]
+    },
+    {
+      "id": "city",
+      "kind": "topic",
+      "label": "Staden",
+      "labelGloss": "city and places",
+      "dependsOn": [
+        "artiklar"
+      ]
+    },
+    {
+      "id": "greetings",
+      "kind": "topic",
+      "label": "Hälsningar",
+      "labelGloss": "greetings and politeness",
+      "dependsOn": []
+    },
+    {
+      "id": "colors",
+      "kind": "topic",
+      "label": "Färger",
+      "labelGloss": "colours",
+      "dependsOn": [
+        "adjektiv"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "misc",
+      "id": "sv-pronunciation",
+      "title": "Reading Swedish aloud",
+      "body_md": "Swedish spelling is regular enough that you can read most words aloud once you know a handful of rules. The alphabet has three extra letters at the end, **å, ä, ö**, and they are separate letters, not a, a and o with marks on.\n\n## The vowels\n\nSwedish has nine vowel letters, and four of them have no English match.\n\n| Spelling | Sound | Example |\n| --- | --- | --- |\n| å | \"o\" as in *more* | *[båt](lango:say)*, *[två](lango:say)* |\n| ä | \"e\" as in *bed*; before r, like the *a* in *cat* | *[äta](lango:say)*, *[där](lango:say)* |\n| ö | \"e\" said with rounded lips, like the *u* in *fur* | *[öga](lango:say)*, *[dörr](lango:say)* |\n| y | \"ee\" said with tightly rounded lips | *[ny](lango:say)*, *[fyra](lango:say)* |\n| u | long: \"ee\" pushed forward through pursed lips | *[hus](lango:say)*, *[ut](lango:say)* |\n| o | mostly \"oo\" as in *food*, sometimes like å | *[sol](lango:say)*, *[son](lango:say)* |\n\nThe **o** is the unpredictable one: *sol* (sun) has the \"oo\" sound, *son* (son) and *komma* (come) the å sound. Listen to each new word once.\n\n## Long and short\n\nEvery stressed syllable is long: either the vowel is long, or the consonant after it is. A double consonant makes the vowel before it short:\n\n- *[tak](lango:say)* (roof) and *[tack](lango:say)* (thanks)\n- *[vit](lango:say)* (white) and *[vitt](lango:say)* (white, for an ett-word)\n\n## Soft k, g and sk\n\nBefore **e, i, y, ä, ö**, three common letters soften:\n\n| Spelling | Sound | Example |\n| --- | --- | --- |\n| k | like *sh* in *sheep*, said further forward | *[kyrka](lango:say)*, *[kök](lango:say)* |\n| g | \"y\" as in *yes* | *[göra](lango:say)*, *[gärna](lango:say)* |\n| sk | the **sj-sound**, a breathy whoosh with no English match | *[skicka](lango:say)*, *[sked](lango:say)* |\n\nBefore **a, o, u, å** they stay hard: *[kaka](lango:say)*, *[gata](lango:say)*, *[skola](lango:say)*. A few words break the rule, such as *kille* (guy) and *kilo*, which keep a hard k.\n\nThe same two sounds have other spellings. The soft k is also **tj** and **kj**: *[tjugo](lango:say)*. The sj-sound is also **sj, stj, skj** and **-tion**: *[sju](lango:say)*, *[station](lango:say)*. The y sound is also **j, dj, hj, lj**, with the first letter silent: *[hjälpa](lango:say)*, *[ljus](lango:say)*.\n\n## R and its neighbours\n\nThe r is a quick tap of the tongue. In most of Sweden, **r** melts into a following **d, l, n, s, t**, and the pair becomes one sound with the tongue tip curled back: *[bord](lango:say)*, *[barn](lango:say)*, *[först](lango:say)*. *Rs* sounds like English *sh*. In Skåne, in the far south, the r is made at the back of the throat and doesn't melt.\n\n## Words said shorter than they're spelled\n\nA few of the most common words have a spoken form of their own. Read them this way and you'll sound natural from day one:\n\n| Written | Said |\n| --- | --- |\n| jag | ja |\n| mig, dig, sig | mej, dej, sej |\n| de, dem | dom |\n| det | de |\n| och | å |\n| med | me |\n\n## Word melody\n\nSwedish words carry one of two melodies. *Anden* with a single falling tone is \"the duck\"; *anden* with two rises and falls is \"the spirit\". You'll be understood with either, so copy the melody of the recordings and don't worry about it yet.",
+      "extras": {
+        "unlocks": [
+          "concept:sv-pronunciation"
+        ],
+        "explains": [
+          "uttal"
+        ]
+      },
+      "tags": [
+        "uttal"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-pronouns",
+      "title": "Jag, du, ni and de",
+      "body_md": "Swedish pronouns have a subject form and an object form, as English *I* and *me* do.\n\n| Person | Subject | Object | English |\n| --- | --- | --- | --- |\n| 1st singular | jag | mig | I, me |\n| 2nd singular | du | dig | you |\n| 3rd singular | han, hon | honom, henne | he, him; she, her |\n| 3rd singular | den, det | den, det | it |\n| 1st plural | vi | oss | we, us |\n| 2nd plural | ni | er | you (more than one) |\n| 3rd plural | de | dem | they, them |\n\n## Du with everyone\n\nSince the late 1960s Swedes have said **du** to almost everyone: strangers, doctors, teachers, the boss, the prime minister. Using **ni** to one person sounds either very old-fashioned or cold. Use *ni* when you speak to more than one person.\n\n## Den or det?\n\nThere's no single word for *it*. Use **den** for an en-word and **det** for an ett-word:\n\n- *Var är bilen? **Den** står på gatan.* (en bil)\n- *Var är huset? **Det** ligger vid sjön.* (ett hus)\n\n**Det** is also the empty *it* of *det regnar* (it's raining) and *det är kallt* (it's cold).\n\n## De or dem?\n\n*De* and *dem* are both said **dom**, so even Swedes mix them up in writing, and many write *dom* in texts and chat. Use **de** as the subject and **dem** after a verb or a preposition: *De bor här. Jag känner dem.*\n\n## Man and hen\n\n**Man** is the general *you* or *one*: *Man tar av sig skorna här* (You take your shoes off here). **Hen** is a gender-neutral *he or she*, used when the gender isn't known or doesn't matter, and by people who are neither.\n\n:::examples\n- Jag ser honom varje morgon. — I see him every morning.\n- Var är nyckeln? Den ligger på bordet. — Where's the key? It's on the table.\n- Känner ni dem? — Do you know them?\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-pronouns"
+        ],
+        "explains": [
+          "pronomen"
+        ]
+      },
+      "tags": [
+        "pronomen"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-vara-ha",
+      "title": "Vara and ha",
+      "body_md": "**Vara** (to be) and **ha** (to have) are the two verbs you'll use most. Like every Swedish verb, each has one form for all persons in a tense.\n\n| | vara | ha |\n| --- | --- | --- |\n| present | är | har |\n| past | var | hade |\n| perfect | har varit | har haft |\n\n*Jag är, du är, hon är, vi är, ni är, de är.* No *am, is, are* to choose between.\n\n## Where Swedish differs from English\n\n| Swedish | Literally | English |\n| --- | --- | --- |\n| jag fryser | I freeze | I'm cold |\n| jag har rätt | I have right | I'm right |\n| jag har bråttom | I have hurry | I'm in a hurry |\n| jag har ont i magen | I have pain in the stomach | I have a stomach ache |\n| hon är trettio år | she is thirty years | she's thirty |\n| det finns | it is found | there is, there are |\n\n*Jag är kall* means you are cold-hearted, or cold to the touch. When you feel cold, say **jag fryser**.\n\nFor *there is* Swedish uses **det finns**, not *det är*: *Det finns en bra restaurang här.*\n\n## No article for jobs\n\nWith a job, a nationality or a religion, Swedish drops the *a*: *Hon är lärare* (She's a teacher), *Jag är engelsman*. *Hon är en lärare* sounds as if you're picking her out from a group.\n\n:::examples\n- Är du hemma i kväll? — Are you home tonight?\n- Vi har en stor lägenhet i stan. — We have a big flat in town.\n- Han var sjuk i går. — He was ill yesterday.\n:::\n\n:::cloze{sentence=\"Vi ___ två barn och en hund.\" blank=\"har\"}\n:::\n\n:::cloze{sentence=\"Min syster ___ läkare i Umeå.\" blank=\"är\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-vara-ha"
+        ]
+      },
+      "tags": [
+        "presens"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-present-tense",
+      "title": "The present tense",
+      "body_md": "Swedish verbs don't change for the person. Where English says *I speak, she speaks*, Swedish says *jag talar, hon talar*, with the same form for everyone. Learn one form and you have the whole tense.\n\n| | tala | köpa | bo |\n| --- | --- | --- | --- |\n| jag, du | talar | köper | bor |\n| han, hon, den, det | talar | köper | bor |\n| vi, ni, de | talar | köper | bor |\n\n## Building the present\n\nEvery present form ends in **-r**. The infinitive tells you how to get there:\n\n| Group | Infinitive | Present | Rule |\n| --- | --- | --- | --- |\n| 1 | tala, arbeta | talar, arbetar | add -r |\n| 2 | köpa, läsa | köper, läser | drop -a, add -er |\n| 2 | höra, köra | hör, kör | stem ends in r: just drop -a |\n| 3 | bo, tro | bor, tror | short verbs ending in another vowel: add -r |\n| 4 | göra, vara | gör, är | irregular: learn them one by one |\n\nGroup 1 is the biggest, and new verbs join it: *googla, googlar*. You can't always tell group 1 from group 2 by looking at the infinitive, so every verb card shows the present.\n\n## No *do*, no *-ing*\n\n*Jag läser* is \"I read\", \"I'm reading\" and \"I do read\". Swedish has no *do* in questions or negatives either: *Läser du?* (Do you read? Are you reading?), *Jag läser inte* (I don't read).\n\n## The infinitive\n\nThe infinitive usually ends in **-a**, and *to* is **att**: *Det är roligt att läsa.* After *vill, kan, måste, ska* there's no *att*: *Jag vill läsa*, never *Jag vill att läsa*.\n\n## Present for the future\n\nWith a time word, the present also covers the future, as English *I'm leaving tomorrow* does: *Jag åker i morgon.*\n\n:::examples\n- Jag arbetar på ett kafé. — I work at a café.\n- Han läser tidningen på bussen. — He reads the paper on the bus.\n- Vi bor i Göteborg. — We live in Gothenburg.\n- Vad gör du i kväll? — What are you doing tonight?\n:::\n\n:::predict{prompt=\"hon (prata)\" answer=\"pratar\"}\n:::\n\n:::predict{prompt=\"vi (köpa)\" answer=\"köper\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-present-tense"
+        ],
+        "explains": [
+          "presens"
+        ]
+      },
+      "tags": [
+        "presens"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-word-order",
+      "title": "Verb second",
+      "body_md": "The most important rule of Swedish word order: in a main clause, **the verb is the second element**. Not the second word, the second *element*. Whatever comes first, the verb follows it.\n\n| First | Verb | Rest |\n| --- | --- | --- |\n| Jag | åker | till Stockholm i morgon. |\n| I morgon | åker | jag till Stockholm. |\n| Till Stockholm | åker | jag i morgon. |\n\nWhen anything other than the subject starts the sentence, the subject moves to just after the verb. English speakers write *I morgon jag åker*, and it's wrong every time.\n\nSwedes start sentences with a time or place word all the time, so you'll need this rule from the first day: *Nu regnar det. I helgen ska vi bada. Här bor jag.*\n\n## Inte and other short adverbs\n\n**Inte** (not), **alltid** (always), **ofta** (often), **aldrig** (never) and **också** (also) go straight after the verb, or after the subject if the subject has moved behind the verb:\n\n- *Hon kommer **alltid** sent.*\n- *I dag kommer hon **inte**.*\n\n## Two verbs stay together\n\nUnlike Dutch and German, Swedish doesn't send a second verb to the end. It follows the first one, as in English:\n\n- *Jag vill åka till Stockholm i morgon.*\n- *Jag har läst boken.*\n\n## How, where, when\n\nAt the end of the sentence, Swedish puts things in the same order as English: how, then where, then when. *Jag åker **med tåg** **till Stockholm** **i morgon**.*\n\n:::examples\n- I dag regnar det. — It's raining today.\n- På lördag spelar vi fotboll. — On Saturday we're playing football.\n- Nu förstår jag! — Now I understand!\n:::\n\n:::cloze{sentence=\"På söndag ___ vi till landet.\" blank=\"åker\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-word-order"
+        ],
+        "explains": [
+          "ordfoljd"
+        ]
+      },
+      "tags": [
+        "ordfoljd"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-negation",
+      "title": "Inte, ingen and inget",
+      "body_md": "## Inte\n\n**Inte** is *not*. In a main clause it comes after the verb. With two verbs, it comes after the first:\n\n:::examples\n- Jag dricker inte kaffe. — I don't drink coffee.\n- Hon är inte hemma. — She isn't home.\n- Vi kan inte komma i kväll. — We can't come tonight.\n- Jag har inte sett filmen. — I haven't seen the film.\n:::\n\nThere's no *do* in a Swedish negative: *Jag förstår inte* (I don't understand), never *Jag gör inte förstå*.\n\n## Ingen, inget, inga\n\nFor *no* or *not any* before a noun, Swedish has a word that agrees with the noun:\n\n| | Positive | Negative |\n| --- | --- | --- |\n| en-word | en bil | ingen bil |\n| ett-word | ett hus | inget hus |\n| plural | barn | inga barn |\n\n*Vi har ingen bil* (We don't have a car) is more natural than *Vi har inte en bil*. In speech you'll also hear **inte någon, inte något, inte några**: *Vi har inte någon bil.* Both are correct.\n\n## In a subordinate clause\n\nAfter words like *att, om, när* and *eftersom*, **inte** moves in front of the verb: *Jag tror att han **inte** kommer.* The conjunctions page explains why.\n\n## Other negatives\n\n| Swedish | English |\n| --- | --- |\n| aldrig | never |\n| ingenting | nothing |\n| ingen | nobody |\n| ingenstans | nowhere |\n| inte längre | no longer |\n| inte än | not yet |\n\n:::cloze{sentence=\"Hon har ___ syskon.\" blank=\"inga\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-negation"
+        ],
+        "explains": [
+          "negation"
+        ]
+      },
+      "tags": [
+        "negation"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-questions",
+      "title": "Asking questions",
+      "body_md": "A yes/no question starts with the verb. There's no *do*: *Talar du svenska?* is \"Do you speak Swedish?\"\n\nA question with a question word puts that word first, then the verb, then the subject, keeping the verb in second place.\n\n:::examples\n- Är du trött? — Are you tired?\n- Var bor du? — Where do you live?\n- Varför är du så glad? — Why are you so happy?\n:::\n\n## Question words\n\n| Word | Meaning |\n| --- | --- |\n| vem | who |\n| vad | what |\n| var | where |\n| vart | where to |\n| varifrån | where from |\n| när | when |\n| hur | how |\n| hur mycket, hur många | how much, how many |\n| varför | why |\n| vilken, vilket, vilka | which (en-word, ett-word, plural) |\n\n**Var** asks where something is, **vart** where it's going: *Var är du? Vart åker ni?* English uses *where* for both, so this one needs practice.\n\n## Jo: yes to a negative question\n\nWhen a question contains *inte*, answer **jo** to mean \"yes, I do\" or \"yes, it is\":\n\n- *Kommer du inte? — **Jo**, jag kommer!* (Aren't you coming? Yes, I am!)\n\n*Ja* would agree with the *inte*, and the asker can't be sure what you mean.\n\n## Asking for agreement\n\nWhere English says *isn't it?* or *right?*, Swedish adds **eller hur?** or a short **va?**: *Det är fint väder, eller hur? Du kommer, va?*\n\n:::cloze{sentence=\"___ ska du i sommar?\" blank=\"Vart\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-questions"
+        ],
+        "explains": [
+          "fragor"
+        ]
+      },
+      "tags": [
+        "fragor"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-definite-form",
+      "title": "The definite form",
+      "body_md": "Swedish has no separate word for *the*. A noun takes an ending instead, and the ending depends on the gender and the last letter.\n\n| | en-word | ett-word |\n| --- | --- | --- |\n| ends in a consonant | bil → bil**en** | hus → hus**et** |\n| ends in a vowel | flicka → flicka**n** | äpple → äpple**t** |\n\nA few spelling habits:\n\n- Nouns ending in **-el, -en, -er** usually add just **-n** or lose an e: *nyckel → nyckeln*, *syster → systern*, *fönster → fönstret*.\n- A short vowel before **m** doubles it: *rum → rummet*, *dröm → drömmen*.\n\n## Plural with *the*\n\n| Plural | Definite plural |\n| --- | --- |\n| bilar, flickor, parker | bilar**na**, flickor**na**, parker**na** |\n| äpplen | äpplen**a** |\n| hus, barn | hus**en**, barn**en** |\n\n## The adjective adds a second *the*\n\nWith an adjective, Swedish says *the* twice: once with **den, det, de** in front, once with the ending.\n\n| | en-word | ett-word | plural |\n| --- | --- | --- | --- |\n| a ... | en stor bil | ett stort hus | stora bilar |\n| the ... | den stora bilen | det stora huset | de stora bilarna |\n\n*Den stor bil* and *den stora bil* are both classic beginner mistakes. The A2 pack covers the adjective endings in full.\n\n## Where Swedish uses *the* and English doesn't\n\nSwedish takes the definite form for body parts and for things in general:\n\n- *Jag har ont i huvudet.* (I have a headache. Literally: in the head.)\n- *Hon tvättar håret.* (She's washing her hair.)\n- *Livet är kort.* (Life is short.)\n\n:::examples\n- Bilen står på gatan. — The car is in the street.\n- Äpplena ligger i köket. — The apples are in the kitchen.\n- Barnen sover redan. — The children are already asleep.\n:::\n\n:::cloze{sentence=\"Kan du stänga ___? Det är kallt.\" blank=\"fönstret\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-definite-form"
+        ],
+        "explains": [
+          "bestamd-form"
+        ]
+      },
+      "tags": [
+        "bestamd-form"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-en-ett",
+      "title": "En-word or ett-word?",
+      "body_md": "Every noun is either an **en-word** or an **ett-word**, and there's no sure way to tell from its meaning. About three nouns in four are en-words, so *en* is the better guess, but learn each noun with its article: not *bil* but *en bil*.\n\nThe gender shows up all over the sentence:\n\n| | en-word | ett-word |\n| --- | --- | --- |\n| a | en bil | ett hus |\n| the | bilen | huset |\n| big | en stor bil | ett stort hus |\n| my | min bil | mitt hus |\n| it | den | det |\n| which? | vilken bil? | vilket hus? |\n\n## Clues that help\n\n- **People and animals** are mostly en-words: *en man, en kvinna, en katt*. The big exceptions are *ett barn* (a child) and *ett djur* (an animal).\n- Nouns ending in **-a** are almost always en-words: *en gata, en flicka*. The exceptions are body parts: *ett öga* (an eye), *ett hjärta* (a heart).\n- Endings that always mean en: **-are** (*en bagare*), **-het** (*en nyhet*), **-ing** (*en tidning*), **-tion** (*en station*).\n- Endings that mean ett: **-eri** (*ett bageri*), **-um** (*ett museum*).\n- A compound takes the gender of its last part: *ett sjukhus* (hospital) is an ett-word because *hus* is.\n\n:::examples\n- Jag har ett stort rum. — I have a big room.\n- Var är min nyckel? — Where's my key?\n- Mitt kök är litet. — My kitchen is small.\n:::\n\n:::sort{groups=\"en: kyrka, lärare, potatis, ost | ett: öra, kök, bibliotek, vin\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-en-ett"
+        ],
+        "explains": [
+          "en",
+          "ett"
+        ]
+      },
+      "tags": [
+        "en",
+        "ett"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-numbers-time",
+      "title": "Numbers and telling the time",
+      "body_md": "## Numbers\n\n| | |\n| --- | --- |\n| 0 noll | 11 elva |\n| 1 en, ett | 12 tolv |\n| 2 två | 13 tretton |\n| 3 tre | 14 fjorton |\n| 4 fyra | 15 femton |\n| 5 fem | 16 sexton |\n| 6 sex | 17 sjutton |\n| 7 sju | 18 arton |\n| 8 åtta | 19 nitton |\n| 9 nio | 20 tjugo |\n| 10 tio | 21 tjugoett |\n\nTens: 30 trettio, 40 fyrtio, 50 femtio, 60 sextio, 70 sjuttio, 80 åttio, 90 nittio, 100 hundra, 1000 tusen.\n\nThe order is the same as in English, and a number is written as one word: *trettiosju* (37), *tvåhundrafemtio* (250). In speech the tens get shorter: *tjugo* is said \"tjugi\" or \"tjugå\", *fyrtio* \"förti\".\n\n*One* agrees with the noun: *en bil, ett hus*. When you count, it's *ett*: *ett, två, tre*.\n\n## Telling the time\n\n*Vad är klockan?* asks the time. The answer starts with *Den är...* or *Klockan är...*.\n\n| Time | Swedish | Literally |\n| --- | --- | --- |\n| 2:00 | klockan två | the clock two |\n| 2:15 | kvart över två | quarter over two |\n| 2:20 | tjugo över två | twenty over two |\n| 2:25 | fem i halv tre | five to half three |\n| 2:30 | halv tre | half three |\n| 2:35 | fem över halv tre | five over half three |\n| 2:45 | kvart i tre | quarter to three |\n\nThe trap is **halv**. *Halv tre* is **half past two**: half of the way *to* three. Every English speaker in Sweden has turned up an hour late at least once.\n\nTimetables and offices use the 24-hour clock: *klockan femton* (15.00).\n\n## Days\n\nDays are written with a small letter: *måndag, tisdag, onsdag, torsdag, fredag, lördag, söndag*. *På måndag* is \"on Monday\" (this coming one), *på måndagar* is \"on Mondays\".\n\n:::examples\n- Jag är tjugofem år. — I'm twenty-five.\n- Bussen går kvart i åtta. — The bus leaves at a quarter to eight.\n- Vi ses på fredag klockan sju. — See you on Friday at seven.\n:::\n\n:::cloze{sentence=\"Filmen börjar ___ nio, alltså 20.30.\" blank=\"halv\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-numbers-time"
+        ],
+        "explains": [
+          "tal"
+        ]
+      },
+      "tags": [
+        "tal"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-possessives",
+      "title": "Min, mitt and mina",
+      "body_md": "*My, your, our* agree with the thing owned, not with the owner:\n\n| Owner | en-word | ett-word | plural | English |\n| --- | --- | --- | --- | --- |\n| jag | min | mitt | mina | my |\n| du | din | ditt | dina | your |\n| han | hans | hans | hans | his |\n| hon | hennes | hennes | hennes | her |\n| vi | vår | vårt | våra | our |\n| ni | er | ert | era | your (more than one) |\n| de | deras | deras | deras | their |\n\n*Min bil, mitt hus, mina barn.* **Hans, hennes** and **deras** never change.\n\nAfter a possessive the noun has no ending: *min bil*, never *min bilen*.\n\n## Sin, sitt, sina\n\nSwedish has a possessive that English lacks. When *his, her, its* or *their* points back to the subject of the same clause, use **sin, sitt, sina**:\n\n- *Erik ringer **sin** mamma.* (Erik calls his own mother.)\n- *Erik ringer **hans** mamma.* (Erik calls another man's mother.)\n\nGet this wrong and you change who you're talking about. *Sin* never goes in the subject itself: *Hans mamma ringer*, not *Sin mamma ringer*.\n\n## Names\n\nAdd **-s** with no apostrophe: *Annas bok, Sveriges huvudstad.*\n\n:::examples\n- Var är dina nycklar? — Where are your keys?\n- Vårt hus är gammalt. — Our house is old.\n- Lisa bor hos sina föräldrar. — Lisa lives with her parents.\n:::\n\n:::cloze{sentence=\"Peter lagar mat med ___ dotter i köket.\" blank=\"sin\"}\n:::\n\n:::cloze{sentence=\"Är det här ___ rum?\" blank=\"ditt\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-possessives"
+        ]
+      },
+      "tags": [
+        "pronomen"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pappa",
+      "primary_form": "pappa",
+      "gloss": "dad, father",
+      "extras": {
+        "article": "en",
+        "definite": "pappan",
+        "plural": "pappor",
+        "example": "Min pappa jobbar på ett sjukhus.",
+        "example_en": "My dad works at a hospital."
+      },
+      "tags": [
+        "family",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "vara",
+      "primary_form": "vara",
+      "gloss": "to be",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "varit",
+        "past": "var",
+        "group": "4",
+        "example": "Är du hemma i kväll?",
+        "example_en": "Are you home tonight?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "är",
+          "2s": "är",
+          "3s": "är",
+          "1p": "är",
+          "2p": "är",
+          "3p": "är"
+        },
+        "perfekt": {
+          "1s": "har varit",
+          "2s": "har varit",
+          "3s": "har varit",
+          "1p": "har varit",
+          "2p": "har varit",
+          "3p": "har varit"
+        },
+        "preteritum": {
+          "1s": "var",
+          "2s": "var",
+          "3s": "var",
+          "1p": "var",
+          "2p": "var",
+          "3p": "var"
+        },
+        "futurum": {
+          "1s": "ska vara",
+          "2s": "ska vara",
+          "3s": "ska vara",
+          "1p": "ska vara",
+          "2p": "ska vara",
+          "3p": "ska vara"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "hej",
+      "primary_form": "hej",
+      "gloss": "hi, hello",
+      "extras": {
+        "example": "Hej, jag heter Sara.",
+        "example_en": "Hi, I'm Sara."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mamma",
+      "primary_form": "mamma",
+      "gloss": "mum, mother",
+      "extras": {
+        "article": "en",
+        "definite": "mamman",
+        "plural": "mammor",
+        "example": "Mamma lagar mat i köket.",
+        "example_en": "Mum is cooking in the kitchen."
+      },
+      "tags": [
+        "family",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "stor",
+      "primary_form": "stor",
+      "gloss": "big, large",
+      "extras": {
+        "forms": {
+          "en": "stor",
+          "ett": "stort",
+          "pl": "stora"
+        },
+        "example": "Vi har en stor trädgård.",
+        "example_en": "We have a big garden."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "bror",
+      "primary_form": "bror",
+      "gloss": "brother",
+      "extras": {
+        "article": "en",
+        "definite": "brodern",
+        "plural": "bröder",
+        "example": "Min bror bor i Malmö.",
+        "example_en": "My brother lives in Malmö."
+      },
+      "tags": [
+        "family",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "ha",
+      "primary_form": "ha",
+      "gloss": "to have",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "haft",
+        "past": "hade",
+        "group": "4",
+        "example": "Har du tid i morgon?",
+        "example_en": "Do you have time tomorrow?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "har",
+          "2s": "har",
+          "3s": "har",
+          "1p": "har",
+          "2p": "har",
+          "3p": "har"
+        },
+        "perfekt": {
+          "1s": "har haft",
+          "2s": "har haft",
+          "3s": "har haft",
+          "1p": "har haft",
+          "2p": "har haft",
+          "3p": "har haft"
+        },
+        "preteritum": {
+          "1s": "hade",
+          "2s": "hade",
+          "3s": "hade",
+          "1p": "hade",
+          "2p": "hade",
+          "3p": "hade"
+        },
+        "futurum": {
+          "1s": "ska ha",
+          "2s": "ska ha",
+          "3s": "ska ha",
+          "1p": "ska ha",
+          "2p": "ska ha",
+          "3p": "ska ha"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "syster",
+      "primary_form": "syster",
+      "gloss": "sister",
+      "extras": {
+        "article": "en",
+        "definite": "systern",
+        "plural": "systrar",
+        "example": "Har du en syster?",
+        "example_en": "Do you have a sister?"
+      },
+      "tags": [
+        "family",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "hej-da",
+      "primary_form": "hej då",
+      "gloss": "bye",
+      "extras": {
+        "example": "Hej då, vi ses i morgon!",
+        "example_en": "Bye, see you tomorrow!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "son",
+      "primary_form": "son",
+      "gloss": "son",
+      "extras": {
+        "article": "en",
+        "definite": "sonen",
+        "plural": "söner",
+        "example": "Deras son går i skolan.",
+        "example_en": "Their son is at school."
+      },
+      "tags": [
+        "family",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "liten",
+      "primary_form": "liten",
+      "gloss": "small, little",
+      "extras": {
+        "forms": {
+          "en": "liten",
+          "ett": "litet",
+          "pl": "små"
+        },
+        "example": "Vårt kök är litet men fint.",
+        "example_en": "Our kitchen is small but nice."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "dotter",
+      "primary_form": "dotter",
+      "gloss": "daughter",
+      "extras": {
+        "article": "en",
+        "definite": "dottern",
+        "plural": "döttrar",
+        "example": "Min dotter är sju år.",
+        "example_en": "My daughter is seven."
+      },
+      "tags": [
+        "family",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "gora",
+      "primary_form": "göra",
+      "gloss": "to do, to make",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "gjort",
+        "past": "gjorde",
+        "group": "4",
+        "example": "Vad gör du i helgen?",
+        "example_en": "What are you doing at the weekend?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "gör",
+          "2s": "gör",
+          "3s": "gör",
+          "1p": "gör",
+          "2p": "gör",
+          "3p": "gör"
+        },
+        "perfekt": {
+          "1s": "har gjort",
+          "2s": "har gjort",
+          "3s": "har gjort",
+          "1p": "har gjort",
+          "2p": "har gjort",
+          "3p": "har gjort"
+        },
+        "preteritum": {
+          "1s": "gjorde",
+          "2s": "gjorde",
+          "3s": "gjorde",
+          "1p": "gjorde",
+          "2p": "gjorde",
+          "3p": "gjorde"
+        },
+        "futurum": {
+          "1s": "ska göra",
+          "2s": "ska göra",
+          "3s": "ska göra",
+          "1p": "ska göra",
+          "2p": "ska göra",
+          "3p": "ska göra"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "god-morgon",
+      "primary_form": "god morgon",
+      "gloss": "good morning",
+      "extras": {
+        "example": "God morgon! Har du sovit gott?",
+        "example_en": "Good morning! Did you sleep well?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "man",
+      "primary_form": "man",
+      "gloss": "man; husband",
+      "extras": {
+        "article": "en",
+        "definite": "mannen",
+        "plural": "män",
+        "example": "Hennes man heter Johan.",
+        "example_en": "Her husband is called Johan."
+      },
+      "tags": [
+        "family",
+        "en"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "forst",
+      "primary_form": "först",
+      "gloss": "first, first of all",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "Först duschar jag och sedan äter jag frukost.",
+        "example_en": "First I have a shower and then I have breakfast.",
+        "example_alternatives": [
+          "Jag duschar först och sedan äter jag frukost."
+        ]
+      },
+      "tags": [
+        "sambandsord"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fru",
+      "primary_form": "fru",
+      "gloss": "wife",
+      "extras": {
+        "article": "en",
+        "definite": "frun",
+        "plural": "fruar",
+        "example": "Han ringer sin fru varje kväll.",
+        "example_en": "He calls his wife every evening."
+      },
+      "tags": [
+        "family",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "komma",
+      "primary_form": "komma",
+      "gloss": "to come",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "kommit",
+        "past": "kom",
+        "group": "4",
+        "example": "Kommer du på festen?",
+        "example_en": "Are you coming to the party?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "kommer",
+          "2s": "kommer",
+          "3s": "kommer",
+          "1p": "kommer",
+          "2p": "kommer",
+          "3p": "kommer"
+        },
+        "perfekt": {
+          "1s": "har kommit",
+          "2s": "har kommit",
+          "3s": "har kommit",
+          "1p": "har kommit",
+          "2p": "har kommit",
+          "3p": "har kommit"
+        },
+        "preteritum": {
+          "1s": "kom",
+          "2s": "kom",
+          "3s": "kom",
+          "1p": "kom",
+          "2p": "kom",
+          "3p": "kom"
+        },
+        "futurum": {
+          "1s": "ska komma",
+          "2s": "ska komma",
+          "3s": "ska komma",
+          "1p": "ska komma",
+          "2p": "ska komma",
+          "3p": "ska komma"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "bra",
+      "primary_form": "bra",
+      "gloss": "good, fine (never changes)",
+      "extras": {
+        "forms": {
+          "en": "bra",
+          "ett": "bra",
+          "pl": "bra"
+        },
+        "example": "Det är en bra idé.",
+        "example_en": "That's a good idea."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "foralder",
+      "primary_form": "förälder",
+      "gloss": "parent",
+      "extras": {
+        "article": "en",
+        "definite": "föräldern",
+        "plural": "föräldrar",
+        "example": "Mina föräldrar bor på landet.",
+        "example_en": "My parents live in the country."
+      },
+      "tags": [
+        "family",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "god-natt",
+      "primary_form": "god natt",
+      "gloss": "good night",
+      "extras": {
+        "example": "God natt och sov gott!",
+        "example_en": "Good night, sleep well!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mormor",
+      "primary_form": "mormor",
+      "gloss": "grandmother (mother's mother)",
+      "extras": {
+        "article": "en",
+        "definite": "mormodern",
+        "plural": "mormödrar",
+        "example": "Mormor bakar de bästa bullarna.",
+        "example_en": "Grandma bakes the best buns."
+      },
+      "tags": [
+        "family",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "vilja",
+      "primary_form": "vilja",
+      "gloss": "to want",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "velat",
+        "past": "ville",
+        "group": "4",
+        "example": "Jag vill åka hem nu.",
+        "example_en": "I want to go home now."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "vill",
+          "2s": "vill",
+          "3s": "vill",
+          "1p": "vill",
+          "2p": "vill",
+          "3p": "vill"
+        },
+        "perfekt": {
+          "1s": "har velat",
+          "2s": "har velat",
+          "3s": "har velat",
+          "1p": "har velat",
+          "2p": "har velat",
+          "3p": "har velat"
+        },
+        "preteritum": {
+          "1s": "ville",
+          "2s": "ville",
+          "3s": "ville",
+          "1p": "ville",
+          "2p": "ville",
+          "3p": "ville"
+        },
+        "futurum": {
+          "1s": "kommer att vilja",
+          "2s": "kommer att vilja",
+          "3s": "kommer att vilja",
+          "1p": "kommer att vilja",
+          "2p": "kommer att vilja",
+          "3p": "kommer att vilja"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "morfar",
+      "primary_form": "morfar",
+      "gloss": "grandfather (mother's father)",
+      "extras": {
+        "article": "en",
+        "definite": "morfadern",
+        "plural": "morfäder",
+        "example": "Morfar fyller åttio i år.",
+        "example_en": "Grandpa turns eighty this year."
+      },
+      "tags": [
+        "family",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "kusin",
+      "primary_form": "kusin",
+      "gloss": "cousin",
+      "extras": {
+        "article": "en",
+        "definite": "kusinen",
+        "plural": "kusiner",
+        "example": "Min kusin kommer på besök i morgon.",
+        "example_en": "My cousin is coming to visit tomorrow."
+      },
+      "tags": [
+        "family",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tack",
+      "primary_form": "tack",
+      "gloss": "thanks, thank you; please",
+      "extras": {
+        "note": "Swedish has no word for *please*. *Tack* covers it when you accept or ask for something: *En kaffe, tack.*",
+        "example": "Tack för hjälpen!",
+        "example_en": "Thanks for your help!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "dalig",
+      "primary_form": "dålig",
+      "gloss": "bad; poorly",
+      "extras": {
+        "forms": {
+          "en": "dålig",
+          "ett": "dåligt",
+          "pl": "dåliga"
+        },
+        "example": "Vädret är dåligt i dag.",
+        "example_en": "The weather's bad today."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "kunna",
+      "primary_form": "kunna",
+      "gloss": "can, to be able to",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "kunnat",
+        "past": "kunde",
+        "group": "4",
+        "example": "Kan du hjälpa mig?",
+        "example_en": "Can you help me?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "kan",
+          "2s": "kan",
+          "3s": "kan",
+          "1p": "kan",
+          "2p": "kan",
+          "3p": "kan"
+        },
+        "perfekt": {
+          "1s": "har kunnat",
+          "2s": "har kunnat",
+          "3s": "har kunnat",
+          "1p": "har kunnat",
+          "2p": "har kunnat",
+          "3p": "har kunnat"
+        },
+        "preteritum": {
+          "1s": "kunde",
+          "2s": "kunde",
+          "3s": "kunde",
+          "1p": "kunde",
+          "2p": "kunde",
+          "3p": "kunde"
+        },
+        "futurum": {
+          "1s": "kommer att kunna",
+          "2s": "kommer att kunna",
+          "3s": "kommer att kunna",
+          "1p": "kommer att kunna",
+          "2p": "kommer att kunna",
+          "3p": "kommer att kunna"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "moster",
+      "primary_form": "moster",
+      "gloss": "aunt (mother's sister)",
+      "extras": {
+        "article": "en",
+        "definite": "mostern",
+        "plural": "mostrar",
+        "example": "Min moster bor i Kiruna.",
+        "example_en": "My aunt lives in Kiruna."
+      },
+      "tags": [
+        "family",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "familj",
+      "primary_form": "familj",
+      "gloss": "family",
+      "extras": {
+        "article": "en",
+        "definite": "familjen",
+        "plural": "familjer",
+        "example": "Hela familjen äter middag tillsammans.",
+        "example_en": "The whole family eats dinner together."
+      },
+      "tags": [
+        "family",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tack-sa-mycket",
+      "primary_form": "tack så mycket",
+      "gloss": "thank you very much",
+      "extras": {
+        "example": "Tack så mycket för presenten!",
+        "example_en": "Thank you so much for the present!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "maste",
+      "primary_form": "måste",
+      "gloss": "must, to have to",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "måst",
+        "past": "måste",
+        "group": "4",
+        "example": "Jag måste jobba i morgon.",
+        "example_en": "I have to work tomorrow."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "måste",
+          "2s": "måste",
+          "3s": "måste",
+          "1p": "måste",
+          "2p": "måste",
+          "3p": "måste"
+        },
+        "perfekt": {
+          "1s": "har måst",
+          "2s": "har måst",
+          "3s": "har måst",
+          "1p": "har måst",
+          "2p": "har måst",
+          "3p": "har måst"
+        },
+        "preteritum": {
+          "1s": "måste",
+          "2s": "måste",
+          "3s": "måste",
+          "1p": "måste",
+          "2p": "måste",
+          "3p": "måste"
+        },
+        "futurum": {
+          "1s": "kommer att behöva",
+          "2s": "kommer att behöva",
+          "3s": "kommer att behöva",
+          "1p": "kommer att behöva",
+          "2p": "kommer att behöva",
+          "3p": "kommer att behöva"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "syskon",
+      "primary_form": "syskon",
+      "gloss": "brother or sister, sibling",
+      "extras": {
+        "article": "ett",
+        "definite": "syskonet",
+        "plural": "syskon",
+        "example": "Hur många syskon har du?",
+        "example_en": "How many brothers and sisters do you have?"
+      },
+      "tags": [
+        "family",
+        "ett"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "fin",
+      "primary_form": "fin",
+      "gloss": "nice, fine, pretty",
+      "extras": {
+        "forms": {
+          "en": "fin",
+          "ett": "fint",
+          "pl": "fina"
+        },
+        "example": "Vilken fin klänning!",
+        "example_en": "What a nice dress!"
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "pojke",
+      "primary_form": "pojke",
+      "gloss": "boy",
+      "extras": {
+        "article": "en",
+        "definite": "pojken",
+        "plural": "pojkar",
+        "example": "Pojken spelar fotboll i parken.",
+        "example_en": "The boy is playing football in the park."
+      },
+      "tags": [
+        "people",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "flicka",
+      "primary_form": "flicka",
+      "gloss": "girl",
+      "extras": {
+        "article": "en",
+        "definite": "flickan",
+        "plural": "flickor",
+        "example": "Flickan läser en bok.",
+        "example_en": "The girl is reading a book."
+      },
+      "tags": [
+        "people",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "fa",
+      "primary_form": "få",
+      "gloss": "to get; may, to be allowed to",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "fått",
+        "past": "fick",
+        "group": "4",
+        "example": "Får jag sitta här?",
+        "example_en": "May I sit here?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "får",
+          "2s": "får",
+          "3s": "får",
+          "1p": "får",
+          "2p": "får",
+          "3p": "får"
+        },
+        "perfekt": {
+          "1s": "har fått",
+          "2s": "har fått",
+          "3s": "har fått",
+          "1p": "har fått",
+          "2p": "har fått",
+          "3p": "har fått"
+        },
+        "preteritum": {
+          "1s": "fick",
+          "2s": "fick",
+          "3s": "fick",
+          "1p": "fick",
+          "2p": "fick",
+          "3p": "fick"
+        },
+        "futurum": {
+          "1s": "ska få",
+          "2s": "ska få",
+          "3s": "ska få",
+          "1p": "ska få",
+          "2p": "ska få",
+          "3p": "ska få"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "varsagod",
+      "primary_form": "varsågod",
+      "gloss": "here you are; help yourself",
+      "extras": {
+        "literal": "be so good",
+        "note": "Said when you hand something over, and by the host when the food is on the table.",
+        "example": "Varsågod, här är ditt kaffe.",
+        "example_en": "Here you are, here's your coffee."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "granne",
+      "primary_form": "granne",
+      "gloss": "neighbour",
+      "extras": {
+        "article": "en",
+        "definite": "grannen",
+        "plural": "grannar",
+        "example": "Vår granne har en stor hund.",
+        "example_en": "Our neighbour has a big dog."
+      },
+      "tags": [
+        "people",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "namn",
+      "primary_form": "namn",
+      "gloss": "name",
+      "extras": {
+        "article": "ett",
+        "definite": "namnet",
+        "plural": "namn",
+        "example": "Jag glömmer alltid hennes namn.",
+        "example_en": "I always forget her name."
+      },
+      "tags": [
+        "people",
+        "ett"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "vacker",
+      "primary_form": "vacker",
+      "gloss": "beautiful",
+      "extras": {
+        "forms": {
+          "en": "vacker",
+          "ett": "vackert",
+          "pl": "vackra"
+        },
+        "example": "Stockholm är en vacker stad.",
+        "example_en": "Stockholm is a beautiful city."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "veta",
+      "primary_form": "veta",
+      "gloss": "to know (a fact)",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "vetat",
+        "past": "visste",
+        "group": "4",
+        "example": "Vet du var stationen ligger?",
+        "example_en": "Do you know where the station is?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "vet",
+          "2s": "vet",
+          "3s": "vet",
+          "1p": "vet",
+          "2p": "vet",
+          "3p": "vet"
+        },
+        "perfekt": {
+          "1s": "har vetat",
+          "2s": "har vetat",
+          "3s": "har vetat",
+          "1p": "har vetat",
+          "2p": "har vetat",
+          "3p": "har vetat"
+        },
+        "preteritum": {
+          "1s": "visste",
+          "2s": "visste",
+          "3s": "visste",
+          "1p": "visste",
+          "2p": "visste",
+          "3p": "visste"
+        },
+        "futurum": {
+          "1s": "kommer att veta",
+          "2s": "kommer att veta",
+          "3s": "kommer att veta",
+          "1p": "kommer att veta",
+          "2p": "kommer att veta",
+          "3p": "kommer att veta"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "ingen-orsak",
+      "primary_form": "ingen orsak",
+      "gloss": "you're welcome",
+      "extras": {
+        "literal": "no reason",
+        "example": "Ingen orsak, det var så lite.",
+        "example_en": "You're welcome, it was nothing."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "manniska",
+      "primary_form": "människa",
+      "gloss": "person, human being",
+      "extras": {
+        "article": "en",
+        "definite": "människan",
+        "plural": "människor",
+        "example": "Det är många människor i parken i dag.",
+        "example_en": "There are a lot of people in the park today."
+      },
+      "tags": [
+        "people",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "kvinna",
+      "primary_form": "kvinna",
+      "gloss": "woman",
+      "extras": {
+        "article": "en",
+        "definite": "kvinnan",
+        "plural": "kvinnor",
+        "example": "Kvinnan i kassan är mycket snäll.",
+        "example_en": "The woman at the till is very kind."
+      },
+      "tags": [
+        "people",
+        "en"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "ocksa",
+      "primary_form": "också",
+      "gloss": "also, too",
+      "extras": {
+        "role": "conn-addition",
+        "example": "Min bror bor också i Stockholm.",
+        "example_en": "My brother lives in Stockholm too."
+      },
+      "tags": [
+        "sambandsord"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "kanna",
+      "primary_form": "känna",
+      "gloss": "to know (a person); to feel",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "känt",
+        "past": "kände",
+        "group": "2a",
+        "example": "Känner du min bror?",
+        "example_en": "Do you know my brother?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "känner",
+          "2s": "känner",
+          "3s": "känner",
+          "1p": "känner",
+          "2p": "känner",
+          "3p": "känner"
+        },
+        "perfekt": {
+          "1s": "har känt",
+          "2s": "har känt",
+          "3s": "har känt",
+          "1p": "har känt",
+          "2p": "har känt",
+          "3p": "har känt"
+        },
+        "preteritum": {
+          "1s": "kände",
+          "2s": "kände",
+          "3s": "kände",
+          "1p": "kände",
+          "2p": "kände",
+          "3p": "kände"
+        },
+        "futurum": {
+          "1s": "kommer att känna",
+          "2s": "kommer att känna",
+          "3s": "kommer att känna",
+          "1p": "kommer att känna",
+          "2p": "kommer att känna",
+          "3p": "kommer att känna"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "huvud",
+      "primary_form": "huvud",
+      "gloss": "head",
+      "extras": {
+        "article": "ett",
+        "definite": "huvudet",
+        "plural": "huvuden",
+        "example": "Jag har ont i huvudet.",
+        "example_en": "I have a headache."
+      },
+      "tags": [
+        "body",
+        "ett"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "forlat",
+      "primary_form": "förlåt",
+      "gloss": "sorry",
+      "extras": {
+        "example": "Förlåt, jag kommer lite sent.",
+        "example_en": "Sorry, I'm a bit late."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "ung",
+      "primary_form": "ung",
+      "gloss": "young",
+      "extras": {
+        "forms": {
+          "en": "ung",
+          "ett": "ungt",
+          "pl": "unga"
+        },
+        "example": "Han är ung men mycket duktig.",
+        "example_en": "He's young but very good at it."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "oga",
+      "primary_form": "öga",
+      "gloss": "eye",
+      "extras": {
+        "article": "ett",
+        "definite": "ögat",
+        "plural": "ögon",
+        "example": "Hon har blå ögon.",
+        "example_en": "She has blue eyes."
+      },
+      "tags": [
+        "body",
+        "ett"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "se",
+      "primary_form": "se",
+      "gloss": "to see",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "sett",
+        "past": "såg",
+        "group": "4",
+        "example": "Ser du huset där borta?",
+        "example_en": "Can you see the house over there?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "ser",
+          "2s": "ser",
+          "3s": "ser",
+          "1p": "ser",
+          "2p": "ser",
+          "3p": "ser"
+        },
+        "perfekt": {
+          "1s": "har sett",
+          "2s": "har sett",
+          "3s": "har sett",
+          "1p": "har sett",
+          "2p": "har sett",
+          "3p": "har sett"
+        },
+        "preteritum": {
+          "1s": "såg",
+          "2s": "såg",
+          "3s": "såg",
+          "1p": "såg",
+          "2p": "såg",
+          "3p": "såg"
+        },
+        "futurum": {
+          "1s": "ska se",
+          "2s": "ska se",
+          "3s": "ska se",
+          "1p": "ska se",
+          "2p": "ska se",
+          "3p": "ska se"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "ora",
+      "primary_form": "öra",
+      "gloss": "ear",
+      "extras": {
+        "article": "ett",
+        "definite": "örat",
+        "plural": "öron",
+        "example": "Hunden har stora öron.",
+        "example_en": "The dog has big ears."
+      },
+      "tags": [
+        "body",
+        "ett"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ursakta",
+      "primary_form": "ursäkta",
+      "gloss": "excuse me",
+      "extras": {
+        "example": "Ursäkta, var ligger stationen?",
+        "example_en": "Excuse me, where's the station?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "nasa",
+      "primary_form": "näsa",
+      "gloss": "nose",
+      "extras": {
+        "article": "en",
+        "definite": "näsan",
+        "plural": "näsor",
+        "example": "Min näsa är röd av kylan.",
+        "example_en": "My nose is red from the cold."
+      },
+      "tags": [
+        "body",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "gammal",
+      "primary_form": "gammal",
+      "gloss": "old",
+      "extras": {
+        "forms": {
+          "en": "gammal",
+          "ett": "gammalt",
+          "pl": "gamla"
+        },
+        "example": "Huset är över hundra år gammalt.",
+        "example_en": "The house is over a hundred years old."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mun",
+      "primary_form": "mun",
+      "gloss": "mouth",
+      "extras": {
+        "article": "en",
+        "definite": "munnen",
+        "plural": "munnar",
+        "example": "Prata inte med mat i munnen!",
+        "example_en": "Don't talk with your mouth full!"
+      },
+      "tags": [
+        "body",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "saga",
+      "primary_form": "säga",
+      "gloss": "to say",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "sagt",
+        "past": "sa",
+        "group": "4",
+        "example": "Vad sa du?",
+        "example_en": "What did you say?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "säger",
+          "2s": "säger",
+          "3s": "säger",
+          "1p": "säger",
+          "2p": "säger",
+          "3p": "säger"
+        },
+        "perfekt": {
+          "1s": "har sagt",
+          "2s": "har sagt",
+          "3s": "har sagt",
+          "1p": "har sagt",
+          "2p": "har sagt",
+          "3p": "har sagt"
+        },
+        "preteritum": {
+          "1s": "sa",
+          "2s": "sa",
+          "3s": "sa",
+          "1p": "sa",
+          "2p": "sa",
+          "3p": "sa"
+        },
+        "futurum": {
+          "1s": "ska säga",
+          "2s": "ska säga",
+          "3s": "ska säga",
+          "1p": "ska säga",
+          "2p": "ska säga",
+          "3p": "ska säga"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "hand",
+      "primary_form": "hand",
+      "gloss": "hand",
+      "extras": {
+        "article": "en",
+        "definite": "handen",
+        "plural": "händer",
+        "example": "Tvätta händerna före maten.",
+        "example_en": "Wash your hands before you eat."
+      },
+      "tags": [
+        "body",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "vi-ses",
+      "primary_form": "vi ses",
+      "gloss": "see you",
+      "extras": {
+        "literal": "we see each other",
+        "example": "Vi ses på lördag!",
+        "example_en": "See you on Saturday!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "arm",
+      "primary_form": "arm",
+      "gloss": "arm",
+      "extras": {
+        "article": "en",
+        "definite": "armen",
+        "plural": "armar",
+        "example": "Min arm gör ont.",
+        "example_en": "My arm hurts."
+      },
+      "tags": [
+        "body",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "heta",
+      "primary_form": "heta",
+      "gloss": "to be called",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "hetat",
+        "past": "hette",
+        "group": "4",
+        "example": "Vad heter din hund?",
+        "example_en": "What's your dog called?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "heter",
+          "2s": "heter",
+          "3s": "heter",
+          "1p": "heter",
+          "2p": "heter",
+          "3p": "heter"
+        },
+        "perfekt": {
+          "1s": "har hetat",
+          "2s": "har hetat",
+          "3s": "har hetat",
+          "1p": "har hetat",
+          "2p": "har hetat",
+          "3p": "har hetat"
+        },
+        "preteritum": {
+          "1s": "hette",
+          "2s": "hette",
+          "3s": "hette",
+          "1p": "hette",
+          "2p": "hette",
+          "3p": "hette"
+        },
+        "futurum": {
+          "1s": "kommer att heta",
+          "2s": "kommer att heta",
+          "3s": "kommer att heta",
+          "1p": "kommer att heta",
+          "2p": "kommer att heta",
+          "3p": "kommer att heta"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "ben",
+      "primary_form": "ben",
+      "gloss": "leg; bone",
+      "extras": {
+        "article": "ett",
+        "definite": "benet",
+        "plural": "ben",
+        "example": "Mina ben är trötta efter promenaden.",
+        "example_en": "My legs are tired after the walk."
+      },
+      "tags": [
+        "body",
+        "ett"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "ny",
+      "primary_form": "ny",
+      "gloss": "new",
+      "extras": {
+        "forms": {
+          "en": "ny",
+          "ett": "nytt",
+          "pl": "nya"
+        },
+        "example": "Jag har köpt en ny cykel.",
+        "example_en": "I've bought a new bike."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fot",
+      "primary_form": "fot",
+      "gloss": "foot",
+      "extras": {
+        "article": "en",
+        "definite": "foten",
+        "plural": "fötter",
+        "example": "Mina fötter är kalla.",
+        "example_en": "My feet are cold."
+      },
+      "tags": [
+        "body",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "hur-mar-du",
+      "primary_form": "hur mår du?",
+      "gloss": "how are you?",
+      "extras": {
+        "example": "Hej Anna, hur mår du i dag?",
+        "example_en": "Hi Anna, how are you today?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "bo",
+      "primary_form": "bo",
+      "gloss": "to live (somewhere)",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "bott",
+        "past": "bodde",
+        "group": "3",
+        "example": "Jag bor i Stockholm.",
+        "example_en": "I live in Stockholm."
+      },
+      "tags": [
+        "presens",
+        "home"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "bor",
+          "2s": "bor",
+          "3s": "bor",
+          "1p": "bor",
+          "2p": "bor",
+          "3p": "bor"
+        },
+        "perfekt": {
+          "1s": "har bott",
+          "2s": "har bott",
+          "3s": "har bott",
+          "1p": "har bott",
+          "2p": "har bott",
+          "3p": "har bott"
+        },
+        "preteritum": {
+          "1s": "bodde",
+          "2s": "bodde",
+          "3s": "bodde",
+          "1p": "bodde",
+          "2p": "bodde",
+          "3p": "bodde"
+        },
+        "futurum": {
+          "1s": "ska bo",
+          "2s": "ska bo",
+          "3s": "ska bo",
+          "1p": "ska bo",
+          "2p": "ska bo",
+          "3p": "ska bo"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "hjarta",
+      "primary_form": "hjärta",
+      "gloss": "heart",
+      "extras": {
+        "article": "ett",
+        "definite": "hjärtat",
+        "plural": "hjärtan",
+        "example": "Hjärtat slår snabbt när jag springer.",
+        "example_en": "My heart beats fast when I run."
+      },
+      "tags": [
+        "body",
+        "ett"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mage",
+      "primary_form": "mage",
+      "gloss": "stomach, tummy",
+      "extras": {
+        "article": "en",
+        "definite": "magen",
+        "plural": "magar",
+        "example": "Barnet har ont i magen.",
+        "example_en": "The child has a stomach ache."
+      },
+      "tags": [
+        "body",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "snall",
+      "primary_form": "snäll",
+      "gloss": "kind, nice",
+      "extras": {
+        "forms": {
+          "en": "snäll",
+          "ett": "snällt",
+          "pl": "snälla"
+        },
+        "example": "Din mormor är så snäll.",
+        "example_en": "Your grandma is so kind."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "bara-bra",
+      "primary_form": "bara bra",
+      "gloss": "fine, just fine",
+      "extras": {
+        "literal": "only good",
+        "example": "Bara bra, tack. Och du?",
+        "example_en": "Just fine, thanks. And you?"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "arbeta",
+      "primary_form": "arbeta",
+      "gloss": "to work",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "arbetat",
+        "past": "arbetade",
+        "group": "1",
+        "example": "Hon arbetar på en bank.",
+        "example_en": "She works at a bank."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "arbetar",
+          "2s": "arbetar",
+          "3s": "arbetar",
+          "1p": "arbetar",
+          "2p": "arbetar",
+          "3p": "arbetar"
+        },
+        "perfekt": {
+          "1s": "har arbetat",
+          "2s": "har arbetat",
+          "3s": "har arbetat",
+          "1p": "har arbetat",
+          "2p": "har arbetat",
+          "3p": "har arbetat"
+        },
+        "preteritum": {
+          "1s": "arbetade",
+          "2s": "arbetade",
+          "3s": "arbetade",
+          "1p": "arbetade",
+          "2p": "arbetade",
+          "3p": "arbetade"
+        },
+        "futurum": {
+          "1s": "ska arbeta",
+          "2s": "ska arbeta",
+          "3s": "ska arbeta",
+          "1p": "ska arbeta",
+          "2p": "ska arbeta",
+          "3p": "ska arbeta"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "har",
+      "primary_form": "hår",
+      "gloss": "hair",
+      "extras": {
+        "article": "ett",
+        "definite": "håret",
+        "plural": "hår",
+        "example": "Hon har långt, mörkt hår.",
+        "example_en": "She has long dark hair."
+      },
+      "tags": [
+        "body",
+        "ett"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "tand",
+      "primary_form": "tand",
+      "gloss": "tooth",
+      "extras": {
+        "article": "en",
+        "definite": "tanden",
+        "plural": "tänder",
+        "example": "Glöm inte att borsta tänderna!",
+        "example_en": "Don't forget to brush your teeth!"
+      },
+      "tags": [
+        "body",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "frukost",
+      "primary_form": "frukost",
+      "gloss": "breakfast",
+      "extras": {
+        "article": "en",
+        "definite": "frukosten",
+        "plural": "frukostar",
+        "example": "Jag äter frukost klockan sju.",
+        "example_en": "I have breakfast at seven."
+      },
+      "tags": [
+        "food",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "spela",
+      "primary_form": "spela",
+      "gloss": "to play",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "spelat",
+        "past": "spelade",
+        "group": "1",
+        "example": "Barnen spelar fotboll.",
+        "example_en": "The children are playing football."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "spelar",
+          "2s": "spelar",
+          "3s": "spelar",
+          "1p": "spelar",
+          "2p": "spelar",
+          "3p": "spelar"
+        },
+        "perfekt": {
+          "1s": "har spelat",
+          "2s": "har spelat",
+          "3s": "har spelat",
+          "1p": "har spelat",
+          "2p": "har spelat",
+          "3p": "har spelat"
+        },
+        "preteritum": {
+          "1s": "spelade",
+          "2s": "spelade",
+          "3s": "spelade",
+          "1p": "spelade",
+          "2p": "spelade",
+          "3p": "spelade"
+        },
+        "futurum": {
+          "1s": "ska spela",
+          "2s": "ska spela",
+          "3s": "ska spela",
+          "1p": "ska spela",
+          "2p": "ska spela",
+          "3p": "ska spela"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "valkommen",
+      "primary_form": "välkommen",
+      "gloss": "welcome",
+      "extras": {
+        "example": "Välkommen till Sverige!",
+        "example_en": "Welcome to Sweden!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "anda",
+      "primary_form": "ändå",
+      "gloss": "still, anyway",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "Det regnade, men vi gick ut ändå.",
+        "example_en": "It was raining, but we went out anyway.",
+        "example_alternatives": [
+          "Det regnade, men vi gick ändå ut."
+        ]
+      },
+      "tags": [
+        "sambandsord"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "glad",
+      "primary_form": "glad",
+      "gloss": "happy, glad",
+      "extras": {
+        "forms": {
+          "en": "glad",
+          "ett": "glatt",
+          "pl": "glada"
+        },
+        "example": "Barnen är glada i dag.",
+        "example_en": "The children are happy today."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "lunch",
+      "primary_form": "lunch",
+      "gloss": "lunch",
+      "extras": {
+        "article": "en",
+        "definite": "lunchen",
+        "plural": "luncher",
+        "example": "Vi äter lunch tillsammans i dag.",
+        "example_en": "We're having lunch together today."
+      },
+      "tags": [
+        "food",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "middag",
+      "primary_form": "middag",
+      "gloss": "dinner",
+      "extras": {
+        "article": "en",
+        "definite": "middagen",
+        "plural": "middagar",
+        "example": "Vad blir det till middag?",
+        "example_en": "What's for dinner?"
+      },
+      "tags": [
+        "food",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "titta",
+      "primary_form": "titta",
+      "gloss": "to look, to watch",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "tittat",
+        "past": "tittade",
+        "group": "1",
+        "example": "Vi tittar på en film i kväll.",
+        "example_en": "We're watching a film tonight."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "tittar",
+          "2s": "tittar",
+          "3s": "tittar",
+          "1p": "tittar",
+          "2p": "tittar",
+          "3p": "tittar"
+        },
+        "perfekt": {
+          "1s": "har tittat",
+          "2s": "har tittat",
+          "3s": "har tittat",
+          "1p": "har tittat",
+          "2p": "har tittat",
+          "3p": "har tittat"
+        },
+        "preteritum": {
+          "1s": "tittade",
+          "2s": "tittade",
+          "3s": "tittade",
+          "1p": "tittade",
+          "2p": "tittade",
+          "3p": "tittade"
+        },
+        "futurum": {
+          "1s": "ska titta",
+          "2s": "ska titta",
+          "3s": "ska titta",
+          "1p": "ska titta",
+          "2p": "ska titta",
+          "3p": "ska titta"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "trevligt-att-traffas",
+      "primary_form": "trevligt att träffas",
+      "gloss": "nice to meet you",
+      "extras": {
+        "example": "Jag heter Erik. Trevligt att träffas!",
+        "example_en": "I'm Erik. Nice to meet you!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mat",
+      "primary_form": "mat",
+      "gloss": "food; a meal",
+      "extras": {
+        "article": "en",
+        "definite": "maten",
+        "example": "Maten är klar!",
+        "example_en": "Dinner's ready!"
+      },
+      "tags": [
+        "food",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ost",
+      "primary_form": "ost",
+      "gloss": "cheese",
+      "extras": {
+        "article": "en",
+        "definite": "osten",
+        "plural": "ostar",
+        "example": "Ost på knäckebröd är gott.",
+        "example_en": "Cheese on crispbread is tasty."
+      },
+      "tags": [
+        "food",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "god",
+      "primary_form": "god",
+      "gloss": "good, tasty",
+      "extras": {
+        "forms": {
+          "en": "god",
+          "ett": "gott",
+          "pl": "goda"
+        },
+        "example": "Kakan är mycket god.",
+        "example_en": "The cake is very good."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "lyssna",
+      "primary_form": "lyssna",
+      "gloss": "to listen",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "lyssnat",
+        "past": "lyssnade",
+        "group": "1",
+        "example": "Jag lyssnar på musik på bussen.",
+        "example_en": "I listen to music on the bus."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "lyssnar",
+          "2s": "lyssnar",
+          "3s": "lyssnar",
+          "1p": "lyssnar",
+          "2p": "lyssnar",
+          "3p": "lyssnar"
+        },
+        "perfekt": {
+          "1s": "har lyssnat",
+          "2s": "har lyssnat",
+          "3s": "har lyssnat",
+          "1p": "har lyssnat",
+          "2p": "har lyssnat",
+          "3p": "har lyssnat"
+        },
+        "preteritum": {
+          "1s": "lyssnade",
+          "2s": "lyssnade",
+          "3s": "lyssnade",
+          "1p": "lyssnade",
+          "2p": "lyssnade",
+          "3p": "lyssnade"
+        },
+        "futurum": {
+          "1s": "ska lyssna",
+          "2s": "ska lyssna",
+          "3s": "ska lyssna",
+          "1p": "ska lyssna",
+          "2p": "ska lyssna",
+          "3p": "ska lyssna"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "kott",
+      "primary_form": "kött",
+      "gloss": "meat",
+      "extras": {
+        "article": "ett",
+        "definite": "köttet",
+        "example": "Hon äter inte kött.",
+        "example_en": "She doesn't eat meat."
+      },
+      "tags": [
+        "food",
+        "ett"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ja",
+      "primary_form": "ja",
+      "gloss": "yes",
+      "extras": {
+        "example": "Ja, det låter bra!",
+        "example_en": "Yes, that sounds good!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fisk",
+      "primary_form": "fisk",
+      "gloss": "fish",
+      "extras": {
+        "article": "en",
+        "definite": "fisken",
+        "plural": "fiskar",
+        "example": "Vi äter fisk på fredagar.",
+        "example_en": "We eat fish on Fridays."
+      },
+      "tags": [
+        "food",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "lasa",
+      "primary_form": "läsa",
+      "gloss": "to read; to study",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "läst",
+        "past": "läste",
+        "group": "2b",
+        "example": "Han läser tidningen varje morgon.",
+        "example_en": "He reads the paper every morning."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "läser",
+          "2s": "läser",
+          "3s": "läser",
+          "1p": "läser",
+          "2p": "läser",
+          "3p": "läser"
+        },
+        "perfekt": {
+          "1s": "har läst",
+          "2s": "har läst",
+          "3s": "har läst",
+          "1p": "har läst",
+          "2p": "har läst",
+          "3p": "har läst"
+        },
+        "preteritum": {
+          "1s": "läste",
+          "2s": "läste",
+          "3s": "läste",
+          "1p": "läste",
+          "2p": "läste",
+          "3p": "läste"
+        },
+        "futurum": {
+          "1s": "ska läsa",
+          "2s": "ska läsa",
+          "3s": "ska läsa",
+          "1p": "ska läsa",
+          "2p": "ska läsa",
+          "3p": "ska läsa"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "agg",
+      "primary_form": "ägg",
+      "gloss": "egg",
+      "extras": {
+        "article": "ett",
+        "definite": "ägget",
+        "plural": "ägg",
+        "example": "Jag kokar två ägg till frukost.",
+        "example_en": "I'm boiling two eggs for breakfast."
+      },
+      "tags": [
+        "food",
+        "ett"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "varm",
+      "primary_form": "varm",
+      "gloss": "warm, hot",
+      "extras": {
+        "forms": {
+          "en": "varm",
+          "ett": "varmt",
+          "pl": "varma"
+        },
+        "example": "Är kaffet för varmt?",
+        "example_en": "Is the coffee too hot?"
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mjolk",
+      "primary_form": "mjölk",
+      "gloss": "milk",
+      "extras": {
+        "article": "en",
+        "definite": "mjölken",
+        "example": "Mjölken står i kylskåpet.",
+        "example_en": "The milk is in the fridge."
+      },
+      "tags": [
+        "food",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "nej",
+      "primary_form": "nej",
+      "gloss": "no",
+      "extras": {
+        "example": "Nej tack, jag är mätt.",
+        "example_en": "No thanks, I'm full."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "skriva",
+      "primary_form": "skriva",
+      "gloss": "to write",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "skrivit",
+        "past": "skrev",
+        "group": "4",
+        "example": "Jag skriver ett mejl till chefen.",
+        "example_en": "I'm writing an email to my boss."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "skriver",
+          "2s": "skriver",
+          "3s": "skriver",
+          "1p": "skriver",
+          "2p": "skriver",
+          "3p": "skriver"
+        },
+        "perfekt": {
+          "1s": "har skrivit",
+          "2s": "har skrivit",
+          "3s": "har skrivit",
+          "1p": "har skrivit",
+          "2p": "har skrivit",
+          "3p": "har skrivit"
+        },
+        "preteritum": {
+          "1s": "skrev",
+          "2s": "skrev",
+          "3s": "skrev",
+          "1p": "skrev",
+          "2p": "skrev",
+          "3p": "skrev"
+        },
+        "futurum": {
+          "1s": "ska skriva",
+          "2s": "ska skriva",
+          "3s": "ska skriva",
+          "1p": "ska skriva",
+          "2p": "ska skriva",
+          "3p": "ska skriva"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "kaffe",
+      "primary_form": "kaffe",
+      "gloss": "coffee",
+      "extras": {
+        "article": "ett",
+        "definite": "kaffet",
+        "example": "Vill du ha en kopp kaffe?",
+        "example_en": "Would you like a cup of coffee?"
+      },
+      "tags": [
+        "food",
+        "ett"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "te",
+      "primary_form": "te",
+      "gloss": "tea",
+      "extras": {
+        "article": "ett",
+        "definite": "teet",
+        "example": "Jag dricker te med mjölk.",
+        "example_en": "I drink tea with milk."
+      },
+      "tags": [
+        "food",
+        "ett"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "jo",
+      "primary_form": "jo",
+      "gloss": "yes (to a question with inte)",
+      "extras": {
+        "note": "The yes that contradicts a negative question. *Ja* there would sound as if you agree with the *inte*.",
+        "example": "Är du inte hungrig? Jo, lite.",
+        "example_en": "Aren't you hungry? Yes, a bit."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vin",
+      "primary_form": "vin",
+      "gloss": "wine",
+      "extras": {
+        "article": "ett",
+        "definite": "vinet",
+        "plural": "viner",
+        "example": "Ett glas rött vin, tack.",
+        "example_en": "A glass of red wine, please."
+      },
+      "tags": [
+        "food",
+        "ett"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "kall",
+      "primary_form": "kall",
+      "gloss": "cold",
+      "extras": {
+        "forms": {
+          "en": "kall",
+          "ett": "kallt",
+          "pl": "kalla"
+        },
+        "example": "Vattnet är kallt i juni.",
+        "example_en": "The water's cold in June."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "sova",
+      "primary_form": "sova",
+      "gloss": "to sleep",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "sovit",
+        "past": "sov",
+        "group": "4",
+        "example": "Bebisen sover äntligen.",
+        "example_en": "The baby's asleep at last."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "sover",
+          "2s": "sover",
+          "3s": "sover",
+          "1p": "sover",
+          "2p": "sover",
+          "3p": "sover"
+        },
+        "perfekt": {
+          "1s": "har sovit",
+          "2s": "har sovit",
+          "3s": "har sovit",
+          "1p": "har sovit",
+          "2p": "har sovit",
+          "3p": "har sovit"
+        },
+        "preteritum": {
+          "1s": "sov",
+          "2s": "sov",
+          "3s": "sov",
+          "1p": "sov",
+          "2p": "sov",
+          "3p": "sov"
+        },
+        "futurum": {
+          "1s": "ska sova",
+          "2s": "ska sova",
+          "3s": "ska sova",
+          "1p": "ska sova",
+          "2p": "ska sova",
+          "3p": "ska sova"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "apple",
+      "primary_form": "äpple",
+      "gloss": "apple",
+      "extras": {
+        "article": "ett",
+        "definite": "äpplet",
+        "plural": "äpplen",
+        "example": "Hon tar med ett äpple till skolan.",
+        "example_en": "She takes an apple to school."
+      },
+      "tags": [
+        "food",
+        "ett"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "potatis",
+      "primary_form": "potatis",
+      "gloss": "potato",
+      "extras": {
+        "article": "en",
+        "definite": "potatisen",
+        "plural": "potatisar",
+        "example": "Vi äter potatis nästan varje dag.",
+        "example_en": "We eat potatoes almost every day."
+      },
+      "tags": [
+        "food",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tack-for-maten",
+      "primary_form": "tack för maten",
+      "gloss": "thanks for the meal",
+      "extras": {
+        "literal": "thanks for the food",
+        "note": "Said to the cook or the host after every meal, at home too.",
+        "example": "Tack för maten, det var jättegott!",
+        "example_en": "Thanks for the meal, it was delicious!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "cykla",
+      "primary_form": "cykla",
+      "gloss": "to cycle",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "cyklat",
+        "past": "cyklade",
+        "group": "1",
+        "example": "Jag cyklar till jobbet.",
+        "example_en": "I cycle to work."
+      },
+      "tags": [
+        "presens",
+        "transport"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "cyklar",
+          "2s": "cyklar",
+          "3s": "cyklar",
+          "1p": "cyklar",
+          "2p": "cyklar",
+          "3p": "cyklar"
+        },
+        "perfekt": {
+          "1s": "har cyklat",
+          "2s": "har cyklat",
+          "3s": "har cyklat",
+          "1p": "har cyklat",
+          "2p": "har cyklat",
+          "3p": "har cyklat"
+        },
+        "preteritum": {
+          "1s": "cyklade",
+          "2s": "cyklade",
+          "3s": "cyklade",
+          "1p": "cyklade",
+          "2p": "cyklade",
+          "3p": "cyklade"
+        },
+        "futurum": {
+          "1s": "ska cykla",
+          "2s": "ska cykla",
+          "3s": "ska cykla",
+          "1p": "ska cykla",
+          "2p": "ska cykla",
+          "3p": "ska cykla"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "gronsak",
+      "primary_form": "grönsak",
+      "gloss": "vegetable",
+      "extras": {
+        "article": "en",
+        "definite": "grönsaken",
+        "plural": "grönsaker",
+        "example": "Barnen äter inte gärna grönsaker.",
+        "example_en": "The children aren't keen on vegetables."
+      },
+      "tags": [
+        "food",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "latt",
+      "primary_form": "lätt",
+      "gloss": "easy; light",
+      "extras": {
+        "forms": {
+          "en": "lätt",
+          "ett": "lätt",
+          "pl": "lätta"
+        },
+        "example": "Den här övningen är lätt.",
+        "example_en": "This exercise is easy."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "och",
+      "primary_form": "och",
+      "gloss": "and",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Jag dricker kaffe och hon dricker te.",
+        "example_en": "I drink coffee and she drinks tea."
+      },
+      "tags": [
+        "konjunktioner"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "frukt",
+      "primary_form": "frukt",
+      "gloss": "fruit",
+      "extras": {
+        "article": "en",
+        "definite": "frukten",
+        "plural": "frukter",
+        "example": "Jag köper frukt på torget.",
+        "example_en": "I buy fruit at the market."
+      },
+      "tags": [
+        "food",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "kopa",
+      "primary_form": "köpa",
+      "gloss": "to buy",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "köpt",
+        "past": "köpte",
+        "group": "2b",
+        "example": "Vi köper bröd på bageriet.",
+        "example_en": "We buy bread at the bakery."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "köper",
+          "2s": "köper",
+          "3s": "köper",
+          "1p": "köper",
+          "2p": "köper",
+          "3p": "köper"
+        },
+        "perfekt": {
+          "1s": "har köpt",
+          "2s": "har köpt",
+          "3s": "har köpt",
+          "1p": "har köpt",
+          "2p": "har köpt",
+          "3p": "har köpt"
+        },
+        "preteritum": {
+          "1s": "köpte",
+          "2s": "köpte",
+          "3s": "köpte",
+          "1p": "köpte",
+          "2p": "köpte",
+          "3p": "köpte"
+        },
+        "futurum": {
+          "1s": "ska köpa",
+          "2s": "ska köpa",
+          "3s": "ska köpa",
+          "1p": "ska köpa",
+          "2p": "ska köpa",
+          "3p": "ska köpa"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "ha-det-sa-bra",
+      "primary_form": "ha det så bra",
+      "gloss": "take care",
+      "extras": {
+        "literal": "have it so good",
+        "example": "Hej då, ha det så bra!",
+        "example_en": "Bye, take care!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "socker",
+      "primary_form": "socker",
+      "gloss": "sugar",
+      "extras": {
+        "article": "ett",
+        "definite": "sockret",
+        "example": "Tar du socker i kaffet?",
+        "example_en": "Do you take sugar in your coffee?"
+      },
+      "tags": [
+        "food",
+        "ett"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "salt",
+      "primary_form": "salt",
+      "gloss": "salt",
+      "extras": {
+        "article": "ett",
+        "definite": "saltet",
+        "example": "Kan du skicka saltet?",
+        "example_en": "Can you pass the salt?"
+      },
+      "tags": [
+        "food",
+        "ett"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "betala",
+      "primary_form": "betala",
+      "gloss": "to pay",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "betalat",
+        "past": "betalade",
+        "group": "1",
+        "example": "Kan jag betala med kort?",
+        "example_en": "Can I pay by card?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "betalar",
+          "2s": "betalar",
+          "3s": "betalar",
+          "1p": "betalar",
+          "2p": "betalar",
+          "3p": "betalar"
+        },
+        "perfekt": {
+          "1s": "har betalat",
+          "2s": "har betalat",
+          "3s": "har betalat",
+          "1p": "har betalat",
+          "2p": "har betalat",
+          "3p": "har betalat"
+        },
+        "preteritum": {
+          "1s": "betalade",
+          "2s": "betalade",
+          "3s": "betalade",
+          "1p": "betalade",
+          "2p": "betalade",
+          "3p": "betalade"
+        },
+        "futurum": {
+          "1s": "ska betala",
+          "2s": "ska betala",
+          "3s": "ska betala",
+          "1p": "ska betala",
+          "2p": "ska betala",
+          "3p": "ska betala"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "svar",
+      "primary_form": "svår",
+      "gloss": "difficult, hard",
+      "extras": {
+        "forms": {
+          "en": "svår",
+          "ett": "svårt",
+          "pl": "svåra"
+        },
+        "example": "Uttalet är svårt i början.",
+        "example_en": "The pronunciation is hard at first."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ris",
+      "primary_form": "ris",
+      "gloss": "rice",
+      "extras": {
+        "article": "ett",
+        "definite": "riset",
+        "example": "Riset är klart om tio minuter.",
+        "example_en": "The rice is ready in ten minutes."
+      },
+      "tags": [
+        "food",
+        "ett"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "trevlig-helg",
+      "primary_form": "trevlig helg",
+      "gloss": "have a nice weekend",
+      "extras": {
+        "example": "Hej då och trevlig helg!",
+        "example_en": "Bye, and have a nice weekend!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "smor",
+      "primary_form": "smör",
+      "gloss": "butter",
+      "extras": {
+        "article": "ett",
+        "definite": "smöret",
+        "example": "Det finns inget smör kvar.",
+        "example_en": "There's no butter left."
+      },
+      "tags": [
+        "food",
+        "ett"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "tarta",
+      "primary_form": "tårta",
+      "gloss": "cake, gateau",
+      "extras": {
+        "article": "en",
+        "definite": "tårtan",
+        "plural": "tårtor",
+        "example": "Vi äter tårta på min födelsedag.",
+        "example_en": "We eat cake on my birthday."
+      },
+      "tags": [
+        "food",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "leta",
+      "primary_form": "leta",
+      "gloss": "to look (for), to search",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "letat",
+        "past": "letade",
+        "group": "1",
+        "example": "Jag letar efter mina glasögon.",
+        "example_en": "I'm looking for my glasses."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "letar",
+          "2s": "letar",
+          "3s": "letar",
+          "1p": "letar",
+          "2p": "letar",
+          "3p": "letar"
+        },
+        "perfekt": {
+          "1s": "har letat",
+          "2s": "har letat",
+          "3s": "har letat",
+          "1p": "har letat",
+          "2p": "har letat",
+          "3p": "har letat"
+        },
+        "preteritum": {
+          "1s": "letade",
+          "2s": "letade",
+          "3s": "letade",
+          "1p": "letade",
+          "2p": "letade",
+          "3p": "letade"
+        },
+        "futurum": {
+          "1s": "ska leta",
+          "2s": "ska leta",
+          "3s": "ska leta",
+          "1p": "ska leta",
+          "2p": "ska leta",
+          "3p": "ska leta"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "grattis",
+      "primary_form": "grattis",
+      "gloss": "congratulations; happy birthday",
+      "extras": {
+        "example": "Grattis på födelsedagen!",
+        "example_en": "Happy birthday!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "kanelbulle",
+      "primary_form": "kanelbulle",
+      "gloss": "cinnamon bun",
+      "extras": {
+        "article": "en",
+        "definite": "kanelbullen",
+        "plural": "kanelbullar",
+        "example": "En kanelbulle och en kaffe, tack.",
+        "example_en": "A cinnamon bun and a coffee, please."
+      },
+      "tags": [
+        "food",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "dyr",
+      "primary_form": "dyr",
+      "gloss": "expensive",
+      "extras": {
+        "forms": {
+          "en": "dyr",
+          "ett": "dyrt",
+          "pl": "dyra"
+        },
+        "example": "Allt är så dyrt här.",
+        "example_en": "Everything is so expensive here."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "smorgas",
+      "primary_form": "smörgås",
+      "gloss": "sandwich (open)",
+      "extras": {
+        "article": "en",
+        "definite": "smörgåsen",
+        "plural": "smörgåsar",
+        "example": "Jag gör en smörgås med ost.",
+        "example_en": "I'm making a cheese sandwich."
+      },
+      "tags": [
+        "food",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "hitta",
+      "primary_form": "hitta",
+      "gloss": "to find",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "hittat",
+        "past": "hittade",
+        "group": "1",
+        "example": "Jag hittar inte min telefon.",
+        "example_en": "I can't find my phone."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "hittar",
+          "2s": "hittar",
+          "3s": "hittar",
+          "1p": "hittar",
+          "2p": "hittar",
+          "3p": "hittar"
+        },
+        "perfekt": {
+          "1s": "har hittat",
+          "2s": "har hittat",
+          "3s": "har hittat",
+          "1p": "har hittat",
+          "2p": "har hittat",
+          "3p": "har hittat"
+        },
+        "preteritum": {
+          "1s": "hittade",
+          "2s": "hittade",
+          "3s": "hittade",
+          "1p": "hittade",
+          "2p": "hittade",
+          "3p": "hittade"
+        },
+        "futurum": {
+          "1s": "ska hitta",
+          "2s": "ska hitta",
+          "3s": "ska hitta",
+          "1p": "ska hitta",
+          "2p": "ska hitta",
+          "3p": "ska hitta"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "knackebrod",
+      "primary_form": "knäckebröd",
+      "gloss": "crispbread",
+      "extras": {
+        "article": "ett",
+        "definite": "knäckebrödet",
+        "plural": "knäckebröd",
+        "example": "Svenskar äter mycket knäckebröd.",
+        "example_en": "Swedes eat a lot of crispbread."
+      },
+      "tags": [
+        "food",
+        "ett"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "skal",
+      "primary_form": "skål",
+      "gloss": "cheers",
+      "extras": {
+        "example": "Skål och välkommen hem!",
+        "example_en": "Cheers, and welcome home!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "rum",
+      "primary_form": "rum",
+      "gloss": "room",
+      "extras": {
+        "article": "ett",
+        "definite": "rummet",
+        "plural": "rum",
+        "example": "Lägenheten har tre rum och kök.",
+        "example_en": "The flat has three rooms and a kitchen."
+      },
+      "tags": [
+        "home",
+        "ett"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "tycka",
+      "primary_form": "tycka",
+      "gloss": "to think (have an opinion)",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "tyckt",
+        "past": "tyckte",
+        "group": "2b",
+        "example": "Vad tycker du om filmen?",
+        "example_en": "What do you think of the film?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "tycker",
+          "2s": "tycker",
+          "3s": "tycker",
+          "1p": "tycker",
+          "2p": "tycker",
+          "3p": "tycker"
+        },
+        "perfekt": {
+          "1s": "har tyckt",
+          "2s": "har tyckt",
+          "3s": "har tyckt",
+          "1p": "har tyckt",
+          "2p": "har tyckt",
+          "3p": "har tyckt"
+        },
+        "preteritum": {
+          "1s": "tyckte",
+          "2s": "tyckte",
+          "3s": "tyckte",
+          "1p": "tyckte",
+          "2p": "tyckte",
+          "3p": "tyckte"
+        },
+        "futurum": {
+          "1s": "kommer att tycka",
+          "2s": "kommer att tycka",
+          "3s": "kommer att tycka",
+          "1p": "kommer att tycka",
+          "2p": "kommer att tycka",
+          "3p": "kommer att tycka"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "billig",
+      "primary_form": "billig",
+      "gloss": "cheap",
+      "extras": {
+        "forms": {
+          "en": "billig",
+          "ett": "billigt",
+          "pl": "billiga"
+        },
+        "example": "Lunchen är billig på måndagar.",
+        "example_en": "Lunch is cheap on Mondays."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "sovrum",
+      "primary_form": "sovrum",
+      "gloss": "bedroom",
+      "extras": {
+        "article": "ett",
+        "definite": "sovrummet",
+        "plural": "sovrum",
+        "example": "Sovrummet ligger på övervåningen.",
+        "example_en": "The bedroom is upstairs."
+      },
+      "tags": [
+        "home",
+        "ett"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "kok",
+      "primary_form": "kök",
+      "gloss": "kitchen",
+      "extras": {
+        "article": "ett",
+        "definite": "köket",
+        "plural": "kök",
+        "example": "Vi äter frukost i köket.",
+        "example_en": "We have breakfast in the kitchen."
+      },
+      "tags": [
+        "home",
+        "ett"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "det-gor-inget",
+      "primary_form": "det gör inget",
+      "gloss": "never mind, it doesn't matter",
+      "extras": {
+        "literal": "it does nothing",
+        "example": "Det gör inget, jag väntar gärna.",
+        "example_en": "Never mind, I'm happy to wait."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "tanka",
+      "primary_form": "tänka",
+      "gloss": "to think",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "tänkt",
+        "past": "tänkte",
+        "group": "2b",
+        "example": "Jag tänker på dig.",
+        "example_en": "I'm thinking of you."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "tänker",
+          "2s": "tänker",
+          "3s": "tänker",
+          "1p": "tänker",
+          "2p": "tänker",
+          "3p": "tänker"
+        },
+        "perfekt": {
+          "1s": "har tänkt",
+          "2s": "har tänkt",
+          "3s": "har tänkt",
+          "1p": "har tänkt",
+          "2p": "har tänkt",
+          "3p": "har tänkt"
+        },
+        "preteritum": {
+          "1s": "tänkte",
+          "2s": "tänkte",
+          "3s": "tänkte",
+          "1p": "tänkte",
+          "2p": "tänkte",
+          "3p": "tänkte"
+        },
+        "futurum": {
+          "1s": "ska tänka",
+          "2s": "ska tänka",
+          "3s": "ska tänka",
+          "1p": "ska tänka",
+          "2p": "ska tänka",
+          "3p": "ska tänka"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "badrum",
+      "primary_form": "badrum",
+      "gloss": "bathroom",
+      "extras": {
+        "article": "ett",
+        "definite": "badrummet",
+        "plural": "badrum",
+        "example": "Badrummet är ledigt nu.",
+        "example_en": "The bathroom is free now."
+      },
+      "tags": [
+        "home",
+        "ett"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vardagsrum",
+      "primary_form": "vardagsrum",
+      "gloss": "living room",
+      "extras": {
+        "article": "ett",
+        "definite": "vardagsrummet",
+        "plural": "vardagsrum",
+        "example": "Vi tittar på tv i vardagsrummet.",
+        "example_en": "We watch TV in the living room."
+      },
+      "tags": [
+        "home",
+        "ett"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "trott",
+      "primary_form": "trött",
+      "gloss": "tired",
+      "extras": {
+        "forms": {
+          "en": "trött",
+          "ett": "trött",
+          "pl": "trötta"
+        },
+        "example": "Jag är så trött i dag.",
+        "example_en": "I'm so tired today."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "eller",
+      "primary_form": "eller",
+      "gloss": "or",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Vill du ha kaffe eller te?",
+        "example_en": "Would you like coffee or tea?"
+      },
+      "tags": [
+        "konjunktioner"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ingen-fara",
+      "primary_form": "ingen fara",
+      "gloss": "no worries, no problem",
+      "extras": {
+        "literal": "no danger",
+        "example": "Ingen fara, det händer alla.",
+        "example_en": "No worries, it happens to everyone."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "ge",
+      "primary_form": "ge",
+      "gloss": "to give",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "gett",
+        "past": "gav",
+        "group": "4",
+        "example": "Kan du ge mig vattnet?",
+        "example_en": "Can you give me the water?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "ger",
+          "2s": "ger",
+          "3s": "ger",
+          "1p": "ger",
+          "2p": "ger",
+          "3p": "ger"
+        },
+        "perfekt": {
+          "1s": "har gett",
+          "2s": "har gett",
+          "3s": "har gett",
+          "1p": "har gett",
+          "2p": "har gett",
+          "3p": "har gett"
+        },
+        "preteritum": {
+          "1s": "gav",
+          "2s": "gav",
+          "3s": "gav",
+          "1p": "gav",
+          "2p": "gav",
+          "3p": "gav"
+        },
+        "futurum": {
+          "1s": "ska ge",
+          "2s": "ska ge",
+          "3s": "ska ge",
+          "1p": "ska ge",
+          "2p": "ska ge",
+          "3p": "ska ge"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "sang",
+      "primary_form": "säng",
+      "gloss": "bed",
+      "extras": {
+        "article": "en",
+        "definite": "sängen",
+        "plural": "sängar",
+        "example": "Katten sover i min säng.",
+        "example_en": "The cat sleeps in my bed."
+      },
+      "tags": [
+        "home",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "nyckel",
+      "primary_form": "nyckel",
+      "gloss": "key",
+      "extras": {
+        "article": "en",
+        "definite": "nyckeln",
+        "plural": "nycklar",
+        "example": "Var är nyckeln till cykeln?",
+        "example_en": "Where's the key to the bike?"
+      },
+      "tags": [
+        "home",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "lagenhet",
+      "primary_form": "lägenhet",
+      "gloss": "flat, apartment",
+      "extras": {
+        "article": "en",
+        "definite": "lägenheten",
+        "plural": "lägenheter",
+        "example": "De bor i en liten lägenhet.",
+        "example_en": "They live in a small flat."
+      },
+      "tags": [
+        "home",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "ta",
+      "primary_form": "ta",
+      "gloss": "to take",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "tagit",
+        "past": "tog",
+        "group": "4",
+        "example": "Vi tar tåget till Göteborg.",
+        "example_en": "We're taking the train to Gothenburg."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "tar",
+          "2s": "tar",
+          "3s": "tar",
+          "1p": "tar",
+          "2p": "tar",
+          "3p": "tar"
+        },
+        "perfekt": {
+          "1s": "har tagit",
+          "2s": "har tagit",
+          "3s": "har tagit",
+          "1p": "har tagit",
+          "2p": "har tagit",
+          "3p": "har tagit"
+        },
+        "preteritum": {
+          "1s": "tog",
+          "2s": "tog",
+          "3s": "tog",
+          "1p": "tog",
+          "2p": "tog",
+          "3p": "tog"
+        },
+        "futurum": {
+          "1s": "ska ta",
+          "2s": "ska ta",
+          "3s": "ska ta",
+          "1p": "ska ta",
+          "2p": "ska ta",
+          "3p": "ska ta"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "sjalvklart",
+      "primary_form": "självklart",
+      "gloss": "of course",
+      "extras": {
+        "example": "Självklart kan du låna min cykel.",
+        "example_en": "Of course you can borrow my bike."
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "hungrig",
+      "primary_form": "hungrig",
+      "gloss": "hungry",
+      "extras": {
+        "forms": {
+          "en": "hungrig",
+          "ett": "hungrigt",
+          "pl": "hungriga"
+        },
+        "example": "Är du hungrig? Maten är klar.",
+        "example_en": "Are you hungry? The food is ready."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "tradgard",
+      "primary_form": "trädgård",
+      "gloss": "garden",
+      "extras": {
+        "article": "en",
+        "definite": "trädgården",
+        "plural": "trädgårdar",
+        "example": "Barnen leker i trädgården.",
+        "example_en": "The children are playing in the garden."
+      },
+      "tags": [
+        "home",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "soffa",
+      "primary_form": "soffa",
+      "gloss": "sofa",
+      "extras": {
+        "article": "en",
+        "definite": "soffan",
+        "plural": "soffor",
+        "example": "Han sover på soffan i natt.",
+        "example_en": "He's sleeping on the sofa tonight."
+      },
+      "tags": [
+        "home",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "borja",
+      "primary_form": "börja",
+      "gloss": "to begin, to start",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "börjat",
+        "past": "började",
+        "group": "1",
+        "example": "Filmen börjar klockan åtta.",
+        "example_en": "The film starts at eight."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "börjar",
+          "2s": "börjar",
+          "3s": "börjar",
+          "1p": "börjar",
+          "2p": "börjar",
+          "3p": "börjar"
+        },
+        "perfekt": {
+          "1s": "har börjat",
+          "2s": "har börjat",
+          "3s": "har börjat",
+          "1p": "har börjat",
+          "2p": "har börjat",
+          "3p": "har börjat"
+        },
+        "preteritum": {
+          "1s": "började",
+          "2s": "började",
+          "3s": "började",
+          "1p": "började",
+          "2p": "började",
+          "3p": "började"
+        },
+        "futurum": {
+          "1s": "ska börja",
+          "2s": "ska börja",
+          "3s": "ska börja",
+          "1p": "ska börja",
+          "2p": "ska börja",
+          "3p": "ska börja"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "garna",
+      "primary_form": "gärna",
+      "gloss": "gladly, I'd love to",
+      "extras": {
+        "example": "Vill du ha mer kaffe? Ja, gärna!",
+        "example_en": "Would you like more coffee? Yes, please!"
+      },
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "dag",
+      "primary_form": "dag",
+      "gloss": "day",
+      "extras": {
+        "article": "en",
+        "definite": "dagen",
+        "plural": "dagar",
+        "example": "Vilken dag är det i dag?",
+        "example_en": "What day is it today?"
+      },
+      "tags": [
+        "time",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "ledsen",
+      "primary_form": "ledsen",
+      "gloss": "sad; sorry",
+      "extras": {
+        "forms": {
+          "en": "ledsen",
+          "ett": "ledset",
+          "pl": "ledsna"
+        },
+        "example": "Jag är ledsen, men jag kan inte.",
+        "example_en": "I'm sorry, but I can't."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vecka",
+      "primary_form": "vecka",
+      "gloss": "week",
+      "extras": {
+        "article": "en",
+        "definite": "veckan",
+        "plural": "veckor",
+        "example": "Vi ses nästa vecka.",
+        "example_en": "See you next week."
+      },
+      "tags": [
+        "time",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "stanna",
+      "primary_form": "stanna",
+      "gloss": "to stay; to stop",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "stannat",
+        "past": "stannade",
+        "group": "1",
+        "example": "Vi stannar hemma i dag.",
+        "example_en": "We're staying at home today."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "stannar",
+          "2s": "stannar",
+          "3s": "stannar",
+          "1p": "stannar",
+          "2p": "stannar",
+          "3p": "stannar"
+        },
+        "perfekt": {
+          "1s": "har stannat",
+          "2s": "har stannat",
+          "3s": "har stannat",
+          "1p": "har stannat",
+          "2p": "har stannat",
+          "3p": "har stannat"
+        },
+        "preteritum": {
+          "1s": "stannade",
+          "2s": "stannade",
+          "3s": "stannade",
+          "1p": "stannade",
+          "2p": "stannade",
+          "3p": "stannade"
+        },
+        "futurum": {
+          "1s": "ska stanna",
+          "2s": "ska stanna",
+          "3s": "ska stanna",
+          "1p": "ska stanna",
+          "2p": "ska stanna",
+          "3p": "ska stanna"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "manad",
+      "primary_form": "månad",
+      "gloss": "month",
+      "extras": {
+        "article": "en",
+        "definite": "månaden",
+        "plural": "månader",
+        "example": "Hyran är åttatusen kronor i månaden.",
+        "example_en": "The rent is eight thousand kronor a month."
+      },
+      "tags": [
+        "time",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "talar-du-engelska",
+      "primary_form": "talar du engelska?",
+      "gloss": "do you speak English?",
+      "extras": {
+        "example": "Ursäkta, talar du engelska?",
+        "example_en": "Excuse me, do you speak English?"
+      },
+      "tags": [
+        "fragor"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ar",
+      "primary_form": "år",
+      "gloss": "year",
+      "extras": {
+        "article": "ett",
+        "definite": "året",
+        "plural": "år",
+        "example": "Jag har bott här i två år.",
+        "example_en": "I've lived here for two years."
+      },
+      "tags": [
+        "time",
+        "ett"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "sta",
+      "primary_form": "stå",
+      "gloss": "to stand",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "stått",
+        "past": "stod",
+        "group": "4",
+        "example": "Vi står i kö.",
+        "example_en": "We're queueing."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "står",
+          "2s": "står",
+          "3s": "står",
+          "1p": "står",
+          "2p": "står",
+          "3p": "står"
+        },
+        "perfekt": {
+          "1s": "har stått",
+          "2s": "har stått",
+          "3s": "har stått",
+          "1p": "har stått",
+          "2p": "har stått",
+          "3p": "har stått"
+        },
+        "preteritum": {
+          "1s": "stod",
+          "2s": "stod",
+          "3s": "stod",
+          "1p": "stod",
+          "2p": "stod",
+          "3p": "stod"
+        },
+        "futurum": {
+          "1s": "ska stå",
+          "2s": "ska stå",
+          "3s": "ska stå",
+          "1p": "ska stå",
+          "2p": "ska stå",
+          "3p": "ska stå"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "timme",
+      "primary_form": "timme",
+      "gloss": "hour",
+      "extras": {
+        "article": "en",
+        "definite": "timmen",
+        "plural": "timmar",
+        "example": "Resan tar en timme.",
+        "example_en": "The journey takes an hour."
+      },
+      "tags": [
+        "time",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "rod",
+      "primary_form": "röd",
+      "gloss": "red",
+      "extras": {
+        "forms": {
+          "en": "röd",
+          "ett": "rött",
+          "pl": "röda"
+        },
+        "example": "Sverige har många röda hus.",
+        "example_en": "Sweden has lots of red houses."
+      },
+      "tags": [
+        "adjektiv",
+        "colors"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "jag-forstar-inte",
+      "primary_form": "jag förstår inte",
+      "gloss": "I don't understand",
+      "extras": {
+        "example": "Förlåt, jag förstår inte.",
+        "example_en": "Sorry, I don't understand."
+      },
+      "tags": [
+        "fragor"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "minut",
+      "primary_form": "minut",
+      "gloss": "minute",
+      "extras": {
+        "article": "en",
+        "definite": "minuten",
+        "plural": "minuter",
+        "example": "Bussen kommer om fem minuter.",
+        "example_en": "The bus comes in five minutes."
+      },
+      "tags": [
+        "time",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "morgon",
+      "primary_form": "morgon",
+      "gloss": "morning",
+      "extras": {
+        "article": "en",
+        "definite": "morgonen",
+        "plural": "morgnar",
+        "example": "På morgonen är det kallt ute.",
+        "example_en": "It's cold outside in the morning."
+      },
+      "tags": [
+        "time",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "sitta",
+      "primary_form": "sitta",
+      "gloss": "to sit",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "suttit",
+        "past": "satt",
+        "group": "4",
+        "example": "Får jag sitta bredvid dig?",
+        "example_en": "May I sit next to you?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "sitter",
+          "2s": "sitter",
+          "3s": "sitter",
+          "1p": "sitter",
+          "2p": "sitter",
+          "3p": "sitter"
+        },
+        "perfekt": {
+          "1s": "har suttit",
+          "2s": "har suttit",
+          "3s": "har suttit",
+          "1p": "har suttit",
+          "2p": "har suttit",
+          "3p": "har suttit"
+        },
+        "preteritum": {
+          "1s": "satt",
+          "2s": "satt",
+          "3s": "satt",
+          "1p": "satt",
+          "2p": "satt",
+          "3p": "satt"
+        },
+        "futurum": {
+          "1s": "ska sitta",
+          "2s": "ska sitta",
+          "3s": "ska sitta",
+          "1p": "ska sitta",
+          "2p": "ska sitta",
+          "3p": "ska sitta"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "eftermiddag",
+      "primary_form": "eftermiddag",
+      "gloss": "afternoon",
+      "extras": {
+        "article": "en",
+        "definite": "eftermiddagen",
+        "plural": "eftermiddagar",
+        "example": "Vi fikar varje eftermiddag.",
+        "example_en": "We have a coffee break every afternoon."
+      },
+      "tags": [
+        "time",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "bla",
+      "primary_form": "blå",
+      "gloss": "blue",
+      "extras": {
+        "forms": {
+          "en": "blå",
+          "ett": "blått",
+          "pl": "blå"
+        },
+        "example": "Himlen är blå i dag.",
+        "example_en": "The sky is blue today."
+      },
+      "tags": [
+        "adjektiv",
+        "colors"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "kan-du-upprepa-det",
+      "primary_form": "kan du upprepa det?",
+      "gloss": "could you say that again?",
+      "extras": {
+        "literal": "can you repeat it",
+        "example": "Förlåt, kan du upprepa det?",
+        "example_en": "Sorry, could you say that again?"
+      },
+      "tags": [
+        "fragor"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "kvall",
+      "primary_form": "kväll",
+      "gloss": "evening",
+      "extras": {
+        "article": "en",
+        "definite": "kvällen",
+        "plural": "kvällar",
+        "example": "Vad gör du på kvällarna?",
+        "example_en": "What do you do in the evenings?"
+      },
+      "tags": [
+        "time",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "ligga",
+      "primary_form": "ligga",
+      "gloss": "to lie; to be (somewhere)",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "legat",
+        "past": "låg",
+        "group": "4",
+        "example": "Boken ligger på bordet.",
+        "example_en": "The book is on the table."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "ligger",
+          "2s": "ligger",
+          "3s": "ligger",
+          "1p": "ligger",
+          "2p": "ligger",
+          "3p": "ligger"
+        },
+        "perfekt": {
+          "1s": "har legat",
+          "2s": "har legat",
+          "3s": "har legat",
+          "1p": "har legat",
+          "2p": "har legat",
+          "3p": "har legat"
+        },
+        "preteritum": {
+          "1s": "låg",
+          "2s": "låg",
+          "3s": "låg",
+          "1p": "låg",
+          "2p": "låg",
+          "3p": "låg"
+        },
+        "futurum": {
+          "1s": "ska ligga",
+          "2s": "ska ligga",
+          "3s": "ska ligga",
+          "1p": "ska ligga",
+          "2p": "ska ligga",
+          "3p": "ska ligga"
+        }
+      }
+    },
+    {
+      "kind": "conjunction",
+      "id": "att",
+      "primary_form": "att",
+      "gloss": "that",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Jag tror att han är hemma.",
+        "example_en": "I think he's at home."
+      },
+      "tags": [
+        "konjunktioner"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mandag",
+      "primary_form": "måndag",
+      "gloss": "Monday",
+      "extras": {
+        "article": "en",
+        "definite": "måndagen",
+        "plural": "måndagar",
+        "example": "Affären är stängd på måndagar.",
+        "example_en": "The shop is closed on Mondays."
+      },
+      "tags": [
+        "time",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "tisdag",
+      "primary_form": "tisdag",
+      "gloss": "Tuesday",
+      "extras": {
+        "article": "en",
+        "definite": "tisdagen",
+        "plural": "tisdagar",
+        "example": "Jag spelar tennis på tisdag.",
+        "example_en": "I'm playing tennis on Tuesday."
+      },
+      "tags": [
+        "time",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "vad-kostar-det",
+      "primary_form": "vad kostar det?",
+      "gloss": "how much is it?",
+      "extras": {
+        "literal": "what costs it",
+        "example": "Ursäkta, vad kostar det?",
+        "example_en": "Excuse me, how much is it?"
+      },
+      "tags": [
+        "fragor"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "vanta",
+      "primary_form": "vänta",
+      "gloss": "to wait",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "väntat",
+        "past": "väntade",
+        "group": "1",
+        "example": "Vänta lite, jag kommer!",
+        "example_en": "Wait a moment, I'm coming!"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "väntar",
+          "2s": "väntar",
+          "3s": "väntar",
+          "1p": "väntar",
+          "2p": "väntar",
+          "3p": "väntar"
+        },
+        "perfekt": {
+          "1s": "har väntat",
+          "2s": "har väntat",
+          "3s": "har väntat",
+          "1p": "har väntat",
+          "2p": "har väntat",
+          "3p": "har väntat"
+        },
+        "preteritum": {
+          "1s": "väntade",
+          "2s": "väntade",
+          "3s": "väntade",
+          "1p": "väntade",
+          "2p": "väntade",
+          "3p": "väntade"
+        },
+        "futurum": {
+          "1s": "ska vänta",
+          "2s": "ska vänta",
+          "3s": "ska vänta",
+          "1p": "ska vänta",
+          "2p": "ska vänta",
+          "3p": "ska vänta"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "gron",
+      "primary_form": "grön",
+      "gloss": "green",
+      "extras": {
+        "forms": {
+          "en": "grön",
+          "ett": "grönt",
+          "pl": "gröna"
+        },
+        "example": "Gräset är grönt efter regnet.",
+        "example_en": "The grass is green after the rain."
+      },
+      "tags": [
+        "adjektiv",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "onsdag",
+      "primary_form": "onsdag",
+      "gloss": "Wednesday",
+      "extras": {
+        "article": "en",
+        "definite": "onsdagen",
+        "plural": "onsdagar",
+        "example": "Vi har svenska på onsdagar.",
+        "example_en": "We have Swedish on Wednesdays."
+      },
+      "tags": [
+        "time",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "torsdag",
+      "primary_form": "torsdag",
+      "gloss": "Thursday",
+      "extras": {
+        "article": "en",
+        "definite": "torsdagen",
+        "plural": "torsdagar",
+        "example": "På torsdagar äter många ärtsoppa.",
+        "example_en": "On Thursdays a lot of people eat pea soup."
+      },
+      "tags": [
+        "time",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "var-ar-toaletten",
+      "primary_form": "var är toaletten?",
+      "gloss": "where's the toilet?",
+      "extras": {
+        "example": "Ursäkta, var är toaletten?",
+        "example_en": "Excuse me, where's the toilet?"
+      },
+      "tags": [
+        "fragor"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "laga",
+      "primary_form": "laga",
+      "gloss": "to cook (laga mat); to mend",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "lagat",
+        "past": "lagade",
+        "group": "1",
+        "example": "Vem lagar maten i kväll?",
+        "example_en": "Who's cooking tonight?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "lagar",
+          "2s": "lagar",
+          "3s": "lagar",
+          "1p": "lagar",
+          "2p": "lagar",
+          "3p": "lagar"
+        },
+        "perfekt": {
+          "1s": "har lagat",
+          "2s": "har lagat",
+          "3s": "har lagat",
+          "1p": "har lagat",
+          "2p": "har lagat",
+          "3p": "har lagat"
+        },
+        "preteritum": {
+          "1s": "lagade",
+          "2s": "lagade",
+          "3s": "lagade",
+          "1p": "lagade",
+          "2p": "lagade",
+          "3p": "lagade"
+        },
+        "futurum": {
+          "1s": "ska laga",
+          "2s": "ska laga",
+          "3s": "ska laga",
+          "1p": "ska laga",
+          "2p": "ska laga",
+          "3p": "ska laga"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "fredag",
+      "primary_form": "fredag",
+      "gloss": "Friday",
+      "extras": {
+        "article": "en",
+        "definite": "fredagen",
+        "plural": "fredagar",
+        "example": "På fredag kväll ser vi en film.",
+        "example_en": "On Friday evening we're watching a film."
+      },
+      "tags": [
+        "time",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "lordag",
+      "primary_form": "lördag",
+      "gloss": "Saturday",
+      "extras": {
+        "article": "en",
+        "definite": "lördagen",
+        "plural": "lördagar",
+        "example": "Barnen får godis på lördagar.",
+        "example_en": "The children get sweets on Saturdays."
+      },
+      "tags": [
+        "time",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "gul",
+      "primary_form": "gul",
+      "gloss": "yellow",
+      "extras": {
+        "forms": {
+          "en": "gul",
+          "ett": "gult",
+          "pl": "gula"
+        },
+        "example": "Hon har en gul jacka.",
+        "example_en": "She has a yellow jacket."
+      },
+      "tags": [
+        "adjektiv",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "sondag",
+      "primary_form": "söndag",
+      "gloss": "Sunday",
+      "extras": {
+        "article": "en",
+        "definite": "söndagen",
+        "plural": "söndagar",
+        "example": "På söndag sover jag länge.",
+        "example_en": "On Sunday I'm having a lie-in."
+      },
+      "tags": [
+        "time",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "hjalpa",
+      "primary_form": "hjälpa",
+      "gloss": "to help",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "hjälpt",
+        "past": "hjälpte",
+        "group": "2b",
+        "example": "Hjälper du mig med väskan?",
+        "example_en": "Will you help me with the bag?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "hjälper",
+          "2s": "hjälper",
+          "3s": "hjälper",
+          "1p": "hjälper",
+          "2p": "hjälper",
+          "3p": "hjälper"
+        },
+        "perfekt": {
+          "1s": "har hjälpt",
+          "2s": "har hjälpt",
+          "3s": "har hjälpt",
+          "1p": "har hjälpt",
+          "2p": "har hjälpt",
+          "3p": "har hjälpt"
+        },
+        "preteritum": {
+          "1s": "hjälpte",
+          "2s": "hjälpte",
+          "3s": "hjälpte",
+          "1p": "hjälpte",
+          "2p": "hjälpte",
+          "3p": "hjälpte"
+        },
+        "futurum": {
+          "1s": "ska hjälpa",
+          "2s": "ska hjälpa",
+          "3s": "ska hjälpa",
+          "1p": "ska hjälpa",
+          "2p": "ska hjälpa",
+          "3p": "ska hjälpa"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "vad-ar-klockan",
+      "primary_form": "vad är klockan?",
+      "gloss": "what time is it?",
+      "extras": {
+        "literal": "what is the clock",
+        "example": "Vet du vad klockan är?",
+        "example_en": "Do you know what time it is?"
+      },
+      "tags": [
+        "fragor"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "stad",
+      "primary_form": "stad",
+      "gloss": "town, city",
+      "extras": {
+        "article": "en",
+        "definite": "staden",
+        "plural": "städer",
+        "example": "Göteborg är en stor stad.",
+        "example_en": "Gothenburg is a big city."
+      },
+      "tags": [
+        "city",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "gata",
+      "primary_form": "gata",
+      "gloss": "street",
+      "extras": {
+        "article": "en",
+        "definite": "gatan",
+        "plural": "gator",
+        "example": "Vi bor på en lugn gata.",
+        "example_en": "We live on a quiet street."
+      },
+      "tags": [
+        "city",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "fraga",
+      "primary_form": "fråga",
+      "gloss": "to ask",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "frågat",
+        "past": "frågade",
+        "group": "1",
+        "example": "Får jag fråga en sak?",
+        "example_en": "Can I ask you something?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "frågar",
+          "2s": "frågar",
+          "3s": "frågar",
+          "1p": "frågar",
+          "2p": "frågar",
+          "3p": "frågar"
+        },
+        "perfekt": {
+          "1s": "har frågat",
+          "2s": "har frågat",
+          "3s": "har frågat",
+          "1p": "har frågat",
+          "2p": "har frågat",
+          "3p": "har frågat"
+        },
+        "preteritum": {
+          "1s": "frågade",
+          "2s": "frågade",
+          "3s": "frågade",
+          "1p": "frågade",
+          "2p": "frågade",
+          "3p": "frågade"
+        },
+        "futurum": {
+          "1s": "ska fråga",
+          "2s": "ska fråga",
+          "3s": "ska fråga",
+          "1p": "ska fråga",
+          "2p": "ska fråga",
+          "3p": "ska fråga"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "svart",
+      "primary_form": "svart",
+      "gloss": "black",
+      "extras": {
+        "forms": {
+          "en": "svart",
+          "ett": "svart",
+          "pl": "svarta"
+        },
+        "example": "Jag dricker kaffet svart.",
+        "example_en": "I drink my coffee black."
+      },
+      "tags": [
+        "adjektiv",
+        "colors"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "vad-heter-du",
+      "primary_form": "vad heter du?",
+      "gloss": "what's your name?",
+      "extras": {
+        "literal": "what are you called",
+        "example": "Hej! Vad heter du?",
+        "example_en": "Hi! What's your name?"
+      },
+      "tags": [
+        "fragor"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "affar",
+      "primary_form": "affär",
+      "gloss": "shop",
+      "extras": {
+        "article": "en",
+        "definite": "affären",
+        "plural": "affärer",
+        "example": "Affären stänger klockan åtta.",
+        "example_en": "The shop closes at eight."
+      },
+      "tags": [
+        "city",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "torg",
+      "primary_form": "torg",
+      "gloss": "square, market square",
+      "extras": {
+        "article": "ett",
+        "definite": "torget",
+        "plural": "torg",
+        "example": "Vi träffas på torget klockan tre.",
+        "example_en": "We'll meet in the square at three."
+      },
+      "tags": [
+        "city",
+        "ett"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "forsta",
+      "primary_form": "förstå",
+      "gloss": "to understand",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "förstått",
+        "past": "förstod",
+        "group": "4",
+        "example": "Förstår du vad jag menar?",
+        "example_en": "Do you understand what I mean?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "förstår",
+          "2s": "förstår",
+          "3s": "förstår",
+          "1p": "förstår",
+          "2p": "förstår",
+          "3p": "förstår"
+        },
+        "perfekt": {
+          "1s": "har förstått",
+          "2s": "har förstått",
+          "3s": "har förstått",
+          "1p": "har förstått",
+          "2p": "har förstått",
+          "3p": "har förstått"
+        },
+        "preteritum": {
+          "1s": "förstod",
+          "2s": "förstod",
+          "3s": "förstod",
+          "1p": "förstod",
+          "2p": "förstod",
+          "3p": "förstod"
+        },
+        "futurum": {
+          "1s": "kommer att förstå",
+          "2s": "kommer att förstå",
+          "3s": "kommer att förstå",
+          "1p": "kommer att förstå",
+          "2p": "kommer att förstå",
+          "3p": "kommer att förstå"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "bageri",
+      "primary_form": "bageri",
+      "gloss": "bakery",
+      "extras": {
+        "article": "ett",
+        "definite": "bageriet",
+        "plural": "bagerier",
+        "example": "Bageriet säljer goda kanelbullar.",
+        "example_en": "The bakery sells good cinnamon buns."
+      },
+      "tags": [
+        "city",
+        "ett"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "var-bor-du",
+      "primary_form": "var bor du?",
+      "gloss": "where do you live?",
+      "extras": {
+        "example": "Var bor du någonstans?",
+        "example_en": "Whereabouts do you live?"
+      },
+      "tags": [
+        "fragor"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "station",
+      "primary_form": "station",
+      "gloss": "station",
+      "extras": {
+        "article": "en",
+        "definite": "stationen",
+        "plural": "stationer",
+        "example": "Hur kommer jag till stationen?",
+        "example_en": "How do I get to the station?"
+      },
+      "tags": [
+        "city",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "vit",
+      "primary_form": "vit",
+      "gloss": "white",
+      "extras": {
+        "forms": {
+          "en": "vit",
+          "ett": "vitt",
+          "pl": "vita"
+        },
+        "example": "Han har en vit skjorta på sig.",
+        "example_en": "He's wearing a white shirt."
+      },
+      "tags": [
+        "adjektiv",
+        "colors"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "aka",
+      "primary_form": "åka",
+      "gloss": "to go (by car, bus, train), to travel",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "åkt",
+        "past": "åkte",
+        "group": "2b",
+        "example": "Vi åker till landet i helgen.",
+        "example_en": "We're going to the countryside at the weekend."
+      },
+      "tags": [
+        "presens",
+        "transport"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "åker",
+          "2s": "åker",
+          "3s": "åker",
+          "1p": "åker",
+          "2p": "åker",
+          "3p": "åker"
+        },
+        "perfekt": {
+          "1s": "har åkt",
+          "2s": "har åkt",
+          "3s": "har åkt",
+          "1p": "har åkt",
+          "2p": "har åkt",
+          "3p": "har åkt"
+        },
+        "preteritum": {
+          "1s": "åkte",
+          "2s": "åkte",
+          "3s": "åkte",
+          "1p": "åkte",
+          "2p": "åkte",
+          "3p": "åkte"
+        },
+        "futurum": {
+          "1s": "ska åka",
+          "2s": "ska åka",
+          "3s": "ska åka",
+          "1p": "ska åka",
+          "2p": "ska åka",
+          "3p": "ska åka"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "skola",
+      "primary_form": "skola",
+      "gloss": "school",
+      "extras": {
+        "article": "en",
+        "definite": "skolan",
+        "plural": "skolor",
+        "example": "Skolan ligger nära vårt hus.",
+        "example_en": "The school is near our house."
+      },
+      "tags": [
+        "city",
+        "en"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "nar",
+      "primary_form": "när",
+      "gloss": "when",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Ring mig när du är hemma.",
+        "example_en": "Call me when you're home."
+      },
+      "tags": [
+        "konjunktioner"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "kyrka",
+      "primary_form": "kyrka",
+      "gloss": "church",
+      "extras": {
+        "article": "en",
+        "definite": "kyrkan",
+        "plural": "kyrkor",
+        "example": "Kyrkan är från 1200-talet.",
+        "example_en": "The church is from the 13th century."
+      },
+      "tags": [
+        "city",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "hur-gammal-ar-du",
+      "primary_form": "hur gammal är du?",
+      "gloss": "how old are you?",
+      "extras": {
+        "example": "Hur gammal är du? Jag är tjugo.",
+        "example_en": "How old are you? I'm twenty."
+      },
+      "tags": [
+        "fragor"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "prata",
+      "primary_form": "prata",
+      "gloss": "to talk, to chat",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "pratat",
+        "past": "pratade",
+        "group": "1",
+        "example": "Vi pratar ofta i telefon.",
+        "example_en": "We often talk on the phone."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "pratar",
+          "2s": "pratar",
+          "3s": "pratar",
+          "1p": "pratar",
+          "2p": "pratar",
+          "3p": "pratar"
+        },
+        "perfekt": {
+          "1s": "har pratat",
+          "2s": "har pratat",
+          "3s": "har pratat",
+          "1p": "har pratat",
+          "2p": "har pratat",
+          "3p": "har pratat"
+        },
+        "preteritum": {
+          "1s": "pratade",
+          "2s": "pratade",
+          "3s": "pratade",
+          "1p": "pratade",
+          "2p": "pratade",
+          "3p": "pratade"
+        },
+        "futurum": {
+          "1s": "ska prata",
+          "2s": "ska prata",
+          "3s": "ska prata",
+          "1p": "ska prata",
+          "2p": "ska prata",
+          "3p": "ska prata"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "sjukhus",
+      "primary_form": "sjukhus",
+      "gloss": "hospital",
+      "extras": {
+        "article": "ett",
+        "definite": "sjukhuset",
+        "plural": "sjukhus",
+        "example": "Sjukhuset ligger i centrum.",
+        "example_en": "The hospital is in the centre."
+      },
+      "tags": [
+        "city",
+        "ett"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "brun",
+      "primary_form": "brun",
+      "gloss": "brown",
+      "extras": {
+        "forms": {
+          "en": "brun",
+          "ett": "brunt",
+          "pl": "bruna"
+        },
+        "example": "Hunden har bruna ögon.",
+        "example_en": "The dog has brown eyes."
+      },
+      "tags": [
+        "adjektiv",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "restaurang",
+      "primary_form": "restaurang",
+      "gloss": "restaurant",
+      "extras": {
+        "article": "en",
+        "definite": "restaurangen",
+        "plural": "restauranger",
+        "example": "Vi äter på en restaurang i kväll.",
+        "example_en": "We're eating at a restaurant tonight."
+      },
+      "tags": [
+        "city",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "jag-kommer-fran",
+      "primary_form": "jag kommer från",
+      "gloss": "I'm from",
+      "extras": {
+        "literal": "I come from",
+        "example": "Jag kommer från Kanada.",
+        "example_en": "I'm from Canada."
+      },
+      "tags": [
+        "fragor"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "bro",
+      "primary_form": "bro",
+      "gloss": "bridge",
+      "extras": {
+        "article": "en",
+        "definite": "bron",
+        "plural": "broar",
+        "example": "Vi cyklar över bron.",
+        "example_en": "We cycle over the bridge."
+      },
+      "tags": [
+        "city",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "fika",
+      "primary_form": "fika",
+      "gloss": "to have a coffee break",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "fikat",
+        "past": "fikade",
+        "group": "1",
+        "example": "Ska vi fika efter jobbet?",
+        "example_en": "Shall we get a coffee after work?"
+      },
+      "tags": [
+        "presens",
+        "food"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "fikar",
+          "2s": "fikar",
+          "3s": "fikar",
+          "1p": "fikar",
+          "2p": "fikar",
+          "3p": "fikar"
+        },
+        "perfekt": {
+          "1s": "har fikat",
+          "2s": "har fikat",
+          "3s": "har fikat",
+          "1p": "har fikat",
+          "2p": "har fikat",
+          "3p": "har fikat"
+        },
+        "preteritum": {
+          "1s": "fikade",
+          "2s": "fikade",
+          "3s": "fikade",
+          "1p": "fikade",
+          "2p": "fikade",
+          "3p": "fikade"
+        },
+        "futurum": {
+          "1s": "ska fika",
+          "2s": "ska fika",
+          "3s": "ska fika",
+          "1p": "ska fika",
+          "2p": "ska fika",
+          "3p": "ska fika"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "jobb",
+      "primary_form": "jobb",
+      "gloss": "job, work",
+      "extras": {
+        "article": "ett",
+        "definite": "jobbet",
+        "plural": "jobb",
+        "example": "Hon har ett nytt jobb.",
+        "example_en": "She has a new job."
+      },
+      "tags": [
+        "city",
+        "ett"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "rosa",
+      "primary_form": "rosa",
+      "gloss": "pink (never changes)",
+      "extras": {
+        "forms": {
+          "en": "rosa",
+          "ett": "rosa",
+          "pl": "rosa"
+        },
+        "example": "Hon har ett rosa paraply.",
+        "example_en": "She has a pink umbrella."
+      },
+      "tags": [
+        "adjektiv",
+        "colors"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "cykel",
+      "primary_form": "cykel",
+      "gloss": "bicycle, bike",
+      "extras": {
+        "article": "en",
+        "definite": "cykeln",
+        "plural": "cyklar",
+        "example": "Min cykel står utanför.",
+        "example_en": "My bike is outside."
+      },
+      "tags": [
+        "transport",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "jag-vet-inte",
+      "primary_form": "jag vet inte",
+      "gloss": "I don't know",
+      "extras": {
+        "example": "Jag vet inte var han bor.",
+        "example_en": "I don't know where he lives."
+      },
+      "tags": [
+        "fragor"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "gilla",
+      "primary_form": "gilla",
+      "gloss": "to like",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "gillat",
+        "past": "gillade",
+        "group": "1",
+        "example": "Jag gillar din nya tröja.",
+        "example_en": "I like your new jumper."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "gillar",
+          "2s": "gillar",
+          "3s": "gillar",
+          "1p": "gillar",
+          "2p": "gillar",
+          "3p": "gillar"
+        },
+        "perfekt": {
+          "1s": "har gillat",
+          "2s": "har gillat",
+          "3s": "har gillat",
+          "1p": "har gillat",
+          "2p": "har gillat",
+          "3p": "har gillat"
+        },
+        "preteritum": {
+          "1s": "gillade",
+          "2s": "gillade",
+          "3s": "gillade",
+          "1p": "gillade",
+          "2p": "gillade",
+          "3p": "gillade"
+        },
+        "futurum": {
+          "1s": "ska gilla",
+          "2s": "ska gilla",
+          "3s": "ska gilla",
+          "1p": "ska gilla",
+          "2p": "ska gilla",
+          "3p": "ska gilla"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "telefon",
+      "primary_form": "telefon",
+      "gloss": "telephone, phone",
+      "extras": {
+        "article": "en",
+        "definite": "telefonen",
+        "plural": "telefoner",
+        "example": "Din telefon ringer i väskan.",
+        "example_en": "Your phone is ringing in your bag."
+      },
+      "tags": [
+        "objects",
+        "en"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "title": "Hej och tack",
+      "word_ids": [
+        "hej",
+        "hej-da",
+        "god-morgon",
+        "god-natt",
+        "tack",
+        "tack-sa-mycket",
+        "varsagod"
+      ],
+      "page_id": "sv-pronunciation",
+      "subtitle": "Hello, bye, good morning, good night, thanks"
+    },
+    {
+      "title": "Hur mår du?",
+      "word_ids": [
+        "forlat",
+        "ursakta",
+        "vi-ses",
+        "hur-mar-du",
+        "bara-bra",
+        "valkommen"
+      ],
+      "page_id": "sv-pronouns",
+      "subtitle": "Sorry, excuse me, see you, how are you, welcome"
+    },
+    {
+      "title": "Viktiga verb",
+      "word_ids": [
+        "vara",
+        "ha",
+        "gora",
+        "komma",
+        "vilja",
+        "kunna",
+        "maste"
+      ],
+      "page_id": "sv-vara-ha",
+      "subtitle": "To be, have, do, come, want, can and must"
+    },
+    {
+      "title": "Vanliga verb",
+      "word_ids": [
+        "arbeta",
+        "bo",
+        "heta",
+        "prata",
+        "spela",
+        "titta",
+        "lyssna"
+      ],
+      "page_id": "sv-present-tense",
+      "subtitle": "To work, live, talk, play, watch and listen"
+    },
+    {
+      "title": "Åka och köpa",
+      "word_ids": [
+        "aka",
+        "cykla",
+        "kopa",
+        "betala",
+        "leta",
+        "hitta"
+      ],
+      "page_id": "sv-word-order",
+      "subtitle": "To travel, cycle, buy, pay, look for and find"
+    },
+    {
+      "title": "Tycka och tänka",
+      "word_ids": [
+        "tycka",
+        "tanka",
+        "ge",
+        "ta",
+        "borja",
+        "stanna"
+      ],
+      "page_id": "sv-negation",
+      "subtitle": "To think, give, take, start and stay"
+    },
+    {
+      "title": "Bra frågor",
+      "word_ids": [
+        "talar-du-engelska",
+        "jag-forstar-inte",
+        "kan-du-upprepa-det",
+        "vad-kostar-det",
+        "var-ar-toaletten",
+        "vad-ar-klockan",
+        "vad-heter-du"
+      ],
+      "page_id": "sv-questions",
+      "subtitle": "Do you speak English, how much, what time"
+    },
+    {
+      "title": "Rummen",
+      "word_ids": [
+        "rum",
+        "sovrum",
+        "kok",
+        "badrum",
+        "vardagsrum",
+        "sang",
+        "nyckel"
+      ],
+      "page_id": "sv-definite-form",
+      "subtitle": "Room, bedroom, kitchen, bathroom, bed and key"
+    },
+    {
+      "title": "Huvudet",
+      "word_ids": [
+        "huvud",
+        "oga",
+        "ora",
+        "nasa",
+        "mun",
+        "hjarta"
+      ],
+      "page_id": "sv-en-ett",
+      "subtitle": "Head, eyes, ears, nose, mouth and heart"
+    },
+    {
+      "title": "Veckans dagar",
+      "word_ids": [
+        "timme",
+        "minut",
+        "mandag",
+        "tisdag",
+        "onsdag",
+        "torsdag",
+        "fredag",
+        "lordag",
+        "sondag"
+      ],
+      "page_id": "sv-numbers-time",
+      "subtitle": "Hours, minutes and the days of the week"
+    },
+    {
+      "title": "Min familj",
+      "word_ids": [
+        "pappa",
+        "mamma",
+        "bror",
+        "syster",
+        "son",
+        "dotter",
+        "man",
+        "fru"
+      ],
+      "page_id": "sv-possessives",
+      "subtitle": "Dad, mum, brother, sister, son and daughter"
+    },
+    {
+      "title": "Färger",
+      "word_ids": [
+        "rod",
+        "bla",
+        "gron",
+        "gul",
+        "svart",
+        "vit",
+        "brun",
+        "rosa"
+      ],
+      "subtitle": "Red, blue, green, yellow, black and white"
+    },
+    {
+      "title": "Små ord",
+      "word_ids": [
+        "forst",
+        "ocksa",
+        "anda",
+        "och",
+        "eller",
+        "att",
+        "nar"
+      ],
+      "subtitle": "First, also, anyway, and, or, that and when"
+    },
+    {
+      "title": "Stor och liten",
+      "word_ids": [
+        "stor",
+        "liten",
+        "bra",
+        "dalig",
+        "fin",
+        "vacker",
+        "ung"
+      ],
+      "subtitle": "Big, small, good, bad, nice and young"
+    },
+    {
+      "title": "Gammal och ny",
+      "word_ids": [
+        "gammal",
+        "ny",
+        "snall",
+        "glad",
+        "god",
+        "varm",
+        "kall"
+      ],
+      "subtitle": "Old, new, kind, happy, warm and cold"
+    },
+    {
+      "title": "Lätt och svår",
+      "word_ids": [
+        "latt",
+        "svar",
+        "dyr",
+        "billig",
+        "trott",
+        "hungrig",
+        "ledsen"
+      ],
+      "subtitle": "Easy, hard, expensive, cheap, tired and sad"
+    },
+    {
+      "title": "Släkten",
+      "word_ids": [
+        "foralder",
+        "mormor",
+        "morfar",
+        "kusin",
+        "moster",
+        "familj",
+        "syskon"
+      ],
+      "subtitle": "Parents, grandparents, cousins and aunts"
+    },
+    {
+      "title": "Människor",
+      "word_ids": [
+        "pojke",
+        "flicka",
+        "granne",
+        "namn",
+        "manniska",
+        "kvinna"
+      ],
+      "subtitle": "Boy, girl, neighbour, name, person, woman"
+    },
+    {
+      "title": "Se och säga",
+      "word_ids": [
+        "fa",
+        "veta",
+        "kanna",
+        "se",
+        "saga",
+        "lasa",
+        "skriva",
+        "sova",
+        "sta"
+      ],
+      "subtitle": "To get, know, see, say, read, write, sleep"
+    },
+    {
+      "title": "Sitta och vänta",
+      "word_ids": [
+        "sitta",
+        "ligga",
+        "vanta",
+        "laga",
+        "hjalpa",
+        "fraga",
+        "forsta",
+        "fika",
+        "gilla"
+      ],
+      "subtitle": "To sit, lie, wait, cook, help, ask and like"
+    },
+    {
+      "title": "Ja och nej",
+      "word_ids": [
+        "ingen-orsak",
+        "trevligt-att-traffas",
+        "ja",
+        "nej",
+        "jo",
+        "tack-for-maten",
+        "ha-det-sa-bra"
+      ],
+      "subtitle": "You're welcome, yes, no, thanks for the meal"
+    },
+    {
+      "title": "Trevlig helg!",
+      "word_ids": [
+        "trevlig-helg",
+        "grattis",
+        "skal",
+        "det-gor-inget",
+        "ingen-fara",
+        "sjalvklart",
+        "garna"
+      ],
+      "subtitle": "Nice weekend, congratulations, cheers"
+    },
+    {
+      "title": "Kroppen",
+      "word_ids": [
+        "hand",
+        "arm",
+        "ben",
+        "fot",
+        "mage",
+        "har",
+        "tand"
+      ],
+      "subtitle": "Hands, arms, legs, feet, hair and teeth"
+    },
+    {
+      "title": "Frukost och middag",
+      "word_ids": [
+        "frukost",
+        "lunch",
+        "middag",
+        "mat",
+        "ost",
+        "kott",
+        "fisk",
+        "agg"
+      ],
+      "subtitle": "Meals, cheese, meat, fish and eggs"
+    },
+    {
+      "title": "Kaffe och frukt",
+      "word_ids": [
+        "mjolk",
+        "kaffe",
+        "te",
+        "vin",
+        "apple",
+        "potatis",
+        "gronsak",
+        "frukt"
+      ],
+      "subtitle": "Milk, coffee, tea, wine, apples and potatoes"
+    },
+    {
+      "title": "Smör och socker",
+      "word_ids": [
+        "socker",
+        "salt",
+        "ris",
+        "smor",
+        "tarta",
+        "kanelbulle",
+        "smorgas",
+        "knackebrod"
+      ],
+      "subtitle": "Sugar, salt, rice, butter, cake and buns"
+    },
+    {
+      "title": "Dagar och år",
+      "word_ids": [
+        "dag",
+        "vecka",
+        "manad",
+        "ar",
+        "morgon",
+        "eftermiddag",
+        "kvall"
+      ],
+      "subtitle": "Day, week, month, year, morning, evening"
+    },
+    {
+      "title": "I staden",
+      "word_ids": [
+        "stad",
+        "gata",
+        "affar",
+        "torg",
+        "bageri",
+        "station"
+      ],
+      "subtitle": "Town, street, shop, square, bakery, station"
+    },
+    {
+      "title": "Skola och jobb",
+      "word_ids": [
+        "skola",
+        "kyrka",
+        "sjukhus",
+        "restaurang",
+        "bro",
+        "jobb"
+      ],
+      "subtitle": "School, church, hospital, restaurant, job"
+    },
+    {
+      "title": "Var bor du?",
+      "word_ids": [
+        "lagenhet",
+        "tradgard",
+        "soffa",
+        "var-bor-du",
+        "hur-gammal-ar-du",
+        "jag-kommer-fran",
+        "jag-vet-inte",
+        "cykel",
+        "telefon"
+      ],
+      "subtitle": "Flat, garden, sofa, where you live and are from"
+    }
+  ]
+}

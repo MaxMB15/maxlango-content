@@ -1,0 +1,3948 @@
+{
+  "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
+  "id": "sv-fluency-v1",
+  "version": 1,
+  "language": "sv",
+  "name": "Svenska · Flyt (B1)",
+  "author": "Max Boksem",
+  "license": "CC-BY-SA-4.0",
+  "profile_delta": [
+    {
+      "id": "bisatser",
+      "kind": "topic",
+      "label": "Bisatser",
+      "labelGloss": "subordinate clauses",
+      "dependsOn": [
+        "ordfoljd"
+      ]
+    },
+    {
+      "id": "passiv",
+      "kind": "topic",
+      "label": "Passiv",
+      "labelGloss": "the passive",
+      "dependsOn": [
+        "s-verb",
+        "perfekt"
+      ]
+    },
+    {
+      "id": "konditionalis",
+      "kind": "topic",
+      "label": "Konditionalis",
+      "labelGloss": "would: the conditional",
+      "dependsOn": [
+        "futurum",
+        "preteritum"
+      ]
+    },
+    {
+      "id": "modalpartiklar",
+      "kind": "topic",
+      "label": "Modalpartiklar",
+      "labelGloss": "ju, väl, nog: modal particles",
+      "dependsOn": []
+    },
+    {
+      "id": "talsprak",
+      "kind": "topic",
+      "label": "Talspråk",
+      "labelGloss": "spoken Swedish",
+      "dependsOn": []
+    },
+    {
+      "id": "falska-vanner",
+      "kind": "topic",
+      "label": "Falska vänner",
+      "labelGloss": "false friends",
+      "dependsOn": []
+    },
+    {
+      "id": "idioms",
+      "kind": "topic",
+      "label": "Idiom",
+      "labelGloss": "idioms",
+      "dependsOn": []
+    },
+    {
+      "id": "society",
+      "kind": "topic",
+      "label": "Samhälle",
+      "labelGloss": "society and ideas",
+      "dependsOn": [
+        "artiklar"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "misc",
+      "id": "sv-subordinate-clauses",
+      "title": "Inside the bisats",
+      "body_md": "The core pack gave the main rule: in a **bisats** (a subordinate clause), *inte* goes in front of the verb. This page shows the whole pattern, and the two places where English speakers most often go wrong: indirect questions and *som*.\n\n## Two word orders\n\nA main clause keeps its verb in second place, whatever comes first. A bisats has a fixed order of its own: the conjunction, the subject, any short adverb, then the verb.\n\n| First place | Verb | Subject | Adverb | Rest |\n| --- | --- | --- | --- | --- |\n| I dag | kommer | hon | inte | till jobbet. |\n| Nu | har | vi | redan | ätit. |\n\n| Conjunction | Subject | Adverb | Verb | Rest |\n| --- | --- | --- | --- | --- |\n| eftersom | hon | inte | mår | bra |\n| att | vi | redan | har | ätit |\n\nThe adverbs that move are the short ones that comment on the whole sentence: *inte, aldrig, alltid, ofta, sällan, redan, gärna, kanske, nog, också, bara, verkligen*.\n\n- *Han säger att han **aldrig** dricker kaffe.*\n- *Jag hoppas att du **också** kan komma.*\n\n## Indirect questions\n\nA question inside another sentence is a bisats too, so it loses its question word order. A yes-or-no question takes **om** (whether, if):\n\n| Direct question | Indirect question |\n| --- | --- |\n| Var bor han? | Vet du var han bor? |\n| När börjar filmen? | Jag undrar när filmen börjar. |\n| Kommer hon? | Jag vet inte om hon kommer. |\n\n*Vet du var bor han?* is the classic mistake: it keeps the order of the direct question.\n\n## Vem som, vad som\n\nWhen the question word is the **subject** of an indirect question, Swedish adds **som**:\n\n| Direct question | Indirect question |\n| --- | --- |\n| Vem ringde? | Jag vet inte vem som ringde. |\n| Vad händer? | Kan du berätta vad som händer? |\n| Vilka kommer? | Vet du vilka som kommer? |\n\nOnly when it's the subject, though. *Vem ringde du?* (Who did you call?) becomes *Jag vet inte vem du ringde*, with no *som*.\n\n## Att-clauses in speech\n\nWhen people report what someone said, they often keep main-clause order after *att*: *Han sa att han kunde inte komma.* You'll hear it all the time. In writing, use the bisats order: *Han sa att han inte kunde komma.*\n\n## A bisats first\n\nWhen a bisats opens the sentence, the main clause starts with its verb. The comma between them is optional, and often left out:\n\n- *När jag kom hem **satt** barnen och läste.*\n- *Om du vill **kan** vi äta ute.*\n\n:::examples\n- Jag vet inte om hon har tid. — I don't know if she has time.\n- Kan du säga var stationen ligger? — Can you tell me where the station is?\n- Han lovade att han aldrig skulle göra det igen. — He promised he'd never do it again.\n:::\n\n:::cloze{sentence=\"Jag undrar vem ___ har tagit min cykel.\" blank=\"som\"}\n:::\n\n:::cloze{sentence=\"Fråga honom ___ han vill följa med.\" blank=\"om\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-subordinate-clauses"
+        ],
+        "explains": [
+          "bisatser"
+        ]
+      },
+      "tags": [
+        "bisatser"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-relative-som",
+      "title": "Som: who, which and that",
+      "body_md": "**Som** is the all-purpose relative word. It means *who*, *which* and *that*, for people and things, singular and plural:\n\n- *Mannen **som** bor bredvid är polis.* (The man who lives next door is a police officer.)\n- *Boken **som** ligger på bordet är min.* (The book that's on the table is mine.)\n\nA relative clause is a bisats, so *inte* and the other short adverbs go before its verb: *en film som jag **aldrig** har sett* (a film I've never seen).\n\n## When som can go\n\nAs with English *that*, you can leave out **som** when it's the object of its clause, but never when it's the subject:\n\n| som is the object | som is the subject |\n| --- | --- |\n| filmen (som) vi såg i går | filmen som gick på tv i går |\n| en vän (som) jag träffade i Lund | en vän som bor i Lund |\n\n## The preposition goes last\n\nSwedish never puts a preposition in front of *som*. It goes to the end of the clause, as in relaxed English:\n\n- *huset som vi bor i* (the house we live in)\n- *flickan som jag pratade med* (the girl I was talking to)\n\n*I som* and *med som* are never possible.\n\n## Där, dit, vars, vilket\n\n| Swedish | English | Example |\n| --- | --- | --- |\n| där | where (at) | staden där jag föddes |\n| dit | where (to) | landet dit de flyttade |\n| vars | whose | en granne vars son spelar fotboll |\n| vilket | which (a whole idea) | Han kom för sent, vilket var typiskt. |\n\n**Vilket** points back to a whole statement, not a single noun: *Hon fick jobbet, vilket gladde alla.* (She got the job, which pleased everyone.)\n\n## Det är ... som\n\nSwedish likes to put the important part first with *det är ... som*: *Det är Anna som har bakat kakan* (It's Anna who baked the cake). It's the usual way to stress one part: *Det var i går som hon ringde* (It was yesterday that she called, not today).\n\n:::examples\n- Det är en låt som alla kan. — It's a song everyone knows.\n- Var är tröjan jag köpte i lördags? — Where's the jumper I bought on Saturday?\n- Det är min bror som bor i Umeå. — It's my brother who lives in Umeå.\n:::\n\n:::cloze{sentence=\"Det är huset som vi bodde ___ förut.\" blank=\"i\"}\n:::\n\n:::cloze{sentence=\"Jag har en kollega ___ pappa är från Chile.\" blank=\"vars\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-relative-som"
+        ]
+      },
+      "tags": [
+        "bisatser"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-passive",
+      "title": "The passive: byggs, byggdes",
+      "body_md": "English makes the passive with *be*: *The house was built in 1890.* Swedish has two ways, and the more common one is a single letter: **-s**.\n\n## The s-passive\n\nAdd **-s** to the active form. In the present, the **-r** goes first:\n\n| | Active | Passive |\n| --- | --- | --- |\n| present | Man bygger ett hus. | Ett hus byggs. |\n| past | Man byggde ett hus. | Ett hus byggdes. |\n| perfect | Man har byggt ett hus. | Ett hus har byggts. |\n| future | Man ska bygga ett hus. | Ett hus ska byggas. |\n\nIn group 2 the *-er* of the present usually goes too: *stänger → stängs, köper → köps*. A stem that already ends in *-s* keeps its *e*: *läser → läses*.\n\nThe s-passive is everywhere in news, instructions and signs:\n\n- *Här talas svenska.* (Swedish is spoken here.)\n- *Biljetter säljs i kassan.* (Tickets are sold at the till.)\n- *Vägen stängs i natt.* (The road is being closed tonight.)\n\n## Av: by\n\nThe person or thing doing the action takes **av**: *Huset ritades av en känd arkitekt.* (The house was designed by a famous architect.)\n\n## Bli + participle\n\nThe other passive is **bli** and the participle, which agrees like an adjective: *Katten blev påkörd av en bil* (The cat was hit by a car). *Fönstren blev krossade* (The windows got smashed). It's more about what happened to someone, often suddenly. The s-passive is more neutral, and the usual choice in writing.\n\n## Vara + participle: a state\n\nWith *är* or *var*, the participle describes a state, not an action, as on the perfect page: *Dörren stängs klockan sex* (is shut at six, an action), but *Dörren är stängd* (is shut, a state).\n\n## Man: the passive you don't need\n\nIn speech Swedes often skip the passive and use **man** (one, people, you): *Man säger så.* (That's what people say.) *Hur stavar man det?* (How do you spell it?)\n\n## Not every -s is a passive\n\n*Hoppas, trivas, finnas* and the other s-verbs from the A2 pack only look passive. And *vi ses* means \"see each other\", not \"we are seen\".\n\n:::examples\n- Huset byggdes på 1700-talet. — The house was built in the 18th century.\n- Resultatet meddelas i morgon. — The result will be announced tomorrow.\n- Hon blev erbjuden jobbet. — She was offered the job.\n:::\n\n:::cloze{sentence=\"Svenska ___ i Sverige och Finland.\" blank=\"talas\"}\n:::\n\n:::cloze{sentence=\"Mötet har ___ till fredag.\" blank=\"flyttats\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-passive"
+        ],
+        "explains": [
+          "passiv"
+        ]
+      },
+      "tags": [
+        "passiv"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-conditional",
+      "title": "Skulle: would",
+      "body_md": "English *would* is Swedish **skulle** + the infinitive. *Skulle* is the past tense of *ska*.\n\n- *Jag skulle gärna följa med.* (I'd love to come along.)\n- *Vad skulle du göra?* (What would you do?)\n\n## If ... then\n\nFor something imagined or unlikely, put the past tense in the *om*-clause and *skulle* in the main clause, as English does:\n\n| Real | Imagined |\n| --- | --- |\n| Om jag har tid hjälper jag dig. | Om jag hade tid skulle jag hjälpa dig. |\n| Om det regnar stannar vi hemma. | Om det regnade skulle vi stanna hemma. |\n\n**Vore** is an old form of *var* that survives here: *Om jag vore du...* (If I were you...). *Om jag var du* is common in speech too. *Det vore kul* means the same as *Det skulle vara kul* (That would be fun).\n\n## Would have: hade + supine\n\nFor something that didn't happen, use **hade** and the supine on both sides. Swedish doesn't need *skulle* here:\n\n- *Om jag hade vetat det hade jag kommit.* (If I'd known, I would have come.)\n- *Det hade varit roligt.* (That would have been fun.)\n\n*Skulle ha* + supine is also correct: *Jag skulle ha ringt.*\n\n## Polite requests\n\n*Skulle* softens a request, like English *would* and *could*:\n\n- *Skulle du kunna hjälpa mig?* (Could you help me?)\n- *Jag skulle vilja beställa.* (I'd like to order.)\n\n## If only, what if\n\n- *Om jag bara hade mer tid!* (If only I had more time!)\n- *Tänk om det börjar regna!* (What if it starts raining?)\n\n## Would for a habit\n\nEnglish *would* can also mean \"used to\": *Every summer we would go to the lake.* Swedish doesn't use *skulle* for that. Use the past tense, or **brukade**: *Varje sommar brukade vi åka till sjön.*\n\n:::examples\n- Vad skulle du göra om du vann en miljon? — What would you do if you won a million?\n- Om jag vore du skulle jag ringa henne. — If I were you, I'd call her.\n- Vi hade missat tåget om du inte hade väckt oss. — We'd have missed the train if you hadn't woken us.\n:::\n\n:::cloze{sentence=\"Om jag hade mer pengar ___ jag köpa en båt.\" blank=\"skulle\"}\n:::\n\n:::cloze{sentence=\"Om du hade frågat mig ___ jag sagt ja.\" blank=\"hade\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-conditional"
+        ],
+        "explains": [
+          "konditionalis"
+        ]
+      },
+      "tags": [
+        "konditionalis"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-modal-particles",
+      "title": "Ju, väl, nog and då",
+      "body_md": "Spoken Swedish is full of small unstressed words that change the tone of a sentence without changing its facts. English does the same job with tone of voice, or with tags like *you know* and *surely*. These four are the most common.\n\n| Particle | Tone | Example |\n| --- | --- | --- |\n| ju | as we both know | Det är ju söndag i dag. (It's Sunday today, you know.) |\n| väl | I assume, surely | Du har väl ätit? (You have eaten, haven't you?) |\n| nog | probably, I think | Hon kommer nog snart. (She'll probably be here soon.) |\n| då | then, in that case | Vad gör vi nu då? (So what do we do now?) |\n\n## Ju\n\n*Ju* reminds the listener of something they already know, or should know. It can sound friendly or a little impatient: *Jag har ju sagt det!* (I've told you!)\n\n## Väl\n\n*Väl* asks for agreement, like a question tag: *Det är väl okej?* (That's okay, isn't it?) With *inte* it voices a worry: *Du är väl inte sjuk?* (You're not ill, are you?) Stressed, it means \"well\": *Sov väl!* (Sleep well!)\n\n## Nog\n\nUnstressed, *nog* means \"probably\": *Det blir nog regn i morgon.* Stressed, it means \"enough\": *Nu får det vara **nog**!* (That's enough now!)\n\n## Då\n\nAt the end of a question or a command, *då* adds \"then\", and often some impatience: *Skynda dig då!* (Hurry up, then!)\n\n## Where they go\n\nLike *inte*, they come straight after the verb in a main clause, and before *inte* when both are there: *Han kommer **ju inte**.* In a bisats they go before the verb: *...eftersom hon **ju** bor här.* *Då* is the exception: it usually ends the sentence.\n\n:::examples\n- Vi ses väl i morgon? — We'll see each other tomorrow, won't we?\n- Det är ju självklart. — Well, that's obvious.\n- Han har nog glömt det. — He's probably forgotten.\n:::\n\n:::cloze{sentence=\"Ta med en jacka, det blir ___ kallt i kväll.\" blank=\"nog\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-modal-particles"
+        ],
+        "explains": [
+          "modalpartiklar"
+        ]
+      },
+      "tags": [
+        "modalpartiklar"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-spoken-swedish",
+      "title": "How Swedes really talk",
+      "body_md": "Written Swedish is close to the spoken language, but a handful of very common words sound different from how they're spelled. Hear them once and you'll hear them everywhere.\n\n| Written | Said | English |\n| --- | --- | --- |\n| jag | ja | I |\n| mig, dig, sig | mej, dej, sej | me, you, oneself |\n| de, dem | dom | they, them |\n| det | de | it |\n| och | å | and |\n| att (before a verb) | å | to |\n| sedan | sen | then; since |\n| någon, något, några | nån, nåt, nåra | someone, something, some |\n| mycket | mycke | much, very |\n| vad, var | va | what, where |\n| säger | säjer | says |\n\nSome of these turn up in texts and chat too: *nån, nåt, sen, dom, mej*. Use the full forms in anything formal.\n\n## Small words that do a lot of work\n\n| Word | Use |\n| --- | --- |\n| typ | like, roughly: *Det tog typ en timme.* |\n| liksom | like, kind of (a filler) |\n| asså | I mean, so (from *alltså*) |\n| eller? | ..., or what? at the end of a question |\n| eller hur? | isn't it?, right? |\n| precis | exactly |\n| jaså | oh really?, I see |\n| nämen! | oh!, well I never! |\n| nja | well..., not really |\n\n## Ja on the in-breath\n\nMany Swedes, especially in the north, say *ja* or *jo* while breathing in, as a short gasp. It means \"yes, I'm listening\", not surprise.\n\n## One language, many accents\n\nStockholm, Göteborg, Skåne and Norrland sound clearly different. In most of Sweden the **r** is rolled or tapped, but in Skåne it's said in the back of the throat, as in French or Danish. Finland-Swedish has none of the sing-song word tones of Sweden, and so sounds flatter to Swedes. All of these are correct Swedish.\n\n:::examples\n- Det var typ jättekul. — It was, like, really fun.\n- Du kommer på festen, eller? — You're coming to the party, right?\n- Jaså, bor du i Malmö nu? — Oh, so you live in Malmö now?\n:::\n\n:::cloze{sentence=\"Det är kallt i dag, ___ hur?\" blank=\"eller\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-spoken-swedish"
+        ],
+        "explains": [
+          "talsprak"
+        ]
+      },
+      "tags": [
+        "talsprak"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-untranslatables",
+      "title": "Lagom, fika and allemansrätten",
+      "body_md": "Some Swedish words carry an idea that English needs a whole sentence for. They also say a lot about how Swedes see the world.\n\n## Lagom\n\nNot too much and not too little: just right. Coffee can be *lagom varmt*, a flat *lagom stor*, a party *lagom lång*. *Lagom är bäst* is close to a national motto. *Lagom* never takes an ending: *en lagom portion*.\n\n## Fika\n\nA break for coffee or tea with something sweet, ideally in company. It's both a verb (*Ska vi fika?*) and a noun (*Vi tar en fika*). At many workplaces the morning and afternoon *fika* is close to sacred.\n\n## Allemansrätten\n\nThe right of public access. Anyone may walk, cycle, camp for a night, and pick berries and mushrooms on almost any land, even private land, as long as they don't disturb or destroy. Children learn it as *inte störa, inte förstöra*.\n\n## Jantelagen\n\nThe \"Jante law\": the unwritten rule that you shouldn't think you're better than anyone else. It's why Swedes tend to play down their own success. The name comes from a 1933 novel by the Danish-Norwegian writer Aksel Sandemose.\n\n## Fredagsmys\n\n\"Friday cosiness\": an evening on the sofa with the family, tacos or crisps, and a film. *Mys* is the noun behind *mysig*. Saturday has its own ritual, *lördagsgodis*: the one day of the week many children get sweets.\n\n## Smultronställe\n\nLiterally \"a wild strawberry patch\": a small, special place you love and don't tell everyone about. Ingmar Bergman's film *Smultronstället* (Wild Strawberries) takes its title from it.\n\n## Gökotta\n\nGetting up at dawn to go outside and listen to the birds. *Gök* is the cuckoo.\n\n## Mellanmål\n\n\"Between-meal\": the afternoon snack, a proper part of the Swedish day, at school and at home.\n\n:::examples\n- Det är lagom varmt i vattnet. — The water's just the right temperature.\n- Vi fikar klockan tre. — We have our coffee break at three.\n- Det här är mitt smultronställe. — This is my special place.\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-untranslatables"
+        ]
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-false-friends",
+      "title": "False friends",
+      "body_md": "Swedish and English share a lot of words, and learners guess, usually right. These are the places where guessing goes wrong.\n\n| Swedish | Means | Not |\n| --- | --- | --- |\n| eventuell, eventuellt | possible, any; possibly | eventual, eventually (*så småningom, till slut*) |\n| aktuell | current, topical | actual (*verklig, faktisk*) |\n| sensibel | sensitive | sensible (*förnuftig*) |\n| sympatisk | likeable, nice | sympathetic (*förstående*) |\n| genial | brilliant, ingenious | genial (*vänlig*) |\n| konsekvent | consistent | consequent |\n| gift | married | gift (*en present*) |\n| en glass | an ice cream | a glass (*ett glas*) |\n| en fart | speed | |\n| en novell | a short story | a novel (*en roman*) |\n| en rock | a coat; rock music | a rock (*en sten*) |\n| ett prov | a test | a proof (*ett bevis*) |\n| en chef | a boss | a chef (*en kock*) |\n| ett barn | a child | a barn (*en lada*) |\n| en semester | a holiday | a semester (*en termin*) |\n| en fabrik | a factory | fabric (*ett tyg*) |\n| kissa | to pee | to kiss (*pussa, kyssa*) |\n| slut | finished, over; sold out | |\n\n*Eventuellt* is the classic. *Jag kommer eventuellt* means \"I might come\", not \"I'll get there in the end\".\n\n*Gift* is a double trap: as an adjective it means married, and *ett gift* is a poison.\n\n*Slut* has none of its English meaning: *Mjölken är slut* (We're out of milk), *Det är slut mellan oss* (It's over between us).\n\nA *farthinder* is a speed bump, and *full fart* is full speed.\n\n:::examples\n- Jag kommer eventuellt lite senare. — I might come a bit later.\n- Hon är en väldigt sympatisk person. — She's a really likeable person.\n- Biljetterna är slut. — The tickets are sold out.\n:::\n\n:::cloze{sentence=\"Kan jag få ett ___ vatten?\" blank=\"glas\"}\n:::\n\n:::cloze{sentence=\"Barnen vill ha ___ efter maten.\" blank=\"glass\"}\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-false-friends"
+        ],
+        "explains": [
+          "falska-vanner"
+        ]
+      },
+      "tags": [
+        "falska-vanner"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-idioms",
+      "title": "How Swedish idioms work",
+      "body_md": "Swedish idioms come from the farm, the forest and the kitchen, and many have an English cousin with a different animal or a different food.\n\n| Swedish | Literally | Meaning |\n| --- | --- | --- |\n| det är ingen ko på isen | there's no cow on the ice | no need to worry, there's no rush |\n| glida in på en räkmacka | slide in on a prawn sandwich | have it easy |\n| ana ugglor i mossen | suspect owls in the bog | smell a rat |\n| slå två flugor i en smäll | hit two flies with one swat | kill two birds with one stone |\n| ha tummen mitt i handen | have your thumb in the middle of your hand | be all thumbs |\n| inte för allt smör i Småland | not for all the butter in Småland | not for all the tea in China |\n| gå som katten kring het gröt | walk like the cat around hot porridge | beat about the bush |\n| vara ute och cykla | be out cycling | be way off, be completely wrong |\n\nThe literal translation is stored with each idiom in this pack. It's often what makes it stick.\n\n## They bend to fit\n\nAn idiom is a phrase, not a fixed string. The verb takes whatever tense the sentence needs, and the pronouns change: *Han gick som katten kring het gröt* (He beat about the bush). *Nu är du ute och cyklar!* (Now you're way off!)\n\nSome flip into the opposite: *Nu är det ko på isen!* means \"Now we're in trouble\".\n\n## Proverbs\n\nSwedes also quote proverbs in everyday talk, often just the first half: *Borta bra men hemma bäst* (East or west, home is best), or simply *Borta bra...* when coming home from a trip.\n\n:::examples\n- Det är ingen ko på isen, vi har gott om tid. — No need to worry, we've got plenty of time.\n- Jag anade ugglor i mossen när han inte svarade. — I smelled a rat when he didn't answer.\n- Hon har tummen mitt i handen. — She's all thumbs.\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:sv-idioms"
+        ],
+        "explains": [
+          "idioms"
+        ]
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "samhalle",
+      "primary_form": "samhälle",
+      "gloss": "society; community",
+      "extras": {
+        "article": "ett",
+        "definite": "samhället",
+        "plural": "samhällen",
+        "example": "Vi lever i ett öppet samhälle.",
+        "example_en": "We live in an open society."
+      },
+      "tags": [
+        "society",
+        "ett"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "eller-hur",
+      "primary_form": "eller hur?",
+      "gloss": "right?, isn't it?",
+      "extras": {
+        "literal": "or how",
+        "example": "Du är från Göteborg, eller hur?",
+        "example_en": "You're from Gothenburg, aren't you?"
+      },
+      "tags": [
+        "talsprak"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "tro",
+      "primary_form": "tro",
+      "gloss": "to think, to believe",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "trott",
+        "past": "trodde",
+        "group": "3",
+        "example": "Tror du att hon kommer?",
+        "example_en": "Do you think she's coming?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "tror",
+          "2s": "tror",
+          "3s": "tror",
+          "1p": "tror",
+          "2p": "tror",
+          "3p": "tror"
+        },
+        "perfekt": {
+          "1s": "har trott",
+          "2s": "har trott",
+          "3s": "har trott",
+          "1p": "har trott",
+          "2p": "har trott",
+          "3p": "har trott"
+        },
+        "preteritum": {
+          "1s": "trodde",
+          "2s": "trodde",
+          "3s": "trodde",
+          "1p": "trodde",
+          "2p": "trodde",
+          "3p": "trodde"
+        },
+        "futurum": {
+          "1s": "kommer att tro",
+          "2s": "kommer att tro",
+          "3s": "kommer att tro",
+          "1p": "kommer att tro",
+          "2p": "kommer att tro",
+          "3p": "kommer att tro"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "aktuell",
+      "primary_form": "aktuell",
+      "gloss": "current, topical",
+      "extras": {
+        "forms": {
+          "en": "aktuell",
+          "ett": "aktuellt",
+          "pl": "aktuella"
+        },
+        "example": "Frågan är väldigt aktuell just nu.",
+        "example_en": "The issue is very topical right now."
+      },
+      "tags": [
+        "adjektiv",
+        "falska-vanner"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "det-ar-ingen-ko-pa-isen",
+      "primary_form": "det är ingen ko på isen",
+      "gloss": "there's no rush, no need to worry",
+      "extras": {
+        "literal": "there's no cow on the ice",
+        "example": "Det är ingen ko på isen, vi hinner till tåget.",
+        "example_en": "No need to worry, we'll make the train."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "daremot",
+      "primary_form": "däremot",
+      "gloss": "on the other hand, however",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "Hotellet var dyrt. Maten var däremot billig.",
+        "example_en": "The hotel was expensive. The food, on the other hand, was cheap."
+      },
+      "tags": [
+        "sambandsord"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "regering",
+      "primary_form": "regering",
+      "gloss": "government",
+      "extras": {
+        "article": "en",
+        "definite": "regeringen",
+        "plural": "regeringar",
+        "example": "Regeringen presenterade budgeten i går.",
+        "example_en": "The government presented the budget yesterday."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "precis",
+      "primary_form": "precis",
+      "gloss": "exactly",
+      "extras": {
+        "example": "Precis, det var det jag menade.",
+        "example_en": "Exactly, that's what I meant."
+      },
+      "tags": [
+        "talsprak"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "riksdag",
+      "primary_form": "riksdag",
+      "gloss": "parliament (the Riksdag)",
+      "extras": {
+        "article": "en",
+        "definite": "riksdagen",
+        "plural": "riksdagar",
+        "example": "Lagen röstades igenom av riksdagen.",
+        "example_en": "The law was voted through by parliament."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "anse",
+      "primary_form": "anse",
+      "gloss": "to consider, to be of the opinion",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "ansett",
+        "past": "ansåg",
+        "group": "4",
+        "example": "Många anser att skatten är för hög.",
+        "example_en": "Many people think taxes are too high."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "anser",
+          "2s": "anser",
+          "3s": "anser",
+          "1p": "anser",
+          "2p": "anser",
+          "3p": "anser"
+        },
+        "perfekt": {
+          "1s": "har ansett",
+          "2s": "har ansett",
+          "3s": "har ansett",
+          "1p": "har ansett",
+          "2p": "har ansett",
+          "3p": "har ansett"
+        },
+        "preteritum": {
+          "1s": "ansåg",
+          "2s": "ansåg",
+          "3s": "ansåg",
+          "1p": "ansåg",
+          "2p": "ansåg",
+          "3p": "ansåg"
+        },
+        "futurum": {
+          "1s": "kommer att anse",
+          "2s": "kommer att anse",
+          "3s": "kommer att anse",
+          "1p": "kommer att anse",
+          "2p": "kommer att anse",
+          "3p": "kommer att anse"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "eventuell",
+      "primary_form": "eventuell",
+      "gloss": "possible, any (that may come up)",
+      "extras": {
+        "forms": {
+          "en": "eventuell",
+          "ett": "eventuellt",
+          "pl": "eventuella"
+        },
+        "example": "Eventuella frågor kan du skicka till mig.",
+        "example_en": "You can send any questions to me."
+      },
+      "tags": [
+        "adjektiv",
+        "falska-vanner"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "glida-in-pa-en-rakmacka",
+      "primary_form": "glida in på en räkmacka",
+      "gloss": "to have it easy, to get something without working for it",
+      "extras": {
+        "literal": "to slide in on a prawn sandwich",
+        "example": "Han har glidit in på en räkmacka hela livet.",
+        "example_en": "He's had it easy his whole life."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "val",
+      "primary_form": "val",
+      "gloss": "election; choice",
+      "extras": {
+        "article": "ett",
+        "definite": "valet",
+        "plural": "val",
+        "example": "Valet hålls i september.",
+        "example_en": "The election is held in September."
+      },
+      "tags": [
+        "society",
+        "ett"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "jasa",
+      "primary_form": "jaså",
+      "gloss": "oh, really?; I see",
+      "extras": {
+        "example": "Jaså, har du flyttat?",
+        "example_en": "Oh, have you moved?"
+      },
+      "tags": [
+        "talsprak"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "a-andra-sidan",
+      "primary_form": "å andra sidan",
+      "gloss": "on the other hand",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "Lägenheten är liten, men å andra sidan är den billig.",
+        "example_en": "The flat is small, but on the other hand it's cheap.",
+        "example_alternatives": [
+          "Lägenheten är liten, men den är å andra sidan billig."
+        ]
+      },
+      "tags": [
+        "sambandsord"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "demokrati",
+      "primary_form": "demokrati",
+      "gloss": "democracy",
+      "extras": {
+        "article": "en",
+        "definite": "demokratin",
+        "plural": "demokratier",
+        "example": "Sverige har varit en demokrati länge.",
+        "example_en": "Sweden has been a democracy for a long time."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "undra",
+      "primary_form": "undra",
+      "gloss": "to wonder",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "undrat",
+        "past": "undrade",
+        "group": "1",
+        "example": "Jag undrar om hon har fått mitt mejl.",
+        "example_en": "I wonder if she's got my email."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "undrar",
+          "2s": "undrar",
+          "3s": "undrar",
+          "1p": "undrar",
+          "2p": "undrar",
+          "3p": "undrar"
+        },
+        "perfekt": {
+          "1s": "har undrat",
+          "2s": "har undrat",
+          "3s": "har undrat",
+          "1p": "har undrat",
+          "2p": "har undrat",
+          "3p": "har undrat"
+        },
+        "preteritum": {
+          "1s": "undrade",
+          "2s": "undrade",
+          "3s": "undrade",
+          "1p": "undrade",
+          "2p": "undrade",
+          "3p": "undrade"
+        },
+        "futurum": {
+          "1s": "kommer att undra",
+          "2s": "kommer att undra",
+          "3s": "kommer att undra",
+          "1p": "kommer att undra",
+          "2p": "kommer att undra",
+          "3p": "kommer att undra"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "det-ar-lugnt",
+      "primary_form": "det är lugnt",
+      "gloss": "it's fine, no worries",
+      "extras": {
+        "literal": "it is calm",
+        "example": "Det är lugnt, jag kan vänta.",
+        "example_en": "It's fine, I can wait."
+      },
+      "tags": [
+        "talsprak"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "gift",
+      "primary_form": "gift",
+      "gloss": "married",
+      "extras": {
+        "forms": {
+          "en": "gift",
+          "ett": "gift",
+          "pl": "gifta"
+        },
+        "example": "Är du gift eller sambo?",
+        "example_en": "Are you married, or living with a partner?"
+      },
+      "tags": [
+        "adjektiv",
+        "falska-vanner"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "skatt",
+      "primary_form": "skatt",
+      "gloss": "tax",
+      "extras": {
+        "article": "en",
+        "definite": "skatten",
+        "plural": "skatter",
+        "example": "Skatten dras automatiskt från lönen.",
+        "example_en": "The tax is taken from your pay automatically."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ana-ugglor-i-mossen",
+      "primary_form": "ana ugglor i mossen",
+      "gloss": "to smell a rat",
+      "extras": {
+        "literal": "to suspect owls in the bog",
+        "example": "Jag anade ugglor i mossen direkt.",
+        "example_en": "I smelled a rat straight away."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "pasta",
+      "primary_form": "påstå",
+      "gloss": "to claim",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "påstått",
+        "past": "påstod",
+        "group": "4",
+        "example": "Han påstår att han aldrig har varit här.",
+        "example_en": "He claims he's never been here."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "påstår",
+          "2s": "påstår",
+          "3s": "påstår",
+          "1p": "påstår",
+          "2p": "påstår",
+          "3p": "påstår"
+        },
+        "perfekt": {
+          "1s": "har påstått",
+          "2s": "har påstått",
+          "3s": "har påstått",
+          "1p": "har påstått",
+          "2p": "har påstått",
+          "3p": "har påstått"
+        },
+        "preteritum": {
+          "1s": "påstod",
+          "2s": "påstod",
+          "3s": "påstod",
+          "1p": "påstod",
+          "2p": "påstod",
+          "3p": "påstod"
+        },
+        "futurum": {
+          "1s": "kommer att påstå",
+          "2s": "kommer att påstå",
+          "3s": "kommer att påstå",
+          "1p": "kommer att påstå",
+          "2p": "kommer att påstå",
+          "3p": "kommer att påstå"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "typ",
+      "primary_form": "typ",
+      "gloss": "like, about, sort of",
+      "extras": {
+        "literal": "type",
+        "example": "Det tog typ en timme.",
+        "example_en": "It took like an hour."
+      },
+      "tags": [
+        "talsprak"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "kommun",
+      "primary_form": "kommun",
+      "gloss": "municipality, local council",
+      "extras": {
+        "article": "en",
+        "definite": "kommunen",
+        "plural": "kommuner",
+        "example": "Skolorna drivs av kommunen.",
+        "example_en": "The schools are run by the council."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "trots-allt",
+      "primary_form": "trots allt",
+      "gloss": "after all, despite everything",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "Det regnade, men vi hade trots allt en fin dag.",
+        "example_en": "It rained, but we had a nice day after all.",
+        "example_alternatives": [
+          "Det regnade, men trots allt hade vi en fin dag."
+        ]
+      },
+      "tags": [
+        "sambandsord"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "sensibel",
+      "primary_form": "sensibel",
+      "gloss": "sensitive",
+      "extras": {
+        "forms": {
+          "en": "sensibel",
+          "ett": "sensibelt",
+          "pl": "sensibla"
+        },
+        "example": "Han är en sensibel och omtänksam person.",
+        "example_en": "He's a sensitive, caring person."
+      },
+      "tags": [
+        "adjektiv",
+        "falska-vanner"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "beslut",
+      "primary_form": "beslut",
+      "gloss": "decision",
+      "extras": {
+        "article": "ett",
+        "definite": "beslutet",
+        "plural": "beslut",
+        "example": "Beslutet fattades i går kväll.",
+        "example_en": "The decision was taken last night."
+      },
+      "tags": [
+        "society",
+        "ett"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "liksom",
+      "primary_form": "liksom",
+      "gloss": "like, kind of (a filler)",
+      "extras": {
+        "literal": "as it were",
+        "example": "Jag var liksom helt slut.",
+        "example_en": "I was, like, totally exhausted."
+      },
+      "tags": [
+        "talsprak"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "sla-tva-flugor-i-en-small",
+      "primary_form": "slå två flugor i en smäll",
+      "gloss": "to kill two birds with one stone",
+      "extras": {
+        "literal": "to hit two flies with one swat",
+        "example": "Då slår vi två flugor i en smäll.",
+        "example_en": "Then we'll kill two birds with one stone."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "bestamma",
+      "primary_form": "bestämma",
+      "gloss": "to decide",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "bestämt",
+        "past": "bestämde",
+        "group": "2a",
+        "example": "Det är du som bestämmer.",
+        "example_en": "You're the one who decides."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "bestämmer",
+          "2s": "bestämmer",
+          "3s": "bestämmer",
+          "1p": "bestämmer",
+          "2p": "bestämmer",
+          "3p": "bestämmer"
+        },
+        "perfekt": {
+          "1s": "har bestämt",
+          "2s": "har bestämt",
+          "3s": "har bestämt",
+          "1p": "har bestämt",
+          "2p": "har bestämt",
+          "3p": "har bestämt"
+        },
+        "preteritum": {
+          "1s": "bestämde",
+          "2s": "bestämde",
+          "3s": "bestämde",
+          "1p": "bestämde",
+          "2p": "bestämde",
+          "3p": "bestämde"
+        },
+        "futurum": {
+          "1s": "ska bestämma",
+          "2s": "ska bestämma",
+          "3s": "ska bestämma",
+          "1p": "ska bestämma",
+          "2p": "ska bestämma",
+          "3p": "ska bestämma"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "politik",
+      "primary_form": "politik",
+      "gloss": "politics; policy",
+      "extras": {
+        "article": "en",
+        "definite": "politiken",
+        "example": "Jag är inte så intresserad av politik.",
+        "example_en": "I'm not very interested in politics."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "namen",
+      "primary_form": "nämen!",
+      "gloss": "oh!, well I never!",
+      "extras": {
+        "literal": "no but",
+        "example": "Nämen, är det du?",
+        "example_en": "Oh, is that you?"
+      },
+      "tags": [
+        "talsprak"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "sympatisk",
+      "primary_form": "sympatisk",
+      "gloss": "likeable, nice",
+      "extras": {
+        "forms": {
+          "en": "sympatisk",
+          "ett": "sympatiskt",
+          "pl": "sympatiska"
+        },
+        "example": "Din nya kollega verkar sympatisk.",
+        "example_en": "Your new colleague seems nice."
+      },
+      "tags": [
+        "adjektiv",
+        "falska-vanner"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "medborgare",
+      "primary_form": "medborgare",
+      "gloss": "citizen",
+      "extras": {
+        "article": "en",
+        "definite": "medborgaren",
+        "plural": "medborgare",
+        "example": "Hon blev svensk medborgare förra året.",
+        "example_en": "She became a Swedish citizen last year."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "alltsa",
+      "primary_form": "alltså",
+      "gloss": "so, therefore",
+      "extras": {
+        "role": "conn-consequence",
+        "example": "Tåget är inställt, vi får alltså ta bussen.",
+        "example_en": "The train's cancelled, so we'll have to take the bus.",
+        "example_alternatives": [
+          "Tåget är inställt, alltså får vi ta bussen."
+        ]
+      },
+      "tags": [
+        "sambandsord"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "forklara",
+      "primary_form": "förklara",
+      "gloss": "to explain",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "förklarat",
+        "past": "förklarade",
+        "group": "1",
+        "example": "Kan du förklara varför du är sen?",
+        "example_en": "Can you explain why you're late?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "förklarar",
+          "2s": "förklarar",
+          "3s": "förklarar",
+          "1p": "förklarar",
+          "2p": "förklarar",
+          "3p": "förklarar"
+        },
+        "perfekt": {
+          "1s": "har förklarat",
+          "2s": "har förklarat",
+          "3s": "har förklarat",
+          "1p": "har förklarat",
+          "2p": "har förklarat",
+          "3p": "har förklarat"
+        },
+        "preteritum": {
+          "1s": "förklarade",
+          "2s": "förklarade",
+          "3s": "förklarade",
+          "1p": "förklarade",
+          "2p": "förklarade",
+          "3p": "förklarade"
+        },
+        "futurum": {
+          "1s": "ska förklara",
+          "2s": "ska förklara",
+          "3s": "ska förklara",
+          "1p": "ska förklara",
+          "2p": "ska förklara",
+          "3p": "ska förklara"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "ha-tummen-mitt-i-handen",
+      "primary_form": "ha tummen mitt i handen",
+      "gloss": "to be all thumbs, to be clumsy",
+      "extras": {
+        "literal": "to have the thumb in the middle of the hand",
+        "example": "Min pappa har tummen mitt i handen.",
+        "example_en": "My dad is all thumbs."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "rattighet",
+      "primary_form": "rättighet",
+      "gloss": "right",
+      "extras": {
+        "article": "en",
+        "definite": "rättigheten",
+        "plural": "rättigheter",
+        "example": "Alla har samma rättigheter.",
+        "example_en": "Everyone has the same rights."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "nja",
+      "primary_form": "nja",
+      "gloss": "well..., not really",
+      "extras": {
+        "note": "A mix of *nej* and *ja*: a polite way to disagree.",
+        "example": "Nja, jag vet inte riktigt.",
+        "example_en": "Well, I'm not really sure."
+      },
+      "tags": [
+        "talsprak"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "frihet",
+      "primary_form": "frihet",
+      "gloss": "freedom",
+      "extras": {
+        "article": "en",
+        "definite": "friheten",
+        "plural": "friheter",
+        "example": "Friheten att välja är viktig.",
+        "example_en": "The freedom to choose is important."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "lagom",
+      "primary_form": "lagom",
+      "gloss": "just right, just enough",
+      "extras": {
+        "forms": {
+          "en": "lagom",
+          "ett": "lagom",
+          "pl": "lagom"
+        },
+        "example": "Portionen var precis lagom.",
+        "example_en": "The portion was just right."
+      },
+      "tags": [
+        "adjektiv",
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "handa",
+      "primary_form": "hända",
+      "gloss": "to happen",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "hänt",
+        "past": "hände",
+        "group": "2a",
+        "example": "Vad är det som har hänt?",
+        "example_en": "What's happened?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "händer",
+          "2s": "händer",
+          "3s": "händer",
+          "1p": "händer",
+          "2p": "händer",
+          "3p": "händer"
+        },
+        "perfekt": {
+          "1s": "har hänt",
+          "2s": "har hänt",
+          "3s": "har hänt",
+          "1p": "har hänt",
+          "2p": "har hänt",
+          "3p": "har hänt"
+        },
+        "preteritum": {
+          "1s": "hände",
+          "2s": "hände",
+          "3s": "hände",
+          "1p": "hände",
+          "2p": "hände",
+          "3p": "hände"
+        },
+        "futurum": {
+          "1s": "kommer att hända",
+          "2s": "kommer att hända",
+          "3s": "kommer att hända",
+          "1p": "kommer att hända",
+          "2p": "kommer att hända",
+          "3p": "kommer att hända"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "det-vet-du-ju",
+      "primary_form": "det vet du ju",
+      "gloss": "you know that (as well as I do)",
+      "extras": {
+        "example": "Det vet du ju, vi har pratat om det.",
+        "example_en": "You know that, we've talked about it."
+      },
+      "tags": [
+        "modalpartiklar"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "jamstalldhet",
+      "primary_form": "jämställdhet",
+      "gloss": "equality (between women and men)",
+      "extras": {
+        "article": "en",
+        "definite": "jämställdheten",
+        "example": "Sverige satsar mycket på jämställdhet.",
+        "example_en": "Sweden puts a lot into gender equality."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "inte-for-allt-smor-i-smaland",
+      "primary_form": "inte för allt smör i Småland",
+      "gloss": "not for anything, not for all the tea in China",
+      "extras": {
+        "literal": "not for all the butter in Småland",
+        "example": "Jag skulle inte bo där för allt smör i Småland.",
+        "example_en": "I wouldn't live there for all the tea in China."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "kort-sagt",
+      "primary_form": "kort sagt",
+      "gloss": "in short",
+      "extras": {
+        "role": "conn-consequence",
+        "example": "Kort sagt var det en lyckad kväll.",
+        "example_en": "In short, it was a successful evening.",
+        "example_alternatives": [
+          "Det var kort sagt en lyckad kväll."
+        ]
+      },
+      "tags": [
+        "sambandsord"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "valfard",
+      "primary_form": "välfärd",
+      "gloss": "welfare",
+      "extras": {
+        "article": "en",
+        "definite": "välfärden",
+        "example": "Välfärden betalas med skatter.",
+        "example_en": "Welfare is paid for with taxes."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "rolig",
+      "primary_form": "rolig",
+      "gloss": "fun; funny",
+      "extras": {
+        "forms": {
+          "en": "rolig",
+          "ett": "roligt",
+          "pl": "roliga"
+        },
+        "example": "Det var en jätterolig kväll!",
+        "example_en": "It was a really fun evening!"
+      },
+      "tags": [
+        "adjektiv",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "du-kommer-val",
+      "primary_form": "du kommer väl?",
+      "gloss": "you're coming, aren't you?",
+      "extras": {
+        "example": "Du kommer väl på min fest?",
+        "example_en": "You're coming to my party, aren't you?"
+      },
+      "tags": [
+        "modalpartiklar"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "forsoka",
+      "primary_form": "försöka",
+      "gloss": "to try",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "försökt",
+        "past": "försökte",
+        "group": "2b",
+        "example": "Jag försöker lära mig något nytt varje dag.",
+        "example_en": "I try to learn something new every day."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "försöker",
+          "2s": "försöker",
+          "3s": "försöker",
+          "1p": "försöker",
+          "2p": "försöker",
+          "3p": "försöker"
+        },
+        "perfekt": {
+          "1s": "har försökt",
+          "2s": "har försökt",
+          "3s": "har försökt",
+          "1p": "har försökt",
+          "2p": "har försökt",
+          "3p": "har försökt"
+        },
+        "preteritum": {
+          "1s": "försökte",
+          "2s": "försökte",
+          "3s": "försökte",
+          "1p": "försökte",
+          "2p": "försökte",
+          "3p": "försökte"
+        },
+        "futurum": {
+          "1s": "ska försöka",
+          "2s": "ska försöka",
+          "3s": "ska försöka",
+          "1p": "ska försöka",
+          "2p": "ska försöka",
+          "3p": "ska försöka"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "sjukvard",
+      "primary_form": "sjukvård",
+      "gloss": "health care",
+      "extras": {
+        "article": "en",
+        "definite": "sjukvården",
+        "example": "Sjukvården är en viktig fråga i valet.",
+        "example_en": "Health care is a big issue in the election."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "ga-som-katten-kring-het-grot",
+      "primary_form": "gå som katten kring het gröt",
+      "gloss": "to beat about the bush",
+      "extras": {
+        "literal": "to walk like the cat around hot porridge",
+        "example": "Sluta gå som katten kring het gröt!",
+        "example_en": "Stop beating about the bush!"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "det-gar-nog-bra",
+      "primary_form": "det går nog bra",
+      "gloss": "it'll probably be fine",
+      "extras": {
+        "example": "Var inte nervös, det går nog bra.",
+        "example_en": "Don't be nervous, it'll probably be fine."
+      },
+      "tags": [
+        "modalpartiklar"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "miljo",
+      "primary_form": "miljö",
+      "gloss": "environment",
+      "extras": {
+        "article": "en",
+        "definite": "miljön",
+        "plural": "miljöer",
+        "example": "Vi måste tänka på miljön.",
+        "example_en": "We have to think about the environment."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "lova",
+      "primary_form": "lova",
+      "gloss": "to promise",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "lovat",
+        "past": "lovade",
+        "group": "1",
+        "example": "Du lovade att du skulle ringa!",
+        "example_en": "You promised you'd call!"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "lovar",
+          "2s": "lovar",
+          "3s": "lovar",
+          "1p": "lovar",
+          "2p": "lovar",
+          "3p": "lovar"
+        },
+        "perfekt": {
+          "1s": "har lovat",
+          "2s": "har lovat",
+          "3s": "har lovat",
+          "1p": "har lovat",
+          "2p": "har lovat",
+          "3p": "har lovat"
+        },
+        "preteritum": {
+          "1s": "lovade",
+          "2s": "lovade",
+          "3s": "lovade",
+          "1p": "lovade",
+          "2p": "lovade",
+          "3p": "lovade"
+        },
+        "futurum": {
+          "1s": "ska lova",
+          "2s": "ska lova",
+          "3s": "ska lova",
+          "1p": "ska lova",
+          "2p": "ska lova",
+          "3p": "ska lova"
+        }
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "stressad",
+      "primary_form": "stressad",
+      "gloss": "stressed",
+      "extras": {
+        "forms": {
+          "en": "stressad",
+          "ett": "stressat",
+          "pl": "stressade"
+        },
+        "example": "Jag är så stressad på jobbet just nu.",
+        "example_en": "I'm so stressed at work at the moment."
+      },
+      "tags": [
+        "adjektiv",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "for-ovrigt",
+      "primary_form": "för övrigt",
+      "gloss": "incidentally, besides",
+      "extras": {
+        "role": "conn-addition",
+        "example": "Maten var god, och vinet var för övrigt också bra.",
+        "example_en": "The food was good, and the wine was good too, incidentally."
+      },
+      "tags": [
+        "sambandsord"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "ekonomi",
+      "primary_form": "ekonomi",
+      "gloss": "economy; finances",
+      "extras": {
+        "article": "en",
+        "definite": "ekonomin",
+        "plural": "ekonomier",
+        "example": "Min ekonomi är lite dålig just nu.",
+        "example_en": "My finances are a bit tight right now."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "kom-igen-da",
+      "primary_form": "kom igen då!",
+      "gloss": "come on, then!",
+      "extras": {
+        "example": "Kom igen då, vi är sena!",
+        "example_en": "Come on, then, we're late!"
+      },
+      "tags": [
+        "modalpartiklar"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "vara-ute-och-cykla",
+      "primary_form": "vara ute och cykla",
+      "gloss": "to be way off, to be completely wrong",
+      "extras": {
+        "literal": "to be out cycling",
+        "example": "Nej, där är du ute och cyklar!",
+        "example_en": "No, you're way off there!"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "jamfora",
+      "primary_form": "jämföra",
+      "gloss": "to compare",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "jämfört",
+        "past": "jämförde",
+        "group": "2a",
+        "example": "Man kan inte jämföra äpplen och päron.",
+        "example_en": "You can't compare apples and oranges."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "jämför",
+          "2s": "jämför",
+          "3s": "jämför",
+          "1p": "jämför",
+          "2p": "jämför",
+          "3p": "jämför"
+        },
+        "perfekt": {
+          "1s": "har jämfört",
+          "2s": "har jämfört",
+          "3s": "har jämfört",
+          "1p": "har jämfört",
+          "2p": "har jämfört",
+          "3p": "har jämfört"
+        },
+        "preteritum": {
+          "1s": "jämförde",
+          "2s": "jämförde",
+          "3s": "jämförde",
+          "1p": "jämförde",
+          "2p": "jämförde",
+          "3p": "jämförde"
+        },
+        "futurum": {
+          "1s": "ska jämföra",
+          "2s": "ska jämföra",
+          "3s": "ska jämföra",
+          "1p": "ska jämföra",
+          "2p": "ska jämföra",
+          "3p": "ska jämföra"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "historia",
+      "primary_form": "historia",
+      "gloss": "history; story",
+      "extras": {
+        "article": "en",
+        "definite": "historien",
+        "plural": "historier",
+        "example": "Jag läser historia på universitetet.",
+        "example_en": "I'm studying history at university."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "forvanad",
+      "primary_form": "förvånad",
+      "gloss": "surprised",
+      "extras": {
+        "forms": {
+          "en": "förvånad",
+          "ett": "förvånat",
+          "pl": "förvånade"
+        },
+        "example": "Alla blev förvånade när hon kom.",
+        "example_en": "Everyone was surprised when she came."
+      },
+      "tags": [
+        "adjektiv",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "det-far-val-duga",
+      "primary_form": "det får väl duga",
+      "gloss": "it'll have to do",
+      "extras": {
+        "example": "Det är inte perfekt, men det får väl duga.",
+        "example_en": "It's not perfect, but it'll have to do."
+      },
+      "tags": [
+        "modalpartiklar"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "krig",
+      "primary_form": "krig",
+      "gloss": "war",
+      "extras": {
+        "article": "ett",
+        "definite": "kriget",
+        "plural": "krig",
+        "example": "Sverige har inte varit i krig sedan 1814.",
+        "example_en": "Sweden hasn't been at war since 1814."
+      },
+      "tags": [
+        "society",
+        "ett"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "till-exempel",
+      "primary_form": "till exempel",
+      "gloss": "for example",
+      "extras": {
+        "role": "conn-addition",
+        "example": "Här kan man till exempel vandra eller fiska.",
+        "example_en": "Here you can go hiking or fishing, for example.",
+        "example_alternatives": [
+          "Man kan till exempel vandra eller fiska här."
+        ]
+      },
+      "tags": [
+        "sambandsord"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "upptacka",
+      "primary_form": "upptäcka",
+      "gloss": "to discover, to notice",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "upptäckt",
+        "past": "upptäckte",
+        "group": "2b",
+        "example": "Vi upptäckte ett kafé som ingen känner till.",
+        "example_en": "We discovered a café nobody knows about."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "upptäcker",
+          "2s": "upptäcker",
+          "3s": "upptäcker",
+          "1p": "upptäcker",
+          "2p": "upptäcker",
+          "3p": "upptäcker"
+        },
+        "perfekt": {
+          "1s": "har upptäckt",
+          "2s": "har upptäckt",
+          "3s": "har upptäckt",
+          "1p": "har upptäckt",
+          "2p": "har upptäckt",
+          "3p": "har upptäckt"
+        },
+        "preteritum": {
+          "1s": "upptäckte",
+          "2s": "upptäckte",
+          "3s": "upptäckte",
+          "1p": "upptäckte",
+          "2p": "upptäckte",
+          "3p": "upptäckte"
+        },
+        "futurum": {
+          "1s": "kommer att upptäcka",
+          "2s": "kommer att upptäcka",
+          "3s": "kommer att upptäcka",
+          "1p": "kommer att upptäcka",
+          "2p": "kommer att upptäcka",
+          "3p": "kommer att upptäcka"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "jag-sa-ju-det",
+      "primary_form": "jag sa ju det",
+      "gloss": "I told you so",
+      "extras": {
+        "example": "Ser du? Jag sa ju det!",
+        "example_en": "See? I told you so!"
+      },
+      "tags": [
+        "modalpartiklar"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fred",
+      "primary_form": "fred",
+      "gloss": "peace",
+      "extras": {
+        "article": "en",
+        "definite": "freden",
+        "example": "Alla vill leva i fred.",
+        "example_en": "Everyone wants to live in peace."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "lagga-rabarber-pa-nagot",
+      "primary_form": "lägga rabarber på något",
+      "gloss": "to grab something, to claim something for yourself",
+      "extras": {
+        "literal": "to put rhubarb on something",
+        "example": "Grannen har lagt rabarber på vår parkeringsplats.",
+        "example_en": "The neighbour has grabbed our parking space."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "avundsjuk",
+      "primary_form": "avundsjuk",
+      "gloss": "jealous, envious",
+      "extras": {
+        "forms": {
+          "en": "avundsjuk",
+          "ett": "avundsjukt",
+          "pl": "avundsjuka"
+        },
+        "example": "Jag är lite avundsjuk på din semester.",
+        "example_en": "I'm a bit jealous of your holiday."
+      },
+      "tags": [
+        "adjektiv",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "kung",
+      "primary_form": "kung",
+      "gloss": "king",
+      "extras": {
+        "article": "en",
+        "definite": "kungen",
+        "plural": "kungar",
+        "example": "Kungen har ingen politisk makt.",
+        "example_en": "The king has no political power."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "enligt-mig",
+      "primary_form": "enligt mig",
+      "gloss": "in my opinion",
+      "extras": {
+        "literal": "according to me",
+        "example": "Enligt mig är det för dyrt.",
+        "example_en": "In my opinion, it's too expensive."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "tjana",
+      "primary_form": "tjäna",
+      "gloss": "to earn",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "tjänat",
+        "past": "tjänade",
+        "group": "1",
+        "example": "Hon tjänar bra på sitt nya jobb.",
+        "example_en": "She earns good money in her new job."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "tjänar",
+          "2s": "tjänar",
+          "3s": "tjänar",
+          "1p": "tjänar",
+          "2p": "tjänar",
+          "3p": "tjänar"
+        },
+        "perfekt": {
+          "1s": "har tjänat",
+          "2s": "har tjänat",
+          "3s": "har tjänat",
+          "1p": "har tjänat",
+          "2p": "har tjänat",
+          "3p": "har tjänat"
+        },
+        "preteritum": {
+          "1s": "tjänade",
+          "2s": "tjänade",
+          "3s": "tjänade",
+          "1p": "tjänade",
+          "2p": "tjänade",
+          "3p": "tjänade"
+        },
+        "futurum": {
+          "1s": "ska tjäna",
+          "2s": "ska tjäna",
+          "3s": "ska tjäna",
+          "1p": "ska tjäna",
+          "2p": "ska tjäna",
+          "3p": "ska tjäna"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "drottning",
+      "primary_form": "drottning",
+      "gloss": "queen",
+      "extras": {
+        "article": "en",
+        "definite": "drottningen",
+        "plural": "drottningar",
+        "example": "Drottning Kristina abdikerade 1654.",
+        "example_en": "Queen Christina abdicated in 1654."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "slutligen",
+      "primary_form": "slutligen",
+      "gloss": "finally, lastly",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "Slutligen vill jag tacka alla som har hjälpt till.",
+        "example_en": "Finally, I'd like to thank everyone who has helped.",
+        "example_alternatives": [
+          "Jag vill slutligen tacka alla som har hjälpt till."
+        ]
+      },
+      "tags": [
+        "sambandsord"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "kopa-grisen-i-sacken",
+      "primary_form": "köpa grisen i säcken",
+      "gloss": "to buy a pig in a poke",
+      "extras": {
+        "literal": "to buy the pig in the sack",
+        "example": "Provkör bilen, köp inte grisen i säcken.",
+        "example_en": "Test-drive the car, don't buy a pig in a poke."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "tacksam",
+      "primary_form": "tacksam",
+      "gloss": "grateful",
+      "extras": {
+        "forms": {
+          "en": "tacksam",
+          "ett": "tacksamt",
+          "pl": "tacksamma"
+        },
+        "example": "Vi är så tacksamma för hjälpen.",
+        "example_en": "We're so grateful for the help."
+      },
+      "tags": [
+        "adjektiv",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "vad-tycker-du",
+      "primary_form": "vad tycker du?",
+      "gloss": "what do you think?",
+      "extras": {
+        "example": "Vad tycker du om förslaget?",
+        "example_en": "What do you think of the proposal?"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "arhundrade",
+      "primary_form": "århundrade",
+      "gloss": "century",
+      "extras": {
+        "article": "ett",
+        "definite": "århundradet",
+        "plural": "århundraden",
+        "example": "Det tog nästan ett århundrade att bygga kyrkan.",
+        "example_en": "It took almost a century to build the church."
+      },
+      "tags": [
+        "society",
+        "ett"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "onska",
+      "primary_form": "önska",
+      "gloss": "to wish",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "önskat",
+        "past": "önskade",
+        "group": "1",
+        "example": "Jag önskar att jag kunde flyga.",
+        "example_en": "I wish I could fly."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "önskar",
+          "2s": "önskar",
+          "3s": "önskar",
+          "1p": "önskar",
+          "2p": "önskar",
+          "3p": "önskar"
+        },
+        "perfekt": {
+          "1s": "har önskat",
+          "2s": "har önskat",
+          "3s": "har önskat",
+          "1p": "har önskat",
+          "2p": "har önskat",
+          "3p": "har önskat"
+        },
+        "preteritum": {
+          "1s": "önskade",
+          "2s": "önskade",
+          "3s": "önskade",
+          "1p": "önskade",
+          "2p": "önskade",
+          "3p": "önskade"
+        },
+        "futurum": {
+          "1s": "kommer att önska",
+          "2s": "kommer att önska",
+          "3s": "kommer att önska",
+          "1p": "kommer att önska",
+          "2p": "kommer att önska",
+          "3p": "kommer att önska"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "viking",
+      "primary_form": "viking",
+      "gloss": "Viking",
+      "extras": {
+        "article": "en",
+        "definite": "vikingen",
+        "plural": "vikingar",
+        "example": "Vikingarna reste ända till Konstantinopel.",
+        "example_en": "The Vikings travelled all the way to Constantinople."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "det-stammer",
+      "primary_form": "det stämmer",
+      "gloss": "that's right",
+      "extras": {
+        "example": "Det stämmer, hon har bott här länge.",
+        "example_en": "That's right, she's lived here a long time."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "envis",
+      "primary_form": "envis",
+      "gloss": "stubborn",
+      "extras": {
+        "forms": {
+          "en": "envis",
+          "ett": "envist",
+          "pl": "envisa"
+        },
+        "example": "Min dotter är lika envis som jag.",
+        "example_en": "My daughter is as stubborn as I am."
+      },
+      "tags": [
+        "adjektiv",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "dra-alla-over-en-kam",
+      "primary_form": "dra alla över en kam",
+      "gloss": "to tar everyone with the same brush",
+      "extras": {
+        "literal": "to pull everyone over one comb",
+        "example": "Man ska inte dra alla över en kam.",
+        "example_en": "You shouldn't tar everyone with the same brush."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "utan",
+      "primary_form": "utan",
+      "gloss": "but (rather), after a negative",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Han är inte lat utan trött.",
+        "example_en": "He isn't lazy, just tired."
+      },
+      "tags": [
+        "konjunktioner"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "tradition",
+      "primary_form": "tradition",
+      "gloss": "tradition",
+      "extras": {
+        "article": "en",
+        "definite": "traditionen",
+        "plural": "traditioner",
+        "example": "Midsommar är en viktig tradition i Sverige.",
+        "example_en": "Midsummer is an important tradition in Sweden."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "dromma",
+      "primary_form": "drömma",
+      "gloss": "to dream",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "drömt",
+        "past": "drömde",
+        "group": "2a",
+        "example": "Jag drömmer om att bo vid havet.",
+        "example_en": "I dream of living by the sea."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "drömmer",
+          "2s": "drömmer",
+          "3s": "drömmer",
+          "1p": "drömmer",
+          "2p": "drömmer",
+          "3p": "drömmer"
+        },
+        "perfekt": {
+          "1s": "har drömt",
+          "2s": "har drömt",
+          "3s": "har drömt",
+          "1p": "har drömt",
+          "2p": "har drömt",
+          "3p": "har drömt"
+        },
+        "preteritum": {
+          "1s": "drömde",
+          "2s": "drömde",
+          "3s": "drömde",
+          "1p": "drömde",
+          "2p": "drömde",
+          "3p": "drömde"
+        },
+        "futurum": {
+          "1s": "kommer att drömma",
+          "2s": "kommer att drömma",
+          "3s": "kommer att drömma",
+          "1p": "kommer att drömma",
+          "2p": "kommer att drömma",
+          "3p": "kommer att drömma"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "jag-ar-inte-sa-saker-pa-det",
+      "primary_form": "jag är inte så säker på det",
+      "gloss": "I'm not so sure about that",
+      "extras": {
+        "example": "Billigare? Jag är inte så säker på det.",
+        "example_en": "Cheaper? I'm not so sure about that."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "kultur",
+      "primary_form": "kultur",
+      "gloss": "culture",
+      "extras": {
+        "article": "en",
+        "definite": "kulturen",
+        "plural": "kulturer",
+        "example": "Jag är intresserad av svensk kultur.",
+        "example_en": "I'm interested in Swedish culture."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "arlig",
+      "primary_form": "ärlig",
+      "gloss": "honest",
+      "extras": {
+        "forms": {
+          "en": "ärlig",
+          "ett": "ärligt",
+          "pl": "ärliga"
+        },
+        "example": "Var ärlig, vad tycker du egentligen?",
+        "example_en": "Be honest, what do you really think?"
+      },
+      "tags": [
+        "adjektiv",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "gora-en-hona-av-en-fjader",
+      "primary_form": "göra en höna av en fjäder",
+      "gloss": "to make a mountain out of a molehill",
+      "extras": {
+        "literal": "to make a hen out of a feather",
+        "example": "Nu gör du en höna av en fjäder.",
+        "example_en": "Now you're making a mountain out of a molehill."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "asikt",
+      "primary_form": "åsikt",
+      "gloss": "opinion, view",
+      "extras": {
+        "article": "en",
+        "definite": "åsikten",
+        "plural": "åsikter",
+        "example": "Vad är din åsikt om saken?",
+        "example_en": "What's your view on the matter?"
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "det-kan-man-diskutera",
+      "primary_form": "det kan man diskutera",
+      "gloss": "that's debatable",
+      "extras": {
+        "literal": "that can one discuss",
+        "example": "Är det bättre? Det kan man diskutera.",
+        "example_en": "Is it better? That's debatable."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "valja",
+      "primary_form": "välja",
+      "gloss": "to choose",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "valt",
+        "past": "valde",
+        "group": "4",
+        "example": "Vilken skulle du välja?",
+        "example_en": "Which one would you choose?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "väljer",
+          "2s": "väljer",
+          "3s": "väljer",
+          "1p": "väljer",
+          "2p": "väljer",
+          "3p": "väljer"
+        },
+        "perfekt": {
+          "1s": "har valt",
+          "2s": "har valt",
+          "3s": "har valt",
+          "1p": "har valt",
+          "2p": "har valt",
+          "3p": "har valt"
+        },
+        "preteritum": {
+          "1s": "valde",
+          "2s": "valde",
+          "3s": "valde",
+          "1p": "valde",
+          "2p": "valde",
+          "3p": "valde"
+        },
+        "futurum": {
+          "1s": "ska välja",
+          "2s": "ska välja",
+          "3s": "ska välja",
+          "1p": "ska välja",
+          "2p": "ska välja",
+          "3p": "ska välja"
+        }
+      }
+    },
+    {
+      "kind": "conjunction",
+      "id": "sa-att",
+      "primary_form": "så att",
+      "gloss": "so that",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Jag pratar långsamt så att du förstår.",
+        "example_en": "I'm speaking slowly so that you understand."
+      },
+      "tags": [
+        "konjunktioner"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "argument",
+      "primary_form": "argument",
+      "gloss": "argument (a reason, not a quarrel)",
+      "extras": {
+        "article": "ett",
+        "definite": "argumentet",
+        "plural": "argument",
+        "example": "Det är ett bra argument.",
+        "example_en": "That's a good argument."
+      },
+      "tags": [
+        "society",
+        "ett"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "det-ar-en-bra-poang",
+      "primary_form": "det är en bra poäng",
+      "gloss": "that's a good point",
+      "extras": {
+        "example": "Det är en bra poäng, du har rätt.",
+        "example_en": "That's a good point, you're right."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "modig",
+      "primary_form": "modig",
+      "gloss": "brave",
+      "extras": {
+        "forms": {
+          "en": "modig",
+          "ett": "modigt",
+          "pl": "modiga"
+        },
+        "example": "Det var modigt av dig att säga ifrån.",
+        "example_en": "That was brave of you to speak up."
+      },
+      "tags": [
+        "adjektiv",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fordel",
+      "primary_form": "fördel",
+      "gloss": "advantage",
+      "extras": {
+        "article": "en",
+        "definite": "fördelen",
+        "plural": "fördelar",
+        "example": "En fördel med staden är att allt ligger nära.",
+        "example_en": "One advantage of the city is that everything's close by."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "forestalla-sig",
+      "primary_form": "föreställa sig",
+      "gloss": "to imagine",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "föreställt",
+        "past": "föreställde",
+        "group": "2a",
+        "reflexive": true,
+        "example": "Jag kan inte föreställa mig ett liv utan musik.",
+        "example_en": "I can't imagine a life without music."
+      },
+      "tags": [
+        "presens",
+        "reflexiva-verb"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "föreställer mig",
+          "2s": "föreställer dig",
+          "3s": "föreställer sig",
+          "1p": "föreställer oss",
+          "2p": "föreställer er",
+          "3p": "föreställer sig"
+        },
+        "perfekt": {
+          "1s": "har föreställt mig",
+          "2s": "har föreställt dig",
+          "3s": "har föreställt sig",
+          "1p": "har föreställt oss",
+          "2p": "har föreställt er",
+          "3p": "har föreställt sig"
+        },
+        "preteritum": {
+          "1s": "föreställde mig",
+          "2s": "föreställde dig",
+          "3s": "föreställde sig",
+          "1p": "föreställde oss",
+          "2p": "föreställde er",
+          "3p": "föreställde sig"
+        },
+        "futurum": {
+          "1s": "kommer att föreställa mig",
+          "2s": "kommer att föreställa dig",
+          "3s": "kommer att föreställa sig",
+          "1p": "kommer att föreställa oss",
+          "2p": "kommer att föreställa er",
+          "3p": "kommer att föreställa sig"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "ha-en-rav-bakom-orat",
+      "primary_form": "ha en räv bakom örat",
+      "gloss": "to be sly, to have something up your sleeve",
+      "extras": {
+        "literal": "to have a fox behind the ear",
+        "example": "Akta dig för honom, han har en räv bakom örat.",
+        "example_en": "Watch out for him, he's a sly one."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "i-och-for-sig",
+      "primary_form": "i och för sig",
+      "gloss": "admittedly, in itself",
+      "extras": {
+        "literal": "in and for itself",
+        "example": "I och för sig har du rätt.",
+        "example_en": "Admittedly, you're right."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "nackdel",
+      "primary_form": "nackdel",
+      "gloss": "disadvantage, downside",
+      "extras": {
+        "article": "en",
+        "definite": "nackdelen",
+        "plural": "nackdelar",
+        "example": "Nackdelen är att det tar lång tid.",
+        "example_en": "The downside is that it takes a long time."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "trots-att",
+      "primary_form": "trots att",
+      "gloss": "even though",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Vi gick ut trots att det regnade.",
+        "example_en": "We went out even though it was raining.",
+        "example_alternatives": [
+          "Trots att det regnade gick vi ut."
+        ]
+      },
+      "tags": [
+        "konjunktioner"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "sjalvisk",
+      "primary_form": "självisk",
+      "gloss": "selfish",
+      "extras": {
+        "forms": {
+          "en": "självisk",
+          "ett": "själviskt",
+          "pl": "själviska"
+        },
+        "example": "Det var lite själviskt av honom.",
+        "example_en": "That was a bit selfish of him."
+      },
+      "tags": [
+        "adjektiv",
+        "feelings"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "spara",
+      "primary_form": "spara",
+      "gloss": "to save (money, time)",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "sparat",
+        "past": "sparade",
+        "group": "1",
+        "example": "Om vi sparade varje månad skulle vi ha råd.",
+        "example_en": "If we saved every month, we could afford it."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "sparar",
+          "2s": "sparar",
+          "3s": "sparar",
+          "1p": "sparar",
+          "2p": "sparar",
+          "3p": "sparar"
+        },
+        "perfekt": {
+          "1s": "har sparat",
+          "2s": "har sparat",
+          "3s": "har sparat",
+          "1p": "har sparat",
+          "2p": "har sparat",
+          "3p": "har sparat"
+        },
+        "preteritum": {
+          "1s": "sparade",
+          "2s": "sparade",
+          "3s": "sparade",
+          "1p": "sparade",
+          "2p": "sparade",
+          "3p": "sparade"
+        },
+        "futurum": {
+          "1s": "ska spara",
+          "2s": "ska spara",
+          "3s": "ska spara",
+          "1p": "ska spara",
+          "2p": "ska spara",
+          "3p": "ska spara"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "diskussion",
+      "primary_form": "diskussion",
+      "gloss": "discussion",
+      "extras": {
+        "article": "en",
+        "definite": "diskussionen",
+        "plural": "diskussioner",
+        "example": "Vi hade en lång diskussion om framtiden.",
+        "example_en": "We had a long discussion about the future."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "sa-att-saga",
+      "primary_form": "så att säga",
+      "gloss": "so to speak",
+      "extras": {
+        "example": "Det var så att säga en nystart.",
+        "example_en": "It was a fresh start, so to speak."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "sitta-med-skagget-i-brevladan",
+      "primary_form": "sitta med skägget i brevlådan",
+      "gloss": "to be caught out, to be stuck",
+      "extras": {
+        "literal": "to sit with your beard in the letterbox",
+        "example": "Nu sitter vi där med skägget i brevlådan.",
+        "example_en": "Now we're stuck."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "problem",
+      "primary_form": "problem",
+      "gloss": "problem",
+      "extras": {
+        "article": "ett",
+        "definite": "problemet",
+        "plural": "problem",
+        "example": "Det är inget problem!",
+        "example_en": "It's no problem!"
+      },
+      "tags": [
+        "society",
+        "ett"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "flytta",
+      "primary_form": "flytta",
+      "gloss": "to move (house)",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "flyttat",
+        "past": "flyttade",
+        "group": "1",
+        "example": "Vi skulle gärna flytta till landet.",
+        "example_en": "We'd love to move to the country."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "flyttar",
+          "2s": "flyttar",
+          "3s": "flyttar",
+          "1p": "flyttar",
+          "2p": "flyttar",
+          "3p": "flyttar"
+        },
+        "perfekt": {
+          "1s": "har flyttat",
+          "2s": "har flyttat",
+          "3s": "har flyttat",
+          "1p": "har flyttat",
+          "2p": "har flyttat",
+          "3p": "har flyttat"
+        },
+        "preteritum": {
+          "1s": "flyttade",
+          "2s": "flyttade",
+          "3s": "flyttade",
+          "1p": "flyttade",
+          "2p": "flyttade",
+          "3p": "flyttade"
+        },
+        "futurum": {
+          "1s": "ska flytta",
+          "2s": "ska flytta",
+          "3s": "ska flytta",
+          "1p": "ska flytta",
+          "2p": "ska flytta",
+          "3p": "ska flytta"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "faktiskt",
+      "primary_form": "faktiskt",
+      "gloss": "actually, in fact",
+      "extras": {
+        "example": "Jag tycker faktiskt om surströmming.",
+        "example_en": "I actually like fermented herring."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "viktig",
+      "primary_form": "viktig",
+      "gloss": "important",
+      "extras": {
+        "forms": {
+          "en": "viktig",
+          "ett": "viktigt",
+          "pl": "viktiga"
+        },
+        "example": "Det är viktigt att sova ordentligt.",
+        "example_en": "It's important to get enough sleep."
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "losning",
+      "primary_form": "lösning",
+      "gloss": "solution",
+      "extras": {
+        "article": "en",
+        "definite": "lösningen",
+        "plural": "lösningar",
+        "example": "Vi måste hitta en lösning.",
+        "example_en": "We need to find a solution."
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "ifall",
+      "primary_form": "ifall",
+      "gloss": "in case; if",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Ta med ett paraply ifall det börjar regna.",
+        "example_en": "Take an umbrella in case it starts raining."
+      },
+      "tags": [
+        "konjunktioner"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "lova-guld-och-grona-skogar",
+      "primary_form": "lova guld och gröna skogar",
+      "gloss": "to promise the earth",
+      "extras": {
+        "literal": "to promise gold and green forests",
+        "example": "Politikerna lovar guld och gröna skogar.",
+        "example_en": "The politicians are promising the earth."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "anledning",
+      "primary_form": "anledning",
+      "gloss": "reason",
+      "extras": {
+        "article": "en",
+        "definite": "anledningen",
+        "plural": "anledningar",
+        "example": "Finns det någon anledning att oroa sig?",
+        "example_en": "Is there any reason to worry?"
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "jag-har-andrat-mig",
+      "primary_form": "jag har ändrat mig",
+      "gloss": "I've changed my mind",
+      "extras": {
+        "example": "Jag har ändrat mig, jag följer med ändå.",
+        "example_en": "I've changed my mind, I'm coming after all."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "klaga",
+      "primary_form": "klaga",
+      "gloss": "to complain",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "klagat",
+        "past": "klagade",
+        "group": "1",
+        "example": "Han klagar alltid på vädret.",
+        "example_en": "He's always complaining about the weather."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "klagar",
+          "2s": "klagar",
+          "3s": "klagar",
+          "1p": "klagar",
+          "2p": "klagar",
+          "3p": "klagar"
+        },
+        "perfekt": {
+          "1s": "har klagat",
+          "2s": "har klagat",
+          "3s": "har klagat",
+          "1p": "har klagat",
+          "2p": "har klagat",
+          "3p": "har klagat"
+        },
+        "preteritum": {
+          "1s": "klagade",
+          "2s": "klagade",
+          "3s": "klagade",
+          "1p": "klagade",
+          "2p": "klagade",
+          "3p": "klagade"
+        },
+        "futurum": {
+          "1s": "kommer att klaga",
+          "2s": "kommer att klaga",
+          "3s": "kommer att klaga",
+          "1p": "kommer att klaga",
+          "2p": "kommer att klaga",
+          "3p": "kommer att klaga"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "nyhet",
+      "primary_form": "nyhet",
+      "gloss": "piece of news; novelty",
+      "extras": {
+        "article": "en",
+        "definite": "nyheten",
+        "plural": "nyheter",
+        "example": "Har du hört nyheten?",
+        "example_en": "Have you heard the news?"
+      },
+      "tags": [
+        "society",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "mojlig",
+      "primary_form": "möjlig",
+      "gloss": "possible",
+      "extras": {
+        "forms": {
+          "en": "möjlig",
+          "ett": "möjligt",
+          "pl": "möjliga"
+        },
+        "example": "Är det möjligt att boka en tid i dag?",
+        "example_en": "Is it possible to book an appointment today?"
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "det-ar-inte-sakert",
+      "primary_form": "det är inte säkert",
+      "gloss": "that's not certain",
+      "extras": {
+        "example": "Det är inte säkert att han kommer.",
+        "example_en": "It's not certain that he's coming."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "glass",
+      "primary_form": "glass",
+      "gloss": "ice cream",
+      "extras": {
+        "article": "en",
+        "definite": "glassen",
+        "plural": "glassar",
+        "example": "Ska vi köpa en glass?",
+        "example_en": "Shall we buy an ice cream?"
+      },
+      "tags": [
+        "falska-vanner",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "inte-ha-alla-hastar-hemma",
+      "primary_form": "inte ha alla hästar hemma",
+      "gloss": "to not be all there",
+      "extras": {
+        "literal": "to not have all your horses at home",
+        "example": "Han har inte alla hästar hemma.",
+        "example_en": "He's not quite all there."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "skammas",
+      "primary_form": "skämmas",
+      "gloss": "to be ashamed, to be embarrassed",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "skämts",
+        "past": "skämdes",
+        "group": "2a",
+        "example": "Jag skäms över att jag glömde din födelsedag.",
+        "example_en": "I'm embarrassed that I forgot your birthday."
+      },
+      "tags": [
+        "presens",
+        "s-verb"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "skäms",
+          "2s": "skäms",
+          "3s": "skäms",
+          "1p": "skäms",
+          "2p": "skäms",
+          "3p": "skäms"
+        },
+        "perfekt": {
+          "1s": "har skämts",
+          "2s": "har skämts",
+          "3s": "har skämts",
+          "1p": "har skämts",
+          "2p": "har skämts",
+          "3p": "har skämts"
+        },
+        "preteritum": {
+          "1s": "skämdes",
+          "2s": "skämdes",
+          "3s": "skämdes",
+          "1p": "skämdes",
+          "2p": "skämdes",
+          "3p": "skämdes"
+        },
+        "futurum": {
+          "1s": "kommer att skämmas",
+          "2s": "kommer att skämmas",
+          "3s": "kommer att skämmas",
+          "1p": "kommer att skämmas",
+          "2p": "kommer att skämmas",
+          "3p": "kommer att skämmas"
+        }
+      }
+    },
+    {
+      "kind": "conjunction",
+      "id": "sa-fort",
+      "primary_form": "så fort",
+      "gloss": "as soon as",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Ring mig så fort du är framme.",
+        "example_en": "Call me as soon as you get there."
+      },
+      "tags": [
+        "konjunktioner"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "glas",
+      "primary_form": "glas",
+      "gloss": "glass (to drink from); glass",
+      "extras": {
+        "article": "ett",
+        "definite": "glaset",
+        "plural": "glas",
+        "example": "Ställ glasen i diskmaskinen.",
+        "example_en": "Put the glasses in the dishwasher."
+      },
+      "tags": [
+        "falska-vanner",
+        "ett"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "nodvandig",
+      "primary_form": "nödvändig",
+      "gloss": "necessary",
+      "extras": {
+        "forms": {
+          "en": "nödvändig",
+          "ett": "nödvändigt",
+          "pl": "nödvändiga"
+        },
+        "example": "Är det verkligen nödvändigt?",
+        "example_en": "Is that really necessary?"
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "jag-tvivlar-pa-det",
+      "primary_form": "jag tvivlar på det",
+      "gloss": "I doubt it",
+      "extras": {
+        "example": "Kommer han i tid? Jag tvivlar på det.",
+        "example_en": "Will he be on time? I doubt it."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fart",
+      "primary_form": "fart",
+      "gloss": "speed",
+      "extras": {
+        "article": "en",
+        "definite": "farten",
+        "example": "Sänk farten nära skolan!",
+        "example_en": "Slow down near the school!"
+      },
+      "tags": [
+        "falska-vanner",
+        "en"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "oroa-sig",
+      "primary_form": "oroa sig",
+      "gloss": "to worry",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "oroat",
+        "past": "oroade",
+        "group": "1",
+        "reflexive": true,
+        "example": "Mamma oroar sig alltid för mig.",
+        "example_en": "Mum always worries about me."
+      },
+      "tags": [
+        "presens",
+        "reflexiva-verb"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "oroar mig",
+          "2s": "oroar dig",
+          "3s": "oroar sig",
+          "1p": "oroar oss",
+          "2p": "oroar er",
+          "3p": "oroar sig"
+        },
+        "perfekt": {
+          "1s": "har oroat mig",
+          "2s": "har oroat dig",
+          "3s": "har oroat sig",
+          "1p": "har oroat oss",
+          "2p": "har oroat er",
+          "3p": "har oroat sig"
+        },
+        "preteritum": {
+          "1s": "oroade mig",
+          "2s": "oroade dig",
+          "3s": "oroade sig",
+          "1p": "oroade oss",
+          "2p": "oroade er",
+          "3p": "oroade sig"
+        },
+        "futurum": {
+          "1s": "kommer att oroa mig",
+          "2s": "kommer att oroa dig",
+          "3s": "kommer att oroa sig",
+          "1p": "kommer att oroa oss",
+          "2p": "kommer att oroa er",
+          "3p": "kommer att oroa sig"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "ha-is-i-magen",
+      "primary_form": "ha is i magen",
+      "gloss": "to keep your cool",
+      "extras": {
+        "literal": "to have ice in your stomach",
+        "example": "Man måste ha is i magen när man förhandlar.",
+        "example_en": "You have to keep your cool when you negotiate."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "det-ordnar-sig",
+      "primary_form": "det ordnar sig",
+      "gloss": "it'll work out",
+      "extras": {
+        "literal": "it arranges itself",
+        "example": "Oroa dig inte, det ordnar sig.",
+        "example_en": "Don't worry, it'll work out."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "novell",
+      "primary_form": "novell",
+      "gloss": "short story",
+      "extras": {
+        "article": "en",
+        "definite": "novellen",
+        "plural": "noveller",
+        "example": "Hon har skrivit en samling noveller.",
+        "example_en": "She has written a collection of short stories."
+      },
+      "tags": [
+        "falska-vanner",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "rattvis",
+      "primary_form": "rättvis",
+      "gloss": "fair",
+      "extras": {
+        "forms": {
+          "en": "rättvis",
+          "ett": "rättvist",
+          "pl": "rättvisa"
+        },
+        "example": "Det är inte rättvist!",
+        "example_en": "It's not fair!"
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "som-om",
+      "primary_form": "som om",
+      "gloss": "as if",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Han låtsas som om han inte hör.",
+        "example_en": "He's pretending he can't hear."
+      },
+      "tags": [
+        "konjunktioner"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "roman",
+      "primary_form": "roman",
+      "gloss": "novel",
+      "extras": {
+        "article": "en",
+        "definite": "romanen",
+        "plural": "romaner",
+        "example": "Jag läser en tjock roman just nu.",
+        "example_en": "I'm reading a thick novel at the moment."
+      },
+      "tags": [
+        "falska-vanner",
+        "en"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "hur-som-helst",
+      "primary_form": "hur som helst",
+      "gloss": "anyway; any old how",
+      "extras": {
+        "literal": "how as you like",
+        "example": "Hur som helst, vi ses i morgon.",
+        "example_en": "Anyway, see you tomorrow."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "bry-sig-om",
+      "primary_form": "bry sig om",
+      "gloss": "to care about",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "brytt",
+        "past": "brydde",
+        "group": "3",
+        "particle": "om",
+        "reflexive": true,
+        "example": "Han bryr sig inte om vad andra tycker.",
+        "example_en": "He doesn't care what other people think."
+      },
+      "tags": [
+        "presens",
+        "reflexiva-verb"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "bryr mig om",
+          "2s": "bryr dig om",
+          "3s": "bryr sig om",
+          "1p": "bryr oss om",
+          "2p": "bryr er om",
+          "3p": "bryr sig om"
+        },
+        "perfekt": {
+          "1s": "har brytt mig om",
+          "2s": "har brytt dig om",
+          "3s": "har brytt sig om",
+          "1p": "har brytt oss om",
+          "2p": "har brytt er om",
+          "3p": "har brytt sig om"
+        },
+        "preteritum": {
+          "1s": "brydde mig om",
+          "2s": "brydde dig om",
+          "3s": "brydde sig om",
+          "1p": "brydde oss om",
+          "2p": "brydde er om",
+          "3p": "brydde sig om"
+        },
+        "futurum": {
+          "1s": "kommer att bry mig om",
+          "2s": "kommer att bry dig om",
+          "3s": "kommer att bry sig om",
+          "1p": "kommer att bry oss om",
+          "2p": "kommer att bry er om",
+          "3p": "kommer att bry sig om"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "det-ar-inte-hela-varlden",
+      "primary_form": "det är inte hela världen",
+      "gloss": "it's not the end of the world",
+      "extras": {
+        "literal": "it's not the whole world",
+        "example": "Missade du bussen? Det är inte hela världen.",
+        "example_en": "Did you miss the bus? It's not the end of the world."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "allemansratt",
+      "primary_form": "allemansrätt",
+      "gloss": "the right of public access (to nature)",
+      "extras": {
+        "article": "en",
+        "definite": "allemansrätten",
+        "example": "Allemansrätten gör att vi får tälta här.",
+        "example_en": "The right of public access means we can camp here."
+      },
+      "tags": [
+        "idioms",
+        "en"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "konstig",
+      "primary_form": "konstig",
+      "gloss": "strange, weird",
+      "extras": {
+        "forms": {
+          "en": "konstig",
+          "ett": "konstigt",
+          "pl": "konstiga"
+        },
+        "example": "Vilket konstigt väder!",
+        "example_en": "What strange weather!"
+      },
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "pa-riktigt",
+      "primary_form": "på riktigt",
+      "gloss": "for real, really",
+      "extras": {
+        "literal": "on real",
+        "example": "Menar du det på riktigt?",
+        "example_en": "Do you really mean it?"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "erkanna",
+      "primary_form": "erkänna",
+      "gloss": "to admit",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "erkänt",
+        "past": "erkände",
+        "group": "2a",
+        "example": "Jag erkänner att jag hade fel.",
+        "example_en": "I admit I was wrong."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "erkänner",
+          "2s": "erkänner",
+          "3s": "erkänner",
+          "1p": "erkänner",
+          "2p": "erkänner",
+          "3p": "erkänner"
+        },
+        "perfekt": {
+          "1s": "har erkänt",
+          "2s": "har erkänt",
+          "3s": "har erkänt",
+          "1p": "har erkänt",
+          "2p": "har erkänt",
+          "3p": "har erkänt"
+        },
+        "preteritum": {
+          "1s": "erkände",
+          "2s": "erkände",
+          "3s": "erkände",
+          "1p": "erkände",
+          "2p": "erkände",
+          "3p": "erkände"
+        },
+        "futurum": {
+          "1s": "ska erkänna",
+          "2s": "ska erkänna",
+          "3s": "ska erkänna",
+          "1p": "ska erkänna",
+          "2p": "ska erkänna",
+          "3p": "ska erkänna"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "jantelag",
+      "primary_form": "jantelag",
+      "gloss": "the Jante law (don't think you're special)",
+      "extras": {
+        "article": "en",
+        "definite": "jantelagen",
+        "example": "Jantelagen lever kvar i Sverige.",
+        "example_en": "The Jante law is still alive in Sweden."
+      },
+      "tags": [
+        "idioms",
+        "en"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "sa-lange",
+      "primary_form": "så länge",
+      "gloss": "as long as",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Du får stanna så länge du vill.",
+        "example_en": "You can stay as long as you like."
+      },
+      "tags": [
+        "konjunktioner"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "det-var-pa-tiden",
+      "primary_form": "det var på tiden",
+      "gloss": "about time too",
+      "extras": {
+        "literal": "it was on the time",
+        "example": "Har bussen kommit? Det var på tiden!",
+        "example_en": "Has the bus come? About time!"
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "smultronstalle",
+      "primary_form": "smultronställe",
+      "gloss": "a special place of your own",
+      "extras": {
+        "article": "ett",
+        "definite": "smultronstället",
+        "plural": "smultronställen",
+        "example": "Den här lilla stranden är mitt smultronställe.",
+        "example_en": "This little beach is my special place."
+      },
+      "tags": [
+        "idioms",
+        "ett"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "borta-bra-men-hemma-bast",
+      "primary_form": "borta bra men hemma bäst",
+      "gloss": "east or west, home is best",
+      "extras": {
+        "literal": "away is good but home is best",
+        "example": "Skönt att vara hemma igen, borta bra men hemma bäst.",
+        "example_en": "Nice to be home again: east or west, home is best."
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "genial",
+      "primary_form": "genial",
+      "gloss": "brilliant, ingenious",
+      "extras": {
+        "forms": {
+          "en": "genial",
+          "ett": "genialt",
+          "pl": "geniala"
+        },
+        "example": "Vilken genial idé!",
+        "example_en": "What a brilliant idea!"
+      },
+      "tags": [
+        "adjektiv",
+        "falska-vanner"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "paverka",
+      "primary_form": "påverka",
+      "gloss": "to affect, to influence",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "påverkat",
+        "past": "påverkade",
+        "group": "1",
+        "example": "Vädret påverkar mitt humör.",
+        "example_en": "The weather affects my mood."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "påverkar",
+          "2s": "påverkar",
+          "3s": "påverkar",
+          "1p": "påverkar",
+          "2p": "påverkar",
+          "3p": "påverkar"
+        },
+        "perfekt": {
+          "1s": "har påverkat",
+          "2s": "har påverkat",
+          "3s": "har påverkat",
+          "1p": "har påverkat",
+          "2p": "har påverkat",
+          "3p": "har påverkat"
+        },
+        "preteritum": {
+          "1s": "påverkade",
+          "2s": "påverkade",
+          "3s": "påverkade",
+          "1p": "påverkade",
+          "2p": "påverkade",
+          "3p": "påverkade"
+        },
+        "futurum": {
+          "1s": "kommer att påverka",
+          "2s": "kommer att påverka",
+          "3s": "kommer att påverka",
+          "1p": "kommer att påverka",
+          "2p": "kommer att påverka",
+          "3p": "kommer att påverka"
+        }
+      }
+    },
+    {
+      "kind": "noun",
+      "id": "fredagsmys",
+      "primary_form": "fredagsmys",
+      "gloss": "a cosy Friday night in",
+      "extras": {
+        "article": "ett",
+        "definite": "fredagsmyset",
+        "example": "Vi har fredagsmys med tacos och film.",
+        "example_en": "We're having a cosy Friday night in with tacos and a film."
+      },
+      "tags": [
+        "idioms",
+        "ett"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "sa-ar-det-bara",
+      "primary_form": "så är det bara",
+      "gloss": "that's just how it is",
+      "extras": {
+        "literal": "so is it only",
+        "example": "Vintern är mörk, så är det bara.",
+        "example_en": "Winter is dark, that's just how it is."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "gokotta",
+      "primary_form": "gökotta",
+      "gloss": "going out at dawn to hear the birds",
+      "extras": {
+        "article": "en",
+        "definite": "gökottan",
+        "plural": "gökottor",
+        "example": "Vi gick upp klockan fyra för en gökotta.",
+        "example_en": "We got up at four to go out and hear the birds."
+      },
+      "tags": [
+        "idioms",
+        "en"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "darfor-att",
+      "primary_form": "därför att",
+      "gloss": "because",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Jag stannade hemma därför att jag var sjuk.",
+        "example_en": "I stayed at home because I was ill."
+      },
+      "tags": [
+        "konjunktioner"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "salja-skinnet-forran-bjornen-ar-skjuten",
+      "primary_form": "sälja skinnet förrän björnen är skjuten",
+      "gloss": "to count your chickens before they're hatched",
+      "extras": {
+        "literal": "to sell the skin before the bear is shot",
+        "example": "Sälj inte skinnet förrän björnen är skjuten!",
+        "example_en": "Don't count your chickens before they're hatched!"
+      },
+      "tags": [
+        "idioms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "konsekvent",
+      "primary_form": "konsekvent",
+      "gloss": "consistent",
+      "extras": {
+        "forms": {
+          "en": "konsekvent",
+          "ett": "konsekvent",
+          "pl": "konsekventa"
+        },
+        "example": "Man måste vara konsekvent med barn.",
+        "example_en": "You have to be consistent with children."
+      },
+      "tags": [
+        "adjektiv",
+        "falska-vanner"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "rosta",
+      "primary_form": "rösta",
+      "gloss": "to vote",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "röstat",
+        "past": "röstade",
+        "group": "1",
+        "example": "Vem ska du rösta på i valet?",
+        "example_en": "Who are you voting for in the election?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "röstar",
+          "2s": "röstar",
+          "3s": "röstar",
+          "1p": "röstar",
+          "2p": "röstar",
+          "3p": "röstar"
+        },
+        "perfekt": {
+          "1s": "har röstat",
+          "2s": "har röstat",
+          "3s": "har röstat",
+          "1p": "har röstat",
+          "2p": "har röstat",
+          "3p": "har röstat"
+        },
+        "preteritum": {
+          "1s": "röstade",
+          "2s": "röstade",
+          "3s": "röstade",
+          "1p": "röstade",
+          "2p": "röstade",
+          "3p": "röstade"
+        },
+        "futurum": {
+          "1s": "ska rösta",
+          "2s": "ska rösta",
+          "3s": "ska rösta",
+          "1p": "ska rösta",
+          "2p": "ska rösta",
+          "3p": "ska rösta"
+        }
+      }
+    },
+    {
+      "kind": "phrase",
+      "id": "ta-det-inte-personligt",
+      "primary_form": "ta det inte personligt",
+      "gloss": "don't take it personally",
+      "extras": {
+        "example": "Ta det inte personligt, han är trött.",
+        "example_en": "Don't take it personally, he's tired."
+      },
+      "tags": [
+        "expressions"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "mellanmal",
+      "primary_form": "mellanmål",
+      "gloss": "snack (between meals)",
+      "extras": {
+        "article": "ett",
+        "definite": "mellanmålet",
+        "plural": "mellanmål",
+        "example": "Barnen äter en frukt som mellanmål.",
+        "example_en": "The children have a piece of fruit as a snack."
+      },
+      "tags": [
+        "idioms",
+        "ett"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "title": "Tror du att...?",
+      "word_ids": [
+        "tro",
+        "anse",
+        "undra",
+        "pasta",
+        "bestamma",
+        "forklara"
+      ],
+      "page_id": "sv-subordinate-clauses",
+      "subtitle": "To think, consider, wonder, claim and decide"
+    },
+    {
+      "title": "Vad har hänt?",
+      "word_ids": [
+        "handa",
+        "forsoka",
+        "lova",
+        "jamfora",
+        "upptacka",
+        "tjana"
+      ],
+      "page_id": "sv-relative-som",
+      "subtitle": "To happen, try, promise, compare and earn"
+    },
+    {
+      "title": "Val och beslut",
+      "word_ids": [
+        "samhalle",
+        "regering",
+        "riksdag",
+        "val",
+        "demokrati",
+        "skatt",
+        "kommun",
+        "beslut"
+      ],
+      "page_id": "sv-passive",
+      "subtitle": "Society, government, elections and taxes"
+    },
+    {
+      "title": "Om jag vore du",
+      "word_ids": [
+        "onska",
+        "dromma",
+        "valja",
+        "forestalla-sig",
+        "spara",
+        "flytta"
+      ],
+      "page_id": "sv-conditional",
+      "subtitle": "To wish, dream, choose, imagine and save"
+    },
+    {
+      "title": "Det vet du ju",
+      "word_ids": [
+        "det-vet-du-ju",
+        "du-kommer-val",
+        "det-gar-nog-bra",
+        "kom-igen-da",
+        "det-far-val-duga",
+        "jag-sa-ju-det"
+      ],
+      "page_id": "sv-modal-particles",
+      "subtitle": "You know, surely, probably, come on then"
+    },
+    {
+      "title": "Eller hur?",
+      "word_ids": [
+        "eller-hur",
+        "precis",
+        "jasa",
+        "det-ar-lugnt",
+        "typ",
+        "liksom",
+        "namen",
+        "nja"
+      ],
+      "page_id": "sv-spoken-swedish",
+      "subtitle": "Right?, exactly, oh really, like, well..."
+    },
+    {
+      "title": "Lagom",
+      "word_ids": [
+        "lagom",
+        "allemansratt",
+        "jantelag",
+        "smultronstalle",
+        "fredagsmys",
+        "gokotta",
+        "mellanmal"
+      ],
+      "page_id": "sv-untranslatables",
+      "subtitle": "Just right, the right to roam, Friday nights in"
+    },
+    {
+      "title": "Falska vänner",
+      "word_ids": [
+        "glass",
+        "glas",
+        "fart",
+        "novell",
+        "roman",
+        "aktuell",
+        "eventuell",
+        "gift",
+        "sensibel",
+        "sympatisk"
+      ],
+      "page_id": "sv-false-friends",
+      "subtitle": "Ice cream, glass, speed, short story, married"
+    },
+    {
+      "title": "Ingen ko på isen",
+      "word_ids": [
+        "det-ar-ingen-ko-pa-isen",
+        "glida-in-pa-en-rakmacka",
+        "ana-ugglor-i-mossen",
+        "sla-tva-flugor-i-en-small",
+        "ha-tummen-mitt-i-handen",
+        "inte-for-allt-smor-i-smaland",
+        "ga-som-katten-kring-het-grot",
+        "vara-ute-och-cykla"
+      ],
+      "page_id": "sv-idioms",
+      "subtitle": "No rush, smell a rat, two birds, all thumbs"
+    },
+    {
+      "title": "Hur känns det?",
+      "word_ids": [
+        "rolig",
+        "stressad",
+        "forvanad",
+        "avundsjuk",
+        "tacksam",
+        "envis",
+        "arlig",
+        "modig",
+        "sjalvisk"
+      ],
+      "subtitle": "Fun, stressed, surprised, jealous and brave"
+    },
+    {
+      "title": "Däremot",
+      "word_ids": [
+        "daremot",
+        "a-andra-sidan",
+        "trots-allt",
+        "alltsa",
+        "kort-sagt",
+        "for-ovrigt",
+        "till-exempel",
+        "slutligen"
+      ],
+      "subtitle": "On the other hand, after all, so, in short"
+    },
+    {
+      "title": "Samhället",
+      "word_ids": [
+        "politik",
+        "medborgare",
+        "rattighet",
+        "frihet",
+        "jamstalldhet",
+        "valfard",
+        "sjukvard",
+        "miljo",
+        "ekonomi"
+      ],
+      "subtitle": "Politics, citizens, rights, freedom, welfare"
+    },
+    {
+      "title": "Historia",
+      "word_ids": [
+        "historia",
+        "krig",
+        "fred",
+        "kung",
+        "drottning",
+        "arhundrade",
+        "viking",
+        "tradition",
+        "kultur"
+      ],
+      "subtitle": "History, war, peace, kings, queens, Vikings"
+    },
+    {
+      "title": "För- och nackdelar",
+      "word_ids": [
+        "asikt",
+        "argument",
+        "fordel",
+        "nackdel",
+        "diskussion",
+        "problem",
+        "losning",
+        "anledning",
+        "nyhet"
+      ],
+      "subtitle": "Opinions, arguments, pros and cons, news"
+    },
+    {
+      "title": "Köpa grisen i säcken",
+      "word_ids": [
+        "lagga-rabarber-pa-nagot",
+        "kopa-grisen-i-sacken",
+        "dra-alla-over-en-kam",
+        "gora-en-hona-av-en-fjader",
+        "ha-en-rav-bakom-orat",
+        "sitta-med-skagget-i-brevladan"
+      ],
+      "subtitle": "A pig in a poke, molehills and sly foxes"
+    },
+    {
+      "title": "Borta bra men hemma bäst",
+      "word_ids": [
+        "lova-guld-och-grona-skogar",
+        "inte-ha-alla-hastar-hemma",
+        "ha-is-i-magen",
+        "det-ar-inte-hela-varlden",
+        "borta-bra-men-hemma-bast",
+        "salja-skinnet-forran-bjornen-ar-skjuten"
+      ],
+      "subtitle": "Promising the earth, keeping cool, home"
+    },
+    {
+      "title": "Vad tycker du?",
+      "word_ids": [
+        "enligt-mig",
+        "vad-tycker-du",
+        "det-stammer",
+        "jag-ar-inte-sa-saker-pa-det",
+        "det-kan-man-diskutera",
+        "det-ar-en-bra-poang",
+        "i-och-for-sig",
+        "sa-att-saga",
+        "faktiskt"
+      ],
+      "subtitle": "In my opinion, that's right, I'm not sure"
+    },
+    {
+      "title": "Hur som helst",
+      "word_ids": [
+        "jag-har-andrat-mig",
+        "det-ar-inte-sakert",
+        "jag-tvivlar-pa-det",
+        "det-ordnar-sig",
+        "hur-som-helst",
+        "pa-riktigt",
+        "det-var-pa-tiden",
+        "sa-ar-det-bara",
+        "ta-det-inte-personligt"
+      ],
+      "subtitle": "Changing your mind, doubt, anyway, for real"
+    },
+    {
+      "title": "Konjunktioner",
+      "word_ids": [
+        "utan",
+        "sa-att",
+        "trots-att",
+        "ifall",
+        "sa-fort",
+        "som-om",
+        "sa-lange",
+        "darfor-att"
+      ],
+      "subtitle": "But rather, so that, even though, as if"
+    },
+    {
+      "title": "Viktigt och möjligt",
+      "word_ids": [
+        "viktig",
+        "mojlig",
+        "nodvandig",
+        "rattvis",
+        "konstig",
+        "genial",
+        "konsekvent"
+      ],
+      "subtitle": "Important, possible, necessary, fair, odd"
+    },
+    {
+      "title": "Klaga och rösta",
+      "word_ids": [
+        "klaga",
+        "skammas",
+        "oroa-sig",
+        "bry-sig-om",
+        "erkanna",
+        "paverka",
+        "rosta"
+      ],
+      "subtitle": "To complain, be ashamed, worry, care, vote"
+    }
+  ]
+}

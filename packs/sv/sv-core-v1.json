@@ -1,0 +1,838 @@
+{
+  "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
+  "id": "sv-core-v1",
+  "version": 1,
+  "language": "sv",
+  "name": "Svenska · Kärnord",
+  "author": "Max Boksem",
+  "license": "CC-BY-SA-4.0",
+  "profile_delta": [
+    {
+      "id": "home",
+      "kind": "topic",
+      "label": "Hem",
+      "labelGloss": "home",
+      "dependsOn": [
+        "artiklar"
+      ]
+    },
+    {
+      "id": "food",
+      "kind": "topic",
+      "label": "Mat",
+      "labelGloss": "food",
+      "dependsOn": [
+        "artiklar"
+      ]
+    },
+    {
+      "id": "sambandsord",
+      "kind": "topic",
+      "label": "Sambandsord",
+      "labelGloss": "connectives",
+      "dependsOn": [
+        "conn-contrast",
+        "conn-cause",
+        "conn-addition",
+        "conn-sequence"
+      ]
+    },
+    {
+      "id": "konjunktioner",
+      "kind": "topic",
+      "label": "Konjunktioner",
+      "labelGloss": "conjunctions",
+      "dependsOn": [
+        "conj-coordinating",
+        "conj-subordinating"
+      ]
+    },
+    {
+      "id": "animals",
+      "kind": "topic",
+      "label": "Djur",
+      "labelGloss": "animals",
+      "dependsOn": [
+        "artiklar"
+      ]
+    },
+    {
+      "id": "nature",
+      "kind": "topic",
+      "label": "Natur",
+      "labelGloss": "nature",
+      "dependsOn": [
+        "artiklar"
+      ]
+    },
+    {
+      "id": "people",
+      "kind": "topic",
+      "label": "Människor",
+      "labelGloss": "people",
+      "dependsOn": [
+        "artiklar"
+      ]
+    },
+    {
+      "id": "objects",
+      "kind": "topic",
+      "label": "Föremål",
+      "labelGloss": "objects",
+      "dependsOn": [
+        "artiklar"
+      ]
+    },
+    {
+      "id": "transport",
+      "kind": "topic",
+      "label": "Transport",
+      "labelGloss": "transport",
+      "dependsOn": [
+        "artiklar"
+      ]
+    },
+    {
+      "id": "time",
+      "kind": "topic",
+      "label": "Tid",
+      "labelGloss": "time",
+      "dependsOn": [
+        "artiklar"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "kind": "misc",
+      "id": "sv-articles",
+      "title": "En, ett and the",
+      "body_md": "Swedish nouns come in two genders: **en-words** (common gender) and **ett-words** (neuter). About three nouns in four are en-words, and the noun decides which it is.\n\n| | en-word | ett-word |\n| --- | --- | --- |\n| a, an | en katt | ett hus |\n| the | katten | huset |\n| the (plural) | katterna | husen |\n\n- **En** and **ett** mean *a, an*. **Ett** is also the number *one*: *ett år* is \"a year\" or \"one year\".\n- Swedish has no separate word for *the*. It's an ending on the noun: **-en** or **-n** for en-words, **-et** or **-t** for ett-words: *katten*, *huset*, *äpplet*.\n- Plurals have their own *the*-ending, mostly **-na**: *katterna*, *bilarna*. A plural with no ending of its own takes **-en**: *husen*.\n\nThe gender also decides the form of other words: *en stor bil* but *ett stort hus*, and *min katt* but *mitt hus* (my).\n\n:::examples\n- Katten sover på soffan. — The cat is sleeping on the sofa.\n- Huset är stort och vackert. — The house is big and beautiful.\n- Mannen läser en bok. — The man is reading a book.\n:::\n\n## This, that, which, no\n\n| | en-word | ett-word | plural |\n| --- | --- | --- | --- |\n| this | den här katten | det här huset | de här husen |\n| that | den där katten | det där huset | de där husen |\n| which | vilken katt | vilket hus | vilka hus |\n| no, not any | ingen katt | inget hus | inga hus |\n\n*Den här katten*, \"this cat\", keeps the *the*-ending on the noun. English speakers tend to drop it.\n\nSo learn every noun with its article: **en katt**, **ett hus**, never just *katt*. A few endings and meanings do predict the gender, and the **en** and **ett** tags on a noun open a page about them.",
+      "extras": {
+        "examples": [
+          "Katten sover på soffan.",
+          "Huset är stort och vackert.",
+          "Mannen läser en bok."
+        ],
+        "cloze": [
+          {
+            "sentence": "Jag bor i ___ litet hus.",
+            "blank": "ett"
+          },
+          {
+            "sentence": "Hon har ___ ny bil.",
+            "blank": "en"
+          }
+        ],
+        "unlocks": [
+          "concept:sv-articles"
+        ],
+        "explains": [
+          "artiklar"
+        ]
+      },
+      "tags": [
+        "artiklar"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fonster",
+      "primary_form": "fönster",
+      "gloss": "window",
+      "extras": {
+        "article": "ett",
+        "definite": "fönstret",
+        "plural": "fönster",
+        "example": "Kan du öppna fönstret?",
+        "example_en": "Can you open the window?"
+      },
+      "tags": [
+        "home",
+        "ett"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "katt",
+      "primary_form": "katt",
+      "gloss": "cat",
+      "extras": {
+        "article": "en",
+        "definite": "katten",
+        "plural": "katter",
+        "example": "Vår katt heter Musse.",
+        "example_en": "Our cat is called Musse."
+      },
+      "tags": [
+        "animals",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "hund",
+      "primary_form": "hund",
+      "gloss": "dog",
+      "extras": {
+        "article": "en",
+        "definite": "hunden",
+        "plural": "hundar",
+        "example": "Hunden vill gå ut.",
+        "example_en": "The dog wants to go out."
+      },
+      "tags": [
+        "animals",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "hus",
+      "primary_form": "hus",
+      "gloss": "house",
+      "extras": {
+        "article": "ett",
+        "definite": "huset",
+        "plural": "hus",
+        "example": "De bor i ett gult hus.",
+        "example_en": "They live in a yellow house."
+      },
+      "tags": [
+        "home",
+        "ett"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "bok",
+      "primary_form": "bok",
+      "gloss": "book",
+      "extras": {
+        "article": "en",
+        "definite": "boken",
+        "plural": "böcker",
+        "example": "Jag läser en spännande bok.",
+        "example_en": "I'm reading an exciting book."
+      },
+      "tags": [
+        "objects",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "vatten",
+      "primary_form": "vatten",
+      "gloss": "water",
+      "extras": {
+        "article": "ett",
+        "definite": "vattnet",
+        "example": "Kan jag få ett glas vatten?",
+        "example_en": "Can I have a glass of water?"
+      },
+      "tags": [
+        "food",
+        "ett"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "brod",
+      "primary_form": "bröd",
+      "gloss": "bread",
+      "extras": {
+        "article": "ett",
+        "definite": "brödet",
+        "plural": "bröd",
+        "example": "Brödet är färskt i dag.",
+        "example_en": "The bread is fresh today."
+      },
+      "tags": [
+        "food",
+        "ett"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "bord",
+      "primary_form": "bord",
+      "gloss": "table",
+      "extras": {
+        "article": "ett",
+        "definite": "bordet",
+        "plural": "bord",
+        "example": "Maten står på bordet.",
+        "example_en": "The food is on the table."
+      },
+      "tags": [
+        "home",
+        "ett"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "stol",
+      "primary_form": "stol",
+      "gloss": "chair",
+      "extras": {
+        "article": "en",
+        "definite": "stolen",
+        "plural": "stolar",
+        "example": "Sätt dig på stolen här.",
+        "example_en": "Sit down on this chair here."
+      },
+      "tags": [
+        "home",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "dorr",
+      "primary_form": "dörr",
+      "gloss": "door",
+      "extras": {
+        "article": "en",
+        "definite": "dörren",
+        "plural": "dörrar",
+        "example": "Någon knackar på dörren.",
+        "example_en": "Someone is knocking at the door."
+      },
+      "tags": [
+        "home",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "bil",
+      "primary_form": "bil",
+      "gloss": "car",
+      "extras": {
+        "article": "en",
+        "definite": "bilen",
+        "plural": "bilar",
+        "example": "Bilen står utanför huset.",
+        "example_en": "The car is parked outside the house."
+      },
+      "tags": [
+        "transport",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "trad",
+      "primary_form": "träd",
+      "gloss": "tree",
+      "extras": {
+        "article": "ett",
+        "definite": "trädet",
+        "plural": "träd",
+        "example": "Det står ett stort träd i trädgården.",
+        "example_en": "There's a big tree in the garden."
+      },
+      "tags": [
+        "nature",
+        "ett"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "sol",
+      "primary_form": "sol",
+      "gloss": "sun",
+      "extras": {
+        "article": "en",
+        "definite": "solen",
+        "plural": "solar",
+        "example": "Solen skiner i dag.",
+        "example_en": "The sun is shining today."
+      },
+      "tags": [
+        "nature",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "natt",
+      "primary_form": "natt",
+      "gloss": "night",
+      "extras": {
+        "article": "en",
+        "definite": "natten",
+        "plural": "nätter",
+        "example": "Jag sov dåligt i natt.",
+        "example_en": "I slept badly last night."
+      },
+      "tags": [
+        "time",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "van",
+      "primary_form": "vän",
+      "gloss": "friend",
+      "extras": {
+        "article": "en",
+        "definite": "vännen",
+        "plural": "vänner",
+        "example": "Hon är min bästa vän.",
+        "example_en": "She's my best friend."
+      },
+      "tags": [
+        "people",
+        "en"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "barn",
+      "primary_form": "barn",
+      "gloss": "child",
+      "extras": {
+        "article": "ett",
+        "definite": "barnet",
+        "plural": "barn",
+        "example": "De har tre barn.",
+        "example_en": "They have three children."
+      },
+      "tags": [
+        "people",
+        "ett"
+      ]
+    },
+    {
+      "kind": "verb",
+      "id": "ata",
+      "primary_form": "äta",
+      "gloss": "to eat",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "ätit",
+        "past": "åt",
+        "group": "4",
+        "example": "Vi äter middag klockan sex.",
+        "example_en": "We eat dinner at six o'clock."
+      },
+      "tags": [
+        "presens",
+        "food"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "äter",
+          "2s": "äter",
+          "3s": "äter",
+          "1p": "äter",
+          "2p": "äter",
+          "3p": "äter"
+        },
+        "perfekt": {
+          "1s": "har ätit",
+          "2s": "har ätit",
+          "3s": "har ätit",
+          "1p": "har ätit",
+          "2p": "har ätit",
+          "3p": "har ätit"
+        },
+        "preteritum": {
+          "1s": "åt",
+          "2s": "åt",
+          "3s": "åt",
+          "1p": "åt",
+          "2p": "åt",
+          "3p": "åt"
+        },
+        "futurum": {
+          "1s": "ska äta",
+          "2s": "ska äta",
+          "3s": "ska äta",
+          "1p": "ska äta",
+          "2p": "ska äta",
+          "3p": "ska äta"
+        }
+      }
+    },
+    {
+      "kind": "verb",
+      "id": "dricka",
+      "primary_form": "dricka",
+      "gloss": "to drink",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "druckit",
+        "past": "drack",
+        "group": "4",
+        "example": "Hon dricker kaffe varje morgon.",
+        "example_en": "She drinks coffee every morning."
+      },
+      "tags": [
+        "presens",
+        "food"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "dricker",
+          "2s": "dricker",
+          "3s": "dricker",
+          "1p": "dricker",
+          "2p": "dricker",
+          "3p": "dricker"
+        },
+        "perfekt": {
+          "1s": "har druckit",
+          "2s": "har druckit",
+          "3s": "har druckit",
+          "1p": "har druckit",
+          "2p": "har druckit",
+          "3p": "har druckit"
+        },
+        "preteritum": {
+          "1s": "drack",
+          "2s": "drack",
+          "3s": "drack",
+          "1p": "drack",
+          "2p": "drack",
+          "3p": "drack"
+        },
+        "futurum": {
+          "1s": "ska dricka",
+          "2s": "ska dricka",
+          "3s": "ska dricka",
+          "1p": "ska dricka",
+          "2p": "ska dricka",
+          "3p": "ska dricka"
+        }
+      }
+    },
+    {
+      "kind": "verb",
+      "id": "tala",
+      "primary_form": "tala",
+      "gloss": "to speak",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "talat",
+        "past": "talade",
+        "group": "1",
+        "example": "Talar du engelska eller svenska?",
+        "example_en": "Do you speak English or Swedish?"
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "talar",
+          "2s": "talar",
+          "3s": "talar",
+          "1p": "talar",
+          "2p": "talar",
+          "3p": "talar"
+        },
+        "perfekt": {
+          "1s": "har talat",
+          "2s": "har talat",
+          "3s": "har talat",
+          "1p": "har talat",
+          "2p": "har talat",
+          "3p": "har talat"
+        },
+        "preteritum": {
+          "1s": "talade",
+          "2s": "talade",
+          "3s": "talade",
+          "1p": "talade",
+          "2p": "talade",
+          "3p": "talade"
+        },
+        "futurum": {
+          "1s": "ska tala",
+          "2s": "ska tala",
+          "3s": "ska tala",
+          "1p": "ska tala",
+          "2p": "ska tala",
+          "3p": "ska tala"
+        }
+      }
+    },
+    {
+      "kind": "verb",
+      "id": "ga",
+      "primary_form": "gå",
+      "gloss": "to go, to walk",
+      "extras": {
+        "auxiliary": "ha",
+        "supine": "gått",
+        "past": "gick",
+        "group": "4",
+        "example": "Jag går till jobbet varje dag.",
+        "example_en": "I walk to work every day."
+      },
+      "tags": [
+        "presens"
+      ],
+      "conjugations": {
+        "presens": {
+          "1s": "går",
+          "2s": "går",
+          "3s": "går",
+          "1p": "går",
+          "2p": "går",
+          "3p": "går"
+        },
+        "perfekt": {
+          "1s": "har gått",
+          "2s": "har gått",
+          "3s": "har gått",
+          "1p": "har gått",
+          "2p": "har gått",
+          "3p": "har gått"
+        },
+        "preteritum": {
+          "1s": "gick",
+          "2s": "gick",
+          "3s": "gick",
+          "1p": "gick",
+          "2p": "gick",
+          "3p": "gick"
+        },
+        "futurum": {
+          "1s": "ska gå",
+          "2s": "ska gå",
+          "3s": "ska gå",
+          "1p": "ska gå",
+          "2p": "ska gå",
+          "3p": "ska gå"
+        }
+      }
+    },
+    {
+      "kind": "connective",
+      "id": "dock",
+      "primary_form": "dock",
+      "gloss": "however",
+      "extras": {
+        "role": "conn-contrast",
+        "example": "Det regnar. Vi går dock ut på en promenad.",
+        "example_en": "It's raining. However, we're going out for a walk."
+      },
+      "tags": [
+        "sambandsord"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "namligen",
+      "primary_form": "nämligen",
+      "gloss": "you see, because",
+      "extras": {
+        "role": "conn-cause",
+        "example": "Jag kan inte komma i kväll. Jag är nämligen sjuk.",
+        "example_en": "I can't come tonight. I'm ill, you see."
+      },
+      "tags": [
+        "sambandsord"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "dessutom",
+      "primary_form": "dessutom",
+      "gloss": "besides, what's more",
+      "extras": {
+        "role": "conn-addition",
+        "example": "Filmen är lång. Dessutom är den tråkig.",
+        "example_en": "The film is long. What's more, it's boring.",
+        "example_alternatives": [
+          "Filmen är lång. Den är dessutom tråkig."
+        ]
+      },
+      "tags": [
+        "sambandsord"
+      ]
+    },
+    {
+      "kind": "connective",
+      "id": "sedan",
+      "primary_form": "sedan",
+      "gloss": "then, after that",
+      "extras": {
+        "role": "conn-sequence",
+        "example": "Vi äter först och sedan går vi hem.",
+        "example_en": "We'll eat first and then we'll go home.",
+        "example_alternatives": [
+          "Först äter vi och sedan går vi hem."
+        ]
+      },
+      "tags": [
+        "sambandsord"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "men",
+      "primary_form": "men",
+      "gloss": "but",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Det är kallt ute, men solen skiner.",
+        "example_en": "It's cold outside, but the sun is shining."
+      },
+      "tags": [
+        "konjunktioner"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "for",
+      "primary_form": "för",
+      "gloss": "because, for",
+      "extras": {
+        "role": "conj-coordinating",
+        "example": "Jag stannar hemma, för jag är trött.",
+        "example_en": "I'm staying home, because I'm tired."
+      },
+      "tags": [
+        "konjunktioner"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "eftersom",
+      "primary_form": "eftersom",
+      "gloss": "because, since",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Vi tar bussen eftersom det regnar.",
+        "example_en": "We're taking the bus because it's raining.",
+        "example_alternatives": [
+          "Eftersom det regnar tar vi bussen."
+        ]
+      },
+      "tags": [
+        "konjunktioner"
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "id": "fastan",
+      "primary_form": "fastän",
+      "gloss": "although",
+      "extras": {
+        "role": "conj-subordinating",
+        "example": "Fastän hon är ung kan hon mycket.",
+        "example_en": "Although she's young, she knows a lot.",
+        "example_alternatives": [
+          "Hon kan mycket fastän hon är ung."
+        ]
+      },
+      "tags": [
+        "konjunktioner"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-plural",
+      "title": "Plural: five endings",
+      "body_md": "English adds *-s*. Swedish has five ways to make a plural, and the noun's gender and its last sound pick the way.\n\n| Group | Ending | Which nouns | Example |\n| --- | --- | --- | --- |\n| 1 | -or | en-words ending in -a | en flicka, två flickor |\n| 2 | -ar | many short en-words, and en-words in -e, -el, -en, -er | en bil, två bilar |\n| 3 | -er | many en-words borrowed from other languages | en telefon, två telefoner |\n| 4 | -n | ett-words ending in a vowel | ett äpple, två äpplen |\n| 5 | no ending | ett-words ending in a consonant, en-words in -are | ett hus, två hus |\n\nThe groups are a strong guide, not a law: *en pojke* takes -ar (*pojkar*), but *en sko* takes -r (*skor*). The plural is on every noun's card, so learn it with the word: *en bil, bilar*.\n\n## Vowel changes\n\nA few common nouns change their vowel, as English *man* becomes *men*:\n\n| Singular | Plural |\n| --- | --- |\n| en man | män |\n| en hand | händer |\n| en bok | böcker |\n| en fot | fötter |\n| en stad | städer |\n| en natt | nätter |\n\n## The plural with *the*\n\nPlurals in -or, -ar and -er add **-na**: *bilarna*, *flickorna*. Plurals in -n add **-a**: *äpplena*. A plural with no ending adds **-en**: *husen*, *barnen*. En-words in -are drop the e and add -na: *lärarna* (the teachers).\n\n:::examples\n- Barnen leker i parken. — The children are playing in the park.\n- Vi har två katter och tre hundar. — We have two cats and three dogs.\n- Flickorna äter äpplen. — The girls are eating apples.\n:::\n\n:::sort{groups=\"-or: gata, klocka, skola | -ar: dag, stol, hund | -er: park, färg, sak | -n: hjärta, ställe, möte | no ending: barn, bord, fönster\"}\n:::",
+      "extras": {
+        "explains": [
+          "plural"
+        ]
+      },
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-coordinating-conjunctions",
+      "title": "Och, men, eller, för, så",
+      "body_md": "Six short words link two main clauses, or two words, and leave the word order alone: **och** (and), **men** (but), **eller** (or), **för** (because, for), **så** (so) and **utan** (but, after a negative). Both clauses keep the verb in second place.\n\n:::examples\n- Jag lagar mat och du diskar. — I cook and you do the dishes.\n- Det är kallt, men solen skiner. — It's cold, but the sun is shining.\n- Vill du ha te eller kaffe? — Do you want tea or coffee?\n- Jag lägger mig nu, för jag är trött. — I'm going to bed now, because I'm tired.\n- Det regnar, så vi stannar inne. — It's raining, so we're staying in.\n:::\n\n## The conjunction takes no place\n\nThe conjunction stands outside the clause it starts, so that clause begins as it would on its own. When it opens with something other than the subject, the verb still comes second: *Jag jobbar i dag, men **i morgon har** jag tid.*\n\n## För or eftersom?\n\nBoth mean \"because\". **För** joins two main clauses and never starts a sentence: *Jag stannar hemma, för jag **är** sjuk.* **Eftersom** starts a subordinate clause, where *inte* jumps in front of the verb: *Jag stannar hemma eftersom jag **inte mår** bra.*\n\n## Men or utan?\n\nBoth are \"but\" in English. When the first part is negative and the second part **replaces** it, Swedish uses **utan**: *Han är inte lärare, utan läkare.* (He isn't a teacher but a doctor.) Everywhere else it's **men**: *Han är lärare, men han vill bli läkare.*\n\n## Så\n\n**Så** can also take the first place itself, like an adverb, with the verb straight after it: *Det regnar, så **stannar** vi inne.* Both orders are correct.",
+      "extras": {
+        "explains": [
+          "conj-coordinating"
+        ]
+      },
+      "tags": [
+        "conj-coordinating"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-subordinating-conjunctions",
+      "title": "Att, när, om, eftersom",
+      "body_md": "A subordinating conjunction starts a **bisats**, a clause that leans on the main clause: *Jag stannar hemma **eftersom** jag är trött.* Inside it the subject comes first and the verb straight after, as in English.\n\n| Swedish | English |\n| --- | --- |\n| att | that |\n| när | when |\n| om | if, whether |\n| eftersom, därför att | because |\n| fastän, trots att | although |\n| medan | while |\n| innan | before |\n| tills | until |\n| så att | so that |\n\n## Inte goes before the verb\n\nIn a main clause, *inte* follows the verb: *Han kommer **inte**.* In a bisats it moves in front of the verb, and so do *aldrig* (never), *alltid* (always), *ofta* (often) and *redan* (already): *Jag vet att han **inte kommer**.* Swedish teachers call this **BIFF**: *i bisats inte före finitum*, \"in a bisats, inte before the verb\".\n\n## A bisats first\n\nA bisats can open the sentence. It then fills the first place, so the main clause starts with its verb: ***Om** det regnar **stannar** vi hemma.*\n\n## Att can go\n\nAs in English, *att* (that) is often left out after verbs like *tro* and *tycka*: *Jag tror (att) hon är hemma.*\n\n## När or om?\n\nEnglish *if* and *when* overlap; Swedish keeps them apart. **När** is for something that will happen: *när du kommer hem* (when you get home). **Om** is for something that may or may not: *om du kommer hem* (if you get home). **Om** also means \"whether\": *Jag vet inte om han kommer.*\n\n:::examples\n- Jag tror att det blir regn. — I think it's going to rain.\n- Jag läser när det regnar. — I read when it rains.\n- Vi går ut om du vill. — We'll go out if you want.\n- Fastän han är ung förstår han mycket. — Although he's young, he understands a lot.\n:::",
+      "extras": {
+        "explains": [
+          "conj-subordinating"
+        ]
+      },
+      "tags": [
+        "conj-subordinating"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-contrast-connectives",
+      "title": "Dock, ändå and däremot",
+      "body_md": "A contrast connective says that what comes next goes against what came before, or against what you'd expect.\n\n| Swedish | English |\n| --- | --- |\n| dock | however |\n| ändå | still, anyway, all the same |\n| däremot | on the other hand, by contrast |\n| trots det | despite that, nevertheless |\n| tvärtom | on the contrary |\n| i stället | instead |\n\n## Word order\n\nThese words are adverbs, not conjunctions like *men*. When one starts a clause it takes the first place, so the verb follows straight after: *Ändå **gick** han.* *Trots det **lyckades** vi.*\n\n*Dock* usually sits after the verb rather than first, and it sounds a little written: *Planen är **dock** dyr.* In speech, people more often use *men*.\n\n*Ändå* is the everyday one, and it often comes last: *Det regnade, men vi gick ut **ändå**.*\n\n## Men and fastän\n\n**Men** (but) joins two clauses without taking a place, so nothing moves. **Fastän** (although) starts a bisats, where *inte* goes before the verb: *Fastän det **inte** var varmt badade vi.*\n\n:::examples\n- Det snöar. Vi tar dock cykeln till jobbet. — It's snowing. However, we're cycling to work.\n- Hon var trött men jobbade ändå. — She was tired but worked anyway.\n- Jag gillar kaffe. Min fru dricker däremot bara te. — I like coffee. My wife, on the other hand, only drinks tea.\n:::",
+      "extras": {
+        "explains": [
+          "conn-contrast"
+        ]
+      },
+      "tags": [
+        "conn-contrast"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-cause-connectives",
+      "title": "Nämligen and ju",
+      "body_md": "A cause connective gives the reason for what was just said.\n\n| Swedish | English |\n| --- | --- |\n| nämligen | you see, because |\n| ju | after all, as you know |\n| därför att | because |\n| på grund av | because of |\n| tack vare | thanks to |\n\n## Nämligen\n\n*Nämligen* gives the reason for the sentence before it, and sits after the verb, never first: *Han äter inte kött. Han **är nämligen** vegetarian.* (He doesn't eat meat. He's a vegetarian, you see.) English has no single word for it: \"you see\" or \"because\" comes close.\n\n## Ju\n\n*Ju* means \"as we both know\". It's short, unstressed and everywhere in speech, and it always comes after the verb: *Du vet **ju** att jag inte äter fisk.* (You know I don't eat fish.)\n\n## På grund av and tack vare\n\nThese are prepositions, so a noun follows them, not a clause: *på grund av regnet* (because of the rain), *tack vare dig* (thanks to you). Before a whole clause, use *eftersom* or *därför att*.\n\n:::examples\n- Vi kom sent. Bussen var nämligen full. — We were late. The bus was full, you see.\n- Tåget var sent på grund av snön. — The train was late because of the snow.\n- Det gick bra tack vare dig. — It went well thanks to you.\n:::",
+      "extras": {
+        "explains": [
+          "conn-cause"
+        ]
+      },
+      "tags": [
+        "conn-cause"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-addition-connectives",
+      "title": "Också and dessutom",
+      "body_md": "An addition connective adds another point to the one before.\n\n| Swedish | English |\n| --- | --- |\n| också | also, too |\n| även | also, even (a little formal) |\n| dessutom | besides, what's more |\n| för övrigt | moreover, for that matter |\n| förresten | by the way |\n| inte heller | not ... either |\n\n## Också goes after the verb\n\nEnglish often puts *also* before the verb. Swedish puts *också* after it: *Jag **talar också** franska.* (I also speak French.) *Jag också* is \"me too\".\n\n## Dessutom\n\n*Dessutom* adds a stronger point, often the one that settles it. At the start of a clause it takes the first place, and the verb follows: *Rummet är litet. Dessutom **är** det dyrt.*\n\n## Inte heller\n\nAfter a negative, *också* becomes **inte heller**: *Han dricker inte kaffe, och jag gör det inte heller.* \"Me neither\" is *inte jag heller*.\n\n:::examples\n- Hon talar också tyska. — She speaks German too.\n- Förresten, har du sett min nyckel? — By the way, have you seen my key?\n- Jag har inte heller tid. — I don't have time either.\n:::",
+      "extras": {
+        "explains": [
+          "conn-addition"
+        ]
+      },
+      "tags": [
+        "conn-addition"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "sv-sequence-connectives",
+      "title": "Först, sedan and till sist",
+      "body_md": "A sequence connective puts events, or the steps of an argument, in order.\n\n| Swedish | English |\n| --- | --- |\n| först | first |\n| sedan, sen | then, after that |\n| därefter | after that (more formal) |\n| till sist, slutligen | finally, lastly |\n| till slut | in the end |\n| äntligen | at last |\n\n## Word order\n\nAt the start of a clause these words take the first place, so the verb follows straight after: *Först **duschar** jag, sedan **äter** jag frukost.* After *och*, the clause still inverts: *och sedan **går** vi.*\n\n## Till slut or äntligen?\n\n**Till slut** is \"in the end\", after a long time or many tries: *Till slut hittade vi huset.* **Äntligen** is \"at last!\", the relief when it finally happens: *Äntligen är det fredag!*\n\n## Sedan and sen\n\n*Sen* is the spoken form of *sedan*, and you'll see it written too. Both also mean \"since\": *sedan i måndags* (since Monday).\n\n:::examples\n- Först tvättar vi, sedan städar vi. — First we do the laundry, then we clean.\n- Till sist vill jag tacka er alla. — Finally, I'd like to thank you all.\n- Äntligen är det helg! — At last it's the weekend!\n:::",
+      "extras": {
+        "explains": [
+          "conn-sequence"
+        ]
+      },
+      "tags": [
+        "conn-sequence"
+      ]
+    }
+  ]
+}

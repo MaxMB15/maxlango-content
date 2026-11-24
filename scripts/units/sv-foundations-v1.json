@@ -1,0 +1,122 @@
+{
+ "hej": {
+  "title": "Hej och tack",
+  "subtitle": "Hello, bye, good morning, good night, thanks"
+ },
+ "forlat": {
+  "title": "Hur mår du?",
+  "subtitle": "Sorry, excuse me, see you, how are you, welcome"
+ },
+ "vara": {
+  "title": "Viktiga verb",
+  "subtitle": "To be, have, do, come, want, can and must"
+ },
+ "arbeta": {
+  "title": "Vanliga verb",
+  "subtitle": "To work, live, talk, play, watch and listen"
+ },
+ "aka": {
+  "title": "Åka och köpa",
+  "subtitle": "To travel, cycle, buy, pay, look for and find"
+ },
+ "tycka": {
+  "title": "Tycka och tänka",
+  "subtitle": "To think, give, take, start and stay"
+ },
+ "talar-du-engelska": {
+  "title": "Bra frågor",
+  "subtitle": "Do you speak English, how much, what time"
+ },
+ "rum": {
+  "title": "Rummen",
+  "subtitle": "Room, bedroom, kitchen, bathroom, bed and key"
+ },
+ "huvud": {
+  "title": "Huvudet",
+  "subtitle": "Head, eyes, ears, nose, mouth and heart"
+ },
+ "timme": {
+  "title": "Veckans dagar",
+  "subtitle": "Hours, minutes and the days of the week"
+ },
+ "pappa": {
+  "title": "Min familj",
+  "subtitle": "Dad, mum, brother, sister, son and daughter"
+ },
+ "rod": {
+  "title": "Färger",
+  "subtitle": "Red, blue, green, yellow, black and white"
+ },
+ "forst": {
+  "title": "Små ord",
+  "subtitle": "First, also, anyway, and, or, that and when"
+ },
+ "stor": {
+  "title": "Stor och liten",
+  "subtitle": "Big, small, good, bad, nice and young"
+ },
+ "gammal": {
+  "title": "Gammal och ny",
+  "subtitle": "Old, new, kind, happy, warm and cold"
+ },
+ "latt": {
+  "title": "Lätt och svår",
+  "subtitle": "Easy, hard, expensive, cheap, tired and sad"
+ },
+ "foralder": {
+  "title": "Släkten",
+  "subtitle": "Parents, grandparents, cousins and aunts"
+ },
+ "pojke": {
+  "title": "Människor",
+  "subtitle": "Boy, girl, neighbour, name, person, woman"
+ },
+ "fa": {
+  "title": "Se och säga",
+  "subtitle": "To get, know, see, say, read, write, sleep"
+ },
+ "sitta": {
+  "title": "Sitta och vänta",
+  "subtitle": "To sit, lie, wait, cook, help, ask and like"
+ },
+ "ingen-orsak": {
+  "title": "Ja och nej",
+  "subtitle": "You're welcome, yes, no, thanks for the meal"
+ },
+ "trevlig-helg": {
+  "title": "Trevlig helg!",
+  "subtitle": "Nice weekend, congratulations, cheers"
+ },
+ "hand": {
+  "title": "Kroppen",
+  "subtitle": "Hands, arms, legs, feet, hair and teeth"
+ },
+ "frukost": {
+  "title": "Frukost och middag",
+  "subtitle": "Meals, cheese, meat, fish and eggs"
+ },
+ "mjolk": {
+  "title": "Kaffe och frukt",
+  "subtitle": "Milk, coffee, tea, wine, apples and potatoes"
+ },
+ "socker": {
+  "title": "Smör och socker",
+  "subtitle": "Sugar, salt, rice, butter, cake and buns"
+ },
+ "dag": {
+  "title": "Dagar och år",
+  "subtitle": "Day, week, month, year, morning, evening"
+ },
+ "stad": {
+  "title": "I staden",
+  "subtitle": "Town, street, shop, square, bakery, station"
+ },
+ "skola": {
+  "title": "Skola och jobb",
+  "subtitle": "School, church, hospital, restaurant, job"
+ },
+ "lagenhet": {
+  "title": "Var bor du?",
+  "subtitle": "Flat, garden, sofa, where you live and are from"
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "glomma": {
+  "title": "Har du glömt?",
+  "subtitle": "To forget, use, clean, wash, wash up and shop"
+ },
+ "ringa": {
+  "title": "Ringde du?",
+  "subtitle": "To call, hear, meet, change, borrow and show"
+ },
+ "springa": {
+  "title": "Starka verb",
+  "subtitle": "To run, sing, fly, carry, win and become"
+ },
+ "i-morgon": {
+  "title": "I morgon",
+  "subtitle": "Tomorrow, next week, next year, in the future"
+ },
+ "kla-pa-sig": {
+  "title": "Klä på sig",
+  "subtitle": "To get dressed, sit down, hurry and learn"
+ },
+ "tycka-om": {
+  "title": "Tycka om",
+  "subtitle": "To like, visit, bring, switch off and agree"
+ },
+ "behova": {
+  "title": "Behöva och hinna",
+  "subtitle": "To need, usually do, have time and dare"
+ },
+ "ren": {
+  "title": "Ren och smutsig",
+  "subtitle": "Clean, dirty, empty, full, open and closed"
+ },
+ "lang": {
+  "title": "Lång och kort",
+  "subtitle": "Long, short, heavy, high, low and fast"
+ },
+ "hoppas": {
+  "title": "Hoppas och minnas",
+  "subtitle": "To hope, remember, succeed and breathe"
+ },
+ "i-gar": {
+  "title": "I går",
+  "subtitle": "Yesterday, this morning, last summer, long ago"
+ },
+ "arg": {
+  "title": "Känslor",
+  "subtitle": "Angry, nervous, calm, worried, proud and shy"
+ },
+ "sa": {
+  "title": "Sambandsord",
+  "subtitle": "So, instead, by the way, while, before, if"
+ },
+ "troja": {
+  "title": "Kläder",
+  "subtitle": "Jumper, shirt, dress, jacket, shoes, umbrella"
+ },
+ "vader": {
+  "title": "Vädret",
+  "subtitle": "Weather, rain, snow, wind and the seasons"
+ },
+ "resa": {
+  "title": "På resa",
+  "subtitle": "Trains, buses, airports, tickets and hotels"
+ },
+ "arbete": {
+  "title": "På jobbet",
+  "subtitle": "Boss, colleague, office, meeting and salary"
+ },
+ "det-regnar": {
+  "title": "Vad synd!",
+  "subtitle": "It's raining, it depends, no idea, I'd like"
+ },
+ "jag-mar-illa": {
+  "title": "Lycka till!",
+  "subtitle": "Feeling sick, good luck, take it easy"
+ },
+ "lakare": {
+  "title": "Hos läkaren",
+  "subtitle": "Doctor, nurse, pharmacy, fever and a cold"
+ },
+ "sjuk": {
+  "title": "Sjuk och frisk",
+  "subtitle": "Ill, healthy, free, busy, boring and cosy"
+ },
+ "fritid": {
+  "title": "Fritid",
+  "subtitle": "Films, concerts, football, museums, parties"
+ },
+ "krona": {
+  "title": "Handla",
+  "subtitle": "Price, wallet, receipt, checkout, queue, sale"
+ },
+ "golv": {
+  "title": "Hemma",
+  "subtitle": "Floor, wall, ceiling, fridge, lamp, cooker"
+ },
+ "bebis": {
+  "title": "Familj och vänner",
+  "subtitle": "Baby, friend, boyfriend, girlfriend, partner"
+ },
+ "kyckling": {
+  "title": "Mat",
+  "subtitle": "Chicken, soup, sausage, sweets and meatballs"
+ }
+}
