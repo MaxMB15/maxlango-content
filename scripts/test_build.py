@@ -41,14 +41,9 @@ from build import (  # noqa: E402
 from common import page, topic  # noqa: E402
 
 CURRICULUM_ORDER = [
-    "fr-core-v1",
-    "fr-foundations-v1",
-    "fr-everyday-v1",
-    "fr-fluency-v1",
-    "nl-core-v1",
-    "nl-foundations-v1",
-    "nl-everyday-v1",
-    "nl-fluency-v1",
+    f"{code}-{level}-v1"
+    for code in ("fr", "nl", "es", "it", "sv")
+    for level in ("core", "foundations", "everyday", "fluency")
 ]
 
 
@@ -305,12 +300,14 @@ class CheckTagPagesTests(unittest.TestCase):
         self.assertEqual(len(check_tag_pages("xx", packs, TAG_PROFILE)), 1)
 
     def test_the_bundled_base_packs_pass(self):
-        import fr
-        import nl
+        import importlib
 
-        for code, module in (("fr", fr), ("nl", nl)):
-            profile = profile_for(code)
+        from build import LANGUAGES
+
+        for code in LANGUAGES:
             with self.subTest(language=code):
+                module = importlib.import_module(code)
+                profile = profile_for(code)
                 self.assertEqual(check_tag_pages(code, module.PACKS, profile), [])
 
 

@@ -10,7 +10,7 @@ starting from [`catalog.json`](https://maxmb15.github.io/maxlango-content/catalo
 | Path                           | What it is                                                              |
 | ------------------------------ | ----------------------------------------------------------------------- |
 | `catalog.json`                 | Every pack with its version, location, size and SHA-256                 |
-| `packs/<lang>/<id>.json`       | The packs (French `fr`, Dutch `nl`)                                     |
+| `packs/<lang>/<id>.json`       | The packs: French `fr`, Dutch `nl`, Spanish `es`, Italian `it`, Swedish `sv` |
 | `languages/<lang>/profile.json` | Each language's grammar concepts (tenses, word classes) the packs use  |
 | `schema/`                      | JSON Schemas for a pack and a catalog                                   |
 | `scripts/`                     | The Python that generates the packs and the catalog, and checks them    |
@@ -40,9 +40,10 @@ there. A source can't replace a pack that another source installed.
 The JSON in `packs/` is generated. Edit the sources in `scripts/` instead:
 
 ```sh
-# 1. edit scripts/nl_everyday.py (or any fr_*/nl_* module)
+# 1. edit scripts/nl_everyday.py (or any <lang>_* module)
 # 2. raise that pack's version in the module's PACKS
 python3 scripts/build.py          # writes packs/ and catalog.json
+python3 scripts/build.py --check --lang es   # or check one language, writing nothing
 python3 -m unittest discover -s scripts -p 'test_*.py'
 ```
 

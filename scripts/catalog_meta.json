@@ -22,5 +22,41 @@
   },
   "nl-fluency-v1": {
     "description": "After A2. Opinions, politics and history, Dutch idioms, false friends and the Dutch people speak."
+  },
+  "es-core-v1": {
+    "description": "A short starter set: everyday nouns, a few key verbs and the words that link sentences, with grammar pages for them."
+  },
+  "es-foundations-v1": {
+    "description": "For a complete beginner. Greetings, ser and estar, the verbs you need first, numbers and time, family, food, the body and finding your way in town."
+  },
+  "es-everyday-v1": {
+    "description": "After A1. The past tenses, reflexive verbs, weather and seasons, clothes, travel, work, the doctor and shopping, plus short spoken replies."
+  },
+  "es-fluency-v1": {
+    "description": "After A2. The subjunctive and conditional, society and politics, everyday idioms, false friends and the Spanish people speak in Spain and Latin America."
+  },
+  "it-core-v1": {
+    "description": "A short starter set: everyday nouns, a few key verbs and the words that link sentences, with grammar pages for articles and plurals."
+  },
+  "it-foundations-v1": {
+    "description": "For a complete beginner. Greetings, essere and avere, the present tense, numbers and time, family, food, the body and getting around town."
+  },
+  "it-everyday-v1": {
+    "description": "After A1. The passato prossimo and imperfetto, daily routines, weather, clothes, travel, work, the doctor and shopping, plus spoken replies."
+  },
+  "it-fluency-v1": {
+    "description": "After A2. The congiuntivo and condizionale, society and feelings, everyday idioms, false friends and the Italian people speak."
+  },
+  "sv-core-v1": {
+    "description": "A short starter set: everyday nouns, a few key verbs and the words that link sentences, with grammar pages for en and ett and the plural."
+  },
+  "sv-foundations-v1": {
+    "description": "For a complete beginner. Greetings, pronunciation, the verb in second place, numbers and time, family, food, the body and finding your way in town."
+  },
+  "sv-everyday-v1": {
+    "description": "After A1. The past tenses, particle and reflexive verbs, weather and seasons, clothes, travel, work, the doctor and shopping, plus short spoken replies."
+  },
+  "sv-fluency-v1": {
+    "description": "After A2. The passive and the conditional, society and history, idioms, lagom and fika, false friends and Swedish as it is spoken."
   }
 }

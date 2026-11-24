@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Build the French and Dutch Base Packs from the sources in this directory.
+"""Build every language's Base Packs from the sources in this directory.
 
     python3 scripts/build.py            # write packs/<lang>/*.json and catalog.json
     python3 scripts/build.py --check    # validate only, write nothing
     python3 scripts/build.py --out DIR  # write into DIR/packs and DIR/catalog.json instead
+    python3 scripts/build.py --lang es  # build one language's packs only, no catalog
 
-Each language module (fr.py, nl.py) exposes PACKS: a list of dicts with the pack
+Each language module (fr.py, nl.py, es.py, it.py, sv.py) exposes PACKS: a list of dicts with the pack
 header, an optional profile_delta and the items. This script validates them
 against the rules the app enforces against each language's profile
 (languages/<lang>/profile.json) and writes one JSON file per pack, plus
@@ -29,6 +30,9 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 LANGUAGE_DIR = ROOT / "languages"
 PERSONS = ["1s", "2s", "3s", "1p", "2p", "3p"]
+# Every language with Base Packs, in the order the catalog lists them. Each
+# code names a module in this directory and a folder in languages/.
+LANGUAGES = ("fr", "nl", "es", "it", "sv")
 
 sys.path.insert(0, str(HERE))
 
@@ -292,8 +296,14 @@ def write_json(path: Path, value: object) -> None:
 
 
 def parse_args(argv: list[str]) -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Build the French and Dutch Base Packs.")
+    parser = argparse.ArgumentParser(description="Build every language's Base Packs.")
     parser.add_argument("--check", action="store_true", help="validate only, write nothing")
+    parser.add_argument(
+        "--lang",
+        action="append",
+        choices=LANGUAGES,
+        help="build only this language (repeatable); the catalog, which lists every language, is not written",
+    )
     parser.add_argument(
         "--out",
         type=Path,
@@ -304,22 +314,27 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
 
 
 def main(argv: list[str] | None = None) -> int:
+    import importlib
+
     import catalog
-    import fr
-    import nl
 
     args = parse_args(sys.argv[1:] if argv is None else argv)
     check_only = args.check
     out: Path = args.out
+    codes = [c for c in LANGUAGES if not args.lang or c in args.lang]
     failed = False
     built: list[dict] = []
-    for code, module in (("fr", fr), ("nl", nl)):
+    for code in codes:
+        module = importlib.import_module(code)
         profile = profile_for(code)
         pack_dir = out / "packs" / code
         seen: set[str] = set()
-        # Concepts the core pack's delta introduced are on the stored profile too.
-        core = json.loads((pack_dir / f"{code}-core-v1.json").read_text())
-        seen |= {c["id"] for c in core.get("profile_delta", [])}
+        # Concepts the core pack's delta introduced are on the stored profile
+        # too. A new language has no core pack on disk until its first build.
+        core_path = pack_dir / f"{code}-core-v1.json"
+        if core_path.exists():
+            core = json.loads(core_path.read_text())
+            seen |= {c["id"] for c in core.get("profile_delta", [])}
         to_write: list[tuple[Path, dict]] = []
         for pack in module.PACKS:
             retired = set(pack.pop("_retired", []) or [])
@@ -357,7 +372,7 @@ def main(argv: list[str] | None = None) -> int:
                 write_json(out_path, pack)
     # A failed pack keeps its previous file, so a catalog of the new versions
     # would promise apps versions that aren't there.
-    if not check_only and not failed:
+    if not check_only and not failed and not args.lang:
         write_json(out / "catalog.json", catalog.build_catalog(out, built))
     return 1 if failed else 0
 
