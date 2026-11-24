@@ -111,6 +111,10 @@
   "example": "On se retrouve au café ?",
   "example_en": "Shall we meet at the café?"
  },
+ "ce-n-est-pas-grave": {
+  "example": "Ce n'est pas grave, ça arrive.",
+  "example_en": "It doesn't matter, it happens."
+ },
  "chambre": {
   "example": "Ma chambre est au premier étage.",
   "example_en": "My bedroom is on the first floor."
@@ -122,6 +126,10 @@
  "cher": {
   "example": "Ce manteau est trop cher.",
   "example_en": "This coat is too expensive."
+ },
+ "cinq": {
+  "example": "Ça coûte cinq euros.",
+  "example_en": "It costs five euros."
  },
  "cle": {
   "example": "Où est la clé de la voiture ?",
@@ -175,6 +183,10 @@
   "example": "Désolé, je suis en retard.",
   "example_en": "Sorry, I'm late."
  },
+ "deux": {
+  "example": "Deux cafés, s'il vous plaît.",
+  "example_en": "Two coffees, please."
+ },
  "difficile": {
   "example": "Le français n'est pas si difficile.",
   "example_en": "French isn't that difficult."
@@ -187,6 +199,10 @@
   "example": "On mange quoi pour le dîner ?",
   "example_en": "What are we having for dinner?"
  },
+ "dix": {
+  "example": "J'arrive dans dix minutes.",
+  "example_en": "I'll be there in ten minutes."
+ },
  "dos": {
   "example": "Il dort sur le dos.",
   "example_en": "He sleeps on his back."
@@ -198,6 +214,14 @@
  "eglise": {
   "example": "L'église est au centre du village.",
   "example_en": "The church is in the centre of the village."
+ },
+ "elle": {
+  "example": "Elle est ma sœur.",
+  "example_en": "She's my sister."
+ },
+ "elles": {
+  "example": "Elles sont au cinéma.",
+  "example_en": "They're at the cinema."
  },
  "enchante": {
   "example": "Enchanté, je suis le nouveau voisin.",
@@ -287,13 +311,29 @@
   "example": "Mon oncle est à l'hôpital.",
   "example_en": "My uncle is in hospital."
  },
+ "huit": {
+  "example": "Je dors huit heures par nuit.",
+  "example_en": "I sleep eight hours a night."
+ },
  "il": {
   "example": "J'ai quelque chose dans l'œil.",
   "example_en": "I have something in my eye."
  },
+ "il-pronom": {
+  "example": "Il travaille dans une banque.",
+  "example_en": "He works in a bank."
+ },
  "il-y-a": {
   "example": "Il y a beaucoup de monde ici.",
   "example_en": "There are a lot of people here."
+ },
+ "ils": {
+  "example": "Ils arrivent demain.",
+  "example_en": "They're arriving tomorrow."
+ },
+ "jamais": {
+  "example": "Je ne bois jamais de café.",
+  "example_en": "I never drink coffee."
  },
  "jambe": {
   "example": "Elle s'est cassé la jambe.",
@@ -306,6 +346,10 @@
  "jaune": {
   "example": "Les bananes sont jaunes.",
   "example_en": "Bananas are yellow."
+ },
+ "je": {
+  "example": "Je m'appelle Léa et j'habite à Lyon.",
+  "example_en": "My name is Léa and I live in Lyon."
  },
  "je-ne-comprends-pas": {
   "example": "Je ne comprends pas cette question.",
@@ -375,6 +419,10 @@
   "example": "Mon mari rentre à six heures.",
   "example_en": "My husband gets home at six."
  },
+ "marron": {
+  "example": "Il a les yeux marron.",
+  "example_en": "He has brown eyes."
+ },
  "matin": {
   "example": "Je cours tous les matins.",
   "example_en": "I run every morning."
@@ -407,6 +455,10 @@
   "example": "Elle part en vacances le mois prochain.",
   "example_en": "She's going on holiday next month."
  },
+ "neuf": {
+  "example": "Mon fils a neuf ans.",
+  "example_en": "My son is nine."
+ },
  "nez": {
   "example": "Le clown a un nez rouge.",
   "example_en": "The clown has a red nose."
@@ -423,13 +475,25 @@
   "example": "Non merci, ça va.",
   "example_en": "No thanks, I'm fine."
  },
+ "nous": {
+  "example": "Nous habitons à Bruxelles.",
+  "example_en": "We live in Brussels."
+ },
  "nouveau": {
   "example": "C'est notre nouveau professeur.",
   "example_en": "This is our new teacher."
  },
+ "on": {
+  "example": "On mange à huit heures ?",
+  "example_en": "Shall we eat at eight?"
+ },
  "oncle": {
   "example": "Mon oncle habite en Belgique.",
   "example_en": "My uncle lives in Belgium."
+ },
+ "orange": {
+  "example": "Elle porte des chaussures orange.",
+  "example_en": "She's wearing orange shoes."
  },
  "oreille": {
   "example": "Le chat a une oreille blanche.",
@@ -455,9 +519,21 @@
   "example": "Pardon, parlez plus lentement, s'il vous plaît.",
   "example_en": "Sorry, please speak more slowly."
  },
+ "pas": {
+  "example": "Je ne travaille pas aujourd'hui.",
+  "example_en": "I'm not working today."
+ },
+ "pas-encore": {
+  "example": "Je n'ai pas encore mangé.",
+  "example_en": "I haven't eaten yet."
+ },
  "pere": {
   "example": "Mon père cuisine très bien.",
   "example_en": "My father cooks very well."
+ },
+ "personne": {
+  "example": "Il n'y a personne à la maison.",
+  "example_en": "There's nobody at home."
  },
  "petit": {
   "example": "J'habite dans un petit village.",
@@ -474,6 +550,10 @@
  "pied": {
   "example": "Nous allons à l'école à pied.",
   "example_en": "We walk to school."
+ },
+ "plus": {
+  "example": "Il n'habite plus ici.",
+  "example_en": "He doesn't live here any more."
  },
  "poisson": {
   "example": "Le poisson est très frais ici.",
@@ -499,9 +579,17 @@
   "example": "Qu'est-ce que c'est, ce bruit ?",
   "example_en": "What's that noise?"
  },
+ "quatre": {
+  "example": "Je travaille quatre jours par semaine.",
+  "example_en": "I work four days a week."
+ },
  "restaurant": {
   "example": "Ce soir, on dîne au restaurant.",
   "example_en": "Tonight we're eating at a restaurant."
+ },
+ "rien": {
+  "example": "Je ne vois rien.",
+  "example_en": "I can't see anything."
  },
  "riz": {
   "example": "Je prépare du riz pour ce soir.",
@@ -555,6 +643,14 @@
   "example": "Je travaille cinq jours par semaine.",
   "example_en": "I work five days a week."
  },
+ "sept": {
+  "example": "Une semaine a sept jours.",
+  "example_en": "A week has seven days."
+ },
+ "six": {
+  "example": "Le magasin ferme à six heures.",
+  "example_en": "The shop closes at six."
+ },
  "soir": {
   "example": "On dîne à huit heures du soir.",
   "example_en": "We have dinner at eight in the evening."
@@ -583,9 +679,21 @@
   "example": "Je vais au travail en bus.",
   "example_en": "I go to work by bus."
  },
+ "trois": {
+  "example": "Il est trois heures.",
+  "example_en": "It's three o'clock."
+ },
+ "tu": {
+  "example": "Tu as faim ?",
+  "example_en": "Are you hungry?"
+ },
  "uf": {
   "example": "Je mange un œuf le matin.",
   "example_en": "I eat an egg in the morning."
+ },
+ "un": {
+  "example": "J'ai un frère.",
+  "example_en": "I have one brother."
  },
  "vendredi": {
   "example": "Vendredi, je rentre tôt.",
@@ -618,6 +726,10 @@
  "voisin": {
   "example": "Notre voisin est très sympa.",
   "example_en": "Our neighbour is very nice."
+ },
+ "vous": {
+  "example": "Vous parlez anglais ?",
+  "example_en": "Do you speak English?"
  },
  "vous-pouvez-repeter": {
   "example": "Vous pouvez répéter, s'il vous plaît ?",

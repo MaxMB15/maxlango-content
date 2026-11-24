@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "fr-foundations-v1",
-  "version": 5,
+  "version": 6,
   "language": "fr",
   "name": "Français · Fondations (A1)",
   "author": "Max Boksem",
@@ -97,7 +97,7 @@
       "kind": "misc",
       "id": "fr-pronunciation",
       "title": "Reading French aloud",
-      "body_md": "French spelling looks chaotic, but it's regular once you know what to ignore. Most of the work is learning which letters stay silent.\n\n## Silent endings\n\nA final **e**, **s**, **t**, **d**, **x** and **z** are usually silent. *[Petit](lango:say)*, *[grand](lango:say)*, *[les amis](lango:say)* and *[vous parlez](lango:say)* all end on a vowel sound.\n\nA handy exception: final **c**, **r**, **f** and **l** are often pronounced. Think of the English word *CaReFuL*: *[parc](lango:say)*, *[bonjour](lango:say)*, *[neuf](lango:say)*, *[sel](lango:say)*. The **-er** of an infinitive is the big exception to the exception: *[parler](lango:say)* ends in \"é\".\n\n## Nasal vowels\n\nWhen a vowel sits before **n** or **m** in the same syllable, the n is not pronounced. Air goes through the nose instead.\n\n| Spelling | Sound | Example |\n| --- | --- | --- |\n| an, en, am, em | \"ahn\" | *[enfant](lango:say)*, *[temps](lango:say)* |\n| on, om | \"ohn\" | *[bon](lango:say)*, *[nom](lango:say)* |\n| in, ain, ein, un | \"ahn\" (front) | *[vin](lango:say)*, *[pain](lango:say)*, *[un](lango:say)* |\n\nIf a vowel follows the n (*[bonne](lango:say)*, *[une](lango:say)*), the nasal disappears and the n is pronounced.\n\n## Liaison and elision\n\n**Liaison**: a silent final consonant is pronounced when the next word starts with a vowel. *[Les amis](lango:say)* sounds like \"lé-z-ami\". *[Vous avez](lango:say)* sounds like \"vou-z-avé\".\n\n**Elision**: short words drop their vowel before another vowel and take an apostrophe. *Le ami* becomes *[l'ami](lango:say)*, *je aime* becomes *[j'aime](lango:say)*, *ne est* becomes *[n'est](lango:say)*.\n\n## Accents\n\n- **é** (accent aigu) is a closed \"ay\": *[été](lango:say)*.\n- **è** and **ê** are an open \"eh\": *[mère](lango:say)*, *[fête](lango:say)*.\n- **ç** makes c soft before a, o, u: *[ça](lango:say)*, *[garçon](lango:say)*.\n- **à**, **ù**, **â**, **î**, **ô**, **û** don't change the sound much. They tell words apart: *[a](lango:say)* (has) and *[à](lango:say)* (to), *[ou](lango:say)* (or) and *[où](lango:say)* (where).",
+      "body_md": "French spelling looks chaotic, but it's regular once you know what to ignore. Most of the work is learning which letters stay silent.\n\n## Silent endings\n\nA final **e**, **s**, **t**, **d**, **x** and **z** are usually silent. *[Petit](lango:say)*, *[grand](lango:say)*, *[les amis](lango:say)* and *[vous parlez](lango:say)* all end on a vowel sound.\n\nA handy exception: final **c**, **r**, **f** and **l** are often pronounced. Think of the English word *CaReFuL*: *[parc](lango:say)*, *[bonjour](lango:say)*, *[neuf](lango:say)*, *[sel](lango:say)*. The **-er** of an infinitive is the big exception to the exception: *[parler](lango:say)* ends in \"é\".\n\n## Nasal vowels\n\nWhen a vowel sits before **n** or **m** in the same syllable, the n is not pronounced. Air goes through the nose instead.\n\n| Spelling | Sound | Example |\n| --- | --- | --- |\n| an, en, am, em | \"ahn\" | *[enfant](lango:say)*, *[temps](lango:say)* |\n| on, om | \"ohn\" | *[bon](lango:say)*, *[nom](lango:say)* |\n| in, ain, ein, un | \"ahn\" (front) | *[vin](lango:say)*, *[pain](lango:say)*, *[un](lango:say)* |\n\nIf a vowel follows the n (*[bonne](lango:say)*, *[une](lango:say)*), the nasal disappears and the n is pronounced.\n\n## Liaison and elision\n\n**Liaison**: a silent final consonant is pronounced when the next word starts with a vowel. *[Les amis](lango:say)* sounds like \"lé-z-ami\". *[Vous avez](lango:say)* sounds like \"vou-z-avé\".\n\n**Elision**: short words drop their vowel before another vowel and take an apostrophe. *Le ami* becomes *[l'ami](lango:say)*, *je aime* becomes *[j'aime](lango:say)*, *ne est* becomes *[n'est](lango:say)*.\n\n## Accents\n\n- **é** (accent aigu) is a closed \"ay\": *[été](lango:say)*.\n- **è** and **ê** are an open \"eh\": *[mère](lango:say)*, *[fête](lango:say)*.\n- **ç** makes c soft before a, o, u: *[ça](lango:say)*, *[garçon](lango:say)*.\n- **à**, **ù**, **â**, **î**, **ô**, **û** don't change the sound much. They tell words apart: *[a](lango:say)* (has) and *[à](lango:say)* (to), *[ou](lango:say)* (or) and *[où](lango:say)* (where).\n\n## This unit's words\n\n- *[bonjour](lango:say)*: a nasal **on**, then the French **r**, made at the back of the throat: \"bohn-zhoor\".\n- *[bonsoir](lango:say)*: the same **on**, and **oi** says \"wa\": \"bohn-swar\".\n- *[merci](lango:say)*: the **r** again, and **c** before **i** is an s: \"mair-see\".\n- *[enchanté](lango:say)*: two nasals, **en** and **an**, then a closed **é**: \"ahn-shahn-tay\".\n- *[pardon](lango:say)*: the **n** is silent and the **on** goes through the nose: \"par-dohn\".\n- *[s'il vous plaît](lango:say)*: elision in *s'il*, and the final **s** and **t** stay silent: \"seel voo pleh\".",
       "extras": {
         "unlocks": [
           "concept:fr-pronunciation"
@@ -238,6 +238,23 @@
       },
       "tags": [
         "adjectifs"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "fr-colors",
+      "title": "Colours: which ones agree",
+      "body_md": "Colours are adjectives, so they follow the adjectives page: they go after the noun and agree with it. *Un pull vert*, *une robe verte*, *des chaussures vertes*.\n\n## Most colours add -e and -s\n\n| masculine | feminine | plural |\n| --- | --- | --- |\n| vert | verte | verts, vertes |\n| noir | noire | noirs, noires |\n| bleu | bleue | bleus, bleues |\n| gris | grise | gris, grises |\n| blanc | blanche | blancs, blanches |\n\n*Blanc* has its own feminine, *blanche*. *Gris* already ends in **s**, so its masculine plural looks the same as its singular.\n\n## Colours ending in -e\n\n*Rouge* and *jaune* already end in **-e**, so the feminine is the same and only the plural changes: *un sac rouge*, *une robe rouge*, *des fleurs jaunes*.\n\n## Colours that never change\n\nA colour named after a thing stays as it is. *Marron* is a chestnut and *orange* is the fruit, so they never take -e or -s: *des yeux marron*, *des chaussures orange*. *Rose* is the one exception and agrees like any adjective: *des fleurs roses*.\n\nA colour of two words never changes either: *une robe bleu clair*, *des yeux bleu foncé*.\n\n:::examples\n- J'ai une voiture verte. — I have a green car.\n- Elle porte des chaussures noires. — She's wearing black shoes.\n- Il a les yeux marron. — He has brown eyes.\n- Les tomates sont rouges. — The tomatoes are red.\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:fr-colors"
+        ],
+        "explains": [
+          "colors"
+        ]
+      },
+      "tags": [
+        "colors"
       ]
     },
     {
@@ -397,6 +414,20 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "je",
+      "primary_form": "je",
+      "gloss": "I",
+      "extras": {
+        "note": "j' before a vowel: j'habite",
+        "example": "Je m'appelle Léa et j'habite à Lyon.",
+        "example_en": "My name is Léa and I live in Lyon."
+      },
+      "tags": [
+        "pronoms"
+      ]
+    },
+    {
       "kind": "adjective",
       "id": "grand",
       "primary_form": "grand",
@@ -544,20 +575,17 @@
       ]
     },
     {
-      "kind": "noun",
-      "id": "fille",
-      "primary_form": "fille",
-      "gloss": "daughter; girl",
-      "extras": {
-        "gender": "f",
-        "article": "la",
-        "example": "Ma fille aime les chats.",
-        "example_en": "My daughter loves cats."
-      },
+      "kind": "phrase",
+      "id": "tu",
+      "primary_form": "tu",
+      "gloss": "you (one person, informal)",
       "tags": [
-        "family",
-        "féminin"
-      ]
+        "pronoms"
+      ],
+      "extras": {
+        "example": "Tu as faim ?",
+        "example_en": "Are you hungry?"
+      }
     },
     {
       "kind": "adjective",
@@ -577,6 +605,22 @@
       },
       "tags": [
         "adjectifs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "fille",
+      "primary_form": "fille",
+      "gloss": "daughter; girl",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "example": "Ma fille aime les chats.",
+        "example_en": "My daughter loves cats."
+      },
+      "tags": [
+        "family",
+        "féminin"
       ]
     },
     {
@@ -825,21 +869,17 @@
       }
     },
     {
-      "kind": "noun",
-      "id": "grand-pere",
-      "primary_form": "grand-père",
-      "gloss": "grandfather",
-      "extras": {
-        "gender": "m",
-        "article": "le",
-        "plural": "grands-pères",
-        "example": "Mon grand-père a quatre-vingts ans.",
-        "example_en": "My grandfather is eighty."
-      },
+      "kind": "phrase",
+      "id": "il-pronom",
+      "primary_form": "il",
+      "gloss": "he; it (masculine)",
       "tags": [
-        "family",
-        "masculin"
-      ]
+        "pronoms"
+      ],
+      "extras": {
+        "example": "Il travaille dans une banque.",
+        "example_en": "He works in a bank."
+      }
     },
     {
       "kind": "adjective",
@@ -859,6 +899,23 @@
       },
       "tags": [
         "adjectifs"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "grand-pere",
+      "primary_form": "grand-père",
+      "gloss": "grandfather",
+      "extras": {
+        "gender": "m",
+        "article": "le",
+        "plural": "grands-pères",
+        "example": "Mon grand-père a quatre-vingts ans.",
+        "example_en": "My grandfather is eighty."
+      },
+      "tags": [
+        "family",
+        "masculin"
       ]
     },
     {
@@ -989,6 +1046,39 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "elle",
+      "primary_form": "elle",
+      "gloss": "she; it (feminine)",
+      "tags": [
+        "pronoms"
+      ],
+      "extras": {
+        "example": "Elle est ma sœur.",
+        "example_en": "She's my sister."
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "mauvais",
+      "primary_form": "mauvais",
+      "gloss": "bad",
+      "extras": {
+        "forms": {
+          "ms": "mauvais",
+          "fs": "mauvaise",
+          "mp": "mauvais",
+          "fp": "mauvaises"
+        },
+        "position": "before the noun",
+        "example": "Ce film est vraiment mauvais.",
+        "example_en": "This film is really bad."
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "cousin",
       "primary_form": "cousin",
@@ -1016,26 +1106,6 @@
         "example": "Je pars maintenant, à demain !",
         "example_en": "I'm leaving now, see you tomorrow!"
       }
-    },
-    {
-      "kind": "adjective",
-      "id": "mauvais",
-      "primary_form": "mauvais",
-      "gloss": "bad",
-      "extras": {
-        "forms": {
-          "ms": "mauvais",
-          "fs": "mauvaise",
-          "mp": "mauvais",
-          "fp": "mauvaises"
-        },
-        "position": "before the noun",
-        "example": "Ce film est vraiment mauvais.",
-        "example_en": "This film is really bad."
-      },
-      "tags": [
-        "adjectifs"
-      ]
     },
     {
       "kind": "verb",
@@ -1148,6 +1218,40 @@
       }
     },
     {
+      "kind": "phrase",
+      "id": "on",
+      "primary_form": "on",
+      "gloss": "we (spoken); one, people",
+      "extras": {
+        "note": "takes the il form of the verb: on mange",
+        "example": "On mange à huit heures ?",
+        "example_en": "Shall we eat at eight?"
+      },
+      "tags": [
+        "pronoms"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "beau",
+      "primary_form": "beau",
+      "gloss": "beautiful, handsome",
+      "extras": {
+        "forms": {
+          "ms": "beau",
+          "fs": "belle",
+          "mp": "beaux",
+          "fp": "belles"
+        },
+        "position": "before the noun",
+        "example": "Quel beau bébé !",
+        "example_en": "What a beautiful baby!"
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "garcon",
       "primary_form": "garçon",
@@ -1242,26 +1346,6 @@
       "tags": [
         "people",
         "masculin"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "beau",
-      "primary_form": "beau",
-      "gloss": "beautiful, handsome",
-      "extras": {
-        "forms": {
-          "ms": "beau",
-          "fs": "belle",
-          "mp": "beaux",
-          "fp": "belles"
-        },
-        "position": "before the noun",
-        "example": "Quel beau bébé !",
-        "example_en": "What a beautiful baby!"
-      },
-      "tags": [
-        "adjectifs"
       ]
     },
     {
@@ -1375,6 +1459,39 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "nous",
+      "primary_form": "nous",
+      "gloss": "we",
+      "tags": [
+        "pronoms"
+      ],
+      "extras": {
+        "example": "Nous habitons à Bruxelles.",
+        "example_en": "We live in Brussels."
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "joli",
+      "primary_form": "joli",
+      "gloss": "pretty",
+      "extras": {
+        "forms": {
+          "ms": "joli",
+          "fs": "jolie",
+          "mp": "jolis",
+          "fp": "jolies"
+        },
+        "position": "before the noun",
+        "example": "Quel joli prénom !",
+        "example_en": "What a pretty name!"
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
       "kind": "connective",
       "id": "puis",
       "primary_form": "puis",
@@ -1431,26 +1548,6 @@
       "tags": [
         "body",
         "féminin"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "joli",
-      "primary_form": "joli",
-      "gloss": "pretty",
-      "extras": {
-        "forms": {
-          "ms": "joli",
-          "fs": "jolie",
-          "mp": "jolis",
-          "fp": "jolies"
-        },
-        "position": "before the noun",
-        "example": "Quel joli prénom !",
-        "example_en": "What a pretty name!"
-      },
-      "tags": [
-        "adjectifs"
       ]
     },
     {
@@ -1550,6 +1647,19 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "vous",
+      "primary_form": "vous",
+      "gloss": "you (polite, or more than one person)",
+      "tags": [
+        "pronoms"
+      ],
+      "extras": {
+        "example": "Vous parlez anglais ?",
+        "example_en": "Do you speak English?"
+      }
+    },
+    {
       "kind": "noun",
       "id": "bouche",
       "primary_form": "bouche",
@@ -1563,6 +1673,26 @@
       "tags": [
         "body",
         "féminin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "jeune",
+      "primary_form": "jeune",
+      "gloss": "young",
+      "extras": {
+        "forms": {
+          "ms": "jeune",
+          "fs": "jeune",
+          "mp": "jeunes",
+          "fp": "jeunes"
+        },
+        "position": "before the noun",
+        "example": "Il est trop jeune pour conduire.",
+        "example_en": "He's too young to drive."
+      },
+      "tags": [
+        "adjectifs"
       ]
     },
     {
@@ -1645,26 +1775,6 @@
       "tags": [
         "body",
         "masculin"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "jeune",
-      "primary_form": "jeune",
-      "gloss": "young",
-      "extras": {
-        "forms": {
-          "ms": "jeune",
-          "fs": "jeune",
-          "mp": "jeunes",
-          "fp": "jeunes"
-        },
-        "position": "before the noun",
-        "example": "Il est trop jeune pour conduire.",
-        "example_en": "He's too young to drive."
-      },
-      "tags": [
-        "adjectifs"
       ]
     },
     {
@@ -1779,6 +1889,39 @@
       }
     },
     {
+      "kind": "phrase",
+      "id": "ils",
+      "primary_form": "ils",
+      "gloss": "they (masculine or mixed)",
+      "tags": [
+        "pronoms"
+      ],
+      "extras": {
+        "example": "Ils arrivent demain.",
+        "example_en": "They're arriving tomorrow."
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "vieux",
+      "primary_form": "vieux",
+      "gloss": "old",
+      "extras": {
+        "forms": {
+          "ms": "vieux",
+          "fs": "vieille",
+          "mp": "vieux",
+          "fp": "vieilles"
+        },
+        "position": "before the noun",
+        "example": "Mon grand-père a un vieux vélo.",
+        "example_en": "My grandfather has an old bike."
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "bras",
       "primary_form": "bras",
@@ -1891,26 +2034,6 @@
       }
     },
     {
-      "kind": "adjective",
-      "id": "vieux",
-      "primary_form": "vieux",
-      "gloss": "old",
-      "extras": {
-        "forms": {
-          "ms": "vieux",
-          "fs": "vieille",
-          "mp": "vieux",
-          "fp": "vieilles"
-        },
-        "position": "before the noun",
-        "example": "Mon grand-père a un vieux vélo.",
-        "example_en": "My grandfather has an old bike."
-      },
-      "tags": [
-        "adjectifs"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "pied",
       "primary_form": "pied",
@@ -1941,6 +2064,39 @@
       "tags": [
         "body",
         "masculin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "elles",
+      "primary_form": "elles",
+      "gloss": "they (all feminine)",
+      "tags": [
+        "pronoms"
+      ],
+      "extras": {
+        "example": "Elles sont au cinéma.",
+        "example_en": "They're at the cinema."
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "nouveau",
+      "primary_form": "nouveau",
+      "gloss": "new",
+      "extras": {
+        "forms": {
+          "ms": "nouveau",
+          "fs": "nouvelle",
+          "mp": "nouveaux",
+          "fp": "nouvelles"
+        },
+        "position": "before the noun",
+        "example": "C'est notre nouveau professeur.",
+        "example_en": "This is our new teacher."
+      },
+      "tags": [
+        "adjectifs"
       ]
     },
     {
@@ -2056,26 +2212,6 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "nouveau",
-      "primary_form": "nouveau",
-      "gloss": "new",
-      "extras": {
-        "forms": {
-          "ms": "nouveau",
-          "fs": "nouvelle",
-          "mp": "nouveaux",
-          "fp": "nouvelles"
-        },
-        "position": "before the noun",
-        "example": "C'est notre nouveau professeur.",
-        "example_en": "This is our new teacher."
-      },
-      "tags": [
-        "adjectifs"
-      ]
-    },
-    {
       "kind": "phrase",
       "id": "excusez-moi",
       "primary_form": "excusez-moi",
@@ -2182,6 +2318,40 @@
           "3p": "aiment"
         }
       }
+    },
+    {
+      "kind": "phrase",
+      "id": "pas",
+      "primary_form": "pas",
+      "gloss": "not",
+      "extras": {
+        "note": "ne ... pas goes around the verb: je ne parle pas",
+        "example": "Je ne travaille pas aujourd'hui.",
+        "example_en": "I'm not working today."
+      },
+      "tags": [
+        "négation"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "gentil",
+      "primary_form": "gentil",
+      "gloss": "kind, nice",
+      "extras": {
+        "forms": {
+          "ms": "gentil",
+          "fs": "gentille",
+          "mp": "gentils",
+          "fp": "gentilles"
+        },
+        "position": "before the noun",
+        "example": "Vous êtes très gentil, merci.",
+        "example_en": "You're very kind, thank you."
+      },
+      "tags": [
+        "adjectifs"
+      ]
     },
     {
       "kind": "noun",
@@ -2311,26 +2481,6 @@
       }
     },
     {
-      "kind": "adjective",
-      "id": "gentil",
-      "primary_form": "gentil",
-      "gloss": "kind, nice",
-      "extras": {
-        "forms": {
-          "ms": "gentil",
-          "fs": "gentille",
-          "mp": "gentils",
-          "fp": "gentilles"
-        },
-        "position": "before the noun",
-        "example": "Vous êtes très gentil, merci.",
-        "example_en": "You're very kind, thank you."
-      },
-      "tags": [
-        "adjectifs"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "fromage",
       "primary_form": "fromage",
@@ -2344,6 +2494,39 @@
       "tags": [
         "food",
         "masculin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "jamais",
+      "primary_form": "jamais",
+      "gloss": "never",
+      "extras": {
+        "note": "ne ... jamais: je ne bois jamais de café",
+        "example": "Je ne bois jamais de café.",
+        "example_en": "I never drink coffee."
+      },
+      "tags": [
+        "négation"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "content",
+      "primary_form": "content",
+      "gloss": "happy, pleased",
+      "extras": {
+        "forms": {
+          "ms": "content",
+          "fs": "contente",
+          "mp": "contents",
+          "fp": "contentes"
+        },
+        "example": "Je suis content de te voir.",
+        "example_en": "I'm happy to see you."
+      },
+      "tags": [
+        "adjectifs"
       ]
     },
     {
@@ -2486,25 +2669,6 @@
       }
     },
     {
-      "kind": "adjective",
-      "id": "content",
-      "primary_form": "content",
-      "gloss": "happy, pleased",
-      "extras": {
-        "forms": {
-          "ms": "content",
-          "fs": "contente",
-          "mp": "contents",
-          "fp": "contentes"
-        },
-        "example": "Je suis content de te voir.",
-        "example_en": "I'm happy to see you."
-      },
-      "tags": [
-        "adjectifs"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "uf",
       "primary_form": "œuf",
@@ -2518,6 +2682,39 @@
       "tags": [
         "food",
         "masculin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "rien",
+      "primary_form": "rien",
+      "gloss": "nothing",
+      "extras": {
+        "note": "ne ... rien: je ne vois rien",
+        "example": "Je ne vois rien.",
+        "example_en": "I can't see anything."
+      },
+      "tags": [
+        "négation"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "fatigue",
+      "primary_form": "fatigué",
+      "gloss": "tired",
+      "extras": {
+        "forms": {
+          "ms": "fatigué",
+          "fs": "fatiguée",
+          "mp": "fatigués",
+          "fp": "fatiguées"
+        },
+        "example": "Elle est très fatiguée aujourd'hui.",
+        "example_en": "She is very tired today."
+      },
+      "tags": [
+        "adjectifs"
       ]
     },
     {
@@ -2712,19 +2909,33 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "personne",
+      "primary_form": "personne",
+      "gloss": "nobody",
+      "extras": {
+        "note": "ne ... personne; as a noun, une personne is a person",
+        "example": "Il n'y a personne à la maison.",
+        "example_en": "There's nobody at home."
+      },
+      "tags": [
+        "négation"
+      ]
+    },
+    {
       "kind": "adjective",
-      "id": "fatigue",
-      "primary_form": "fatigué",
-      "gloss": "tired",
+      "id": "chaud",
+      "primary_form": "chaud",
+      "gloss": "hot, warm",
       "extras": {
         "forms": {
-          "ms": "fatigué",
-          "fs": "fatiguée",
-          "mp": "fatigués",
-          "fp": "fatiguées"
+          "ms": "chaud",
+          "fs": "chaude",
+          "mp": "chauds",
+          "fp": "chaudes"
         },
-        "example": "Elle est très fatiguée aujourd'hui.",
-        "example_en": "She is very tired today."
+        "example": "Attention, le café est chaud !",
+        "example_en": "Careful, the coffee is hot!"
       },
       "tags": [
         "adjectifs"
@@ -2903,19 +3114,33 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "plus",
+      "primary_form": "plus",
+      "gloss": "no longer, not any more",
+      "extras": {
+        "note": "ne ... plus; without ne, plus means more",
+        "example": "Il n'habite plus ici.",
+        "example_en": "He doesn't live here any more."
+      },
+      "tags": [
+        "négation"
+      ]
+    },
+    {
       "kind": "adjective",
-      "id": "chaud",
-      "primary_form": "chaud",
-      "gloss": "hot, warm",
+      "id": "froid",
+      "primary_form": "froid",
+      "gloss": "cold",
       "extras": {
         "forms": {
-          "ms": "chaud",
-          "fs": "chaude",
-          "mp": "chauds",
-          "fp": "chaudes"
+          "ms": "froid",
+          "fs": "froide",
+          "mp": "froids",
+          "fp": "froides"
         },
-        "example": "Attention, le café est chaud !",
-        "example_en": "Careful, the coffee is hot!"
+        "example": "J'ai froid, ferme la fenêtre.",
+        "example_en": "I'm cold, close the window."
       },
       "tags": [
         "adjectifs"
@@ -3114,6 +3339,38 @@
       }
     },
     {
+      "kind": "phrase",
+      "id": "pas-encore",
+      "primary_form": "pas encore",
+      "gloss": "not yet",
+      "tags": [
+        "négation"
+      ],
+      "extras": {
+        "example": "Je n'ai pas encore mangé.",
+        "example_en": "I haven't eaten yet."
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "facile",
+      "primary_form": "facile",
+      "gloss": "easy",
+      "extras": {
+        "forms": {
+          "ms": "facile",
+          "fs": "facile",
+          "mp": "faciles",
+          "fp": "faciles"
+        },
+        "example": "Cet exercice est facile.",
+        "example_en": "This exercise is easy."
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "sel",
       "primary_form": "sel",
@@ -3127,25 +3384,6 @@
       "tags": [
         "food",
         "masculin"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "froid",
-      "primary_form": "froid",
-      "gloss": "cold",
-      "extras": {
-        "forms": {
-          "ms": "froid",
-          "fs": "froide",
-          "mp": "froids",
-          "fp": "froides"
-        },
-        "example": "J'ai froid, ferme la fenêtre.",
-        "example_en": "I'm cold, close the window."
-      },
-      "tags": [
-        "adjectifs"
       ]
     },
     {
@@ -3291,6 +3529,39 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "ce-n-est-pas-grave",
+      "primary_form": "ce n'est pas grave",
+      "gloss": "it doesn't matter, no problem",
+      "extras": {
+        "literal": "it isn't serious",
+        "example": "Ce n'est pas grave, ça arrive.",
+        "example_en": "It doesn't matter, it happens."
+      },
+      "tags": [
+        "négation"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "difficile",
+      "primary_form": "difficile",
+      "gloss": "difficult",
+      "extras": {
+        "forms": {
+          "ms": "difficile",
+          "fs": "difficile",
+          "mp": "difficiles",
+          "fp": "difficiles"
+        },
+        "example": "Le français n'est pas si difficile.",
+        "example_en": "French isn't that difficult."
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "chambre",
       "primary_form": "chambre",
@@ -3304,25 +3575,6 @@
       "tags": [
         "home",
         "féminin"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "facile",
-      "primary_form": "facile",
-      "gloss": "easy",
-      "extras": {
-        "forms": {
-          "ms": "facile",
-          "fs": "facile",
-          "mp": "faciles",
-          "fp": "faciles"
-        },
-        "example": "Cet exercice est facile.",
-        "example_en": "This exercise is easy."
-      },
-      "tags": [
-        "adjectifs"
       ]
     },
     {
@@ -3480,6 +3732,39 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "un",
+      "primary_form": "un",
+      "gloss": "one",
+      "extras": {
+        "note": "also the article a; une before a feminine noun",
+        "example": "J'ai un frère.",
+        "example_en": "I have one brother."
+      },
+      "tags": [
+        "nombres"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "cher",
+      "primary_form": "cher",
+      "gloss": "expensive; dear",
+      "extras": {
+        "forms": {
+          "ms": "cher",
+          "fs": "chère",
+          "mp": "chers",
+          "fp": "chères"
+        },
+        "example": "Ce manteau est trop cher.",
+        "example_en": "This coat is too expensive."
+      },
+      "tags": [
+        "adjectifs"
+      ]
+    },
+    {
       "kind": "verb",
       "id": "commencer",
       "primary_form": "commencer",
@@ -3586,25 +3871,6 @@
         "example": "Je ne comprends pas cette question.",
         "example_en": "I don't understand this question."
       }
-    },
-    {
-      "kind": "adjective",
-      "id": "difficile",
-      "primary_form": "difficile",
-      "gloss": "difficult",
-      "extras": {
-        "forms": {
-          "ms": "difficile",
-          "fs": "difficile",
-          "mp": "difficiles",
-          "fp": "difficiles"
-        },
-        "example": "Le français n'est pas si difficile.",
-        "example_en": "French isn't that difficult."
-      },
-      "tags": [
-        "adjectifs"
-      ]
     },
     {
       "kind": "noun",
@@ -3718,6 +3984,39 @@
       }
     },
     {
+      "kind": "phrase",
+      "id": "deux",
+      "primary_form": "deux",
+      "gloss": "two",
+      "tags": [
+        "nombres"
+      ],
+      "extras": {
+        "example": "Deux cafés, s'il vous plaît.",
+        "example_en": "Two coffees, please."
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "rouge",
+      "primary_form": "rouge",
+      "gloss": "red",
+      "extras": {
+        "forms": {
+          "ms": "rouge",
+          "fs": "rouge",
+          "mp": "rouges",
+          "fp": "rouges"
+        },
+        "example": "Elle a une voiture rouge.",
+        "example_en": "She has a red car."
+      },
+      "tags": [
+        "adjectifs",
+        "colors"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "jardin",
       "primary_form": "jardin",
@@ -3747,25 +4046,6 @@
       "tags": [
         "time",
         "masculin"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "cher",
-      "primary_form": "cher",
-      "gloss": "expensive; dear",
-      "extras": {
-        "forms": {
-          "ms": "cher",
-          "fs": "chère",
-          "mp": "chers",
-          "fp": "chères"
-        },
-        "example": "Ce manteau est trop cher.",
-        "example_en": "This coat is too expensive."
-      },
-      "tags": [
-        "adjectifs"
       ]
     },
     {
@@ -3880,6 +4160,39 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "trois",
+      "primary_form": "trois",
+      "gloss": "three",
+      "tags": [
+        "nombres"
+      ],
+      "extras": {
+        "example": "Il est trois heures.",
+        "example_en": "It's three o'clock."
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "bleu",
+      "primary_form": "bleu",
+      "gloss": "blue",
+      "extras": {
+        "forms": {
+          "ms": "bleu",
+          "fs": "bleue",
+          "mp": "bleus",
+          "fp": "bleues"
+        },
+        "example": "Le ciel est bleu aujourd'hui.",
+        "example_en": "The sky is blue today."
+      },
+      "tags": [
+        "adjectifs",
+        "colors"
+      ]
+    },
+    {
       "kind": "verb",
       "id": "choisir",
       "primary_form": "choisir",
@@ -3990,26 +4303,6 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "rouge",
-      "primary_form": "rouge",
-      "gloss": "red",
-      "extras": {
-        "forms": {
-          "ms": "rouge",
-          "fs": "rouge",
-          "mp": "rouges",
-          "fp": "rouges"
-        },
-        "example": "Elle a une voiture rouge.",
-        "example_en": "She has a red car."
-      },
-      "tags": [
-        "adjectifs",
-        "colors"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "heure",
       "primary_form": "heure",
@@ -4104,6 +4397,19 @@
       }
     },
     {
+      "kind": "phrase",
+      "id": "quatre",
+      "primary_form": "quatre",
+      "gloss": "four",
+      "tags": [
+        "nombres"
+      ],
+      "extras": {
+        "example": "Je travaille quatre jours par semaine.",
+        "example_en": "I work four days a week."
+      }
+    },
+    {
       "kind": "noun",
       "id": "minute",
       "primary_form": "minute",
@@ -4117,6 +4423,26 @@
       "tags": [
         "time",
         "féminin"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "vert",
+      "primary_form": "vert",
+      "gloss": "green",
+      "extras": {
+        "forms": {
+          "ms": "vert",
+          "fs": "verte",
+          "mp": "verts",
+          "fp": "vertes"
+        },
+        "example": "Il porte un pull vert.",
+        "example_en": "He's wearing a green jumper."
+      },
+      "tags": [
+        "adjectifs",
+        "colors"
       ]
     },
     {
@@ -4201,26 +4527,6 @@
       }
     },
     {
-      "kind": "adjective",
-      "id": "bleu",
-      "primary_form": "bleu",
-      "gloss": "blue",
-      "extras": {
-        "forms": {
-          "ms": "bleu",
-          "fs": "bleue",
-          "mp": "bleus",
-          "fp": "bleues"
-        },
-        "example": "Le ciel est bleu aujourd'hui.",
-        "example_en": "The sky is blue today."
-      },
-      "tags": [
-        "adjectifs",
-        "colors"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "soir",
       "primary_form": "soir",
@@ -4277,6 +4583,39 @@
       },
       "tags": [
         "conjonctions"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "cinq",
+      "primary_form": "cinq",
+      "gloss": "five",
+      "tags": [
+        "nombres"
+      ],
+      "extras": {
+        "example": "Ça coûte cinq euros.",
+        "example_en": "It costs five euros."
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "jaune",
+      "primary_form": "jaune",
+      "gloss": "yellow",
+      "extras": {
+        "forms": {
+          "ms": "jaune",
+          "fs": "jaune",
+          "mp": "jaunes",
+          "fp": "jaunes"
+        },
+        "example": "Les bananes sont jaunes.",
+        "example_en": "Bananas are yellow."
+      },
+      "tags": [
+        "adjectifs",
+        "colors"
       ]
     },
     {
@@ -4390,26 +4729,6 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "vert",
-      "primary_form": "vert",
-      "gloss": "green",
-      "extras": {
-        "forms": {
-          "ms": "vert",
-          "fs": "verte",
-          "mp": "verts",
-          "fp": "vertes"
-        },
-        "example": "Il porte un pull vert.",
-        "example_en": "He's wearing a green jumper."
-      },
-      "tags": [
-        "adjectifs",
-        "colors"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "jeudi",
       "primary_form": "jeudi",
@@ -4504,6 +4823,39 @@
       "tags": [
         "time",
         "masculin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "six",
+      "primary_form": "six",
+      "gloss": "six",
+      "tags": [
+        "nombres"
+      ],
+      "extras": {
+        "example": "Le magasin ferme à six heures.",
+        "example_en": "The shop closes at six."
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "noir",
+      "primary_form": "noir",
+      "gloss": "black",
+      "extras": {
+        "forms": {
+          "ms": "noir",
+          "fs": "noire",
+          "mp": "noirs",
+          "fp": "noires"
+        },
+        "example": "Je prends un café noir.",
+        "example_en": "I'll have a black coffee."
+      },
+      "tags": [
+        "adjectifs",
+        "colors"
       ]
     },
     {
@@ -4644,26 +4996,6 @@
       }
     },
     {
-      "kind": "adjective",
-      "id": "jaune",
-      "primary_form": "jaune",
-      "gloss": "yellow",
-      "extras": {
-        "forms": {
-          "ms": "jaune",
-          "fs": "jaune",
-          "mp": "jaunes",
-          "fp": "jaunes"
-        },
-        "example": "Les bananes sont jaunes.",
-        "example_en": "Bananas are yellow."
-      },
-      "tags": [
-        "adjectifs",
-        "colors"
-      ]
-    },
-    {
       "kind": "phrase",
       "id": "qu-est-ce-que-c-est",
       "primary_form": "qu'est-ce que c'est ?",
@@ -4691,6 +5023,39 @@
       "tags": [
         "city",
         "féminin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "sept",
+      "primary_form": "sept",
+      "gloss": "seven",
+      "tags": [
+        "nombres"
+      ],
+      "extras": {
+        "example": "Une semaine a sept jours.",
+        "example_en": "A week has seven days."
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "blanc",
+      "primary_form": "blanc",
+      "gloss": "white",
+      "extras": {
+        "forms": {
+          "ms": "blanc",
+          "fs": "blanche",
+          "mp": "blancs",
+          "fp": "blanches"
+        },
+        "example": "Elle porte une chemise blanche.",
+        "example_en": "She's wearing a white shirt."
+      },
+      "tags": [
+        "adjectifs",
+        "colors"
       ]
     },
     {
@@ -4846,26 +5211,6 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "noir",
-      "primary_form": "noir",
-      "gloss": "black",
-      "extras": {
-        "forms": {
-          "ms": "noir",
-          "fs": "noire",
-          "mp": "noirs",
-          "fp": "noires"
-        },
-        "example": "Je prends un café noir.",
-        "example_en": "I'll have a black coffee."
-      },
-      "tags": [
-        "adjectifs",
-        "colors"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "boulangerie",
       "primary_form": "boulangerie",
@@ -4879,6 +5224,39 @@
       "tags": [
         "city",
         "féminin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "huit",
+      "primary_form": "huit",
+      "gloss": "eight",
+      "tags": [
+        "nombres"
+      ],
+      "extras": {
+        "example": "Je dors huit heures par nuit.",
+        "example_en": "I sleep eight hours a night."
+      }
+    },
+    {
+      "kind": "adjective",
+      "id": "gris",
+      "primary_form": "gris",
+      "gloss": "grey",
+      "extras": {
+        "forms": {
+          "ms": "gris",
+          "fs": "grise",
+          "mp": "gris",
+          "fp": "grises"
+        },
+        "example": "Mon chat est gris et blanc.",
+        "example_en": "My cat is grey and white."
+      },
+      "tags": [
+        "adjectifs",
+        "colors"
       ]
     },
     {
@@ -5102,26 +5480,6 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "blanc",
-      "primary_form": "blanc",
-      "gloss": "white",
-      "extras": {
-        "forms": {
-          "ms": "blanc",
-          "fs": "blanche",
-          "mp": "blancs",
-          "fp": "blanches"
-        },
-        "example": "Elle porte une chemise blanche.",
-        "example_en": "She's wearing a white shirt."
-      },
-      "tags": [
-        "adjectifs",
-        "colors"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "banque",
       "primary_form": "banque",
@@ -5135,6 +5493,40 @@
       "tags": [
         "city",
         "féminin"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "neuf",
+      "primary_form": "neuf",
+      "gloss": "nine",
+      "extras": {
+        "note": "also means new: un livre neuf",
+        "example": "Mon fils a neuf ans.",
+        "example_en": "My son is nine."
+      },
+      "tags": [
+        "nombres"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "marron",
+      "primary_form": "marron",
+      "gloss": "brown",
+      "extras": {
+        "forms": {
+          "ms": "marron",
+          "fs": "marron",
+          "mp": "marron",
+          "fp": "marron"
+        },
+        "example": "Il a les yeux marron.",
+        "example_en": "He has brown eyes."
+      },
+      "tags": [
+        "adjectifs",
+        "colors"
       ]
     },
     {
@@ -5266,19 +5658,32 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "dix",
+      "primary_form": "dix",
+      "gloss": "ten",
+      "tags": [
+        "nombres"
+      ],
+      "extras": {
+        "example": "J'arrive dans dix minutes.",
+        "example_en": "I'll be there in ten minutes."
+      }
+    },
+    {
       "kind": "adjective",
-      "id": "gris",
-      "primary_form": "gris",
-      "gloss": "grey",
+      "id": "orange",
+      "primary_form": "orange",
+      "gloss": "orange",
       "extras": {
         "forms": {
-          "ms": "gris",
-          "fs": "grise",
-          "mp": "gris",
-          "fp": "grises"
+          "ms": "orange",
+          "fs": "orange",
+          "mp": "orange",
+          "fp": "orange"
         },
-        "example": "Mon chat est gris et blanc.",
-        "example_en": "My cat is grey and white."
+        "example": "Elle porte des chaussures orange.",
+        "example_en": "She's wearing orange shoes."
       },
       "tags": [
         "adjectifs",
@@ -5438,17 +5843,20 @@
       "subtitle": "Hello, good evening, thanks and sorry"
     },
     {
-      "title": "Salut, ça va ?",
+      "title": "Je, tu, nous et vous",
       "word_ids": [
-        "salut",
-        "ca-va",
-        "comment-allez-vous",
-        "s-il-te-plait",
-        "d-accord",
-        "excusez-moi"
+        "je",
+        "tu",
+        "il-pronom",
+        "elle",
+        "on",
+        "nous",
+        "vous",
+        "ils",
+        "elles"
       ],
       "page_id": "fr-subject-pronouns",
-      "subtitle": "Hi, how are you, OK and excuse me"
+      "subtitle": "I, you, he, she, one, we, you all and they"
     },
     {
       "title": "Verbes essentiels",
@@ -5478,17 +5886,20 @@
       "subtitle": "To live, love, work, finish, sell, wait"
     },
     {
-      "title": "Prendre, voir et écouter",
+      "title": "Pas, jamais et rien",
       "word_ids": [
-        "prendre",
-        "mettre",
-        "dire",
-        "voir",
-        "regarder",
-        "ecouter"
+        "pas",
+        "jamais",
+        "rien",
+        "personne",
+        "plus",
+        "pas-encore",
+        "je-ne-comprends-pas",
+        "je-ne-sais-pas",
+        "ce-n-est-pas-grave"
       ],
       "page_id": "fr-negation",
-      "subtitle": "To take, put, say, see, watch, listen"
+      "subtitle": "Not, never, nothing, nobody, no longer, not yet"
     },
     {
       "title": "Questions utiles",
@@ -5553,22 +5964,29 @@
         "jaune",
         "noir",
         "blanc",
-        "gris"
+        "gris",
+        "marron",
+        "orange"
       ],
-      "subtitle": "Red, blue, green, yellow, black and white"
+      "page_id": "fr-colors",
+      "subtitle": "Red, blue, green, yellow, black, white, brown"
     },
     {
-      "title": "L'heure et les jours",
+      "title": "De un à dix",
       "word_ids": [
-        "heure",
-        "minute",
-        "jour",
-        "lundi",
-        "mardi",
-        "mercredi"
+        "un",
+        "deux",
+        "trois",
+        "quatre",
+        "cinq",
+        "six",
+        "sept",
+        "huit",
+        "neuf",
+        "dix"
       ],
       "page_id": "fr-numbers",
-      "subtitle": "Hours, minutes, days, Monday to Wednesday"
+      "subtitle": "The numbers one to ten"
     },
     {
       "title": "Venir, partir, écrire",
@@ -5613,35 +6031,45 @@
       "subtitle": "Son, daughter, grandparents, uncle, aunt"
     },
     {
-      "title": "Dire au revoir",
+      "title": "Au revoir et à bientôt",
       "word_ids": [
+        "salut",
         "au-revoir",
         "a-bientot",
         "a-demain",
         "bonne-nuit",
         "merci-beaucoup",
         "de-rien",
-        "je-vous-en-prie",
-        "desole",
-        "oui",
-        "non"
+        "je-vous-en-prie"
       ],
-      "subtitle": "Goodbye, see you soon, you're welcome"
+      "subtitle": "Hi, goodbye, see you, good night, you're welcome"
     },
     {
-      "title": "Phrases de survie",
+      "title": "Oui, non et d'accord",
       "word_ids": [
+        "s-il-te-plait",
+        "excusez-moi",
+        "desole",
+        "oui",
+        "non",
         "si",
+        "d-accord",
+        "ca-va"
+      ],
+      "subtitle": "Please, excuse me, sorry, yes, no, OK"
+    },
+    {
+      "title": "Bon appétit et santé",
+      "word_ids": [
         "ca-va-bien-merci",
-        "je-ne-comprends-pas",
-        "je-ne-sais-pas",
+        "comment-allez-vous",
         "l-addition-s-il-vous-plait",
         "bon-appetit",
         "sante",
         "bonne-journee",
         "bon-week-end"
       ],
-      "subtitle": "I don't understand, the bill and cheers"
+      "subtitle": "I'm fine, the bill, enjoy your meal, cheers"
     },
     {
       "title": "Les gens et les noms",
@@ -5723,20 +6151,32 @@
       "subtitle": "Bedroom, kitchen, bathroom, bed and keys"
     },
     {
-      "title": "La semaine et l'année",
+      "title": "Le jour et l'année",
       "word_ids": [
+        "jour",
         "semaine",
         "mois",
         "an",
         "annee",
-        "matin",
+        "heure",
+        "minute",
+        "matin"
+      ],
+      "subtitle": "Days, weeks, months, years, hours and minutes"
+    },
+    {
+      "title": "Les jours de la semaine",
+      "word_ids": [
         "soir",
+        "lundi",
+        "mardi",
+        "mercredi",
         "jeudi",
         "vendredi",
         "samedi",
         "dimanche"
       ],
-      "subtitle": "Weeks, months, years, Thursday to Sunday"
+      "subtitle": "Evening, and Monday to Sunday"
     },
     {
       "title": "En ville",
@@ -5761,31 +6201,43 @@
         "jeune",
         "content",
         "fatigue",
-        "chaud",
-        "froid"
+        "chaud"
       ],
-      "subtitle": "Tired, happy, hot, cold, first and then"
+      "subtitle": "First, then, also, bad, pretty, young, tired, hot"
     },
     {
-      "title": "Verbes du quotidien",
+      "title": "Prendre, mettre et voir",
       "word_ids": [
+        "froid",
         "facile",
         "difficile",
         "cher",
         "savoir",
+        "prendre",
+        "mettre",
+        "dire",
+        "voir"
+      ],
+      "subtitle": "Cold, easy, hard; to know, take, put, say, see"
+    },
+    {
+      "title": "Chercher et trouver",
+      "word_ids": [
+        "regarder",
+        "ecouter",
         "jouer",
         "chercher",
         "donner",
         "trouver",
         "penser",
-        "commencer"
+        "commencer",
+        "acheter"
       ],
-      "subtitle": "To give, find, think, plus easy and hard"
+      "subtitle": "To watch, listen, play, look for, give, find, buy"
     },
     {
-      "title": "Apprendre et comprendre",
+      "title": "Et, ou et quand",
       "word_ids": [
-        "acheter",
         "comprendre",
         "apprendre",
         "s-appeler",
@@ -5795,7 +6247,7 @@
         "argent",
         "telephone"
       ],
-      "subtitle": "To buy, learn, understand, money, phone"
+      "subtitle": "To understand, learn, be called; and, or, when"
     }
   ]
 }

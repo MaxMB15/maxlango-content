@@ -3,9 +3,9 @@
   "title": "Bonjour et merci",
   "subtitle": "Hello, good evening, thanks and sorry"
  },
- "salut": {
-  "title": "Salut, ça va ?",
-  "subtitle": "Hi, how are you, OK and excuse me"
+ "je": {
+  "title": "Je, tu, nous et vous",
+  "subtitle": "I, you, he, she, one, we, you all and they"
  },
  "etre": {
   "title": "Verbes essentiels",
@@ -15,9 +15,9 @@
   "title": "Verbes réguliers",
   "subtitle": "To live, love, work, finish, sell, wait"
  },
- "prendre": {
-  "title": "Prendre, voir et écouter",
-  "subtitle": "To take, put, say, see, watch, listen"
+ "pas": {
+  "title": "Pas, jamais et rien",
+  "subtitle": "Not, never, nothing, nobody, no longer, not yet"
  },
  "ou-sont-les-toilettes": {
   "title": "Questions utiles",
@@ -37,11 +37,11 @@
  },
  "rouge": {
   "title": "Les couleurs",
-  "subtitle": "Red, blue, green, yellow, black and white"
+  "subtitle": "Red, blue, green, yellow, black, white, brown"
  },
- "heure": {
-  "title": "L'heure et les jours",
-  "subtitle": "Hours, minutes, days, Monday to Wednesday"
+ "un": {
+  "title": "De un à dix",
+  "subtitle": "The numbers one to ten"
  },
  "venir": {
   "title": "Venir, partir, écrire",
@@ -55,13 +55,17 @@
   "title": "La famille élargie",
   "subtitle": "Son, daughter, grandparents, uncle, aunt"
  },
- "au-revoir": {
-  "title": "Dire au revoir",
-  "subtitle": "Goodbye, see you soon, you're welcome"
+ "salut": {
+  "title": "Au revoir et à bientôt",
+  "subtitle": "Hi, goodbye, see you, good night, you're welcome"
  },
- "si": {
-  "title": "Phrases de survie",
-  "subtitle": "I don't understand, the bill and cheers"
+ "s-il-te-plait": {
+  "title": "Oui, non et d'accord",
+  "subtitle": "Please, excuse me, sorry, yes, no, OK"
+ },
+ "ca-va-bien-merci": {
+  "title": "Bon appétit et santé",
+  "subtitle": "I'm fine, the bill, enjoy your meal, cheers"
  },
  "homme": {
   "title": "Les gens et les noms",
@@ -87,9 +91,13 @@
   "title": "La maison",
   "subtitle": "Bedroom, kitchen, bathroom, bed and keys"
  },
- "semaine": {
-  "title": "La semaine et l'année",
-  "subtitle": "Weeks, months, years, Thursday to Sunday"
+ "jour": {
+  "title": "Le jour et l'année",
+  "subtitle": "Days, weeks, months, years, hours and minutes"
+ },
+ "soir": {
+  "title": "Les jours de la semaine",
+  "subtitle": "Evening, and Monday to Sunday"
  },
  "ville": {
   "title": "En ville",
@@ -97,14 +105,18 @@
  },
  "d-abord": {
   "title": "Adjectifs et petits mots",
-  "subtitle": "Tired, happy, hot, cold, first and then"
+  "subtitle": "First, then, also, bad, pretty, young, tired, hot"
  },
- "facile": {
-  "title": "Verbes du quotidien",
-  "subtitle": "To give, find, think, plus easy and hard"
+ "froid": {
+  "title": "Prendre, mettre et voir",
+  "subtitle": "Cold, easy, hard; to know, take, put, say, see"
  },
- "acheter": {
-  "title": "Apprendre et comprendre",
-  "subtitle": "To buy, learn, understand, money, phone"
+ "regarder": {
+  "title": "Chercher et trouver",
+  "subtitle": "To watch, listen, play, look for, give, find, buy"
+ },
+ "comprendre": {
+  "title": "Et, ou et quand",
+  "subtitle": "To understand, learn, be called; and, or, when"
  }
 }

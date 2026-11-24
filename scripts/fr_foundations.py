@@ -54,6 +54,15 @@ If a vowel follows the n (*[bonne](lango:say)*, *[une](lango:say)*), the nasal d
 - **è** and **ê** are an open "eh": *[mère](lango:say)*, *[fête](lango:say)*.
 - **ç** makes c soft before a, o, u: *[ça](lango:say)*, *[garçon](lango:say)*.
 - **à**, **ù**, **â**, **î**, **ô**, **û** don't change the sound much. They tell words apart: *[a](lango:say)* (has) and *[à](lango:say)* (to), *[ou](lango:say)* (or) and *[où](lango:say)* (where).
+
+## This unit's words
+
+- *[bonjour](lango:say)*: a nasal **on**, then the French **r**, made at the back of the throat: "bohn-zhoor".
+- *[bonsoir](lango:say)*: the same **on**, and **oi** says "wa": "bohn-swar".
+- *[merci](lango:say)*: the **r** again, and **c** before **i** is an s: "mair-see".
+- *[enchanté](lango:say)*: two nasals, **en** and **an**, then a closed **é**: "ahn-shahn-tay".
+- *[pardon](lango:say)*: the **n** is silent and the **on** goes through the nose: "par-dohn".
+- *[s'il vous plaît](lango:say)*: elision in *s'il*, and the final **s** and **t** stay silent: "seel voo pleh".
 """,
         ["prononciation"],
         "fr-pronunciation",
@@ -395,6 +404,45 @@ A few adjectives mean different things before and after:
         explains=["adjectifs"],
     ),
     page(
+        "fr-colors",
+        "Colours: which ones agree",
+        r"""
+Colours are adjectives, so they follow the adjectives page: they go after the noun and agree with it. *Un pull vert*, *une robe verte*, *des chaussures vertes*.
+
+## Most colours add -e and -s
+
+| masculine | feminine | plural |
+| --- | --- | --- |
+| vert | verte | verts, vertes |
+| noir | noire | noirs, noires |
+| bleu | bleue | bleus, bleues |
+| gris | grise | gris, grises |
+| blanc | blanche | blancs, blanches |
+
+*Blanc* has its own feminine, *blanche*. *Gris* already ends in **s**, so its masculine plural looks the same as its singular.
+
+## Colours ending in -e
+
+*Rouge* and *jaune* already end in **-e**, so the feminine is the same and only the plural changes: *un sac rouge*, *une robe rouge*, *des fleurs jaunes*.
+
+## Colours that never change
+
+A colour named after a thing stays as it is. *Marron* is a chestnut and *orange* is the fruit, so they never take -e or -s: *des yeux marron*, *des chaussures orange*. *Rose* is the one exception and agrees like any adjective: *des fleurs roses*.
+
+A colour of two words never changes either: *une robe bleu clair*, *des yeux bleu foncé*.
+
+:::examples
+- J'ai une voiture verte. — I have a green car.
+- Elle porte des chaussures noires. — She's wearing black shoes.
+- Il a les yeux marron. — He has brown eyes.
+- Les tomates sont rouges. — The tomatoes are red.
+:::
+""",
+        ["colors"],
+        "fr-colors",
+        explains=["colors"],
+    ),
+    page(
         "fr-numbers",
         "Numbers, and counting in twenties",
         r"""
@@ -630,10 +678,12 @@ jaune, jaune, jaunes, jaunes | yellow
 noir, noire, noirs, noires | black
 blanc, blanche, blancs, blanches | white
 gris, grise, gris, grises | grey
+marron, marron, marron, marron | brown
+orange, orange, orange, orange | orange
 """
 )
 for a in ADJECTIVES:
-    if a["primary_form"] in {"rouge", "bleu", "vert", "jaune", "noir", "blanc", "gris"}:
+    if a["primary_form"] in {"rouge", "bleu", "vert", "jaune", "noir", "blanc", "gris", "marron", "orange"}:
         a["tags"].append("colors")
 
 VERBS = [
@@ -785,6 +835,54 @@ bon week-end | have a good weekend
     ["greetings"],
 )
 
+PRONOUNS = phrases(
+    """
+je | I | | j' before a vowel: j'habite
+tu | you (one person, informal)
+il | he; it (masculine)
+elle | she; it (feminine)
+on | we (spoken); one, people | | takes the il form of the verb: on mange
+nous | we
+vous | you (polite, or more than one person)
+ils | they (masculine or mixed)
+elles | they (all feminine)
+""",
+    ["pronoms"],
+)
+# The noun œil already has the id "il" (œ is not a letter slug() keeps).
+for p in PRONOUNS:
+    if p["id"] == "il":
+        p["id"] = "il-pronom"
+
+NEGATIVES = phrases(
+    """
+pas | not | | ne ... pas goes around the verb: je ne parle pas
+jamais | never | | ne ... jamais: je ne bois jamais de café
+rien | nothing | | ne ... rien: je ne vois rien
+personne | nobody | | ne ... personne; as a noun, une personne is a person
+plus | no longer, not any more | | ne ... plus; without ne, plus means more
+pas encore | not yet
+ce n'est pas grave | it doesn't matter, no problem | it isn't serious
+""",
+    ["négation"],
+)
+
+NUMBERS = phrases(
+    """
+un | one | | also the article a; une before a feminine noun
+deux | two
+trois | three
+quatre | four
+cinq | five
+six | six
+sept | seven
+huit | eight
+neuf | nine | | also means new: un livre neuf
+dix | ten
+""",
+    ["nombres"],
+)
+
 CONNECTIVES = connectors(
     "connective",
     """
@@ -805,14 +903,15 @@ si | if | conj-subordinating | On sort si tu veux. | We'll go out if you want.
     ["conjonctions"],
 )
 
-ITEMS = PAGES + interleave(PHRASES, NOUNS, VERBS, ADJECTIVES, CONNECTIVES + CONJUNCTIONS)
+ITEMS = PAGES + interleave(
+    PHRASES, PRONOUNS + NEGATIVES + NUMBERS, NOUNS, VERBS, ADJECTIVES, CONNECTIVES + CONJUNCTIONS
+)
 
-# Each grammar page's Unit carries the words that use or illustrate it, not
-# just whatever happens to share its tag (most of these grammar concepts —
-# négation, questions, partitif, nombres, pronoms — tag no vocabulary item at
-# all). Pronunciation/pronoun/question phrases are drawn from the greetings
-# set without overlap; numbers pairs with the time words used to tell time;
-# possessives pairs with family, its most natural example domain.
+# Each grammar page's Unit practises the words its page explains: the
+# pronunciation page ends on how each greeting in its unit sounds, the
+# pronouns, negation and numbers pages get their own pronouns, negative
+# words and numbers, and colours get a page on which ones agree.
+# Possessives pairs with family, its most natural example domain.
 UNITS = [
     {
         "title": "La prononciation",
@@ -820,9 +919,9 @@ UNITS = [
         "word_ids": ["bonjour", "bonsoir", "merci", "enchante", "pardon", "s-il-vous-plait"],
     },
     {
-        "title": "Tu ou vous",
+        "title": "Je, tu, vous",
         "page_id": "fr-subject-pronouns",
-        "word_ids": ["salut", "ca-va", "comment-allez-vous", "s-il-te-plait", "d-accord", "excusez-moi"],
+        "word_ids": ["je", "tu", "il-pronom", "elle", "on", "nous", "vous", "ils", "elles"],
     },
     {
         "title": "Être et avoir",
@@ -837,7 +936,17 @@ UNITS = [
     {
         "title": "La négation",
         "page_id": "fr-negation",
-        "word_ids": ["prendre", "mettre", "dire", "voir", "regarder", "ecouter"],
+        "word_ids": [
+            "pas",
+            "jamais",
+            "rien",
+            "personne",
+            "plus",
+            "pas-encore",
+            "je-ne-comprends-pas",
+            "je-ne-sais-pas",
+            "ce-n-est-pas-grave",
+        ],
     },
     {
         "title": "Les questions",
@@ -869,12 +978,13 @@ UNITS = [
     },
     {
         "title": "Les couleurs",
-        "word_ids": ["rouge", "bleu", "vert", "jaune", "noir", "blanc", "gris"],
+        "page_id": "fr-colors",
+        "word_ids": ["rouge", "bleu", "vert", "jaune", "noir", "blanc", "gris", "marron", "orange"],
     },
     {
         "title": "Les nombres",
         "page_id": "fr-numbers",
-        "word_ids": ["heure", "minute", "jour", "lundi", "mardi", "mercredi"],
+        "word_ids": ["un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix"],
     },
     {
         "title": "Le futur proche",
@@ -898,7 +1008,7 @@ LABELS = {
 
 PACK = pack(
     "fr-foundations-v1",
-    5,
+    6,
     "fr",
     "Français · Fondations (A1)",
     ITEMS,
