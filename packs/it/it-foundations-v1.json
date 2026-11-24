@@ -97,7 +97,7 @@
       "kind": "misc",
       "id": "it-pronunciation",
       "title": "Reading Italian aloud",
-      "body_md": "Italian is spelled almost exactly as it sounds. Learn a handful of rules and you can read any word aloud. The vowels are always pure: *a, e, i, o, u* never glide the way English vowels do, and a final vowel is always pronounced.\n\n## Double consonants\n\nA double consonant is held longer, with a tiny pause before it, and it changes the meaning: *[pala](lango:say)* (shovel) and *[palla](lango:say)* (ball), *[caro](lango:say)* (dear) and *[carro](lango:say)* (cart), *[sete](lango:say)* (thirst) and *[sette](lango:say)* (seven), *[nono](lango:say)* (ninth) and *[nonno](lango:say)* (grandfather). English speakers tend to skip the difference. Italians hear it at once.\n\n## C and g\n\n| Spelling | Sound | Example |\n| --- | --- | --- |\n| ca, co, cu, chi, che | \"k\" | *[casa](lango:say)*, *[chi](lango:say)* |\n| ci, ce, cia, cio, ciu | \"ch\" as in church | *[cena](lango:say)*, *[ciao](lango:say)* |\n| ga, go, gu, ghi, ghe | \"g\" as in go | *[gatto](lango:say)*, *[spaghetti](lango:say)* |\n| gi, ge, gia, gio, giu | \"j\" as in jam | *[gelato](lango:say)*, *[giorno](lango:say)* |\n\nThe **h** is what keeps c and g hard before i and e: *[chiave](lango:say)*, *[funghi](lango:say)*. The i in *cia*, *cio* and *giu* is usually silent, just a sign that the c or g is soft: *[ciao](lango:say)* sounds like \"chow\".\n\n## Gli, gn and sc\n\n- **gli** is like the \"lli\" in \"million\": *[figlio](lango:say)*, *[famiglia](lango:say)*, *[aglio](lango:say)*.\n- **gn** is like the \"ny\" in \"canyon\": *[bagno](lango:say)*, *[signora](lango:say)*, *[gnocchi](lango:say)*.\n- **sc** before i or e is \"sh\": *[pesce](lango:say)*, *[uscire](lango:say)*. Before a, o, u, or with an h, it is \"sk\": *[scuola](lango:say)*, *[schiena](lango:say)*.\n\n## Stress\n\nMost words are stressed on the second-to-last syllable: *[amico](lango:say)*, *[parlare](lango:say)*. A written accent marks a stressed final vowel: *[città](lango:say)*, *[perché](lango:say)*, *[caffè](lango:say)*. Many words put the stress further back with nothing to warn you: *[macchina](lango:say)*, *[telefono](lango:say)*. The -ano of a verb is never stressed: *[parlano](lango:say)*, *[lavorano](lango:say)*.\n\nAccents also tell short words apart: *[e](lango:say)* (and) and *[è](lango:say)* (is), *[si](lango:say)* (oneself) and *[sì](lango:say)* (yes), *[la](lango:say)* (the) and *[là](lango:say)* (there).\n\n## H and r\n\n**H** is always silent: *[ho](lango:say)* sounds like *o*. The **r** is a quick tap of the tongue, rolled longer when it's double: *[Roma](lango:say)*, *[birra](lango:say)*.\n\n:::examples\n- Ciao, come ti chiami? — Hi, what's your name?\n- Mio figlio ha sette anni. — My son is seven.\n- Il bagno è in fondo a destra. — The bathroom is at the end on the right.\n:::",
+      "body_md": "Italian is spelled almost exactly as it sounds. Learn a handful of rules and you can read any word aloud. The vowels are always pure: *a, e, i, o, u* never glide the way English vowels do, and a final vowel is always pronounced.\n\n## Double consonants\n\nA double consonant is held longer, with a tiny pause before it, and it changes the meaning: *[pala](lango:say)* (shovel) and *[palla](lango:say)* (ball), *[caro](lango:say)* (dear) and *[carro](lango:say)* (cart), *[sete](lango:say)* (thirst) and *[sette](lango:say)* (seven), *[nono](lango:say)* (ninth) and *[nonno](lango:say)* (grandfather). English speakers tend to skip the difference. Italians hear it at once.\n\n## C and g\n\n| Spelling | Sound | Example |\n| --- | --- | --- |\n| ca, co, cu, chi, che | \"k\" | *[casa](lango:say)*, *[chi](lango:say)* |\n| ci, ce, cia, cio, ciu | \"ch\" as in church | *[cena](lango:say)*, *[ciao](lango:say)* |\n| ga, go, gu, ghi, ghe | \"g\" as in go | *[gatto](lango:say)*, *[spaghetti](lango:say)* |\n| gi, ge, gia, gio, giu | \"j\" as in jam | *[gelato](lango:say)*, *[giorno](lango:say)* |\n\nThe **h** is what keeps c and g hard before i and e: *[chiave](lango:say)*, *[funghi](lango:say)*. The i in *cia*, *cio* and *giu* is usually silent, just a sign that the c or g is soft: *[ciao](lango:say)* sounds like \"chow\".\n\n## Gli, gn and sc\n\n- **gli** is like the \"lli\" in \"million\": *[figlio](lango:say)*, *[famiglia](lango:say)*, *[aglio](lango:say)*.\n- **gn** is like the \"ny\" in \"canyon\": *[bagno](lango:say)*, *[signora](lango:say)*, *[gnocchi](lango:say)*.\n- **sc** before i or e is \"sh\": *[pesce](lango:say)*, *[uscire](lango:say)*. Before a, o, u, or with an h, it is \"sk\": *[scuola](lango:say)*, *[schiena](lango:say)*.\n\n## Stress\n\nMost words are stressed on the second-to-last syllable: *[amico](lango:say)*, *[parlare](lango:say)*. A written accent marks a stressed final vowel: *[città](lango:say)*, *[perché](lango:say)*, *[caffè](lango:say)*. Many words put the stress further back with nothing to warn you: *[macchina](lango:say)*, *[telefono](lango:say)*. The -ano of a verb is never stressed: *[parlano](lango:say)*, *[lavorano](lango:say)*.\n\nAccents also tell short words apart: *[e](lango:say)* (and) and *[è](lango:say)* (is), *[si](lango:say)* (oneself) and *[sì](lango:say)* (yes), *[la](lango:say)* (the) and *[là](lango:say)* (there).\n\n## H and r\n\n**H** is always silent: *[ho](lango:say)* sounds like *o*. The **r** is a quick tap of the tongue, rolled longer when it's double: *[Roma](lango:say)*, *[birra](lango:say)*.\n\n## This unit's words\n\n- *[buongiorno](lango:say)*: **uo** glides like the *wo* in *won*, and the **i** after the g only softens it: \"bwon-JOR-noh\".\n- *[ciao](lango:say)*: the **i** only softens the c, so it's one syllable: \"chow\".\n- *[grazie](lango:say)*: a tapped **r**, and **z** sounds like the *ts* in *cats*. Say the final **e**: \"GRAHT-tsyeh\".\n- *[arrivederci](lango:say)*: roll the double **rr**, and **ci** is \"chee\": \"ar-ree-veh-DAIR-chee\".\n- *[buonanotte](lango:say)*: hold the double **tt** a moment before letting it go: \"bwoh-nah-NOHT-teh\".\n- *[piacere di conoscerti](lango:say)*: **ce** is \"cheh\", and **sc** before e is \"sh\": \"pyah-CHEH-reh dee koh-NOH-shair-tee\".\n\n:::examples\n- Ciao, come ti chiami? — Hi, what's your name?\n- Mio figlio ha sette anni. — My son is seven.\n- Il bagno è in fondo a destra. — The bathroom is at the end on the right.\n:::",
       "extras": {
         "unlocks": [
           "concept:it-pronunciation"
@@ -224,6 +224,23 @@
       },
       "tags": [
         "aggettivi"
+      ]
+    },
+    {
+      "kind": "misc",
+      "id": "it-colors",
+      "title": "Colours: which ones agree",
+      "body_md": "Colours are adjectives, so they go after the noun and agree with it: *un vestito rosso*, *una gonna rossa*, *due vestiti rossi*, *due gonne rosse*.\n\n## Colours ending in -o have four forms\n\n| masculine | feminine | masculine plural | feminine plural |\n| --- | --- | --- | --- |\n| rosso | rossa | rossi | rosse |\n| giallo | gialla | gialli | gialle |\n| nero | nera | neri | nere |\n| bianco | bianca | bianchi | bianche |\n| grigio | grigia | grigi | grigie |\n\n*Bianco* keeps its hard sound with an **h**: *bianchi*, *bianche*. *Grigio* drops an i in the masculine plural: *grigi*.\n\n## Colours ending in -e have two\n\n| singular | plural |\n| --- | --- |\n| verde | verdi |\n| marrone | marroni |\n| arancione | arancioni |\n\nThe same form serves both genders: *un maglione verde*, *una borsa verde*, *due borse verdi*.\n\n## Colours that never change\n\n*Blu*, *rosa* and *viola* are the same for every noun. *Rosa* is a rose and *viola* a violet, colours named after things: *una macchina blu*, *due magliette rosa*, *dei fiori viola*.\n\nA colour of two words never changes either: *una camicia verde chiaro*, *due giacche blu scuro*.\n\n:::examples\n- Ho comprato due borse nere. — I bought two black bags.\n- Porto sempre i jeans blu. — I always wear blue jeans.\n- Le rose gialle sono le mie preferite. — Yellow roses are my favourites.\n- Due magliette rosa, per favore. — Two pink T-shirts, please.\n:::",
+      "extras": {
+        "unlocks": [
+          "concept:it-colors"
+        ],
+        "explains": [
+          "colors"
+        ]
+      },
+      "tags": [
+        "colors"
       ]
     },
     {
@@ -430,6 +447,20 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "io",
+      "primary_form": "io",
+      "gloss": "I",
+      "extras": {
+        "note": "Usually left out, since the verb already says who: parlo italiano. Put it in to stress or contrast.",
+        "example": "Io sono di Milano, e tu?",
+        "example_en": "I'm from Milan, and you?"
+      },
+      "tags": [
+        "pronomi"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "fratello",
       "primary_form": "fratello",
@@ -561,23 +592,6 @@
       ]
     },
     {
-      "kind": "noun",
-      "id": "figlia",
-      "primary_form": "figlia",
-      "gloss": "daughter",
-      "extras": {
-        "gender": "f",
-        "article": "la",
-        "plural": "figlie",
-        "example": "La loro figlia vive a Londra.",
-        "example_en": "Their daughter lives in London."
-      },
-      "tags": [
-        "family",
-        "femminile"
-      ]
-    },
-    {
       "kind": "adjective",
       "id": "piccolo",
       "primary_form": "piccolo",
@@ -595,6 +609,37 @@
       },
       "tags": [
         "aggettivi"
+      ]
+    },
+    {
+      "kind": "noun",
+      "id": "figlia",
+      "primary_form": "figlia",
+      "gloss": "daughter",
+      "extras": {
+        "gender": "f",
+        "article": "la",
+        "plural": "figlie",
+        "example": "La loro figlia vive a Londra.",
+        "example_en": "Their daughter lives in London."
+      },
+      "tags": [
+        "family",
+        "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "tu",
+      "primary_form": "tu",
+      "gloss": "you (one person, familiar)",
+      "extras": {
+        "note": "For friends, family, children and people your own age.",
+        "example": "Tu sei di Roma?",
+        "example_en": "Are you from Rome?"
+      },
+      "tags": [
+        "pronomi"
       ]
     },
     {
@@ -741,6 +786,26 @@
       ]
     },
     {
+      "kind": "adjective",
+      "id": "buono",
+      "primary_form": "buono",
+      "gloss": "good; tasty",
+      "extras": {
+        "forms": {
+          "ms": "buono",
+          "fs": "buona",
+          "mp": "buoni",
+          "fp": "buone"
+        },
+        "position": "usually before the noun",
+        "example": "Che buono questo gelato!",
+        "example_en": "This ice cream is so good!"
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
       "kind": "phrase",
       "id": "salve",
       "primary_form": "salve",
@@ -863,23 +928,16 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "buono",
-      "primary_form": "buono",
-      "gloss": "good; tasty",
+      "kind": "phrase",
+      "id": "lui",
+      "primary_form": "lui",
+      "gloss": "he",
       "extras": {
-        "forms": {
-          "ms": "buono",
-          "fs": "buona",
-          "mp": "buoni",
-          "fp": "buone"
-        },
-        "position": "usually before the noun",
-        "example": "Che buono questo gelato!",
-        "example_en": "This ice cream is so good!"
+        "example": "Lui è mio fratello.",
+        "example_en": "He's my brother."
       },
       "tags": [
-        "aggettivi"
+        "pronomi"
       ]
     },
     {
@@ -1022,6 +1080,25 @@
       ]
     },
     {
+      "kind": "adjective",
+      "id": "cattivo",
+      "primary_form": "cattivo",
+      "gloss": "bad; nasty, naughty",
+      "extras": {
+        "forms": {
+          "ms": "cattivo",
+          "fs": "cattiva",
+          "mp": "cattivi",
+          "fp": "cattive"
+        },
+        "example": "Il nostro cane non è cattivo.",
+        "example_en": "Our dog isn't nasty."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "zia",
       "primary_form": "zia",
@@ -1053,25 +1130,6 @@
       "tags": [
         "family",
         "maschile"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "cattivo",
-      "primary_form": "cattivo",
-      "gloss": "bad; nasty, naughty",
-      "extras": {
-        "forms": {
-          "ms": "cattivo",
-          "fs": "cattiva",
-          "mp": "cattivi",
-          "fp": "cattive"
-        },
-        "example": "Il nostro cane non è cattivo.",
-        "example_en": "Our dog isn't nasty."
-      },
-      "tags": [
-        "aggettivi"
       ]
     },
     {
@@ -1154,6 +1212,19 @@
       }
     },
     {
+      "kind": "phrase",
+      "id": "lei",
+      "primary_form": "lei",
+      "gloss": "she",
+      "extras": {
+        "example": "Lei è la mia vicina.",
+        "example_en": "She's my neighbour."
+      },
+      "tags": [
+        "pronomi"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "cugina",
       "primary_form": "cugina",
@@ -1185,6 +1256,26 @@
       "tags": [
         "people",
         "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "bello",
+      "primary_form": "bello",
+      "gloss": "beautiful, lovely",
+      "extras": {
+        "forms": {
+          "ms": "bello",
+          "fs": "bella",
+          "mp": "belli",
+          "fp": "belle"
+        },
+        "position": "usually before the noun",
+        "example": "Che bella giornata!",
+        "example_en": "What a lovely day!"
+      },
+      "tags": [
+        "aggettivi"
       ]
     },
     {
@@ -1301,26 +1392,6 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "bello",
-      "primary_form": "bello",
-      "gloss": "beautiful, lovely",
-      "extras": {
-        "forms": {
-          "ms": "bello",
-          "fs": "bella",
-          "mp": "belli",
-          "fp": "belle"
-        },
-        "position": "usually before the noun",
-        "example": "Che bella giornata!",
-        "example_en": "What a lovely day!"
-      },
-      "tags": [
-        "aggettivi"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "ragazza",
       "primary_form": "ragazza",
@@ -1335,6 +1406,20 @@
       "tags": [
         "people",
         "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "lei-formale",
+      "primary_form": "Lei",
+      "gloss": "you (one person, polite)",
+      "extras": {
+        "note": "The word for she, used as a polite you, with the same verb form. Often written with a capital.",
+        "example": "Lei è il signor Bianchi?",
+        "example_en": "Are you Mr Bianchi?"
+      },
+      "tags": [
+        "pronomi"
       ]
     },
     {
@@ -1414,6 +1499,25 @@
           "3p": "debbano"
         }
       }
+    },
+    {
+      "kind": "adjective",
+      "id": "carino",
+      "primary_form": "carino",
+      "gloss": "pretty, cute; kind",
+      "extras": {
+        "forms": {
+          "ms": "carino",
+          "fs": "carina",
+          "mp": "carini",
+          "fp": "carine"
+        },
+        "example": "Che carina la tua casa!",
+        "example_en": "What a sweet house you have!"
+      },
+      "tags": [
+        "aggettivi"
+      ]
     },
     {
       "kind": "noun",
@@ -1559,25 +1663,6 @@
       }
     },
     {
-      "kind": "adjective",
-      "id": "carino",
-      "primary_form": "carino",
-      "gloss": "pretty, cute; kind",
-      "extras": {
-        "forms": {
-          "ms": "carino",
-          "fs": "carina",
-          "mp": "carini",
-          "fp": "carine"
-        },
-        "example": "Che carina la tua casa!",
-        "example_en": "What a sweet house you have!"
-      },
-      "tags": [
-        "aggettivi"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "testa",
       "primary_form": "testa",
@@ -1592,6 +1677,38 @@
       "tags": [
         "body",
         "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "noi",
+      "primary_form": "noi",
+      "gloss": "we",
+      "extras": {
+        "example": "Noi mangiamo alle otto.",
+        "example_en": "We eat at eight."
+      },
+      "tags": [
+        "pronomi"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "giovane",
+      "primary_form": "giovane",
+      "gloss": "young",
+      "extras": {
+        "forms": {
+          "ms": "giovane",
+          "fs": "giovane",
+          "mp": "giovani",
+          "fp": "giovani"
+        },
+        "example": "Mia madre è ancora giovane.",
+        "example_en": "My mother is still young."
+      },
+      "tags": [
+        "aggettivi"
       ]
     },
     {
@@ -1725,25 +1842,6 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "giovane",
-      "primary_form": "giovane",
-      "gloss": "young",
-      "extras": {
-        "forms": {
-          "ms": "giovane",
-          "fs": "giovane",
-          "mp": "giovani",
-          "fp": "giovani"
-        },
-        "example": "Mia madre è ancora giovane.",
-        "example_en": "My mother is still young."
-      },
-      "tags": [
-        "aggettivi"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "orecchio",
       "primary_form": "orecchio",
@@ -1758,6 +1856,25 @@
       "tags": [
         "body",
         "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "vecchio",
+      "primary_form": "vecchio",
+      "gloss": "old",
+      "extras": {
+        "forms": {
+          "ms": "vecchio",
+          "fs": "vecchia",
+          "mp": "vecchi",
+          "fp": "vecchie"
+        },
+        "example": "Abitiamo in un palazzo vecchio.",
+        "example_en": "We live in an old building."
+      },
+      "tags": [
+        "aggettivi"
       ]
     },
     {
@@ -1839,6 +1956,20 @@
           "3p": "diano"
         }
       }
+    },
+    {
+      "kind": "phrase",
+      "id": "voi",
+      "primary_form": "voi",
+      "gloss": "you (several people)",
+      "extras": {
+        "note": "Friends or not.",
+        "example": "Voi venite stasera?",
+        "example_en": "Are you all coming tonight?"
+      },
+      "tags": [
+        "pronomi"
+      ]
     },
     {
       "kind": "noun",
@@ -1998,18 +2129,18 @@
     },
     {
       "kind": "adjective",
-      "id": "vecchio",
-      "primary_form": "vecchio",
-      "gloss": "old",
+      "id": "nuovo",
+      "primary_form": "nuovo",
+      "gloss": "new",
       "extras": {
         "forms": {
-          "ms": "vecchio",
-          "fs": "vecchia",
-          "mp": "vecchi",
-          "fp": "vecchie"
+          "ms": "nuovo",
+          "fs": "nuova",
+          "mp": "nuovi",
+          "fp": "nuove"
         },
-        "example": "Abitiamo in un palazzo vecchio.",
-        "example_en": "We live in an old building."
+        "example": "Ho un telefono nuovo.",
+        "example_en": "I've got a new phone."
       },
       "tags": [
         "aggettivi"
@@ -2030,6 +2161,20 @@
       "tags": [
         "body",
         "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "loro",
+      "primary_form": "loro",
+      "gloss": "they",
+      "extras": {
+        "note": "The same for men, women and mixed groups.",
+        "example": "Loro abitano a Napoli.",
+        "example_en": "They live in Naples."
+      },
+      "tags": [
+        "pronomi"
       ]
     },
     {
@@ -2163,18 +2308,18 @@
     },
     {
       "kind": "adjective",
-      "id": "nuovo",
-      "primary_form": "nuovo",
-      "gloss": "new",
+      "id": "gentile",
+      "primary_form": "gentile",
+      "gloss": "kind",
       "extras": {
         "forms": {
-          "ms": "nuovo",
-          "fs": "nuova",
-          "mp": "nuovi",
-          "fp": "nuove"
+          "ms": "gentile",
+          "fs": "gentile",
+          "mp": "gentili",
+          "fp": "gentili"
         },
-        "example": "Ho un telefono nuovo.",
-        "example_en": "I've got a new phone."
+        "example": "Grazie, sei molto gentile.",
+        "example_en": "Thanks, you're very kind."
       },
       "tags": [
         "aggettivi"
@@ -2273,6 +2418,20 @@
       "tags": [
         "body",
         "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "non",
+      "primary_form": "non",
+      "gloss": "not",
+      "extras": {
+        "note": "Goes right before the verb, with no helper like \"don't\".",
+        "example": "Mia sorella non mangia carne.",
+        "example_en": "My sister doesn't eat meat."
+      },
+      "tags": [
+        "negazione"
       ]
     },
     {
@@ -2403,6 +2562,25 @@
       }
     },
     {
+      "kind": "adjective",
+      "id": "contento",
+      "primary_form": "contento",
+      "gloss": "happy, pleased",
+      "extras": {
+        "forms": {
+          "ms": "contento",
+          "fs": "contenta",
+          "mp": "contenti",
+          "fp": "contente"
+        },
+        "example": "Sono contento di vederti.",
+        "example_en": "I'm happy to see you."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "pranzo",
       "primary_form": "pranzo",
@@ -2420,25 +2598,6 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "gentile",
-      "primary_form": "gentile",
-      "gloss": "kind",
-      "extras": {
-        "forms": {
-          "ms": "gentile",
-          "fs": "gentile",
-          "mp": "gentili",
-          "fp": "gentili"
-        },
-        "example": "Grazie, sei molto gentile.",
-        "example_en": "Thanks, you're very kind."
-      },
-      "tags": [
-        "aggettivi"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "cena",
       "primary_form": "cena",
@@ -2453,6 +2612,20 @@
       "tags": [
         "food",
         "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "mai",
+      "primary_form": "mai",
+      "gloss": "never",
+      "extras": {
+        "note": "Non stays before the verb: non ... mai.",
+        "example": "Non guardo mai la televisione.",
+        "example_en": "I never watch television."
+      },
+      "tags": [
+        "negazione"
       ]
     },
     {
@@ -2568,6 +2741,25 @@
       ]
     },
     {
+      "kind": "adjective",
+      "id": "stanco",
+      "primary_form": "stanco",
+      "gloss": "tired",
+      "extras": {
+        "forms": {
+          "ms": "stanco",
+          "fs": "stanca",
+          "mp": "stanchi",
+          "fp": "stanche"
+        },
+        "example": "Stasera sono troppo stanca.",
+        "example_en": "I'm too tired tonight."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "pesce",
       "primary_form": "pesce",
@@ -2582,25 +2774,6 @@
       "tags": [
         "food",
         "maschile"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "contento",
-      "primary_form": "contento",
-      "gloss": "happy, pleased",
-      "extras": {
-        "forms": {
-          "ms": "contento",
-          "fs": "contenta",
-          "mp": "contenti",
-          "fp": "contente"
-        },
-        "example": "Sono contento di vederti.",
-        "example_en": "I'm happy to see you."
-      },
-      "tags": [
-        "aggettivi"
       ]
     },
     {
@@ -2699,6 +2872,20 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "piu",
+      "primary_form": "più",
+      "gloss": "no longer, not any more",
+      "extras": {
+        "note": "With non. Without it, più means more.",
+        "example": "Non abito più a Roma.",
+        "example_en": "I don't live in Rome any more."
+      },
+      "tags": [
+        "negazione"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "uovo",
       "primary_form": "uovo",
@@ -2713,6 +2900,25 @@
       "tags": [
         "food",
         "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "caldo",
+      "primary_form": "caldo",
+      "gloss": "hot, warm",
+      "extras": {
+        "forms": {
+          "ms": "caldo",
+          "fs": "calda",
+          "mp": "caldi",
+          "fp": "calde"
+        },
+        "example": "Vorrei un tè caldo.",
+        "example_en": "I'd like a hot tea."
+      },
+      "tags": [
+        "aggettivi"
       ]
     },
     {
@@ -2828,25 +3034,6 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "stanco",
-      "primary_form": "stanco",
-      "gloss": "tired",
-      "extras": {
-        "forms": {
-          "ms": "stanco",
-          "fs": "stanca",
-          "mp": "stanchi",
-          "fp": "stanche"
-        },
-        "example": "Stasera sono troppo stanca.",
-        "example_en": "I'm too tired tonight."
-      },
-      "tags": [
-        "aggettivi"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "te",
       "primary_form": "tè",
@@ -2943,6 +3130,20 @@
       }
     },
     {
+      "kind": "phrase",
+      "id": "niente",
+      "primary_form": "niente",
+      "gloss": "nothing",
+      "extras": {
+        "note": "Non stays before the verb: non vedo niente.",
+        "example": "Non voglio niente, grazie.",
+        "example_en": "I don't want anything, thanks."
+      },
+      "tags": [
+        "negazione"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "vino",
       "primary_form": "vino",
@@ -2957,6 +3158,25 @@
       "tags": [
         "food",
         "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "freddo",
+      "primary_form": "freddo",
+      "gloss": "cold",
+      "extras": {
+        "forms": {
+          "ms": "freddo",
+          "fs": "fredda",
+          "mp": "freddi",
+          "fp": "fredde"
+        },
+        "example": "L'acqua del mare è fredda.",
+        "example_en": "The sea water is cold."
+      },
+      "tags": [
+        "aggettivi"
       ]
     },
     {
@@ -3072,25 +3292,6 @@
       }
     },
     {
-      "kind": "adjective",
-      "id": "caldo",
-      "primary_form": "caldo",
-      "gloss": "hot, warm",
-      "extras": {
-        "forms": {
-          "ms": "caldo",
-          "fs": "calda",
-          "mp": "caldi",
-          "fp": "calde"
-        },
-        "example": "Vorrei un tè caldo.",
-        "example_en": "I'd like a hot tea."
-      },
-      "tags": [
-        "aggettivi"
-      ]
-    },
-    {
       "kind": "conjunction",
       "id": "e",
       "primary_form": "e",
@@ -3122,6 +3323,25 @@
       ]
     },
     {
+      "kind": "adjective",
+      "id": "facile",
+      "primary_form": "facile",
+      "gloss": "easy",
+      "extras": {
+        "forms": {
+          "ms": "facile",
+          "fs": "facile",
+          "mp": "facili",
+          "fp": "facili"
+        },
+        "example": "L'esercizio è facile.",
+        "example_en": "The exercise is easy."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "verdura",
       "primary_form": "verdura",
@@ -3136,6 +3356,20 @@
       "tags": [
         "food",
         "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "nessuno",
+      "primary_form": "nessuno",
+      "gloss": "nobody, no one",
+      "extras": {
+        "note": "Before the verb it needs no non. After it: non viene nessuno.",
+        "example": "Nessuno sa dove abita Paolo.",
+        "example_en": "Nobody knows where Paolo lives."
+      },
+      "tags": [
+        "negazione"
       ]
     },
     {
@@ -3231,25 +3465,6 @@
       "tags": [
         "food",
         "femminile"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "freddo",
-      "primary_form": "freddo",
-      "gloss": "cold",
-      "extras": {
-        "forms": {
-          "ms": "freddo",
-          "fs": "fredda",
-          "mp": "freddi",
-          "fp": "fredde"
-        },
-        "example": "L'acqua del mare è fredda.",
-        "example_en": "The sea water is cold."
-      },
-      "tags": [
-        "aggettivi"
       ]
     },
     {
@@ -3365,6 +3580,25 @@
       }
     },
     {
+      "kind": "adjective",
+      "id": "difficile",
+      "primary_form": "difficile",
+      "gloss": "difficult, hard",
+      "extras": {
+        "forms": {
+          "ms": "difficile",
+          "fs": "difficile",
+          "mp": "difficili",
+          "fp": "difficili"
+        },
+        "example": "L'italiano non è difficile.",
+        "example_en": "Italian isn't difficult."
+      },
+      "tags": [
+        "aggettivi"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "riso",
       "primary_form": "riso",
@@ -3378,6 +3612,20 @@
       "tags": [
         "food",
         "maschile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "non-ancora",
+      "primary_form": "non ancora",
+      "gloss": "not yet",
+      "extras": {
+        "note": "In a sentence, ancora goes after the verb: non è ancora pronto.",
+        "example": "—Sei pronta? —Non ancora.",
+        "example_en": "\"Are you ready?\" \"Not yet.\""
+      },
+      "tags": [
+        "negazione"
       ]
     },
     {
@@ -3476,25 +3724,6 @@
       }
     },
     {
-      "kind": "adjective",
-      "id": "facile",
-      "primary_form": "facile",
-      "gloss": "easy",
-      "extras": {
-        "forms": {
-          "ms": "facile",
-          "fs": "facile",
-          "mp": "facili",
-          "fp": "facili"
-        },
-        "example": "L'esercizio è facile.",
-        "example_en": "The exercise is easy."
-      },
-      "tags": [
-        "aggettivi"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "torta",
       "primary_form": "torta",
@@ -3509,6 +3738,25 @@
       "tags": [
         "food",
         "femminile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "caro",
+      "primary_form": "caro",
+      "gloss": "expensive; dear",
+      "extras": {
+        "forms": {
+          "ms": "caro",
+          "fs": "cara",
+          "mp": "cari",
+          "fp": "care"
+        },
+        "example": "Questo ristorante è caro.",
+        "example_en": "This restaurant is expensive."
+      },
+      "tags": [
+        "aggettivi"
       ]
     },
     {
@@ -3649,6 +3897,20 @@
       }
     },
     {
+      "kind": "phrase",
+      "id": "uno",
+      "primary_form": "uno",
+      "gloss": "one",
+      "extras": {
+        "note": "Before a noun it's the article: un libro, una casa.",
+        "example": "Ne prendo uno solo.",
+        "example_en": "I'll just take one."
+      },
+      "tags": [
+        "numeri"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "giorno",
       "primary_form": "giorno",
@@ -3666,25 +3928,6 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "difficile",
-      "primary_form": "difficile",
-      "gloss": "difficult, hard",
-      "extras": {
-        "forms": {
-          "ms": "difficile",
-          "fs": "difficile",
-          "mp": "difficili",
-          "fp": "difficili"
-        },
-        "example": "L'italiano non è difficile.",
-        "example_en": "Italian isn't difficult."
-      },
-      "tags": [
-        "aggettivi"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "settimana",
       "primary_form": "settimana",
@@ -3699,6 +3942,25 @@
       "tags": [
         "time",
         "femminile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "simpatico",
+      "primary_form": "simpatico",
+      "gloss": "nice, likeable",
+      "extras": {
+        "forms": {
+          "ms": "simpatico",
+          "fs": "simpatica",
+          "mp": "simpatici",
+          "fp": "simpatiche"
+        },
+        "example": "I tuoi amici sono molto simpatici.",
+        "example_en": "Your friends are really nice."
+      },
+      "tags": [
+        "aggettivi"
       ]
     },
     {
@@ -3829,6 +4091,19 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "due",
+      "primary_form": "due",
+      "gloss": "two",
+      "extras": {
+        "example": "Ho due fratelli.",
+        "example_en": "I have two brothers."
+      },
+      "tags": [
+        "numeri"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "ora",
       "primary_form": "ora",
@@ -3927,21 +4202,22 @@
     },
     {
       "kind": "adjective",
-      "id": "caro",
-      "primary_form": "caro",
-      "gloss": "expensive; dear",
+      "id": "rosso",
+      "primary_form": "rosso",
+      "gloss": "red",
       "extras": {
         "forms": {
-          "ms": "caro",
-          "fs": "cara",
-          "mp": "cari",
-          "fp": "care"
+          "ms": "rosso",
+          "fs": "rossa",
+          "mp": "rossi",
+          "fp": "rosse"
         },
-        "example": "Questo ristorante è caro.",
-        "example_en": "This restaurant is expensive."
+        "example": "Preferisco il vino rosso.",
+        "example_en": "I prefer red wine."
       },
       "tags": [
-        "aggettivi"
+        "aggettivi",
+        "colors"
       ]
     },
     {
@@ -4075,6 +4351,19 @@
       ]
     },
     {
+      "kind": "phrase",
+      "id": "tre",
+      "primary_form": "tre",
+      "gloss": "three",
+      "extras": {
+        "example": "Siamo in tre.",
+        "example_en": "There are three of us."
+      },
+      "tags": [
+        "numeri"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "sera",
       "primary_form": "sera",
@@ -4093,21 +4382,22 @@
     },
     {
       "kind": "adjective",
-      "id": "simpatico",
-      "primary_form": "simpatico",
-      "gloss": "nice, likeable",
+      "id": "blu",
+      "primary_form": "blu",
+      "gloss": "(dark) blue",
       "extras": {
         "forms": {
-          "ms": "simpatico",
-          "fs": "simpatica",
-          "mp": "simpatici",
-          "fp": "simpatiche"
+          "ms": "blu",
+          "fs": "blu",
+          "mp": "blu",
+          "fp": "blu"
         },
-        "example": "I tuoi amici sono molto simpatici.",
-        "example_en": "Your friends are really nice."
+        "example": "Ha una macchina blu.",
+        "example_en": "He has a blue car."
       },
       "tags": [
-        "aggettivi"
+        "aggettivi",
+        "colors"
       ]
     },
     {
@@ -4241,6 +4531,19 @@
     },
     {
       "kind": "phrase",
+      "id": "quattro",
+      "primary_form": "quattro",
+      "gloss": "four",
+      "extras": {
+        "example": "Il negozio chiude alle quattro.",
+        "example_en": "The shop closes at four."
+      },
+      "tags": [
+        "numeri"
+      ]
+    },
+    {
+      "kind": "phrase",
       "id": "dov-e-il-bagno",
       "primary_form": "dov'è il bagno?",
       "gloss": "where's the toilet?",
@@ -4318,6 +4621,26 @@
       }
     },
     {
+      "kind": "adjective",
+      "id": "verde",
+      "primary_form": "verde",
+      "gloss": "green",
+      "extras": {
+        "forms": {
+          "ms": "verde",
+          "fs": "verde",
+          "mp": "verdi",
+          "fp": "verdi"
+        },
+        "example": "Ha gli occhi verdi.",
+        "example_en": "She has green eyes."
+      },
+      "tags": [
+        "aggettivi",
+        "colors"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "giovedi",
       "primary_form": "giovedì",
@@ -4332,25 +4655,6 @@
       "tags": [
         "time",
         "maschile"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "rosso",
-      "primary_form": "rosso",
-      "gloss": "red",
-      "extras": {
-        "forms": {
-          "ms": "rosso",
-          "fs": "rossa",
-          "mp": "rossi",
-          "fp": "rosse"
-        },
-        "example": "Preferisco il vino rosso.",
-        "example_en": "I prefer red wine."
-      },
-      "tags": [
-        "aggettivi"
       ]
     },
     {
@@ -4484,6 +4788,39 @@
       ]
     },
     {
+      "kind": "adjective",
+      "id": "giallo",
+      "primary_form": "giallo",
+      "gloss": "yellow",
+      "extras": {
+        "forms": {
+          "ms": "giallo",
+          "fs": "gialla",
+          "mp": "gialli",
+          "fp": "gialle"
+        },
+        "example": "Le banane sono gialle.",
+        "example_en": "Bananas are yellow."
+      },
+      "tags": [
+        "aggettivi",
+        "colors"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "cinque",
+      "primary_form": "cinque",
+      "gloss": "five",
+      "extras": {
+        "example": "Mia figlia ha cinque anni.",
+        "example_en": "My daughter is five."
+      },
+      "tags": [
+        "numeri"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "citta",
       "primary_form": "città",
@@ -4498,25 +4835,6 @@
       "tags": [
         "city",
         "femminile"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "blu",
-      "primary_form": "blu",
-      "gloss": "(dark) blue",
-      "extras": {
-        "forms": {
-          "ms": "blu",
-          "fs": "blu",
-          "mp": "blu",
-          "fp": "blu"
-        },
-        "example": "Ha una macchina blu.",
-        "example_en": "He has a blue car."
-      },
-      "tags": [
-        "aggettivi"
       ]
     },
     {
@@ -4664,6 +4982,26 @@
       ]
     },
     {
+      "kind": "adjective",
+      "id": "nero",
+      "primary_form": "nero",
+      "gloss": "black",
+      "extras": {
+        "forms": {
+          "ms": "nero",
+          "fs": "nera",
+          "mp": "neri",
+          "fp": "nere"
+        },
+        "example": "Ho un gatto nero.",
+        "example_en": "I have a black cat."
+      },
+      "tags": [
+        "aggettivi",
+        "colors"
+      ]
+    },
+    {
       "kind": "phrase",
       "id": "che-cos-e",
       "primary_form": "che cos'è?",
@@ -4743,6 +5081,20 @@
       }
     },
     {
+      "kind": "phrase",
+      "id": "sei",
+      "primary_form": "sei",
+      "gloss": "six",
+      "extras": {
+        "note": "Also you are: tu sei.",
+        "example": "Vorrei sei uova, per favore.",
+        "example_en": "I'd like six eggs, please."
+      },
+      "tags": [
+        "numeri"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "mercato",
       "primary_form": "mercato",
@@ -4757,25 +5109,6 @@
       "tags": [
         "city",
         "maschile"
-      ]
-    },
-    {
-      "kind": "adjective",
-      "id": "verde",
-      "primary_form": "verde",
-      "gloss": "green",
-      "extras": {
-        "forms": {
-          "ms": "verde",
-          "fs": "verde",
-          "mp": "verdi",
-          "fp": "verdi"
-        },
-        "example": "Ha gli occhi verdi.",
-        "example_en": "She has green eyes."
-      },
-      "tags": [
-        "aggettivi"
       ]
     },
     {
@@ -4917,6 +5250,26 @@
       }
     },
     {
+      "kind": "adjective",
+      "id": "bianco",
+      "primary_form": "bianco",
+      "gloss": "white",
+      "extras": {
+        "forms": {
+          "ms": "bianco",
+          "fs": "bianca",
+          "mp": "bianchi",
+          "fp": "bianche"
+        },
+        "example": "Il nonno ha i capelli bianchi.",
+        "example_en": "Grandpa has white hair."
+      },
+      "tags": [
+        "aggettivi",
+        "colors"
+      ]
+    },
+    {
       "kind": "noun",
       "id": "chiesa",
       "primary_form": "chiesa",
@@ -4948,6 +5301,19 @@
       "tags": [
         "city",
         "femminile"
+      ]
+    },
+    {
+      "kind": "phrase",
+      "id": "sette",
+      "primary_form": "sette",
+      "gloss": "seven",
+      "extras": {
+        "example": "La settimana ha sette giorni.",
+        "example_en": "A week has seven days."
+      },
+      "tags": [
+        "numeri"
       ]
     },
     {
@@ -5030,25 +5396,6 @@
       }
     },
     {
-      "kind": "adjective",
-      "id": "giallo",
-      "primary_form": "giallo",
-      "gloss": "yellow",
-      "extras": {
-        "forms": {
-          "ms": "giallo",
-          "fs": "gialla",
-          "mp": "gialli",
-          "fp": "gialle"
-        },
-        "example": "Le banane sono gialle.",
-        "example_en": "Bananas are yellow."
-      },
-      "tags": [
-        "aggettivi"
-      ]
-    },
-    {
       "kind": "noun",
       "id": "ospedale",
       "primary_form": "ospedale",
@@ -5080,6 +5427,26 @@
       "tags": [
         "city",
         "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "grigio",
+      "primary_form": "grigio",
+      "gloss": "grey",
+      "extras": {
+        "forms": {
+          "ms": "grigio",
+          "fs": "grigia",
+          "mp": "grigi",
+          "fp": "grigie"
+        },
+        "example": "Oggi il cielo è grigio.",
+        "example_en": "The sky is grey today."
+      },
+      "tags": [
+        "aggettivi",
+        "colors"
       ]
     },
     {
@@ -5196,22 +5563,16 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "nero",
-      "primary_form": "nero",
-      "gloss": "black",
+      "kind": "phrase",
+      "id": "otto",
+      "primary_form": "otto",
+      "gloss": "eight",
       "extras": {
-        "forms": {
-          "ms": "nero",
-          "fs": "nera",
-          "mp": "neri",
-          "fp": "nere"
-        },
-        "example": "Ho un gatto nero.",
-        "example_en": "I have a black cat."
+        "example": "Lavoro otto ore al giorno.",
+        "example_en": "I work eight hours a day."
       },
       "tags": [
-        "aggettivi"
+        "numeri"
       ]
     },
     {
@@ -5309,6 +5670,26 @@
           "3p": "scrivano"
         }
       }
+    },
+    {
+      "kind": "adjective",
+      "id": "marrone",
+      "primary_form": "marrone",
+      "gloss": "brown",
+      "extras": {
+        "forms": {
+          "ms": "marrone",
+          "fs": "marrone",
+          "mp": "marroni",
+          "fp": "marroni"
+        },
+        "example": "Ho una giacca marrone.",
+        "example_en": "I have a brown jacket."
+      },
+      "tags": [
+        "aggettivi",
+        "colors"
+      ]
     },
     {
       "kind": "noun",
@@ -5455,22 +5836,16 @@
       }
     },
     {
-      "kind": "adjective",
-      "id": "bianco",
-      "primary_form": "bianco",
-      "gloss": "white",
+      "kind": "phrase",
+      "id": "nove",
+      "primary_form": "nove",
+      "gloss": "nine",
       "extras": {
-        "forms": {
-          "ms": "bianco",
-          "fs": "bianca",
-          "mp": "bianchi",
-          "fp": "bianche"
-        },
-        "example": "Il nonno ha i capelli bianchi.",
-        "example_en": "Grandpa has white hair."
+        "example": "Il museo apre alle nove.",
+        "example_en": "The museum opens at nine."
       },
       "tags": [
-        "aggettivi"
+        "numeri"
       ]
     },
     {
@@ -5488,6 +5863,26 @@
       "tags": [
         "home",
         "maschile"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "rosa",
+      "primary_form": "rosa",
+      "gloss": "pink",
+      "extras": {
+        "forms": {
+          "ms": "rosa",
+          "fs": "rosa",
+          "mp": "rosa",
+          "fp": "rosa"
+        },
+        "example": "Mia figlia vuole le scarpe rosa.",
+        "example_en": "My daughter wants the pink shoes."
+      },
+      "tags": [
+        "aggettivi",
+        "colors"
       ]
     },
     {
@@ -5648,22 +6043,36 @@
       ]
     },
     {
-      "kind": "adjective",
-      "id": "grigio",
-      "primary_form": "grigio",
-      "gloss": "grey",
+      "kind": "phrase",
+      "id": "dieci",
+      "primary_form": "dieci",
+      "gloss": "ten",
       "extras": {
-        "forms": {
-          "ms": "grigio",
-          "fs": "grigia",
-          "mp": "grigi",
-          "fp": "grigie"
-        },
-        "example": "Oggi il cielo è grigio.",
-        "example_en": "The sky is grey today."
+        "example": "Sono dieci euro.",
+        "example_en": "That's ten euros."
       },
       "tags": [
-        "aggettivi"
+        "numeri"
+      ]
+    },
+    {
+      "kind": "adjective",
+      "id": "viola",
+      "primary_form": "viola",
+      "gloss": "purple",
+      "extras": {
+        "forms": {
+          "ms": "viola",
+          "fs": "viola",
+          "mp": "viola",
+          "fp": "viola"
+        },
+        "example": "Le melanzane sono viola.",
+        "example_en": "Aubergines are purple."
+      },
+      "tags": [
+        "aggettivi",
+        "colors"
       ]
     },
     {
@@ -5821,17 +6230,19 @@
       "subtitle": "Hello, hi, thanks, goodbye and good night"
     },
     {
-      "title": "Come stai?",
+      "title": "Io, tu e Lei",
       "word_ids": [
-        "come-stai",
-        "come-sta",
-        "scusa",
-        "scusi",
-        "sto-bene-grazie",
-        "salve"
+        "io",
+        "tu",
+        "lui",
+        "lei",
+        "lei-formale",
+        "noi",
+        "voi",
+        "loro"
       ],
       "page_id": "it-subject-pronouns",
-      "subtitle": "How are you, sorry, excuse me and hello"
+      "subtitle": "I, you, he, she, polite you, we, you all, they"
     },
     {
       "title": "Verbi essenziali",
@@ -5861,18 +6272,20 @@
       "subtitle": "To live, work, study, finish, understand, sell"
     },
     {
-      "title": "Non capisco",
+      "title": "Non, mai e niente",
       "word_ids": [
-        "non-capisco",
-        "non-lo-so",
-        "mi-dispiace",
+        "non",
         "no",
-        "prendere",
-        "mettere",
-        "vedere"
+        "mai",
+        "piu",
+        "niente",
+        "nessuno",
+        "non-ancora",
+        "non-capisco",
+        "non-lo-so"
       ],
       "page_id": "it-negation",
-      "subtitle": "I don't understand, I'm sorry, to take, put, see"
+      "subtitle": "Not, no, never, no longer, nothing, nobody, not yet"
     },
     {
       "title": "Domande utili",
@@ -5925,22 +6338,30 @@
         "giallo",
         "nero",
         "bianco",
-        "grigio"
+        "grigio",
+        "marrone",
+        "rosa",
+        "viola"
       ],
-      "subtitle": "Red, blue, green, yellow, black, white and grey"
+      "page_id": "it-colors",
+      "subtitle": "Red, blue, green, yellow, black, brown, pink, purple"
     },
     {
-      "title": "Ore e giorni",
+      "title": "Da uno a dieci",
       "word_ids": [
-        "ora",
-        "minuto",
-        "giorno",
-        "lunedi",
-        "martedi",
-        "mercoledi"
+        "uno",
+        "due",
+        "tre",
+        "quattro",
+        "cinque",
+        "sei",
+        "sette",
+        "otto",
+        "nove",
+        "dieci"
       ],
       "page_id": "it-numbers",
-      "subtitle": "Hours, minutes, days, Monday to Wednesday"
+      "subtitle": "The numbers one to ten"
     },
     {
       "title": "La famiglia stretta",
@@ -5972,19 +6393,32 @@
       "title": "A presto!",
       "word_ids": [
         "buonasera",
+        "salve",
         "a-presto",
         "a-domani",
         "grazie-mille",
         "prego",
-        "per-favore",
-        "si"
+        "per-favore"
       ],
       "subtitle": "Good evening, see you soon, please, you're welcome"
     },
     {
+      "title": "Scusa e scusi",
+      "word_ids": [
+        "scusa",
+        "scusi",
+        "mi-dispiace",
+        "si",
+        "va-bene",
+        "come-stai",
+        "come-sta"
+      ],
+      "subtitle": "Sorry, excuse me, yes, OK, how are you"
+    },
+    {
       "title": "Buon appetito!",
       "word_ids": [
-        "va-bene",
+        "sto-bene-grazie",
         "buon-appetito",
         "cin-cin",
         "buona-giornata",
@@ -5992,7 +6426,7 @@
         "d-accordo",
         "benvenuto"
       ],
-      "subtitle": "OK, enjoy your meal, cheers, have a good day"
+      "subtitle": "I'm fine, enjoy your meal, cheers, have a good day"
     },
     {
       "title": "La famiglia allargata",
@@ -6081,20 +6515,32 @@
       "subtitle": "Beer, apples, potatoes, vegetables, rice, cake"
     },
     {
-      "title": "La settimana e l'anno",
+      "title": "Ore e giorni",
       "word_ids": [
+        "giorno",
         "settimana",
         "mese",
         "anno",
+        "ora",
+        "minuto",
         "mattina",
-        "pomeriggio",
+        "pomeriggio"
+      ],
+      "subtitle": "Day, week, month, year, hour, morning, afternoon"
+    },
+    {
+      "title": "I giorni della settimana",
+      "word_ids": [
         "sera",
+        "lunedi",
+        "martedi",
+        "mercoledi",
         "giovedi",
         "venerdi",
         "sabato",
         "domenica"
       ],
-      "subtitle": "Weeks, months, years, Thursday to Sunday"
+      "subtitle": "Evening, and Monday to Sunday"
     },
     {
       "title": "In città",
@@ -6133,57 +6579,60 @@
         "potere",
         "dovere",
         "sapere",
-        "dire"
+        "dire",
+        "dare"
       ],
       "subtitle": "First, then, also; to come, want, can, must, know"
     },
     {
       "title": "Verbi quotidiani",
       "word_ids": [
-        "dare",
         "uscire",
+        "prendere",
+        "mettere",
+        "vedere",
         "guardare",
         "ascoltare",
         "giocare",
         "cercare",
-        "trovare",
-        "pensare",
-        "arrivare"
+        "trovare"
       ],
-      "subtitle": "To give, go out, watch, listen, play, look for, find"
+      "subtitle": "To go out, take, put, see, watch, listen, play, find"
     },
     {
       "title": "Imparare e leggere",
       "word_ids": [
+        "pensare",
+        "arrivare",
         "cominciare",
         "comprare",
         "aspettare",
         "imparare",
         "partire",
         "leggere",
-        "scrivere",
-        "chiamarsi",
-        "cattivo"
+        "scrivere"
       ],
-      "subtitle": "To start, buy, wait, learn, leave, read, write"
+      "subtitle": "To think, arrive, start, buy, wait, learn, read, write"
     },
     {
       "title": "Aggettivi utili",
       "word_ids": [
+        "chiamarsi",
+        "cattivo",
         "carino",
         "gentile",
         "contento",
         "stanco",
         "caldo",
         "freddo",
-        "facile",
-        "difficile"
+        "facile"
       ],
-      "subtitle": "Pretty, kind, happy, tired, hot, cold, easy, hard"
+      "subtitle": "To be called; bad, pretty, kind, happy, tired, hot, easy"
     },
     {
       "title": "E, o, quando, se",
       "word_ids": [
+        "difficile",
         "caro",
         "simpatico",
         "e",
@@ -6193,7 +6642,7 @@
         "telefono",
         "portafoglio"
       ],
-      "subtitle": "Dear, nice, and, or, when, if, phone and wallet"
+      "subtitle": "Hard, dear, nice, and, or, when, if, phone, wallet"
     }
   ]
 }

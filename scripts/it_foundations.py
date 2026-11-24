@@ -55,6 +55,15 @@ Accents also tell short words apart: *[e](lango:say)* (and) and *[è](lango:say)
 
 **H** is always silent: *[ho](lango:say)* sounds like *o*. The **r** is a quick tap of the tongue, rolled longer when it's double: *[Roma](lango:say)*, *[birra](lango:say)*.
 
+## This unit's words
+
+- *[buongiorno](lango:say)*: **uo** glides like the *wo* in *won*, and the **i** after the g only softens it: "bwon-JOR-noh".
+- *[ciao](lango:say)*: the **i** only softens the c, so it's one syllable: "chow".
+- *[grazie](lango:say)*: a tapped **r**, and **z** sounds like the *ts* in *cats*. Say the final **e**: "GRAHT-tsyeh".
+- *[arrivederci](lango:say)*: roll the double **rr**, and **ci** is "chee": "ar-ree-veh-DAIR-chee".
+- *[buonanotte](lango:say)*: hold the double **tt** a moment before letting it go: "bwoh-nah-NOHT-teh".
+- *[piacere di conoscerti](lango:say)*: **ce** is "cheh", and **sc** before e is "sh": "pyah-CHEH-reh dee koh-NOH-shair-tee".
+
 :::examples
 - Ciao, come ti chiami? — Hi, what's your name?
 - Mio figlio ha sette anni. — My son is seven.
@@ -392,6 +401,51 @@ A few adjectives mean something different before and after the noun:
         explains=["aggettivi"],
     ),
     page(
+        "it-colors",
+        "Colours: which ones agree",
+        r"""
+Colours are adjectives, so they go after the noun and agree with it: *un vestito rosso*, *una gonna rossa*, *due vestiti rossi*, *due gonne rosse*.
+
+## Colours ending in -o have four forms
+
+| masculine | feminine | masculine plural | feminine plural |
+| --- | --- | --- | --- |
+| rosso | rossa | rossi | rosse |
+| giallo | gialla | gialli | gialle |
+| nero | nera | neri | nere |
+| bianco | bianca | bianchi | bianche |
+| grigio | grigia | grigi | grigie |
+
+*Bianco* keeps its hard sound with an **h**: *bianchi*, *bianche*. *Grigio* drops an i in the masculine plural: *grigi*.
+
+## Colours ending in -e have two
+
+| singular | plural |
+| --- | --- |
+| verde | verdi |
+| marrone | marroni |
+| arancione | arancioni |
+
+The same form serves both genders: *un maglione verde*, *una borsa verde*, *due borse verdi*.
+
+## Colours that never change
+
+*Blu*, *rosa* and *viola* are the same for every noun. *Rosa* is a rose and *viola* a violet, colours named after things: *una macchina blu*, *due magliette rosa*, *dei fiori viola*.
+
+A colour of two words never changes either: *una camicia verde chiaro*, *due giacche blu scuro*.
+
+:::examples
+- Ho comprato due borse nere. — I bought two black bags.
+- Porto sempre i jeans blu. — I always wear blue jeans.
+- Le rose gialle sono le mie preferite. — Yellow roses are my favourites.
+- Due magliette rosa, per favore. — Two pink T-shirts, please.
+:::
+""",
+        ["colors"],
+        "it-colors",
+        explains=["colors"],
+    ),
+    page(
         "it-numbers",
         "Numbers and the time",
         r"""
@@ -659,8 +713,15 @@ giallo, gialla, gialli, gialle | yellow | Le banane sono gialle. | Bananas are y
 nero, nera, neri, nere | black | Ho un gatto nero. | I have a black cat.
 bianco, bianca, bianchi, bianche | white | Il nonno ha i capelli bianchi. | Grandpa has white hair.
 grigio, grigia, grigi, grigie | grey | Oggi il cielo è grigio. | The sky is grey today.
+marrone, marrone, marroni, marroni | brown | Ho una giacca marrone. | I have a brown jacket.
+rosa, rosa, rosa, rosa | pink | Mia figlia vuole le scarpe rosa. | My daughter wants the pink shoes.
+viola, viola, viola, viola | purple | Le melanzane sono viola. | Aubergines are purple.
 """
 )
+COLORS = {"rosso", "blu", "verde", "giallo", "nero", "bianco", "grigio", "marrone", "rosa", "viola"}
+for a in ADJECTIVES:
+    if a["primary_form"] in COLORS:
+        a["tags"].append("colors")
 
 VERBS = [
     verb("essere", "to be", [], aux="essere", pp="stato",
@@ -814,6 +875,52 @@ benvenuto | welcome | Benvenuti in Italia! | Welcome to Italy! | | It agrees wit
     ["greetings"],
 )
 
+PRONOUNS = phrases(
+    """
+io | I | Io sono di Milano, e tu? | I'm from Milan, and you? | | Usually left out, since the verb already says who: parlo italiano. Put it in to stress or contrast.
+tu | you (one person, familiar) | Tu sei di Roma? | Are you from Rome? | | For friends, family, children and people your own age.
+lui | he | Lui è mio fratello. | He's my brother.
+lei | she | Lei è la mia vicina. | She's my neighbour.
+Lei | you (one person, polite) | Lei è il signor Bianchi? | Are you Mr Bianchi? | | The word for she, used as a polite you, with the same verb form. Often written with a capital.
+noi | we | Noi mangiamo alle otto. | We eat at eight.
+voi | you (several people) | Voi venite stasera? | Are you all coming tonight? | | Friends or not.
+loro | they | Loro abitano a Napoli. | They live in Naples. | | The same for men, women and mixed groups.
+""",
+    ["pronomi"],
+)
+# The polite Lei slugs to the same id as lei (she).
+for p in PRONOUNS:
+    if p["primary_form"] == "Lei":
+        p["id"] = "lei-formale"
+
+NEGATIVES = phrases(
+    """
+non | not | Mia sorella non mangia carne. | My sister doesn't eat meat. | | Goes right before the verb, with no helper like "don't".
+mai | never | Non guardo mai la televisione. | I never watch television. | | Non stays before the verb: non ... mai.
+più | no longer, not any more | Non abito più a Roma. | I don't live in Rome any more. | | With non. Without it, più means more.
+niente | nothing | Non voglio niente, grazie. | I don't want anything, thanks. | | Non stays before the verb: non vedo niente.
+nessuno | nobody, no one | Nessuno sa dove abita Paolo. | Nobody knows where Paolo lives. | | Before the verb it needs no non. After it: non viene nessuno.
+non ancora | not yet | —Sei pronta? —Non ancora. | "Are you ready?" "Not yet." | | In a sentence, ancora goes after the verb: non è ancora pronto.
+""",
+    ["negazione"],
+)
+
+NUMBERS = phrases(
+    """
+uno | one | Ne prendo uno solo. | I'll just take one. | | Before a noun it's the article: un libro, una casa.
+due | two | Ho due fratelli. | I have two brothers.
+tre | three | Siamo in tre. | There are three of us.
+quattro | four | Il negozio chiude alle quattro. | The shop closes at four.
+cinque | five | Mia figlia ha cinque anni. | My daughter is five.
+sei | six | Vorrei sei uova, per favore. | I'd like six eggs, please. | | Also you are: tu sei.
+sette | seven | La settimana ha sette giorni. | A week has seven days.
+otto | eight | Lavoro otto ore al giorno. | I work eight hours a day.
+nove | nine | Il museo apre alle nove. | The museum opens at nine.
+dieci | ten | Sono dieci euro. | That's ten euros.
+""",
+    ["numeri"],
+)
+
 CONNECTIVES = connectors(
     "connective",
     """
@@ -834,13 +941,16 @@ se | if | conj-subordinating | Usciamo se vuoi. | We'll go out if you want.
     ["congiunzioni"],
 )
 
-ITEMS = PAGES + interleave(PHRASES, NOUNS, VERBS, ADJECTIVES, CONNECTIVES + CONJUNCTIONS)
+ITEMS = PAGES + interleave(
+    PHRASES, PRONOUNS + NEGATIVES + NUMBERS, NOUNS, VERBS, ADJECTIVES, CONNECTIVES + CONJUNCTIONS
+)
 
-# Each grammar page's Unit carries the words that use or illustrate it, not
-# just whatever happens to share its tag: the pronunciation, pronoun and
-# question pages draw their phrases from the greetings set without overlap,
-# the numbers page pairs with the words for telling the time, possessives
-# with the closest family, and piacere with the food people like.
+# Each grammar page's Unit practises the words its page explains: the
+# pronunciation page ends on how each greeting in its unit sounds, the
+# pronouns, negation and numbers pages get their own pronouns, negative
+# words and numbers, and colours get a page on which ones agree. The
+# question page draws on the greetings set, possessives on the closest
+# family, and piacere on the food people like.
 UNITS = [
     {
         "title": "La pronuncia",
@@ -850,7 +960,7 @@ UNITS = [
     {
         "title": "Tu o Lei",
         "page_id": "it-subject-pronouns",
-        "word_ids": ["come-stai", "come-sta", "scusa", "scusi", "sto-bene-grazie", "salve"],
+        "word_ids": ["io", "tu", "lui", "lei", "lei-formale", "noi", "voi", "loro"],
     },
     {
         "title": "Essere e avere",
@@ -865,7 +975,7 @@ UNITS = [
     {
         "title": "La negazione",
         "page_id": "it-negation",
-        "word_ids": ["non-capisco", "non-lo-so", "mi-dispiace", "no", "prendere", "mettere", "vedere"],
+        "word_ids": ["non", "no", "mai", "piu", "niente", "nessuno", "non-ancora", "non-capisco", "non-lo-so"],
     },
     {
         "title": "Le domande",
@@ -892,12 +1002,13 @@ UNITS = [
     },
     {
         "title": "I colori",
-        "word_ids": ["rosso", "blu", "verde", "giallo", "nero", "bianco", "grigio"],
+        "page_id": "it-colors",
+        "word_ids": ["rosso", "blu", "verde", "giallo", "nero", "bianco", "grigio", "marrone", "rosa", "viola"],
     },
     {
         "title": "I numeri",
         "page_id": "it-numbers",
-        "word_ids": ["ora", "minuto", "giorno", "lunedi", "martedi", "mercoledi"],
+        "word_ids": ["uno", "due", "tre", "quattro", "cinque", "sei", "sette", "otto", "nove", "dieci"],
     },
     {
         "title": "I possessivi",
