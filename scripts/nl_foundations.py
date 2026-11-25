@@ -59,7 +59,7 @@ The Dutch **w** is softer than English w, somewhere between v and w, made with t
 - *[goedemorgen](lango:say)*: the g twice and the oe, with the -en said as "uh": "ghoo-duh-mor-ghuh".
 - *[dank je wel](lango:say)*: the soft w.
 - *[alsjeblieft](lango:say)*: sj is "sh" and ie is "ee".
-- *[hallo](lango:say)*, *[sorry](lango:say)* and *[pardon](lango:say)*: short vowels, each closed by a consonant. *Pardon* puts the stress on the end: par-DON.
+- *[hallo](lango:say)*, *[sorry](lango:say)* and *[pardon](lango:say)*: the first vowel is short and closed by a consonant (hal-, sor-, par-). *Pardon* puts the stress on the end: par-DON.
 """,
         ["uitspraak"],
         "nl-pronunciation",
@@ -324,7 +324,7 @@ Every plural noun takes **de**, whatever its singular article. *Het huis*, *de h
 
 - Most nouns take **-en**: *boek → boeken*, *mens → mensen*.
 - Nouns ending in unstressed **-el, -em, -en, -er, -je** take **-s**: *jongen → jongens*, *vader → vaders*, *meisje → meisjes*.
-- Nouns ending in a vowel usually take **'s** or **s**: *baby → baby's*, *foto → foto's*, *zee → zeeën*.
+- Nouns ending in a vowel usually take **'s** or **s**: *baby → baby's*, *foto → foto's*, *menu → menu's*. Words in stressed **-ee** take **-ën**: *zee → zeeën*, *idee → ideeën*.
 
 This is a strong tendency, not a law. Learn the plural with the word; every noun in these packs carries it.
 
@@ -627,7 +627,7 @@ for a in ADJECTIVES[-8:]:
 VERBS = [
     verb("zijn", "ben", "to be", [], aux="zijn", present="ben bent is zijn zijn zijn",
          past="was waren", pp="geweest",
-         example="Ik ben moe vandaag.", example_en="I'm tired today."),
+         example="Ik ben vandaag moe.", example_en="I'm tired today."),
     verb("hebben", "heb", "to have", [], present="heb hebt heeft hebben hebben hebben",
          past="had hadden", pp="gehad",
          example="Heb je tijd?", example_en="Do you have time?"),
@@ -910,7 +910,7 @@ LABELS = {
 
 PACK = pack(
     "nl-foundations-v1",
-    6,
+    7,
     "nl",
     "Nederlands · Basis (A1)",
     ITEMS,

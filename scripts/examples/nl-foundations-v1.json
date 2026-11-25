@@ -499,7 +499,7 @@
   "example": "Ik drink nooit koffie.",
   "example_en": "I never drink coffee."
  },
- "noun:dag": {
+ "dag-noun": {
   "example": "Het was een lange dag op het werk.",
   "example_en": "It was a long day at work."
  },
@@ -595,8 +595,12 @@
   "example_en": "The house has three bedrooms."
  },
  "slecht": {
-  "example": "Het weer is slecht vandaag.",
-  "example_en": "The weather is bad today."
+  "example": "Het weer is vandaag slecht.",
+  "example_en": "The weather is bad today.",
+  "example_alternatives": [
+   "Vandaag is het weer slecht.",
+   "Het weer is slecht vandaag."
+  ]
  },
  "sleutel": {
   "example": "Ik kan mijn sleutel niet vinden.",
@@ -797,7 +801,7 @@
  "zijn": {
   "example_alternatives": [
    "Vandaag ben ik moe.",
-   "Ik ben vandaag moe."
+   "Ik ben moe vandaag."
   ]
  },
  "zondag": {

@@ -38,7 +38,7 @@ When a vowel sits before **n** or **m** in the same syllable, the n is not prono
 | --- | --- | --- |
 | an, en, am, em | "ahn" | *[enfant](lango:say)*, *[temps](lango:say)* |
 | on, om | "ohn" | *[bon](lango:say)*, *[nom](lango:say)* |
-| in, ain, ein, un | "ahn" (front) | *[vin](lango:say)*, *[pain](lango:say)*, *[un](lango:say)* |
+| in, ain, ein, un | "an" as in van, through the nose | *[vin](lango:say)*, *[pain](lango:say)*, *[un](lango:say)* |
 
 If a vowel follows the n (*[bonne](lango:say)*, *[une](lango:say)*), the nasal disappears and the n is pronounced.
 
@@ -235,6 +235,8 @@ After a negation, **un, une, du, de la** and **des** all become **de** (or **d'*
 
 This doesn't apply to *être*: *C'est un chat* → *Ce n'est pas un chat.*
 
+*Ne ... que* (only) isn't a real negation, so the article stays: *Je ne bois que du café.*
+
 ## In conversation
 
 Spoken French usually drops the *ne*. *Je sais pas*, *C'est pas grave*, *J'ai pas le temps*. Write the *ne*, but expect not to hear it.
@@ -338,7 +340,7 @@ The prepositions **à** (to, at) and **de** (of, from) merge with *le* and *les*
 
 ## Countries and cities
 
-Cities take **à**: *à Paris*. Feminine countries (most end in -e) take **en**: *en France*, *en Belgique*. Masculine countries take **au**: *au Canada*, *au Japon*. Plural ones take **aux**: *aux États-Unis*.
+Cities take **à**: *à Paris*. Feminine countries (most end in -e) take **en**: *en France*, *en Belgique*. Masculine countries take **au**: *au Canada*, *au Japon*, but **en** before a vowel: *en Iran*. Plural ones take **aux**: *aux États-Unis*.
 """,
         ["articles"],
         "fr-contractions",
@@ -427,7 +429,7 @@ Colours are adjectives, so they follow the adjectives page: they go after the no
 
 ## Colours that never change
 
-A colour named after a thing stays as it is. *Marron* is a chestnut and *orange* is the fruit, so they never take -e or -s: *des yeux marron*, *des chaussures orange*. *Rose* is the one exception and agrees like any adjective: *des fleurs roses*.
+A colour named after a thing stays as it is. *Marron* is a chestnut and *orange* is the fruit, so they never take -e or -s: *des yeux marron*, *des chaussures orange*. *Rose* is the main exception and agrees like any adjective: *des fleurs roses*. *Mauve* does the same.
 
 A colour of two words never changes either: *une robe bleu clair*, *des yeux bleu foncé*.
 
@@ -726,7 +728,7 @@ VERBS = [
          example="Qu'est-ce que tu dis ?", example_en="What are you saying?"),
     verb("voir", "to see", [], pp="vu",
          present="vois vois voit voyons voyez voient", fut="verr",
-         example="On se voit demain ?", example_en="See each other tomorrow?"),
+         example="On se voit demain ?", example_en="Are we seeing each other tomorrow?"),
     verb("habiter", "to live (somewhere)", ["home"], pp="habité",
          example="J'habite à Lyon.", example_en="I live in Lyon."),
     verb("aimer", "to like, to love", [], pp="aimé",
@@ -1006,7 +1008,7 @@ LABELS = {
 
 PACK = pack(
     "fr-foundations-v1",
-    7,
+    8,
     "fr",
     "Français · Fondations (A1)",
     ITEMS,

@@ -196,7 +196,7 @@ Reflexive verbs take **être** in the passé composé: *je me suis levé*. The n
         "fr-object-pronouns",
         "Le, lui, y, en: object pronouns",
         r"""
-French object pronouns go **before the verb**, which is the opposite of English. *I see him* is *je **le** vois*.
+French object pronouns go **before the verb**, which is the opposite of English. *I see him* is *je **le** vois*. In a positive command they go after it, joined by a hyphen: *Prends-le*. *Me* becomes *moi* there: *Dis-moi*.
 
 ## Direct objects: le, la, les
 
@@ -246,7 +246,7 @@ The pronoun goes before the verb it belongs to: *Je vais le faire.* *Je peux t'a
         "fr-futur-simple",
         "The futur simple",
         r"""
-The **futur simple** says what will happen. It's more planned, formal or certain than *aller + infinitive*, and it's the tense for promises and predictions.
+The **futur simple** says what will happen. It's more formal than *aller + infinitive*, and it often feels further off or less settled. It's the tense for promises and predictions.
 
 Take the **infinitive** (drop the final **-e** of -re verbs) and add the endings of *avoir*: **-ai, -as, -a, -ons, -ez, -ont**.
 
@@ -339,7 +339,7 @@ Saying *j'ai habité ici depuis trois ans* is a very common mistake. It's wrong.
 | Word | Meaning | Example |
 | --- | --- | --- |
 | il y a | ago | Je suis arrivé il y a deux jours. |
-| pendant | for, during (a finished period) | J'ai dormi pendant huit heures. |
+| pendant | for, during (a length of time) | J'ai dormi pendant huit heures. |
 | dans | in (from now) | Le train part dans dix minutes. |
 | en | in (time it takes) | J'ai fait le trajet en deux heures. |
 
@@ -594,7 +594,7 @@ VERBS = [
          example="Le magasin ferme à sept heures.", example_en="The shop closes at seven."),
     verb("connaître", "to know (a person, a place)", [], pp="connu",
          present="connais connais connaît connaissons connaissez connaissent", fut="connaîtr",
-         example="J'ai connu Marie à l'université.", example_en="I met Marie at university."),
+         example="J'ai connu Marie à l'université.", example_en="I got to know Marie at university."),
     verb("croire", "to believe", [], pp="cru",
          present="crois crois croit croyons croyez croient",
          example="Je n'ai pas cru son histoire.", example_en="I didn't believe his story."),
@@ -773,7 +773,7 @@ LABELS = {
 
 PACK = pack(
     "fr-everyday-v1",
-    6,
+    7,
     "fr",
     "Français · Au quotidien (A2)",
     ITEMS,

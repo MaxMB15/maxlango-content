@@ -202,7 +202,7 @@ A cause connective gives the reason for what was just said.
 
 | French | English |
 | --- | --- |
-| en effet | indeed, as it happens |
+| en effet | indeed, you see |
 | en fait | in fact, actually |
 
 **En effet** backs up what you just said with its reason: *Je reste à la maison ; en effet, je suis malade.* It doesn't mean "in effect". **En fait** brings in what is really the case, often to correct an impression: *Je ne viens pas ; en fait, je suis malade.*
@@ -294,7 +294,7 @@ A story often runs *d'abord*, then *ensuite* or *puis*, then *enfin*: *D'abord, 
 
 CORE = patch_core(
     "fr",
-    8,
+    9,
     {
         "manger": (conjugate("manger", pp="mangé"), {"auxiliary": "avoir", "participle": "mangé"}),
         "boire": (

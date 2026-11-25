@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "fr-fluency-v1",
-  "version": 5,
+  "version": 6,
   "language": "fr",
   "name": "Français · Aisance (B1)",
   "author": "Max Boksem",
@@ -163,7 +163,7 @@
       "kind": "misc",
       "id": "fr-past-perfect-and-literary",
       "title": "Plus-que-parfait and passé simple",
-      "body_md": "Two more past tenses complete the picture.\n\n## Plus-que-parfait: had done\n\nThe past before the past. Use the **imparfait** of avoir or être plus the participle, exactly like English *had + participle*.\n\n:::examples\n- J'avais déjà mangé quand il est arrivé. — I had already eaten when he arrived.\n- Elle était partie. — She had left.\n:::\n\nThe same verbs take être as in the passé composé.\n\n## Passé simple: recognise it, don't produce it\n\nThe **passé simple** is the literary past. Novels, fairy tales and history books use it where speech uses the passé composé. You'll meet it in the third person almost exclusively.\n\n| Infinitive | il / elle | ils / elles |\n| --- | --- | --- |\n| parler | parla | parlèrent |\n| finir | finit | finirent |\n| être | fut | furent |\n| avoir | eut | eurent |\n| faire | fit | firent |\n| aller | alla | allèrent |\n| venir | vint | vinrent |\n| prendre | prit | prirent |\n\n*Il était une fois un roi qui eut trois filles.* (Once upon a time there was a king who had three daughters.) The imparfait sets the scene; the passé simple tells the story.",
+      "body_md": "Two more past tenses complete the picture.\n\n## Plus-que-parfait: had done\n\nThe past before the past. Use the **imparfait** of avoir or être plus the participle, exactly like English *had + participle*.\n\n:::examples\n- J'avais déjà mangé quand il est arrivé. — I had already eaten when he arrived.\n- Elle était partie. — She had left.\n:::\n\nThe same verbs take être as in the passé composé.\n\n## Passé simple: recognise it, don't produce it\n\nThe **passé simple** is the literary past. Novels, fairy tales and history books use it where speech uses the passé composé. You'll meet it in the third person almost exclusively.\n\n| Infinitive | il / elle | ils / elles |\n| --- | --- | --- |\n| parler | parla | parlèrent |\n| finir | finit | finirent |\n| être | fut | furent |\n| avoir | eut | eurent |\n| faire | fit | firent |\n| aller | alla | allèrent |\n| venir | vint | vinrent |\n| prendre | prit | prirent |\n\n*Il était une fois un roi qui avait trois filles. Un jour, il tomba malade.* (Once upon a time there was a king who had three daughters. One day, he fell ill.) The imparfait sets the scene; the passé simple tells the story.",
       "extras": {
         "unlocks": [
           "concept:fr-past-literary"
@@ -745,7 +745,7 @@
       "kind": "phrase",
       "id": "les-retrouvailles",
       "primary_form": "les retrouvailles",
-      "gloss": "the joy of meeting again after a long time",
+      "gloss": "reunion, meeting again after a long time",
       "extras": {
         "literal": "the re-findings",
         "example": "Les retrouvailles avec ma sœur ont été très émouvantes.",
@@ -2627,7 +2627,7 @@
       "gloss": "shame",
       "extras": {
         "gender": "f",
-        "article": "l'",
+        "article": "la",
         "example": "J'ai eu honte de mon comportement.",
         "example_en": "I was ashamed of my behaviour."
       },
@@ -3139,7 +3139,7 @@
       "kind": "verb",
       "id": "servir",
       "primary_form": "servir",
-      "gloss": "to serve",
+      "gloss": "to serve; to be for",
       "extras": {
         "auxiliary": "avoir",
         "participle": "servi",
@@ -3381,7 +3381,7 @@
       "kind": "noun",
       "id": "depaysement",
       "primary_form": "dépaysement",
-      "gloss": "the disorientation of being somewhere foreign",
+      "gloss": "the feeling of being away from familiar surroundings",
       "extras": {
         "gender": "m",
         "article": "le",
@@ -3549,7 +3549,7 @@
       "gloss": "as soon as",
       "extras": {
         "role": "conj-subordinating",
-        "example": "Appelle-moi dès que tu arrives.",
+        "example": "Appelle-moi dès que tu arriveras.",
         "example_en": "Call me as soon as you arrive."
       },
       "tags": [
@@ -4289,7 +4289,7 @@
       "subtitle": "Fear, joy, anger, shame, dreams and love"
     },
     {
-      "title": "Verbes pronominaux",
+      "title": "Verbes pronominaux et faux amis",
       "word_ids": [
         "se-souvenir",
         "s-occuper",

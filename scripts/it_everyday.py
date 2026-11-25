@@ -180,7 +180,7 @@ Imagine the past as a film. The **imperfetto** is the scenery and whatever was a
 - All'improvviso è entrato un uomo. — Suddenly a man came in.
 :::
 
-Signal words help: *sempre*, *di solito*, *ogni giorno*, *da piccolo* and *mentre* point to the imperfetto; *ieri*, *una volta*, *all'improvviso* and *a un tratto* point to the passato prossimo.
+Signal words help: *sempre*, *di solito*, *ogni giorno*, *da piccolo* and *mentre* point to the imperfetto; *ieri*, *un giorno*, *all'improvviso* and *a un tratto* point to the passato prossimo.
 
 ## A trap: a finished stretch of time
 
@@ -314,10 +314,12 @@ You already know it from *c'è* and *ci sono*. It also builds some everyday verb
 | --- | --- | --- |
 | volerci | to take (time, things needed) | Ci vuole un'ora. Ci vogliono due ore. |
 | metterci | to take (someone, time) | Ci metto dieci minuti. |
-| avercela | to have got it (spoken) | Le chiavi? Ce l'ho io. |
+| avercela (con qualcuno) | to be cross with someone | Ce l'hai con me? |
 | farcela | to manage, to make it | Ce la fai? |
 
 *Ci vuole* agrees with what is needed; *ci metto* agrees with the person: *Ci mettiamo poco* (It won't take us long).
+
+In speech, *avere* also takes *ci* before *lo*, *la*, *li* and *le*: *Hai le chiavi? Sì, ce le ho.*
 
 ## Ne: of it, some
 
@@ -425,7 +427,7 @@ Use **che** when you compare two adjectives, two verbs, or two phrases that star
 - *Mi piace più leggere che guardare la TV.* (I like reading more than watching TV.)
 - *Fa più caldo a Roma che a Milano.* (It's hotter in Rome than in Milan.)
 
-With two nouns or pronouns, it's *di*.
+With two nouns or pronouns, it's *di*, except when you compare two quantities: *Bevo più acqua che vino*.
 
 ## The superlative
 
@@ -488,7 +490,7 @@ A day with the article means "every": *il lunedì* (on Mondays). Without it, the
 
 Also: *ieri* (yesterday), *oggi* (today), *domani* (tomorrow), *dopodomani* (the day after tomorrow), *l'altro ieri* (the day before yesterday).
 
-Months take no capital and use *a* or *in*: *a maggio*, *in agosto*. Dates use the plain number with *il*, except the first of the month: *il 3 marzo*, *il primo maggio*.
+Months take no capital and use *a* or *in*: *a maggio*, *in agosto*. Dates use the plain number with *il* (*l'* before 8 and 11), except the first of the month: *il 3 marzo*, *l'8 marzo*, *il primo maggio*.
 
 :::cloze{sentence="Abito a Bologna ___ tre anni." blank="da"}
 :::
@@ -1003,7 +1005,7 @@ LABELS = {
 
 PACK = pack(
     "it-everyday-v1",
-    1,
+    2,
     "it",
     "Italiano · Ogni giorno (A2)",
     ITEMS,

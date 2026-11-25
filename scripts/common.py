@@ -40,6 +40,14 @@ def pack(
     }
     if delta:
         out["profile_delta"] = delta
+    # The app resolves a Unit's bare word id to one item, so a bare id must
+    # be unique in the pack. The first item keeps it; a later homonym (the
+    # noun "dag" after the phrase "dag") becomes "<id>-<kind>".
+    claimed: set[str] = set()
+    for it in items:
+        if it["kind"] != "misc" and it["id"] in claimed:
+            it["id"] = f"{it['id']}-{it['kind']}"
+        claimed.add(it["id"])
     out["items"] = items
     if units:
         out["units"] = units
@@ -131,11 +139,12 @@ def build_units(
 
     order: list[str] = []
     members: dict[str, list[str]] = {}
-    # A Unit's word_ids are bare pack-JSON ids (no kind segment), so two
-    # items that happen to share a bare id under different kinds (e.g. "si"
-    # as both a phrase and a conjunction) would resolve ambiguously. Only
-    # the first item to claim a bare id joins a Unit; later homonyms are
-    # still fully studyable, just not through a Course Unit.
+    # A Unit's word_ids are bare pack-JSON ids (no kind segment). Two items
+    # can share a bare id under different kinds here (e.g. "si" as both a
+    # phrase and a conjunction); pack() later renames the second one to
+    # "si-conjunction". Only the first item to claim a bare id joins a Unit;
+    # later homonyms are still fully studyable, just not through a Course
+    # Unit.
     seen_word_ids: set[str] = set(consumed)
 
     for it in items:

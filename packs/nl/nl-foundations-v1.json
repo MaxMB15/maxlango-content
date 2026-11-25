@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "nl-foundations-v1",
-  "version": 6,
+  "version": 7,
   "language": "nl",
   "name": "Nederlands · Basis (A1)",
   "author": "Max Boksem",
@@ -106,7 +106,7 @@
       "kind": "misc",
       "id": "nl-pronunciation",
       "title": "Reading Dutch aloud",
-      "body_md": "Dutch spelling is close to phonetic: once you know the sound of each letter group, you can read almost any word. A few sounds have no English equivalent.\n\n## The sounds English doesn't have\n\n| Spelling | Sound | Example |\n| --- | --- | --- |\n| g, ch | a rasp at the back of the throat, like Scottish *loch* | *[goed](lango:say)*, *[acht](lango:say)* |\n| ui | between \"ow\" and \"oy\", lips rounded | *[huis](lango:say)*, *[uit](lango:say)* |\n| eu | like French *peu*, \"e\" with rounded lips | *[leuk](lango:say)*, *[neus](lango:say)* |\n| ij, ei | \"ay\" as in *day*, a bit wider | *[ijs](lango:say)*, *[klein](lango:say)* |\n| u | like French *tu*: \"ee\" with rounded lips | *[u](lango:say)*, *[nu](lango:say)* |\n| oe | \"oo\" as in *food* | *[boek](lango:say)*, *[goed](lango:say)* |\n| ou, au | \"ow\" as in *how* | *[oud](lango:say)*, *[blauw](lango:say)* |\n| sch | s + the g sound | *[school](lango:say)* (\"s-gohl\", never \"skool\") |\n\nIn the south of the Netherlands and in Flanders, the **g** is soft. In the north it's harsh. Both are correct.\n\n## Long and short vowels\n\nA double vowel is long: *[maan](lango:say)* (moon), *[boom](lango:say)* (tree). A single vowel is long when it ends a syllable (*[ma-ken](lango:say/maken)*) and short when a consonant closes it (*[man](lango:say)*, *[bed](lango:say)*). This one rule explains most Dutch spelling. The next pages use it.\n\n## Endings\n\n- **-en** at the end of a word is usually said as a short \"uh\": *[maken](lango:say)* sounds like \"maakuh\".\n- **-d** at the end of a word is said as **t**: *[hond](lango:say)* sounds like \"hont\".\n- **v** and **z** soften towards f and s at the start of a word in many accents.\n\n## W\n\nThe Dutch **w** is softer than English w, somewhere between v and w, made with the lower lip against the top teeth.\n\n## This unit's words\n\n- *[goedemorgen](lango:say)*: the g twice and the oe, with the -en said as \"uh\": \"ghoo-duh-mor-ghuh\".\n- *[dank je wel](lango:say)*: the soft w.\n- *[alsjeblieft](lango:say)*: sj is \"sh\" and ie is \"ee\".\n- *[hallo](lango:say)*, *[sorry](lango:say)* and *[pardon](lango:say)*: short vowels, each closed by a consonant. *Pardon* puts the stress on the end: par-DON.",
+      "body_md": "Dutch spelling is close to phonetic: once you know the sound of each letter group, you can read almost any word. A few sounds have no English equivalent.\n\n## The sounds English doesn't have\n\n| Spelling | Sound | Example |\n| --- | --- | --- |\n| g, ch | a rasp at the back of the throat, like Scottish *loch* | *[goed](lango:say)*, *[acht](lango:say)* |\n| ui | between \"ow\" and \"oy\", lips rounded | *[huis](lango:say)*, *[uit](lango:say)* |\n| eu | like French *peu*, \"e\" with rounded lips | *[leuk](lango:say)*, *[neus](lango:say)* |\n| ij, ei | \"ay\" as in *day*, a bit wider | *[ijs](lango:say)*, *[klein](lango:say)* |\n| u | like French *tu*: \"ee\" with rounded lips | *[u](lango:say)*, *[nu](lango:say)* |\n| oe | \"oo\" as in *food* | *[boek](lango:say)*, *[goed](lango:say)* |\n| ou, au | \"ow\" as in *how* | *[oud](lango:say)*, *[blauw](lango:say)* |\n| sch | s + the g sound | *[school](lango:say)* (\"s-gohl\", never \"skool\") |\n\nIn the south of the Netherlands and in Flanders, the **g** is soft. In the north it's harsh. Both are correct.\n\n## Long and short vowels\n\nA double vowel is long: *[maan](lango:say)* (moon), *[boom](lango:say)* (tree). A single vowel is long when it ends a syllable (*[ma-ken](lango:say/maken)*) and short when a consonant closes it (*[man](lango:say)*, *[bed](lango:say)*). This one rule explains most Dutch spelling. The next pages use it.\n\n## Endings\n\n- **-en** at the end of a word is usually said as a short \"uh\": *[maken](lango:say)* sounds like \"maakuh\".\n- **-d** at the end of a word is said as **t**: *[hond](lango:say)* sounds like \"hont\".\n- **v** and **z** soften towards f and s at the start of a word in many accents.\n\n## W\n\nThe Dutch **w** is softer than English w, somewhere between v and w, made with the lower lip against the top teeth.\n\n## This unit's words\n\n- *[goedemorgen](lango:say)*: the g twice and the oe, with the -en said as \"uh\": \"ghoo-duh-mor-ghuh\".\n- *[dank je wel](lango:say)*: the soft w.\n- *[alsjeblieft](lango:say)*: sj is \"sh\" and ie is \"ee\".\n- *[hallo](lango:say)*, *[sorry](lango:say)* and *[pardon](lango:say)*: the first vowel is short and closed by a consonant (hal-, sor-, par-). *Pardon* puts the stress on the end: par-DON.",
       "extras": {
         "unlocks": [
           "concept:nl-pronunciation"
@@ -222,7 +222,7 @@
       "kind": "misc",
       "id": "nl-plurals",
       "title": "Plurals: -en or -s",
-      "body_md": "Every plural noun takes **de**, whatever its singular article. *Het huis*, *de huizen*.\n\n## Which ending?\n\n- Most nouns take **-en**: *boek → boeken*, *mens → mensen*.\n- Nouns ending in unstressed **-el, -em, -en, -er, -je** take **-s**: *jongen → jongens*, *vader → vaders*, *meisje → meisjes*.\n- Nouns ending in a vowel usually take **'s** or **s**: *baby → baby's*, *foto → foto's*, *zee → zeeën*.\n\nThis is a strong tendency, not a law. Learn the plural with the word; every noun in these packs carries it.\n\n## Spelling changes\n\nThe long-and-short vowel rule applies again:\n\n- A long vowel spelled double in a closed syllable becomes single when the syllable opens: *naam → namen*, *boom → bomen*.\n- A short vowel needs its consonant doubled: *bed → bedden*, *kat → katten*.\n- **f** and **s** often become **v** and **z**: *brief → brieven*, *huis → huizen*.\n\n## Irregular plurals\n\n| Singular | Plural |\n| --- | --- |\n| kind | kinderen |\n| ei | eieren |\n| stad | steden |\n| buurman | buren |\n| schip | schepen |\n| dag | dagen (short a becomes long) |\n\n:::examples\n- Ik heb twee katten en drie honden. — I have two cats and three dogs.\n- De kinderen spelen buiten. — The children are playing outside.\n- Waar zijn mijn foto's? — Where are my photos?\n:::",
+      "body_md": "Every plural noun takes **de**, whatever its singular article. *Het huis*, *de huizen*.\n\n## Which ending?\n\n- Most nouns take **-en**: *boek → boeken*, *mens → mensen*.\n- Nouns ending in unstressed **-el, -em, -en, -er, -je** take **-s**: *jongen → jongens*, *vader → vaders*, *meisje → meisjes*.\n- Nouns ending in a vowel usually take **'s** or **s**: *baby → baby's*, *foto → foto's*, *menu → menu's*. Words in stressed **-ee** take **-ën**: *zee → zeeën*, *idee → ideeën*.\n\nThis is a strong tendency, not a law. Learn the plural with the word; every noun in these packs carries it.\n\n## Spelling changes\n\nThe long-and-short vowel rule applies again:\n\n- A long vowel spelled double in a closed syllable becomes single when the syllable opens: *naam → namen*, *boom → bomen*.\n- A short vowel needs its consonant doubled: *bed → bedden*, *kat → katten*.\n- **f** and **s** often become **v** and **z**: *brief → brieven*, *huis → huizen*.\n\n## Irregular plurals\n\n| Singular | Plural |\n| --- | --- |\n| kind | kinderen |\n| ei | eieren |\n| stad | steden |\n| buurman | buren |\n| schip | schepen |\n| dag | dagen (short a becomes long) |\n\n:::examples\n- Ik heb twee katten en drie honden. — I have two cats and three dogs.\n- De kinderen spelen buiten. — The children are playing outside.\n- Waar zijn mijn foto's? — Where are my photos?\n:::",
       "extras": {
         "unlocks": [
           "concept:nl-plurals"
@@ -309,11 +309,11 @@
         "auxiliary": "zijn",
         "participle": "geweest",
         "past": "was / waren",
-        "example": "Ik ben moe vandaag.",
+        "example": "Ik ben vandaag moe.",
         "example_en": "I'm tired today.",
         "example_alternatives": [
           "Vandaag ben ik moe.",
-          "Ik ben vandaag moe."
+          "Ik ben moe vandaag."
         ]
       },
       "tags": [
@@ -1028,8 +1028,12 @@
           "base": "slecht",
           "inflected": "slechte"
         },
-        "example": "Het weer is slecht vandaag.",
-        "example_en": "The weather is bad today."
+        "example": "Het weer is vandaag slecht.",
+        "example_en": "The weather is bad today.",
+        "example_alternatives": [
+          "Vandaag is het weer slecht.",
+          "Het weer is slecht vandaag."
+        ]
       },
       "tags": [
         "bijvoeglijke-naamwoorden"
@@ -3915,7 +3919,7 @@
     },
     {
       "kind": "noun",
-      "id": "dag",
+      "id": "dag-noun",
       "primary_form": "dag",
       "gloss": "day",
       "extras": {

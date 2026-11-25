@@ -587,7 +587,7 @@ VERBS = [
     verb("proponer", "to propose, to suggest", [],
          present="propongo propones propone proponemos proponéis proponen",
          pret_stem="propus", fut="propondr", pp="propuesto",
-         example="Os propongo un plan para el sábado.", example_en="I've got a plan for Saturday for you all."),
+         example="Os propongo un plan para el sábado.", example_en="I'd like to suggest a plan for Saturday, everyone."),
     verb("mantener", "to keep; to support", [],
          present="mantengo mantienes mantiene mantenemos mantenéis mantienen",
          pret_stem="mantuv", fut="mantendr",
@@ -824,7 +824,7 @@ LABELS = topic_labels(DELTA)
 
 PACK = pack(
     "es-fluency-v1",
-    1,
+    2,
     "es",
     "Español · Soltura (B1)",
     ITEMS,

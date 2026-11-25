@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "fr-core-v1",
-  "version": 8,
+  "version": 9,
   "language": "fr",
   "name": "French Core",
   "author": "Max Boksem",
@@ -697,7 +697,7 @@
       "kind": "connective",
       "id": "en effet",
       "primary_form": "en effet",
-      "gloss": "indeed, as it happens",
+      "gloss": "indeed, you see",
       "extras": {
         "role": "conn-cause",
         "example": "Je reste à la maison, en effet je suis malade.",
@@ -851,7 +851,7 @@
       "kind": "misc",
       "id": "fr-cause-connectives",
       "title": "En effet and en fait",
-      "body_md": "A cause connective gives the reason for what was just said.\n\n| French | English |\n| --- | --- |\n| en effet | indeed, as it happens |\n| en fait | in fact, actually |\n\n**En effet** backs up what you just said with its reason: *Je reste à la maison ; en effet, je suis malade.* It doesn't mean \"in effect\". **En fait** brings in what is really the case, often to correct an impression: *Je ne viens pas ; en fait, je suis malade.*\n\n## Parce que, car, puisque and comme\n\n- **Parce que** is the everyday \"because\": *Je reste ici parce que je suis fatigué.*\n- **Car** says the same in writing, after a comma, and never starts a sentence: *Je reste ici, car il pleut.*\n- **Puisque** gives a reason the listener already knows: *Puisque tu es là, aide-moi.*\n- **Comme** puts the reason first, at the start of the sentence: *Comme il pleut, on reste ici.*\n\n:::examples\n- Je reste à la maison, en effet je suis malade. — I'm staying at home; I'm ill, you see.\n- Je ne viens pas ; en fait, je suis malade. — I'm not coming; actually, I'm ill.\n- Puisque tu es là, aide-moi. — Since you're here, help me.\n:::",
+      "body_md": "A cause connective gives the reason for what was just said.\n\n| French | English |\n| --- | --- |\n| en effet | indeed, you see |\n| en fait | in fact, actually |\n\n**En effet** backs up what you just said with its reason: *Je reste à la maison ; en effet, je suis malade.* It doesn't mean \"in effect\". **En fait** brings in what is really the case, often to correct an impression: *Je ne viens pas ; en fait, je suis malade.*\n\n## Parce que, car, puisque and comme\n\n- **Parce que** is the everyday \"because\": *Je reste ici parce que je suis fatigué.*\n- **Car** says the same in writing, after a comma, and never starts a sentence: *Je reste ici, car il pleut.*\n- **Puisque** gives a reason the listener already knows: *Puisque tu es là, aide-moi.*\n- **Comme** puts the reason first, at the start of the sentence: *Comme il pleut, on reste ici.*\n\n:::examples\n- Je reste à la maison, en effet je suis malade. — I'm staying at home; I'm ill, you see.\n- Je ne viens pas ; en fait, je suis malade. — I'm not coming; actually, I'm ill.\n- Puisque tu es là, aide-moi. — Since you're here, help me.\n:::",
       "extras": {
         "explains": [
           "conn-cause"

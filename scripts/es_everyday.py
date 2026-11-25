@@ -12,7 +12,7 @@ DELTA = [
     topic("preposiciones", "Por y para", "por and para", []),
     topic("gerundio", "Gerundio", "the -ing form", ["presente"]),
     topic("clothing", "Ropa", "clothing", ["género"]),
-    topic("weather", "Clima", "weather", []),
+    topic("weather", "El tiempo", "weather", []),
     topic("travel", "Viajes", "travel", ["género"]),
     topic("work", "Trabajo", "work and study", ["género"]),
     topic("health", "Salud", "health", ["género"]),
@@ -373,7 +373,7 @@ Every form except nosotros carries a written accent.
 
 ## Irregular stems
 
-Twelve common verbs shorten or change the infinitive. The endings stay the same.
+These ten common verbs shorten or change the infinitive. The endings stay the same.
 
 | Verb | Stem | yo |
 | --- | --- | --- |
@@ -969,7 +969,7 @@ ya lo sé | I know | —Hace frío. —Ya lo sé. | "It's cold." "I know." | alr
 no me lo creo | I can't believe it | ¿Has ganado la lotería? ¡No me lo creo! | You've won the lottery? I can't believe it!
 me lo llevo | I'll take it | Este jersey me gusta. Me lo llevo. | I like this jumper. I'll take it.
 te lo prometo | I promise | Mañana te devuelvo el dinero, te lo prometo. | I'll pay you back tomorrow, I promise.
-¿me lo dejas? | can I borrow it? | Qué libro tan interesante. ¿Me lo dejas? | What an interesting book. Can I borrow it? | will you leave it to me?
+¿me lo dejas? | can I borrow it? | ¡Qué libro tan interesante! ¿Me lo dejas? | What an interesting book. Can I borrow it? | will you leave it to me?
 ¿te importa? | do you mind? | ¿Te importa si abro la ventana? | Do you mind if I open the window?
 solo estoy mirando | I'm just looking | —¿Le puedo ayudar? —No, gracias, solo estoy mirando. | "Can I help you?" "No, thanks, I'm just looking."
 ¿qué estás haciendo? | what are you doing? | ¿Qué estás haciendo? Huele muy bien. | What are you making? It smells great.
@@ -1082,7 +1082,7 @@ LABELS = {**topic_labels(DELTA), "home": "En casa", "food": "La comida"}
 
 PACK = pack(
     "es-everyday-v1",
-    1,
+    2,
     "es",
     "Español · Día a día (A2)",
     ITEMS,

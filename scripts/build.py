@@ -69,6 +69,9 @@ def validate(pack: dict, profile: dict, seen_concepts: set[str]) -> list[str]:
         where = f"{pack['id']}:{it['kind']}:{it['id']}"
         if key in ids:
             errors.append(f"duplicate item {where}")
+        elif it["id"] in bare_ids:
+            # The app maps a Unit's bare word id to one item.
+            errors.append(f"{where}: another item already has the bare id '{it['id']}'")
         ids.add(key)
         bare_ids.add(it["id"])
         kind = it["kind"]

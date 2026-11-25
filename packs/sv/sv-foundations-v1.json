@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "sv-foundations-v1",
-  "version": 1,
+  "version": 2,
   "language": "sv",
   "name": "Svenska · Grunder (A1)",
   "author": "Max Boksem",
@@ -114,7 +114,7 @@
       "kind": "misc",
       "id": "sv-pronouns",
       "title": "Jag, du, ni and de",
-      "body_md": "Swedish pronouns have a subject form and an object form, as English *I* and *me* do.\n\n| Person | Subject | Object | English |\n| --- | --- | --- | --- |\n| 1st singular | jag | mig | I, me |\n| 2nd singular | du | dig | you |\n| 3rd singular | han, hon | honom, henne | he, him; she, her |\n| 3rd singular | den, det | den, det | it |\n| 1st plural | vi | oss | we, us |\n| 2nd plural | ni | er | you (more than one) |\n| 3rd plural | de | dem | they, them |\n\n## Du with everyone\n\nSince the late 1960s Swedes have said **du** to almost everyone: strangers, doctors, teachers, the boss, the prime minister. Using **ni** to one person sounds either very old-fashioned or cold. Use *ni* when you speak to more than one person.\n\n## Den or det?\n\nThere's no single word for *it*. Use **den** for an en-word and **det** for an ett-word:\n\n- *Var är bilen? **Den** står på gatan.* (en bil)\n- *Var är huset? **Det** ligger vid sjön.* (ett hus)\n\n**Det** is also the empty *it* of *det regnar* (it's raining) and *det är kallt* (it's cold).\n\n## De or dem?\n\n*De* and *dem* are both said **dom**, so even Swedes mix them up in writing, and many write *dom* in texts and chat. Use **de** as the subject and **dem** after a verb or a preposition: *De bor här. Jag känner dem.*\n\n## Man and hen\n\n**Man** is the general *you* or *one*: *Man tar av sig skorna här* (You take your shoes off here). **Hen** is a gender-neutral *he or she*, used when the gender isn't known or doesn't matter, and by people who are neither.\n\n:::examples\n- Jag ser honom varje morgon. — I see him every morning.\n- Var är nyckeln? Den ligger på bordet. — Where's the key? It's on the table.\n- Känner ni dem? — Do you know them?\n:::",
+      "body_md": "Swedish pronouns have a subject form and an object form, as English *I* and *me* do.\n\n| Person | Subject | Object | English |\n| --- | --- | --- | --- |\n| 1st singular | jag | mig | I, me |\n| 2nd singular | du | dig | you |\n| 3rd singular | han, hon | honom, henne | he, him; she, her |\n| 3rd singular | den, det | den, det | it |\n| 1st plural | vi | oss | we, us |\n| 2nd plural | ni | er | you (more than one) |\n| 3rd plural | de | dem | they, them |\n\n## Du with everyone\n\nSince the late 1960s Swedes have said **du** to almost everyone: strangers, doctors, teachers, the boss, the prime minister. Using **ni** to one person sounds either very old-fashioned or cold. Use *ni* when you speak to more than one person.\n\n## Den or det?\n\nThere's no single word for *it*. Use **den** for an en-word and **det** for an ett-word:\n\n- *Var är bilen? **Den** står på gatan.* (en bil)\n- *Var är huset? **Det** ligger vid sjön.* (ett hus)\n\n**Det** is also the empty *it* of *det regnar* (it's raining) and *det är kallt* (it's cold).\n\n## De or dem?\n\n*De* and *dem* are both said **dom**, so even Swedes mix them up in writing, and many write *dom* in texts and chat. Use **de** as the subject and **dem** as the object of a verb or after a preposition: *De bor här. Jag känner dem.*\n\n## Man and hen\n\n**Man** is the general *you* or *one*: *Man tar av sig skorna här* (You take your shoes off here). **Hen** is a gender-neutral *he or she*, used when the gender isn't known or doesn't matter, and by people who are neither.\n\n:::examples\n- Jag ser honom varje morgon. — I see him every morning.\n- Var är nyckeln? Den ligger på bordet. — Where's the key? It's on the table.\n- Känner ni dem? — Do you know them?\n:::",
       "extras": {
         "unlocks": [
           "concept:sv-pronouns"
@@ -145,7 +145,7 @@
       "kind": "misc",
       "id": "sv-present-tense",
       "title": "The present tense",
-      "body_md": "Swedish verbs don't change for the person. Where English says *I speak, she speaks*, Swedish says *jag talar, hon talar*, with the same form for everyone. Learn one form and you have the whole tense.\n\n| | tala | köpa | bo |\n| --- | --- | --- | --- |\n| jag, du | talar | köper | bor |\n| han, hon, den, det | talar | köper | bor |\n| vi, ni, de | talar | köper | bor |\n\n## Building the present\n\nEvery present form ends in **-r**. The infinitive tells you how to get there:\n\n| Group | Infinitive | Present | Rule |\n| --- | --- | --- | --- |\n| 1 | tala, arbeta | talar, arbetar | add -r |\n| 2 | köpa, läsa | köper, läser | drop -a, add -er |\n| 2 | höra, köra | hör, kör | stem ends in r: just drop -a |\n| 3 | bo, tro | bor, tror | short verbs ending in another vowel: add -r |\n| 4 | göra, vara | gör, är | irregular: learn them one by one |\n\nGroup 1 is the biggest, and new verbs join it: *googla, googlar*. You can't always tell group 1 from group 2 by looking at the infinitive, so every verb card shows the present.\n\n## No *do*, no *-ing*\n\n*Jag läser* is \"I read\", \"I'm reading\" and \"I do read\". Swedish has no *do* in questions or negatives either: *Läser du?* (Do you read? Are you reading?), *Jag läser inte* (I don't read).\n\n## The infinitive\n\nThe infinitive usually ends in **-a**, and *to* is **att**: *Det är roligt att läsa.* After *vill, kan, måste, ska* there's no *att*: *Jag vill läsa*, never *Jag vill att läsa*.\n\n## Present for the future\n\nWith a time word, the present also covers the future, as English *I'm leaving tomorrow* does: *Jag åker i morgon.*\n\n:::examples\n- Jag arbetar på ett kafé. — I work at a café.\n- Han läser tidningen på bussen. — He reads the paper on the bus.\n- Vi bor i Göteborg. — We live in Gothenburg.\n- Vad gör du i kväll? — What are you doing tonight?\n:::\n\n:::predict{prompt=\"hon (prata)\" answer=\"pratar\"}\n:::\n\n:::predict{prompt=\"vi (köpa)\" answer=\"köper\"}\n:::",
+      "body_md": "Swedish verbs don't change for the person. Where English says *I speak, she speaks*, Swedish says *jag talar, hon talar*, with the same form for everyone. Learn one form and you have the whole tense.\n\n| | tala | köpa | bo |\n| --- | --- | --- | --- |\n| jag, du | talar | köper | bor |\n| han, hon, den, det | talar | köper | bor |\n| vi, ni, de | talar | köper | bor |\n\n## Building the present\n\nAlmost every present form ends in **-r**. The modal verbs *kan, vill, ska, måste* and the verb *vet* don't. For the rest, the infinitive tells you how to get there:\n\n| Group | Infinitive | Present | Rule |\n| --- | --- | --- | --- |\n| 1 | tala, arbeta | talar, arbetar | add -r |\n| 2 | köpa, läsa | köper, läser | drop -a, add -er |\n| 2 | höra, köra | hör, kör | stem ends in r: just drop -a |\n| 3 | bo, tro | bor, tror | short verbs ending in another vowel: add -r |\n| 4 | göra, vara | gör, är | irregular: learn them one by one |\n\nGroup 1 is the biggest, and new verbs join it: *googla, googlar*. You can't always tell group 1 from group 2 by looking at the infinitive, so every verb card shows the present.\n\n## No *do*, no *-ing*\n\n*Jag läser* is \"I read\", \"I'm reading\" and \"I do read\". Swedish has no *do* in questions or negatives either: *Läser du?* (Do you read? Are you reading?), *Jag läser inte* (I don't read).\n\n## The infinitive\n\nThe infinitive usually ends in **-a**, and *to* is **att**: *Det är roligt att läsa.* After *vill, kan, måste, ska* there's no *att*: *Jag vill läsa*, never *Jag vill att läsa*.\n\n## Present for the future\n\nWith a time word, the present also covers the future, as English *I'm leaving tomorrow* does: *Jag åker i morgon.*\n\n:::examples\n- Jag arbetar på ett kafé. — I work at a café.\n- Han läser tidningen på bussen. — He reads the paper on the bus.\n- Vi bor i Göteborg. — We live in Gothenburg.\n- Vad gör du i kväll? — What are you doing tonight?\n:::\n\n:::predict{prompt=\"hon (prata)\" answer=\"pratar\"}\n:::\n\n:::predict{prompt=\"vi (köpa)\" answer=\"köper\"}\n:::",
       "extras": {
         "unlocks": [
           "concept:sv-present-tense"
@@ -266,7 +266,7 @@
       "kind": "misc",
       "id": "sv-possessives",
       "title": "Min, mitt and mina",
-      "body_md": "*My, your, our* agree with the thing owned, not with the owner:\n\n| Owner | en-word | ett-word | plural | English |\n| --- | --- | --- | --- | --- |\n| jag | min | mitt | mina | my |\n| du | din | ditt | dina | your |\n| han | hans | hans | hans | his |\n| hon | hennes | hennes | hennes | her |\n| vi | vår | vårt | våra | our |\n| ni | er | ert | era | your (more than one) |\n| de | deras | deras | deras | their |\n\n*Min bil, mitt hus, mina barn.* **Hans, hennes** and **deras** never change.\n\nAfter a possessive the noun has no ending: *min bil*, never *min bilen*.\n\n## Sin, sitt, sina\n\nSwedish has a possessive that English lacks. When *his, her, its* or *their* points back to the subject of the same clause, use **sin, sitt, sina**:\n\n- *Erik ringer **sin** mamma.* (Erik calls his own mother.)\n- *Erik ringer **hans** mamma.* (Erik calls another man's mother.)\n\nGet this wrong and you change who you're talking about. *Sin* never goes in the subject itself: *Hans mamma ringer*, not *Sin mamma ringer*.\n\n## Names\n\nAdd **-s** with no apostrophe: *Annas bok, Sveriges huvudstad.*\n\n:::examples\n- Var är dina nycklar? — Where are your keys?\n- Vårt hus är gammalt. — Our house is old.\n- Lisa bor hos sina föräldrar. — Lisa lives with her parents.\n:::\n\n:::cloze{sentence=\"Peter lagar mat med ___ dotter i köket.\" blank=\"sin\"}\n:::\n\n:::cloze{sentence=\"Är det här ___ rum?\" blank=\"ditt\"}\n:::",
+      "body_md": "*My, your, our* agree with the thing owned, not with the owner:\n\n| Owner | en-word | ett-word | plural | English |\n| --- | --- | --- | --- | --- |\n| jag | min | mitt | mina | my |\n| du | din | ditt | dina | your |\n| han | hans | hans | hans | his |\n| hon | hennes | hennes | hennes | her |\n| vi | vår | vårt | våra | our |\n| ni | er | ert | era | your (more than one) |\n| de | deras | deras | deras | their |\n\n*Min bil, mitt hus, mina barn.* **Hans, hennes** and **deras** never change.\n\nAfter a possessive the noun has no ending: *min bil*, never *min bilen*.\n\n## Sin, sitt, sina\n\nSwedish has a possessive that English lacks. When *his, her, its* or *their* points back to the subject of the same clause, use **sin, sitt, sina**:\n\n- *Erik ringer **sin** mamma.* (Erik calls his own mother.)\n- *Erik ringer **hans** mamma.* (Erik calls another man's mother.)\n\nGet this wrong and you change who you're talking about. *Sin* never goes in the subject itself: *Hans mamma ringer*, not *Sin mamma ringer*.\n\n## Names\n\nAdd **-s** with no apostrophe: *Annas bok, Sveriges huvudstad.*\n\n:::examples\n- Var är dina nycklar? — Where are your keys?\n- Vårt hus är gammalt. — Our house is old.\n- Lisa bor hos sina föräldrar. — Lisa lives with her parents.\n:::\n\n:::cloze{sentence=\"Peter lagar mat med ___ dotter i köket.\" blank=\"sin\"}\n:::\n\n:::cloze{sentence=\"Du har ett eget rum nu. Är det här ___ rum?\" blank=\"ditt\"}\n:::",
       "extras": {
         "unlocks": [
           "concept:sv-possessives"
@@ -363,7 +363,7 @@
       "primary_form": "jag",
       "gloss": "I",
       "extras": {
-        "note": "Said *ja*. After a verb or a preposition it's *mig*, said *mej*.",
+        "note": "Said *ja*. As the object of a verb or after a preposition it's *mig*, said *mej*.",
         "example": "Jag heter Sara och jag bor i Malmö.",
         "example_en": "I'm Sara and I live in Malmö."
       },
@@ -657,7 +657,7 @@
       "primary_form": "han",
       "gloss": "he",
       "extras": {
-        "note": "After a verb or a preposition it's *honom*: *Jag ser honom.*",
+        "note": "As the object of a verb or after a preposition it's *honom*: *Jag ser honom.*",
         "example": "Han arbetar på ett kafé.",
         "example_en": "He works at a café."
       },
@@ -821,7 +821,7 @@
       "primary_form": "hon",
       "gloss": "she",
       "extras": {
-        "note": "After a verb or a preposition it's *henne*.",
+        "note": "As the object of a verb or after a preposition it's *henne*.",
         "example": "Hon bor i Göteborg.",
         "example_en": "She lives in Gothenburg."
       },
@@ -920,7 +920,7 @@
       "primary_form": "tack",
       "gloss": "thanks, thank you; please",
       "extras": {
-        "note": "Swedish has no word for *please*. *Tack* covers it when you accept or ask for something: *En kaffe, tack.*",
+        "note": "Swedish has no everyday word for *please*. *Tack* covers it when you accept or ask for something: *En kaffe, tack.* *Snälla* is a pleading please: *Snälla, hjälp mig!*",
         "example": "Tack för hjälpen!",
         "example_en": "Thanks for your help!"
       },
@@ -1281,7 +1281,7 @@
       "primary_form": "vi",
       "gloss": "we",
       "extras": {
-        "note": "After a verb or a preposition it's *oss*.",
+        "note": "As the object of a verb or after a preposition it's *oss*.",
         "example": "Vi bor i Uppsala.",
         "example_en": "We live in Uppsala."
       },
@@ -1573,7 +1573,7 @@
       "primary_form": "de",
       "gloss": "they",
       "extras": {
-        "note": "Said *dom*. After a verb or a preposition it's *dem*, also said *dom*.",
+        "note": "Said *dom*. As the object of a verb or after a preposition it's *dem*, also said *dom*.",
         "example": "De kommer från Norge.",
         "example_en": "They're from Norway."
       },

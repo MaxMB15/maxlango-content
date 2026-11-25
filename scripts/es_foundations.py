@@ -58,7 +58,7 @@ Three rules cover every word:
 2. A word ending in any other consonant stresses the last syllable: *[hablar](lango:say)*, *[ciudad](lango:say)*, *[español](lango:say)*.
 3. A written accent breaks the rules and marks the stress: *[café](lango:say)*, *[árbol](lango:say)*, *[música](lango:say)*, *[canción](lango:say)*.
 
-So a written accent is never decoration. *[Papá](lango:say)* (dad) and *[papa](lango:say)* (potato) differ only in their stress.
+So a written accent is never decoration. *[Papá](lango:say)* (dad) and *[papa](lango:say)* (the pope) differ only in their stress.
 
 ## Accents that tell twins apart
 
@@ -117,7 +117,7 @@ The verb ending already says who is doing it, so Spanish drops the pronoun most 
 
 ## Tú or usted?
 
-**Usted** takes the verb form of *él* and *ella*: *¿Cómo está usted?* It comes from an old title, *vuestra merced* (your grace), which is why it's written *Ud.* in short.
+**Usted** takes the verb form of *él* and *ella*: *¿Cómo está usted?* It comes from an old title, *vuestra merced* (your grace), which is why it takes the third-person verb. In writing it's shortened to *Ud.* or *Vd.*
 
 Spain uses *tú* widely: with friends, colleagues, people of your own age and often shop staff. Keep *usted* for older people, officials and formal settings. When in doubt, start with *usted* and let the other person offer *tú*: *Puedes tutearme* (You can call me tú).
 
@@ -437,7 +437,7 @@ A Spanish adjective matches its noun in gender and number, and it usually comes 
 | --- | --- | --- |
 | -o | alto, altos | alta, altas |
 | -e | grande, grandes | grande, grandes |
-| consonant | azul, azules; fácil, fáciles | the same |
+| consonant | azul, azules; fácil, fáciles | the same (but -or adds -a: trabajadora) |
 | nationality | español, españoles | española, españolas |
 
 Nationality adjectives that end in a consonant add **-a** for the feminine: *inglés, inglesa*; *alemán, alemana*. Like days and months, they take no capital letter.
@@ -462,7 +462,7 @@ A few short, common adjectives can come before the noun, and some change there:
 - Mis abuelos son muy simpáticos. — My grandparents are very nice.
 :::
 
-:::cloze{sentence="Mis hermanas son muy ___." blank="altas"}
+:::cloze{sentence="Mis hermanas son muy ___ (alto)." blank="altas"}
 :::
 """,
         ["adjetivos"],
@@ -617,7 +617,7 @@ The easiest way to talk about the future is **ir a** + infinitive, just like Eng
 - Acabo de llegar a casa. — I've just got home.
 :::
 
-:::cloze{sentence="Esta noche ___ a cenar en casa de mis abuelos." blank="vamos"}
+:::cloze{sentence="Esta noche mi hermano y yo ___ a cenar en casa de mis abuelos." blank="vamos"}
 :::
 """,
         ["presente"],
@@ -823,7 +823,7 @@ restaurante | m | restaurant | city | | Conozco un restaurante muy bueno. | I kn
 estación | f | station | city | | ¿Dónde está la estación de tren? | Where's the train station?
 mercado | m | market | city | | Compro la fruta en el mercado. | I buy my fruit at the market.
 iglesia | f | church | city | | La iglesia es del siglo XII. | The church dates from the 12th century.
-museo | m | museum | city | | El museo del Prado está en Madrid. | The Prado museum is in Madrid.
+museo | m | museum | city | | El Museo del Prado está en Madrid. | The Prado museum is in Madrid.
 parque | m | park | city | | Los niños juegan en el parque. | The children are playing in the park.
 farmacia | f | pharmacy, chemist's | city | | ¿Hay una farmacia cerca de aquí? | Is there a pharmacy near here?
 hotel | m | hotel | city | | El hotel está cerca de la playa. | The hotel is near the beach.
@@ -1189,7 +1189,7 @@ LABELS = {
 
 PACK = pack(
     "es-foundations-v1",
-    1,
+    2,
     "es",
     "Español · Fundamentos (A1)",
     ITEMS,

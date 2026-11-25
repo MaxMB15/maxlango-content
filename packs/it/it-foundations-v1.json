@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "it-foundations-v1",
-  "version": 1,
+  "version": 2,
   "language": "it",
   "name": "Italiano · Fondamenta (A1)",
   "author": "Max Boksem",
@@ -131,7 +131,7 @@
       "kind": "misc",
       "id": "it-essere-avere",
       "title": "Essere, avere and c'è",
-      "body_md": "**Essere** (to be) and **avere** (to have) are the two most important verbs in Italian. Both are irregular, and both are also the helper verbs of the past tense, so you'll use them constantly.\n\n| | essere | avere |\n| --- | --- | --- |\n| io | sono | ho |\n| tu | sei | hai |\n| lui / lei / Lei | è | ha |\n| noi | siamo | abbiamo |\n| voi | siete | avete |\n| loro | sono | hanno |\n\nThe h of *ho*, *hai*, *ha* and *hanno* is silent. It's only there to tell *ho* (I have) from *o* (or), and *ha* (has) from *a* (to).\n\n## Where Italian says \"have\" and English says \"be\"\n\n| Italian | Literally | English |\n| --- | --- | --- |\n| ho fame | I have hunger | I'm hungry |\n| ho sete | I have thirst | I'm thirsty |\n| ho caldo / freddo | I have heat / cold | I'm hot / cold |\n| ho sonno | I have sleep | I'm sleepy |\n| ho paura | I have fear | I'm scared |\n| ho ragione / torto | I have reason / wrong | I'm right / wrong |\n| ho vent'anni | I have twenty years | I'm twenty |\n| ho bisogno di... | I have need of | I need... |\n\nSaying *sono vent'anni* for your age is the classic beginner mistake. It means nothing.\n\n## C'è and ci sono\n\n\"There is\" is **c'è** and \"there are\" is **ci sono**: *C'è un bar qui vicino?* (Is there a café near here?), *In frigo ci sono le uova* (There are eggs in the fridge).\n\nDon't drop the *ci*. *È un problema* means \"It's a problem\"; *C'è un problema* means \"There's a problem\".\n\n:::examples\n- Sono di Milano, e tu? — I'm from Milan, and you?\n- Abbiamo una casa al mare. — We have a house by the sea.\n- Ci sono due bagni nell'appartamento. — There are two bathrooms in the flat.\n:::\n\n:::cloze{sentence=\"Ho ___, mangiamo?\" blank=\"fame\"}\n:::",
+      "body_md": "**Essere** (to be) and **avere** (to have) are the two most important verbs in Italian. Both are irregular, and both are also the helper verbs of the past tense, so you'll use them constantly.\n\n| | essere | avere |\n| --- | --- | --- |\n| io | sono | ho |\n| tu | sei | hai |\n| lui / lei / Lei | è | ha |\n| noi | siamo | abbiamo |\n| voi | siete | avete |\n| loro | sono | hanno |\n\nThe h of *ho*, *hai*, *ha* and *hanno* is silent. It's only there to tell *ho* (I have) from *o* (or), and *ha* (has) from *a* (to).\n\n## Where Italian says \"have\" and English says \"be\"\n\n| Italian | Literally | English |\n| --- | --- | --- |\n| ho fame | I have hunger | I'm hungry |\n| ho sete | I have thirst | I'm thirsty |\n| ho caldo / freddo | I have heat / cold | I'm hot / cold |\n| ho sonno | I have sleep | I'm sleepy |\n| ho paura | I have fear | I'm scared |\n| ho ragione / torto | I have reason / wrong | I'm right / wrong |\n| ho vent'anni | I have twenty years | I'm twenty |\n| ho bisogno di... | I have need of | I need... |\n\nSaying *sono vent'anni* for your age is the classic beginner mistake. It means \"it's been twenty years\", not \"I'm twenty\".\n\n## C'è and ci sono\n\n\"There is\" is **c'è** and \"there are\" is **ci sono**: *C'è un bar qui vicino?* (Is there a café near here?), *In frigo ci sono le uova* (There are eggs in the fridge).\n\nDon't drop the *ci*. *È un problema* means \"It's a problem\"; *C'è un problema* means \"There's a problem\".\n\n:::examples\n- Sono di Milano, e tu? — I'm from Milan, and you?\n- Abbiamo una casa al mare. — We have a house by the sea.\n- Ci sono due bagni nell'appartamento. — There are two bathrooms in the flat.\n:::\n\n:::cloze{sentence=\"Ho ___, mangiamo?\" blank=\"fame\"}\n:::",
       "extras": {
         "unlocks": [
           "concept:it-essere-avere"
@@ -145,7 +145,7 @@
       "kind": "misc",
       "id": "it-present-tense",
       "title": "The present tense: -are, -ere, -ire",
-      "body_md": "Italian verbs fall into three groups by the ending of the infinitive. Learn the regular patterns and you can conjugate thousands of verbs.\n\n| | parlare | vendere | dormire | finire |\n| --- | --- | --- | --- | --- |\n| io | parlo | vendo | dormo | finisco |\n| tu | parli | vendi | dormi | finisci |\n| lui / lei | parla | vende | dorme | finisce |\n| noi | parliamo | vendiamo | dormiamo | finiamo |\n| voi | parlate | vendete | dormite | finite |\n| loro | parlano | vendono | dormono | finiscono |\n\n## -are verbs (parlare)\n\nThe biggest group, and nearly every new verb joins it. Remove **-are** and add **-o, -i, -a, -iamo, -ate, -ano**.\n\n## -ere verbs (vendere)\n\nRemove **-ere** and add **-o, -i, -e, -iamo, -ete, -ono**.\n\n## -ire verbs (dormire and finire)\n\nTwo kinds. A few, like *dormire*, *partire* and *aprire*, take **-o, -i, -e, -iamo, -ite, -ono**. Most, like *finire*, *capire* and *preferire*, slip **-isc-** in front of the ending in every form except noi and voi: *capisco*, *capisci*, but *capiamo*. Learn which kind each -ire verb is.\n\nWhatever the group, the noi form ends in **-iamo** and the io form in **-o**.\n\n:::examples\n- Parlo italiano e inglese. — I speak Italian and English.\n- Finiamo alle sei. — We finish at six.\n- Vende la sua macchina. — He's selling his car.\n- Mangi con noi stasera? — Are you eating with us tonight?\n:::\n\n## Spelling changes that keep the sound\n\n- Verbs in **-care** and **-gare** add an h before an i, so the c and g stay hard: *cercare*, *tu cerchi*, *noi cerchiamo*; *pagare*, *tu paghi*.\n- Verbs in **-ciare**, **-giare** and **-iare** never write two i's: *mangiare*, *tu mangi*, *noi mangiamo*; *studiare*, *tu studi*.\n\n## One tense for three English ones\n\n*Mangio* is \"I eat\", \"I'm eating\" and \"I do eat\". It also covers plans: *Domani parto* (I'm leaving tomorrow). To stress that something is going on at this very moment, Italian uses *stare* and the gerund: *Sto mangiando* (I'm eating right now).\n\n:::predict{prompt=\"tu (giocare)\" answer=\"giochi\"}\n:::",
+      "body_md": "Italian verbs fall into three groups by the ending of the infinitive. Learn the regular patterns and you can conjugate thousands of verbs.\n\n| | parlare | vendere | dormire | finire |\n| --- | --- | --- | --- | --- |\n| io | parlo | vendo | dormo | finisco |\n| tu | parli | vendi | dormi | finisci |\n| lui / lei | parla | vende | dorme | finisce |\n| noi | parliamo | vendiamo | dormiamo | finiamo |\n| voi | parlate | vendete | dormite | finite |\n| loro | parlano | vendono | dormono | finiscono |\n\n## -are verbs (parlare)\n\nThe biggest group, and nearly every new verb joins it. Remove **-are** and add **-o, -i, -a, -iamo, -ate, -ano**.\n\n## -ere verbs (vendere)\n\nRemove **-ere** and add **-o, -i, -e, -iamo, -ete, -ono**.\n\n## -ire verbs (dormire and finire)\n\nTwo kinds. A few, like *dormire*, *partire* and *aprire*, take **-o, -i, -e, -iamo, -ite, -ono**. Most, like *finire*, *capire* and *preferire*, slip **-isc-** in front of the ending in every form except noi and voi: *capisco*, *capisci*, but *capiamo*. Learn which kind each -ire verb is.\n\nWhatever the group, the noi form ends in **-iamo** and the io form in **-o**.\n\n:::examples\n- Parlo italiano e inglese. — I speak Italian and English.\n- Finiamo alle sei. — We finish at six.\n- Vende la sua macchina. — He's selling his car.\n- Mangi con noi stasera? — Are you eating with us tonight?\n:::\n\n## Spelling changes that keep the sound\n\n- Verbs in **-care** and **-gare** add an h before an i, so the c and g stay hard: *cercare*, *tu cerchi*, *noi cerchiamo*; *pagare*, *tu paghi*.\n- Verbs in **-ciare** and **-giare**, and most in **-iare**, don't write two i's: *mangiare*, *tu mangi*, *noi mangiamo*; *studiare*, *tu studi*. When the i is stressed in the io form, the tu form keeps both: *sciare*, *tu scii*; *inviare*, *tu invii*.\n\n## One tense for three English ones\n\n*Mangio* is \"I eat\", \"I'm eating\" and \"I do eat\". It also covers plans: *Domani parto* (I'm leaving tomorrow). To stress that something is going on at this very moment, Italian uses *stare* and the gerund: *Sto mangiando* (I'm eating right now).\n\n:::predict{prompt=\"tu (giocare)\" answer=\"giochi\"}\n:::",
       "extras": {
         "unlocks": [
           "concept:it-present-tense"
@@ -6429,7 +6429,7 @@
       "subtitle": "I'm fine, enjoy your meal, cheers, have a good day"
     },
     {
-      "title": "La famiglia allargata",
+      "title": "I parenti",
       "word_ids": [
         "figlio",
         "figlia",
@@ -6499,7 +6499,7 @@
       "subtitle": "Breakfast, lunch, dinner, meat, fish, coffee, tea"
     },
     {
-      "title": "Frutta e verdura",
+      "title": "Cibo e bevande",
       "word_ids": [
         "birra",
         "mela",

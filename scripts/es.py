@@ -68,7 +68,7 @@ So learn every noun with its article: **el libro**, **la mesa**, never the noun 
 # and leaves out the :::examples block the page itself shows.
 ARTICLES["extras"] = {
     "examples": ["El gato duerme en la silla.", "La ventana está abierta.", "El agua está fría."],
-    "cloze": [{"sentence": "___ perro come.", "blank": "El"}, {"sentence": "___ casas son grandes.", "blank": "Las"}],
+    "cloze": [{"sentence": "___ perro de Ana se llama Toby.", "blank": "El"}, {"sentence": "___ casas son grandes.", "blank": "Las"}],
     **ARTICLES["extras"],
 }
 
@@ -80,7 +80,7 @@ PAGES = [
         "es-plural",
         "Plurals: -s and -es",
         r"""
-The Spanish plural is easy to hear, because the final -s is always pronounced. The article changes too: *el gato*, *los gatos*; *la casa*, *las casas*.
+The Spanish plural is easy to hear, because the final -s is clearly pronounced in standard Spanish. The article changes too: *el gato*, *los gatos*; *la casa*, *las casas*.
 
 ## The endings
 
@@ -180,7 +180,7 @@ English can drop "that". Spanish can't drop *que*: *Creo **que** viene.* (I thin
 
 ## Porque, por qué and el porqué
 
-Three spellings, one sound:
+Three spellings, and the stress tells them apart. *Por qué* and *porqué* stress the *qué*; *porque* stresses the *por*:
 
 - **¿Por qué?** asks why: *¿Por qué no vienes?*
 - **Porque** answers: *Porque estoy cansado.*
@@ -402,6 +402,6 @@ aunque | although, even though | conj-subordinating | Aunque llueve, vamos a la 
 
 ITEMS = PAGES + interleave(NOUNS, VERBS, CONNECTIVES + CONJUNCTIONS)
 
-CORE = pack("es-core-v1", 1, "es", "Español · Lo esencial", ITEMS, DELTA)
+CORE = pack("es-core-v1", 2, "es", "Español · Lo esencial", ITEMS, DELTA)
 
 PACKS = [CORE, es_foundations.PACK, es_everyday.PACK, es_fluency.PACK]

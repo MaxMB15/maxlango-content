@@ -63,7 +63,7 @@ If the stem already ends in t or d, add nothing: *praten → gepraat*, *antwoord
 
 ## Strong verbs: ge- + changed stem + en
 
-Strong verbs change their vowel and end in **-en**. They have to be learned:
+Strong verbs end in **-en**, and many change their vowel too. The last row is irregular. They all have to be learned:
 
 | | | |
 | --- | --- | --- |
@@ -340,7 +340,7 @@ The modal verbs take an infinitive, and the infinitive goes to the **end** of th
 
 ## Moeten niet is not must not
 
-*Je moet niet...* means "you shouldn't" or "you don't have to", depending on context. "You must not" is **je mag niet**. English speakers get this backwards.
+*Je moet niet...* means "you shouldn't". "You don't have to" is **je hoeft niet te...**: *Je hoeft niet te komen.* "You must not" is **je mag niet**. English speakers get this backwards.
 
 ## The missing verb of motion
 
@@ -384,7 +384,7 @@ Right after the finite verb, or after the subject if the subject follows the ver
 - Ik heb me vergist. — I made a mistake.
 :::
 
-Reflexive verbs take **hebben** in the perfect, unlike French.
+Reflexive verbs almost always take **hebben** in the perfect, unlike French. *Zich rot schrikken* is a common exception: *ik ben me rot geschrokken* (I got a terrible fright).
 
 ## Fill in the pronoun
 
@@ -922,7 +922,7 @@ LABELS = {
 
 PACK = pack(
     "nl-everyday-v1",
-    9,
+    10,
     "nl",
     "Nederlands · Dagelijks (A2)",
     ITEMS,

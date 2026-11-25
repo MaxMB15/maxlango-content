@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "es-everyday-v1",
-  "version": 1,
+  "version": 2,
   "language": "es",
   "name": "Español · Día a día (A2)",
   "author": "Max Boksem",
@@ -62,7 +62,7 @@
     {
       "id": "weather",
       "kind": "topic",
-      "label": "Clima",
+      "label": "El tiempo",
       "labelGloss": "weather",
       "dependsOn": []
     },
@@ -229,7 +229,7 @@
       "kind": "misc",
       "id": "es-future",
       "title": "Comeré: the future",
-      "body_md": "The **futuro** adds one set of endings to the whole infinitive. The endings are the same for -ar, -er and -ir verbs.\n\n| | hablar | comer | vivir |\n| --- | --- | --- | --- |\n| yo | hablaré | comeré | viviré |\n| tú | hablarás | comerás | vivirás |\n| él, ella, usted | hablará | comerá | vivirá |\n| nosotros | hablaremos | comeremos | viviremos |\n| vosotros | hablaréis | comeréis | viviréis |\n| ellos, ellas, ustedes | hablarán | comerán | vivirán |\n\nEvery form except nosotros carries a written accent.\n\n## Irregular stems\n\nTwelve common verbs shorten or change the infinitive. The endings stay the same.\n\n| Verb | Stem | yo |\n| --- | --- | --- |\n| tener | tendr- | tendré |\n| poner | pondr- | pondré |\n| salir | saldr- | saldré |\n| venir | vendr- | vendré |\n| poder | podr- | podré |\n| saber | sabr- | sabré |\n| querer | querr- | querré |\n| haber | habr- | habrá (there will be) |\n| hacer | har- | haré |\n| decir | dir- | diré |\n\n## Ir a or the future?\n\nFor plans, conversation prefers *ir a* + infinitive: *Voy a cenar con Ana.* The future is for predictions, promises and more formal speech: *Mañana lloverá en el norte.* *Te lo devolveré, te lo prometo.*\n\n## Guessing about now\n\nThe future also says what is probably true at this moment: *—¿Dónde está Luis? —Estará en el trabajo.* (He's probably at work.) *¿Qué hora será?* (I wonder what time it is.)\n\n## After si\n\nAfter *si* (if), Spanish uses the present, as English does: *Si llueve, nos quedaremos en casa.* (If it rains, we'll stay at home.) After *cuando* about the future, Spanish needs the subjunctive, which comes in the B1 pack.\n\n:::examples\n- Mañana hará sol en todo el país. — Tomorrow it'll be sunny across the country.\n- El año que viene viviremos en Valencia. — Next year we'll live in Valencia.\n- ¿Vendrás a mi cumpleaños? — Will you come to my birthday?\n:::\n\n:::predict{prompt=\"nosotros (salir)\" answer=\"saldremos\"}\n:::\n\n:::predict{prompt=\"ellos (hacer)\" answer=\"harán\"}\n:::",
+      "body_md": "The **futuro** adds one set of endings to the whole infinitive. The endings are the same for -ar, -er and -ir verbs.\n\n| | hablar | comer | vivir |\n| --- | --- | --- | --- |\n| yo | hablaré | comeré | viviré |\n| tú | hablarás | comerás | vivirás |\n| él, ella, usted | hablará | comerá | vivirá |\n| nosotros | hablaremos | comeremos | viviremos |\n| vosotros | hablaréis | comeréis | viviréis |\n| ellos, ellas, ustedes | hablarán | comerán | vivirán |\n\nEvery form except nosotros carries a written accent.\n\n## Irregular stems\n\nThese ten common verbs shorten or change the infinitive. The endings stay the same.\n\n| Verb | Stem | yo |\n| --- | --- | --- |\n| tener | tendr- | tendré |\n| poner | pondr- | pondré |\n| salir | saldr- | saldré |\n| venir | vendr- | vendré |\n| poder | podr- | podré |\n| saber | sabr- | sabré |\n| querer | querr- | querré |\n| haber | habr- | habrá (there will be) |\n| hacer | har- | haré |\n| decir | dir- | diré |\n\n## Ir a or the future?\n\nFor plans, conversation prefers *ir a* + infinitive: *Voy a cenar con Ana.* The future is for predictions, promises and more formal speech: *Mañana lloverá en el norte.* *Te lo devolveré, te lo prometo.*\n\n## Guessing about now\n\nThe future also says what is probably true at this moment: *—¿Dónde está Luis? —Estará en el trabajo.* (He's probably at work.) *¿Qué hora será?* (I wonder what time it is.)\n\n## After si\n\nAfter *si* (if), Spanish uses the present, as English does: *Si llueve, nos quedaremos en casa.* (If it rains, we'll stay at home.) After *cuando* about the future, Spanish needs the subjunctive, which comes in the B1 pack.\n\n:::examples\n- Mañana hará sol en todo el país. — Tomorrow it'll be sunny across the country.\n- El año que viene viviremos en Valencia. — Next year we'll live in Valencia.\n- ¿Vendrás a mi cumpleaños? — Will you come to my birthday?\n:::\n\n:::predict{prompt=\"nosotros (salir)\" answer=\"saldremos\"}\n:::\n\n:::predict{prompt=\"ellos (hacer)\" answer=\"harán\"}\n:::",
       "extras": {
         "unlocks": [
           "concept:es-future"
@@ -5295,7 +5295,7 @@
       "gloss": "can I borrow it?",
       "extras": {
         "literal": "will you leave it to me?",
-        "example": "Qué libro tan interesante. ¿Me lo dejas?",
+        "example": "¡Qué libro tan interesante! ¿Me lo dejas?",
         "example_en": "What an interesting book. Can I borrow it?"
       },
       "tags": [

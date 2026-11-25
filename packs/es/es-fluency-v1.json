@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "es-fluency-v1",
-  "version": 1,
+  "version": 2,
   "language": "es",
   "name": "Español · Soltura (B1)",
   "author": "Max Boksem",
@@ -3595,7 +3595,7 @@
         "auxiliary": "haber",
         "participle": "propuesto",
         "example": "Os propongo un plan para el sábado.",
-        "example_en": "I've got a plan for Saturday for you all."
+        "example_en": "I'd like to suggest a plan for Saturday, everyone."
       },
       "tags": [
         "presente"

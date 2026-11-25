@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "nl-everyday-v1",
-  "version": 9,
+  "version": 10,
   "language": "nl",
   "name": "Nederlands · Dagelijks (A2)",
   "author": "Max Boksem",
@@ -148,7 +148,7 @@
       "kind": "misc",
       "id": "nl-perfect",
       "title": "The perfect tense",
-      "body_md": "The **voltooid tegenwoordige tijd** (perfectum) is the normal way to talk about the past in conversation: *ik heb gegeten* is \"I ate\" and \"I have eaten\".\n\nIt's **hebben** or **zijn** plus the **past participle**, and the participle goes to the end of the clause.\n\n:::examples\n- Ik heb gisteren pizza gegeten. — I ate pizza yesterday.\n- We zijn naar Gent gegaan. — We went to Ghent.\n- Heb je de film al gezien? — Have you seen the film yet?\n:::\n\n## Weak verbs: ge- + stem + t or d\n\nMost verbs are **weak**: **ge** + stem + **t** or **d**. Which one? Look at the last letter of the stem. If it's in **'t kofschip** (t, k, f, s, ch, p), use **t**. Otherwise use **d**.\n\n| Infinitive | Stem | Participle |\n| --- | --- | --- |\n| werken | werk | gewerkt |\n| maken | maak | gemaakt |\n| fietsen | fiets | gefietst |\n| wonen | woon | gewoond |\n| spelen | speel | gespeeld |\n\nUse the stem's sound in the infinitive: *leven → leef*, but v isn't in 't kofschip, so it's *geleefd*. *Reizen → gereisd* for the same reason.\n\nIf the stem already ends in t or d, add nothing: *praten → gepraat*, *antwoorden → geantwoord*.\n\n## Strong verbs: ge- + changed stem + en\n\nStrong verbs change their vowel and end in **-en**. They have to be learned:\n\n| | | |\n| --- | --- | --- |\n| eten → gegeten | drinken → gedronken | zien → gezien |\n| lezen → gelezen | schrijven → geschreven | nemen → genomen |\n| komen → gekomen | gaan → gegaan | doen → gedaan |\n| zijn → geweest | hebben → gehad | brengen → gebracht |\n\n## No ge- after be-, ge-, ver-, her-, ont-, er-\n\nThese prefixes are never stressed, and the participle doesn't add **ge**: *betalen → betaald*, *vertellen → verteld*, *gebruiken → gebruikt*, *ontmoeten → ontmoet*.\n\n:::predict{prompt=\"ik (werken)\" answer=\"heb gewerkt\"}\n:::",
+      "body_md": "The **voltooid tegenwoordige tijd** (perfectum) is the normal way to talk about the past in conversation: *ik heb gegeten* is \"I ate\" and \"I have eaten\".\n\nIt's **hebben** or **zijn** plus the **past participle**, and the participle goes to the end of the clause.\n\n:::examples\n- Ik heb gisteren pizza gegeten. — I ate pizza yesterday.\n- We zijn naar Gent gegaan. — We went to Ghent.\n- Heb je de film al gezien? — Have you seen the film yet?\n:::\n\n## Weak verbs: ge- + stem + t or d\n\nMost verbs are **weak**: **ge** + stem + **t** or **d**. Which one? Look at the last letter of the stem. If it's in **'t kofschip** (t, k, f, s, ch, p), use **t**. Otherwise use **d**.\n\n| Infinitive | Stem | Participle |\n| --- | --- | --- |\n| werken | werk | gewerkt |\n| maken | maak | gemaakt |\n| fietsen | fiets | gefietst |\n| wonen | woon | gewoond |\n| spelen | speel | gespeeld |\n\nUse the stem's sound in the infinitive: *leven → leef*, but v isn't in 't kofschip, so it's *geleefd*. *Reizen → gereisd* for the same reason.\n\nIf the stem already ends in t or d, add nothing: *praten → gepraat*, *antwoorden → geantwoord*.\n\n## Strong verbs: ge- + changed stem + en\n\nStrong verbs end in **-en**, and many change their vowel too. The last row is irregular. They all have to be learned:\n\n| | | |\n| --- | --- | --- |\n| eten → gegeten | drinken → gedronken | zien → gezien |\n| lezen → gelezen | schrijven → geschreven | nemen → genomen |\n| komen → gekomen | gaan → gegaan | doen → gedaan |\n| zijn → geweest | hebben → gehad | brengen → gebracht |\n\n## No ge- after be-, ge-, ver-, her-, ont-, er-\n\nThese prefixes are never stressed, and the participle doesn't add **ge**: *betalen → betaald*, *vertellen → verteld*, *gebruiken → gebruikt*, *ontmoeten → ontmoet*.\n\n:::predict{prompt=\"ik (werken)\" answer=\"heb gewerkt\"}\n:::",
       "extras": {
         "unlocks": [
           "concept:nl-perfect"
@@ -230,7 +230,7 @@
       "kind": "misc",
       "id": "nl-modal-verbs",
       "title": "Kunnen, willen, moeten, mogen",
-      "body_md": "The modal verbs take an infinitive, and the infinitive goes to the **end** of the clause.\n\n| | kunnen | willen | moeten | mogen | zullen |\n| --- | --- | --- | --- | --- | --- |\n| ik | kan | wil | moet | mag | zal |\n| jij | kunt / kan | wilt / wil | moet | mag | zult / zal |\n| hij | kan | wil | moet | mag | zal |\n| wij | kunnen | willen | moeten | mogen | zullen |\n\n:::examples\n- Ik kan morgen niet komen. — I can't come tomorrow.\n- Wil je iets drinken? — Would you like something to drink?\n- Je mag hier niet roken. — You're not allowed to smoke here.\n:::\n\n## Moeten niet is not must not\n\n*Je moet niet...* means \"you shouldn't\" or \"you don't have to\", depending on context. \"You must not\" is **je mag niet**. English speakers get this backwards.\n\n## The missing verb of motion\n\nDutch drops *gaan* after a modal when a direction makes it obvious:\n\n- *Ik moet naar huis.* (I have to go home.)\n- *Wil je mee?* (Do you want to come along?)\n- *Ik mag vanavond naar het feest.* (I'm allowed to go to the party tonight.)\n\n## Zullen\n\n*Zullen* makes the future (*ik zal het doen*, I'll do it) and suggestions: *Zullen we gaan?* (Shall we go?)",
+      "body_md": "The modal verbs take an infinitive, and the infinitive goes to the **end** of the clause.\n\n| | kunnen | willen | moeten | mogen | zullen |\n| --- | --- | --- | --- | --- | --- |\n| ik | kan | wil | moet | mag | zal |\n| jij | kunt / kan | wilt / wil | moet | mag | zult / zal |\n| hij | kan | wil | moet | mag | zal |\n| wij | kunnen | willen | moeten | mogen | zullen |\n\n:::examples\n- Ik kan morgen niet komen. — I can't come tomorrow.\n- Wil je iets drinken? — Would you like something to drink?\n- Je mag hier niet roken. — You're not allowed to smoke here.\n:::\n\n## Moeten niet is not must not\n\n*Je moet niet...* means \"you shouldn't\". \"You don't have to\" is **je hoeft niet te...**: *Je hoeft niet te komen.* \"You must not\" is **je mag niet**. English speakers get this backwards.\n\n## The missing verb of motion\n\nDutch drops *gaan* after a modal when a direction makes it obvious:\n\n- *Ik moet naar huis.* (I have to go home.)\n- *Wil je mee?* (Do you want to come along?)\n- *Ik mag vanavond naar het feest.* (I'm allowed to go to the party tonight.)\n\n## Zullen\n\n*Zullen* makes the future (*ik zal het doen*, I'll do it) and suggestions: *Zullen we gaan?* (Shall we go?)",
       "extras": {
         "unlocks": [
           "concept:nl-modal-verbs"
@@ -244,7 +244,7 @@
       "kind": "misc",
       "id": "nl-reflexive-verbs",
       "title": "Reflexive verbs: zich",
-      "body_md": "Some Dutch verbs always come with a reflexive pronoun. Their English equivalents often don't: *zich vergissen* (to be mistaken), *zich herinneren* (to remember), *zich haasten* (to hurry).\n\n| | zich vergissen |\n| --- | --- |\n| ik | vergis me |\n| jij | vergist je |\n| hij / zij | vergist zich |\n| wij | vergissen ons |\n| jullie | vergissen je |\n| zij | vergissen zich |\n\n*U* takes **zich** or **u**: *u vergist zich*.\n\n## Where the pronoun goes\n\nRight after the finite verb, or after the subject if the subject follows the verb:\n\n:::examples\n- Ik voel me niet lekker. — I don't feel well.\n- Herinner je je die dag? — Do you remember that day?\n- Ik heb me vergist. — I made a mistake.\n:::\n\nReflexive verbs take **hebben** in the perfect, unlike French.\n\n## Fill in the pronoun\n\n:::cloze{sentence=\"Mijn broer heeft ___ in de datum vergist.\" blank=\"zich\"}\n:::\n\n:::cloze{sentence=\"Wij vervelen ___ nooit op vakantie.\" blank=\"ons\"}\n:::\n\n:::cloze{sentence=\"Herinner jij ___ onze eerste les nog?\" blank=\"je\"}\n:::\n\n:::cloze{sentence=\"De kinderen moeten ___ haasten, de bus vertrekt zo.\" blank=\"zich\"}\n:::",
+      "body_md": "Some Dutch verbs always come with a reflexive pronoun. Their English equivalents often don't: *zich vergissen* (to be mistaken), *zich herinneren* (to remember), *zich haasten* (to hurry).\n\n| | zich vergissen |\n| --- | --- |\n| ik | vergis me |\n| jij | vergist je |\n| hij / zij | vergist zich |\n| wij | vergissen ons |\n| jullie | vergissen je |\n| zij | vergissen zich |\n\n*U* takes **zich** or **u**: *u vergist zich*.\n\n## Where the pronoun goes\n\nRight after the finite verb, or after the subject if the subject follows the verb:\n\n:::examples\n- Ik voel me niet lekker. — I don't feel well.\n- Herinner je je die dag? — Do you remember that day?\n- Ik heb me vergist. — I made a mistake.\n:::\n\nReflexive verbs almost always take **hebben** in the perfect, unlike French. *Zich rot schrikken* is a common exception: *ik ben me rot geschrokken* (I got a terrible fright).\n\n## Fill in the pronoun\n\n:::cloze{sentence=\"Mijn broer heeft ___ in de datum vergist.\" blank=\"zich\"}\n:::\n\n:::cloze{sentence=\"Wij vervelen ___ nooit op vakantie.\" blank=\"ons\"}\n:::\n\n:::cloze{sentence=\"Herinner jij ___ onze eerste les nog?\" blank=\"je\"}\n:::\n\n:::cloze{sentence=\"De kinderen moeten ___ haasten, de bus vertrekt zo.\" blank=\"zich\"}\n:::",
       "extras": {
         "unlocks": [
           "concept:nl-reflexive-verbs"
@@ -4807,7 +4807,7 @@
   ],
   "units": [
     {
-      "title": "Werkwoorden van beweging",
+      "title": "Beweging en verandering",
       "word_ids": [
         "vallen",
         "worden",
@@ -4817,7 +4817,7 @@
         "vliegen"
       ],
       "page_id": "nl-perfect",
-      "subtitle": "To fall, leave, travel, drive and fly"
+      "subtitle": "To fall, become, leave, travel, drive and fly"
     },
     {
       "title": "Brengen en krijgen",

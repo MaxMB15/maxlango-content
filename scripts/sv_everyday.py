@@ -45,7 +45,7 @@ The perfect (*perfekt*) is **har** plus a verb form called the **supine** (*supi
 | Group | Infinitive | Supine | Rule |
 | --- | --- | --- | --- |
 | 1 | arbeta, tala | arbetat, talat | add -t |
-| 2 | köpa, stänga | köpt, stängt | drop -a, add -t |
+| 2 | köpa, stänga | köpt, stängt | drop -a, add -t (but glömma → glömt, använda → använt) |
 | 3 | bo, tro | bott, trott | add -tt |
 | 4 | skriva, dricka | skrivit, druckit | strong verbs: -it, often with a new vowel |
 
@@ -53,7 +53,7 @@ Every verb card shows the supine in its perfect tense.
 
 ## Supine or participle?
 
-The supine is only ever used after *har* or *hade*. To describe a state, Swedish uses another form, the participle, which agrees like an adjective:
+The supine is only ever used with *ha*: after *har*, *hade* or the infinitive *ha* (*kan ha glömt*). To describe a state, Swedish uses another form, the participle, which agrees like an adjective:
 
 - *Jag har stängt dörren.* (I've closed the door.) But: *Dörren är stängd.* (The door is closed.)
 - *Hon har skrivit ett brev.* (She has written a letter.) But: *Brevet är skrivet.* (The letter is written.)
@@ -117,7 +117,7 @@ Use the past tense when you say, or mean, *when*: a finished time in the past.
 | Förra året bodde vi i Malmö. | Vi har bott i Malmö. |
 | Filmen började klockan åtta. | Filmen har börjat. |
 
-A question with **när** always takes the past: *När kom du hem?*, never *När har du kommit hem?*
+A question with **när** about the past always takes the past tense: *När kom du hem?*, never *När har du kommit hem?*
 
 ## Where Swedish uses the past and English doesn't
 
@@ -284,7 +284,7 @@ Leave out the pronoun and the meaning often changes: *Hon lär mig svenska* mean
 
 ## Word order
 
-The pronoun comes straight after the verb, or after the subject when the subject follows the verb. *Inte* comes after the pronoun:
+The pronoun comes straight after the verb, or after the subject when the subject follows the verb. In a main clause, *inte* comes after the pronoun (in a bisats it goes before the verb: *eftersom han inte känner sig bra*):
 
 - *Nu sätter jag mig.*
 - *Han känner sig inte bra.* (He doesn't feel well.)
@@ -330,7 +330,7 @@ Stress the small word and it's a particle verb. Stress the verb and the small wo
 
 ## Where the particle goes
 
-Unlike Dutch and German, Swedish doesn't send the particle to the end of the sentence or glue it to the front of a finite verb. It follows the verb, with *inte* and other short adverbs in between:
+Unlike Dutch and German, Swedish doesn't send the particle to the end of the sentence or glue it to the front of a finite verb. It follows the verb. In a main clause, *inte* and other short adverbs come in between (in a bisats they go before the verb: *om du inte kommer ihåg*):
 
 - *Jag kommer inte ihåg hans namn.* (I can't remember his name.)
 
@@ -808,7 +808,7 @@ VERBS = [
          example="Jag träffade min fru på universitetet.", example_en="I met my wife at university."),
     verb("byta", "to change, to swap", [], group="2b",
          example="Vi måste byta tåg i Hallsberg.", example_en="We have to change trains in Hallsberg."),
-    verb("låna", "to borrow; to lend", [], group="1",
+    verb("låna", "to borrow (låna ut: to lend)", [], group="1",
          example="Kan jag låna din penna?", example_en="Can I borrow your pen?"),
     verb("visa", "to show", [], group="1",
          example="Kan du visa mig vägen?", example_en="Can you show me the way?"),
@@ -1031,7 +1031,7 @@ LABELS = {
 
 PACK = pack(
     "sv-everyday-v1",
-    1,
+    2,
     "sv",
     "Svenska · Vardag (A2)",
     ITEMS,

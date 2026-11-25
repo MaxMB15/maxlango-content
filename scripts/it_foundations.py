@@ -146,7 +146,7 @@ The h of *ho*, *hai*, *ha* and *hanno* is silent. It's only there to tell *ho* (
 | ho vent'anni | I have twenty years | I'm twenty |
 | ho bisogno di... | I have need of | I need... |
 
-Saying *sono vent'anni* for your age is the classic beginner mistake. It means nothing.
+Saying *sono vent'anni* for your age is the classic beginner mistake. It means "it's been twenty years", not "I'm twenty".
 
 ## C'è and ci sono
 
@@ -205,7 +205,7 @@ Whatever the group, the noi form ends in **-iamo** and the io form in **-o**.
 ## Spelling changes that keep the sound
 
 - Verbs in **-care** and **-gare** add an h before an i, so the c and g stay hard: *cercare*, *tu cerchi*, *noi cerchiamo*; *pagare*, *tu paghi*.
-- Verbs in **-ciare**, **-giare** and **-iare** never write two i's: *mangiare*, *tu mangi*, *noi mangiamo*; *studiare*, *tu studi*.
+- Verbs in **-ciare** and **-giare**, and most in **-iare**, don't write two i's: *mangiare*, *tu mangi*, *noi mangiamo*; *studiare*, *tu studi*. When the i is stressed in the io form, the tu form keeps both: *sciare*, *tu scii*; *inviare*, *tu invii*.
 
 ## One tense for three English ones
 
@@ -1032,7 +1032,7 @@ LABELS = {
 
 PACK = pack(
     "it-foundations-v1",
-    1,
+    2,
     "it",
     "Italiano · Fondamenta (A1)",
     ITEMS,

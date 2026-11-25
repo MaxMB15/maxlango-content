@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "nl-fluency-v1",
-  "version": 6,
+  "version": 7,
   "language": "nl",
   "name": "Nederlands · Vloeiend (B1)",
   "author": "Max Boksem",
@@ -70,7 +70,7 @@
       "kind": "misc",
       "id": "nl-subordinate-clauses",
       "title": "Omdat sends the verb to the end",
-      "body_md": "In a **subordinate clause**, every verb goes to the **end**. The clause starts with a subordinating conjunction (*omdat, dat, als, toen, hoewel, terwijl, of*) or a relative pronoun.\n\n| Main clause | Subordinate clause |\n| --- | --- |\n| Ik ben moe. | ...omdat ik moe **ben**. |\n| Hij komt morgen. | Ik denk dat hij morgen **komt**. |\n| Ik bel je op. | ...als ik je **opbel**. |\n\nSeparable verbs join back together at the end: *opbel*.\n\n## Want or omdat?\n\nBoth mean \"because\". **Want** is coordinating and keeps normal word order. **Omdat** is subordinating and sends the verb to the end.\n\n:::examples\n- Ik blijf thuis, want ik ben ziek. — I'm staying home, because I'm ill.\n- Ik blijf thuis omdat ik ziek ben. — I'm staying home because I'm ill.\n:::\n\nThe coordinating conjunctions are few: **en, maar, of, want, dus** (when it means \"so\"). Everything else sends the verb to the end.\n\n## Verb clusters\n\nWith two or more verbs at the end, the order is flexible. The finite verb can go first or last:\n\n- *...omdat ik het **heb gedaan**.* / *...omdat ik het **gedaan heb**.*\n- *...omdat ik morgen **moet werken**.* / *...omdat ik morgen **werken moet**.*\n\nThe Netherlands and Flanders lean different ways. Both are correct.\n\n## A subordinate clause first\n\nWhen the subordinate clause comes first, it counts as the first element of the main clause, so the main verb comes straight after: *Omdat ik ziek ben, **blijf** ik thuis.* Verb, comma, verb.\n\n:::examples\n- Ik denk dat het morgen gaat regenen. — I think it's going to rain tomorrow.\n- Als je tijd hebt, kun je me helpen. — If you have time, you can help me.\n- Hoewel het koud was, gingen we zwemmen. — Although it was cold, we went swimming.\n:::",
+      "body_md": "In a **subordinate clause**, every verb goes to the **end**. The clause starts with a subordinating conjunction (*omdat, dat, als, toen, hoewel, terwijl, of*) or a relative pronoun.\n\n| Main clause | Subordinate clause |\n| --- | --- |\n| Ik ben moe. | ...omdat ik moe **ben**. |\n| Hij komt morgen. | Ik denk dat hij morgen **komt**. |\n| Ik bel je op. | ...als ik je **opbel**. |\n\nSeparable verbs join back together at the end: *opbel*.\n\n## Want or omdat?\n\nBoth mean \"because\". **Want** is coordinating and keeps normal word order. **Omdat** is subordinating and sends the verb to the end.\n\n:::examples\n- Ik blijf thuis, want ik ben ziek. — I'm staying home, because I'm ill.\n- Ik blijf thuis omdat ik ziek ben. — I'm staying home because I'm ill.\n:::\n\nThe coordinating conjunctions are few: **en, maar, of** (when it means \"or\"), **want** and **dus**. *Dus* can also act as an adverb, with the verb straight after it: *dus blijven we thuis*. Every other conjunction sends the verb to the end.\n\n## Verb clusters\n\nWith two verbs at the end, the order is often flexible. The finite verb can go first or last:\n\n- *...omdat ik het **heb gedaan**.* / *...omdat ik het **gedaan heb**.*\n- *...omdat ik morgen **moet werken**.* (*werken moet* is possible, but much less common.)\n\nThe Netherlands and Flanders lean different ways. Both are correct.\n\n## A subordinate clause first\n\nWhen the subordinate clause comes first, it counts as the first element of the main clause, so the main verb comes straight after: *Omdat ik ziek ben, **blijf** ik thuis.* Verb, comma, verb.\n\n:::examples\n- Ik denk dat het morgen gaat regenen. — I think it's going to rain tomorrow.\n- Als je tijd hebt, kun je me helpen. — If you have time, you can help me.\n- Hoewel het koud was, gingen we zwemmen. — Although it was cold, we went swimming.\n:::",
       "extras": {
         "unlocks": [
           "concept:nl-subordinate-clauses"
@@ -971,9 +971,9 @@
       "kind": "verb",
       "id": "veranderen",
       "primary_form": "veranderen",
-      "gloss": "to change",
+      "gloss": "to change, become different",
       "extras": {
-        "auxiliary": "hebben",
+        "auxiliary": "zijn",
         "participle": "veranderd",
         "past": "veranderde / veranderden",
         "example": "Er is veel veranderd.",
@@ -992,12 +992,12 @@
           "3p": "veranderen"
         },
         "voltooid-tegenwoordige-tijd": {
-          "1s": "heb veranderd",
-          "2s": "hebt veranderd",
-          "3s": "heeft veranderd",
-          "1p": "hebben veranderd",
-          "2p": "hebben veranderd",
-          "3p": "hebben veranderd"
+          "1s": "ben veranderd",
+          "2s": "bent veranderd",
+          "3s": "is veranderd",
+          "1p": "zijn veranderd",
+          "2p": "zijn veranderd",
+          "3p": "zijn veranderd"
         },
         "onvoltooid-verleden-tijd": {
           "1s": "veranderde",
@@ -1876,7 +1876,7 @@
     },
     {
       "kind": "phrase",
-      "id": "succes",
+      "id": "succes-phrase",
       "primary_form": "succes!",
       "gloss": "good luck!",
       "tags": [
@@ -2664,7 +2664,7 @@
       "extras": {
         "role": "conj-subordinating",
         "example": "Sinds ik hier woon, fiets ik elke dag.",
-        "example_en": "Since I've lived here, I cycle every day."
+        "example_en": "Since I've lived here, I've cycled every day."
       },
       "tags": [
         "voegwoorden"

@@ -123,7 +123,7 @@ The **congiuntivo imperfetto** is easy to form: the imperfetto stem plus **-ssi,
 
 Newspapers use the condizionale for facts they can't confirm: *Secondo i giornali, il ministro sarebbe in ospedale* (According to the papers, the minister is reportedly in hospital).
 
-:::cloze{sentence="Se fossi in te, ___ più attento." blank="starei"}
+:::cloze{sentence="Se ___ in te, starei più attento." blank="fossi"}
 :::
 """,
         ["condizionale"],
@@ -355,7 +355,7 @@ All three take the congiuntivo:
 
 **Appena** takes the indicative. For a future event, careful Italian puts both verbs in the future: *Appena avrò i risultati, ti scriverò.* In speech the present is just as common: *Appena ho i risultati, ti scrivo.*
 
-:::cloze{sentence="Ti presto la macchina, purché tu ___ attento." blank="sia"}
+:::cloze{sentence="Ti presto la macchina, purché tu ___ la patente." blank="abbia"}
 :::
 """,
         ["congiunzioni", "congiuntivo"],
@@ -618,7 +618,7 @@ del resto | after all, besides | conn-addition | Non preoccuparti, del resto non
 per di più | what's more | conn-addition | La casa è piccola e per di più è cara. | The house is small, and what's more it's expensive.
 perciò | so, therefore | conn-consequence | Ho perso il treno, perciò sono arrivato tardi. | I missed the train, so I arrived late.
 così | so, that way | conn-consequence | Parto presto, così evito il traffico. | I'm leaving early; that way I'll avoid the traffic.
-in effetti | indeed, as a matter of fact | conn-cause | Sei stanco? In effetti ho dormito poco stanotte. | You're tired? Well, I did sleep badly last night.
+in effetti | indeed, as a matter of fact | conn-cause | Sei stanco? In effetti ho dormito poco stanotte. | You're tired? Well, I didn't get much sleep last night.
 finalmente | at last | conn-sequence | Dopo tre ore di viaggio, finalmente siamo arrivati. | After three hours on the road, we're here at last.
 """,
     ["connettivi"],
@@ -737,7 +737,7 @@ LABELS = {
 
 PACK = pack(
     "it-fluency-v1",
-    1,
+    2,
     "it",
     "Italiano · Scioltezza (B1)",
     ITEMS,

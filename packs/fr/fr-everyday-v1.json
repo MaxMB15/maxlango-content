@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "fr-everyday-v1",
-  "version": 6,
+  "version": 7,
   "language": "fr",
   "name": "Français · Au quotidien (A2)",
   "author": "Max Boksem",
@@ -186,7 +186,7 @@
       "kind": "misc",
       "id": "fr-object-pronouns",
       "title": "Le, lui, y, en: object pronouns",
-      "body_md": "French object pronouns go **before the verb**, which is the opposite of English. *I see him* is *je **le** vois*.\n\n## Direct objects: le, la, les\n\nReplace a noun that follows the verb directly.\n\n:::examples\n- Je vois Paul. → Je le vois. — I see him.\n- Tu prends la voiture ? → Tu la prends ? — Are you taking it?\n- Il aime les chats. → Il les aime. — He likes them.\n:::\n\n## Indirect objects: lui, leur\n\nReplace **à + a person**. *Lui* is both \"to him\" and \"to her\".\n\n:::examples\n- Je parle à Marie. → Je lui parle. — I talk to her.\n- Je téléphone à mes parents. → Je leur téléphone. — I phone them.\n:::\n\n**Me, te, nous, vous** are both direct and indirect: *Il me voit*, *Il me parle*.\n\n## Y and en\n\nThese two have no English equivalent.\n\n- **y** replaces **à + a place or thing**: *Tu vas à Paris ? Oui, j'y vais.* (Yes, I'm going there.)\n- **en** replaces **de + something**, including quantities and partitives: *Tu veux du café ? Oui, j'en veux.* (Yes, I want some.) *J'ai trois frères, j'en ai trois.*\n\n*Il y a* (there is) and *Je m'en vais* (I'm leaving) are fixed expressions that use them.\n\n## Order when there are two\n\nme / te / se / nous / vous → le / la / les → lui / leur → y → en\n\n*Il me le donne.* (He gives it to me.) *Je la lui donne.* (I give it to him.) *Il y en a.* (There are some.)\n\n## With an infinitive\n\nThe pronoun goes before the verb it belongs to: *Je vais le faire.* *Je peux t'aider.*",
+      "body_md": "French object pronouns go **before the verb**, which is the opposite of English. *I see him* is *je **le** vois*. In a positive command they go after it, joined by a hyphen: *Prends-le*. *Me* becomes *moi* there: *Dis-moi*.\n\n## Direct objects: le, la, les\n\nReplace a noun that follows the verb directly.\n\n:::examples\n- Je vois Paul. → Je le vois. — I see him.\n- Tu prends la voiture ? → Tu la prends ? — Are you taking it?\n- Il aime les chats. → Il les aime. — He likes them.\n:::\n\n## Indirect objects: lui, leur\n\nReplace **à + a person**. *Lui* is both \"to him\" and \"to her\".\n\n:::examples\n- Je parle à Marie. → Je lui parle. — I talk to her.\n- Je téléphone à mes parents. → Je leur téléphone. — I phone them.\n:::\n\n**Me, te, nous, vous** are both direct and indirect: *Il me voit*, *Il me parle*.\n\n## Y and en\n\nThese two have no English equivalent.\n\n- **y** replaces **à + a place or thing**: *Tu vas à Paris ? Oui, j'y vais.* (Yes, I'm going there.)\n- **en** replaces **de + something**, including quantities and partitives: *Tu veux du café ? Oui, j'en veux.* (Yes, I want some.) *J'ai trois frères, j'en ai trois.*\n\n*Il y a* (there is) and *Je m'en vais* (I'm leaving) are fixed expressions that use them.\n\n## Order when there are two\n\nme / te / se / nous / vous → le / la / les → lui / leur → y → en\n\n*Il me le donne.* (He gives it to me.) *Je la lui donne.* (I give it to him.) *Il y en a.* (There are some.)\n\n## With an infinitive\n\nThe pronoun goes before the verb it belongs to: *Je vais le faire.* *Je peux t'aider.*",
       "extras": {
         "unlocks": [
           "concept:fr-object-pronouns"
@@ -203,7 +203,7 @@
       "kind": "misc",
       "id": "fr-futur-simple",
       "title": "The futur simple",
-      "body_md": "The **futur simple** says what will happen. It's more planned, formal or certain than *aller + infinitive*, and it's the tense for promises and predictions.\n\nTake the **infinitive** (drop the final **-e** of -re verbs) and add the endings of *avoir*: **-ai, -as, -a, -ons, -ez, -ont**.\n\n| | parler | prendre |\n| --- | --- | --- |\n| je | parlerai | prendrai |\n| tu | parleras | prendras |\n| il | parlera | prendra |\n| nous | parlerons | prendrons |\n| vous | parlerez | prendrez |\n| ils | parleront | prendront |\n\n## Irregular stems\n\nThe endings never change; only the stem does. These are worth learning as a list:\n\n| | | |\n| --- | --- | --- |\n| être → ser- | avoir → aur- | aller → ir- |\n| faire → fer- | venir → viendr- | voir → verr- |\n| pouvoir → pourr- | vouloir → voudr- | savoir → saur- |\n| devoir → devr- | envoyer → enverr- | il faut → il faudra |\n\n## Quand + future\n\nAfter **quand** and **dès que**, French uses the future where English uses the present: *Quand je serai grand, je serai pilote.* (When I grow up, I'll be a pilot.)\n\n:::examples\n- Demain, il fera beau. — Tomorrow the weather will be nice.\n- Je t'appellerai ce soir. — I'll call you tonight.\n- Quand je serai à Paris, je visiterai le Louvre. — When I'm in Paris, I'll visit the Louvre.\n:::",
+      "body_md": "The **futur simple** says what will happen. It's more formal than *aller + infinitive*, and it often feels further off or less settled. It's the tense for promises and predictions.\n\nTake the **infinitive** (drop the final **-e** of -re verbs) and add the endings of *avoir*: **-ai, -as, -a, -ons, -ez, -ont**.\n\n| | parler | prendre |\n| --- | --- | --- |\n| je | parlerai | prendrai |\n| tu | parleras | prendras |\n| il | parlera | prendra |\n| nous | parlerons | prendrons |\n| vous | parlerez | prendrez |\n| ils | parleront | prendront |\n\n## Irregular stems\n\nThe endings never change; only the stem does. These are worth learning as a list:\n\n| | | |\n| --- | --- | --- |\n| être → ser- | avoir → aur- | aller → ir- |\n| faire → fer- | venir → viendr- | voir → verr- |\n| pouvoir → pourr- | vouloir → voudr- | savoir → saur- |\n| devoir → devr- | envoyer → enverr- | il faut → il faudra |\n\n## Quand + future\n\nAfter **quand** and **dès que**, French uses the future where English uses the present: *Quand je serai grand, je serai pilote.* (When I grow up, I'll be a pilot.)\n\n:::examples\n- Demain, il fera beau. — Tomorrow the weather will be nice.\n- Je t'appellerai ce soir. — I'll call you tonight.\n- Quand je serai à Paris, je visiterai le Louvre. — When I'm in Paris, I'll visit the Louvre.\n:::",
       "extras": {
         "unlocks": [
           "concept:fr-futur-simple"
@@ -234,7 +234,7 @@
       "kind": "misc",
       "id": "fr-time-expressions",
       "title": "Depuis, il y a, pendant",
-      "body_md": "English uses the present perfect for something that started in the past and is still going on: *I have lived here for three years*. French uses the **present tense** with **depuis**.\n\n:::examples\n- J'habite ici depuis trois ans. — I've lived here for three years.\n- Je t'attends depuis une heure ! — I've been waiting for you for an hour!\n- Depuis quand tu apprends le français ? — How long have you been learning French?\n:::\n\nSaying *j'ai habité ici depuis trois ans* is a very common mistake. It's wrong.\n\n## The other time words\n\n| Word | Meaning | Example |\n| --- | --- | --- |\n| il y a | ago | Je suis arrivé il y a deux jours. |\n| pendant | for, during (a finished period) | J'ai dormi pendant huit heures. |\n| dans | in (from now) | Le train part dans dix minutes. |\n| en | in (time it takes) | J'ai fait le trajet en deux heures. |\n\n*Dans dix minutes* is when something will start. *En dix minutes* is how long it takes.",
+      "body_md": "English uses the present perfect for something that started in the past and is still going on: *I have lived here for three years*. French uses the **present tense** with **depuis**.\n\n:::examples\n- J'habite ici depuis trois ans. — I've lived here for three years.\n- Je t'attends depuis une heure ! — I've been waiting for you for an hour!\n- Depuis quand tu apprends le français ? — How long have you been learning French?\n:::\n\nSaying *j'ai habité ici depuis trois ans* is a very common mistake. It's wrong.\n\n## The other time words\n\n| Word | Meaning | Example |\n| --- | --- | --- |\n| il y a | ago | Je suis arrivé il y a deux jours. |\n| pendant | for, during (a length of time) | J'ai dormi pendant huit heures. |\n| dans | in (from now) | Le train part dans dix minutes. |\n| en | in (time it takes) | J'ai fait le trajet en deux heures. |\n\n*Dans dix minutes* is when something will start. *En dix minutes* is how long it takes.",
       "extras": {
         "unlocks": [
           "concept:fr-time-expressions"
@@ -3112,7 +3112,7 @@
         "auxiliary": "avoir",
         "participle": "connu",
         "example": "J'ai connu Marie à l'université.",
-        "example_en": "I met Marie at university."
+        "example_en": "I got to know Marie at university."
       },
       "tags": [
         "présent"
@@ -3872,8 +3872,8 @@
           "fp": "longues"
         },
         "position": "before the noun",
-        "example": "Elle a les cheveux longs.",
-        "example_en": "She has long hair."
+        "example": "C'est une longue histoire.",
+        "example_en": "It's a long story."
       },
       "tags": [
         "adjectifs"
@@ -6036,7 +6036,7 @@
       "subtitle": "Knife, spoon, plate, glass and bottle"
     },
     {
-      "title": "Mots de liaison",
+      "title": "Mots de liaison et adjectifs",
       "word_ids": [
         "alors",
         "par-consequent",

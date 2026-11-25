@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "nl-core-v1",
-  "version": 8,
+  "version": 9,
   "language": "nl",
   "name": "Nederlands Kern",
   "author": "Max Boksem",
@@ -77,7 +77,7 @@
     {
       "id": "objects",
       "kind": "topic",
-      "label": "Objecten",
+      "label": "Voorwerpen",
       "labelGloss": "objects",
       "dependsOn": [
         "lidwoorden"
@@ -591,7 +591,7 @@
       "kind": "connective",
       "id": "namelijk",
       "primary_form": "namelijk",
-      "gloss": "you see, as it happens",
+      "gloss": "you see, because; namely",
       "extras": {
         "role": "conn-cause",
         "example": "Ik blijf thuis, ik ben namelijk ziek.",
@@ -689,7 +689,7 @@
       "kind": "misc",
       "id": "nl-de-het-words",
       "title": "De-words and het-words",
-      "body_md": "Most nouns you have to learn with their article. Some groups of nouns, though, always or nearly always take the same one, and knowing them saves a lot of guessing.\n\n## Always het\n\n- **Diminutives**: *het huisje*, *het meisje*, *het kopje*. Even *de tafel* becomes *het tafeltje*.\n- **Infinitives used as nouns**: *het eten* (food), *het leven* (life), *het lezen* (reading).\n- **Languages**: *het Nederlands*, *het Engels*.\n\n## Usually het\n\n- Words ending in **-isme** or **-ment**: *het toerisme*, *het appartement*, *het moment*.\n- Words ending in **-um**: *het museum*, *het centrum*. *De datum* is the exception you'll meet.\n- Words starting with an unstressed **ge-**, **be-**, **ver-** or **ont-**: *het gesprek*, *het begin*, *het verhaal*, *het ontbijt*.\n- Metals: *het goud*, *het zilver*, *het ijzer*.\n\n## Always de\n\n- **Plurals**: *de huizen*, *de kinderen*.\n- Words ending in **-heid**, **-tie** or **-teit**: *de vrijheid*, *de informatie*, *de universiteit*.\n- Nouns made from a verb with **-ing**: *wonen*, *de woning*; *oefenen*, *de oefening*.\n\n## Usually de\n\nWords for people: *de man*, *de vrouw*, *de leraar*. *Het kind* is the big exception, and *het meisje* is a diminutive.\n\n## Compounds\n\nA compound takes the article of its last part: *de deur*, so *de voordeur*; *het huis*, so *het ziekenhuis*.\n\nIf a noun fits none of these, guess **de**. You'll be right about three times in four.\n\n:::examples\n- Het meisje drinkt een kopje thee. — The girl is drinking a cup of tea.\n- Het eten is klaar. — Dinner's ready.\n- De vergadering begint om negen uur. — The meeting starts at nine.\n- Het ziekenhuis ligt naast het station. — The hospital is next to the station.\n:::",
+      "body_md": "Most nouns you have to learn with their article. Some groups of nouns, though, always or nearly always take the same one, and knowing them saves a lot of guessing.\n\n## Always het\n\n- **Diminutives**: *het huisje*, *het meisje*, *het kopje*. Even *de tafel* becomes *het tafeltje*.\n- **Infinitives used as nouns**: *het eten* (food), *het leven* (life), *het lezen* (reading).\n- **Languages**: *het Nederlands*, *het Engels*.\n\n## Usually het\n\n- Words ending in **-isme** or **-ment**: *het toerisme*, *het appartement*, *het moment*.\n- Words ending in **-um**: *het museum*, *het centrum*. *De datum* is the exception you'll meet.\n- Nouns made from a verb with an unstressed **ge-**, **be-**, **ver-** or **ont-** and no ending: *het gesprek*, *het begin*, *het verhaal*, *het ontbijt*. With an ending like *-ing*, it's *de*: *de vergadering*.\n- Metals: *het goud*, *het zilver*, *het ijzer*.\n\n## Always de\n\n- **Plurals**: *de huizen*, *de kinderen*.\n- Words ending in **-heid**, **-tie** or **-teit**: *de vrijheid*, *de informatie*, *de universiteit*.\n- Nouns made from a verb with **-ing**: *wonen*, *de woning*; *oefenen*, *de oefening*.\n\n## Usually de\n\nWords for people: *de man*, *de vrouw*, *de leraar*. *Het kind* is the big exception, and *het meisje* is a diminutive.\n\n## Compounds\n\nA compound takes the article of its last part: *de deur*, so *de voordeur*; *het huis*, so *het ziekenhuis*.\n\nIf a noun fits none of these, guess **de**. You'll be right about three times in four.\n\n:::examples\n- Het meisje drinkt een kopje thee. — The girl is drinking a cup of tea.\n- Het eten is klaar. — Dinner's ready.\n- De vergadering begint om negen uur. — The meeting starts at nine.\n- Het ziekenhuis ligt naast het station. — The hospital is next to the station.\n:::",
       "extras": {
         "explains": [
           "de",
@@ -747,7 +747,7 @@
       "kind": "misc",
       "id": "nl-cause-connectives",
       "title": "Namelijk and immers",
-      "body_md": "A cause connective gives the reason for what was just said. Two adverbs do this job:\n\n| Dutch | English |\n| --- | --- |\n| namelijk | you see, as it happens |\n| immers | after all |\n\n*Namelijk* brings in a reason the listener didn't know: *Ik blijf thuis, ik ben **namelijk** ziek.* It comes after the verb, never first: *Namelijk ben ik ziek* is wrong. *Immers* points to a reason the listener already knows: *Hij kan niet komen; hij is **immers** ziek.*\n\n## Want, omdat and doordat\n\nThe plain words for \"because\" are conjunctions, and each treats word order differently:\n\n- **Want** joins two main clauses and moves nothing: *Ik blijf thuis, want ik ben moe.*\n- **Omdat** starts a subordinate clause, so its verb goes to the end: *Ik blijf thuis omdat ik moe ben.*\n- **Doordat** names what caused something, not why someone chose it, and also sends the verb to the end: *Doordat de trein vertraging had, kwam ik te laat.*\n\nTo give a result instead of a reason, use *dus* or *daarom*: *Ik was ziek, daarom ben ik niet gekomen.*\n\n:::examples\n- Ik blijf thuis, ik ben namelijk ziek. — I'm staying at home; I'm ill, you see.\n- Hij kan niet komen; hij is immers ziek. — He can't come; he's ill, after all.\n- Ik blijf thuis omdat ik moe ben. — I'm staying at home because I'm tired.\n:::",
+      "body_md": "A cause connective gives the reason for what was just said. Two adverbs do this job:\n\n| Dutch | English |\n| --- | --- |\n| namelijk | you see, because; namely |\n| immers | after all |\n\n*Namelijk* brings in a reason the listener didn't know: *Ik blijf thuis, ik ben **namelijk** ziek.* It comes after the verb, never first: *Namelijk ben ik ziek* is wrong. *Immers* points to a reason the listener already knows: *Hij kan niet komen; hij is **immers** ziek.*\n\n## Want, omdat and doordat\n\nThe plain words for \"because\" are conjunctions, and each treats word order differently:\n\n- **Want** joins two main clauses and moves nothing: *Ik blijf thuis, want ik ben moe.*\n- **Omdat** starts a subordinate clause, so its verb goes to the end: *Ik blijf thuis omdat ik moe ben.*\n- **Doordat** names what caused something, not why someone chose it, and also sends the verb to the end: *Doordat de trein vertraging had, kwam ik te laat.*\n\nTo give a result instead of a reason, use *dus* or *daarom*: *Ik was ziek, daarom ben ik niet gekomen.*\n\n:::examples\n- Ik blijf thuis, ik ben namelijk ziek. — I'm staying at home; I'm ill, you see.\n- Hij kan niet komen; hij is immers ziek. — He can't come; he's ill, after all.\n- Ik blijf thuis omdat ik moe ben. — I'm staying at home because I'm tired.\n:::",
       "extras": {
         "explains": [
           "conn-cause"

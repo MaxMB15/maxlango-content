@@ -174,11 +174,11 @@ A subordinating conjunction starts a clause that depends on the main clause: *Re
 
 ## Che stays
 
-English can leave out *that*. Italian can't leave out *che*: *Dice **che** arriva domani* (He says he's arriving tomorrow).
+English can leave out *that*. Italian almost always keeps *che*: *Dice **che** arriva domani* (He says he's arriving tomorrow).
 
 ## Some take the congiuntivo
 
-**Benché**, **sebbene**, **affinché**, **prima che** and **a meno che** always take the congiuntivo (subjunctive): *Benché **sia** tardi, resto ancora un po'.* Most others, *perché*, *quando*, *se* and *mentre* among them, take the ordinary indicative.
+**Benché**, **sebbene**, **affinché**, **prima che** and **a meno che** always take the congiuntivo (subjunctive): *Benché **sia** tardi, resto ancora un po'.* Most others, *perché*, *quando* and *mentre* among them, take the ordinary indicative. So does *se*, except in hypotheses: *Se avessi tempo, verrei*.
 
 ## Perché has two jobs
 
@@ -401,6 +401,6 @@ benché | although | conj-subordinating | Benché sia tardi, resto ancora un po'
 
 ITEMS = [ARTICLES] + NOUNS + VERBS + CONNECTIVES + CONJUNCTIONS + CORE_PAGES
 
-CORE = pack("it-core-v1", 1, "it", "Italiano · L'essenziale", ITEMS, DELTA)
+CORE = pack("it-core-v1", 2, "it", "Italiano · L'essenziale", ITEMS, DELTA)
 
 PACKS = [CORE, it_foundations.PACK, it_everyday.PACK, it_fluency.PACK]

@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "fr-foundations-v1",
-  "version": 7,
+  "version": 8,
   "language": "fr",
   "name": "Français · Fondations (A1)",
   "author": "Max Boksem",
@@ -97,7 +97,7 @@
       "kind": "misc",
       "id": "fr-pronunciation",
       "title": "Reading French aloud",
-      "body_md": "French spelling looks chaotic, but it's regular once you know what to ignore. Most of the work is learning which letters stay silent.\n\n## Silent endings\n\nA final **e**, **s**, **t**, **d**, **x** and **z** are usually silent. *[Petit](lango:say)*, *[grand](lango:say)*, *[les amis](lango:say)* and *[vous parlez](lango:say)* all end on a vowel sound.\n\nA handy exception: final **c**, **r**, **f** and **l** are often pronounced. Think of the English word *CaReFuL*: *[parc](lango:say)*, *[bonjour](lango:say)*, *[neuf](lango:say)*, *[sel](lango:say)*. The **-er** of an infinitive is the big exception to the exception: *[parler](lango:say)* ends in \"é\".\n\n## Nasal vowels\n\nWhen a vowel sits before **n** or **m** in the same syllable, the n is not pronounced. Air goes through the nose instead.\n\n| Spelling | Sound | Example |\n| --- | --- | --- |\n| an, en, am, em | \"ahn\" | *[enfant](lango:say)*, *[temps](lango:say)* |\n| on, om | \"ohn\" | *[bon](lango:say)*, *[nom](lango:say)* |\n| in, ain, ein, un | \"ahn\" (front) | *[vin](lango:say)*, *[pain](lango:say)*, *[un](lango:say)* |\n\nIf a vowel follows the n (*[bonne](lango:say)*, *[une](lango:say)*), the nasal disappears and the n is pronounced.\n\n## Liaison and elision\n\n**Liaison**: a silent final consonant is pronounced when the next word starts with a vowel. *[Les amis](lango:say)* sounds like \"lé-z-ami\". *[Vous avez](lango:say)* sounds like \"vou-z-avé\".\n\n**Elision**: short words drop their vowel before another vowel and take an apostrophe. *Le ami* becomes *[l'ami](lango:say)*, *je aime* becomes *[j'aime](lango:say)*, *ne est* becomes *[n'est](lango:say)*.\n\n## Accents\n\n- **é** (accent aigu) is a closed \"ay\": *[été](lango:say)*.\n- **è** and **ê** are an open \"eh\": *[mère](lango:say)*, *[fête](lango:say)*.\n- **ç** makes c soft before a, o, u: *[ça](lango:say)*, *[garçon](lango:say)*.\n- **à**, **ù**, **â**, **î**, **ô**, **û** don't change the sound much. They tell words apart: *[a](lango:say)* (has) and *[à](lango:say)* (to), *[ou](lango:say)* (or) and *[où](lango:say)* (where).\n\n## This unit's words\n\n- *[bonjour](lango:say)*: a nasal **on**, then the French **r**, made at the back of the throat: \"bohn-zhoor\".\n- *[bonsoir](lango:say)*: the same **on**, and **oi** says \"wa\": \"bohn-swar\".\n- *[merci](lango:say)*: the **r** again, and **c** before **i** is an s: \"mair-see\".\n- *[enchanté](lango:say)*: two nasals, **en** and **an**, then a closed **é**: \"ahn-shahn-tay\".\n- *[pardon](lango:say)*: the **n** is silent and the **on** goes through the nose: \"par-dohn\".\n- *[s'il vous plaît](lango:say)*: elision in *s'il*, and the final **s** and **t** stay silent: \"seel voo pleh\".",
+      "body_md": "French spelling looks chaotic, but it's regular once you know what to ignore. Most of the work is learning which letters stay silent.\n\n## Silent endings\n\nA final **e**, **s**, **t**, **d**, **x** and **z** are usually silent. *[Petit](lango:say)*, *[grand](lango:say)*, *[les amis](lango:say)* and *[vous parlez](lango:say)* all end on a vowel sound.\n\nA handy exception: final **c**, **r**, **f** and **l** are often pronounced. Think of the English word *CaReFuL*: *[parc](lango:say)*, *[bonjour](lango:say)*, *[neuf](lango:say)*, *[sel](lango:say)*. The **-er** of an infinitive is the big exception to the exception: *[parler](lango:say)* ends in \"é\".\n\n## Nasal vowels\n\nWhen a vowel sits before **n** or **m** in the same syllable, the n is not pronounced. Air goes through the nose instead.\n\n| Spelling | Sound | Example |\n| --- | --- | --- |\n| an, en, am, em | \"ahn\" | *[enfant](lango:say)*, *[temps](lango:say)* |\n| on, om | \"ohn\" | *[bon](lango:say)*, *[nom](lango:say)* |\n| in, ain, ein, un | \"an\" as in van, through the nose | *[vin](lango:say)*, *[pain](lango:say)*, *[un](lango:say)* |\n\nIf a vowel follows the n (*[bonne](lango:say)*, *[une](lango:say)*), the nasal disappears and the n is pronounced.\n\n## Liaison and elision\n\n**Liaison**: a silent final consonant is pronounced when the next word starts with a vowel. *[Les amis](lango:say)* sounds like \"lé-z-ami\". *[Vous avez](lango:say)* sounds like \"vou-z-avé\".\n\n**Elision**: short words drop their vowel before another vowel and take an apostrophe. *Le ami* becomes *[l'ami](lango:say)*, *je aime* becomes *[j'aime](lango:say)*, *ne est* becomes *[n'est](lango:say)*.\n\n## Accents\n\n- **é** (accent aigu) is a closed \"ay\": *[été](lango:say)*.\n- **è** and **ê** are an open \"eh\": *[mère](lango:say)*, *[fête](lango:say)*.\n- **ç** makes c soft before a, o, u: *[ça](lango:say)*, *[garçon](lango:say)*.\n- **à**, **ù**, **â**, **î**, **ô**, **û** don't change the sound much. They tell words apart: *[a](lango:say)* (has) and *[à](lango:say)* (to), *[ou](lango:say)* (or) and *[où](lango:say)* (where).\n\n## This unit's words\n\n- *[bonjour](lango:say)*: a nasal **on**, then the French **r**, made at the back of the throat: \"bohn-zhoor\".\n- *[bonsoir](lango:say)*: the same **on**, and **oi** says \"wa\": \"bohn-swar\".\n- *[merci](lango:say)*: the **r** again, and **c** before **i** is an s: \"mair-see\".\n- *[enchanté](lango:say)*: two nasals, **en** and **an**, then a closed **é**: \"ahn-shahn-tay\".\n- *[pardon](lango:say)*: the **n** is silent and the **on** goes through the nose: \"par-dohn\".\n- *[s'il vous plaît](lango:say)*: elision in *s'il*, and the final **s** and **t** stay silent: \"seel voo pleh\".",
       "extras": {
         "unlocks": [
           "concept:fr-pronunciation"
@@ -162,7 +162,7 @@
       "kind": "misc",
       "id": "fr-negation",
       "title": "Saying no: ne ... pas",
-      "body_md": "French negation has two parts that wrap around the verb: **ne** before it and **pas** after it.\n\n:::examples\n- Je ne parle pas allemand. — I don't speak German.\n- Il n'est pas là. — He isn't here.\n- Nous ne mangeons pas de viande. — We don't eat meat.\n:::\n\n*Ne* becomes *n'* before a vowel.\n\n## Other negations\n\nSwap *pas* for another word to change the meaning:\n\n| Negation | Meaning | Example |\n| --- | --- | --- |\n| ne ... jamais | never | Je ne bois jamais de café. |\n| ne ... plus | no longer | Il n'habite plus ici. |\n| ne ... rien | nothing | Je ne vois rien. |\n| ne ... personne | nobody | Je ne connais personne. |\n| ne ... que | only | Je n'ai que deux euros. |\n\n## Pas de\n\nAfter a negation, **un, une, du, de la** and **des** all become **de** (or **d'**).\n\n*J'ai une voiture* → *Je n'ai pas de voiture.*\n*Je bois du café* → *Je ne bois pas de café.*\n\nThis doesn't apply to *être*: *C'est un chat* → *Ce n'est pas un chat.*\n\n## In conversation\n\nSpoken French usually drops the *ne*. *Je sais pas*, *C'est pas grave*, *J'ai pas le temps*. Write the *ne*, but expect not to hear it.\n\n:::cloze{sentence=\"Je n'ai pas ___ frères.\" blank=\"de\"}\n:::",
+      "body_md": "French negation has two parts that wrap around the verb: **ne** before it and **pas** after it.\n\n:::examples\n- Je ne parle pas allemand. — I don't speak German.\n- Il n'est pas là. — He isn't here.\n- Nous ne mangeons pas de viande. — We don't eat meat.\n:::\n\n*Ne* becomes *n'* before a vowel.\n\n## Other negations\n\nSwap *pas* for another word to change the meaning:\n\n| Negation | Meaning | Example |\n| --- | --- | --- |\n| ne ... jamais | never | Je ne bois jamais de café. |\n| ne ... plus | no longer | Il n'habite plus ici. |\n| ne ... rien | nothing | Je ne vois rien. |\n| ne ... personne | nobody | Je ne connais personne. |\n| ne ... que | only | Je n'ai que deux euros. |\n\n## Pas de\n\nAfter a negation, **un, une, du, de la** and **des** all become **de** (or **d'**).\n\n*J'ai une voiture* → *Je n'ai pas de voiture.*\n*Je bois du café* → *Je ne bois pas de café.*\n\nThis doesn't apply to *être*: *C'est un chat* → *Ce n'est pas un chat.*\n\n*Ne ... que* (only) isn't a real negation, so the article stays: *Je ne bois que du café.*\n\n## In conversation\n\nSpoken French usually drops the *ne*. *Je sais pas*, *C'est pas grave*, *J'ai pas le temps*. Write the *ne*, but expect not to hear it.\n\n:::cloze{sentence=\"Je n'ai pas ___ frères.\" blank=\"de\"}\n:::",
       "extras": {
         "unlocks": [
           "concept:fr-negation"
@@ -213,7 +213,7 @@
       "kind": "misc",
       "id": "fr-contractions",
       "title": "Au, aux, du, des",
-      "body_md": "The prepositions **à** (to, at) and **de** (of, from) merge with *le* and *les*. They never merge with *la* or *l'*.\n\n| | + le | + la | + l' | + les |\n| --- | --- | --- | --- | --- |\n| à | **au** | à la | à l' | **aux** |\n| de | **du** | de la | de l' | **des** |\n\n:::examples\n- Je vais au cinéma. — I'm going to the cinema.\n- Elle est à la plage. — She's at the beach.\n- Il parle aux enfants. — He talks to the children.\n- Je viens du Canada. — I come from Canada.\n- C'est la voiture des voisins. — It's the neighbours' car.\n:::\n\n## Countries and cities\n\nCities take **à**: *à Paris*. Feminine countries (most end in -e) take **en**: *en France*, *en Belgique*. Masculine countries take **au**: *au Canada*, *au Japon*. Plural ones take **aux**: *aux États-Unis*.",
+      "body_md": "The prepositions **à** (to, at) and **de** (of, from) merge with *le* and *les*. They never merge with *la* or *l'*.\n\n| | + le | + la | + l' | + les |\n| --- | --- | --- | --- | --- |\n| à | **au** | à la | à l' | **aux** |\n| de | **du** | de la | de l' | **des** |\n\n:::examples\n- Je vais au cinéma. — I'm going to the cinema.\n- Elle est à la plage. — She's at the beach.\n- Il parle aux enfants. — He talks to the children.\n- Je viens du Canada. — I come from Canada.\n- C'est la voiture des voisins. — It's the neighbours' car.\n:::\n\n## Countries and cities\n\nCities take **à**: *à Paris*. Feminine countries (most end in -e) take **en**: *en France*, *en Belgique*. Masculine countries take **au**: *au Canada*, *au Japon*, but **en** before a vowel: *en Iran*. Plural ones take **aux**: *aux États-Unis*.",
       "extras": {
         "unlocks": [
           "concept:fr-contractions"
@@ -244,7 +244,7 @@
       "kind": "misc",
       "id": "fr-colors",
       "title": "Colours: which ones agree",
-      "body_md": "Colours are adjectives, so they follow the adjectives page: they go after the noun and agree with it. *Un pull vert*, *une robe verte*, *des chaussures vertes*.\n\n## Most colours add -e and -s\n\n| masculine | feminine | plural |\n| --- | --- | --- |\n| vert | verte | verts, vertes |\n| noir | noire | noirs, noires |\n| bleu | bleue | bleus, bleues |\n| gris | grise | gris, grises |\n| blanc | blanche | blancs, blanches |\n\n*Blanc* has its own feminine, *blanche*. *Gris* already ends in **s**, so its masculine plural looks the same as its singular.\n\n## Colours ending in -e\n\n*Rouge* and *jaune* already end in **-e**, so the feminine is the same and only the plural changes: *un sac rouge*, *une robe rouge*, *des fleurs jaunes*.\n\n## Colours that never change\n\nA colour named after a thing stays as it is. *Marron* is a chestnut and *orange* is the fruit, so they never take -e or -s: *des yeux marron*, *des chaussures orange*. *Rose* is the one exception and agrees like any adjective: *des fleurs roses*.\n\nA colour of two words never changes either: *une robe bleu clair*, *des yeux bleu foncé*.\n\n:::examples\n- J'ai une voiture verte. — I have a green car.\n- Elle porte des chaussures noires. — She's wearing black shoes.\n- Il a les yeux marron. — He has brown eyes.\n- Les tomates sont rouges. — The tomatoes are red.\n:::",
+      "body_md": "Colours are adjectives, so they follow the adjectives page: they go after the noun and agree with it. *Un pull vert*, *une robe verte*, *des chaussures vertes*.\n\n## Most colours add -e and -s\n\n| masculine | feminine | plural |\n| --- | --- | --- |\n| vert | verte | verts, vertes |\n| noir | noire | noirs, noires |\n| bleu | bleue | bleus, bleues |\n| gris | grise | gris, grises |\n| blanc | blanche | blancs, blanches |\n\n*Blanc* has its own feminine, *blanche*. *Gris* already ends in **s**, so its masculine plural looks the same as its singular.\n\n## Colours ending in -e\n\n*Rouge* and *jaune* already end in **-e**, so the feminine is the same and only the plural changes: *un sac rouge*, *une robe rouge*, *des fleurs jaunes*.\n\n## Colours that never change\n\nA colour named after a thing stays as it is. *Marron* is a chestnut and *orange* is the fruit, so they never take -e or -s: *des yeux marron*, *des chaussures orange*. *Rose* is the main exception and agrees like any adjective: *des fleurs roses*. *Mauve* does the same.\n\nA colour of two words never changes either: *une robe bleu clair*, *des yeux bleu foncé*.\n\n:::examples\n- J'ai une voiture verte. — I have a green car.\n- Elle porte des chaussures noires. — She's wearing black shoes.\n- Il a les yeux marron. — He has brown eyes.\n- Les tomates sont rouges. — The tomatoes are red.\n:::",
       "extras": {
         "unlocks": [
           "concept:fr-colors"
@@ -1054,8 +1054,8 @@
         "pronoms"
       ],
       "extras": {
-        "example": "Elle est ma sœur.",
-        "example_en": "She's my sister."
+        "example": "Elle est médecin.",
+        "example_en": "She's a doctor."
       }
     },
     {
@@ -1977,7 +1977,7 @@
         "auxiliary": "avoir",
         "participle": "vu",
         "example": "On se voit demain ?",
-        "example_en": "See each other tomorrow?"
+        "example_en": "Are we seeing each other tomorrow?"
       },
       "tags": [
         "présent"
@@ -5372,7 +5372,7 @@
     },
     {
       "kind": "conjunction",
-      "id": "si",
+      "id": "si-conjunction",
       "primary_form": "si",
       "gloss": "if",
       "extras": {

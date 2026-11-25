@@ -127,7 +127,7 @@ There's no single word for *it*. Use **den** for an en-word and **det** for an e
 
 ## De or dem?
 
-*De* and *dem* are both said **dom**, so even Swedes mix them up in writing, and many write *dom* in texts and chat. Use **de** as the subject and **dem** after a verb or a preposition: *De bor här. Jag känner dem.*
+*De* and *dem* are both said **dom**, so even Swedes mix them up in writing, and many write *dom* in texts and chat. Use **de** as the subject and **dem** as the object of a verb or after a preposition: *De bor här. Jag känner dem.*
 
 ## Man and hen
 
@@ -205,7 +205,7 @@ Swedish verbs don't change for the person. Where English says *I speak, she spea
 
 ## Building the present
 
-Every present form ends in **-r**. The infinitive tells you how to get there:
+Almost every present form ends in **-r**. The modal verbs *kan, vill, ska, måste* and the verb *vet* don't. For the rest, the infinitive tells you how to get there:
 
 | Group | Infinitive | Present | Rule |
 | --- | --- | --- | --- |
@@ -591,7 +591,7 @@ Add **-s** with no apostrophe: *Annas bok, Sveriges huvudstad.*
 :::cloze{sentence="Peter lagar mat med ___ dotter i köket." blank="sin"}
 :::
 
-:::cloze{sentence="Är det här ___ rum?" blank="ditt"}
+:::cloze{sentence="Du har ett eget rum nu. Är det här ___ rum?" blank="ditt"}
 :::
 """,
         ["pronomen"],
@@ -846,7 +846,7 @@ hej | hi, hello | Hej, jag heter Sara. | Hi, I'm Sara.
 hej då | bye | Hej då, vi ses i morgon! | Bye, see you tomorrow!
 god morgon | good morning | God morgon! Har du sovit gott? | Good morning! Did you sleep well?
 god natt | good night | God natt och sov gott! | Good night, sleep well!
-tack | thanks, thank you; please | Tack för hjälpen! | Thanks for your help! | | Swedish has no word for *please*. *Tack* covers it when you accept or ask for something: *En kaffe, tack.*
+tack | thanks, thank you; please | Tack för hjälpen! | Thanks for your help! | | Swedish has no everyday word for *please*. *Tack* covers it when you accept or ask for something: *En kaffe, tack.* *Snälla* is a pleading please: *Snälla, hjälp mig!*
 tack så mycket | thank you very much | Tack så mycket för presenten! | Thank you so much for the present!
 varsågod | here you are; help yourself | Varsågod, här är ditt kaffe. | Here you are, here's your coffee. | be so good | Said when you hand something over, and by the host when the food is on the table.
 ingen orsak | you're welcome | Ingen orsak, det var så lite. | You're welcome, it was nothing. | no reason
@@ -912,15 +912,15 @@ när | when | conj-subordinating | Ring mig när du är hemma. | Call me when yo
 
 PRONOUNS = phrases(
     """
-jag | I | Jag heter Sara och jag bor i Malmö. | I'm Sara and I live in Malmö. | | Said *ja*. After a verb or a preposition it's *mig*, said *mej*.
+jag | I | Jag heter Sara och jag bor i Malmö. | I'm Sara and I live in Malmö. | | Said *ja*. As the object of a verb or after a preposition it's *mig*, said *mej*.
 du | you (one person) | Du pratar bra svenska! | You speak good Swedish! | | Swedes say *du* to almost everyone, the boss and the doctor too.
-han | he | Han arbetar på ett kafé. | He works at a café. | | After a verb or a preposition it's *honom*: *Jag ser honom.*
-hon | she | Hon bor i Göteborg. | She lives in Gothenburg. | | After a verb or a preposition it's *henne*.
+han | he | Han arbetar på ett kafé. | He works at a café. | | As the object of a verb or after a preposition it's *honom*: *Jag ser honom.*
+hon | she | Hon bor i Göteborg. | She lives in Gothenburg. | | As the object of a verb or after a preposition it's *henne*.
 den | it (for an en-word) | Jag har en ny cykel. Den är röd. | I have a new bike. It's red. | | Stands for an en-word: *en cykel*, so *den*.
 det | it (for an ett-word) | Huset är gammalt, men det är fint. | The house is old, but it's nice. | | Said *de*. Also the empty *it* of *det regnar* (it's raining).
-vi | we | Vi bor i Uppsala. | We live in Uppsala. | | After a verb or a preposition it's *oss*.
+vi | we | Vi bor i Uppsala. | We live in Uppsala. | | As the object of a verb or after a preposition it's *oss*.
 ni | you (more than one) | Vill ni ha kaffe? | Would you all like coffee? | | To one person it sounds old-fashioned or cold. Say *du*.
-de | they | De kommer från Norge. | They're from Norway. | | Said *dom*. After a verb or a preposition it's *dem*, also said *dom*.
+de | they | De kommer från Norge. | They're from Norway. | | Said *dom*. As the object of a verb or after a preposition it's *dem*, also said *dom*.
 hen | he or she | Hen heter Alex. | Their name is Alex. | | For someone whose gender isn't known or doesn't matter, and for people who are neither.
 """,
     ["pronomen"],
@@ -1063,7 +1063,7 @@ LABELS = {
 
 PACK = pack(
     "sv-foundations-v1",
-    1,
+    2,
     "sv",
     "Svenska · Grunder (A1)",
     ITEMS,

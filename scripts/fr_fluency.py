@@ -284,7 +284,7 @@ The **passé simple** is the literary past. Novels, fairy tales and history book
 | venir | vint | vinrent |
 | prendre | prit | prirent |
 
-*Il était une fois un roi qui eut trois filles.* (Once upon a time there was a king who had three daughters.) The imparfait sets the scene; the passé simple tells the story.
+*Il était une fois un roi qui avait trois filles. Un jour, il tomba malade.* (Once upon a time there was a king who had three daughters. One day, he fell ill.) The imparfait sets the scene; the passé simple tells the story.
 """,
         ["passé-composé", "registre"],
         "fr-past-literary",
@@ -382,7 +382,7 @@ succès | m | success | society | succès
 peur | f | fear | feelings
 joie | f | joy | feelings
 colère | f | anger | feelings
-honte | f | shame | feelings
+*honte | f | shame | feelings
 *hâte | f | haste, eagerness | feelings
 souvenir | m | memory (something remembered) | feelings
 mémoire | f | memory (the faculty) | feelings
@@ -392,7 +392,7 @@ amour | m | love | feelings
 amitié | f | friendship | feelings
 # untranslatables and false friends
 flemme | f | laziness, can't-be-bothered feeling | idioms
-dépaysement | m | the disorientation of being somewhere foreign | idioms
+dépaysement | m | the feeling of being away from familiar surroundings | idioms
 rentrée | f | the September return to school and work | idioms
 terroir | m | the land and climate that give food its character | idioms
 bibliothèque | f | library | faux-amis
@@ -482,7 +482,7 @@ VERBS = [
     verb("mentir", "to lie (tell lies)", [], pp="menti",
          present="mens mens ment mentons mentez mentent",
          example="Tu mens !", example_en="You're lying!"),
-    verb("servir", "to serve", [], pp="servi",
+    verb("servir", "to serve; to be for", [], pp="servi",
          present="sers sers sert servons servez servent",
          example="À quoi ça sert ?", example_en="What's it for?"),
     verb("disparaître", "to disappear", [], pp="disparu",
@@ -549,7 +549,7 @@ EXPRESSIONS = phrases(
     """
 bref | in short, anyway | brief
 du coup | so, as a result (spoken) | of the blow
-les retrouvailles | the joy of meeting again after a long time | the re-findings
+les retrouvailles | reunion, meeting again after a long time | the re-findings
 en tout cas | in any case, anyway
 n'importe quoi | nonsense; anything at all | no matter what
 tant que | as long as
@@ -599,7 +599,7 @@ avant que | before (+ subjunctive) | conj-subordinating | Rentre avant que la nu
 à moins que | unless (+ subjunctive) | conj-subordinating | On sortira, à moins que la pluie continue. | We'll go out, unless the rain keeps up.
 même si | even if (+ indicative) | conj-subordinating | Je viendrai même si la route est longue. | I'll come even if it's a long way.
 tandis que | whereas; while | conj-subordinating | Il aime la mer, tandis que je préfère la montagne. | He loves the sea, whereas I prefer the mountains.
-dès que | as soon as | conj-subordinating | Appelle-moi dès que tu arrives. | Call me as soon as you arrive.
+dès que | as soon as | conj-subordinating | Appelle-moi dès que tu arriveras. | Call me as soon as you arrive.
 sans que | without (+ subjunctive) | conj-subordinating | Il est parti sans que je le voie. | He left without my seeing him.
 or | now, yet (in an argument) | conj-coordinating | Il devait venir, or il n'est pas venu. | He was supposed to come, yet he didn't.
 """,
@@ -691,7 +691,7 @@ LABELS = {
 
 PACK = pack(
     "fr-fluency-v1",
-    5,
+    6,
     "fr",
     "Français · Aisance (B1)",
     ITEMS,

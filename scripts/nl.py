@@ -93,7 +93,7 @@ Most nouns you have to learn with their article. Some groups of nouns, though, a
 
 - Words ending in **-isme** or **-ment**: *het toerisme*, *het appartement*, *het moment*.
 - Words ending in **-um**: *het museum*, *het centrum*. *De datum* is the exception you'll meet.
-- Words starting with an unstressed **ge-**, **be-**, **ver-** or **ont-**: *het gesprek*, *het begin*, *het verhaal*, *het ontbijt*.
+- Nouns made from a verb with an unstressed **ge-**, **be-**, **ver-** or **ont-** and no ending: *het gesprek*, *het begin*, *het verhaal*, *het ontbijt*. With an ending like *-ing*, it's *de*: *de vergadering*.
 - Metals: *het goud*, *het zilver*, *het ijzer*.
 
 ## Always de
@@ -233,7 +233,7 @@ A cause connective gives the reason for what was just said. Two adverbs do this 
 
 | Dutch | English |
 | --- | --- |
-| namelijk | you see, as it happens |
+| namelijk | you see, because; namely |
 | immers | after all |
 
 *Namelijk* brings in a reason the listener didn't know: *Ik blijf thuis, ik ben **namelijk** ziek.* It comes after the verb, never first: *Namelijk ben ik ziek* is wrong. *Immers* points to a reason the listener already knows: *Hij kan niet komen; hij is **immers** ziek.*
@@ -332,7 +332,7 @@ When you tell what happened in the past, "then" is usually **toen** or **daarna*
 
 CORE = patch_core(
     "nl",
-    8,
+    9,
     {
         "eten": _core_verb("eten", "eet", past="at aten", pp="gegeten"),
         "drinken": _core_verb("drinken", "drink", past="dronk dronken", pp="gedronken"),

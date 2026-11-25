@@ -38,14 +38,14 @@ Both mean "because". **Want** is coordinating and keeps normal word order. **Omd
 - Ik blijf thuis omdat ik ziek ben. — I'm staying home because I'm ill.
 :::
 
-The coordinating conjunctions are few: **en, maar, of, want, dus** (when it means "so"). Everything else sends the verb to the end.
+The coordinating conjunctions are few: **en, maar, of** (when it means "or"), **want** and **dus**. *Dus* can also act as an adverb, with the verb straight after it: *dus blijven we thuis*. Every other conjunction sends the verb to the end.
 
 ## Verb clusters
 
-With two or more verbs at the end, the order is flexible. The finite verb can go first or last:
+With two verbs at the end, the order is often flexible. The finite verb can go first or last:
 
 - *...omdat ik het **heb gedaan**.* / *...omdat ik het **gedaan heb**.*
-- *...omdat ik morgen **moet werken**.* / *...omdat ik morgen **werken moet**.*
+- *...omdat ik morgen **moet werken**.* (*werken moet* is possible, but much less common.)
 
 The Netherlands and Flanders lean different ways. Both are correct.
 
@@ -422,7 +422,7 @@ VERBS = [
          example="Leuk je te ontmoeten!", example_en="Nice to meet you!"),
     verb("verdienen", "verdien", "to earn; to deserve", [],
          example="Hij verdient veel geld.", example_en="He earns a lot of money."),
-    verb("veranderen", "verander", "to change", [],
+    verb("veranderen", "verander", "to change, become different", [], aux="zijn",
          example="Er is veel veranderd.", example_en="A lot has changed."),
     verb("ontdekken", "ontdek", "to discover", [],
          example="Ik heb een leuk café ontdekt.", example_en="I've discovered a nice café."),
@@ -553,7 +553,7 @@ CONJUNCTIONS = connectors(
 zodat | so that | conj-subordinating | Ik spreek langzaam zodat je het begrijpt. | I speak slowly so that you understand.
 tenzij | unless | conj-subordinating | We gaan fietsen, tenzij het regent. | We'll go cycling, unless it rains.
 zodra | as soon as | conj-subordinating | Bel me zodra je er bent. | Call me as soon as you get there.
-sinds | since | conj-subordinating | Sinds ik hier woon, fiets ik elke dag. | Since I've lived here, I cycle every day.
+sinds | since | conj-subordinating | Sinds ik hier woon, fiets ik elke dag. | Since I've lived here, I've cycled every day.
 doordat | because (the cause of a result) | conj-subordinating | Doordat de trein vertraging had, kwam ik te laat. | Because the train was delayed, I was late.
 alsof | as if | conj-subordinating | Hij doet alsof hij het niet weet. | He acts as if he doesn't know.
 zolang | as long as | conj-subordinating | Je mag blijven zolang je wilt. | You can stay as long as you like.
@@ -634,7 +634,7 @@ LABELS = {
 
 PACK = pack(
     "nl-fluency-v1",
-    6,
+    7,
     "nl",
     "Nederlands · Vloeiend (B1)",
     ITEMS,
