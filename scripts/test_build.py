@@ -36,6 +36,7 @@ from build import (  # noqa: E402
     check_no_silent_removals,
     check_tag_pages,
     profile_for,
+    tile_bag,
     validate,
 )
 from common import page, topic  # noqa: E402
@@ -463,6 +464,38 @@ class ApplyExamplesTests(unittest.TestCase):
     def test_a_key_that_matches_no_word_is_an_error(self):
         errs = apply_examples(self.pack(self.word("noun", "fiets")), {"auto": {"example": "x", "example_en": "y"}})
         self.assertEqual(errs, ["nl-test-v1: example for 'auto' matches no Word"])
+
+    def test_an_entry_adds_other_orders_of_the_sources_sentence(self):
+        pack = self.pack(self.word("verb", "fietsen", example="Ik fiets elke dag.", example_en="I cycle every day."))
+        errs = apply_examples(pack, {"fietsen": {"example_alternatives": ["Elke dag fiets ik."]}})
+        self.assertEqual(errs, [])
+        self.assertEqual(pack["items"][0]["extras"]["example_alternatives"], ["Elke dag fiets ik."])
+
+    def test_an_alternative_keeps_the_alternatives_the_source_has(self):
+        pack = self.pack(
+            self.word("verb", "zijn", example="Ik ben moe vandaag.", example_alternatives=["Vandaag ben ik moe."])
+        )
+        apply_examples(pack, {"zijn": {"example_alternatives": ["Vandaag ben ik moe.", "Ik ben vandaag moe."]}})
+        self.assertEqual(
+            pack["items"][0]["extras"]["example_alternatives"], ["Vandaag ben ik moe.", "Ik ben vandaag moe."]
+        )
+
+    def test_an_alternative_with_other_tiles_is_an_error(self):
+        pack = self.pack(self.word("verb", "wonen", example="Ik woon in Amsterdam."))
+        # The comma makes "Amsterdam," a tile the sentence doesn't have.
+        errs = apply_examples(pack, {"wonen": {"example_alternatives": ["In Amsterdam, woon ik."]}})
+        self.assertEqual(len(errs), 1)
+        self.assertIn("not another order", errs[0])
+        self.assertNotIn("example_alternatives", pack["items"][0]["extras"])
+
+    def test_the_sentence_itself_is_no_alternative(self):
+        pack = self.pack(self.word("verb", "wonen", example="Ik woon in Amsterdam."))
+        errs = apply_examples(pack, {"wonen": {"example_alternatives": ["Ik woon in Amsterdam."]}})
+        self.assertEqual(len(errs), 1)
+
+    def test_tile_bag_ignores_case_and_the_final_mark(self):
+        self.assertEqual(tile_bag("Elke dag fiets ik."), tile_bag("ik fiets elke Dag"))
+        self.assertNotEqual(tile_bag("Ik ben moe, echt."), tile_bag("Ik ben moe echt"))
 
     def test_every_shipped_example_file_names_a_built_pack(self):
         for path in sorted(EXAMPLE_DIR.glob("*.json")):

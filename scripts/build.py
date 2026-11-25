@@ -214,6 +214,18 @@ def check_tag_pages(code: str, packs: list[dict], profile: dict) -> list[str]:
 EXAMPLE_DIR = HERE / "examples"
 
 
+FINAL_PUNCT = re.compile(r"[\s.!?…]+$")
+
+
+def tile_bag(sentence: str) -> list[str]:
+    """The tiles of a Build-the-sentence game, ignoring their order and case.
+
+    The app cuts the final punctuation, splits on spaces and keeps any other
+    punctuation on its word, so "thuis," and "thuis" are different tiles.
+    """
+    return sorted(w.lower() for w in FINAL_PUNCT.sub("", sentence).split())
+
+
 def apply_examples(pack: dict, examples: dict[str, dict]) -> list[str]:
     """Give each Word its example sentence from `examples`, in place.
 
@@ -223,6 +235,11 @@ def apply_examples(pack: dict, examples: dict[str, dict]) -> list[str]:
     own source wins. A key that matches no Word, or a bare id two
     Words share, is an error, so a renamed Word can't silently lose its
     sentence.
+
+    An entry may also list "example_alternatives": other right orders of the
+    Word's sentence, such as a Dutch one that starts with its time or place
+    phrase. Each must use the sentence's own tiles in another order, or the
+    game would never accept it.
     """
     errors: list[str] = []
     words = [it for it in pack["items"] if it["kind"] != "misc"]
@@ -242,9 +259,20 @@ def apply_examples(pack: dict, examples: dict[str, dict]) -> list[str]:
         if not extras.get("example") and ex.get("example"):
             extras["example"] = ex["example"]
             extras["example_en"] = ex["example_en"]
-        elif extras.get("example") and not extras.get("example_en"):
+        elif extras.get("example") and not extras.get("example_en") and ex.get("example_en"):
             # An entry with only "example_en" translates the source's own sentence.
             extras["example_en"] = ex["example_en"]
+        alternatives = ex.get("example_alternatives") or []
+        if alternatives:
+            sentence = extras.get("example", "")
+            wrong = [a for a in alternatives if a == sentence or tile_bag(a) != tile_bag(sentence)]
+            if wrong:
+                errors.append(
+                    f"{pack['id']}: alternative for '{key}' is not another order of {sentence!r}: {wrong[0]!r}"
+                )
+                continue
+            have = extras.setdefault("example_alternatives", [])
+            have += [a for a in alternatives if a not in have]
     return errors
 
 
