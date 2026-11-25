@@ -100,7 +100,7 @@ Picture a house: you arrive, go in, go up the stairs, come down, go out, fall. T
 
 ## Agreement
 
-With être, the participle **agrees with the subject** like an adjective:
+With être, the participle **agrees with the subject** like an adjective: *il est allé*, but *elle est allée*.
 
 :::examples
 - Il est allé à Paris. — He went to Paris.
@@ -564,17 +564,17 @@ VERBS = [
          present="sens sens sent sentons sentez sentent",
          example="Je ne me sens pas bien.", example_en="I don't feel well."),
     verb("rester", "to stay", [], aux="être", pp="resté",
-         example="Je reste à la maison.", example_en="I'm staying at home."),
+         example="Nous sommes restés à la maison.", example_en="We stayed at home."),
     verb("tomber", "to fall", [], aux="être", pp="tombé",
-         example="Attention, tu vas tomber !", example_en="Careful, you're going to fall!"),
+         example="Elle est tombée dans l'escalier.", example_en="She fell down the stairs."),
     verb("entrer", "to go in, to enter", [], aux="être", pp="entré",
          example="Entrez, je vous en prie.", example_en="Come in, please."),
     verb("rentrer", "to go home, to come back", [], aux="être", pp="rentré",
-         example="Je rentre tard ce soir.", example_en="I'm getting home late tonight."),
+         example="Je suis rentré tard hier soir.", example_en="I got home late last night."),
     verb("monter", "to go up; to get on", [], aux="être", pp="monté",
-         example="Elle monte dans le bus.", example_en="She gets on the bus."),
+         example="Ils sont montés dans le bus.", example_en="They got on the bus."),
     verb("descendre", "to go down; to get off", [], aux="être", pp="descendu",
-         example="On descend au prochain arrêt.", example_en="We get off at the next stop."),
+         example="Tu es descendu au bon arrêt ?", example_en="Did you get off at the right stop?"),
     verb("devenir", "to become", [], aux="être", pp="devenu",
          present="deviens deviens devient devenons devenez deviennent", fut="deviendr",
          example="Il veut devenir médecin.", example_en="He wants to become a doctor."),
@@ -594,22 +594,22 @@ VERBS = [
          example="Le magasin ferme à sept heures.", example_en="The shop closes at seven."),
     verb("connaître", "to know (a person, a place)", [], pp="connu",
          present="connais connais connaît connaissons connaissez connaissent", fut="connaîtr",
-         example="Tu connais Marie ?", example_en="Do you know Marie?"),
+         example="J'ai connu Marie à l'université.", example_en="I met Marie at university."),
     verb("croire", "to believe", [], pp="cru",
          present="crois crois croit croyons croyez croient",
-         example="Je crois que tu as raison.", example_en="I think you're right."),
+         example="Je n'ai pas cru son histoire.", example_en="I didn't believe his story."),
     verb("recevoir", "to receive", [], pp="reçu",
          present="reçois reçois reçoit recevons recevez reçoivent", fut="recevr",
          example="J'ai reçu ton message.", example_en="I got your message."),
     verb("envoyer", "to send", [], pp="envoyé",
          present="envoie envoies envoie envoyons envoyez envoient", fut="enverr",
-         example="Je t'envoie une photo.", example_en="I'll send you a photo."),
+         example="Tu as envoyé la photo à Paul ?", example_en="Did you send the photo to Paul?"),
     verb("payer", "to pay (for)", ["shopping"], pp="payé",
          present="paie paies paie payons payez paient", fut="paier",
-         example="Je peux payer par carte ?", example_en="Can I pay by card?"),
+         example="Nous avons payé l'addition.", example_en="We paid the bill."),
     verb("essayer", "to try; to try on", ["clothing"], pp="essayé",
          present="essaie essaies essaie essayons essayez essaient", fut="essaier",
-         example="Je peux essayer cette veste ?", example_en="Can I try on this jacket?"),
+         example="Elle a essayé la robe rouge.", example_en="She tried on the red dress."),
     verb("oublier", "to forget", [], pp="oublié",
          example="J'ai oublié mon parapluie.", example_en="I forgot my umbrella."),
     verb("porter", "to wear; to carry", ["clothing"], pp="porté",
@@ -773,7 +773,7 @@ LABELS = {
 
 PACK = pack(
     "fr-everyday-v1",
-    5,
+    6,
     "fr",
     "Français · Au quotidien (A2)",
     ITEMS,

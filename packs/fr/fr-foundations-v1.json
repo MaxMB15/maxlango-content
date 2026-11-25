@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "fr-foundations-v1",
-  "version": 6,
+  "version": 7,
   "language": "fr",
   "name": "Français · Fondations (A1)",
   "author": "Max Boksem",
@@ -261,7 +261,7 @@
       "kind": "misc",
       "id": "fr-numbers",
       "title": "Numbers, and counting in twenties",
-      "body_md": "French numbers are regular up to 69. Then they switch to counting in twenties, a leftover from an older system.\n\n| | | | |\n| --- | --- | --- | --- |\n| 1 un | 6 six | 11 onze | 16 seize |\n| 2 deux | 7 sept | 12 douze | 17 dix-sept |\n| 3 trois | 8 huit | 13 treize | 18 dix-huit |\n| 4 quatre | 9 neuf | 14 quatorze | 19 dix-neuf |\n| 5 cinq | 10 dix | 15 quinze | 20 vingt |\n\nTens: 30 trente, 40 quarante, 50 cinquante, 60 soixante.\n\nThe ones in 21, 31, 41, 51, 61 take **et**: *vingt et un*. The others take a hyphen: *vingt-deux*.\n\n## 70 to 99\n\n| Number | French | Literally |\n| --- | --- | --- |\n| 70 | soixante-dix | sixty-ten |\n| 71 | soixante et onze | sixty and eleven |\n| 75 | soixante-quinze | sixty-fifteen |\n| 80 | quatre-vingts | four twenties |\n| 81 | quatre-vingt-un | four-twenty-one |\n| 90 | quatre-vingt-dix | four-twenty-ten |\n| 97 | quatre-vingt-dix-sept | four-twenty-ten-seven |\n\nBelgium and Switzerland use *septante* (70) and *nonante* (90). Switzerland often says *huitante* for 80.\n\n100 is *cent*, 1000 is *mille* (never *un mille*). A year like 2026 is *deux mille vingt-six*.\n\n:::examples\n- J'ai quatre-vingt-deux ans. — I'm eighty-two.\n- Ça fait soixante-quinze euros. — That's seventy-five euros.\n:::",
+      "body_md": "French numbers are regular up to 69. Then they switch to counting in twenties, a leftover from an older system.\n\n| | | | |\n| --- | --- | --- | --- |\n| 1 un | 6 six | 11 onze | 16 seize |\n| 2 deux | 7 sept | 12 douze | 17 dix-sept |\n| 3 trois | 8 huit | 13 treize | 18 dix-huit |\n| 4 quatre | 9 neuf | 14 quatorze | 19 dix-neuf |\n| 5 cinq | 10 dix | 15 quinze | 20 vingt |\n\nTens: 30 trente, 40 quarante, 50 cinquante, 60 soixante.\n\nThe ones in 21, 31, 41, 51, 61 take **et**: *vingt et un*. The others take a hyphen: *vingt-deux*.\n\n## 70 to 99\n\n| Number | French | Literally |\n| --- | --- | --- |\n| 70 | soixante-dix | sixty-ten |\n| 71 | soixante et onze | sixty and eleven |\n| 75 | soixante-quinze | sixty-fifteen |\n| 80 | quatre-vingts | four twenties |\n| 81 | quatre-vingt-un | four-twenty-one |\n| 90 | quatre-vingt-dix | four-twenty-ten |\n| 97 | quatre-vingt-dix-sept | four-twenty-ten-seven |\n\n100 is *cent*, 1000 is *mille* (never *un mille*). A year like 2026 is *deux mille vingt-six*.\n\n:::examples\n- J'ai quatre-vingt-deux ans. — I'm eighty-two.\n- Ça fait soixante-quinze euros. — That's seventy-five euros.\n:::",
       "extras": {
         "unlocks": [
           "concept:fr-numbers"

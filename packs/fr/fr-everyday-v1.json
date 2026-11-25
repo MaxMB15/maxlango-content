@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "fr-everyday-v1",
-  "version": 5,
+  "version": 6,
   "language": "fr",
   "name": "Français · Au quotidien (A2)",
   "author": "Max Boksem",
@@ -138,7 +138,7 @@
       "kind": "misc",
       "id": "fr-etre-verbs",
       "title": "Verbs that take être",
-      "body_md": "About twenty verbs, mostly about movement or change of state, build the passé composé with **être** instead of avoir. English speakers remember them as **DR MRS VANDERTRAMP**:\n\n| | | |\n| --- | --- | --- |\n| **D**evenir (devenu) | **R**evenir (revenu) | **M**onter (monté) |\n| **R**entrer (rentré) | **S**ortir (sorti) | **V**enir (venu) |\n| **A**ller (allé) | **N**aître (né) | **D**escendre (descendu) |\n| **E**ntrer (entré) | **R**ester (resté) | **T**omber (tombé) |\n| **R**etourner (retourné) | **A**rriver (arrivé) | **M**ourir (mort) |\n| **P**artir (parti) | | |\n\nPicture a house: you arrive, go in, go up the stairs, come down, go out, fall. Those are the être verbs.\n\n## Agreement\n\nWith être, the participle **agrees with the subject** like an adjective:\n\n:::examples\n- Il est allé à Paris. — He went to Paris.\n- Elle est allée à Paris. — She went to Paris.\n- Ils sont allés à Paris. — They went to Paris.\n- Elles sont allées à Paris. — They (all women) went to Paris.\n:::\n\nThe agreement is mostly silent, so you'll see it more than hear it. The drills in this app use the masculine form (*je suis allé*); if you're a woman, write *allée* in real life.\n\n## Reflexive verbs take être too\n\nEvery reflexive verb uses être: *je me suis levé*, *elle s'est habillée*.",
+      "body_md": "About twenty verbs, mostly about movement or change of state, build the passé composé with **être** instead of avoir. English speakers remember them as **DR MRS VANDERTRAMP**:\n\n| | | |\n| --- | --- | --- |\n| **D**evenir (devenu) | **R**evenir (revenu) | **M**onter (monté) |\n| **R**entrer (rentré) | **S**ortir (sorti) | **V**enir (venu) |\n| **A**ller (allé) | **N**aître (né) | **D**escendre (descendu) |\n| **E**ntrer (entré) | **R**ester (resté) | **T**omber (tombé) |\n| **R**etourner (retourné) | **A**rriver (arrivé) | **M**ourir (mort) |\n| **P**artir (parti) | | |\n\nPicture a house: you arrive, go in, go up the stairs, come down, go out, fall. Those are the être verbs.\n\n## Agreement\n\nWith être, the participle **agrees with the subject** like an adjective: *il est allé*, but *elle est allée*.\n\n:::examples\n- Il est allé à Paris. — He went to Paris.\n- Elle est allée à Paris. — She went to Paris.\n- Ils sont allés à Paris. — They went to Paris.\n- Elles sont allées à Paris. — They (all women) went to Paris.\n:::\n\nThe agreement is mostly silent, so you'll see it more than hear it. The drills in this app use the masculine form (*je suis allé*); if you're a woman, write *allée* in real life.\n\n## Reflexive verbs take être too\n\nEvery reflexive verb uses être: *je me suis levé*, *elle s'est habillée*.",
       "extras": {
         "unlocks": [
           "concept:fr-etre-verbs"
@@ -1257,8 +1257,8 @@
       "extras": {
         "auxiliary": "être",
         "participle": "resté",
-        "example": "Je reste à la maison.",
-        "example_en": "I'm staying at home.",
+        "example": "Nous sommes restés à la maison.",
+        "example_en": "We stayed at home.",
         "agreement": {
           "passé-composé.1s": [
             "resté",
@@ -1417,8 +1417,8 @@
       "extras": {
         "auxiliary": "être",
         "participle": "tombé",
-        "example": "Attention, tu vas tomber !",
-        "example_en": "Careful, you're going to fall!",
+        "example": "Elle est tombée dans l'escalier.",
+        "example_en": "She fell down the stairs.",
         "agreement": {
           "passé-composé.1s": [
             "tombé",
@@ -1740,8 +1740,8 @@
       "extras": {
         "auxiliary": "être",
         "participle": "rentré",
-        "example": "Je rentre tard ce soir.",
-        "example_en": "I'm getting home late tonight.",
+        "example": "Je suis rentré tard hier soir.",
+        "example_en": "I got home late last night.",
         "agreement": {
           "passé-composé.1s": [
             "rentré",
@@ -1883,8 +1883,8 @@
       "extras": {
         "auxiliary": "être",
         "participle": "monté",
-        "example": "Elle monte dans le bus.",
-        "example_en": "She gets on the bus.",
+        "example": "Ils sont montés dans le bus.",
+        "example_en": "They got on the bus.",
         "agreement": {
           "passé-composé.1s": [
             "monté",
@@ -2040,8 +2040,8 @@
       "extras": {
         "auxiliary": "être",
         "participle": "descendu",
-        "example": "On descend au prochain arrêt.",
-        "example_en": "We get off at the next stop.",
+        "example": "Tu es descendu au bon arrêt ?",
+        "example_en": "Did you get off at the right stop?",
         "agreement": {
           "passé-composé.1s": [
             "descendu",
@@ -3111,8 +3111,8 @@
       "extras": {
         "auxiliary": "avoir",
         "participle": "connu",
-        "example": "Tu connais Marie ?",
-        "example_en": "Do you know Marie?"
+        "example": "J'ai connu Marie à l'université.",
+        "example_en": "I met Marie at university."
       },
       "tags": [
         "présent"
@@ -3235,8 +3235,8 @@
       "extras": {
         "auxiliary": "avoir",
         "participle": "cru",
-        "example": "Je crois que tu as raison.",
-        "example_en": "I think you're right."
+        "example": "Je n'ai pas cru son histoire.",
+        "example_en": "I didn't believe his story."
       },
       "tags": [
         "présent"
@@ -3498,8 +3498,8 @@
       "extras": {
         "auxiliary": "avoir",
         "participle": "envoyé",
-        "example": "Je t'envoie une photo.",
-        "example_en": "I'll send you a photo."
+        "example": "Tu as envoyé la photo à Paul ?",
+        "example_en": "Did you send the photo to Paul?"
       },
       "tags": [
         "présent"
@@ -3638,8 +3638,8 @@
       "extras": {
         "auxiliary": "avoir",
         "participle": "payé",
-        "example": "Je peux payer par carte ?",
-        "example_en": "Can I pay by card?"
+        "example": "Nous avons payé l'addition.",
+        "example_en": "We paid the bill."
       },
       "tags": [
         "présent",
@@ -3769,8 +3769,8 @@
       "extras": {
         "auxiliary": "avoir",
         "participle": "essayé",
-        "example": "Je peux essayer cette veste ?",
-        "example_en": "Can I try on this jacket?"
+        "example": "Elle a essayé la robe rouge.",
+        "example_en": "She tried on the red dress."
       },
       "tags": [
         "présent",

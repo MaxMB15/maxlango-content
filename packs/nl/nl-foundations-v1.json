@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "nl-foundations-v1",
-  "version": 5,
+  "version": 6,
   "language": "nl",
   "name": "Nederlands · Basis (A1)",
   "author": "Max Boksem",
@@ -188,7 +188,7 @@
       "kind": "misc",
       "id": "nl-negation",
       "title": "Geen or niet?",
-      "body_md": "Dutch has two words for \"not\", and choosing between them follows a clear rule.\n\n## Geen\n\nUse **geen** to negate a noun that would otherwise have **een** or no article. It means \"no\", \"not a\" or \"not any\".\n\n:::examples\n- Ik heb een auto. → Ik heb geen auto. — I don't have a car.\n- Ik drink koffie. → Ik drink geen koffie. — I don't drink coffee.\n- Hij heeft kinderen. → Hij heeft geen kinderen. — He doesn't have any children.\n:::\n\n## Niet\n\nUse **niet** for everything else: verbs, adjectives, adverbs, and nouns with *de*, *het* or a possessive.\n\n:::examples\n- Ik werk niet. — I don't work.\n- Het huis is niet groot. — The house isn't big.\n- Ik zie de hond niet. — I don't see the dog.\n:::\n\n## Where niet goes\n\n*Niet* goes **after** the object and time words, but **before** adjectives, prepositions and the verb parts at the end:\n\n- *Ik zie hem vandaag **niet**.*\n- *Het is **niet** mooi.*\n- *Ik ga **niet** naar school.*\n- *Ik heb het **niet** gedaan.*\n\n## Other negatives\n\n*nooit* (never), *niets* / *niks* (nothing), *niemand* (nobody), *nergens* (nowhere), *niet meer* (no longer), *nog niet* (not yet).",
+      "body_md": "Dutch has two words for \"not\", and choosing between them follows a clear rule.\n\n## Geen\n\nUse **geen** to negate a noun that would otherwise have **een** or no article. It means \"no\", \"not a\" or \"not any\".\n\n:::examples\n- Ik heb een auto. → Ik heb geen auto. — I don't have a car.\n- Ik drink koffie. → Ik drink geen koffie. — I don't drink coffee.\n- Hij heeft kinderen. → Hij heeft geen kinderen. — He doesn't have any children.\n:::\n\n:::cloze{sentence=\"Sorry, ik heb ___ geld bij me.\" blank=\"geen\"}\n:::\n\n:::cloze{sentence=\"Wij hebben ___ kat, maar wel een hond.\" blank=\"geen\"}\n:::\n\n## Niet\n\nUse **niet** for everything else: verbs, adjectives, adverbs, and nouns with *de*, *het* or a possessive.\n\n:::examples\n- Ik werk niet. — I don't work.\n- Het huis is niet groot. — The house isn't big.\n- Ik zie de hond niet. — I don't see the dog.\n:::\n\n:::cloze{sentence=\"De soep is ___ warm genoeg.\" blank=\"niet\"}\n:::\n\n:::cloze{sentence=\"Ik vind mijn sleutels ___.\" blank=\"niet\"}\n:::\n\n## Where niet goes\n\n*Niet* goes **after** the object and time words, but **before** adjectives, prepositions and the verb parts at the end:\n\n- *Ik zie hem vandaag **niet**.*\n- *Het is **niet** mooi.*\n- *Ik ga **niet** naar school.*\n- *Ik heb het **niet** gedaan.*\n\n## Other negatives\n\n*nooit* (never), *niets* / *niks* (nothing), *niemand* (nobody), *nergens* (nowhere), *niet meer* (no longer), *nog niet* (not yet).",
       "extras": {
         "unlocks": [
           "concept:nl-negation"
@@ -310,7 +310,11 @@
         "participle": "geweest",
         "past": "was / waren",
         "example": "Ik ben moe vandaag.",
-        "example_en": "I'm tired today."
+        "example_en": "I'm tired today.",
+        "example_alternatives": [
+          "Vandaag ben ik moe.",
+          "Ik ben vandaag moe."
+        ]
       },
       "tags": [
         "tegenwoordige-tijd"
@@ -434,7 +438,10 @@
         "article": "de",
         "plural": "zussen",
         "example": "Mijn zus woont in Rotterdam.",
-        "example_en": "My sister lives in Rotterdam."
+        "example_en": "My sister lives in Rotterdam.",
+        "example_alternatives": [
+          "In Rotterdam woont mijn zus."
+        ]
       },
       "tags": [
         "family",
@@ -685,7 +692,10 @@
         "article": "de",
         "plural": "ouders",
         "example": "Mijn ouders wonen in Utrecht.",
-        "example_en": "My parents live in Utrecht."
+        "example_en": "My parents live in Utrecht.",
+        "example_alternatives": [
+          "In Utrecht wonen mijn ouders."
+        ]
       },
       "tags": [
         "family",
@@ -1935,7 +1945,10 @@
         "participle": "gewoond",
         "past": "woonde / woonden",
         "example": "Ik woon in Amsterdam.",
-        "example_en": "I live in Amsterdam."
+        "example_en": "I live in Amsterdam.",
+        "example_alternatives": [
+          "In Amsterdam woon ik."
+        ]
       },
       "tags": [
         "tegenwoordige-tijd",
@@ -3184,7 +3197,10 @@
         "participle": "gefietst",
         "past": "fietste / fietsten",
         "example": "Ik fiets elke dag naar mijn werk.",
-        "example_en": "I cycle to work every day."
+        "example_en": "I cycle to work every day.",
+        "example_alternatives": [
+          "Elke dag fiets ik naar mijn werk."
+        ]
       },
       "tags": [
         "tegenwoordige-tijd",
@@ -4098,7 +4114,11 @@
         "article": "het",
         "plural": "jaren",
         "example": "Ik woon hier al drie jaar.",
-        "example_en": "I've lived here for three years."
+        "example_en": "I've lived here for three years.",
+        "example_alternatives": [
+          "Al drie jaar woon ik hier.",
+          "Hier woon ik al drie jaar."
+        ]
       },
       "tags": [
         "time",
@@ -4636,7 +4656,10 @@
         "article": "de",
         "plural": "zondagen",
         "example": "Op zondag zijn veel winkels dicht.",
-        "example_en": "On Sundays many shops are closed."
+        "example_en": "On Sundays many shops are closed.",
+        "example_alternatives": [
+          "Veel winkels zijn op zondag dicht."
+        ]
       },
       "tags": [
         "time",
@@ -5170,7 +5193,10 @@
         "article": "de",
         "plural": "grachten",
         "example": "Ze wonen aan een gracht in Amsterdam.",
-        "example_en": "They live on a canal in Amsterdam."
+        "example_en": "They live on a canal in Amsterdam.",
+        "example_alternatives": [
+          "In Amsterdam wonen ze aan een gracht."
+        ]
       },
       "tags": [
         "city",
@@ -5382,7 +5408,10 @@
       ],
       "extras": {
         "example": "Over tien minuten ben ik thuis.",
-        "example_en": "I'll be home in ten minutes."
+        "example_en": "I'll be home in ten minutes.",
+        "example_alternatives": [
+          "Ik ben over tien minuten thuis."
+        ]
       }
     },
     {

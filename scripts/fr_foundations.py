@@ -472,8 +472,6 @@ The ones in 21, 31, 41, 51, 61 take **et**: *vingt et un*. The others take a hyp
 | 90 | quatre-vingt-dix | four-twenty-ten |
 | 97 | quatre-vingt-dix-sept | four-twenty-ten-seven |
 
-Belgium and Switzerland use *septante* (70) and *nonante* (90). Switzerland often says *huitante* for 80.
-
 100 is *cent*, 1000 is *mille* (never *un mille*). A year like 2026 is *deux mille vingt-six*.
 
 :::examples
@@ -1008,7 +1006,7 @@ LABELS = {
 
 PACK = pack(
     "fr-foundations-v1",
-    6,
+    7,
     "fr",
     "Français · Fondations (A1)",
     ITEMS,

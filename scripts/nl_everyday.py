@@ -922,7 +922,7 @@ LABELS = {
 
 PACK = pack(
     "nl-everyday-v1",
-    8,
+    9,
     "nl",
     "Nederlands · Dagelijks (A2)",
     ITEMS,

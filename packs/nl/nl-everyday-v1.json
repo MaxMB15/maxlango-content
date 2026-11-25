@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "nl-everyday-v1",
-  "version": 8,
+  "version": 9,
   "language": "nl",
   "name": "Nederlands · Dagelijks (A2)",
   "author": "Max Boksem",
@@ -1122,7 +1122,10 @@
           "inflected": "rustige"
         },
         "example": "Het is hier lekker rustig.",
-        "example_en": "It's nice and quiet here."
+        "example_en": "It's nice and quiet here.",
+        "example_alternatives": [
+          "Hier is het lekker rustig."
+        ]
       },
       "tags": [
         "bijvoeglijke-naamwoorden",
@@ -3851,7 +3854,10 @@
       "extras": {
         "literal": "to be at the turn",
         "example": "Jullie zijn nu aan de beurt.",
-        "example_en": "It's your turn now."
+        "example_en": "It's your turn now.",
+        "example_alternatives": [
+          "Nu zijn jullie aan de beurt."
+        ]
       },
       "tags": [
         "uitdrukkingen"

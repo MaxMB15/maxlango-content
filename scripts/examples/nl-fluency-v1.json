@@ -421,7 +421,11 @@
  },
  "verkiezing": {
   "example": "Volgende maand zijn er verkiezingen in ons land.",
-  "example_en": "There are elections in our country next month."
+  "example_en": "There are elections in our country next month.",
+  "example_alternatives": [
+   "Er zijn volgende maand verkiezingen in ons land.",
+   "In ons land zijn er volgende maand verkiezingen."
+  ]
  },
  "verleden": {
   "example": "Je moet het verleden achter je laten.",

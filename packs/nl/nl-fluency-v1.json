@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "nl-fluency-v1",
-  "version": 4,
+  "version": 5,
   "language": "nl",
   "name": "Nederlands · Vloeiend (B1)",
   "author": "Max Boksem",
@@ -661,7 +661,11 @@
         "article": "de",
         "plural": "verkiezingen",
         "example": "Volgende maand zijn er verkiezingen in ons land.",
-        "example_en": "There are elections in our country next month."
+        "example_en": "There are elections in our country next month.",
+        "example_alternatives": [
+          "Er zijn volgende maand verkiezingen in ons land.",
+          "In ons land zijn er volgende maand verkiezingen."
+        ]
       },
       "tags": [
         "society",

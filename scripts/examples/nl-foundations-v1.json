@@ -167,6 +167,11 @@
   "example": "Mijn fiets is gestolen.",
   "example_en": "My bike has been stolen."
  },
+ "fietsen": {
+  "example_alternatives": [
+   "Elke dag fiets ik naar mijn werk."
+  ]
+ },
  "fijn-weekend": {
   "example": "Tot maandag, fijn weekend!",
   "example_en": "See you on Monday, have a nice weekend!"
@@ -225,7 +230,10 @@
  },
  "gracht": {
   "example": "Ze wonen aan een gracht in Amsterdam.",
-  "example_en": "They live on a canal in Amsterdam."
+  "example_en": "They live on a canal in Amsterdam.",
+  "example_alternatives": [
+   "In Amsterdam wonen ze aan een gracht."
+  ]
  },
  "groen": {
   "example": "De bomen zijn weer groen.",
@@ -309,7 +317,11 @@
  },
  "jaar": {
   "example": "Ik woon hier al drie jaar.",
-  "example_en": "I've lived here for three years."
+  "example_en": "I've lived here for three years.",
+  "example_alternatives": [
+   "Al drie jaar woon ik hier.",
+   "Hier woon ik al drie jaar."
+  ]
  },
  "jij": {
   "example": "Ben jij de nieuwe buurman?",
@@ -533,7 +545,10 @@
  },
  "ouder": {
   "example": "Mijn ouders wonen in Utrecht.",
-  "example_en": "My parents live in Utrecht."
+  "example_en": "My parents live in Utrecht.",
+  "example_alternatives": [
+   "In Utrecht wonen mijn ouders."
+  ]
  },
  "pardon": {
   "example": "Pardon, mag ik er even langs?",
@@ -641,7 +656,10 @@
  },
  "tien": {
   "example": "Over tien minuten ben ik thuis.",
-  "example_en": "I'll be home in ten minutes."
+  "example_en": "I'll be home in ten minutes.",
+  "example_alternatives": [
+   "Ik ben over tien minuten thuis."
+  ]
  },
  "tot-morgen": {
   "example": "Ik ga naar huis, tot morgen!",
@@ -747,6 +765,11 @@
   "example": "Woensdag ga ik naar de tandarts.",
   "example_en": "On Wednesday I'm going to the dentist."
  },
+ "wonen": {
+  "example_alternatives": [
+   "In Amsterdam woon ik."
+  ]
+ },
  "woonkamer": {
   "example": "We kijken tv in de woonkamer.",
   "example_en": "We watch TV in the living room."
@@ -771,9 +794,18 @@
   "example": "Zij is mijn zus.",
   "example_en": "She's my sister."
  },
+ "zijn": {
+  "example_alternatives": [
+   "Vandaag ben ik moe.",
+   "Ik ben vandaag moe."
+  ]
+ },
  "zondag": {
   "example": "Op zondag zijn veel winkels dicht.",
-  "example_en": "On Sundays many shops are closed."
+  "example_en": "On Sundays many shops are closed.",
+  "example_alternatives": [
+   "Veel winkels zijn op zondag dicht."
+  ]
  },
  "zoon": {
   "example": "Hun zoon gaat al naar school.",
@@ -785,7 +817,10 @@
  },
  "zus": {
   "example": "Mijn zus woont in Rotterdam.",
-  "example_en": "My sister lives in Rotterdam."
+  "example_en": "My sister lives in Rotterdam.",
+  "example_alternatives": [
+   "In Rotterdam woont mijn zus."
+  ]
  },
  "zwart": {
   "example": "Ik drink mijn koffie zwart.",

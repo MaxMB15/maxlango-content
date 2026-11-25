@@ -238,6 +238,12 @@ Use **geen** to negate a noun that would otherwise have **een** or no article. I
 - Hij heeft kinderen. → Hij heeft geen kinderen. — He doesn't have any children.
 :::
 
+:::cloze{sentence="Sorry, ik heb ___ geld bij me." blank="geen"}
+:::
+
+:::cloze{sentence="Wij hebben ___ kat, maar wel een hond." blank="geen"}
+:::
+
 ## Niet
 
 Use **niet** for everything else: verbs, adjectives, adverbs, and nouns with *de*, *het* or a possessive.
@@ -246,6 +252,12 @@ Use **niet** for everything else: verbs, adjectives, adverbs, and nouns with *de
 - Ik werk niet. — I don't work.
 - Het huis is niet groot. — The house isn't big.
 - Ik zie de hond niet. — I don't see the dog.
+:::
+
+:::cloze{sentence="De soep is ___ warm genoeg." blank="niet"}
+:::
+
+:::cloze{sentence="Ik vind mijn sleutels ___." blank="niet"}
 :::
 
 ## Where niet goes
@@ -898,7 +910,7 @@ LABELS = {
 
 PACK = pack(
     "nl-foundations-v1",
-    5,
+    6,
     "nl",
     "Nederlands · Basis (A1)",
     ITEMS,

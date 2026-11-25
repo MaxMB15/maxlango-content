@@ -1,7 +1,10 @@
 {
  "aan-de-beurt-zijn": {
   "example": "Jullie zijn nu aan de beurt.",
-  "example_en": "It's your turn now."
+  "example_en": "It's your turn now.",
+  "example_alternatives": [
+   "Nu zijn jullie aan de beurt."
+  ]
  },
  "afspraak": {
   "example": "Ik heb om drie uur een afspraak.",
@@ -393,7 +396,10 @@
  },
  "rustig": {
   "example": "Het is hier lekker rustig.",
-  "example_en": "It's nice and quiet here."
+  "example_en": "It's nice and quiet here.",
+  "example_alternatives": [
+   "Hier is het lekker rustig."
+  ]
  },
  "saai": {
   "example": "Ik vind dit boek een beetje saai.",

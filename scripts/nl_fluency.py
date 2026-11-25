@@ -634,7 +634,7 @@ LABELS = {
 
 PACK = pack(
     "nl-fluency-v1",
-    4,
+    5,
     "nl",
     "Nederlands · Vloeiend (B1)",
     ITEMS,
