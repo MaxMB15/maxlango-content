@@ -3,10 +3,6 @@
   "title": "Hej och tack",
   "subtitle": "Hello, bye, good morning, good night, thanks"
  },
- "forlat": {
-  "title": "Hur mår du?",
-  "subtitle": "Sorry, excuse me, see you, how are you, welcome"
- },
  "vara": {
   "title": "Viktiga verb",
   "subtitle": "To be, have, do, come, want, can and must"
@@ -16,12 +12,8 @@
   "subtitle": "To work, live, talk, play, watch and listen"
  },
  "aka": {
-  "title": "Åka och köpa",
-  "subtitle": "To travel, cycle, buy, pay, look for and find"
- },
- "tycka": {
-  "title": "Tycka och tänka",
-  "subtitle": "To think, give, take, start and stay"
+  "title": "Nu och här",
+  "subtitle": "To travel, now, today, here, there and often"
  },
  "talar-du-engelska": {
   "title": "Bra frågor",
@@ -34,10 +26,6 @@
  "huvud": {
   "title": "Huvudet",
   "subtitle": "Head, eyes, ears, nose, mouth and heart"
- },
- "timme": {
-  "title": "Veckans dagar",
-  "subtitle": "Hours, minutes and the days of the week"
  },
  "pappa": {
   "title": "Min familj",
@@ -73,19 +61,15 @@
  },
  "fa": {
   "title": "Se och säga",
-  "subtitle": "To get, know, see, say, read, write, sleep"
+  "subtitle": "To get, know, see, say, read, write and buy"
  },
  "sitta": {
   "title": "Sitta och vänta",
   "subtitle": "To sit, lie, wait, cook, help, ask and like"
  },
  "ingen-orsak": {
-  "title": "Ja och nej",
-  "subtitle": "You're welcome, yes, no, thanks for the meal"
- },
- "trevlig-helg": {
-  "title": "Trevlig helg!",
-  "subtitle": "Nice weekend, congratulations, cheers"
+  "title": "Hur mår du?",
+  "subtitle": "You're welcome, sorry, excuse me, how are you, yes and no"
  },
  "hand": {
   "title": "Kroppen",
@@ -105,7 +89,7 @@
  },
  "dag": {
   "title": "Dagar och år",
-  "subtitle": "Day, week, month, year, morning, evening"
+  "subtitle": "Days, weeks, months, years, hours and minutes"
  },
  "stad": {
   "title": "I staden",
@@ -118,5 +102,29 @@
  "lagenhet": {
   "title": "Var bor du?",
   "subtitle": "Flat, garden, sofa, where you live and are from"
+ },
+ "jo": {
+  "title": "Tack för maten",
+  "subtitle": "Thanks for the meal, take care, cheers and of course"
+ },
+ "jag": {
+  "title": "Jag, du och vi",
+  "subtitle": "I, you, he, she, it, we and they"
+ },
+ "inte": {
+  "title": "Inte och aldrig",
+  "subtitle": "Not, no, never, nothing, not yet and no longer"
+ },
+ "betala": {
+  "title": "Tycka och tänka",
+  "subtitle": "To pay, find, think, give, take, start and stay"
+ },
+ "ett": {
+  "title": "Från ett till tio",
+  "subtitle": "The numbers from one to ten"
+ },
+ "kvall": {
+  "title": "Veckans dagar",
+  "subtitle": "Evening and the days of the week"
  }
 }

@@ -81,6 +81,16 @@ A few of the most common words have a spoken form of their own. Read them this w
 ## Word melody
 
 Swedish words carry one of two melodies. *Anden* with a single falling tone is "the duck"; *anden* with two rises and falls is "the spirit". You'll be understood with either, so copy the melody of the recordings and don't worry about it yet.
+
+## This unit's words
+
+- *[hej](lango:say)*: just like English *hey*.
+- *[hej då](lango:say)*: **å** is the *o* of *more*: "hey DOH".
+- *[god morgon](lango:say)*: in this greeting the **d** of *god* is silent and so is the **g** of *morgon*: "goo MOR-ron".
+- *[god natt](lango:say)*: the double **t** keeps the **a** short: "goo NATT".
+- *[tack](lango:say)*: a short **a** before **ck**. Compare *[tak](lango:say)*, roof, with a long one.
+- *[tack så mycket](lango:say)*: **y** is "ee" with tightly rounded lips, and the **t** of *mycket* is silent: "tack soh MÜK-keh".
+- *[varsågod](lango:say)*: one word, the **rs** melts into a *sh*, and the stress falls on *god*: "vah-shoh-GOOD".
 """,
         ["uttal"],
         "sv-pronunciation",
@@ -900,7 +910,72 @@ när | when | conj-subordinating | Ring mig när du är hemma. | Call me when yo
     ["konjunktioner"],
 )
 
-ITEMS = PAGES + interleave(PHRASES, NOUNS, VERBS, ADJECTIVES, CONNECTIVES + CONJUNCTIONS)
+PRONOUNS = phrases(
+    """
+jag | I | Jag heter Sara och jag bor i Malmö. | I'm Sara and I live in Malmö. | | Said *ja*. After a verb or a preposition it's *mig*, said *mej*.
+du | you (one person) | Du pratar bra svenska! | You speak good Swedish! | | Swedes say *du* to almost everyone, the boss and the doctor too.
+han | he | Han arbetar på ett kafé. | He works at a café. | | After a verb or a preposition it's *honom*: *Jag ser honom.*
+hon | she | Hon bor i Göteborg. | She lives in Gothenburg. | | After a verb or a preposition it's *henne*.
+den | it (for an en-word) | Jag har en ny cykel. Den är röd. | I have a new bike. It's red. | | Stands for an en-word: *en cykel*, so *den*.
+det | it (for an ett-word) | Huset är gammalt, men det är fint. | The house is old, but it's nice. | | Said *de*. Also the empty *it* of *det regnar* (it's raining).
+vi | we | Vi bor i Uppsala. | We live in Uppsala. | | After a verb or a preposition it's *oss*.
+ni | you (more than one) | Vill ni ha kaffe? | Would you all like coffee? | | To one person it sounds old-fashioned or cold. Say *du*.
+de | they | De kommer från Norge. | They're from Norway. | | Said *dom*. After a verb or a preposition it's *dem*, also said *dom*.
+hen | he or she | Hen heter Alex. | Their name is Alex. | | For someone whose gender isn't known or doesn't matter, and for people who are neither.
+""",
+    ["pronomen"],
+)
+
+ORDER = phrases(
+    """
+nu | now | Nu måste jag gå. | I have to go now. | | First in the sentence, so the verb comes straight after it.
+i dag | today | I dag är det måndag. | It's Monday today. | | Also written *idag*.
+i kväll | tonight, this evening | I kväll äter vi hemma. | We're eating at home tonight. | | Also written *ikväll*.
+här | here | Här är nyckeln. | Here's the key.
+där | there | Där borta ligger stationen. | The station is over there. | | *Där borta* is *over there*.
+alltid | always | Jag dricker alltid kaffe på morgonen. | I always drink coffee in the morning. | | Goes straight after the verb, like *inte*.
+ofta | often | Vi äter ofta fisk. | We often eat fish. | | Goes straight after the verb, like *inte*.
+ibland | sometimes | Ibland cyklar jag till jobbet. | Sometimes I cycle to work. | | First in the sentence, it puts the verb before the subject.
+""",
+    ["ordfoljd"],
+)
+for p in ORDER:
+    if p["primary_form"] == "här":
+        p["id"] = "har-adverb"
+
+NEGATIVES = phrases(
+    """
+inte | not | Jag talar inte tyska. | I don't speak German. | | Comes after the verb. Swedish has no *do* in a negative.
+ingen | no, not any (before an en-word); nobody | Det finns ingen mjölk kvar. | There's no milk left. | | Alone it means *nobody*: *Ingen vet.*
+inget | no, not any (before an ett-word); nothing | Jag har inget paraply. | I don't have an umbrella. | | Also *nothing*, as in *det gör inget*.
+inga | no, not any (before a plural) | Det finns inga bussar i dag. | There are no buses today.
+aldrig | never | Jag dricker aldrig kaffe på kvällen. | I never drink coffee in the evening. | | Goes where *inte* goes.
+ingenting | nothing | Jag förstår ingenting! | I don't understand anything!
+inte än | not yet | Är du klar? Inte än. | Are you done? Not yet. | | In a sentence *än* goes to the end: *Han är inte här än.*
+inte längre | no longer, not any more | Jag röker inte längre. | I don't smoke any more. | | In a sentence *längre* goes to the end: *Hon bor inte här längre.*
+""",
+    ["negation"],
+)
+
+NUMBERS = phrases(
+    """
+ett | one | Jag har bara ett barn. | I only have one child. | | *En* before an en-word, *ett* before an ett-word and when you count: *ett, två, tre*.
+två | two | Två kaffe, tack. | Two coffees, please.
+tre | three | Vi är tre i familjen. | There are three of us in the family.
+fyra | four | Lektionen börjar klockan fyra. | The lesson starts at four.
+fem | five | Min dotter är fem år. | My daughter is five.
+sex | six | Det finns sex ägg i kylskåpet. | There are six eggs in the fridge.
+sju | seven | En vecka har sju dagar. | A week has seven days. | | Starts with the breathy sj-sound.
+åtta | eight | Jag arbetar åtta timmar om dagen. | I work eight hours a day.
+nio | nine | Museet öppnar klockan nio. | The museum opens at nine.
+tio | ten | Det kostar tio kronor. | It costs ten kronor.
+""",
+    ["tal"],
+)
+
+ITEMS = PAGES + interleave(
+    PHRASES, PRONOUNS + ORDER + NEGATIVES + NUMBERS, NOUNS, VERBS, ADJECTIVES, CONNECTIVES + CONJUNCTIONS
+)
 
 UNITS = [
     {
@@ -911,7 +986,7 @@ UNITS = [
     {
         "title": "Pronomen",
         "page_id": "sv-pronouns",
-        "word_ids": ["forlat", "ursakta", "vi-ses", "hur-mar-du", "bara-bra", "valkommen"],
+        "word_ids": ["jag", "du", "han", "hon", "den", "det", "vi", "ni", "de", "hen"],
     },
     {
         "title": "Vara och ha",
@@ -926,12 +1001,12 @@ UNITS = [
     {
         "title": "Verbet på andra plats",
         "page_id": "sv-word-order",
-        "word_ids": ["aka", "cykla", "kopa", "betala", "leta", "hitta"],
+        "word_ids": ["aka", "nu", "i-dag", "i-kvall", "har-adverb", "dar", "alltid", "ofta", "ibland"],
     },
     {
         "title": "Inte och ingen",
         "page_id": "sv-negation",
-        "word_ids": ["tycka", "tanka", "ge", "ta", "borja", "stanna"],
+        "word_ids": ["inte", "ingen", "inget", "inga", "aldrig", "ingenting", "inte-an", "inte-langre"],
     },
     {
         "title": "Frågor",
@@ -959,7 +1034,7 @@ UNITS = [
     {
         "title": "Tal och klockan",
         "page_id": "sv-numbers-time",
-        "word_ids": ["timme", "minut", "mandag", "tisdag", "onsdag", "torsdag", "fredag", "lordag", "sondag"],
+        "word_ids": ["ett", "tva", "tre", "fyra", "fem", "sex", "sju", "atta", "nio", "tio"],
     },
     {
         "title": "Min, mitt och mina",
