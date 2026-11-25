@@ -73,8 +73,8 @@
         {
           "matchSuffix": "en",
           "stemStrip": 2,
-          "rule": "The stem is found by removing **-en** and checking the final consonant. Add **-t** for 2nd/3rd singular.",
-          "subtitle": "Dutch weak verbs in -en: stem + ending, with -t for jij/hij/zij.",
+          "rule": "The ik-form is the stem. Drop **-en** and keep the sound: a long vowel stays long and a double consonant turns single (lopen → loop, zitten → zit, leven → leef). Add **-t** for jij and hij, unless the stem already ends in -t (eten → eet).",
+          "subtitle": "Most Dutch verbs in -en work this way: the ik-form, plus -t for jij and hij.",
           "endings": ["∅", "-t", "-t", "-en", "-en", "-en"]
         }
       ]

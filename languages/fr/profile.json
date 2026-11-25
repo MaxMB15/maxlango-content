@@ -83,14 +83,14 @@
           "matchSuffix": "er",
           "stemStrip": 2,
           "rule": "Remove **-er** from the infinitive to get the stem. Add the endings for each person.",
-          "subtitle": "The most common verb group in French — learn this pattern once, use it for hundreds of verbs.",
+          "subtitle": "The most common verb group in French. Learn this pattern once and use it for hundreds of verbs.",
           "endings": ["-e", "-es", "-e", "-ons", "-ez", "-ent"]
         },
         {
           "matchSuffix": "ir",
           "stemStrip": 2,
           "rule": "Remove **-ir** to get the stem, then add the infix **-iss-** for plural forms.",
-          "subtitle": "Second-group -IR verbs share one pattern — the plural forms add -iss- before the ending.",
+          "subtitle": "Second-group -IR verbs share one pattern. The plural forms add -iss- before the ending.",
           "endings": ["-is", "-is", "-it", "-issons", "-issez", "-issent"]
         },
         {
