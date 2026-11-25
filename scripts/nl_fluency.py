@@ -275,23 +275,23 @@ Dutch and English share so much that learners guess, and usually guess right. Th
     ),
     page(
         "nl-flemish",
-        "Belgian Dutch",
+        "Flemish: Dutch in Belgium",
         r"""
-Dutch is also the language of Flanders, the northern half of Belgium, and Flemish Dutch sounds and feels different. The written standard is shared; speech differs.
+This page is about Flemish, the Dutch spoken in Flanders, the northern half of Belgium. It is not the Dutch this app teaches: the app teaches the Dutch of the Netherlands. The written standard is shared, but speech differs, so here each Flemish word sits next to the Netherlands word you learn.
 
-| Flemish | Netherlands Dutch | English |
+| Netherlands Dutch | Flemish (Belgium) | English |
 | --- | --- | --- |
-| gij, ge | jij, je | you |
-| goesting | zin | desire, appetite |
-| amai! | jeetje! | wow! |
-| allez | kom op, nou | come on, well |
-| schoon | mooi | beautiful (in NL: clean) |
-| plezant | leuk | fun, pleasant |
-| een pintje | een biertje | a beer |
-| content | tevreden | pleased |
-| efkes | even | a moment |
-| den dezen | deze hier | this one |
-| wablieft? | wat zeg je? | pardon? |
+| jij, je | gij, ge | you |
+| zin | goesting | desire, appetite |
+| jeetje! | amai! | wow! |
+| kom op, nou | allez | come on, well |
+| mooi | schoon | beautiful (in the Netherlands, *schoon* means clean) |
+| leuk | plezant | fun, pleasant |
+| een biertje | een pintje | a beer |
+| tevreden | content | pleased |
+| even | efkes | a moment |
+| deze hier | den dezen | this one |
+| pardon? | wablieft? | sorry, what did you say? |
 
 ## Politeness
 
@@ -299,7 +299,7 @@ Flanders uses **u** more readily than the Netherlands, and speech is generally s
 
 ## Pronunciation
 
-The Flemish **g** is soft, closer to the g in *loch* whispered. The Netherlands, especially the north, rasps it.
+In the north of the Netherlands the **g** is a hard rasp, harsher than the *ch* in Scottish *loch*. Flemish speakers, and many in the south of the Netherlands, say a soft **g**, voiced and further forward in the mouth.
 """,
         ["vlaams"],
         "nl-flemish",
@@ -634,7 +634,7 @@ LABELS = {
 
 PACK = pack(
     "nl-fluency-v1",
-    5,
+    6,
     "nl",
     "Nederlands · Vloeiend (B1)",
     ITEMS,

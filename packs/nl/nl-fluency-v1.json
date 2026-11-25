@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "nl-fluency-v1",
-  "version": 5,
+  "version": 6,
   "language": "nl",
   "name": "Nederlands · Vloeiend (B1)",
   "author": "Max Boksem",
@@ -180,8 +180,8 @@
     {
       "kind": "misc",
       "id": "nl-flemish",
-      "title": "Belgian Dutch",
-      "body_md": "Dutch is also the language of Flanders, the northern half of Belgium, and Flemish Dutch sounds and feels different. The written standard is shared; speech differs.\n\n| Flemish | Netherlands Dutch | English |\n| --- | --- | --- |\n| gij, ge | jij, je | you |\n| goesting | zin | desire, appetite |\n| amai! | jeetje! | wow! |\n| allez | kom op, nou | come on, well |\n| schoon | mooi | beautiful (in NL: clean) |\n| plezant | leuk | fun, pleasant |\n| een pintje | een biertje | a beer |\n| content | tevreden | pleased |\n| efkes | even | a moment |\n| den dezen | deze hier | this one |\n| wablieft? | wat zeg je? | pardon? |\n\n## Politeness\n\nFlanders uses **u** more readily than the Netherlands, and speech is generally softer. The Dutch are often seen in Flanders as blunt; Flemish speakers in the Netherlands as formal.\n\n## Pronunciation\n\nThe Flemish **g** is soft, closer to the g in *loch* whispered. The Netherlands, especially the north, rasps it.",
+      "title": "Flemish: Dutch in Belgium",
+      "body_md": "This page is about Flemish, the Dutch spoken in Flanders, the northern half of Belgium. It is not the Dutch this app teaches: the app teaches the Dutch of the Netherlands. The written standard is shared, but speech differs, so here each Flemish word sits next to the Netherlands word you learn.\n\n| Netherlands Dutch | Flemish (Belgium) | English |\n| --- | --- | --- |\n| jij, je | gij, ge | you |\n| zin | goesting | desire, appetite |\n| jeetje! | amai! | wow! |\n| kom op, nou | allez | come on, well |\n| mooi | schoon | beautiful (in the Netherlands, *schoon* means clean) |\n| leuk | plezant | fun, pleasant |\n| een biertje | een pintje | a beer |\n| tevreden | content | pleased |\n| even | efkes | a moment |\n| deze hier | den dezen | this one |\n| pardon? | wablieft? | sorry, what did you say? |\n\n## Politeness\n\nFlanders uses **u** more readily than the Netherlands, and speech is generally softer. The Dutch are often seen in Flanders as blunt; Flemish speakers in the Netherlands as formal.\n\n## Pronunciation\n\nIn the north of the Netherlands the **g** is a hard rasp, harsher than the *ch* in Scottish *loch*. Flemish speakers, and many in the south of the Netherlands, say a soft **g**, voiced and further forward in the mouth.",
       "extras": {
         "unlocks": [
           "concept:nl-flemish"
