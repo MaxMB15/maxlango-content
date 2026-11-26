@@ -96,7 +96,7 @@ French pairs tenses strictly in *if* sentences. The rule English speakers break:
 
 | Situation | si + | main clause | Example |
 | --- | --- | --- | --- |
-| Likely | présent | futur (or présent) | Si tu viens, je serai content. |
+| Likely | présent | futur (ou présent) | Si tu viens, je serai content. |
 | Hypothetical | imparfait | conditionnel | Si j'avais le temps, je voyagerais. |
 | Missed chance | plus-que-parfait | conditionnel passé | Si j'avais su, je serais venu. |
 
@@ -691,7 +691,7 @@ LABELS = {
 
 PACK = pack(
     "fr-fluency-v1",
-    6,
+    7,
     "fr",
     "Français · Aisance (B1)",
     ITEMS,

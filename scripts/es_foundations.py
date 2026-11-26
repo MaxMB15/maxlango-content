@@ -64,14 +64,14 @@ So a written accent is never decoration. *[Papá](lango:say)* (dad) and *[papa](
 
 A few short words carry an accent only to tell them from a twin that sounds the same:
 
-| With an accent | Without |
-| --- | --- |
-| tú (you) | tu (your) |
-| él (he) | el (the) |
-| sí (yes) | si (if) |
-| mí (me) | mi (my) |
-| sé (I know) | se (oneself) |
-| té (tea) | te (you, to you) |
+| With an accent | Means | Without | Means |
+| --- | --- | --- | --- |
+| tú | you | tu | your |
+| él | he | el | the |
+| sí | yes | si | if |
+| mí | me | mi | my |
+| sé | I know | se | oneself |
+| té | tea | te | you, to you |
 
 Question words always take one: *qué*, *cómo*, *dónde*, *cuándo*.
 
@@ -1189,7 +1189,7 @@ LABELS = {
 
 PACK = pack(
     "es-foundations-v1",
-    2,
+    3,
     "es",
     "Español · Fundamentos (A1)",
     ITEMS,

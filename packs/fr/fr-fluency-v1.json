@@ -1,7 +1,7 @@
 {
   "$schema": "https://maxmb15.github.io/maxlango-content/schema/pack-v1.json",
   "id": "fr-fluency-v1",
-  "version": 6,
+  "version": 7,
   "language": "fr",
   "name": "Français · Aisance (B1)",
   "author": "Max Boksem",
@@ -78,7 +78,7 @@
       "kind": "misc",
       "id": "fr-conditional",
       "title": "The conditional and si clauses",
-      "body_md": "The **conditionnel** is *would*. It uses the future stem with the imparfait endings: *je parlerais, tu pourrais, il serait*.\n\n## Politeness\n\nThe conditional makes requests softer, the way *could* and *would* do in English:\n\n:::examples\n- Je voudrais un café. — I'd like a coffee.\n- Pourriez-vous m'aider ? — Could you help me?\n- Tu devrais te reposer. — You should rest.\n- Ça serait génial. — That would be great.\n:::\n\n## Si clauses\n\nFrench pairs tenses strictly in *if* sentences. The rule English speakers break: **never put the conditional after si**.\n\n| Situation | si + | main clause | Example |\n| --- | --- | --- | --- |\n| Likely | présent | futur (or présent) | Si tu viens, je serai content. |\n| Hypothetical | imparfait | conditionnel | Si j'avais le temps, je voyagerais. |\n| Missed chance | plus-que-parfait | conditionnel passé | Si j'avais su, je serais venu. |\n\n*Si je serais riche* is wrong. It's *si j'étais riche*.\n\n*Si* becomes *s'* only before *il* and *ils*: *s'il pleut*, but *si elle pleure*.\n\n## Reported speech and rumours\n\nJournalists use the conditional for unconfirmed facts: *Le président serait malade* means \"the president is reportedly ill\".",
+      "body_md": "The **conditionnel** is *would*. It uses the future stem with the imparfait endings: *je parlerais, tu pourrais, il serait*.\n\n## Politeness\n\nThe conditional makes requests softer, the way *could* and *would* do in English:\n\n:::examples\n- Je voudrais un café. — I'd like a coffee.\n- Pourriez-vous m'aider ? — Could you help me?\n- Tu devrais te reposer. — You should rest.\n- Ça serait génial. — That would be great.\n:::\n\n## Si clauses\n\nFrench pairs tenses strictly in *if* sentences. The rule English speakers break: **never put the conditional after si**.\n\n| Situation | si + | main clause | Example |\n| --- | --- | --- | --- |\n| Likely | présent | futur (ou présent) | Si tu viens, je serai content. |\n| Hypothetical | imparfait | conditionnel | Si j'avais le temps, je voyagerais. |\n| Missed chance | plus-que-parfait | conditionnel passé | Si j'avais su, je serais venu. |\n\n*Si je serais riche* is wrong. It's *si j'étais riche*.\n\n*Si* becomes *s'* only before *il* and *ils*: *s'il pleut*, but *si elle pleure*.\n\n## Reported speech and rumours\n\nJournalists use the conditional for unconfirmed facts: *Le président serait malade* means \"the president is reportedly ill\".",
       "extras": {
         "unlocks": [
           "concept:fr-conditional"

@@ -398,7 +398,7 @@ A few nouns change meaning with gender. They're worth knowing because the wrong 
 | le mode (method, mood) | la mode (fashion) |
 | le vase (vase) | la vase (mud) |
 | le moule (mould) | la moule (mussel) |
-| le manche (handle) | la manche (sleeve; the Channel) |
+| le manche (handle) | la manche (sleeve); la Manche (English Channel) |
 """,
         ["genre"],
         "fr-gender-patterns",
@@ -773,7 +773,7 @@ LABELS = {
 
 PACK = pack(
     "fr-everyday-v1",
-    7,
+    8,
     "fr",
     "Français · Au quotidien (A2)",
     ITEMS,
